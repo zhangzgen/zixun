@@ -1,0 +1,14 @@
+version = 1
+id = "ai"
+kind = "cron"
+name = "每日 AI 资讯飞书推送"
+prompt = "每天早上 09:00（Asia/Shanghai）执行当前项目的 AI 资讯每日发布流程。当前工作区：/Users/zzg/SignalSpace/WorkSpace/zixun。\n\n严格读取并遵循 /Users/zzg/SignalSpace/WorkSpace/zixun/AI咨询收集工作流.yml。\n\n核心边界：\n- 本任务不再现场抓取任何资讯源，不运行 get_news_list.py，不修改 ai_news_daily 日归档。\n- 候选只来自 ai_news_daily 中今天和昨天的归档文件。\n- 只有 publish_ai_news.py 可以写飞书知识库和推送群聊。\n\n执行：\n1. 进入工作目录，运行 python3 -m py_compile run_ai_news.py archive_ai_news.py prepare_ai_news_publish.py get_news_details.py publish_ai_news.py。\n2. 运行 python3 prepare_ai_news_publish.py --archive-dir ai_news_daily --output tmp_ai_news_candidates.json。该脚本读取今天和昨天的日归档，并读取飞书中今天、昨天和前天已发布要闻作为 history_text。\n3. 若两个归档都不存在或合并后无候选，停止并汇报 archive_status，不得回退到全数据源现场采集，也不得发布空消息。\n4. Agent 读取 candidates、archive_status、history_text、history_status，自行做语义过滤和 TopK：\n   - 默认 TopK=20，有效资讯不足则宁缺毋滥；\n   - 发布优先级严格分为三层：第一层是智能体 / Agent 生态，包括 Agent、Agentic AI、多智能体、Agent harness、Agent OS、Agent 框架与协议，以及工具调用、记忆、规划、评测、安全和运行环境等相关知识；第二层是基础大模型、模型能力与核心模型技术；第三层是机器人、算力、AI 应用、头部公司动态及相关政策监管等其他 AI 内容；\n   - 先选择达到价值门槛的第一层 Agent 相关资讯，再用第二层大模型资讯补足，最后才选择第三层其他 AI 资讯；不得让一般大模型或泛 AI 动态挤占高价值 Agent 资讯的位置；\n   - 低价值、营销软文或仅因标题含 Agent 关键词的内容仍应剔除；\n   - 候选内部去重，并与飞书 history_text 中已发布资讯做语义去重；\n   - 保留原始标题、发布时间、来源和资讯详情页 URL，不得使用搜索页、频道页、首页或榜单页。\n5. 写 tmp_ai_news_selected.json，包含 topk、selection_reason、selected_items；每条保留 id、资讯标题、发布时间、来源、超链接、agent_reason。\n6. 运行 python3 get_news_details.py --input tmp_ai_news_selected.json --candidates tmp_ai_news_candidates.json --output tmp_ai_news_details.json。\n7. 正文抓取失败、过短、疑似反爬或登录导航壳时，优先通过浏览器打开原始详情页获取正文；不要使用 websearch/web search。脚本与浏览器都无法可靠确认时才丢弃。\n8. Agent 生成 tmp_ai_news_publish.json：date、items；每条包含 id、原始标题/发布时间/来源/详情页超链接、一句尽量 60 字以内的中文资讯简介（核心 1-2 个实体用 Markdown 加粗）、1 个关键词、可选群聊摘要。为最重要的 3-5 条提供群聊摘要；存在高价值 Agent 相关资讯时，群聊摘要优先覆盖这些资讯。\n9. 运行 python3 publish_ai_news.py --input tmp_ai_news_publish.json --result ai_news_run_result.json --cleanup-temp。Wiki 关键词链接必须是 **[关键词](详情页URL)** 单层方括号格式。\n10. 成功后读取 ai_news_run_result.json，只汇报 ok、date、doc_title、doc_url、published_count、chat_count、push_result、cleanup_removed。失败时保留临时文件；若脚本已发送“资讯警告”，不要重复发送。不得泄露 App Secret、tenant_access_token、Authorization header 或完整 webhook。"
+status = "ACTIVE"
+rrule = "DTSTART:20260707T010000Z\nRRULE:FREQ=DAILY;BYHOUR=1;BYMINUTE=0;BYSECOND=0"
+model = "gpt-5.6-sol"
+reasoning_effort = "high"
+execution_environment = "local"
+target = { type = "project", project_id = "local-3a23546d6350d9b22c01a6bb0a598b58" }
+cwds = ["/Users/zzg/SignalSpace/WorkSpace/zixun"]
+created_at = 1783303322578
+updated_at = 1784446287752

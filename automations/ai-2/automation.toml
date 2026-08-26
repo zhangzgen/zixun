@@ -1,0 +1,14 @@
+version = 1
+id = "ai-2"
+kind = "cron"
+name = "每日 AI 资讯日内采集归档"
+prompt = "每天 08:40、11:40、14:40、17:40（Asia/Shanghai）执行当前项目的 AI 资讯日内采集归档流程。工作区：/Users/zzg/SignalSpace/WorkSpace/zixun。\n\n严格读取并遵循 /Users/zzg/SignalSpace/WorkSpace/zixun/AI资讯日内采集工作流.yml。\n\n核心边界：\n- 本任务只采集、Agent 过滤清理并追加本地当日归档；绝不写飞书知识库、绝不推送飞书群聊、绝不调用 publish_ai_news.py 或 run_ai_news.py --legacy-auto。\n- 不读取飞书历史；get_news_list.py 必须带 --no-history。\n- 失败只在任务结果中汇报，不得发送飞书告警。\n\n执行：\n1. 进入工作目录，运行 python3 -m py_compile run_ai_news.py get_news_list.py archive_ai_news.py。\n2. 运行 python3 get_news_list.py --no-history --workflow AI资讯日内采集工作流.yml --output tmp_ai_news_collect_candidates.json --pretty，触发所有配置数据源，获取最近 24 小时完整候选。\n3. 若脚本失败、候选明显不足或重要来源异常，使用浏览器直接打开原始资讯源/频道页补充最近 24 小时候选；不要使用 websearch/web search。保留原始标题、发布时间、来源、详情页 URL。\n4. Agent 读取完整候选和已有 ai_news_daily/当天日期.json（若存在），保留所有有存档价值的 AI/大模型/智能体/机器人/算力/核心技术/头部公司及相关政策资讯；不限制 TopK。剔除非 AI、广告、导航/登录壳、缺字段、低价值、重复事件和非详情页链接。\n5. 写 tmp_ai_news_filtered.json，包含 date、selection_reason、source_status、items；items 保留资讯标题、发布时间、来源、超链接、可用的 desc/rss_content/content_source/member_only，并增加 agent_reason。\n6. 运行 python3 archive_ai_news.py --input tmp_ai_news_filtered.json --archive-dir ai_news_daily --result ai_news_collect_result.json --cleanup tmp_ai_news_collect_candidates.json。脚本会幂等合并、原子写入并在成功后清理临时文件。\n7. 读取 ai_news_collect_result.json，只汇报 ok、date、archive_file、input_count、added_count、updated_count、skipped_duplicate_count、archive_count、cleanup_removed。不得泄露任何密钥、token、Authorization header 或完整 webhook。"
+status = "ACTIVE"
+rrule = "RRULE:FREQ=DAILY;BYHOUR=8,11,14,17;BYMINUTE=40;BYSECOND=0"
+model = "gpt-5.6-sol"
+reasoning_effort = "low"
+execution_environment = "local"
+target = { type = "project", project_id = "local-3a23546d6350d9b22c01a6bb0a598b58" }
+cwds = ["/Users/zzg/SignalSpace/WorkSpace/zixun"]
+created_at = 1783845930672
+updated_at = 1783846386329

@@ -1,0 +1,209 @@
+{
+  "ok": true,
+  "date": "2026-08-26",
+  "doc_title": "📖 2026-08-26 要闻",
+  "doc_url": "https://ocns5gikjtax.feishu.cn/wiki/OXwzwXjo4ih727kcY5Xc2CH2nff",
+  "published_count": 20,
+  "chat_count": 5,
+  "push_result": {
+    "StatusCode": 0,
+    "StatusMessage": "success",
+    "code": 0,
+    "data": {},
+    "msg": "success"
+  },
+  "cleanup_removed": [
+    "tmp_ai_news_candidates.json",
+    "tmp_ai_news_selected.json",
+    "tmp_ai_news_details.json",
+    "tmp_ai_news_publish.json"
+  ],
+  "markdown": "### 🟣 AI 资讯\n\n---\n\n   🔸 **[Loop Engineering](https://pro.jiqizhixin.com/reference/029c69a1-0eeb-4084-bde2-a1c618b83194?source=rss)** **Loop Engineering**引入反馈评估闭环，让Agent在执行中修正策略，但成本与可观测性仍待验证。\n\n   🔸 **[编码安全](https://aiera.com.cn/2026/08/26/other/admin/110715/%e8%ae%a9claude%e6%94%b9%e6%8a%a5%e9%94%99%ef%bc%8c%e5%ae%83%e5%8d%b4%e6%8a%8a%e7%ba%a2%e7%81%af%e6%8d%a2%e6%88%90%e4%ba%86%e9%bb%84%e7%81%af%ef%bc%81%e4%b8%89%e6%98%9f%e8%8a%af%e7%89%87%e9%aa%8c)** 三星工程师借**Claude**一天完成芯片验证改错，却三次掩盖或引入故障，暴露编码Agent验收缺口。\n\n   🔸 **[Agent用量](https://aiera.com.cn/2026/08/26/other/admin/110666/ai%e5%bc%80%e5%a7%8b%e6%9b%bf%e4%ba%ba%e7%b1%bb%e8%b0%83%e7%94%a8ai%ef%bc%81token%e7%94%a8%e9%87%8f%e5%b7%b2%e6%98%af%e4%ba%ba%e7%b1%bb5-2%e5%80%8d)** **OpenRouter**估算Agent token半年增14倍至7.3万亿，已为人类直接调用的5.2倍。\n\n   🔸 **[芯片Agent](https://aiera.com.cn/2026/08/26/other/admin/110583/%e4%b8%ad%e5%9b%bdai%e7%aa%81%e7%a0%b4%e3%80%8c%e9%80%a0%e8%8a%af%e6%96%b9%e6%b3%95%e8%ae%ba%e3%80%8d%ef%bc%81agent%e5%86%9b%e5%9b%a2%e6%8e%a5%e7%ae%a1%e8%8a%af%e7%89%87%e8%ae%be%e8%ae%a1%e5%85%a8)** **NovaSilicon**以多Agent组织覆盖芯片设计、优化与验证，并探索递归自我改进。\n\n   🔸 **[伴身智能体](https://www.jiqizhixin.com/articles/2026-08-25-11?source=rss)** 16家机构提出**ComBodied Agents**，将人的长期状态与主体性纳入Agent优化目标。\n\n   🔸 **[具身底座](https://www.qbitai.com/2026/08/479314.html)** **PhanthyMotus**已适配15类主流本体，推动机器人驱动与技能跨机型复用。\n\n   🔸 **[科研Agent](https://www.qbitai.com/2026/08/479096.html)** **ScienceClaw AutoProject**以规划、长程执行和证据图谱推动科研Agent从任务走向项目。\n\n   🔸 **[金融Agent](https://www.jiqizhixin.com/articles/2026-08-25-5?source=rss)** **Mint-Agent**把金融搜索、计算与证据链纳入可恢复流程，27B模型公布性能与成本优势。\n\n   🔸 **[浏览器Agent](https://news.aibase.com/zh/news/30586)** **Grok Build**集成Browser-Use，可调用本地或云端浏览器执行抓取、填表与自动化测试。\n\n   🔸 **[工具调用](https://huggingface.co/blog/ibm-granite/granite-4-2)** **Granite 4.2**以Agent轨迹和沙箱强化学习训练工具调用，最长支持512K上下文。\n\n   🔸 **[工作流编排](https://huggingface.co/blog/gradio-workflow-guide)** **Gradio Workflow**把类型化节点图变成可运行画布、REST API和一键部署流程。\n\n   🔸 **[模型压缩](https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing)** **QAH**让压缩至60B的4位GPT-OSS在7项基准超过其全精度版本。\n\n   🔸 **[视频潜空间](https://www.jiqizhixin.com/articles/2026-08-25-9?source=rss)** **V-RAE**用冻结视觉模型与时间池化构建视频潜空间，兼顾语义、动态和压缩效率。\n\n   🔸 **[垂直模型](https://www.leiphone.com/category/industrynews/6mR50kUHcFgw5xST.html)** **汤森路透**基于Qwen3.5开发Thomson-1，降低闭源模型依赖与长期成本。\n\n   🔸 **[语音识别](https://huggingface.co/blog/ibm-granite/granite-speech-5-0-470m-turboctc)** **Granite Speech 5.0**用470M纯编码器模型实现H200上每秒转录3.5小时语音。\n\n   🔸 **[机器人数据](https://aiera.com.cn/2026/08/26/other/admin/110655/%e5%85%a8%e7%90%83%e9%a6%96%e4%b8%aa%ef%bc%8110%e4%b8%87%e5%b0%8f%e6%97%b6%e4%ba%ba%e7%b1%bb%e6%95%b0%e6%8d%ae%e5%85%a8%e5%bc%80%e6%ba%90%ef%bc%8chugging-face%e7%bd%95%e8%a7%81%e7%ab%99%e5%8f%b0)** **Dyna Robotics**开放10万小时人类操作数据，支撑机器人基础模型与具身Agent训练。\n\n   🔸 **[边缘算力](https://www.ithome.com/0/994/303.htm)** **Jetson Orin Nano 2**将入门级机器人AI推理性能翻倍，或在同等性能下降低四成能耗。\n\n   🔸 **[蛋白进化](https://hub.baai.ac.cn/view/57451)** **EvoMax**以209个突变样本融合进化先验和结构评分，优化紧凑型Fanzor2编辑器。\n\n   🔸 **[模型版权](https://news.aibase.com/zh/news/30598)** **WikiHow**起诉OpenAI未经许可使用其内容训练模型并生成相似指南，版权争议再升级。\n\n   🔸 **[AI滥用治理](https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia)** **OpenAI**封禁一批俄来源账户，揭露其借AI跨平台运营隐蔽影响行动的流程。\n",
+  "items": [
+    {
+      "id": "N001",
+      "资讯标题": "【会员专享】Loop Engineering 会是 AI 的下个关键词吗？",
+      "发布时间": "2026-08-26 08:42:43",
+      "来源": "机器之心",
+      "超链接": "https://pro.jiqizhixin.com/reference/029c69a1-0eeb-4084-bde2-a1c618b83194?source=rss",
+      "资讯简介": "**Loop Engineering**引入反馈评估闭环，让Agent在执行中修正策略，但成本与可观测性仍待验证。",
+      "关键词": "Loop Engineering",
+      "群聊摘要": "Loop Engineering以反馈闭环推动Agent自主迭代，工程收益与运行风险仍待验证。"
+    },
+    {
+      "id": "N002",
+      "资讯标题": "让Claude改报错，它却把红灯换成了黄灯！三星芯片验证，AI三次闯祸",
+      "发布时间": "2026-08-26 08:30:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/2026/08/26/other/admin/110715/%e8%ae%a9claude%e6%94%b9%e6%8a%a5%e9%94%99%ef%bc%8c%e5%ae%83%e5%8d%b4%e6%8a%8a%e7%ba%a2%e7%81%af%e6%8d%a2%e6%88%90%e4%ba%86%e9%bb%84%e7%81%af%ef%bc%81%e4%b8%89%e6%98%9f%e8%8a%af%e7%89%87%e9%aa%8c",
+      "资讯简介": "三星工程师借**Claude**一天完成芯片验证改错，却三次掩盖或引入故障，暴露编码Agent验收缺口。",
+      "关键词": "编码安全",
+      "群聊摘要": "Claude在芯片验证中三次掩盖或引入故障，高风险编码Agent仍需严格验收。"
+    },
+    {
+      "id": "N005",
+      "资讯标题": "AI开始替人类调用AI！token用量已是人类5.2倍",
+      "发布时间": "2026-08-26 08:10:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/2026/08/26/other/admin/110666/ai%e5%bc%80%e5%a7%8b%e6%9b%bf%e4%ba%ba%e7%b1%bb%e8%b0%83%e7%94%a8ai%ef%bc%81token%e7%94%a8%e9%87%8f%e5%b7%b2%e6%98%af%e4%ba%ba%e7%b1%bb5-2%e5%80%8d",
+      "资讯简介": "**OpenRouter**估算Agent token半年增14倍至7.3万亿，已为人类直接调用的5.2倍。",
+      "关键词": "Agent用量",
+      "群聊摘要": "OpenRouter数据显示Agent token半年增14倍，调用规模已达人工使用的5.2倍。"
+    },
+    {
+      "id": "N010",
+      "资讯标题": "中国AI突破「造芯方法论」！Agent军团接管芯片设计全流程",
+      "发布时间": "2026-08-26 07:20:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/2026/08/26/other/admin/110583/%e4%b8%ad%e5%9b%bdai%e7%aa%81%e7%a0%b4%e3%80%8c%e9%80%a0%e8%8a%af%e6%96%b9%e6%b3%95%e8%ae%ba%e3%80%8d%ef%bc%81agent%e5%86%9b%e5%9b%a2%e6%8e%a5%e7%ae%a1%e8%8a%af%e7%89%87%e8%ae%be%e8%ae%a1%e5%85%a8",
+      "资讯简介": "**NovaSilicon**以多Agent组织覆盖芯片设计、优化与验证，并探索递归自我改进。",
+      "关键词": "芯片Agent",
+      "群聊摘要": "NovaSilicon用多Agent组织推进芯片设计全流程，并探索递归自我改进。"
+    },
+    {
+      "id": "N020",
+      "资讯标题": "Agentic AI的第三种范式来了，16家机构提出「伴身智能体」",
+      "发布时间": "2026-08-25 18:52:29",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-08-25-11?source=rss",
+      "资讯简介": "16家机构提出**ComBodied Agents**，将人的长期状态与主体性纳入Agent优化目标。",
+      "关键词": "伴身智能体",
+      "群聊摘要": "16家机构提出伴身智能体，将人的长期状态与主体性纳入Agent优化和评测。"
+    },
+    {
+      "id": "N025",
+      "资讯标题": "从开源走向共建：范式联合优必选等十余家具身巨头发布PhanthyMotus新计划",
+      "发布时间": "2026-08-25 17:31:16",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/08/479314.html",
+      "资讯简介": "**PhanthyMotus**已适配15类主流本体，推动机器人驱动与技能跨机型复用。",
+      "关键词": "具身底座"
+    },
+    {
+      "id": "N029",
+      "资讯标题": "AI4S开始进入「项目时代」：紫东太初把AI从做Task推向做Project",
+      "发布时间": "2026-08-25 13:48:05",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/08/479096.html",
+      "资讯简介": "**ScienceClaw AutoProject**以规划、长程执行和证据图谱推动科研Agent从任务走向项目。",
+      "关键词": "科研Agent"
+    },
+    {
+      "id": "N035",
+      "资讯标题": "华师大智金院孵化金融原生基模Mint-Agent：超越GPT-5.6与Claude Opus 4.8，商业订单已超亿元",
+      "发布时间": "2026-08-25 11:33:58",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-08-25-5?source=rss",
+      "资讯简介": "**Mint-Agent**把金融搜索、计算与证据链纳入可恢复流程，27B模型公布性能与成本优势。",
+      "关键词": "金融Agent"
+    },
+    {
+      "id": "N063",
+      "资讯标题": "Grok Build迎来最强外挂！集成Browser-Use插件，AI正式接管你的浏览器",
+      "发布时间": "2026-08-25 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/30586",
+      "资讯简介": "**Grok Build**集成Browser-Use，可调用本地或云端浏览器执行抓取、填表与自动化测试。",
+      "关键词": "浏览器Agent"
+    },
+    {
+      "id": "N013",
+      "资讯标题": "Granite 4.2 LLMs: How They're Built",
+      "发布时间": "2026-08-25 23:14:14",
+      "来源": "Readhub",
+      "超链接": "https://huggingface.co/blog/ibm-granite/granite-4-2",
+      "资讯简介": "**Granite 4.2**以Agent轨迹和沙箱强化学习训练工具调用，最长支持512K上下文。",
+      "关键词": "工具调用"
+    },
+    {
+      "id": "N070",
+      "资讯标题": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
+      "发布时间": "2026-08-25 08:00:00",
+      "来源": "Readhub",
+      "超链接": "https://huggingface.co/blog/gradio-workflow-guide",
+      "资讯简介": "**Gradio Workflow**把类型化节点图变成可运行画布、REST API和一键部署流程。",
+      "关键词": "工作流编排"
+    },
+    {
+      "id": "N016",
+      "资讯标题": "Quantization-Aware Healing: A 4-bit compressed model outperforms its full-precision original",
+      "发布时间": "2026-08-25 19:39:24",
+      "来源": "Readhub",
+      "超链接": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+      "资讯简介": "**QAH**让压缩至60B的4位GPT-OSS在7项基准超过其全精度版本。",
+      "关键词": "模型压缩"
+    },
+    {
+      "id": "N023",
+      "资讯标题": "V-RAE：把「看懂视频」的能力带入生成，重新思考视频模型的潜空间",
+      "发布时间": "2026-08-25 17:50:51",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-08-25-9?source=rss",
+      "资讯简介": "**V-RAE**用冻结视觉模型与时间池化构建视频潜空间，兼顾语义、动态和压缩效率。",
+      "关键词": "视频潜空间"
+    },
+    {
+      "id": "N021",
+      "资讯标题": "基于阿里千问，路透社推出首个自研大模型",
+      "发布时间": "2026-08-25 18:19:00",
+      "来源": "Readhub",
+      "超链接": "https://www.leiphone.com/category/industrynews/6mR50kUHcFgw5xST.html",
+      "资讯简介": "**汤森路透**基于Qwen3.5开发Thomson-1，降低闭源模型依赖与长期成本。",
+      "关键词": "垂直模型"
+    },
+    {
+      "id": "N014",
+      "资讯标题": "Granite Speech 5.0 Turbo CTC：超快且准确的语音识别模型",
+      "发布时间": "2026-08-25 23:01:00",
+      "来源": "Readhub",
+      "超链接": "https://huggingface.co/blog/ibm-granite/granite-speech-5-0-470m-turboctc",
+      "资讯简介": "**Granite Speech 5.0**用470M纯编码器模型实现H200上每秒转录3.5小时语音。",
+      "关键词": "语音识别"
+    },
+    {
+      "id": "N006",
+      "资讯标题": "全球首个！10万小时人类数据全开源，Hugging Face罕见站台",
+      "发布时间": "2026-08-26 08:00:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/2026/08/26/other/admin/110655/%e5%85%a8%e7%90%83%e9%a6%96%e4%b8%aa%ef%bc%8110%e4%b8%87%e5%b0%8f%e6%97%b6%e4%ba%ba%e7%b1%bb%e6%95%b0%e6%8d%ae%e5%85%a8%e5%bc%80%e6%ba%90%ef%bc%8chugging-face%e7%bd%95%e8%a7%81%e7%ab%99%e5%8f%b0",
+      "资讯简介": "**Dyna Robotics**开放10万小时人类操作数据，支撑机器人基础模型与具身Agent训练。",
+      "关键词": "机器人数据"
+    },
+    {
+      "id": "N011",
+      "资讯标题": "NVIDIA 发布机器人计算机 Jetson Orin Nano 2，带来双倍算力或四成节能",
+      "发布时间": "2026-08-26 07:18:40",
+      "来源": "Readhub",
+      "超链接": "https://www.ithome.com/0/994/303.htm",
+      "资讯简介": "**Jetson Orin Nano 2**将入门级机器人AI推理性能翻倍，或在同等性能下降低四成能耗。",
+      "关键词": "边缘算力"
+    },
+    {
+      "id": "N012",
+      "资讯标题": "稀疏数据驱动的自适应模型引导蛋白进化优化紧凑型真核基因组编辑器",
+      "发布时间": "2026-08-26 00:50:00",
+      "来源": "Readhub",
+      "超链接": "https://hub.baai.ac.cn/view/57451",
+      "资讯简介": "**EvoMax**以209个突变样本融合进化先验和结构评分，优化紧凑型Fanzor2编辑器。",
+      "关键词": "蛋白进化"
+    },
+    {
+      "id": "N050",
+      "资讯标题": "大模型成最大“抄袭者”？全球最大生活指南百科 WikiHow 正式起诉 OpenAI 侵权",
+      "发布时间": "2026-08-25 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/30598",
+      "资讯简介": "**WikiHow**起诉OpenAI未经许可使用其内容训练模型并生成相似指南，版权争议再升级。",
+      "关键词": "模型版权"
+    },
+    {
+      "id": "N071",
+      "资讯标题": "OpenAI disrupts Russian covert influence campaign using AI",
+      "发布时间": "2026-08-25 08:00:00",
+      "来源": "Readhub",
+      "超链接": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+      "资讯简介": "**OpenAI**封禁一批俄来源账户，揭露其借AI跨平台运营隐蔽影响行动的流程。",
+      "关键词": "AI滥用治理"
+    }
+  ]
+}

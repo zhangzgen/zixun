@@ -1,0 +1,696 @@
+{
+  "version": 1,
+  "date": "2026-08-13",
+  "timezone": "Asia/Shanghai",
+  "updated_at": "2026-08-13 14:43:23",
+  "item_count": 60,
+  "runs": [
+    {
+      "collected_at": "2026-08-13 08:44:49",
+      "input_count": 34,
+      "added_count": 34,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "完整审阅 89 条近 24 小时候选：保留大模型、智能体、具身智能、AI 基础设施、核心技术与头部公司动态；剔除今日头条搜索页、非 AI 热点、低价值活动、重复事件及无精确发布时间的补核内容。新智元首页直连超时；新华科技频道可访问但近页 AI 相关内容均为 8 月 12 日且无精确发布时间，未补入。",
+      "source_status": {
+        "量子位": "ok:7",
+        "新智元": "ok:0",
+        "AIBase": "ok:12",
+        "新华网科技": "error:<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)>",
+        "机器之心": "ok:10",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
+    },
+    {
+      "collected_at": "2026-08-13 11:44:14",
+      "input_count": 18,
+      "added_count": 18,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "筛除非 AI 内容、搜索/频道页、低价值资讯及重复事件；保留具备存档价值的 AI/模型/智能体/机器人/政策和头部公司动态的详情页，并与当日归档去重。",
+      "source_status": {
+        "量子位": "ok:8",
+        "新智元": "ok:0（原始站点当前为域名出售页，无可补充资讯）",
+        "AIBase": "ok:11",
+        "新华网科技": "ok:0（原始科技频道未见本时间窗内可归档 AI 详情页）",
+        "机器之心": "ok:10",
+        "今日头条/Tophub": "ok:50（均为搜索页链接，未入选）",
+        "Readhub": "ok:10"
+      }
+    },
+    {
+      "collected_at": "2026-08-13 14:43:23",
+      "input_count": 8,
+      "added_count": 8,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "已审阅 90 条最近24小时候选及当日既有归档；保留新增且具备存档价值的头部公司AI业务、模型发布、自动驾驶、终端AI和机器人行业资讯。已剔除非AI热点、搜索/频道链接、低价值内容及与当日归档重复事件。",
+      "source_status": {
+        "量子位": "ok:10",
+        "新智元": "ok:0",
+        "AIBase": "ok:11",
+        "新华网科技": "ok:0",
+        "机器之心": "ok:9",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
+    }
+  ],
+  "items": [
+    {
+      "资讯标题": "联想集团Q1再创史上最佳业绩，AI服务器业务迎来爆发期",
+      "发布时间": "2026-08-13 14:33:52",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/08/471697.html",
+      "desc": "当季实现营收1834亿元人民币，同比猛增43%，创历史新高",
+      "agent_reason": "头部硬件公司AI服务器业务与业绩表现，反映算力基础设施需求。",
+      "archive_id": "A20260813-44addc401650",
+      "first_seen_at": "2026-08-13 14:43:23",
+      "last_seen_at": "2026-08-13 14:43:23"
+    },
+    {
+      "资讯标题": "鸿蒙版支付宝升级上线 AI 助手「阿宝」开启全平台公测",
+      "发布时间": "2026-08-13 14:12:21",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/30313",
+      "desc": "鸿蒙版支付宝迎来重大版本升级，其 AI 原生端助手「阿宝」正式面向 HarmonyOS 用户开启公测。用户只需在华为应用市场将支付宝 APP 更新至最新版本，通过首页右划或点击左下角按钮即可体验「阿宝」。支付宝将 AI 助手深度融入鸿蒙生态，不仅彰显了其以 AI 重构超大型 APP 服务形态的战略决心，也为数亿终端用户提供了更为高效、精准的服务接入入口。",
+      "agent_reason": "头部互联网服务在鸿蒙生态落地AI助手并进入公测，具有应用产品化价值。",
+      "archive_id": "A20260813-5c74549304c7",
+      "first_seen_at": "2026-08-13 14:43:23",
+      "last_seen_at": "2026-08-13 14:43:23"
+    },
+    {
+      "资讯标题": "倒计时｜2026世界机器人大会主论坛议程发布！",
+      "发布时间": "2026-08-13 13:10:50",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/08/471668.html",
+      "agent_reason": "机器人领域重要行业大会的议程动态，具备产业观察和会议信息存档价值。",
+      "archive_id": "A20260813-ac6743518098",
+      "first_seen_at": "2026-08-13 14:43:23",
+      "last_seen_at": "2026-08-13 14:43:23"
+    },
+    {
+      "资讯标题": "刚刚，DeepSeek V4 Pro正式版发布，多项对标Fable 5",
+      "发布时间": "2026-08-13 11:54:01",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/08/471642.html",
+      "desc": "现在调用V4 Pro，能直接用上完全体",
+      "agent_reason": "重要国产大模型正式版本发布，属于核心模型能力动态。",
+      "archive_id": "A20260813-5e434efac752",
+      "first_seen_at": "2026-08-13 14:43:23",
+      "last_seen_at": "2026-08-13 14:43:23"
+    },
+    {
+      "资讯标题": "小马智行第四代无人重卡量产，未来三年实现千辆运营目标",
+      "发布时间": "2026-08-13 11:35:00",
+      "来源": "Readhub",
+      "超链接": "https://www.leiphone.com/category/transportation/aCpxFOdunbeBESUD.html",
+      "desc": "小马智行在广州展示了第四代自动驾驶重卡，并计划未来两到三年运营500至1000辆智驾重卡。公司表示，当前自动驾驶尚未完全成熟，因此需要进入更多环节，通过真实运输验证技术能否降低成本，等待自动驾驶能力进一步成熟及系统前装量产。",
+      "agent_reason": "自动驾驶重卡量产和规模化运营目标，属于具身智能/自动驾驶产业关键进展。",
+      "archive_id": "A20260813-75a5c96d0868",
+      "first_seen_at": "2026-08-13 14:43:23",
+      "last_seen_at": "2026-08-13 14:43:23"
+    },
+    {
+      "资讯标题": "360纳米大片流水线携手《知识就是力量》发布“知力·纳米”科普科幻AI大片创作平台",
+      "发布时间": "2026-08-13 11:11:48",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/08/471624.html",
+      "desc": "《知识就是力量》杂志社携手360科技集团举行“知力·纳米 科普科幻AI大片创作平台”发布暨AI创作交流活动",
+      "agent_reason": "AI 创作平台与头部公司动态，详情页可归档。",
+      "archive_id": "A20260813-850291dc29e8",
+      "first_seen_at": "2026-08-13 11:44:14",
+      "last_seen_at": "2026-08-13 11:44:14"
+    },
+    {
+      "资讯标题": "连续自回归的dots.tts：小红书开源语音合成模型「基座」",
+      "发布时间": "2026-08-13 10:42:12",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-08-13-4?source=rss",
+      "content_source": "rss",
+      "agent_reason": "开源语音基础模型与核心技术动态，详情页可归档。",
+      "archive_id": "A20260813-e964b15b9b9c",
+      "first_seen_at": "2026-08-13 11:44:14",
+      "last_seen_at": "2026-08-13 11:44:14"
+    },
+    {
+      "资讯标题": "AI 重构人脉社交链：WordPress 母公司推 Android 版 Mesh 打造跨平台 Nexus AI 助手",
+      "发布时间": "2026-08-13 10:33:09",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/30304",
+      "agent_reason": "头部互联网公司 AI 助手产品动态，详情页可归档。",
+      "archive_id": "A20260813-9b44e2de7571",
+      "first_seen_at": "2026-08-13 11:44:14",
+      "last_seen_at": "2026-08-13 11:44:14"
+    },
+    {
+      "资讯标题": "牛津、NUS提出下一代世界模型方向：心智世界模型来了",
+      "发布时间": "2026-08-13 10:31:49",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-08-13-3?source=rss",
+      "content_source": "rss",
+      "agent_reason": "世界模型前沿研究与核心技术动态，详情页可归档。",
+      "archive_id": "A20260813-e14f7c5a69cb",
+      "first_seen_at": "2026-08-13 11:44:14",
+      "last_seen_at": "2026-08-13 11:44:14"
+    },
+    {
+      "资讯标题": "给机器人一个会预测未来的Critic，VLA强化学习直接起飞",
+      "发布时间": "2026-08-13 10:18:40",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-08-13?source=rss",
+      "content_source": "rss",
+      "agent_reason": "具身智能、VLA 与机器人强化学习技术动态，详情页可归档。",
+      "archive_id": "A20260813-688c4578d4a3",
+      "first_seen_at": "2026-08-13 11:44:14",
+      "last_seen_at": "2026-08-13 11:44:14"
+    },
+    {
+      "资讯标题": "谷歌正式发布全新 Pixel11 系列智能手机，深度融合 Gemini 与全系进阶",
+      "发布时间": "2026-08-13 09:18:47",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/30298",
+      "desc": "与以往几代产品相比，新一代产品在外观设计和核心硬件上的改动相对有限，其真正的核心亮点集中在软件体验以及与 Gemini 人工智能的深度融合上，通过更具自主代理特性的功能，帮助用户在后台高效完成各类日常繁杂任务。硬件与性能配置方面，Pixel11 全系搭载全新的 Tensor G6 处理器，不仅提升了能效比，还将网页浏览速度提升了 25%，同时降低了最新 AI 模型的运行延迟。",
+      "agent_reason": "Google将Gemini和代理能力深度集成至旗舰终端，具有端侧AI产品演进价值。",
+      "archive_id": "A20260813-50ed8d22b046",
+      "first_seen_at": "2026-08-13 14:43:23",
+      "last_seen_at": "2026-08-13 14:43:23"
+    },
+    {
+      "资讯标题": "AI 应用初创公司 Lovable 完成 4 亿美元 C 轮融资，估值翻倍至 133 亿美元",
+      "发布时间": "2026-08-13 09:16:07",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/30297",
+      "agent_reason": "AI 应用公司融资与行业商业化动态，详情页可归档。",
+      "archive_id": "A20260813-7a222c8880b8",
+      "first_seen_at": "2026-08-13 11:44:14",
+      "last_seen_at": "2026-08-13 11:44:14"
+    },
+    {
+      "资讯标题": "韩国AI新王Solar Pro 4登场，直接硬刚全球顶尖大模型？",
+      "发布时间": "2026-08-13 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/30315",
+      "agent_reason": "新一代大模型发布，属于国际模型竞争与能力演进动态。",
+      "archive_id": "A20260813-68794feaabb4",
+      "first_seen_at": "2026-08-13 14:43:23",
+      "last_seen_at": "2026-08-13 14:43:23"
+    },
+    {
+      "资讯标题": "调查显示FDA批准的乳腺癌AI诊断工具效果不及放射科医生预期",
+      "发布时间": "2026-08-13 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/30301",
+      "agent_reason": "医疗 AI 效果评估与监管相关动态，详情页可归档。",
+      "archive_id": "A20260813-b1e4f1f4e2e1",
+      "first_seen_at": "2026-08-13 11:44:14",
+      "last_seen_at": "2026-08-13 11:44:14"
+    },
+    {
+      "资讯标题": "荣耀Robot Phone全球发布：搭载Agentic OS与全新YOYO Pro，开启多模态智能新体验",
+      "发布时间": "2026-08-13 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/30299",
+      "agent_reason": "智能终端、Agentic OS 与多模态产品动态，详情页可归档。",
+      "archive_id": "A20260813-1385fceaccee",
+      "first_seen_at": "2026-08-13 11:44:14",
+      "last_seen_at": "2026-08-13 11:44:14"
+    },
+    {
+      "资讯标题": "美国 AI 安全审查或将扩至开源模型：前沿定义对标 GPT-5.6，自愿框架面临收紧压力",
+      "发布时间": "2026-08-13 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/30308",
+      "agent_reason": "AI 安全与开源模型监管政策动态，详情页可归档。",
+      "archive_id": "A20260813-fe8f132a1c1f",
+      "first_seen_at": "2026-08-13 11:44:14",
+      "last_seen_at": "2026-08-13 11:44:14"
+    },
+    {
+      "资讯标题": "注册资本增至223. 85 万元，北京月之暗面科技完成最新工商变更",
+      "发布时间": "2026-08-13 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/30300",
+      "agent_reason": "头部大模型公司动态，详情页可归档。",
+      "archive_id": "A20260813-1397de095070",
+      "first_seen_at": "2026-08-13 11:44:14",
+      "last_seen_at": "2026-08-13 11:44:14"
+    },
+    {
+      "资讯标题": "小红书被曝推进“AI导购”功能，布局前台AI产品化",
+      "发布时间": "2026-08-13 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/30305",
+      "agent_reason": "头部平台 AI 产品化动态，详情页可归档。",
+      "archive_id": "A20260813-4ea92f582c3c",
+      "first_seen_at": "2026-08-13 11:44:14",
+      "last_seen_at": "2026-08-13 11:44:14"
+    },
+    {
+      "资讯标题": "千问开放平台上线菜鸟智能体:“你只管说需求，AI帮你匹配寄件方案”",
+      "发布时间": "2026-08-13 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/30306",
+      "agent_reason": "智能体产品落地动态，详情页可归档。",
+      "archive_id": "A20260813-24c88f1df75a",
+      "first_seen_at": "2026-08-13 11:44:14",
+      "last_seen_at": "2026-08-13 11:44:14"
+    },
+    {
+      "资讯标题": "传Anthropic正洽谈收购AI初创公司Decart，交易估值达 60 亿美元",
+      "发布时间": "2026-08-13 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/30307",
+      "agent_reason": "头部大模型公司并购动态，详情页可归档。",
+      "archive_id": "A20260813-efd22091b2f7",
+      "first_seen_at": "2026-08-13 11:44:14",
+      "last_seen_at": "2026-08-13 11:44:14"
+    },
+    {
+      "资讯标题": "云端生态再落一子：OpenAI网络安全模型正式上线亚马逊平台",
+      "发布时间": "2026-08-13 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/30302",
+      "agent_reason": "头部模型公司与云平台生态动态，详情页可归档。",
+      "archive_id": "A20260813-a0eb7c4da9e3",
+      "first_seen_at": "2026-08-13 11:44:14",
+      "last_seen_at": "2026-08-13 11:44:14"
+    },
+    {
+      "资讯标题": "Cursor拟提前推出自动化代码审查平台Origin 整合Graphite团队技术",
+      "发布时间": "2026-08-13 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/30303",
+      "agent_reason": "AI 编程工具与智能体工作流动态，详情页可归档。",
+      "archive_id": "A20260813-df4b4f2587bc",
+      "first_seen_at": "2026-08-13 11:44:14",
+      "last_seen_at": "2026-08-13 11:44:14"
+    },
+    {
+      "资讯标题": "AI编程独角兽迎来爆发：Cognition传正洽谈新一轮融资，估值或达 400 亿美元",
+      "发布时间": "2026-08-13 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/30309",
+      "agent_reason": "AI 编程头部公司融资动态，详情页可归档。",
+      "archive_id": "A20260813-0a36e3cd7c76",
+      "first_seen_at": "2026-08-13 11:44:14",
+      "last_seen_at": "2026-08-13 11:44:14"
+    },
+    {
+      "资讯标题": "90% 高管承认 AI 没提升生产力：裁员后才发现离不开老员工",
+      "发布时间": "2026-08-13 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/30310",
+      "agent_reason": "有关企业AI生产力成效与组织调整的调查动态，具备AI落地观察价值。",
+      "archive_id": "A20260813-3ba28c61c21d",
+      "first_seen_at": "2026-08-13 14:43:23",
+      "last_seen_at": "2026-08-13 14:43:23"
+    },
+    {
+      "资讯标题": "苹果砸数亿美元买新闻版权：为 AI 版 Siri 引入实时资讯，按用量付费成新玩法",
+      "发布时间": "2026-08-13 08:48:54",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/30292",
+      "agent_reason": "头部公司 AI 产品、内容版权与实时资讯动态，详情页可归档。",
+      "archive_id": "A20260813-c945f0cf7ccd",
+      "first_seen_at": "2026-08-13 11:44:14",
+      "last_seen_at": "2026-08-13 11:44:14"
+    },
+    {
+      "资讯标题": "阿里开源2.4万亿参数大模型Qwen3.8-2.4T-A95B，性能比肩Fable 5",
+      "发布时间": "2026-08-13 08:44:16",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/30290",
+      "agent_reason": "超大参数开源模型与核心技术动态，详情页可归档。",
+      "archive_id": "A20260813-66abad33792d",
+      "first_seen_at": "2026-08-13 11:44:14",
+      "last_seen_at": "2026-08-13 11:44:14"
+    },
+    {
+      "资讯标题": "【会员专享】Loop Engineering 会是 AI 的下个关键词吗？",
+      "发布时间": "2026-08-13 08:41:40",
+      "来源": "机器之心",
+      "超链接": "https://pro.jiqizhixin.com/reference/029c69a1-0eeb-4084-bde2-a1c618b83194?source=rss",
+      "content_source": "rss",
+      "member_only": true,
+      "agent_reason": "智能体工程闭环范式的行业讨论。",
+      "archive_id": "A20260813-d0875dbec10e",
+      "first_seen_at": "2026-08-13 08:44:49",
+      "last_seen_at": "2026-08-13 08:44:49"
+    },
+    {
+      "资讯标题": "云知声发布自研医学影像多模态大模型 U2-RadiMed",
+      "发布时间": "2026-08-13 08:12:41",
+      "来源": "Readhub",
+      "超链接": "https://news.10jqka.com.cn/20260813/c678912715.shtml",
+      "desc": "该模型覆盖医学影像理解、报告生成、临床推理决策与视觉问答等全链路能力。",
+      "agent_reason": "医疗多模态大模型发布。",
+      "archive_id": "A20260813-8b9cab99767e",
+      "first_seen_at": "2026-08-13 08:44:49",
+      "last_seen_at": "2026-08-13 08:44:49"
+    },
+    {
+      "资讯标题": "DeepSeek V4 Pro 0813 (on OpenRouter)",
+      "发布时间": "2026-08-13 07:59:23",
+      "来源": "Readhub",
+      "超链接": "https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813",
+      "desc": "DeepSeek V4 Pro 0813 在 OpenRouter 上线的独立技术跟踪。",
+      "agent_reason": "头部模型版本与分发动态。",
+      "archive_id": "A20260813-af87c1f98b4c",
+      "first_seen_at": "2026-08-13 08:44:49",
+      "last_seen_at": "2026-08-13 08:44:49"
+    },
+    {
+      "资讯标题": "OlmoEarth Studio 推出自定义嵌入导出功能",
+      "发布时间": "2026-08-13 00:14:36",
+      "来源": "Readhub",
+      "超链接": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
+      "agent_reason": "地球观测 AI 工具能力更新。",
+      "archive_id": "A20260813-249a5e1ede4d",
+      "first_seen_at": "2026-08-13 08:44:49",
+      "last_seen_at": "2026-08-13 08:44:49"
+    },
+    {
+      "资讯标题": "浙大开源 HugAgentOS：三引擎一体自进化，每步可归因 / 回放 / 回滚",
+      "发布时间": "2026-08-13 00:10:00",
+      "来源": "Readhub",
+      "超链接": "https://hub.baai.ac.cn/view/57076",
+      "desc": "HugAgentOS 将 Harness 拆分为记忆、技能与编排三个可成长引擎，并以执行证据统一归因。",
+      "agent_reason": "开源智能体操作系统与可观测性进展。",
+      "archive_id": "A20260813-5543e493c1c8",
+      "first_seen_at": "2026-08-13 08:44:49",
+      "last_seen_at": "2026-08-13 08:44:49"
+    },
+    {
+      "资讯标题": "Nature Photonics 2026 | 利用相干光进行直接张量处理",
+      "发布时间": "2026-08-13 00:10:00",
+      "来源": "Readhub",
+      "超链接": "https://hub.baai.ac.cn/view/57074",
+      "agent_reason": "AI/计算核心光子技术研究。",
+      "archive_id": "A20260813-98a521903e31",
+      "first_seen_at": "2026-08-13 08:44:49",
+      "last_seen_at": "2026-08-13 08:44:49"
+    },
+    {
+      "资讯标题": "Putting sign language AI into users’ hands",
+      "发布时间": "2026-08-12 22:01:59",
+      "来源": "Readhub",
+      "超链接": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands",
+      "desc": "Google DeepMind 推出手语转文本模型及无障碍功能。",
+      "agent_reason": "头部实验室发布 AI 无障碍模型。",
+      "archive_id": "A20260813-c26c8d5a4e90",
+      "first_seen_at": "2026-08-13 08:44:49",
+      "last_seen_at": "2026-08-13 08:44:49"
+    },
+    {
+      "资讯标题": "LFM2.5-VL-3B for Better and Faster Vision Capabilities for the Edge",
+      "发布时间": "2026-08-12 22:00:51",
+      "来源": "Readhub",
+      "超链接": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b",
+      "desc": "面向边缘设备的 3B 视觉语言模型，覆盖多语言视觉理解、文档与屏幕理解等任务。",
+      "agent_reason": "小型视觉语言模型发布。",
+      "archive_id": "A20260813-2c5639474288",
+      "first_seen_at": "2026-08-13 08:44:49",
+      "last_seen_at": "2026-08-13 08:44:49"
+    },
+    {
+      "资讯标题": "《置身谷内》！Jeff Dean上顶会自曝离职现场：被1500人围堵",
+      "发布时间": "2026-08-12 21:46:12",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/08/471254.html",
+      "desc": "Google AI 核心人物 Jeff Dean 的公开动态。",
+      "agent_reason": "头部 AI 公司核心人物动态。",
+      "archive_id": "A20260813-03f07871b126",
+      "first_seen_at": "2026-08-13 08:44:49",
+      "last_seen_at": "2026-08-13 08:44:49"
+    },
+    {
+      "资讯标题": "Anthropic CEO整天神神叨叨，投资人受不了了",
+      "发布时间": "2026-08-12 21:38:09",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/08/471162.html",
+      "agent_reason": "前沿模型公司治理与投资动态。",
+      "archive_id": "A20260813-13613f49d4f1",
+      "first_seen_at": "2026-08-13 08:44:49",
+      "last_seen_at": "2026-08-13 08:44:49"
+    },
+    {
+      "资讯标题": "国产具身智能创全球新纪录！以30%成本跑赢 Figure AI 45%效率，聪明的具身大脑成关键",
+      "发布时间": "2026-08-12 21:10:55",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/08/471049.html",
+      "agent_reason": "具身智能性能与成本进展。",
+      "archive_id": "A20260813-ff98b3a89958",
+      "first_seen_at": "2026-08-13 08:44:49",
+      "last_seen_at": "2026-08-13 08:44:49"
+    },
+    {
+      "资讯标题": "GPU 开始金融化！黄仁勋拉上华尔街搞 5000 亿美元融资，回应「循环投资」",
+      "发布时间": "2026-08-12 21:00:00",
+      "来源": "Readhub",
+      "超链接": "https://hub.baai.ac.cn/view/57070",
+      "desc": "NVIDIA 拟与多家金融机构合作建立融资平台，以第三方资本建设 AI 基础设施。",
+      "agent_reason": "AI 算力基础设施融资动态。",
+      "archive_id": "A20260813-5da62952040e",
+      "first_seen_at": "2026-08-13 08:44:49",
+      "last_seen_at": "2026-08-13 08:44:49"
+    },
+    {
+      "资讯标题": "又一位 xAI 联创宣布创业，押注开源模型和个人 AI，融资 11 亿美元",
+      "发布时间": "2026-08-12 20:16:17",
+      "来源": "Readhub",
+      "超链接": "https://www.mittrchina.com/news/detail/16776",
+      "agent_reason": "xAI 创始团队创业及开源模型赛道融资。",
+      "archive_id": "A20260813-b5770cb4f0e8",
+      "first_seen_at": "2026-08-13 08:44:49",
+      "last_seen_at": "2026-08-13 08:44:49"
+    },
+    {
+      "资讯标题": "紫东太初推出GMC核心集剪枝方法，少80%Token仍满血保真多模态能力",
+      "发布时间": "2026-08-12 18:54:29",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/08/471030.html",
+      "agent_reason": "多模态模型 Token 效率核心技术。",
+      "archive_id": "A20260813-ad3b63cf321d",
+      "first_seen_at": "2026-08-13 08:44:49",
+      "last_seen_at": "2026-08-13 08:44:49"
+    },
+    {
+      "资讯标题": "11篇顶会论文之外，美图影像研究院做了一件事：让大众爱用AI",
+      "发布时间": "2026-08-12 17:39:50",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-08-12-10?source=rss",
+      "content_source": "rss",
+      "member_only": false,
+      "agent_reason": "AI 影像研究与产品落地进展。",
+      "archive_id": "A20260813-ae876502c80a",
+      "first_seen_at": "2026-08-13 08:44:49",
+      "last_seen_at": "2026-08-13 08:44:49"
+    },
+    {
+      "资讯标题": "116页论文教你「蒸馏」Claude、GPT-5.6：AI社区今天炸了",
+      "发布时间": "2026-08-12 17:39:42",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-08-12-9?source=rss",
+      "content_source": "rss",
+      "member_only": false,
+      "agent_reason": "前沿模型推理轨迹与 API 安全研究。",
+      "archive_id": "A20260813-b9f936c5844f",
+      "first_seen_at": "2026-08-13 08:44:49",
+      "last_seen_at": "2026-08-13 08:44:49"
+    },
+    {
+      "资讯标题": "MIT等为AI提供更高效的物理模拟：利用合成动力学增强几何预训练，收敛速度快两倍",
+      "发布时间": "2026-08-12 15:24:33",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-08-12-8?source=rss",
+      "content_source": "rss",
+      "member_only": false,
+      "agent_reason": "AI 物理模拟与预训练方法研究。",
+      "archive_id": "A20260813-5e1cc7f058b1",
+      "first_seen_at": "2026-08-13 08:44:49",
+      "last_seen_at": "2026-08-13 08:44:49"
+    },
+    {
+      "资讯标题": "From assistance to execution: How enterprises put AI to work",
+      "发布时间": "2026-08-12 14:00:00",
+      "来源": "Readhub",
+      "超链接": "https://openai.com/index/how-enterprises-put-ai-to-work",
+      "agent_reason": "OpenAI 企业 AI 落地官方案例。",
+      "archive_id": "A20260813-e063daae6225",
+      "first_seen_at": "2026-08-13 08:44:49",
+      "last_seen_at": "2026-08-13 08:44:49"
+    },
+    {
+      "资讯标题": "终于！Linux用户等来了官方ChatGPT桌面版",
+      "发布时间": "2026-08-12 13:11:43",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-08-12-6?source=rss",
+      "content_source": "rss",
+      "member_only": false,
+      "agent_reason": "ChatGPT 客户端产品更新。",
+      "archive_id": "A20260813-f263f45d201b",
+      "first_seen_at": "2026-08-13 08:44:49",
+      "last_seen_at": "2026-08-13 08:44:49"
+    },
+    {
+      "资讯标题": "Agentic RL 后训练资源怎么分？港中文、恒生大学提出 Libra，吞吐最高提升 3 倍",
+      "发布时间": "2026-08-12 13:04:39",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-08-12-5?source=rss",
+      "content_source": "rss",
+      "member_only": false,
+      "agent_reason": "智能体强化学习训练资源优化研究。",
+      "archive_id": "A20260813-fa2b07c640a7",
+      "first_seen_at": "2026-08-13 08:44:49",
+      "last_seen_at": "2026-08-13 08:44:49"
+    },
+    {
+      "资讯标题": "人形之外，擎羽把“身体”变成具身智能的新变量",
+      "发布时间": "2026-08-12 12:29:57",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/08/470874.html",
+      "agent_reason": "具身智能公司与技术路径动态。",
+      "archive_id": "A20260813-af7e93ce88fe",
+      "first_seen_at": "2026-08-13 08:44:49",
+      "last_seen_at": "2026-08-13 08:44:49"
+    },
+    {
+      "资讯标题": "刚刚，Manus恢复独立运营",
+      "发布时间": "2026-08-12 10:51:44",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/08/470805.html",
+      "agent_reason": "头部智能体产品公司重大运营动态。",
+      "archive_id": "A20260813-dc60141f99c6",
+      "first_seen_at": "2026-08-13 08:44:49",
+      "last_seen_at": "2026-08-13 08:44:49"
+    },
+    {
+      "资讯标题": "半年4轮融资、总额5亿元！西湖大学教授押注具身智能「GPT时刻」",
+      "发布时间": "2026-08-12 10:50:30",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-08-12-4?source=rss",
+      "content_source": "rss",
+      "member_only": false,
+      "agent_reason": "具身智能融资与创业动态。",
+      "archive_id": "A20260813-e8267abcc390",
+      "first_seen_at": "2026-08-13 08:44:49",
+      "last_seen_at": "2026-08-13 08:44:49"
+    },
+    {
+      "资讯标题": "文生图Scaling新变量，被字节Seed团队发现了",
+      "发布时间": "2026-08-12 10:44:07",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-08-12-3?source=rss",
+      "content_source": "rss",
+      "member_only": false,
+      "agent_reason": "字节 Seed 文生图基础研究。",
+      "archive_id": "A20260813-96e82e63009a",
+      "first_seen_at": "2026-08-13 08:44:49",
+      "last_seen_at": "2026-08-13 08:44:49"
+    },
+    {
+      "资讯标题": "刚刚，林俊旸官宣创业公司Pragmatik Labs！",
+      "发布时间": "2026-08-12 10:23:12",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-08-12-2?source=rss",
+      "content_source": "rss",
+      "member_only": false,
+      "agent_reason": "原通义千问负责人创办下一代 Agent 公司，信息较完整。",
+      "archive_id": "A20260813-42a6f09dc935",
+      "first_seen_at": "2026-08-13 08:44:49",
+      "last_seen_at": "2026-08-13 08:44:49"
+    },
+    {
+      "资讯标题": "马斯克语出惊人：SpaceX 五年后 99% 的价值来自 AI，火箭反而成了副业",
+      "发布时间": "2026-08-12 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/30288",
+      "agent_reason": "头部科技公司 AI 战略表态。",
+      "archive_id": "A20260813-48a77428bd13",
+      "first_seen_at": "2026-08-13 08:44:49",
+      "last_seen_at": "2026-08-13 08:44:49"
+    },
+    {
+      "资讯标题": "腾讯发布二季报:模型、AI产品双线突破，继续加码AI投入",
+      "发布时间": "2026-08-12 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/30287",
+      "agent_reason": "头部公司 AI 投入与经营动态。",
+      "archive_id": "A20260813-a0cbd1979dc8",
+      "first_seen_at": "2026-08-13 08:44:49",
+      "last_seen_at": "2026-08-13 08:44:49"
+    },
+    {
+      "资讯标题": "腾讯AI全线推进:Hy4近期发布，WorkBuddy持续领跑，小微扩大灰测",
+      "发布时间": "2026-08-12 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/30289",
+      "agent_reason": "腾讯模型与 AI 产品线动态。",
+      "archive_id": "A20260813-5f5193fd47e4",
+      "first_seen_at": "2026-08-13 08:44:49",
+      "last_seen_at": "2026-08-13 08:44:49"
+    },
+    {
+      "资讯标题": "字节跳动再落AI关键一子，新一级部门浮出水面",
+      "发布时间": "2026-08-12 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/30284",
+      "agent_reason": "字节跳动 AI 组织架构动态。",
+      "archive_id": "A20260813-b8dd5e05286d",
+      "first_seen_at": "2026-08-13 08:44:49",
+      "last_seen_at": "2026-08-13 08:44:49"
+    },
+    {
+      "资讯标题": "xAI 发布 Grok Bot：给 AI 智能体配一台专属云端电脑，当\"打工人\"而非\"聊天工具\"",
+      "发布时间": "2026-08-12 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/30285",
+      "agent_reason": "xAI 智能体产品动态。",
+      "archive_id": "A20260813-04a3c6a47c7d",
+      "first_seen_at": "2026-08-13 08:44:49",
+      "last_seen_at": "2026-08-13 08:44:49"
+    },
+    {
+      "资讯标题": "Saber 否认用 AI 顶替游戏编剧，前首席编剧当场回怼：你不能两头都占",
+      "发布时间": "2026-08-12 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/30279",
+      "agent_reason": "生成式 AI 对内容生产岗位的行业争议。",
+      "archive_id": "A20260813-cbb9533fb011",
+      "first_seen_at": "2026-08-13 08:44:49",
+      "last_seen_at": "2026-08-13 08:44:49"
+    },
+    {
+      "资讯标题": "OpenAI 悄悄上线 ChatGPT Plus 付费重置额度功能 8美元可立即恢复使用额度",
+      "发布时间": "2026-08-12 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/30282",
+      "agent_reason": "ChatGPT 订阅与额度产品变更。",
+      "archive_id": "A20260813-d8a9212332d7",
+      "first_seen_at": "2026-08-13 08:44:49",
+      "last_seen_at": "2026-08-13 08:44:49"
+    },
+    {
+      "资讯标题": "LTX正式发布开放世界模型LTX-2.5:原生集成ComfyUI且中小企业免费",
+      "发布时间": "2026-08-12 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/30277",
+      "agent_reason": "生成视频/开放世界模型发布与工具生态更新。",
+      "archive_id": "A20260813-c3418dcd7bfc",
+      "first_seen_at": "2026-08-13 08:44:49",
+      "last_seen_at": "2026-08-13 08:44:49"
+    },
+    {
+      "资讯标题": "Google Gemma 4全球下载量狂飙突破3亿，AI新纪元已经全面爆发！",
+      "发布时间": "2026-08-12 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/30278",
+      "agent_reason": "Google 开源模型生态数据动态。",
+      "archive_id": "A20260813-bcbaad57aef2",
+      "first_seen_at": "2026-08-13 08:44:49",
+      "last_seen_at": "2026-08-13 08:44:49"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+version: 1
+name: AI资讯日内采集工作流
+description: 每天四次触发全部资讯源采集，由 Agent 过滤清理后幂等追加到当天本地归档；不进行任何飞书写入或群聊推送。
+
+runtime:
+  timezone: Asia/Shanghai
+  schedule:
+    - "08:40"
+    - "11:40"
+    - "14:40"
+    - "17:40"
+  mode: agent_in_loop
+  entrypoints:
+    collect: python3 get_news_list.py --no-history --workflow AI资讯日内采集工作流.yml --output tmp_ai_news_collect_candidates.json --pretty
+    archive: python3 archive_ai_news.py --input tmp_ai_news_filtered.json --archive-dir ai_news_daily --result ai_news_collect_result.json --cleanup tmp_ai_news_collect_candidates.json
+  archive_file: ai_news_daily/{{TODAY}}.json
+  result_file: ai_news_collect_result.json
+
+hard_boundaries:
+  - 禁止运行 prepare_ai_news_publish.py、get_news_details.py、publish_ai_news.py 或 run_ai_news.py --legacy-auto。
+  - 禁止请求飞书 tenant token、读取或写入飞书知识库、调用群机器人 webhook。
+  - 本任务不得发送飞书消息；失败只在任务结果中汇报并保留现场。
+  - get_news_list.py 必须带 --no-history，确保采集阶段不访问飞书历史。
+
+workflow:
+  - id: collect
+    name: 全数据源采集
+    actions:
+      - 进入项目目录并读取本文件。
+      - 运行 python3 -m py_compile run_ai_news.py get_news_list.py archive_ai_news.py。
+      - 运行 get_news_list.py --no-history --workflow AI资讯日内采集工作流.yml，从量子位、新智元、AIBase、新华网科技、机器之心、今日头条/Tophub、Readhub 全部来源获取最近 24 小时完整候选。
+      - 脚本只做字段合法性和时间窗口限制，不做 AI 关键词过滤、噪音过滤、去重、评分或 TopK。
+      - 单个来源失败时必须在 source_status 中保留错误，其他来源继续执行。
+      - 如果脚本失败、候选明显不足或重要来源失败，Agent 通过操作浏览器打开原始源/频道页补充最近 24 小时候选；不要使用 websearch/web search。
+
+  - id: clean
+    name: Agent 过滤清理
+    rules:
+      - 读取 tmp_ai_news_collect_candidates.json 的完整 candidates 和 source_status。
+      - 保留所有具备存档价值的 AI、大模型、智能体、机器人、算力、核心技术、头部公司动态及相关政策资讯；此阶段不限制 TopK。
+      - 剔除非 AI 内容、广告、赞助、导航、登录/App 下载壳、字段不完整、明显低价值或时间不明内容。
+      - 对本轮候选做语义去重，同一事件只保留信息更完整、来源更可信或发布时间更新的一条。
+      - 读取已有 ai_news_daily/{{TODAY}}.json（若存在），避免把当天归档中已有事件再次作为新事件追加。
+      - 所有超链接必须是原始资讯详情页 URL，不得保留搜索页、频道页、首页或榜单页。
+      - 保留原始标题、发布时间、来源、超链接以及可用的 desc、rss_content、content_source、member_only。
+    output:
+      file: tmp_ai_news_filtered.json
+      schema:
+        date: "{{TODAY}}"
+        selection_reason: 本轮过滤清理说明
+        source_status: 原样复制采集结果中的来源状态
+        items:
+          - 资讯标题: 原始标题
+            发布时间: "yyyy-MM-dd HH:mm:ss"
+            来源: 原始来源
+            超链接: 原始详情页链接
+            desc: 可选摘要
+            agent_reason: 保留原因
+
+  - id: archive
+    name: 追加当日归档
+    actions:
+      - 运行 archive_ai_news.py；脚本按规范化详情 URL 和标题进行幂等合并，并通过临时文件原子替换归档。
+      - 每条新资讯生成稳定 archive_id，并记录 first_seen_at、last_seen_at；重复运行不得产生重复条目。
+      - 成功后删除 tmp_ai_news_filtered.json 和 tmp_ai_news_collect_candidates.json，保留 ai_news_collect_result.json 和日归档。
+      - 失败时不清理临时文件，也不得调用飞书告警。
+
+success_output:
+  write_to: ai_news_collect_result.json
+  fields: [ok, date, archive_file, input_count, added_count, updated_count, skipped_duplicate_count, archive_count, cleanup_removed]

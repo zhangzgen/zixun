@@ -1,0 +1,106 @@
+version: 2
+name: AI资讯每日发布工作流
+description: 每天从本地今昨资讯归档构建候选，与飞书已发布要闻去重，由 Agent 筛选、摘要后写入飞书知识库并推送群聊。
+
+runtime:
+  timezone: Asia/Shanghai
+  schedule: 每天 09:00
+  mode: agent_in_loop
+  entrypoints:
+    prepare_candidates: python3 prepare_ai_news_publish.py --archive-dir ai_news_daily --output tmp_ai_news_candidates.json
+    fetch_details: python3 get_news_details.py --input tmp_ai_news_selected.json --candidates tmp_ai_news_candidates.json --output tmp_ai_news_details.json
+    publish: python3 publish_ai_news.py --input tmp_ai_news_publish.json --result ai_news_run_result.json --cleanup-temp
+  input_archives:
+    - ai_news_daily/{{TODAY}}.json
+    - ai_news_daily/{{YESTERDAY}}.json
+  result_file: ai_news_run_result.json
+  temp_files:
+    candidates: tmp_ai_news_candidates.json
+    selected: tmp_ai_news_selected.json
+    details: tmp_ai_news_details.json
+    publish: tmp_ai_news_publish.json
+
+separation_of_responsibilities:
+  - 本工作流不直接访问资讯源、不执行全量采集，也不修改日归档文件。
+  - 全量采集、过滤清理和日归档追加由 AI资讯日内采集工作流.yml 负责。
+  - prepare_ai_news_publish.py 只合并今昨归档、精确去重并读取飞书历史，不做语义筛选和 TopK 决策。
+  - Agent 负责语义去重、AI 相关性、价值排序、摘要和关键词。
+  - publish_ai_news.py 是唯一允许写飞书知识库和推送群聊的脚本。
+
+workflow:
+  - id: prepare
+    name: 读取今昨归档与飞书历史
+    actions:
+      - 先运行 python3 -m py_compile run_ai_news.py archive_ai_news.py prepare_ai_news_publish.py get_news_details.py publish_ai_news.py。
+      - 运行 prepare_ai_news_publish.py，读取 ai_news_daily 中今天和昨天的 JSON 文件。
+      - 脚本同时读取飞书中今天、昨天和前天标题为“📖 yyyy-MM-dd 要闻”的文档，输出 history_text 和 history_status。
+      - 若某个归档文件不存在，按 archive_status 记录 missing；只要另一个归档存在且有有效候选即可继续。
+      - 若两个归档均不存在或候选为空，停止发布并汇报，不得回退到现场全数据源采集。
+
+  - id: select
+    name: Agent 筛选发布 TopK
+    rules:
+      - 读取 tmp_ai_news_candidates.json 的 candidates、archive_status、history_text 和 history_status。
+      - 只保留 AI、大模型、智能体、机器人、算力、核心技术、头部公司及相关政策监管的高价值资讯。
+      - 剔除广告、导航、登录壳、缺字段、低价值内容、同一事件重复报道和旧闻重发。
+      - 与 history_text 中飞书已发布资讯做语义去重；已发布事件不得重复推送。
+      - 候选内部同一事件只保留信息最完整、来源更可信或发布时间更新的一条。
+      - 每条超链接必须保留资讯详情页 URL，不得改成频道页、首页、搜索页或榜单页。
+      - 发布优先级严格分为三层：第一层是智能体 / Agent 生态，包括 Agent、Agentic AI、多智能体、Agent harness、Agent OS、Agent 框架与协议，以及工具调用、记忆、规划、评测、安全和运行环境等相关知识；第二层是基础大模型、模型能力与核心模型技术；第三层是机器人、算力、AI 应用、头部公司动态及相关政策监管等其他 AI 内容。
+      - 先选择达到价值门槛的第一层 Agent 相关资讯，再用第二层大模型资讯补足，最后才选择第三层其他 AI 资讯；不得让一般大模型或泛 AI 动态挤占高价值 Agent 资讯的位置。低价值、营销软文或仅因标题含 Agent 关键词的内容仍应剔除。
+      - 每一优先层内部按行业影响力、时效性、可信度、差异化和读者价值排序，默认 TopK=20，有效资讯不足时宁缺毋滥。
+    output:
+      file: tmp_ai_news_selected.json
+      schema:
+        topk: 20
+        selection_reason: 筛选和去重说明
+        selected_items:
+          - id: N001
+            资讯标题: 原始标题
+            发布时间: 原始发布时间
+            来源: 原始来源
+            超链接: 原始详情页链接
+            agent_reason: 入选原因
+
+  - id: details
+    name: 获取正文详情
+    actions:
+      - 运行 get_news_details.py 获取入选条目正文。
+      - 对正文为“内容错误”、正文过短、抓取异常、反爬或登录导航壳的条目，Agent 优先通过操作浏览器打开原始详情页补充正文；不要使用 websearch/web search。
+      - 只有脚本和浏览器都无法可靠确认时才丢弃。
+
+  - id: summarize
+    name: Agent 摘要与格式化
+    rules:
+      - 每条生成一句中文资讯简介，尽量 60 字以内，核心 1-2 个实体用 Markdown 加粗。
+      - 每条只提取 1 个关键词。
+      - 原始标题、发布时间、来源和详情页超链接必须保持不变。
+      - 为 3-5 条最重要资讯提供群聊摘要；存在高价值 Agent 相关资讯时，群聊摘要优先覆盖这些资讯。
+    output:
+      file: tmp_ai_news_publish.json
+      schema:
+        date: "{{TODAY}}"
+        items:
+          - id: N001
+            资讯标题: 原始标题
+            发布时间: 原始发布时间
+            来源: 原始来源
+            超链接: 原始详情页链接
+            资讯简介: 一句话简介
+            关键词: 一个关键词
+            群聊摘要: 可选群聊短句
+
+  - id: publish
+    name: 发布飞书
+    actions:
+      - 运行 publish_ai_news.py 写入或更新“📖 {{TODAY}} 要闻”知识库文档并推送群聊卡片。
+      - Wiki 关键词链接必须是单层方括号形式：**[关键词](详情页URL)**，禁止双层方括号。
+      - 发布成功后清理四个 tmp_ai_news_*.json 临时文件，仅保留 ai_news_run_result.json。
+      - 发布失败时保留临时文件；若脚本已经发送“资讯警告”，Agent 不得重复推送告警。
+
+success_output:
+  write_to: ai_news_run_result.json
+  fields: [ok, date, doc_title, doc_url, published_count, chat_count, push_result, cleanup_removed]
+
+security:
+  - 日志、结果和消息不得输出 App Secret、tenant_access_token、Authorization header 或完整 webhook。

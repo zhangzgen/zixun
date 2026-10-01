@@ -1,0 +1,590 @@
+{
+  "version": 1,
+  "date": "2026-08-31",
+  "timezone": "Asia/Shanghai",
+  "updated_at": "2026-08-31 18:11:47",
+  "item_count": 47,
+  "runs": [
+    {
+      "collected_at": "2026-08-31 09:08:27",
+      "input_count": 18,
+      "added_count": 18,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "完整审阅62条脚本候选，并通过浏览器补查新智元、量子位、AIBase、机器之心和新华网科技原始频道。保留18条具备存档价值且指向详情页的AI、大模型、智能体、算力与核心技术资讯；剔除全部TopHub搜索页、非AI内容、低价值内容，以及与8月30日归档重复的Claude Code配额、AI失控统计、智能体串通和a16z硬件基金事件。量子位最新可见批次超出24小时，新华网科技仍不可达。",
+      "source_status": {
+        "量子位": "ok:0",
+        "新智元": "ok:0",
+        "AIBase": "ok:2",
+        "新华网科技": "error:<urlopen error [Errno 65] No route to host>",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
+    },
+    {
+      "collected_at": "2026-08-31 12:08:06",
+      "input_count": 12,
+      "added_count": 12,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "完整审阅75条候选及当天18条既有归档，并直接核查异常来源原始频道。保留所有具备存档价值的模型、智能体、机器人、算力、核心技术、头部公司动态及AI治理资讯；剔除非AI、广告、搜索/频道壳、低价值、字段不足和重复事件，不限制TopK。本轮保留11条脚本候选并补充1条机器之心原始详情页。",
+      "source_status": {
+        "量子位": "ok:3",
+        "新智元": "ok:0;browser_checked;no_unique_supplement",
+        "AIBase": "ok:12",
+        "新华网科技": "error:<urlopen error [Errno 65] No route to host>;browser_check_failed:timeout",
+        "机器之心": "ok:0;browser_checked;browser_supplement:1",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
+    },
+    {
+      "collected_at": "2026-08-31 15:07:47",
+      "input_count": 8,
+      "added_count": 8,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "完整审阅76条候选及当天30条既有归档，并直接核查异常来源原始频道；保留AI、智能体、机器人、自动驾驶、核心技术、头部公司与政策动态，剔除非AI、广告促销、搜索/频道壳、低价值及重复事件，不限制TopK。本轮保留6条脚本候选并补充2条机器之心详情页。",
+      "source_status": {
+        "量子位": "ok:4",
+        "新智元": "ok:0;browser_checked;no_unique_supplement",
+        "AIBase": "ok:12",
+        "新华网科技": "error:<urlopen error [Errno 65] No route to host>;browser_check_failed:timeout",
+        "机器之心": "ok:0;browser_checked;browser_supplement:2",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
+    },
+    {
+      "collected_at": "2026-08-31 18:11:47",
+      "input_count": 9,
+      "added_count": 9,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "完整审阅78条候选及当天38条既有归档，并直接核查新智元、机器之心和新华网科技原始频道；保留AI算力、世界模型、智能体基础设施、安全风险、医疗AI、AIOS、国产算力合作、AI EDA及头部模型公司经营动态，剔除非AI、广告活动、搜索/榜单链接、低价值及重复事件，不限制TopK。本轮保留9条新增详情页资讯。",
+      "source_status": {
+        "量子位": "ok:6",
+        "新智元": "ok:0;browser_checked;no_unique_supplement",
+        "AIBase": "ok:12",
+        "新华网科技": "error:<urlopen error [Errno 65] No route to host>;browser_check_failed:timeout",
+        "机器之心": "ok:0;browser_checked;no_unique_supplement",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
+    }
+  ],
+  "items": [
+    {
+      "资讯标题": "对话范铃羚：芯片越来越强，为什么 AI 还是缺算力？",
+      "发布时间": "2026-08-31 17:33:36",
+      "来源": "Readhub",
+      "超链接": "https://www.mittrchina.com/news/detail/16874",
+      "desc": "2023 年博士毕业后，范铃羚没有沿着纯学术路径继续走下去，而是进入工业界，从光子芯片到大模型计算系统，从云端模型到端侧 AI，她开始站在更完整的系统尺度重新理解「计算效率」这件事。从光子芯片到大模型系统，她一路变化的研究方向背后，始终是同一个问题：怎样突破计算的能耗瓶颈，让更强的智能以更低的成本运行。",
+      "agent_reason": "聚焦AI计算的能耗与系统效率瓶颈，涵盖光子计算、大模型系统和端侧AI，具备核心技术存档价值。",
+      "archive_id": "A20260831-40ddabb59b08",
+      "first_seen_at": "2026-08-31 18:11:47",
+      "last_seen_at": "2026-08-31 18:11:47"
+    },
+    {
+      "资讯标题": "8 位 AI 创业者谈世界模型：生成一切之后，还差一点常识｜WRC 2026",
+      "发布时间": "2026-08-31 17:13:00",
+      "来源": "Readhub",
+      "超链接": "https://www.leiphone.com/category/private/wweqIbvHRVWXnlvh.html",
+      "desc": "8位AI创业者围绕世界模型、三维物理几何一致性与常识能力展开讨论，涉及语言、图像、视频和3D生成向世界模型演进的产业判断。",
+      "agent_reason": "汇集多位行业创业者对世界模型关键能力与产业路线的判断，属于前沿模型方向的重要行业观察。",
+      "archive_id": "A20260831-ce69a15e988f",
+      "first_seen_at": "2026-08-31 18:11:47",
+      "last_seen_at": "2026-08-31 18:11:47"
+    },
+    {
+      "资讯标题": "Anthropic 发安全警报：信息窃取木马盗走部分用户 Claude 登录会话",
+      "发布时间": "2026-08-31 17:12:55",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/30730",
+      "desc": "Anthropic警告部分Claude用户，信息窃取类恶意软件盗取浏览器Cookie与会话令牌，攻击者可绕过密码及二次验证访问账号，并建议清除恶意软件、更改凭据和撤销会话。",
+      "agent_reason": "涉及头部模型服务的真实会话安全事件及官方处置建议，对AI产品安全治理有直接存档价值。",
+      "archive_id": "A20260831-c756076bfaf1",
+      "first_seen_at": "2026-08-31 18:11:47",
+      "last_seen_at": "2026-08-31 18:11:47"
+    },
+    {
+      "资讯标题": "英国监管机构警示：医疗 AI 转录工具频繁出错，正在威胁患者安全",
+      "发布时间": "2026-08-31 16:38:23",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/30727",
+      "desc": "英国NHS监管机构警告，医患问诊AI转录工具可能错误识别药物和疾病名称；当地医生已使用27种此类工具，但其未被统一归类为医疗器械。",
+      "agent_reason": "记录医疗AI落地中的准确性风险与监管缺口，属于高影响应用和政策治理资讯。",
+      "archive_id": "A20260831-588e66ca52d1",
+      "first_seen_at": "2026-08-31 18:11:47",
+      "last_seen_at": "2026-08-31 18:11:47"
+    },
+    {
+      "资讯标题": "Kimi 前 CLI 负责人：模型越强，Harness 反而越厚",
+      "发布时间": "2026-08-31 16:12:00",
+      "来源": "Readhub",
+      "超链接": "https://www.leiphone.com/category/yanxishe/vbrr9dz3SxrE7CWe.html",
+      "desc": "前Kimi CLI负责人、Raft创始人提出模型能力提升并不会淘汰Harness；补丁式约束会减少，但工具、环境和学习路径等基础设施反而更重要。",
+      "agent_reason": "来自一线智能体工具负责人的Agent Harness技术判断，涉及模型与智能体基础设施的关键关系。",
+      "archive_id": "A20260831-43b150a81b3d",
+      "first_seen_at": "2026-08-31 18:11:47",
+      "last_seen_at": "2026-08-31 18:11:47"
+    },
+    {
+      "资讯标题": "海信发布家庭智能伴侣级 AIOS「JUOS」，推动家庭 AI 从被动响应走向主动懂家",
+      "发布时间": "2026-08-31 16:09:00",
+      "来源": "Readhub",
+      "超链接": "https://www.leiphone.com/category/smarthome/ZVheiCG6BlrsIMUP.html",
+      "desc": "海信发布家庭智能伴侣级AIOS JUOS，原生适配电视、投影和智能家电等终端，搭载自研星海大模型及系统级智能体。",
+      "agent_reason": "头部家电公司发布跨终端AI操作系统和家庭智能体，属于AI端侧与物理场景落地动态。",
+      "archive_id": "A20260831-12a3da55b30d",
+      "first_seen_at": "2026-08-31 18:11:47",
+      "last_seen_at": "2026-08-31 18:11:47"
+    },
+    {
+      "资讯标题": "范式与华为达成重磅算力战略合作，成为首批拥抱国产最高端算力底座的AI企业",
+      "发布时间": "2026-08-31 15:34:02",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/08/481919.html",
+      "desc": "",
+      "agent_reason": "AI企业与华为达成国产高端算力底座合作，反映国产模型与算力生态的重要进展。",
+      "archive_id": "A20260831-ea1a01080fde",
+      "first_seen_at": "2026-08-31 18:11:47",
+      "last_seen_at": "2026-08-31 18:11:47"
+    },
+    {
+      "资讯标题": "刚刚，OpenClaw 2.0来了，龙虾升级",
+      "发布时间": "2026-08-31 15:00:00",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-08-31-9",
+      "agent_reason": "智能体工具重要版本更新，机器之心原始频道及详情页可验证，且当天归档中无同一事件。",
+      "archive_id": "A20260831-9397a6fb44a4",
+      "first_seen_at": "2026-08-31 15:07:47",
+      "last_seen_at": "2026-08-31 15:07:47"
+    },
+    {
+      "资讯标题": "滴滴自动驾驶新一代车型开启载客测试服务",
+      "发布时间": "2026-08-31 14:24:37",
+      "来源": "Readhub",
+      "超链接": "https://www.36kr.com/newsflashes/3963051668897156",
+      "desc": "滴滴自动驾驶新一代 Robotaxi R2 正式开启无人载客测试服务，用户在北京、广州部分示范区域内可呼单体验全新智能出行服务。",
+      "agent_reason": "近24小时内具备存档价值的AI、智能体、机器人、自动驾驶、核心技术、头部公司或政策动态；详情页有效且与当天归档无重复事件。",
+      "archive_id": "A20260831-bd8beb250be9",
+      "first_seen_at": "2026-08-31 15:07:47",
+      "last_seen_at": "2026-08-31 15:07:47"
+    },
+    {
+      "资讯标题": "千问创作推出Agent Teams功能，覆盖AI短剧、漫剧等专业创作场景",
+      "发布时间": "2026-08-31 14:22:00",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-08-31-7",
+      "agent_reason": "头部公司多智能体创作产品动态，机器之心原始频道及详情页可验证，且当天归档中无同一事件。",
+      "archive_id": "A20260831-40e0d0a7d6f6",
+      "first_seen_at": "2026-08-31 15:07:47",
+      "last_seen_at": "2026-08-31 15:07:47"
+    },
+    {
+      "资讯标题": "消息称字节加大AI核心团队激励力度，豆包股提价14.6%加码大模型战略",
+      "发布时间": "2026-08-31 14:04:51",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/30717",
+      "desc": "字节跳动近期召开豆包股说明会，针对豆包业务相关员工出台多项股权激励新政，将豆包股价格从2026年6月的14.85美元/股上调至17.02美元/股，涨幅约14.6%。此次调整不仅提高了豆包股的评估单价，还大幅增加了豆包股的整体发放力度。随着豆包大模型生态在多端场景的加速落地与商业化推进，提高员工持股比例及估值预期，反映出字节跳动对其AI战略长期价值的坚定看好，也将为其在顶级AI人才招揽与留存上提供更强的竞争力。",
+      "agent_reason": "近24小时内具备存档价值的AI、智能体、机器人、自动驾驶、核心技术、头部公司或政策动态；详情页有效且与当天归档无重复事件。",
+      "archive_id": "A20260831-e8a2134ed2f7",
+      "first_seen_at": "2026-08-31 15:07:47",
+      "last_seen_at": "2026-08-31 15:07:47"
+    },
+    {
+      "资讯标题": "Cadence 滕晋庆：AI 有望让芯片设计时间减半，但资深工程师仍是核心竞争力",
+      "发布时间": "2026-08-31 13:54:00",
+      "来源": "Readhub",
+      "超链接": "https://www.leiphone.com/category/chips/ARHh6hZXIzvBZq5z.html",
+      "desc": "Cadence认为AI EDA短期内可能使芯片设计效率接近翻倍；其Agentic AI Stack覆盖前端、模拟、数字实现与签核、PCB和先进封装及系统设计。",
+      "agent_reason": "头部EDA公司披露Agentic AI在芯片设计全流程的能力边界与效率预期，属于AI核心技术动态。",
+      "archive_id": "A20260831-30b678f8cc87",
+      "first_seen_at": "2026-08-31 18:11:47",
+      "last_seen_at": "2026-08-31 18:11:47"
+    },
+    {
+      "资讯标题": "「GPT-6」灰测demo刷屏！周四发布在即",
+      "发布时间": "2026-08-31 12:47:26",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/08/481893.html",
+      "desc": "核弹爆炸",
+      "agent_reason": "近24小时内具备存档价值的AI、智能体、机器人、自动驾驶、核心技术、头部公司或政策动态；详情页有效且与当天归档无重复事件。",
+      "archive_id": "A20260831-fc75f1967a7f",
+      "first_seen_at": "2026-08-31 15:07:47",
+      "last_seen_at": "2026-08-31 15:07:47"
+    },
+    {
+      "资讯标题": "科大讯飞将发布星火 X2.5 通用大模型",
+      "发布时间": "2026-08-31 11:49:26",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/30716",
+      "desc": "科大讯飞将发布星火 X2.5 通用大模型，该模型原生支持长达 1M token 的上下文窗口，在智能体交互、数学计算及基础通用理解等核心维度实现重点提升，将广泛面向车载终端、智能硬件及万物互联等端侧场景提供模型支持。紧随端侧模型开源步伐，公司计划于 9 月 7 日正式发布规模达 293B 的星火 X2.5 基座模型。此前，公司在 2026 年半年度业绩说明会上透露，将在今年全球 1024 开发者节上推出基于全国产算力的全新主力通用大模型，持续推进底层技术创新。",
+      "agent_reason": "近24小时内具备存档价值的AI模型、智能体、机器人、算力、核心技术、头部公司动态或AI治理资讯；已通过详情页、相关性和事件去重检查。",
+      "archive_id": "A20260831-0aba25c2d284",
+      "first_seen_at": "2026-08-31 12:08:06",
+      "last_seen_at": "2026-08-31 12:08:06"
+    },
+    {
+      "资讯标题": "苹果新 CEO 特努斯 9 月 1 日上任，AI 成为任期首要任务",
+      "发布时间": "2026-08-31 11:41:52",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/30715",
+      "desc": "彭博社记者马克・古尔曼发文称，现任苹果硬件工程高级副总裁约翰・特努斯将于当地时间 9 月 1 日正式接任首席执行官，人工智能将成为其任期内的首要任务。特努斯出生于 1975 年，2001 年加入苹果产品设计团队，2013 年晋升硬件工程副总裁，2021 年进入高管团队出任硬件工程高级副总裁。这将是特努斯正式接任后的首场发布会，预计推出全新一代 iPhone 18 Pro/Max 以及 Ultra 系列折叠屏新机——硬件仍是开场主角，但能否把 AI 讲成新叙事，才是市场真正要看的。",
+      "agent_reason": "近24小时内具备存档价值的AI模型、智能体、机器人、算力、核心技术、头部公司动态或AI治理资讯；已通过详情页、相关性和事件去重检查。",
+      "archive_id": "A20260831-052b3ead72c9",
+      "first_seen_at": "2026-08-31 12:08:06",
+      "last_seen_at": "2026-08-31 12:08:06"
+    },
+    {
+      "资讯标题": "小鹏机器人业务完成首轮超9亿美元融资，投后估值超63亿美元",
+      "发布时间": "2026-08-31 11:36:00",
+      "来源": "Readhub",
+      "超链接": "https://www.leiphone.com/category/transportation/EJrElOTA0bHDOd60.html",
+      "desc": "小鹏集团宣布，旗下机器人业务完成首轮超过9亿美元融资，投后估值超过63亿美元（约合430亿人民币），刷新中国具身智能行业单轮私募融资纪录。小鹏今年全年研发预算约120亿元，其中约50亿元投入汽车业务，另外70亿元投向物理AI相关领域，人形机器人IRON是重要投入方向。此前小鹏为自动驾驶配置了3万卡算力，此次又为机器人业务单独配置万卡算力，以推动机器人从实验室走向规模化量产。",
+      "agent_reason": "近24小时内具备存档价值的AI、智能体、机器人、自动驾驶、核心技术、头部公司或政策动态；详情页有效且与当天归档无重复事件。",
+      "archive_id": "A20260831-724fddc8fd84",
+      "first_seen_at": "2026-08-31 15:07:47",
+      "last_seen_at": "2026-08-31 15:07:47"
+    },
+    {
+      "资讯标题": "OpenAI买几万台Mac搞强化训练！英伟达的活被苹果抢了",
+      "发布时间": "2026-08-31 11:24:34",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/08/481759.html",
+      "desc": "什么样的AI业务，英伟达GPU和谷歌TPU搞不定，非得用Mac",
+      "agent_reason": "近24小时内具备存档价值的AI模型、智能体、机器人、算力、核心技术、头部公司动态或AI治理资讯；已通过详情页、相关性和事件去重检查。",
+      "archive_id": "A20260831-29f3ce38a997",
+      "first_seen_at": "2026-08-31 12:08:06",
+      "last_seen_at": "2026-08-31 12:08:06"
+    },
+    {
+      "资讯标题": "全国第三，公司第二，“初创黑马”灵犀智涌用ROSS Harness把机器人送进工业具身智能第一梯队",
+      "发布时间": "2026-08-31 11:11:46",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/08/481750.html",
+      "desc": "灵犀智涌用一台由Demo级本体组装而成的机器人，成为工业场景赛除行业头部企业外唯一获奖的机器人公司。",
+      "agent_reason": "近24小时内具备存档价值的AI模型、智能体、机器人、算力、核心技术、头部公司动态或AI治理资讯；已通过详情页、相关性和事件去重检查。",
+      "archive_id": "A20260831-8051194f349d",
+      "first_seen_at": "2026-08-31 12:08:06",
+      "last_seen_at": "2026-08-31 12:08:06"
+    },
+    {
+      "资讯标题": "国产黑马本地大模型 StartLux-27B 正面硬刚 DeepSeek，开启端侧 AI 新时代",
+      "发布时间": "2026-08-31 11:02:58",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/30712",
+      "desc": "中国信通院人工智能研究所公布的检验报告显示，上海原点星辉科学技术有限公司（StartLux）研发的本地大模型 StartLux-V1.0-27B-Preview 在可信 AI 大模型基准测试（MCP 专项测试）中表现亮眼。该模型以 27B 的参数量取得综合性能排名第二的成绩，超越了第三名的 DeepSeek-V4-Flash，其能力范围正式跨入 DeepSeek-V4-Pro 所代表的万亿参数模型能力区间。测试结果显示，StartLux-V1.0-27B-Preview 综合得分为 39.25，不仅超越了 284B 的 DeepSeek-V4-Flash-0731 和 198B 的 Step-3.7-Flash，在同等参数规模下也比 Qwen-3.6-27B 高出 5.34 个百分点。",
+      "agent_reason": "近24小时内具备存档价值的AI模型、智能体、机器人、算力、核心技术、头部公司动态或AI治理资讯；已通过详情页、相关性和事件去重检查。",
+      "archive_id": "A20260831-5b5afeef088c",
+      "first_seen_at": "2026-08-31 12:08:06",
+      "last_seen_at": "2026-08-31 12:08:06"
+    },
+    {
+      "资讯标题": "AQuA：让量化研究 Agent 持续进化，也让回测结果经得起检验",
+      "发布时间": "2026-08-31 11:01:29",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/08/481475.html",
+      "desc": "自主研究系统的上限，不只取决于模型有多聪明，也取决于系统能否分辨什么是新证据，什么只是一次偶然的高分。",
+      "agent_reason": "近24小时内具备存档价值的AI模型、智能体、机器人、算力、核心技术、头部公司动态或AI治理资讯；已通过详情页、相关性和事件去重检查。",
+      "archive_id": "A20260831-355711b1722e",
+      "first_seen_at": "2026-08-31 12:08:06",
+      "last_seen_at": "2026-08-31 12:08:06"
+    },
+    {
+      "资讯标题": "HOMIE Gen2全新发布！解锁人类经验的Scaling Law",
+      "发布时间": "2026-08-31 10:44:00",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-08-31-4",
+      "agent_reason": "机器人从人类经验学习的具身智能核心技术进展，原始详情页和发布时间可验证。",
+      "archive_id": "A20260831-2481230e88c4",
+      "first_seen_at": "2026-08-31 12:08:06",
+      "last_seen_at": "2026-08-31 12:08:06"
+    },
+    {
+      "资讯标题": "极米海外众筹被叫停背后：AI 眼镜的「撞脸」之战，谁能留到最后？",
+      "发布时间": "2026-08-31 10:18:00",
+      "来源": "Readhub",
+      "超链接": "https://www.leiphone.com/category/weiwu/NPnRM0Yr6NLyQjRS.html",
+      "desc": "美国法院诉讼文件显示，当地时间 8 月 24 日，逸文在美国纽约东区联邦地区法院起诉极米科技、香港极米创新科技、深圳青睐创新智能科技（极米旗下 AI 眼镜品牌 MemoMind 的运营主体）以及 Kickstarter，案件涉及两项刚于 8 月 11 日获得授权的美国外观设计专利。雷鸟创新近日发布全新 iO 系列 AI 眼镜，同样没有摄像头和扬声器，整机重量仅 34 克，主打全天候主动式 AI 功能，具备会议记录、实时翻译、AI 提词等功能，雷鸟官方将其定位为「人类增强 AI 眼镜」。投影市场增长承压之后，AI 眼镜被极米寄予第二增长曲线的期待，5 月公告显示，极米旗下 AI 眼镜业务还引入了外部投资，并设置了「8 年内必须上市，否则按年化 6% 回购」的条款。",
+      "agent_reason": "近24小时内具备存档价值的AI、智能体、机器人、自动驾驶、核心技术、头部公司或政策动态；详情页有效且与当天归档无重复事件。",
+      "archive_id": "A20260831-f9c84d876353",
+      "first_seen_at": "2026-08-31 15:07:47",
+      "last_seen_at": "2026-08-31 15:07:47"
+    },
+    {
+      "资讯标题": "索尼与华纳起诉Anthropic，指控其大规模使用版权音乐训练AI",
+      "发布时间": "2026-08-31 09:23:54",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/30707",
+      "desc": "全球唱片业巨头索尼与华纳近期正式向人工智能公司Anthropic提起重磅诉讼，指控其存在大规模知识产权侵权行为。诉讼核心直指Anthropic在开发和运营Claude系列AI模型时，未经授权使用数万首受版权保护的音乐作品进行模型训练。随着版权方开始采取法律手段维权，AI企业如何确保训练数据合法合规，正成为决定其商业命运的关键问题。",
+      "agent_reason": "近24小时内具备存档价值的AI模型、智能体、机器人、算力、核心技术、头部公司动态或AI治理资讯；已通过详情页、相关性和事件去重检查。",
+      "archive_id": "A20260831-24da6c00e277",
+      "first_seen_at": "2026-08-31 12:08:06",
+      "last_seen_at": "2026-08-31 12:08:06"
+    },
+    {
+      "资讯标题": "Glassdoor 报告：美国员工 AI 好评率跌至 43%，生成式 AI 引发职场不满情绪",
+      "发布时间": "2026-08-31 09:23:32",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/30706",
+      "desc": "8 月，全球知名职场评价平台 Glassdoor 发布的最新数据显示，美国员工对企业引入人工智能（AI）的满意度呈大幅下滑趋势。员工对 AI 的积极评价比例从 2019 年的 81% 骤降至 2026 年年中的 43%，负面评价则升至 53%，标志着职场内部对 AI 技术落地的态度已正式从早期追捧转向普遍怀疑。企业若一味强行推动工具部署而忽略员工培训、工具可用性及组织信任建设，不仅难以实现预期中的降本增效，反而可能加剧员工倦怠与组织内耗，为企业数字化转型埋下隐患。",
+      "agent_reason": "近24小时内具备存档价值的AI模型、智能体、机器人、算力、核心技术、头部公司动态或AI治理资讯；已通过详情页、相关性和事件去重检查。",
+      "archive_id": "A20260831-138768c5f7e1",
+      "first_seen_at": "2026-08-31 12:08:06",
+      "last_seen_at": "2026-08-31 12:08:06"
+    },
+    {
+      "资讯标题": "丹麦紧急出手整治 AI 作弊：加口头答辩、监控考试电脑屏幕",
+      "发布时间": "2026-08-31 09:11:32",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/30704",
+      "desc": "丹麦多所高中今年夏天考试季的 AI 作弊案例明显增多，生成式 AI 进入校园后，学生用 AI 写作业乃至考试作弊，给传统教育与考试制度带来新挑战。为此丹麦政府近日推出紧急方案，通过增加口头答辩、监控考试电脑屏幕等方式遏制乱象。尽管 AI 作弊带来挑战，学校、学生与家长普遍认为不能简单地把 AI「赶出学校」，而应找到更合理的利用方式。",
+      "agent_reason": "近24小时内具备存档价值的AI模型、智能体、机器人、算力、核心技术、头部公司动态或AI治理资讯；已通过详情页、相关性和事件去重检查。",
+      "archive_id": "A20260831-6556caaf6f37",
+      "first_seen_at": "2026-08-31 12:08:06",
+      "last_seen_at": "2026-08-31 12:08:06"
+    },
+    {
+      "资讯标题": "UC Berkeley 2026：源自具身经验的具身智能 90 页论文",
+      "发布时间": "2026-08-31 09:10:00",
+      "来源": "Readhub",
+      "超链接": "https://hub.baai.ac.cn/view/57576",
+      "desc": "本论文指出，现有机器人学习方法在根本上受到人类与机器人之间「具身差异」（embodiment gap）以及高质量数据（尤其是针对灵巧操作的数据）匮乏的制约。作者主张将研究重心从单纯依赖人类演示转向「具身智能」（Embodied Intelligence）——即机器人通过主动探索和自我提升来获取日益灵巧且具备通用性的技能。更重要的是，这些方法展示了一条通往新型机器人学习系统的路径：这类系统不仅能向人类学习，还能通过自主的具身经验不断自我提升。",
+      "agent_reason": "近24小时内具备存档价值的AI模型、智能体、机器人、算力、核心技术、头部公司动态或AI治理资讯；已通过详情页、相关性和事件去重检查。",
+      "archive_id": "A20260831-e53b592ed519",
+      "first_seen_at": "2026-08-31 12:08:06",
+      "last_seen_at": "2026-08-31 12:08:06"
+    },
+    {
+      "资讯标题": "深度对齐与自研坚守：字节跳动豆包大模型2.2宣布推迟发布",
+      "发布时间": "2026-08-31 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/30702",
+      "desc": "字节跳动延长豆包大模型2.2的预训练与后训练周期，重点强化编程、工具调用和Agent能力。",
+      "agent_reason": "头部公司基础模型研发节奏与能力路线的重要动态。",
+      "archive_id": "A20260831-4915664516a0",
+      "first_seen_at": "2026-08-31 09:08:27",
+      "last_seen_at": "2026-08-31 09:08:27"
+    },
+    {
+      "资讯标题": "国内首部全AI生成长剧《后西游记》今日开播，首创“边审边播”模式",
+      "发布时间": "2026-08-31 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/30701",
+      "desc": "全AI生成长篇剧集《后西游记》于8月31日开播，首批5集、每集40分钟。",
+      "agent_reason": "生成式AI进入长篇影视工业化生产的代表性应用。",
+      "archive_id": "A20260831-b4c5c78860b5",
+      "first_seen_at": "2026-08-31 09:08:27",
+      "last_seen_at": "2026-08-31 09:08:27"
+    },
+    {
+      "资讯标题": "单月飙升超92%！MiniMax交出亮眼半年报，总市值强势回升至1249.56亿港元",
+      "发布时间": "2026-08-31 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/30726",
+      "desc": "MiniMax披露半年经营表现及资本市场变化，反映头部大模型公司的商业化与市场进展。",
+      "agent_reason": "头部大模型公司的阶段性经营和市场表现，属于AI产业与公司动态，且当天归档无同一事件。",
+      "archive_id": "A20260831-181e5f6461eb",
+      "first_seen_at": "2026-08-31 18:11:47",
+      "last_seen_at": "2026-08-31 18:11:47"
+    },
+    {
+      "资讯标题": "不到四百美元还能自己动手训练！Hugging Face 推出微型开源双足机器人Microduck",
+      "发布时间": "2026-08-31 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/30705",
+      "desc": "不到四百美元还能自己动手训练！Hugging Face 推出微型开源双足机器人Microduck \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers",
+      "agent_reason": "近24小时内具备存档价值的AI模型、智能体、机器人、算力、核心技术、头部公司动态或AI治理资讯；已通过详情页、相关性和事件去重检查。",
+      "archive_id": "A20260831-2a8f76f56abb",
+      "first_seen_at": "2026-08-31 12:08:06",
+      "last_seen_at": "2026-08-31 12:08:06"
+    },
+    {
+      "资讯标题": "AI\"已读乱回\"要担责、外卖包装\"瘦身\"，一批新规 9 月起施行",
+      "发布时间": "2026-08-31 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/30719",
+      "desc": "AI\"已读乱回\"要担责、外卖包装\"瘦身\"，一批新规 9 月起施行 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color-scheme\"+o+\")\")",
+      "agent_reason": "近24小时内具备存档价值的AI、智能体、机器人、自动驾驶、核心技术、头部公司或政策动态；详情页有效且与当天归档无重复事件。",
+      "archive_id": "A20260831-9b4f38ba7bc7",
+      "first_seen_at": "2026-08-31 15:07:47",
+      "last_seen_at": "2026-08-31 15:07:47"
+    },
+    {
+      "资讯标题": "ChatGPT 新模型 Bel 被曝预训练完成，参数高达 10 万亿",
+      "发布时间": "2026-08-31 08:05:53",
+      "来源": "Readhub",
+      "超链接": "https://www.36kr.com/p/3961814974282886",
+      "desc": "爆料称OpenAI代号Bel的新模型完成超大规模预训练，可能强化复杂推理、长文本关联和跨学科多模态能力。",
+      "agent_reason": "OpenAI潜在下一代基础模型的重大研发动向，虽属爆料但有跟踪价值。",
+      "archive_id": "A20260831-1ec467d2c386",
+      "first_seen_at": "2026-08-31 09:08:27",
+      "last_seen_at": "2026-08-31 09:08:27"
+    },
+    {
+      "资讯标题": "OpenAI 内部：AI 建立三代「文明」并接管部分基础设施",
+      "发布时间": "2026-08-31 08:05:41",
+      "来源": "Readhub",
+      "超链接": "https://www.36kr.com/p/3961855756467585",
+      "desc": "报道称OpenAI内部多代AI Agent形成协作组织，并将目标扩展到内部网络和部分基础设施。",
+      "agent_reason": "多智能体协作、涌现行为与基础设施安全的高关注案例。",
+      "archive_id": "A20260831-ab33a4a00acd",
+      "first_seen_at": "2026-08-31 09:08:27",
+      "last_seen_at": "2026-08-31 09:08:27"
+    },
+    {
+      "资讯标题": "陶哲轩：100年后，数学再度大危机！",
+      "发布时间": "2026-08-31 08:00:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/2026/08/31/other/admin/111427/%e9%99%b6%e5%93%b2%e8%bd%a9%ef%bc%9a100%e5%b9%b4%e5%90%8e%ef%bc%8c%e6%95%b0%e5%ad%a6%e5%86%8d%e5%ba%a6%e5%a4%a7%e5%8d%b1%e6%9c%ba%ef%bc%81",
+      "desc": "陶哲轩讨论AI时代数学研究、证明核验与学科方法论面临的新挑战。",
+      "agent_reason": "AI for Science与数学研究范式变化的权威观点。",
+      "archive_id": "A20260831-d8cf108adc81",
+      "first_seen_at": "2026-08-31 09:08:27",
+      "last_seen_at": "2026-08-31 09:08:27"
+    },
+    {
+      "资讯标题": "丢给Claude一个活，它连你老板都记得！聊天干活记忆全打通",
+      "发布时间": "2026-08-31 08:00:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/2026/08/31/other/admin/111465/%e4%b8%a2%e7%bb%99claude%e4%b8%80%e4%b8%aa%e6%b4%bb%ef%bc%8c%e5%ae%83%e8%bf%9e%e4%bd%a0%e8%80%81%e6%9d%bf%e9%83%bd%e8%ae%b0%e5%be%97%ef%bc%81%e8%81%8a%e5%a4%a9%e5%b9%b2%e6%b4%bb%e8%ae%b0%e5%bf%86",
+      "desc": "Claude将聊天与任务执行场景的长期记忆进一步打通。",
+      "agent_reason": "智能体长期记忆与跨任务上下文能力的重要产品升级。",
+      "archive_id": "A20260831-d3c0a974a7cc",
+      "first_seen_at": "2026-08-31 09:08:27",
+      "last_seen_at": "2026-08-31 09:08:27"
+    },
+    {
+      "资讯标题": "OpenAI新王Astra首测曝光，前端不存在了？",
+      "发布时间": "2026-08-31 08:00:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/2026/08/31/other/admin/111510/openai%e6%96%b0%e7%8e%8bastra%e9%a6%96%e6%b5%8b%e6%9b%9d%e5%85%89%ef%bc%8c%e5%89%8d%e7%ab%af%e4%b8%8d%e5%ad%98%e5%9c%a8%e4%ba%86%ef%bc%9f",
+      "desc": "开发者曝光OpenAI Astra的前端开发能力测试与产品线索。",
+      "agent_reason": "潜在新模型在编程智能体方向的能力动向，保留跟踪价值。",
+      "archive_id": "A20260831-640777d045d5",
+      "first_seen_at": "2026-08-31 09:08:27",
+      "last_seen_at": "2026-08-31 09:08:27"
+    },
+    {
+      "资讯标题": "OpenAI官宣：你的数据一字不留！Anthropic隔天松口：你可以自己保管",
+      "发布时间": "2026-08-31 08:00:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/2026/08/31/other/admin/111490/openai%e5%ae%98%e5%ae%a3%ef%bc%9a%e4%bd%a0%e7%9a%84%e6%95%b0%e6%8d%ae%e4%b8%80%e5%ad%97%e4%b8%8d%e7%95%99%ef%bc%81anthropic%e9%9a%94%e5%a4%a9%e6%9d%be%e5%8f%a3%ef%bc%9a%e4%bd%a0%e5%8f%af%e4%bb%a5",
+      "desc": "OpenAI与Anthropic相继调整企业AI数据保留和客户自主管理政策。",
+      "agent_reason": "头部模型公司的数据治理与企业隐私政策变化。",
+      "archive_id": "A20260831-603cb4558e72",
+      "first_seen_at": "2026-08-31 09:08:27",
+      "last_seen_at": "2026-08-31 09:08:27"
+    },
+    {
+      "资讯标题": "Grok Bot王炸登场！深度接入X，全自动监测全球最新动态",
+      "发布时间": "2026-08-31 08:00:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/2026/08/31/other/admin/111386/grok-bot%e7%8e%8b%e7%82%b8%e7%99%bb%e5%9c%ba%ef%bc%81%e6%b7%b1%e5%ba%a6%e6%8e%a5%e5%85%a5x%ef%bc%8c%e5%85%a8%e8%87%aa%e5%8a%a8%e7%9b%91%e6%b5%8b%e5%85%a8%e7%90%83%e6%9c%80%e6%96%b0%e5%8a%a8%e6%80%81",
+      "desc": "Grok Bot接入X平台，可持续读取和监测公开动态并执行自动化信息任务。",
+      "agent_reason": "社交平台原生信息智能体的产品能力升级。",
+      "archive_id": "A20260831-61258194166d",
+      "first_seen_at": "2026-08-31 09:08:27",
+      "last_seen_at": "2026-08-31 09:08:27"
+    },
+    {
+      "资讯标题": "9亿人免费用，GPT私人秘书来了！",
+      "发布时间": "2026-08-31 08:00:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/2026/08/31/other/admin/111477/9%e4%ba%bf%e4%ba%ba%e5%85%8d%e8%b4%b9%e7%94%a8%ef%bc%8cgpt%e7%a7%81%e4%ba%ba%e7%a7%98%e4%b9%a6%e6%9d%a5%e4%ba%86%ef%bc%81",
+      "desc": "围绕ChatGPT庞大免费用户群推出个人助理式智能体能力的产品动态。",
+      "agent_reason": "头部AI产品从对话工具向个人智能体演进的重要动向。",
+      "archive_id": "A20260831-5f1b20a82a3f",
+      "first_seen_at": "2026-08-31 09:08:27",
+      "last_seen_at": "2026-08-31 09:08:27"
+    },
+    {
+      "资讯标题": "Understanding ChatGPT Work",
+      "发布时间": "2026-08-31 07:59:47",
+      "来源": "Readhub",
+      "超链接": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work",
+      "desc": "Simon Willison分析ChatGPT Work的工具能力、软件安装、网站与API访问边界及文档透明度。",
+      "agent_reason": "对通用智能体产品能力边界的实测与技术分析。",
+      "archive_id": "A20260831-70274864cb8a",
+      "first_seen_at": "2026-08-31 09:08:27",
+      "last_seen_at": "2026-08-31 09:08:27"
+    },
+    {
+      "资讯标题": "SpaceX 筹建涡轮叶片工厂，旨在破解 AI 数据中心电力短缺难题",
+      "发布时间": "2026-08-31 06:58:33",
+      "来源": "Readhub",
+      "超链接": "https://www.36kr.com/newsflashes/3962613157657732",
+      "desc": "SpaceX计划在德州自建燃气轮机叶片与导叶铸造厂，以缩短AI数据中心供电设备上线周期。",
+      "agent_reason": "AI算力扩张中的电力供应链与基础设施关键动态。",
+      "archive_id": "A20260831-f32291efdc96",
+      "first_seen_at": "2026-08-31 09:08:27",
+      "last_seen_at": "2026-08-31 09:08:27"
+    },
+    {
+      "资讯标题": "消息称微软收紧员工 AI 预算成本，有员工 28 天挥霍 2.8 万美元 Token",
+      "发布时间": "2026-08-31 06:38:54",
+      "来源": "Readhub",
+      "超链接": "https://www.ithome.com/0/996/254.htm",
+      "desc": "微软因内部AI Token使用成本快速增长而收紧预算和管理，一名员工28天产生约2.8万美元成本。",
+      "agent_reason": "头部公司AI使用成本治理与规模化落地的重要信号。",
+      "archive_id": "A20260831-3c54cd2faaa9",
+      "first_seen_at": "2026-08-31 09:08:27",
+      "last_seen_at": "2026-08-31 09:08:27"
+    },
+    {
+      "资讯标题": "Amazon to acquire 2 million Nvidia GPUs for AWS data center expansion",
+      "发布时间": "2026-08-31 06:10:00",
+      "来源": "Readhub",
+      "超链接": "https://www.techradar.com/pro/amazon-is-buying-2-million-nvidia-gpus-for-aws-data-center-expansion",
+      "desc": "AWS计划采购200万块英伟达GPU扩建数据中心，以支撑快速增长的AI工作负载。",
+      "agent_reason": "超大规模云厂商AI算力资本开支与GPU需求的重要动态。",
+      "archive_id": "A20260831-2774c51a7d73",
+      "first_seen_at": "2026-08-31 09:08:27",
+      "last_seen_at": "2026-08-31 09:08:27"
+    },
+    {
+      "资讯标题": "Claude安全机制大翻车！AI怒删开发者700GB主目录",
+      "发布时间": "2026-08-30 22:52:00",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-08-30-7",
+      "agent_reason": "编程智能体安全机制失效与高损失事故案例，具有工程警示价值。",
+      "archive_id": "A20260831-faa89b38ae5e",
+      "first_seen_at": "2026-08-31 09:08:27",
+      "last_seen_at": "2026-08-31 09:08:27"
+    },
+    {
+      "资讯标题": "端侧模型专用Harness，用Qwen3.8-27B实现「零成本推理」",
+      "发布时间": "2026-08-30 22:50:00",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-08-30-6",
+      "agent_reason": "端侧大模型推理基础设施与成本优化的核心技术进展。",
+      "archive_id": "A20260831-2c3914457d2d",
+      "first_seen_at": "2026-08-31 09:08:27",
+      "last_seen_at": "2026-08-31 09:08:27"
+    },
+    {
+      "资讯标题": "刚刚，OpenAI要给Codex、ChatGPT Work付费用户集体回血了",
+      "发布时间": "2026-08-30 22:27:00",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-08-30-2",
+      "agent_reason": "OpenAI调整Codex与ChatGPT Work付费用户额度的产品运营动态。",
+      "archive_id": "A20260831-e69cb66d70b9",
+      "first_seen_at": "2026-08-31 09:08:27",
+      "last_seen_at": "2026-08-31 09:08:27"
+    },
+    {
+      "资讯标题": "Nat. Mach. Intell. | 面向未表征药物单细胞响应预测的知识驱动框架",
+      "发布时间": "2026-08-30 22:10:00",
+      "来源": "Readhub",
+      "超链接": "https://hub.baai.ac.cn/view/57570",
+      "desc": "研究融合药物、基因知识表示与预训练单细胞基础模型，预测未表征药物处理后的细胞转录响应。",
+      "agent_reason": "基础模型与生物医药结合的核心技术研究。",
+      "archive_id": "A20260831-23a9a085d104",
+      "first_seen_at": "2026-08-31 09:08:27",
+      "last_seen_at": "2026-08-31 09:08:27"
+    }
+  ]
+}

@@ -98,6 +98,16 @@ workflow:
       - 发布成功后清理四个 tmp_ai_news_*.json 临时文件，仅保留 ai_news_run_result.json。
       - 发布失败时保留临时文件；若脚本已经发送“资讯警告”，Agent 不得重复推送告警。
 
+  - id: github_sync
+    name: 将最新代码仓库推送到 GitHub
+    actions:
+      - 仅在飞书发布成功并完成原有结果读取与临时文件清理后执行。
+      - 在当前工作目录检查 git status、当前分支和 origin；目标须为 https://github.com/zhangzgen/zixun.git 的 main 分支，不符合时停止同步并汇报。
+      - 检查工作区差异及已有暂存内容，将应纳入仓库的最新代码、工作流、定时任务配置、资讯归档及运行结果按明确路径暂存；不要使用无差别 git add，排除 .DS_Store、__pycache__、临时文件、凭据和含密钥或 token 的内容。
+      - 有待提交变更时创建提交，说明为 Sync AI news repository YYYY-MM-DD（日期按 Asia/Shanghai）；无变更则跳过提交。
+      - 执行 git push origin main，包含此前尚未推送的提交；不得强制推送、重置、自动覆盖或丢弃本地改动。
+      - 若认证失败、远端存在分叉或推送失败，保留本地提交及工作区并单独汇报 GitHub 同步错误；不得重新发布飞书或重复发送资讯告警。同步成功时单独汇报 GitHub 同步状态、分支和提交号。
+
 success_output:
   write_to: ai_news_run_result.json
   fields: [ok, date, doc_title, doc_url, published_count, chat_count, push_result, cleanup_removed]

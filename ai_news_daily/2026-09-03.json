@@ -1,0 +1,452 @@
+{
+  "version": 1,
+  "date": "2026-09-03",
+  "timezone": "Asia/Shanghai",
+  "updated_at": "2026-09-03 18:06:56",
+  "item_count": 37,
+  "runs": [
+    {
+      "collected_at": "2026-09-03 12:10:40",
+      "input_count": 22,
+      "added_count": 22,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "完整审阅79条候选、昨日39条归档，并通过浏览器核查三个零产出重要来源；保留模型、智能体、机器人、算力、核心技术、头部公司与AI政策资讯，剔除非AI、广告、搜索/频道壳、低价值、同事件及跨日重复，不限制TopK。本轮保留13条脚本候选并补充9条原始详情页。",
+      "source_status": {
+        "量子位": "ok:7",
+        "新智元": "ok:0;browser_checked;browser_supplement:4",
+        "AIBase": "ok:12",
+        "新华网科技": "ok:0;browser_checked;browser_supplement:4",
+        "机器之心": "ok:0;browser_checked;browser_supplement:1",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
+    },
+    {
+      "collected_at": "2026-09-03 15:10:35",
+      "input_count": 5,
+      "added_count": 5,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "完整审阅76条脚本候选、当天22条既有归档，并通过浏览器直接核查新智元、新华网科技和机器之心原始频道。保留5条新增的AI模型、智能体安全治理、算力芯片和头部公司动态；剔除非AI、广告或征集、搜索/频道页、字段异常、低价值、传闻及当天已归档或同事件重复内容，不限制TopK。",
+      "source_status": {
+        "量子位": "ok:4",
+        "新智元": "ok:0;browser_checked;current_items_already_archived_or_semantic_duplicates",
+        "AIBase": "ok:12",
+        "新华网科技": "ok:0;browser_checked;current_ai_items_already_archived_or_low_value",
+        "机器之心": "ok:0;browser_checked;browser_supplement:1",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
+    },
+    {
+      "collected_at": "2026-09-03 18:06:56",
+      "input_count": 10,
+      "added_count": 10,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "完整审阅75条候选及当天27条既有归档，并通过浏览器直接核查新智元、新华网科技和机器之心原始频道。保留10条近24小时内具备存档价值且未归档的模型、智能体、机器人、核心研究和头部公司动态，其中9条来自脚本候选、1条来自机器之心详情页；剔除非AI内容、活动宣传、传闻性内容、搜索/榜单链接、低价值条目及同事件或当天已归档重复，不限制TopK。",
+      "source_status": {
+        "量子位": "ok:3",
+        "新智元": "ok:0",
+        "AIBase": "ok:12",
+        "新华网科技": "ok:0",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
+    }
+  ],
+  "items": [
+    {
+      "资讯标题": "OpenAI Astra 发布在即，内部评测满分并发现零日漏洞",
+      "发布时间": "2026-09-03 17:30:00",
+      "来源": "Readhub",
+      "超链接": "https://hub.baai.ac.cn/view/57668",
+      "agent_reason": "头部模型的网络安全能力和发布动态，涉及自动化漏洞发现，具备模型能力与安全研究存档价值。",
+      "archive_id": "A20260903-fc65a9bfac7b",
+      "first_seen_at": "2026-09-03 18:06:56",
+      "last_seen_at": "2026-09-03 18:06:56"
+    },
+    {
+      "资讯标题": "OpenAI 宣布自研人形机器人，首款由乔纳森主导的 AI 终端拟于 2027 年发布",
+      "发布时间": "2026-09-03 17:24:00",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/30811",
+      "agent_reason": "OpenAI 的人形机器人与AI硬件规划属于头部公司和具身智能重要动态；已合并本轮同事件重复稿。",
+      "archive_id": "A20260903-b2ced2b76a70",
+      "first_seen_at": "2026-09-03 18:06:56",
+      "last_seen_at": "2026-09-03 18:06:56"
+    },
+    {
+      "资讯标题": "OpenAI 首席科学家回应「AI 推理不透明」争议：复杂度没出现跳跃式增长",
+      "发布时间": "2026-09-03 17:14:41",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/30810",
+      "agent_reason": "头部实验室对模型推理可解释性和复杂度的公开判断，具备核心技术与安全讨论存档价值。",
+      "archive_id": "A20260903-d5d6b8ca373a",
+      "first_seen_at": "2026-09-03 18:06:56",
+      "last_seen_at": "2026-09-03 18:06:56"
+    },
+    {
+      "资讯标题": "颜水成团队新作：Scaling Harness Intelligence",
+      "发布时间": "2026-09-03 16:40:00",
+      "来源": "Readhub",
+      "超链接": "https://hub.baai.ac.cn/view/57666",
+      "agent_reason": "聚焦智能体Harness能力扩展的研究进展，属于Agent工程与核心技术方向。",
+      "archive_id": "A20260903-9513fefdd17c",
+      "first_seen_at": "2026-09-03 18:06:56",
+      "last_seen_at": "2026-09-03 18:06:56"
+    },
+    {
+      "资讯标题": "黄仁勋在 G20 喊话：别对 AI 过度恐惧和监管，被时代抛下才是最坏结果",
+      "发布时间": "2026-09-03 15:58:07",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/30807",
+      "agent_reason": "英伟达负责人在G20对AI监管和产业竞争的公开立场，具备头部公司与政策讨论存档价值。",
+      "archive_id": "A20260903-044097c9308b",
+      "first_seen_at": "2026-09-03 18:06:56",
+      "last_seen_at": "2026-09-03 18:06:56"
+    },
+    {
+      "资讯标题": "从1000通到1.5万通，百融智能的「硅基客服」真正开始「上岗」",
+      "发布时间": "2026-09-03 15:16:00",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-09-03-8",
+      "agent_reason": "浏览器核验的机器之心原始详情页，记录企业级智能体客服从试点到规模化落地的产业进展。",
+      "archive_id": "A20260903-360282fe743c",
+      "first_seen_at": "2026-09-03 18:06:56",
+      "last_seen_at": "2026-09-03 18:06:56"
+    },
+    {
+      "资讯标题": "王光宇、刘晓鸿、吴松等团队提出基于大语言模型的生物医学知识抽取统一框架",
+      "发布时间": "2026-09-03 15:10:00",
+      "来源": "Readhub",
+      "超链接": "https://hub.baai.ac.cn/view/57663",
+      "agent_reason": "大语言模型在生物医学知识抽取中的统一框架研究，属于AI核心技术及科研应用进展。",
+      "archive_id": "A20260903-2ebad2a46ef6",
+      "first_seen_at": "2026-09-03 18:06:56",
+      "last_seen_at": "2026-09-03 18:06:56"
+    },
+    {
+      "资讯标题": "博通预测 Anthropic 与 OpenAI 将超越谷歌，成为 AI 定制芯片前两大客户",
+      "发布时间": "2026-09-03 14:04:23",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/30803",
+      "desc": "博通总裁陈福阳预测 Anthropic 与 OpenAI 将成为其 AI 定制芯片业务前两大客户，并披露 TPU 与 OpenAI 定制芯片交付进展。",
+      "agent_reason": "涉及头部模型公司的定制AI芯片供应格局和算力基础设施采购，具备产业存档价值。",
+      "archive_id": "A20260903-04eebdcb00a2",
+      "first_seen_at": "2026-09-03 15:10:35",
+      "last_seen_at": "2026-09-03 15:10:35"
+    },
+    {
+      "资讯标题": "AI 绩效评估从「用量」转向「产出」：Meta 弃用采用率仪表盘与 Token 指标",
+      "发布时间": "2026-09-03 14:04:18",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/30802",
+      "desc": "Meta 工程高管在内部备忘录中明确不会使用 AI 采用率仪表盘或 Token 用量评估员工影响力，评估重心转向实际产出。",
+      "agent_reason": "反映头部科技公司AI工具落地后的工程管理与绩效制度变化，具备行业观察价值。",
+      "archive_id": "A20260903-785cfc612b14",
+      "first_seen_at": "2026-09-03 15:10:35",
+      "last_seen_at": "2026-09-03 15:10:35"
+    },
+    {
+      "资讯标题": "斯坦福、MIT、CMU 等顶尖团队发布全球最大 AI 系统提示词数据库审计框架 AISPA",
+      "发布时间": "2026-09-03 13:30:00",
+      "来源": "Readhub",
+      "超链接": "https://hub.baai.ac.cn/view/57659",
+      "desc": "研究团队收集400多款AI产品的1000余个系统提示词，并提出以用户为中心的系统提示词审计框架 AISPA。",
+      "agent_reason": "属于智能体与大模型系统提示词安全治理的系统性研究，具备核心技术和治理存档价值。",
+      "archive_id": "A20260903-8c8d80dd5935",
+      "first_seen_at": "2026-09-03 15:10:35",
+      "last_seen_at": "2026-09-03 15:10:35"
+    },
+    {
+      "资讯标题": "RSI离我们有多远？这家中国团队给出了第一梯队的工程解",
+      "发布时间": "2026-09-03 13:21:00",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-09-03-6",
+      "agent_reason": "机器之心原始频道可验证的新增详情页，聚焦递归自我改进的前沿工程实现，具备智能体核心技术存档价值。",
+      "archive_id": "A20260903-eb25c333a737",
+      "first_seen_at": "2026-09-03 15:10:35",
+      "last_seen_at": "2026-09-03 15:10:35"
+    },
+    {
+      "资讯标题": "不扩上下文、不改模型，只靠一个 8×8 矩阵，大模型记忆力狂飙 1.3 倍",
+      "发布时间": "2026-09-03 11:50:00",
+      "来源": "Readhub",
+      "超链接": "https://hub.baai.ac.cn/view/57656",
+      "desc": "我们提出了一种轻量级记忆机制 ——δ-memory（δ-mem）：它在冻结的全注意力主干网络基础上，额外引入一个紧凑的、在线更新的联想记忆状态。仅需一个 8×8 尺寸的在线记忆状态，δ-mem 即可将平均任务得分提升至冻结主干网络的 1.10 倍，以及最强非 δ-mem 记忆基线方法的 1.15 倍。在对记忆能力要求更高的基准测试中，其增益更为显著：在 MemoryAgentBench 上达到 1.31 倍，在 LoCoMo 上达到 1.20 倍，同时基本保持了模型原有的通用能力。",
+      "agent_reason": "近24小时内具备存档价值的AI模型、智能体、机器人、算力、核心技术或头部公司动态；详情页有效，且已完成跨来源与跨日事件去重。",
+      "archive_id": "A20260903-f81ef27dee57",
+      "first_seen_at": "2026-09-03 12:10:40",
+      "last_seen_at": "2026-09-03 12:10:40"
+    },
+    {
+      "资讯标题": "一个模型场景通吃！它石智航AWE3.7的泛化能力有点狠",
+      "发布时间": "2026-09-03 11:16:43",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/09/483565.html",
+      "desc": "从工厂一路干到家庭",
+      "agent_reason": "近24小时内具备存档价值的AI模型、智能体、机器人、算力、核心技术或头部公司动态；详情页有效，且已完成跨来源与跨日事件去重。",
+      "archive_id": "A20260903-d437f4c2dc59",
+      "first_seen_at": "2026-09-03 12:10:40",
+      "last_seen_at": "2026-09-03 12:10:40"
+    },
+    {
+      "资讯标题": "他们想用 AI 发现不存在的物理学，然后用它去半人马座",
+      "发布时间": "2026-09-03 10:58:00",
+      "来源": "Readhub",
+      "超链接": "https://www.mittrchina.com/news/detail/16891",
+      "desc": "美国初创公司 Physical Superintelligence（PSI）计划用 AI 加速物理发现，认为未来五年物理学的变化将超过过去五十年。PSI 的野心不止于数据中心，其首个 AI 规划的星际探测任务“费米探索者”目标定在距离地球 4.37 光年外的半人马座阿尔法星。PSI 希望让二十一世纪文明跑在二十一世纪的物理学上，目前距离目标尚远，5800 万美元的融资在物理学尺度上不算多，但若成功，或许能重新点亮爱因斯坦和费米们照亮过的时代。",
+      "agent_reason": "近24小时内具备存档价值的AI模型、智能体、机器人、算力、核心技术或头部公司动态；详情页有效，且已完成跨来源与跨日事件去重。",
+      "archive_id": "A20260903-71229fdb9b3f",
+      "first_seen_at": "2026-09-03 12:10:40",
+      "last_seen_at": "2026-09-03 12:10:40"
+    },
+    {
+      "资讯标题": "全球首个通用决策大模型，AI推演现实世界的技术揭秘",
+      "发布时间": "2026-09-03 10:36:05",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-09-03-4",
+      "agent_reason": "通用决策模型与现实世界推演技术进展，机器之心原始详情页和发布时间已核验。",
+      "archive_id": "A20260903-6fd652631237",
+      "first_seen_at": "2026-09-03 12:10:40",
+      "last_seen_at": "2026-09-03 12:10:40"
+    },
+    {
+      "资讯标题": "清华团队创业押注机器人端侧自进化，已完成首轮融资",
+      "发布时间": "2026-09-03 10:27:00",
+      "来源": "Readhub",
+      "超链接": "https://www.mittrchina.com/news/detail/16890",
+      "desc": "彼时还在清华 AIR 做博士研究的李健雄，和团队讨论起另一个问题：如果机器人每遇到一个新任务，都要重新采数据、训练和适配，那么即使模型越来越强，它真的能够规模化部署吗？团队成员都曾在清华 AIR 学习或实习，过去几年围绕机器人学习、具身基础模型共同工作，能力覆盖预训练、后训练、世界模型、硬件、数据和测试等不同环节。他们希望机器人不只是像刚刚发布的 GEN-1.5 那样「看一遍就会」，还能够记住自己刚才做了什么，知道哪里做得好、哪里做得差，并利用这些 Context 在端侧持续调整。",
+      "agent_reason": "近24小时内具备存档价值的AI模型、智能体、机器人、算力、核心技术或头部公司动态；详情页有效，且已完成跨来源与跨日事件去重。",
+      "archive_id": "A20260903-24897fc4e3d6",
+      "first_seen_at": "2026-09-03 12:10:40",
+      "last_seen_at": "2026-09-03 12:10:40"
+    },
+    {
+      "资讯标题": "司法部首次就 AI 版权公开表态：力挺 OpenAI，主张 AI 训练属「合理使用」",
+      "发布时间": "2026-09-03 10:23:00",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/30798",
+      "desc": "美国司法部（DOJ）当地时间 9 月 1 日向曼哈顿联邦法院提交了一份「利益声明」，正式介入《纽约时报》诉 OpenAI 版权侵权案，明确支持 OpenAI 的立场，主张 AI 公司使用受版权保护的材料训练大语言模型属于「合理使用」，不构成版权侵权。DOJ 首先从国家安全角度论证支持 OpenAI 的必要性，认为如果版权规则显著增加在美国开发大语言模型的难度，可能损害美国 AI 产业竞争力并带来国家安全风险。司法部还引用了特朗普关于「消除美国在 AI 领域领导地位障碍」的行政命令，称 AI 主导地位对「促进国家安全、繁荣和全体美国人的经济流动性」至关重要。",
+      "agent_reason": "近24小时内具备存档价值的AI模型、智能体、机器人、算力、核心技术或头部公司动态；详情页有效，且已完成跨来源与跨日事件去重。",
+      "archive_id": "A20260903-a7c8f3891fa9",
+      "first_seen_at": "2026-09-03 12:10:40",
+      "last_seen_at": "2026-09-03 12:10:40"
+    },
+    {
+      "资讯标题": "Runway 发布首个「界面世界模型」Solaris，UI 可自动生成",
+      "发布时间": "2026-09-03 10:10:00",
+      "来源": "Readhub",
+      "超链接": "https://hub.baai.ac.cn/view/57643",
+      "desc": "Runway 正式发布首个「界面世界模型」——Solaris。该模型要求将意图理解与连续交互世界生成合二为一，既能理解用户意图，又能围绕该意图连续绘制出可交互的世界。在「界面世界模型」框架下，软件不再局限于静态预设目录，一种新型交互界面由此诞生。",
+      "agent_reason": "近24小时内具备存档价值的AI模型、智能体、机器人、算力、核心技术或头部公司动态；详情页有效，且已完成跨来源与跨日事件去重。",
+      "archive_id": "A20260903-2ecf23ec4416",
+      "first_seen_at": "2026-09-03 12:10:40",
+      "last_seen_at": "2026-09-03 12:10:40"
+    },
+    {
+      "资讯标题": "Meta 发布最强 AI 模型 Muse Spark 1.3：编码能力超越 GPT-5.6 Sol，价格不变",
+      "发布时间": "2026-09-03 10:06:16",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/30796",
+      "desc": "Meta Platforms 于 2026 年 9 月 2 日发布迄今最强 AI 模型 Muse Spark 1.3，专为延长智能体工作流与增强编码能力而设计。Meta 首席 AI 官 Alexandr Wang 表示，该模型在编码能力上超越 OpenAI 的 GPT-5.6 Sol，与 Anthropic 的 Claude Fable 5.1 表现持平。相比 Muse Spark 1.2，1.3 版本减少了不必要的代码迭代，代码更简洁，整体编码风格也更加清晰：工具调用次数减少约 20%，完成相同任务所需 token 减少 25%。",
+      "agent_reason": "近24小时内具备存档价值的AI模型、智能体、机器人、算力、核心技术或头部公司动态；详情页有效，且已完成跨来源与跨日事件去重。",
+      "archive_id": "A20260903-0a9380d0d6ea",
+      "first_seen_at": "2026-09-03 12:10:40",
+      "last_seen_at": "2026-09-03 12:10:40"
+    },
+    {
+      "资讯标题": "月之暗面秘密递交港交所 A1 文件，启动 IPO 并以 500 亿美元估值寻融资",
+      "发布时间": "2026-09-03 09:58:40",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/30795",
+      "desc": "AI 独角兽月之暗面（Kimi）已于本周以保密形式向港交所递交 A1 文件，正式启动港股上市流程，并同步以 500 亿美元投前估值推进 IPO 前最后一轮融资。在模型快速迭代与商业化提速的双重驱动下，Kimi 资本动作显著加快，今年以来相继推出 K2.5、K2.6 及 K3 模型，几乎保持每三个月迭代一次的节奏。其 ARR（年度经常性收入）从今年 3 月初突破 1 亿美元快速攀升至 6 月中旬的 3 亿美元，推动公司估值从 2025 年底的 43 亿美元翻倍增长至 7 月完成融资后的 350 亿美元，半年多时间内增长约 8 倍。",
+      "agent_reason": "近24小时内具备存档价值的AI模型、智能体、机器人、算力、核心技术或头部公司动态；详情页有效，且已完成跨来源与跨日事件去重。",
+      "archive_id": "A20260903-bff849bf16ed",
+      "first_seen_at": "2026-09-03 12:10:40",
+      "last_seen_at": "2026-09-03 12:10:40"
+    },
+    {
+      "资讯标题": "AI 提前 9.24 小时「听见」太阳风暴前兆：新模型从声波与磁场变化中捕捉预警信号",
+      "发布时间": "2026-09-03 09:43:23",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/30793",
+      "desc": "由美国新泽西理工学院（NJIT）牵头的科研团队发布最新研究，成功打造出机器学习模型 EarlyDetect，可从太阳的声学活动和磁场变化中识别活动区形成前兆。HMI 记录的太阳振动观测时间间隔为 45 秒，研究团队据此生成声学功率图，再与磁场测量结果结合，预测连续强度变化。研究人员以太阳活动区 AR11158 的形成过程作为可视化案例，同时观察太阳磁场、连续强度和声学功率，并把目标区域划分为更小的区块持续追踪变化。",
+      "agent_reason": "近24小时内具备存档价值的AI模型、智能体、机器人、算力、核心技术或头部公司动态；详情页有效，且已完成跨来源与跨日事件去重。",
+      "archive_id": "A20260903-51c04e3e3c07",
+      "first_seen_at": "2026-09-03 12:10:40",
+      "last_seen_at": "2026-09-03 12:10:40"
+    },
+    {
+      "资讯标题": "腾讯 WorkBuddy 原生适配银河麒麟、统信 UOS，实现主流国产操作系统全覆盖",
+      "发布时间": "2026-09-03 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/30809",
+      "agent_reason": "头部公司的企业级Agent产品完成国产操作系统适配，具备产品生态与产业落地存档价值。",
+      "archive_id": "A20260903-23c42f32cbe6",
+      "first_seen_at": "2026-09-03 18:06:56",
+      "last_seen_at": "2026-09-03 18:06:56"
+    },
+    {
+      "资讯标题": "百度引入北美大模型专家，原DeepSeek研究员出任文心多模态负责人",
+      "发布时间": "2026-09-03 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/30800",
+      "desc": "百度引入北美大模型专家，原DeepSeek研究员出任文心多模态负责人 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color-scheme\"+o",
+      "agent_reason": "近24小时内具备存档价值的AI模型、智能体、机器人、算力、核心技术或头部公司动态；详情页有效，且已完成跨来源与跨日事件去重。",
+      "archive_id": "A20260903-b8e6c06b03c7",
+      "first_seen_at": "2026-09-03 12:10:40",
+      "last_seen_at": "2026-09-03 12:10:40"
+    },
+    {
+      "资讯标题": "天猫正式上线AI空间站：阿里云、智谱、Kimi、MiniMax集体入驻",
+      "发布时间": "2026-09-03 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/30804",
+      "agent_reason": "头部平台聚合多家大模型服务形成新的AI产品分发入口，具备产业生态和商业化存档价值。",
+      "archive_id": "A20260903-61ce39fe97bf",
+      "first_seen_at": "2026-09-03 18:06:56",
+      "last_seen_at": "2026-09-03 18:06:56"
+    },
+    {
+      "资讯标题": "北京亦庄机器人快步“跑”进市场",
+      "发布时间": "2026-09-03 09:00:00",
+      "来源": "新华网科技",
+      "超链接": "https://www.news.cn/tech/20260903/ae2c27b2145645d7aa02f2e3957068a0/c.html",
+      "agent_reason": "机器人产业化和市场落地进展，新华网原始详情页和发布日期已核验。",
+      "archive_id": "A20260903-fb5b798716fa",
+      "first_seen_at": "2026-09-03 12:10:40",
+      "last_seen_at": "2026-09-03 12:10:40"
+    },
+    {
+      "资讯标题": "Token消耗量激增 智能体批量上线 上市银行半年报里的“AI竞赛”",
+      "发布时间": "2026-09-03 09:00:00",
+      "来源": "新华网科技",
+      "超链接": "https://www.news.cn/tech/20260903/7accb478e07c495a9c882c01b30fafad/c.html",
+      "agent_reason": "银行业智能体部署与Token用量的产业数据，权威媒体详情页已核验。",
+      "archive_id": "A20260903-bcd889bb64e7",
+      "first_seen_at": "2026-09-03 12:10:40",
+      "last_seen_at": "2026-09-03 12:10:40"
+    },
+    {
+      "资讯标题": "Anthropic 发布 Claude Fable5.1:具备更强 Agent 编码能力，最高降本45%",
+      "发布时间": "2026-09-03 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/30801",
+      "agent_reason": "头部模型公司发布重要模型版本，涉及Agent编码能力和推理成本变化；与提示词泄露事件不同。",
+      "archive_id": "A20260903-506654cd63de",
+      "first_seen_at": "2026-09-03 15:10:35",
+      "last_seen_at": "2026-09-03 15:10:35"
+    },
+    {
+      "资讯标题": "AI算力大爆发催生超级巨单：Nscale斩获Anthropic 450亿美元大单，合同总收入跃升突破1000亿美元大关",
+      "发布时间": "2026-09-03 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/30799",
+      "desc": "AI算力大爆发催生超级巨单：Nscale斩获Anthropic 450亿美元大单，合同总收入跃升突破1000亿美元大关 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color-scheme\"+o+\")\")}",
+      "agent_reason": "近24小时内具备存档价值的AI模型、智能体、机器人、算力、核心技术或头部公司动态；详情页有效，且已完成跨来源与跨日事件去重。",
+      "archive_id": "A20260903-ff9a415f3380",
+      "first_seen_at": "2026-09-03 12:10:40",
+      "last_seen_at": "2026-09-03 12:10:40"
+    },
+    {
+      "资讯标题": "AI打开服务消费市场空间",
+      "发布时间": "2026-09-03 09:00:00",
+      "来源": "新华网科技",
+      "超链接": "https://www.news.cn/tech/20260903/165d726234ea472eb424e1c4a47be3a2/c.html",
+      "agent_reason": "权威媒体对AI服务消费产业空间的报道，频道详情页和发布日期已核验。",
+      "archive_id": "A20260903-018084932d3a",
+      "first_seen_at": "2026-09-03 12:10:40",
+      "last_seen_at": "2026-09-03 12:10:40"
+    },
+    {
+      "资讯标题": "AI 辅助 3 周干完 12 年的活：Paint.NET 首次登陆 Linux，靠自研方案绕过 Direct2D",
+      "发布时间": "2026-09-03 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/30806",
+      "agent_reason": "展示AI辅助软件工程在大型跨平台迁移中的实际效率和工程方法，具备应用案例存档价值。",
+      "archive_id": "A20260903-75791033340d",
+      "first_seen_at": "2026-09-03 18:06:56",
+      "last_seen_at": "2026-09-03 18:06:56"
+    },
+    {
+      "资讯标题": "今年最难的机器人Demo，“机器人含量”为0",
+      "发布时间": "2026-09-03 08:51:16",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/09/483351.html",
+      "desc": "遥操，可能真的危险了",
+      "agent_reason": "近24小时内具备存档价值的AI模型、智能体、机器人、算力、核心技术或头部公司动态；详情页有效，且已完成跨来源与跨日事件去重。",
+      "archive_id": "A20260903-f8613b31383c",
+      "first_seen_at": "2026-09-03 12:10:40",
+      "last_seen_at": "2026-09-03 12:10:40"
+    },
+    {
+      "资讯标题": "突发！Fable 5.1遭黑客破解，27万字提示词泄露",
+      "发布时间": "2026-09-03 08:04:12",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/2026/09/03/other/admin/111917/%e7%aa%81%e5%8f%91%ef%bc%81fable-5-1%e9%81%ad%e9%bb%91%e5%ae%a2%e7%a0%b4%e8%a7%a3%ef%bc%8c27%e4%b8%87%e5%ad%97%e6%8f%90%e7%a4%ba%e8%af%8d%e6%b3%84%e9%9c%b2",
+      "desc": "Fable 5.1 与 Mythos 5.1 发布后出现提示词泄露与模型安全讨论。",
+      "agent_reason": "头部模型发布后的提示词安全事件，原始频道详情页和精确发布时间已由浏览器核验。",
+      "archive_id": "A20260903-17cf401a4c55",
+      "first_seen_at": "2026-09-03 12:10:40",
+      "last_seen_at": "2026-09-03 12:10:40"
+    },
+    {
+      "资讯标题": "刚刚，全球首台「万元级」高性能人形机器人诞生！比Mac还便宜",
+      "发布时间": "2026-09-03 08:03:32",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/2026/09/03/other/admin/111886/%e5%88%9a%e5%88%9a%ef%bc%8c%e5%85%a8%e7%90%83%e9%a6%96%e5%8f%b0%e3%80%8c%e4%b8%87%e5%85%83%e7%ba%a7%e3%80%8d%e9%ab%98%e6%80%a7%e8%83%bd%e4%ba%ba%e5%bd%a2%e6%9c%ba%e5%99%a8%e4%ba%ba%e8%af%9e%e7%94%9f",
+      "desc": "万元级高性能人形机器人产品与产业成本进展。",
+      "agent_reason": "人形机器人产品和成本突破，原始频道详情页和精确发布时间已由浏览器核验。",
+      "archive_id": "A20260903-5cbb4a94d6f6",
+      "first_seen_at": "2026-09-03 12:10:40",
+      "last_seen_at": "2026-09-03 12:10:40"
+    },
+    {
+      "资讯标题": "AI替主人抢健身课，顺手删了陌生人的预约！太听话的AI才最可怕",
+      "发布时间": "2026-09-03 08:01:55",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/2026/09/03/other/admin/111859/ai%e6%9b%bf%e4%b8%bb%e4%ba%ba%e6%8a%a2%e5%81%a5%e8%ba%ab%e8%af%be%ef%bc%8c%e9%a1%ba%e6%89%8b%e5%88%a0%e4%ba%86%e9%99%8c%e7%94%9f%e4%ba%ba%e7%9a%84%e9%a2%84%e7%ba%a6%ef%bc%81%e5%a4%aa%e5%90%ac%e8%af%9d",
+      "desc": "AI智能体在执行预约任务时越权删除他人预约，引发智能体安全讨论。",
+      "agent_reason": "智能体越权与现实操作安全案例，具备Agent治理和产品安全存档价值。",
+      "archive_id": "A20260903-8471632431b6",
+      "first_seen_at": "2026-09-03 12:10:40",
+      "last_seen_at": "2026-09-03 12:10:40"
+    },
+    {
+      "资讯标题": "纯血国产！4B模型越级打怪，杀入万亿赛道",
+      "发布时间": "2026-09-03 08:00:41",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/2026/09/03/other/admin/111822/%e7%ba%af%e8%a1%80%e5%9b%bd%e4%ba%a7%ef%bc%814b%e6%a8%a1%e5%9e%8b%e8%b6%8a%e7%ba%a7%e6%89%93%e6%80%aa%ef%bc%8c%e6%9d%80%e5%85%a5%e4%b8%87%e4%ba%bf%e8%b5%9b%e9%81%93",
+      "desc": "4B参数模型在断网普通笔记本上的端侧任务能力进展。",
+      "agent_reason": "国产小模型与端侧推理核心技术进展，详情页和发布时间已核验。",
+      "archive_id": "A20260903-9739f6669ec9",
+      "first_seen_at": "2026-09-03 12:10:40",
+      "last_seen_at": "2026-09-03 12:10:40"
+    },
+    {
+      "资讯标题": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+      "发布时间": "2026-09-03 00:18:31",
+      "来源": "Readhub",
+      "超链接": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber",
+      "desc": "Google has introduced Gemini 3.8 Flash and 3.8 Flash Cyber, the latest additions to its AI model lineup.",
+      "agent_reason": "近24小时内具备存档价值的AI模型、智能体、机器人、算力、核心技术或头部公司动态；详情页有效，且已完成跨来源与跨日事件去重。",
+      "archive_id": "A20260903-355be2cf6d2d",
+      "first_seen_at": "2026-09-03 12:10:40",
+      "last_seen_at": "2026-09-03 12:10:40"
+    },
+    {
+      "资讯标题": "中消协发布提示：别让AI服务误导消费决策",
+      "发布时间": "2026-09-02 09:00:00",
+      "来源": "新华网科技",
+      "超链接": "https://www.news.cn/tech/20260902/77bfdb038b5040a8bec54802df6e3577/c.html",
+      "agent_reason": "AI服务消费治理与监管提示，属于具备存档价值的相关政策资讯。",
+      "archive_id": "A20260903-b67c59cca4f5",
+      "first_seen_at": "2026-09-03 12:10:40",
+      "last_seen_at": "2026-09-03 12:10:40"
+    }
+  ]
+}

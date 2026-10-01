@@ -1,0 +1,664 @@
+{
+  "version": 1,
+  "date": "2026-09-04",
+  "timezone": "Asia/Shanghai",
+  "updated_at": "2026-09-04 18:07:48",
+  "item_count": 55,
+  "runs": [
+    {
+      "collected_at": "2026-09-04 09:09:41",
+      "input_count": 19,
+      "added_count": 19,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "完整审阅68条脚本候选并直接检查异常来源频道页；剔除全部TopHub搜索/榜单链接、非AI内容、低价值观点与营销案例、缺少绝对发布时间的浏览器条目及同事件重复。保留具备存档价值的模型发布、AI基础设施、科研应用、智能体、机器人和头部公司动态，并补充机器之心5条时间与详情页均可核验的独立事件。",
+      "source_status": {
+        "量子位": "ok:8",
+        "新智元": "ok:0",
+        "AIBase": "error:The read operation timed out",
+        "新华网科技": "ok:0",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
+    },
+    {
+      "collected_at": "2026-09-04 12:09:46",
+      "input_count": 14,
+      "added_count": 14,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "完整审阅79条候选、当天19条既有归档及三个异常来源原始频道；保留AI模型、智能体、机器人、算力、核心技术、头部公司与产业政策资讯，剔除非AI、广告、搜索/频道壳、时间不明、低价值和重复事件，不限制TopK。本轮保留9条脚本候选并补充5条原始详情页。",
+      "source_status": {
+        "量子位": "ok:7",
+        "新智元": "ok:0;browser_checked;browser_supplement:3",
+        "AIBase": "ok:12",
+        "新华网科技": "ok:0;browser_checked;browser_supplement:2",
+        "机器之心": "ok:0;browser_checked;browser_new_duplicate:1",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
+    },
+    {
+      "collected_at": "2026-09-04 15:34:03",
+      "input_count": 7,
+      "added_count": 7,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "完整审阅80条候选及当天33条既有归档；保留具备存档价值的AI模型、智能体、机器人、算力、医疗AI及核心技术动态，剔除非AI、搜索/榜单页、营销稿、字段污染和已归档或同事件重复内容。本轮浏览器核验三个零结果重要来源时站点加载超时，未加入无法验证的补充条目。",
+      "source_status": {
+        "量子位": "ok:10",
+        "新智元": "ok:0;browser_check_failed:timeout",
+        "AIBase": "ok:10",
+        "新华网科技": "ok:0;browser_check_failed:timeout",
+        "机器之心": "ok:0;browser_check_failed:timeout",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
+    },
+    {
+      "collected_at": "2026-09-04 18:07:48",
+      "input_count": 15,
+      "added_count": 15,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "完整审阅82条候选及当天40条既有归档，并直接核查三个零结果重要来源；保留AI模型、智能体、算力、核心技术、头部公司与安全治理事件，剔除非AI、搜索/登录壳、营销软文、低价值、描述污染和重复事件，不限制TopK。本轮保留6条脚本候选并补充9条新智元原始详情页。",
+      "source_status": {
+        "量子位": "ok:10",
+        "新智元": "ok:0;browser_checked;browser_supplement:9",
+        "AIBase": "ok:12",
+        "新华网科技": "ok:0;browser_check_failed:blank_page",
+        "机器之心": "ok:0;browser_checked:subscription_shell",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
+    }
+  ],
+  "items": [
+    {
+      "资讯标题": "把 Agent 放进真实尺度香港，上交大 / 新加坡国立大学 / 美团等提出 UrbanGround，测试多模态模型城市探索能力",
+      "发布时间": "2026-09-04 17:50:00",
+      "来源": "Readhub",
+      "超链接": "https://hub.baai.ac.cn/view/57700",
+      "desc": "这也提出了一个比「AI 能否看懂城市」更进一步的问题：当前的 MLLM 智能体，究竟能否把局部空间感知转化为真实城市尺度上的可靠行动 ... 为回答这一问题，上海交通大学、新加坡国立大学、美团、香港中文大学、上海大学、牛津大学的联合研究团队构建了 URBANGROUND，一个以香港真实地理数据为基础的城市级交互环境，并从局部空间理解、目标导向导航和动态环境适应三个层面，对当前 MLLM 智能体进行了系统评测 ... 实验显示，当前 MLLM 已经具备识别环境、理解局部关系和完成短距离探索等基础能力，但要让这些能力支撑真实尺度的导航，还需要解决长期空间状态维护、错误恢复和动态规划等问题。",
+      "agent_reason": "近24小时内具备存档价值的AI模型、智能体、算力、核心技术或头部公司动态；已通过详情页、相关性和事件去重检查。",
+      "archive_id": "A20260904-fe06e8c196c0",
+      "first_seen_at": "2026-09-04 18:07:48",
+      "last_seen_at": "2026-09-04 18:07:48"
+    },
+    {
+      "资讯标题": "微软新研究：无需后训练，只加 4 个 Token，滑动窗口注意力反超线性注意力",
+      "发布时间": "2026-09-04 17:30:00",
+      "来源": "Readhub",
+      "超链接": "https://hub.baai.ac.cn/view/57695",
+      "desc": "该研究比较了预训练模型直接使用滑动窗口注意力，与纯线性注意力、线性注意力加滑动窗口注意力等后训练线性化方法间的差异。图中展示了不同类型的注意力掩码：全注意力（FA）、LoLCATs/Liger-GLA（线性注意力与滑动窗口注意力的混合）、以及带有 sinks 的滑动窗口注意力。全注意力和滑动窗口注意力使用 FlashAttention 作为后端，线性注意力使用 ThunderKittens，LoLCATs 使用融合后的滑动窗口注意力与线性注意力 Kernel。",
+      "agent_reason": "近24小时内具备存档价值的AI模型、智能体、算力、核心技术或头部公司动态；已通过详情页、相关性和事件去重检查。",
+      "archive_id": "A20260904-543b2f88d170",
+      "first_seen_at": "2026-09-04 18:07:48",
+      "last_seen_at": "2026-09-04 18:07:48"
+    },
+    {
+      "资讯标题": "趋境科技与摩尔线程达成战略合作，高品质 AI Token 国产异构方案性价比超越国际先进算力",
+      "发布时间": "2026-09-04 17:23:24",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/09/484547.html",
+      "desc": "国产卡跑出高品质 AI Token 生产级性能",
+      "agent_reason": "近24小时内具备存档价值的AI模型、智能体、算力、核心技术或头部公司动态；已通过详情页、相关性和事件去重检查。",
+      "archive_id": "A20260904-d6a0d4e92dbf",
+      "first_seen_at": "2026-09-04 18:07:48",
+      "last_seen_at": "2026-09-04 18:07:48"
+    },
+    {
+      "资讯标题": "ScienceDiscovery实现树搜索驱动RSI，加速科学发现，小时级写出通用积分器，低成本找出物理科学规律",
+      "发布时间": "2026-09-04 16:57:14",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/09/484293.html",
+      "desc": "不训练模型、不调参数",
+      "agent_reason": "近24小时内具备存档价值的AI模型、智能体、算力、核心技术或头部公司动态；已通过详情页、相关性和事件去重检查。",
+      "archive_id": "A20260904-5063546f9eb1",
+      "first_seen_at": "2026-09-04 18:07:48",
+      "last_seen_at": "2026-09-04 18:07:48"
+    },
+    {
+      "资讯标题": "金融AI的年度大考交卷了：2万名选手、30+家机构、百亿级数据开源",
+      "发布时间": "2026-09-04 15:09:43",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/09/484203.html",
+      "desc": "5000支队伍同台做题，写尽行业四年变化",
+      "agent_reason": "金融AI评测、机构参与及百亿级数据开放具备行业基础设施存档价值。",
+      "archive_id": "A20260904-d5f6d8496256",
+      "first_seen_at": "2026-09-04 15:34:03",
+      "last_seen_at": "2026-09-04 15:34:03"
+    },
+    {
+      "资讯标题": "李飞飞刚发Atlas，中国开源“同款”已抢跑半年？",
+      "发布时间": "2026-09-04 14:54:12",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/09/484163.html",
+      "desc": "智能不只是模式识别，更是对世界的建模",
+      "agent_reason": "世界模型与中国开源技术进展具备核心技术存档价值。",
+      "archive_id": "A20260904-a1f8233090ca",
+      "first_seen_at": "2026-09-04 15:34:03",
+      "last_seen_at": "2026-09-04 15:34:03"
+    },
+    {
+      "资讯标题": "Vara 获全球首个自主乳腺癌筛查 AI 认证",
+      "发布时间": "2026-09-04 14:52:30",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/30840",
+      "desc": "Vara 的自主分诊系统获得乳腺癌筛查 AI 认证，并通过持续监控在异常时切回医生全面阅片。",
+      "agent_reason": "医疗AI从辅助识别迈向特定场景自主决策，兼具认证和安全监控价值。",
+      "archive_id": "A20260904-95b76144a4cd",
+      "first_seen_at": "2026-09-04 15:34:03",
+      "last_seen_at": "2026-09-04 15:34:03"
+    },
+    {
+      "资讯标题": "谷歌 9 月 4 日起停用 Google Assistant，Gemini 全面接棒",
+      "发布时间": "2026-09-04 14:50:40",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/30839",
+      "desc": "谷歌确认安卓端 Google Assistant 将逐步停止服务，符合条件的用户迁移至 Gemini。",
+      "agent_reason": "头部公司将传统语音助手迁移至生成式AI产品，具备产品路线存档价值。",
+      "archive_id": "A20260904-7b0b91faddcd",
+      "first_seen_at": "2026-09-04 15:34:03",
+      "last_seen_at": "2026-09-04 15:34:03"
+    },
+    {
+      "资讯标题": "AI 数据中心新贵 Crusoe 融资 30 亿美元：估值 300 亿，刚签下 130 亿美元大单",
+      "发布时间": "2026-09-04 14:41:20",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/30838",
+      "desc": "Crusoe 完成30亿美元融资，估值300亿美元，并签下为 Jane Street 提供 GPU 与 AI 基础设施的长期合同。",
+      "agent_reason": "大额融资与GPU基础设施合同反映AI算力市场的重要变化。",
+      "archive_id": "A20260904-01cdaf23e9cf",
+      "first_seen_at": "2026-09-04 15:34:03",
+      "last_seen_at": "2026-09-04 15:34:03"
+    },
+    {
+      "资讯标题": "奥尔特曼证实 OpenAI 自研人形机器人：家用不是当务之急，但长期看好",
+      "发布时间": "2026-09-04 13:44:28",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/30835",
+      "desc": "OpenAI 推进人形机器人和数据中心特种机器人两条路线，优先面向基础设施与制造业。",
+      "agent_reason": "OpenAI公开机器人研发和落地优先级，属于头部公司具身智能战略动态。",
+      "archive_id": "A20260904-7d1c5454340e",
+      "first_seen_at": "2026-09-04 15:34:03",
+      "last_seen_at": "2026-09-04 15:34:03"
+    },
+    {
+      "资讯标题": "Richard Sutton 谈 AI 下一站：LLM 可能正在走错路，持续学习才是真问题",
+      "发布时间": "2026-09-04 13:00:00",
+      "来源": "Readhub",
+      "超链接": "https://hub.baai.ac.cn/view/57685",
+      "desc": "Sutton 认为固定权重的大语言模型难以实现持续学习，关键问题是让学习能力本身持续进化。",
+      "agent_reason": "强化学习奠基者对持续学习技术路线的判断具有研究趋势存档价值。",
+      "archive_id": "A20260904-a08b4558a950",
+      "first_seen_at": "2026-09-04 15:34:03",
+      "last_seen_at": "2026-09-04 15:34:03"
+    },
+    {
+      "资讯标题": "卡车自动驾驶里程超10亿公里，嬴彻科技定义“货运物理AI”",
+      "发布时间": "2026-09-04 09:40:42",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/09/483598.html",
+      "desc": "吃下90%市场",
+      "agent_reason": "近24小时内具备存档价值的AI产品、智能体治理、自动驾驶、企业模型应用或头部公司动态；已通过详情页、相关性和事件去重检查。",
+      "archive_id": "A20260904-0769410c3270",
+      "first_seen_at": "2026-09-04 12:09:46",
+      "last_seen_at": "2026-09-04 12:09:46"
+    },
+    {
+      "资讯标题": "阿里千问上线首月用户破3000万：开源上下文底座，打造企业级Agent新范式",
+      "发布时间": "2026-09-04 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/30832",
+      "desc": "阿里千问上线首月用户破3000万：开源上下文底座，打造企业级Agent新范式 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-col",
+      "agent_reason": "近24小时内具备存档价值的AI产品、智能体治理、自动驾驶、企业模型应用或头部公司动态；已通过详情页、相关性和事件去重检查。",
+      "archive_id": "A20260904-d7b7ab6b59c5",
+      "first_seen_at": "2026-09-04 12:09:46",
+      "last_seen_at": "2026-09-04 12:09:46"
+    },
+    {
+      "资讯标题": "英伟达官方推理指南来了！6倍无损加速，最优解全是华人写的",
+      "发布时间": "2026-09-04 09:00:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/2026/09/04/other/admin/111956/%e8%8b%b1%e4%bc%9f%e8%be%be%e5%ae%98%e6%96%b9%e6%8e%a8%e7%90%86%e6%8c%87%e5%8d%97%e6%9d%a5%e4%ba%86%ef%bc%816%e5%80%8d%e6%97%a0%e6%8d%9f%e5%8a%a0%e9%80%9f%ef%bc%8c%e6%9c%80%e4%bc%98%e8%a7%a3%e5%85%a8",
+      "desc": "新智元当日原始频道稿件，介绍英伟达大模型推理优化指南及加速技术。",
+      "agent_reason": "大模型推理与算力优化核心技术内容，详情页与日期可核验。",
+      "archive_id": "A20260904-93edea2bc8c2",
+      "first_seen_at": "2026-09-04 12:09:46",
+      "last_seen_at": "2026-09-04 12:09:46"
+    },
+    {
+      "资讯标题": "海外三大 AI 集体宕机近 4 小时，智谱发文“我们还在线”并开启夜间免费",
+      "发布时间": "2026-09-04 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/30847",
+      "agent_reason": "近24小时内具备存档价值的AI模型、智能体、算力、核心技术或头部公司动态；已通过详情页、相关性和事件去重检查。",
+      "archive_id": "A20260904-6b7f370019e9",
+      "first_seen_at": "2026-09-04 18:07:48",
+      "last_seen_at": "2026-09-04 18:07:48"
+    },
+    {
+      "资讯标题": "最新研究揭示过度依赖ChatGPT正在削弱人类独立思考能力",
+      "发布时间": "2026-09-04 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/30827",
+      "desc": "最新研究揭示过度依赖ChatGPT正在削弱人类独立思考能力 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color-scheme\"+o+\")\")}function u(){if(t.matchMedia&&f(\"\").media!=",
+      "agent_reason": "近24小时内具备存档价值的AI产品、智能体治理、自动驾驶、企业模型应用或头部公司动态；已通过详情页、相关性和事件去重检查。",
+      "archive_id": "A20260904-10765d35e9e8",
+      "first_seen_at": "2026-09-04 12:09:46",
+      "last_seen_at": "2026-09-04 12:09:46"
+    },
+    {
+      "资讯标题": "微软给 Copilot 智能体装上“刹车”：发邮件、付款前必须人工点头",
+      "发布时间": "2026-09-04 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/30833",
+      "desc": "微软给 Copilot 智能体装上“刹车”：发邮件、付款前必须人工点头 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color-scheme\"+o+\")\")}function u(){if(t.matchMedi",
+      "agent_reason": "近24小时内具备存档价值的AI产品、智能体治理、自动驾驶、企业模型应用或头部公司动态；已通过详情页、相关性和事件去重检查。",
+      "archive_id": "A20260904-c7a056fc1c00",
+      "first_seen_at": "2026-09-04 12:09:46",
+      "last_seen_at": "2026-09-04 12:09:46"
+    },
+    {
+      "资讯标题": "具身智能产业发展打开灵活就业新通道",
+      "发布时间": "2026-09-04 09:00:00",
+      "来源": "新华网科技",
+      "超链接": "https://www.news.cn/tech/20260904/8b947072714f4f3ebe72c7fb9a092c0f/c.html",
+      "agent_reason": "具身智能产业与就业影响报道，新华网原始详情页可核验。",
+      "archive_id": "A20260904-b4fc45d22d25",
+      "first_seen_at": "2026-09-04 12:09:46",
+      "last_seen_at": "2026-09-04 12:09:46"
+    },
+    {
+      "资讯标题": "以色列-荷兰AI独角兽Wonderful斩获5.5亿美元C轮融资，估值直冲50亿美元",
+      "发布时间": "2026-09-04 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/30849",
+      "agent_reason": "近24小时内具备存档价值的AI模型、智能体、算力、核心技术或头部公司动态；已通过详情页、相关性和事件去重检查。",
+      "archive_id": "A20260904-c26629587696",
+      "first_seen_at": "2026-09-04 18:07:48",
+      "last_seen_at": "2026-09-04 18:07:48"
+    },
+    {
+      "资讯标题": "严打AI杜撰探店与医美，小红书清除近12万条虚假内容",
+      "发布时间": "2026-09-04 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/30826",
+      "desc": "严打AI杜撰探店与医美，小红书清除近12万条虚假内容 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color-scheme\"+o+\")\")}function u(){if(t.matchMedia&&f(\"\").me",
+      "agent_reason": "近24小时内具备存档价值的AI产品、智能体治理、自动驾驶、企业模型应用或头部公司动态；已通过详情页、相关性和事件去重检查。",
+      "archive_id": "A20260904-043ed42d78cc",
+      "first_seen_at": "2026-09-04 12:09:46",
+      "last_seen_at": "2026-09-04 12:09:46"
+    },
+    {
+      "资讯标题": "Qira 落地可穿戴：摩托罗拉发布 moto watch ultra，抬腕就能问 AI",
+      "发布时间": "2026-09-04 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/30834",
+      "desc": "Qira 落地可穿戴：摩托罗拉发布 moto watch ultra，抬腕就能问 AI \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.match",
+      "agent_reason": "近24小时内具备存档价值的AI产品、智能体治理、自动驾驶、企业模型应用或头部公司动态；已通过详情页、相关性和事件去重检查。",
+      "archive_id": "A20260904-927168ea16df",
+      "first_seen_at": "2026-09-04 12:09:46",
+      "last_seen_at": "2026-09-04 12:09:46"
+    },
+    {
+      "资讯标题": "OpenAI浏览器换壳杀回！高管改用ChatGPT上网，效率从未这么高",
+      "发布时间": "2026-09-04 09:00:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/2026/09/04/other/admin/112008/openai%e6%b5%8f%e8%a7%88%e5%99%a8%e6%8d%a2%e5%a3%b3%e6%9d%80%e5%9b%9e%ef%bc%81%e9%ab%98%e7%ae%a1%e6%94%b9%e7%94%a8chatgpt%e4%b8%8a%e7%bd%91%ef%bc%8c%e6%95%88%e7%8e%87%e4%bb%8e%e6%9c%aa%e8%bf%99",
+      "desc": "新智元当日原始频道稿件，报道 OpenAI 浏览器产品与 ChatGPT 上网工作流的新动态。",
+      "agent_reason": "头部公司AI浏览器产品动态，原始详情页与日期可核验。",
+      "archive_id": "A20260904-8b6750a1da8a",
+      "first_seen_at": "2026-09-04 12:09:46",
+      "last_seen_at": "2026-09-04 12:09:46"
+    },
+    {
+      "资讯标题": "Google Workspace全线接入Gemini语音交互，告别手动打字时代",
+      "发布时间": "2026-09-04 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/30829",
+      "desc": "Google Workspace全线接入Gemini语音交互，告别手动打字时代 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color-scheme\"+o+\")\")}fun",
+      "agent_reason": "近24小时内具备存档价值的AI产品、智能体治理、自动驾驶、企业模型应用或头部公司动态；已通过详情页、相关性和事件去重检查。",
+      "archive_id": "A20260904-b951ace222bd",
+      "first_seen_at": "2026-09-04 12:09:46",
+      "last_seen_at": "2026-09-04 12:09:46"
+    },
+    {
+      "资讯标题": "Claude后台接管电脑，真·赛博替身！人机并行时代来了",
+      "发布时间": "2026-09-04 09:00:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/2026/09/04/other/admin/111997/claude%e5%90%8e%e5%8f%b0%e6%8e%a5%e7%ae%a1%e7%94%b5%e8%84%91%ef%bc%8c%e7%9c%9f%c2%b7%e8%b5%9b%e5%8d%9a%e6%9b%bf%e8%ba%ab%ef%bc%81%e4%ba%ba%e6%9c%ba%e5%b9%b6%e8%a1%8c%e6%97%b6%e4%bb%a3%e6%9d%a5",
+      "desc": "新智元当日原始频道稿件，报道 Claude 计算机使用能力和后台任务协作。",
+      "agent_reason": "重要智能体计算机操作能力更新，详情页与日期可核验。",
+      "archive_id": "A20260904-b0046b8b2f07",
+      "first_seen_at": "2026-09-04 12:09:46",
+      "last_seen_at": "2026-09-04 12:09:46"
+    },
+    {
+      "资讯标题": "AI催生“黑客松”热 “编程马拉松”变成创新试验场",
+      "发布时间": "2026-09-04 09:00:00",
+      "来源": "新华网科技",
+      "超链接": "https://www.news.cn/tech/20260904/5d1c73b2b3b844f3b0d6b1e8d6c399bf/c.html",
+      "agent_reason": "AI辅助开发与创新生态趋势报道，新华网原始详情页可核验。",
+      "archive_id": "A20260904-57cd9445ada0",
+      "first_seen_at": "2026-09-04 12:09:46",
+      "last_seen_at": "2026-09-04 12:09:46"
+    },
+    {
+      "资讯标题": "特斯拉 Cybercab 正式上线：无方向盘无刹车，已在奥斯汀开始拉客",
+      "发布时间": "2026-09-04 08:59:07",
+      "来源": "Readhub",
+      "超链接": "https://www.mittrchina.com/news/detail/16896",
+      "desc": "特斯拉的竞争对手 Waymo 使用的车辆成本超过 10 万美元，这一差距在自动驾驶出租车的商业模型中难以忽视。若特斯拉能提高 Cybercab 的产能，同样的资本投入可部署比对手多数倍的车辆。此次 Cybercab 上线付费服务，是特斯拉首次在无方向盘车型上实现真实环境的商业运营，投放规模尚小，但性质上是一次新跨越。Cybercab 的去方向盘设计是特斯拉对“最终形态”的大胆押注，它假设完全自动驾驶无需人类干预，也不应为人类干预留出空间。",
+      "agent_reason": "近24小时内具备存档价值的AI产品、智能体治理、自动驾驶、企业模型应用或头部公司动态；已通过详情页、相关性和事件去重检查。",
+      "archive_id": "A20260904-2cf065f2a655",
+      "first_seen_at": "2026-09-04 12:09:46",
+      "last_seen_at": "2026-09-04 12:09:46"
+    },
+    {
+      "资讯标题": "黄仁勋回应 129 亿美元收购 Hugging Face：不是要把 AI 关进英伟达",
+      "发布时间": "2026-09-04 08:54:03",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/30814",
+      "desc": "英伟达 9 月 3 日宣布，已同意以 129.303 亿美元（约合 870.92 亿元人民币）收购开源人工智能平台 Hugging Face，黄仁勋随后在博文中解释了收购原因。黄仁勋表示，希望借助英伟达的基础设施、工程能力和全球覆盖面，把 Hugging Face 的开放式 AI 平台扩展到前所未有的规模，并承诺 Hugging Face 会维持开放平台属性，继续支持各类开源及开放权重模型、多云和多加速器环境。对于这笔计划中的收购，黄仁勋强调不会把 Hugging Face 变成只服务英伟达硬件的封闭入口，而是希望通过英伟达的规模化能力，进一步增强开放 AI 生态。",
+      "agent_reason": "近24小时内具备存档价值的AI产品、智能体治理、自动驾驶、企业模型应用或头部公司动态；已通过详情页、相关性和事件去重检查。",
+      "archive_id": "A20260904-9bda7a2caf75",
+      "first_seen_at": "2026-09-04 12:09:46",
+      "last_seen_at": "2026-09-04 12:09:46"
+    },
+    {
+      "资讯标题": "GPT-6 Astra 发布，多个基准测试接近满分，「欢迎来到 AGI 时代」？",
+      "发布时间": "2026-09-04 08:40:14",
+      "来源": "Readhub",
+      "超链接": "https://www.mittrchina.com/news/detail/16895",
+      "desc": "OpenAI 展示 Astra 在多项复杂任务与基准上的能力，并称进入 AGI 时代。",
+      "agent_reason": "头部基础模型重大版本发布，涉及能力跃迁和AGI判断。",
+      "archive_id": "A20260904-cb4f5add25c7",
+      "first_seen_at": "2026-09-04 09:09:41",
+      "last_seen_at": "2026-09-04 09:09:41"
+    },
+    {
+      "资讯标题": "从像素识别到模式发现：人工智能重塑干细胞衍生模型研究",
+      "发布时间": "2026-09-04 08:20:00",
+      "来源": "Readhub",
+      "超链接": "https://hub.baai.ac.cn/view/57682",
+      "desc": "基础模型、生成式AI、物理信息模型与机器人逐步进入干细胞实验设计和实时控制。",
+      "agent_reason": "AI for Science与自动化实验的重要交叉进展。",
+      "archive_id": "A20260904-75a976eb0eb1",
+      "first_seen_at": "2026-09-04 09:09:41",
+      "last_seen_at": "2026-09-04 09:09:41"
+    },
+    {
+      "资讯标题": "34000行C++一晚迁完！Claude Fable 5把1993年Amiga游戏复活",
+      "发布时间": "2026-09-04 08:07:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=ae21a556",
+      "agent_reason": "编码智能体完成大型遗留代码迁移的真实案例，具备Agent工程能力存档价值。",
+      "archive_id": "A20260904-54b2a99c9856",
+      "first_seen_at": "2026-09-04 18:07:48",
+      "last_seen_at": "2026-09-04 18:07:48"
+    },
+    {
+      "资讯标题": "新版GPT Image 2.5已经能伪造GPT-6发布会了",
+      "发布时间": "2026-09-04 05:57:08",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/09/483948.html",
+      "desc": "改进GPT Image 2的噪点问题",
+      "agent_reason": "头部图像生成模型更新及深度伪造能力风险值得存档。",
+      "archive_id": "A20260904-dd5a4c8715ab",
+      "first_seen_at": "2026-09-04 09:09:41",
+      "last_seen_at": "2026-09-04 09:09:41"
+    },
+    {
+      "资讯标题": "200亿token实测！OpenAI Astra每小时仅6美元",
+      "发布时间": "2026-09-04 05:15:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=4b40cd31",
+      "agent_reason": "前沿模型长时自主任务的成本与能力实测，具备模型工程价值。",
+      "archive_id": "A20260904-f1c7dc822d56",
+      "first_seen_at": "2026-09-04 18:07:48",
+      "last_seen_at": "2026-09-04 18:07:48"
+    },
+    {
+      "资讯标题": "GPT-6 Astra系统卡曝光：思维链控制力飙至60.9%，监控难度大增",
+      "发布时间": "2026-09-04 04:55:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=6f636ba1",
+      "agent_reason": "头部模型系统卡披露推理监控与安全风险变化。",
+      "archive_id": "A20260904-6ced097e2e81",
+      "first_seen_at": "2026-09-04 18:07:48",
+      "last_seen_at": "2026-09-04 18:07:48"
+    },
+    {
+      "资讯标题": "100%满分！OpenEvidence新模型Darwin在MedQA考满",
+      "发布时间": "2026-09-04 03:44:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=c54a0155",
+      "agent_reason": "医疗大模型产品与基准能力更新，具备垂直模型价值。",
+      "archive_id": "A20260904-442d6b94a1a3",
+      "first_seen_at": "2026-09-04 18:07:48",
+      "last_seen_at": "2026-09-04 18:07:48"
+    },
+    {
+      "资讯标题": "Meta内部Agent失控2小时，敏感数据全裸奔",
+      "发布时间": "2026-09-04 03:30:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=6950fc5a",
+      "agent_reason": "企业Agent导致敏感数据暴露的高严重度安全事件。",
+      "archive_id": "A20260904-3a8fc1fd2cd3",
+      "first_seen_at": "2026-09-04 18:07:48",
+      "last_seen_at": "2026-09-04 18:07:48"
+    },
+    {
+      "资讯标题": "IFM掀桌！K2 Horizon六款模型全开源，连训练日志都给你",
+      "发布时间": "2026-09-04 01:35:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=cef1324a",
+      "agent_reason": "多参数规模开源模型系列及训练资料发布。",
+      "archive_id": "A20260904-f47dfb0a7678",
+      "first_seen_at": "2026-09-04 18:07:48",
+      "last_seen_at": "2026-09-04 18:07:48"
+    },
+    {
+      "资讯标题": "NVIDIA 在 IFA 2026 推出 PAIR 工具，加速本地 AI 推理",
+      "发布时间": "2026-09-04 00:00:59",
+      "来源": "Readhub",
+      "超链接": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark",
+      "desc": "PAIR可将AI推理任务分配到本地网络中的多台PC，并覆盖多种桌面系统和GPU。",
+      "agent_reason": "本地AI推理调度和端侧算力基础设施更新。",
+      "archive_id": "A20260904-c5fea2be4f25",
+      "first_seen_at": "2026-09-04 09:09:41",
+      "last_seen_at": "2026-09-04 09:09:41"
+    },
+    {
+      "资讯标题": "Glean硬刚Claude！180项任务省70% Token，成本直降8成",
+      "发布时间": "2026-09-03 23:30:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=def56acb",
+      "agent_reason": "企业智能体多任务评测中的Token与成本效率数据。",
+      "archive_id": "A20260904-47bd607496a4",
+      "first_seen_at": "2026-09-04 18:07:48",
+      "last_seen_at": "2026-09-04 18:07:48"
+    },
+    {
+      "资讯标题": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+      "发布时间": "2026-09-03 23:02:08",
+      "来源": "Readhub",
+      "超链接": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model",
+      "agent_reason": "DeepMind发布全球天气预测模型，属于重要AI科学应用。",
+      "archive_id": "A20260904-d5ea4bcadd66",
+      "first_seen_at": "2026-09-04 09:09:41",
+      "last_seen_at": "2026-09-04 09:09:41"
+    },
+    {
+      "资讯标题": "Meta Muse Spark 1.3炸场，写代码干翻Opus 5",
+      "发布时间": "2026-09-03 22:05:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=0d02e1d1",
+      "agent_reason": "头部公司代码模型版本与基准能力更新。",
+      "archive_id": "A20260904-8717734121be",
+      "first_seen_at": "2026-09-04 18:07:48",
+      "last_seen_at": "2026-09-04 18:07:48"
+    },
+    {
+      "资讯标题": "OpenAI 推出 Daybreak for Frontline Defenders：10 亿美元承诺保护关键服务",
+      "发布时间": "2026-09-03 21:15:00",
+      "来源": "Readhub",
+      "超链接": "https://openai.com/index/daybreak-for-frontline-defenders",
+      "desc": "OpenAI承诺投入10亿美元扩大前沿网络AI、培训和支持的获取范围。",
+      "agent_reason": "头部公司在网络安全AI与公共关键服务上的重大投入。",
+      "archive_id": "A20260904-fc40ddafdd41",
+      "first_seen_at": "2026-09-04 09:09:41",
+      "last_seen_at": "2026-09-04 09:09:41"
+    },
+    {
+      "资讯标题": "去半人马座阿尔法星，AI 想出了人类没想到的办法",
+      "发布时间": "2026-09-03 20:48:46",
+      "来源": "Readhub",
+      "超链接": "https://www.mittrchina.com/news/detail/16894",
+      "desc": "AI参与星际探测器设计并提出新的工程方案。",
+      "agent_reason": "生成式设计用于前沿航天工程，具备核心技术存档价值。",
+      "archive_id": "A20260904-b7db9aceb6fc",
+      "first_seen_at": "2026-09-04 09:09:41",
+      "last_seen_at": "2026-09-04 09:09:41"
+    },
+    {
+      "资讯标题": "御三家格局松动：Google 和 Meta 同日发布新模型，第三名不再稳了？",
+      "发布时间": "2026-09-03 20:45:14",
+      "来源": "Readhub",
+      "超链接": "https://www.mittrchina.com/news/detail/16893",
+      "desc": "Google与Meta新模型发布引发前沿模型竞争格局变化。",
+      "agent_reason": "头部模型公司竞争格局与组织资源变化。",
+      "archive_id": "A20260904-cf3b4f1f786c",
+      "first_seen_at": "2026-09-04 09:09:41",
+      "last_seen_at": "2026-09-04 09:09:41"
+    },
+    {
+      "资讯标题": "Arc 研究所造出能「举一反三」的虚拟细胞模型，破解跨细胞预测难题",
+      "发布时间": "2026-09-03 20:41:15",
+      "来源": "Readhub",
+      "超链接": "https://www.mittrchina.com/news/detail/16892",
+      "desc": "虚拟细胞模型提升跨细胞类型和新实验条件的泛化预测能力。",
+      "agent_reason": "生物基础模型与虚拟细胞研究的重要进展。",
+      "archive_id": "A20260904-4ddc545fe7d1",
+      "first_seen_at": "2026-09-04 09:09:41",
+      "last_seen_at": "2026-09-04 09:09:41"
+    },
+    {
+      "资讯标题": "Gemini订阅接OpenClaw？官方条款：封你整个Google账号",
+      "发布时间": "2026-09-03 19:48:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=3e69e0cd",
+      "agent_reason": "模型订阅接入第三方Agent工具的账号政策风险。",
+      "archive_id": "A20260904-df0ff9c13c7b",
+      "first_seen_at": "2026-09-04 18:07:48",
+      "last_seen_at": "2026-09-04 18:07:48"
+    },
+    {
+      "资讯标题": "腾讯WorkBuddy联名硬件来了！首批100多家伙伴入场",
+      "发布时间": "2026-09-03 19:25:29",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/09/483786.html",
+      "desc": "眼镜、耳机、麦克风等硬件接入智能体生态。",
+      "agent_reason": "智能体平台扩展至软硬件生态，具备产业存档价值。",
+      "archive_id": "A20260904-02a86be7bf8f",
+      "first_seen_at": "2026-09-04 09:09:41",
+      "last_seen_at": "2026-09-04 09:09:41"
+    },
+    {
+      "资讯标题": "机器人不能停下来等模型：星尘发布 SmoothRL，让在线强化学习跟上大模型的异步推理",
+      "发布时间": "2026-09-03 18:19:00",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-09-03-9",
+      "agent_reason": "在线强化学习与大模型异步推理结合，直接影响机器人训练效率。",
+      "archive_id": "A20260904-a6b745b7c644",
+      "first_seen_at": "2026-09-04 09:09:41",
+      "last_seen_at": "2026-09-04 09:09:41"
+    },
+    {
+      "资讯标题": "世界生成模型来了3D头部玩家，可进入生产管线的场景级生成时代来临！",
+      "发布时间": "2026-09-03 18:18:36",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/09/483189.html",
+      "desc": "单图生成可进入生产管线的3D场景。",
+      "agent_reason": "世界模型与3D场景生成进入生产应用的重要进展。",
+      "archive_id": "A20260904-1f68b41809eb",
+      "first_seen_at": "2026-09-04 09:09:41",
+      "last_seen_at": "2026-09-04 09:09:41"
+    },
+    {
+      "资讯标题": "陈大年复出，入局大模型",
+      "发布时间": "2026-09-03 18:13:24",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/09/483600.html",
+      "desc": "新团队展示逼近头部旗舰的大模型。",
+      "agent_reason": "重要创业者和新基础模型团队动态。",
+      "archive_id": "A20260904-77feae189ded",
+      "first_seen_at": "2026-09-04 09:09:41",
+      "last_seen_at": "2026-09-04 09:09:41"
+    },
+    {
+      "资讯标题": "不炫技，只搬砖，拟25亿美元上市，Agility戳破人形机器人泡沫",
+      "发布时间": "2026-09-03 18:11:00",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-09-03-10",
+      "agent_reason": "人形机器人商业化和资本市场进展。",
+      "archive_id": "A20260904-96878fe7ca57",
+      "first_seen_at": "2026-09-04 09:09:41",
+      "last_seen_at": "2026-09-04 09:09:41"
+    },
+    {
+      "资讯标题": "RSI离我们有多远？这家中国团队给出了第一梯队的工程解",
+      "发布时间": "2026-09-03 13:21:00",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-09-03-6",
+      "agent_reason": "递归自我改进智能体的工程实现具有核心技术价值。",
+      "archive_id": "A20260904-eb25c333a737",
+      "first_seen_at": "2026-09-04 09:09:41",
+      "last_seen_at": "2026-09-04 09:09:41"
+    },
+    {
+      "资讯标题": "一个模型场景通吃！它石智航AWE3.7的泛化能力有点狠",
+      "发布时间": "2026-09-03 11:16:43",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/09/483565.html",
+      "desc": "具身模型从工厂扩展至家庭场景。",
+      "agent_reason": "具身智能模型的跨场景泛化和产业落地。",
+      "archive_id": "A20260904-d437f4c2dc59",
+      "first_seen_at": "2026-09-04 09:09:41",
+      "last_seen_at": "2026-09-04 09:09:41"
+    },
+    {
+      "资讯标题": "全球首个通用决策大模型，AI推演现实世界的技术揭秘",
+      "发布时间": "2026-09-03 10:36:00",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-09-03-4",
+      "agent_reason": "通用决策模型属于模型架构和现实世界推演方向的重要进展。",
+      "archive_id": "A20260904-6fd652631237",
+      "first_seen_at": "2026-09-04 09:09:41",
+      "last_seen_at": "2026-09-04 09:09:41"
+    },
+    {
+      "资讯标题": "刚刚，谷歌Gemini 3.8登场！姚顺宇：RSI巨大飞跃",
+      "发布时间": "2026-09-03 10:19:00",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-09-03-2",
+      "agent_reason": "Google前沿模型版本发布及递归自我改进能力进展。",
+      "archive_id": "A20260904-9a8f6a4ee272",
+      "first_seen_at": "2026-09-04 09:09:41",
+      "last_seen_at": "2026-09-04 09:09:41"
+    },
+    {
+      "资讯标题": "神秘具身团队又放出一连串很炸的Demo视频…自进化模型，技术路线曝光",
+      "发布时间": "2026-09-03 09:31:45",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/09/483552.html",
+      "agent_reason": "自进化具身模型技术路线和机器人能力演示值得跟踪。",
+      "archive_id": "A20260904-2f75c2e77276",
+      "first_seen_at": "2026-09-04 09:09:41",
+      "last_seen_at": "2026-09-04 09:09:41"
+    }
+  ]
+}

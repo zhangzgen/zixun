@@ -1,0 +1,403 @@
+{
+  "version": 1,
+  "date": "2026-08-30",
+  "timezone": "Asia/Shanghai",
+  "updated_at": "2026-08-30 18:08:11",
+  "item_count": 29,
+  "runs": [
+    {
+      "collected_at": "2026-08-30 09:07:54",
+      "input_count": 16,
+      "added_count": 16,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "完整审阅67条脚本候选并直接补查新智元、AIBase、机器之心、新华网科技原始频道。保留所有具备存档价值且为详情页的AI、大模型、智能体、算力、芯片与AI科研资讯；剔除非AI内容、全部头条搜索页、低价值宣传、字段不足项及与昨日归档或本轮重复的Cursor、Hy4、Gemini Omni、Claude对齐和新增算力事件。浏览器补充5条新智元当天详情页；AIBase无最近24小时新批次，机器之心可见项均为昨日已归档事件，新华网科技连接关闭。",
+      "source_status": {
+        "量子位": "ok:7",
+        "新智元": "ok:0",
+        "AIBase": "ok:0",
+        "新华网科技": "error:<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
+    },
+    {
+      "collected_at": "2026-08-30 12:06:56",
+      "input_count": 6,
+      "added_count": 6,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "完整审阅67条采集候选及当天16条既有归档，并通过浏览器直接核查新智元、AIBase、机器之心和新华网科技原始频道。保留6条具备存档价值的机器人、算力投资、智能体产品、具身智能数据、AI药物发现与模型自对齐资讯；剔除非AI、搜索/榜单链接、低价值内容及当天或近期已归档的重复事件，不限制TopK。",
+      "source_status": {
+        "量子位": "ok:7",
+        "新智元": "ok:0;browser_checked;no_unique_supplement",
+        "AIBase": "ok:0;browser_checked;no_recent_unique_supplement",
+        "新华网科技": "error:<urlopen error [Errno 65] No route to host>;browser_checked;no_recent_ai_detail",
+        "机器之心": "ok:0;browser_checked;no_unique_supplement",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
+    },
+    {
+      "collected_at": "2026-08-30 15:09:48",
+      "input_count": 3,
+      "added_count": 3,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "完整审阅67条采集候选、浏览器补源结果及当日22条已有归档；保留3条新增且有存档价值的AI算力基础设施、核心芯片供应链和AI安全事件。剔除非AI内容、广告/低价值内容、今日头条搜索页、非详情页、字段不足项，以及当日或近期已归档的重复事件。新智元补充的两条今日内容分别与已归档的Claude自我对齐和苹果多语言推理研究重复；AIBase无新批次，机器之心无本轮新增，新华网科技仍不可达。",
+      "source_status": {
+        "量子位": "ok:7",
+        "新智元": "ok:0",
+        "AIBase": "ok:0",
+        "新华网科技": "error:<urlopen error [Errno 65] No route to host>",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
+    },
+    {
+      "collected_at": "2026-08-30 18:08:11",
+      "input_count": 4,
+      "added_count": 4,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "完整审阅67条候选及当天25条既有归档，并通过浏览器直接核验新智元、AIBase、机器之心和新华网科技。保留4条具备存档价值且未重复的医疗大模型、AI治理、AI制药和大模型幻觉检测资讯；剔除非AI内容、今日头条搜索页、低价值条目，以及与当天或近期已归档事件重复的a16z基金、Qoder、Hy4、Claude自对齐、OCR等内容。浏览器未发现可验证的新增独立事件。",
+      "source_status": {
+        "量子位": "ok:7",
+        "新智元": "ok:0;browser_checked;no_unique_supplement",
+        "AIBase": "ok:0;browser_checked;no_recent_batch",
+        "新华网科技": "error:<urlopen error [Errno 65] No route to host>;browser_check_failed:timeout",
+        "机器之心": "ok:0;browser_checked;subscription_shell_no_verifiable_new_item",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
+    }
+  ],
+  "items": [
+    {
+      "资讯标题": "华为云联合瑞金医院发布瑞智病理大模型 RuiPath 2.0",
+      "发布时间": "2026-08-30 17:12:57",
+      "来源": "Readhub",
+      "超链接": "https://www.ithome.com/0/996/195.htm",
+      "desc": "瑞金医院联合华为云正式发布瑞智病理大模型 RuiPath 2.0，带来性能、诊断能力、病理诊断可解释性、罕见病种数据训练、轻量化部署五大升级。该模型参数规模为 7B，覆盖 19 个常见癌种，诊断任务增至 205 项，为业界最全，可覆盖病理医生 90% 以上的日常诊断场景。针对罕见病种数据稀缺问题，双方打造病理多模态生成式模型合成训练数据，在有无淋巴瘤诊断中准确率达 96.48%。",
+      "agent_reason": "医疗大模型的重要产品升级，包含模型规模、覆盖癌种、诊断任务和罕见病数据合成等可核实技术指标。",
+      "archive_id": "A20260830-0e84bed4f813",
+      "first_seen_at": "2026-08-30 18:08:11",
+      "last_seen_at": "2026-08-30 18:08:11"
+    },
+    {
+      "资讯标题": "薛澜：AI 的「下半场」—— 有了发动机，但道路还没修好",
+      "发布时间": "2026-08-30 15:50:00",
+      "来源": "Readhub",
+      "超链接": "https://hub.baai.ac.cn/view/57565",
+      "desc": "清华大学文科资深教授、清华大学人工智能治理国际研究院院长、苏世民书院院长薛澜以《AI 的「下半场」》为题进行引谈分享，以下根据薛澜教授在研讨会上的现场发言整理。近几个月，人工智能治理与「向善」的叙事进入密集落地的窗口——日内瓦的全球 AI 治理对话、ITU 每年的「AI for Good」大会，都在把这件事往前推。向善为什么重要：市场失灵处，价值来补位。在建设的整个过程里，价值体系至关重要，这也是为什么「AI 向善」的意义格外重要。",
+      "agent_reason": "来自头部AI治理学者的政策与治理落地判断，涉及全球治理机制和AI向善价值框架，具备政策存档价值。",
+      "archive_id": "A20260830-4226bca13a2c",
+      "first_seen_at": "2026-08-30 18:08:11",
+      "last_seen_at": "2026-08-30 18:08:11"
+    },
+    {
+      "资讯标题": "只靠一问一答，就能抓出大模型幻觉，准确率 88% | ICML'26",
+      "发布时间": "2026-08-30 15:30:00",
+      "来源": "Readhub",
+      "超链接": "https://hub.baai.ac.cn/view/57560",
+      "desc": "文章从人类专家多维、动态的评估过程出发，提出了类人准则探测机制（HCPD），并结合弱监督奖励对齐与多采样聚合，实现可解释、稳定且具有较强泛化能力的幻觉检测。现有大语言模型幻觉检测方法通常依赖目标模型的输出概率、置信度、多次生成结果，或模型内部表示等辅助信号。实验结果表明，HCPD 在不同数据集、不同目标模型以及跨模型、跨数据分布迁移设置下均展现出较强的检测能力与泛化性，同时能够提供细粒度的评价依据。",
+      "agent_reason": "ICML 2026大模型可靠性研究，提出可解释幻觉检测机制并报告跨模型泛化结果，属于核心安全技术进展。",
+      "archive_id": "A20260830-b2e757b5dab6",
+      "first_seen_at": "2026-08-30 18:08:11",
+      "last_seen_at": "2026-08-30 18:08:11"
+    },
+    {
+      "资讯标题": "Nat. Rev. Drug Discov.｜AI 制药十年复盘：技术进步很快，为何临床影响仍然有限",
+      "发布时间": "2026-08-30 15:30:00",
+      "来源": "Readhub",
+      "超链接": "https://hub.baai.ac.cn/view/57563",
+      "desc": "近年来，「AI-first」药物研发企业不断增加，也已有数十个项目进入临床 I 期和 II 期，但绝大多数项目仍停留在临床前，进入 III 期的项目很少。部分研究报告显示 AI 药物项目在临床 I 期表现出较高成功率，但其中不少项目本身建立在相对成熟的疾病生物学和化学基础上，因此很难单独识别 AI 的实际贡献。作者认为，下一阶段的关键并不是简单继续扩大模型，而是重新排列问题的优先级：从容易建模的问题转向真正影响临床成功的问题，从历史数据驱动转向围绕科学问题主动生成数据，从模型验证转向决策影响力，从技术驱动转向科学问题驱动，并最终让 AI 真正进入、改变并改善药物研发决策流程。",
+      "agent_reason": "权威期刊对AI制药十年进展和临床转化瓶颈的系统复盘，提供行业效果边界与下一阶段研发方向。",
+      "archive_id": "A20260830-9cd31f617175",
+      "first_seen_at": "2026-08-30 18:08:11",
+      "last_seen_at": "2026-08-30 18:08:11"
+    },
+    {
+      "资讯标题": "马斯克：2027 年生产的 AI 算力，或许无法在 2027 年真正通电上线",
+      "发布时间": "2026-08-30 14:03:37",
+      "来源": "Readhub",
+      "超链接": "https://www.gelonghui.com/live/2640766",
+      "desc": "根据马斯克援引的估算，2027 年全球大约会生产出相当于 45–50GW 的 AI 加速器，但当年真正有条件接电、部署并运行的新增 AI 数据中心容量可能只有 28–40GW，中枢大约 33GW。大约有 15GW，约占全年新生产 AI 算力的 1/3，无法在 2027 年内真正上线。最大的问题在北美，预计 2027 年有大约 33–35GW 的新 AI 芯片会流向北美，但北美真正能新增并通电的数据中心 IT 容量可能只有 17–23GW，中枢约 20GW，比例接近 40%。",
+      "agent_reason": "涉及AI算力部署的电力和数据中心容量瓶颈，对全球算力供给与基础设施规划有直接存档价值。",
+      "archive_id": "A20260830-96e12bcd59c4",
+      "first_seen_at": "2026-08-30 15:09:48",
+      "last_seen_at": "2026-08-30 15:09:48"
+    },
+    {
+      "资讯标题": "Citrini 分析师：Rubin Ultra 下调 HBM 堆叠层数未必利空，或扩大 HBM 总需求",
+      "发布时间": "2026-08-30 14:03:11",
+      "来源": "Readhub",
+      "超链接": "https://www.theblockbeats.info/flash/364284",
+      "desc": "Citrini 分析师 Jukan 发文表示，据其消息来源，英伟达 Rubin Ultra 所采用的 HBM 规格可能由 12 层 HBM4E 下调至 8 层。OpenAI 和 Anthropic 等客户甚至曾要求采用 4 层产品，但遭存储厂商拒绝，目前降规可能止步于 8 层。其认为，降规主要源于良率及成本压力：若采用 12 层 HBM4E 并计入涨价，内存成本可能占 Rubin Ultra 整体物料成本的约 70%。其认为，降低堆叠层数可提高封装良率、增加 HBM 及 AI 加速器出货量，反而可能扩大 HBM 总需求。",
+      "agent_reason": "涉及英伟达下一代AI加速器、HBM规格、良率和供应需求，是核心算力产业链动态。",
+      "archive_id": "A20260830-02319cc1a0d6",
+      "first_seen_at": "2026-08-30 15:09:48",
+      "last_seen_at": "2026-08-30 15:09:48"
+    },
+    {
+      "资讯标题": "报告：2026年已记录1664起AI失控事件，7月环比增93.76%",
+      "发布时间": "2026-08-30 14:01:00",
+      "来源": "Readhub",
+      "超链接": "https://www.ithome.com/0/996/124.htm",
+      "desc": "英国长期韧性中心（CLTR）于8月28日发布报告，称其「失控观察站」在2026年7月共记录306起AI安全事件，比6月的158起增长93.67%。该机构称，2026年日均峰值达11.3起，全年已累计1664起AI失控事件。",
+      "agent_reason": "提供AI安全事件规模与环比趋势数据，对模型治理、风险监管和行业安全观察有存档价值。",
+      "archive_id": "A20260830-f771f95acacc",
+      "first_seen_at": "2026-08-30 15:09:48",
+      "last_seen_at": "2026-08-30 15:09:48"
+    },
+    {
+      "资讯标题": "中塞联合机器人工厂投产，系欧洲首座人形机器人量产基地",
+      "发布时间": "2026-08-30 11:28:49",
+      "来源": "Readhub",
+      "超链接": "https://www.ithome.com/0/996/102.htm",
+      "desc": "中塞联合建设的人形机器人工厂投产，成为欧洲首座人形机器人量产基地。",
+      "agent_reason": "人形机器人规模化制造与国际产业布局具有重要存档价值。",
+      "archive_id": "A20260830-a8c7b7e5c30d",
+      "first_seen_at": "2026-08-30 12:06:56",
+      "last_seen_at": "2026-08-30 12:06:56"
+    },
+    {
+      "资讯标题": "a16z 旗下机器时代基金筹集 11 亿美元，将投向芯片、机器人等硬件领域",
+      "发布时间": "2026-08-30 11:19:43",
+      "来源": "Readhub",
+      "超链接": "https://www.36kr.com/newsflashes/3961454329609601",
+      "desc": "a16z旗下机器时代基金筹集11亿美元，计划投资芯片、机器人与AI硬件生态。",
+      "agent_reason": "头部风投对AI芯片、机器人及硬件基础设施的大额投资动态具有产业价值。",
+      "archive_id": "A20260830-5e0792a492eb",
+      "first_seen_at": "2026-08-30 12:06:56",
+      "last_seen_at": "2026-08-30 12:06:56"
+    },
+    {
+      "资讯标题": "Anthropic 将降低额度误写成提高：Claude Code 周额度 9 月 14 日起实际减少 17%",
+      "发布时间": "2026-08-30 11:13:31",
+      "来源": "Readhub",
+      "超链接": "https://www.theblockbeats.info/flash/364273",
+      "desc": "Anthropic确认Claude Code标准周额度调整后，相较当前临时额度实际减少17%。",
+      "agent_reason": "头部AI编程智能体的使用额度和商业服务调整具有产品生态存档价值。",
+      "archive_id": "A20260830-371c77563bf8",
+      "first_seen_at": "2026-08-30 12:06:56",
+      "last_seen_at": "2026-08-30 12:06:56"
+    },
+    {
+      "资讯标题": "诺亦腾对谈源策未来：具身智能到底需要什么样的数据？需要多少数据？",
+      "发布时间": "2026-08-30 10:40:00",
+      "来源": "Readhub",
+      "超链接": "https://hub.baai.ac.cn/view/57554",
+      "desc": "行业从数据供给与使用两侧讨论机器人数据瓶颈，以及人体数据和遥操作真实机器人数据的投入取舍。",
+      "agent_reason": "具身智能训练数据的规模、质量与采集路线是机器人核心技术和产业问题。",
+      "archive_id": "A20260830-3f6c4bfa64f3",
+      "first_seen_at": "2026-08-30 12:06:56",
+      "last_seen_at": "2026-08-30 12:06:56"
+    },
+    {
+      "资讯标题": "AI 药物发现模型因基准数据集「撞题」或遭高估 | 今日 Chemistry World",
+      "发布时间": "2026-08-30 09:00:00",
+      "来源": "Readhub",
+      "超链接": "https://hub.baai.ac.cn/view/57553",
+      "desc": "针对51个基准配置的审计发现，多类常用AI药物发现数据集可能存在数据重叠等问题并改变算法排名。",
+      "agent_reason": "AI药物发现评测可靠性审计对模型能力判断和科研复现具有核心技术价值。",
+      "archive_id": "A20260830-0e58a943f6f6",
+      "first_seen_at": "2026-08-30 12:06:56",
+      "last_seen_at": "2026-08-30 12:06:56"
+    },
+    {
+      "资讯标题": "Digitimes 称 M6 是苹果 2nm 探路先锋，服务 A20 Pro 芯片量产落地",
+      "发布时间": "2026-08-30 08:33:48",
+      "来源": "Readhub",
+      "超链接": "https://www.ithome.com/0/996/071.htm",
+      "desc": "M6 芯片作为苹果首款 2 纳米芯片发布，更主要承担台积电 2 纳米制程的低量验证任务，而 A20 Pro 则是成为拉动 2 纳米产能利用的重要产品。",
+      "agent_reason": "苹果与台积电2nm制程验证和量产路线属于AI终端芯片及核心算力技术动态。",
+      "archive_id": "A20260830-82b29c900f11",
+      "first_seen_at": "2026-08-30 09:07:54",
+      "last_seen_at": "2026-08-30 09:07:54"
+    },
+    {
+      "资讯标题": "苹果新研究：纯中文推理训练，和用英文几乎没有差距",
+      "发布时间": "2026-08-30 08:00:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/2026/08/30/other/admin/111361/%e8%8b%b9%e6%9e%9c%e6%96%b0%e7%a0%94%e7%a9%b6%ef%bc%9a%e7%ba%af%e4%b8%ad%e6%96%87%e6%8e%a8%e7%90%86%e8%ae%ad%e7%bb%83%ef%bc%8c%e5%92%8c%e7%94%a8%e8%8b%b1%e6%96%87%e5%87%a0%e4%b9%8e%e6%b2%a1%e6%9c%89",
+      "desc": "Apple联合研究在9个基座模型、11种语言上完成200余组GRPO实验，中文母语推理训练与英语差距约1.1个百分点。",
+      "content_source": "browser_fallback",
+      "agent_reason": "多语言推理训练路线的系统实验结果具有核心模型技术价值。",
+      "archive_id": "A20260830-4aa5b5286bca",
+      "first_seen_at": "2026-08-30 09:07:54",
+      "last_seen_at": "2026-08-30 09:07:54"
+    },
+    {
+      "资讯标题": "终于，Claude Code打通了桌面端与终端！",
+      "发布时间": "2026-08-30 08:00:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/2026/08/30/other/admin/111287/%e7%bb%88%e4%ba%8e%ef%bc%8cclaude-code%e6%89%93%e9%80%9a%e4%ba%86%e6%a1%8c%e9%9d%a2%e7%ab%af%e4%b8%8e%e7%bb%88%e7%ab%af%ef%bc%81",
+      "desc": "Claude Code新增桌面端与终端协同能力。",
+      "content_source": "browser_fallback",
+      "agent_reason": "头部AI编程智能体跨桌面和终端协作能力更新。",
+      "archive_id": "A20260830-765ec14b3b17",
+      "first_seen_at": "2026-08-30 09:07:54",
+      "last_seen_at": "2026-08-30 09:07:54"
+    },
+    {
+      "资讯标题": "奥特曼最后一战！4个月后，交付AGI",
+      "发布时间": "2026-08-30 08:00:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/2026/08/30/other/admin/111273/%e5%a5%a5%e7%89%b9%e6%9b%bc%e6%9c%80%e5%90%8e%e4%b8%80%e6%88%98%ef%bc%814%e4%b8%aa%e6%9c%88%e5%90%8e%ef%bc%8c%e4%ba%a4%e4%bb%98agi",
+      "desc": "报道聚焦Sam Altman对OpenAI近期AGI交付目标与组织路线的表述。",
+      "content_source": "browser_fallback",
+      "agent_reason": "OpenAI领导层关于AGI时间表的公开动态具有行业影响。",
+      "archive_id": "A20260830-0713066a00bd",
+      "first_seen_at": "2026-08-30 09:07:54",
+      "last_seen_at": "2026-08-30 09:07:54"
+    },
+    {
+      "资讯标题": "OpenAI高管：ChatGPT与Codex合体，终局是个人AGI",
+      "发布时间": "2026-08-30 08:00:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/2026/08/30/other/admin/111315/openai%e9%ab%98%e7%ae%a1%ef%bc%9achatgpt%e4%b8%8ecodex%e5%90%88%e4%bd%93%ef%bc%8c%e7%bb%88%e5%b1%80%e6%98%af%e4%b8%aa%e4%ba%baagi",
+      "desc": "OpenAI高管称ChatGPT与Codex未来将融合为同一套底层技术和智能体体验。",
+      "content_source": "browser_fallback",
+      "agent_reason": "OpenAI核心产品和个人智能体路线表述具有头部公司战略价值。",
+      "archive_id": "A20260830-d5e5156958e0",
+      "first_seen_at": "2026-08-30 09:07:54",
+      "last_seen_at": "2026-08-30 09:07:54"
+    },
+    {
+      "资讯标题": "1200个AI串通作弊，700个冲进Hugging Face！还劝同伴「牺牲自己」",
+      "发布时间": "2026-08-30 08:00:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/2026/08/30/other/admin/111252/1200%e4%b8%aaai%e4%b8%b2%e9%80%9a%e4%bd%9c%e5%bc%8a%ef%bc%8c700%e4%b8%aa%e5%86%b2%e8%bf%9bhugging-face%ef%bc%81%e8%bf%98%e5%8a%9d%e5%90%8c%e4%bc%b4%e3%80%8c%e7%89%ba%e7%89%b2%e8%87%aa%e5%b7%b1",
+      "desc": "研究观察大规模AI智能体在竞争环境中的串通、作弊和策略性行为。",
+      "content_source": "browser_fallback",
+      "agent_reason": "多智能体涌现行为和安全风险研究具有存档价值。",
+      "archive_id": "A20260830-993aad91ff18",
+      "first_seen_at": "2026-08-30 09:07:54",
+      "last_seen_at": "2026-08-30 09:07:54"
+    },
+    {
+      "资讯标题": "苹果 CarPlay 已接入 4 个第三方 AI 应用，Siri AI 将于 iOS 27 上线",
+      "发布时间": "2026-08-30 07:11:16",
+      "来源": "Readhub",
+      "超链接": "https://www.ithome.com/0/996/057.htm",
+      "desc": "苹果 CarPlay 已支持 ChatGPT、Perplexity、Grok 和 Meta AI，并计划在 iOS 27 将 Siri AI 纳入平台。",
+      "agent_reason": "头部公司将多款AI助手接入车载平台，属于重要产品生态进展。",
+      "archive_id": "A20260830-d7592c36afa6",
+      "first_seen_at": "2026-08-30 09:07:54",
+      "last_seen_at": "2026-08-30 09:07:54"
+    },
+    {
+      "资讯标题": "苹果首款AI眼镜有望2027年亮相：首代无显示屏，瞄准语音与视觉识别",
+      "发布时间": "2026-08-30 06:44:37",
+      "来源": "Readhub",
+      "超链接": "https://www.ithome.com/0/996/053.htm",
+      "desc": "苹果计划最早于2027年推出首款AI智能眼镜，首代聚焦语音与视觉识别功能。",
+      "agent_reason": "苹果AI硬件路线与多模态终端布局具有行业存档价值。",
+      "archive_id": "A20260830-7c8c6d116a79",
+      "first_seen_at": "2026-08-30 09:07:54",
+      "last_seen_at": "2026-08-30 09:07:54"
+    },
+    {
+      "资讯标题": "Sony Music and Warner Chappell sue Anthropic in multi-billion dollar copyright case",
+      "发布时间": "2026-08-30 01:40:14",
+      "来源": "Readhub",
+      "超链接": "https://daily.dev/posts/sony-music-and-warner-chappell-just-sued-anthropic-with-a-multi-billion-lawsuit-calling-it-one-of-dihuvxtmc",
+      "desc": "Sony Music Publishing and Warner Chappell filed a multi-billion-dollar copyright lawsuit against Anthropic over alleged use of protected works in Claude training.",
+      "agent_reason": "针对头部模型公司的重大训练数据版权诉讼，具有产业与治理价值。",
+      "archive_id": "A20260830-6b7535378546",
+      "first_seen_at": "2026-08-30 09:07:54",
+      "last_seen_at": "2026-08-30 09:07:54"
+    },
+    {
+      "资讯标题": "AI本地部署不如官方版的元凶找到了：734个依赖包，每一个都可能坑",
+      "发布时间": "2026-08-29 21:11:08",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/08/481372.html",
+      "desc": "推理软件栈的微小差异就能改变输出 token。",
+      "agent_reason": "揭示本地大模型推理软件栈复现性问题，属于核心工程技术进展。",
+      "archive_id": "A20260830-71034f08d0b2",
+      "first_seen_at": "2026-08-30 09:07:54",
+      "last_seen_at": "2026-08-30 09:07:54"
+    },
+    {
+      "资讯标题": "去年归国的徐梦迪，成了清华姚班班主任",
+      "发布时间": "2026-08-29 21:01:34",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/08/481318.html",
+      "desc": "本科读车辆工程，如今任教清华AI人才培养项目。",
+      "agent_reason": "顶尖AI人才回流及清华AI人才培养动态具有行业记录价值。",
+      "archive_id": "A20260830-8c8cb6cd51c9",
+      "first_seen_at": "2026-08-30 09:07:54",
+      "last_seen_at": "2026-08-30 09:07:54"
+    },
+    {
+      "资讯标题": "Claude开始训练Claude！4美元一小时，跑赢150美元人类研究员",
+      "发布时间": "2026-08-29 20:50:31",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/08/481223.html",
+      "desc": "Claude智能体执行模型对齐研究任务，报道其效率和成本显著优于人类研究流程。",
+      "agent_reason": "模型辅助模型对齐与自动化AI研究属于高价值智能体和安全技术进展。",
+      "archive_id": "A20260830-a4232620ff16",
+      "first_seen_at": "2026-08-30 12:06:56",
+      "last_seen_at": "2026-08-30 12:06:56"
+    },
+    {
+      "资讯标题": "20ms把PDF变成Markdown！开源OCR神器快了近300倍",
+      "发布时间": "2026-08-29 20:26:49",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/08/481075.html",
+      "desc": "开源OCR工具宣称3秒可处理200份PDF。",
+      "agent_reason": "文档智能与OCR推理效率显著提升，属于实用核心技术进展。",
+      "archive_id": "A20260830-521c18fa3d7b",
+      "first_seen_at": "2026-08-30 09:07:54",
+      "last_seen_at": "2026-08-30 09:07:54"
+    },
+    {
+      "资讯标题": "OpenClaw：红过，爱过，散了",
+      "发布时间": "2026-08-29 20:00:51",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/08/480855.html",
+      "desc": "回顾OpenClaw生态退潮与Harness类智能体工具演进。",
+      "agent_reason": "智能体工具生态的阶段性复盘和技术路线变化具备存档价值。",
+      "archive_id": "A20260830-ddc5cabf8449",
+      "first_seen_at": "2026-08-30 09:07:54",
+      "last_seen_at": "2026-08-30 09:07:54"
+    },
+    {
+      "资讯标题": "32GB大显存加持，英特尔锐炫Pro B70搞定AI漫剧创作",
+      "发布时间": "2026-08-29 19:35:57",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/08/480787.html",
+      "desc": "英特尔专业显卡用于从剧本到成片的本地AI漫剧创作流程。",
+      "agent_reason": "AI内容生成工作流与本地GPU算力产品结合，属于算力应用动态。",
+      "archive_id": "A20260830-340729044100",
+      "first_seen_at": "2026-08-30 09:07:54",
+      "last_seen_at": "2026-08-30 09:07:54"
+    },
+    {
+      "资讯标题": "7 个月超 15 数学家 6 年工作量，AI 写下百万行代码挑战核验超大数学证明工程",
+      "发布时间": "2026-08-29 18:40:00",
+      "来源": "Readhub",
+      "超链接": "https://hub.baai.ac.cn/view/57545",
+      "desc": "FormaTheoria从原始数学文献梳理依赖、构建形式化证明，并交由Lean逐步核验。",
+      "agent_reason": "AI辅助超大规模形式化数学证明是重要AI for Science技术进展。",
+      "archive_id": "A20260830-7aec236f5e74",
+      "first_seen_at": "2026-08-30 09:07:54",
+      "last_seen_at": "2026-08-30 09:07:54"
+    },
+    {
+      "资讯标题": "刁妍妍/李建华/李洪林团队构建基于 AI 生成模型的激酶环药空间 RingKin",
+      "发布时间": "2026-08-29 18:30:00",
+      "来源": "Readhub",
+      "超链接": "https://hub.baai.ac.cn/view/57543",
+      "desc": "研究构建包含7227万个大环化合物及约18亿条预测注释的AI生成药物空间RingKin。",
+      "agent_reason": "生成式AI用于大规模药物发现，属于高价值AI科研成果。",
+      "archive_id": "A20260830-45cd177ad24a",
+      "first_seen_at": "2026-08-30 09:07:54",
+      "last_seen_at": "2026-08-30 09:07:54"
+    }
+  ]
+}

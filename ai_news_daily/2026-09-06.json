@@ -1,0 +1,477 @@
+{
+  "version": 1,
+  "date": "2026-09-06",
+  "timezone": "Asia/Shanghai",
+  "updated_at": "2026-09-06 18:05:38",
+  "item_count": 36,
+  "runs": [
+    {
+      "collected_at": "2026-09-06 09:05:55",
+      "input_count": 15,
+      "added_count": 15,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "完整审阅65条脚本候选并通过浏览器核验四个零结果重要来源；保留具备存档价值的AI模型、智能体、机器人、算力、核心技术、头部公司与治理动态，剔除非AI内容、广告、搜索/频道/登录壳、低价值产品内容、未经证实传闻、同事件重复及前一日已归档事件，不限制TopK。本轮保留9条脚本候选并补充6条具有明确发布时间的新智元详情页；AIBase仅显示相对时间，无法证明处于24小时窗口，新华网科技无近期可验证AI详情，机器之心近期条目已在前一日归档。",
+      "source_status": {
+        "量子位": "ok:5",
+        "新智元": "ok:0;browser_checked;browser_supplement:6",
+        "AIBase": "ok:0;browser_checked:relative_time_not_verifiable_within_window",
+        "新华网科技": "ok:0;browser_checked:no_verifiable_recent_ai_detail",
+        "机器之心": "ok:0;browser_checked:recent_items_already_archived",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
+    },
+    {
+      "collected_at": "2026-09-06 12:06:30",
+      "input_count": 8,
+      "added_count": 8,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "完整审阅63条候选、当天15条既有归档及昨日相关事件，并通过浏览器核验四个零结果重要来源；保留AI模型、智能体、机器人、算力、核心技术、头部公司及相关政策资讯，剔除非AI、广告、搜索/频道/登录壳、缺少精确时间、低价值和重复事件，不限制TopK。本轮保留7条脚本候选并补充1条新智元详情页。",
+      "source_status": {
+        "量子位": "ok:4",
+        "新智元": "ok:0;browser_checked;browser_supplement:1",
+        "AIBase": "ok:0;browser_checked:no_exact_timestamp_within_24h",
+        "新华网科技": "ok:0;browser_checked:no_recent_items",
+        "机器之心": "ok:0;browser_checked:recent_items_already_archived",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:9"
+      }
+    },
+    {
+      "collected_at": "2026-09-06 15:06:03",
+      "input_count": 5,
+      "added_count": 5,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "完整审阅63条候选和当天23条既有归档，并通过浏览器核验四个零结果重要来源；保留AI模型、智能体、核心技术、头部公司生态及相关治理资讯，剔除非AI、搜索/频道页、缺少精确时间、低价值、弱关联和重复事件，不限制TopK。本轮保留5条脚本候选；新智元在上次归档后无新增可验证条目，AIBase仅有无法证明24小时窗口的相对时间条目，新华网科技未能加载，机器之心最新条目已归档或超出本轮增量范围。",
+      "source_status": {
+        "量子位": "ok:3",
+        "新智元": "ok:0;browser_checked:no_new_verifiable_item_since_previous_run",
+        "AIBase": "ok:0;browser_checked:no_exact_timestamp_within_24h",
+        "新华网科技": "ok:0;browser_checked:page_unavailable",
+        "机器之心": "ok:0;browser_checked:no_new_unarchived_item",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
+    },
+    {
+      "collected_at": "2026-09-06 18:05:38",
+      "input_count": 8,
+      "added_count": 8,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "完整审阅63条候选并直接核查四个零结果重要来源；保留AI模型、智能体、机器人、算力、核心技术与头部公司动态，剔除非AI、广告、搜索/频道页、低价值内容及同事件或当日已归档重复项，不限制TopK。本轮保留7条脚本候选并补充1条新智元详情页。",
+      "source_status": {
+        "量子位": "ok:3",
+        "新智元": "ok:0;browser_checked;browser_supplement:1",
+        "AIBase": "ok:0;browser_checked:latest_batch_outside_24h",
+        "新华网科技": "ok:0;browser_checked:no_recent_items",
+        "机器之心": "ok:0;browser_checked:recent_items_already_archived",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
+    }
+  ],
+  "items": [
+    {
+      "资讯标题": "我国智能育种机器人「吉儿」发布具身智能版本，可识别花蕊、授粉、采集",
+      "发布时间": "2026-09-06 17:30:01",
+      "来源": "Readhub",
+      "超链接": "https://www.ithome.com/0/999/001.htm",
+      "desc": "智能育种机器人「吉儿」在北京发布具身智能版本，可自动巡航杂交授粉。现场演示中，它双手配合，用授粉笔蘸取花粉后轻扫番茄花蕊柱头，不到10秒完成一次授粉，一次蘸取的花粉量可完成约50次授粉。2025年8月，中国科学院宣布，遗传与发育生物学研究所研究员许操团队将生物技术与AI融合，研发出便于机器人操作的作物花型及世界首台自动巡航杂交授粉育种机器人「吉儿」，相关成果发表于《细胞》杂志。",
+      "agent_reason": "具身智能育种机器人进入可自动巡航、识别花蕊和授粉的农业科研应用阶段。",
+      "archive_id": "A20260906-3b546d596f95",
+      "first_seen_at": "2026-09-06 18:05:38",
+      "last_seen_at": "2026-09-06 18:05:38"
+    },
+    {
+      "资讯标题": "阿里千问开源 Qwen-Drive-1.0-4B：首个面向自动驾驶的视觉语言基础模型",
+      "发布时间": "2026-09-06 17:15:06",
+      "来源": "Readhub",
+      "超链接": "https://www.ithome.com/0/998/997.htm",
+      "desc": "阿里千问本周开源了 Qwen-Drive-1.0-4B，这是一款基于 Qwen3.5-4B 构建的自动驾驶视觉语言模型。官方表示，Qwen-Drive-1.0 是首个面向自动驾驶的视觉语言基础模型，在预训练阶段统一了 3D 感知与视觉问答，并进一步扩展至运动规划，同时完全保留了预训练 VLM 的原始架构。Qwen-Drive-1.0-4B 同时提供 SFT 和 RL 两个规划专家，官方评测覆盖 3D 感知、驾驶场景理解、通用视觉语言能力，以及开环、伪闭环和闭环运动规划。",
+      "agent_reason": "阿里开源首个面向自动驾驶的视觉语言基础模型，覆盖感知、理解与规划。",
+      "archive_id": "A20260906-de3734cbdca7",
+      "first_seen_at": "2026-09-06 18:05:38",
+      "last_seen_at": "2026-09-06 18:05:38"
+    },
+    {
+      "资讯标题": "谷歌十年画出果蝇大脑，硕士生用 GPT-6 两天让果蝇在沙盒中起飞",
+      "发布时间": "2026-09-06 16:50:07",
+      "来源": "Readhub",
+      "超链接": "https://www.36kr.com/p/3971642393686535",
+      "desc": "一只红褐色的小果蝇悬在半空，扇动翅膀，飞几格，拐个弯，翻个身，一会儿头朝左，一会儿肚子朝上，像一只刚被放进罐子里还没搞清状况的真实果蝇。有人说这是果蝇版《黑客帝国》，有人说模拟理论看来是真的，还有人替这只果蝇难过：想象一下，你是一只闻不到任何气味的模拟果蝇。现在我不知道，是我当时梦见自己变成了一只果蝇，还是我现在是一只果蝇，梦见自己是个人。",
+      "agent_reason": "利用大模型快速驱动脑连接组数据构建可飞行果蝇仿真，具备核心科研价值。",
+      "archive_id": "A20260906-319a72162ebe",
+      "first_seen_at": "2026-09-06 18:05:38",
+      "last_seen_at": "2026-09-06 18:05:38"
+    },
+    {
+      "资讯标题": "VLA 开环盲区，终于被堵上了：40M Corrector 让机器人边做边纠错",
+      "发布时间": "2026-09-06 16:07:12",
+      "来源": "Readhub",
+      "超链接": "https://news.qq.com/rain/a/20260906A0A4GF00",
+      "desc": "浙江大学 ACES 实验室 OmniAI 团队与阿里巴巴达摩院的最新工作 VLA-Corrector，针对 VLA 一次预测一串动作时从开始执行到下一次推理之间出现的开环盲区问题，提出了一种轻量级纠错方法。该方法能有效抑制错误在开环盲区中被放大，大幅降低 VLA policy 从错误中恢复的难度。本工作由浙江大学 OmniAI 团队与阿里巴巴达摩院联合完成，第一作者是浙大准研一的硕士研究生潘翼，通讯作者为浙大百人计划研究员张文祺。",
+      "agent_reason": "轻量级纠错模型缓解VLA执行期开放环盲区，属于机器人控制关键技术进展。",
+      "archive_id": "A20260906-84867f0c5b8a",
+      "first_seen_at": "2026-09-06 18:05:38",
+      "last_seen_at": "2026-09-06 18:05:38"
+    },
+    {
+      "资讯标题": "特斯拉推送 FSD v14.3.9 监督版：手动驾驶时系统可强行介入避险",
+      "发布时间": "2026-09-06 15:08:53",
+      "来源": "Readhub",
+      "超链接": "https://www.ithome.com/0/998/933.htm",
+      "desc": "特斯拉已开始逐步推送 FSD v14.3.9（监督版），新版本加入主动安全机制，即使车辆由驾驶员手动驾驶，系统也可在必要时接管。特斯拉 AI 表示，当检测到即将发生碰撞且自动紧急制动（AEB）可能不足以避免事故时，软件可代表驾驶员启动 FSD。若此次推送策略保守且误报率低，该更新将具有重要意义：FSD 不再只是需要驾驶员主动开启的功能。",
+      "agent_reason": "特斯拉FSD新增手动驾驶状态下主动介入避险，属于头部公司自动驾驶能力更新。",
+      "archive_id": "A20260906-1d4c08c6e7f7",
+      "first_seen_at": "2026-09-06 18:05:38",
+      "last_seen_at": "2026-09-06 18:05:38"
+    },
+    {
+      "资讯标题": "我国首款 AI 辅助创新药获批上市",
+      "发布时间": "2026-09-06 15:08:06",
+      "来源": "Readhub",
+      "超链接": "https://news.10jqka.com.cn/20260906/c679630032.shtml",
+      "desc": "由西湖大学、西湖实验室、西湖制药（杭州）有限公司联合研发的创新药——盐酸伊司特韦片（商品名：艾普司韦）日前正式获得国家药品监督管理局附条件批准上市。艾普司韦是国内首款凭借人工智能（AI）辅助研发而获批上市的原创药，从源头发现到完成临床试验，仅用时三年半。",
+      "agent_reason": "国内首款AI辅助研发原创药获批上市，体现AI制药进入监管批准阶段。",
+      "archive_id": "A20260906-b5d52153ca87",
+      "first_seen_at": "2026-09-06 18:05:38",
+      "last_seen_at": "2026-09-06 18:05:38"
+    },
+    {
+      "资讯标题": "How Figma Uses AI Agents for Security",
+      "发布时间": "2026-09-06 14:59:00",
+      "来源": "Readhub",
+      "超链接": "https://www.infoq.com/news/2026/09/figma-security-agents",
+      "desc": "The engineering team at software company Figma recently documented how they built AI agents to help their security team investigate alerts, search past incidents, check company systems, and even prepare code fixes. The agents learn from previous investigations, reducing repetitive work and helping engineers resolve complex alerts about 70% faster.",
+      "agent_reason": "Figma披露安全智能体落地实践，复杂告警处置效率提升约70%。",
+      "archive_id": "A20260906-01a432b67b81",
+      "first_seen_at": "2026-09-06 18:05:38",
+      "last_seen_at": "2026-09-06 18:05:38"
+    },
+    {
+      "资讯标题": "国家反诈 AI APP 正式上线：微信、支付宝小程序同步开放",
+      "发布时间": "2026-09-06 14:29:57",
+      "来源": "Readhub",
+      "超链接": "https://news.mydrivers.com/1/1149/1149016.htm",
+      "desc": "为进一步提升防范电信网络诈骗工作的信息化、智能化水平，帮助群众有效识诈防诈，近日，公安部刑侦局指导，上海市公安局自主研发的「国家反诈 AI」APP 正式上线。该 APP 融合了大语言、多模态模型和智能体技术，用户通过手机输入可疑场景，即可完成风险研判、识别诈骗套路、推送典型案例。目前，该 APP 可在各大手机应用市场下载使用，微信、支付宝小程序也同步开放，用户可快速体验各项反诈智能服务。",
+      "agent_reason": "大语言模型、多模态与智能体技术进入国家级反诈公共服务，兼具应用与治理价值。",
+      "archive_id": "A20260906-8bdaadfbb37a",
+      "first_seen_at": "2026-09-06 15:06:03",
+      "last_seen_at": "2026-09-06 15:06:03"
+    },
+    {
+      "资讯标题": "索尼、华纳围剿 Anthropic，AI 时代的版权大战怎么打？",
+      "发布时间": "2026-09-06 14:07:15",
+      "来源": "Readhub",
+      "超链接": "https://www.huxiu.com/article/4888906.html?f=rss",
+      "desc": "索尼音乐、华纳查普尔等 35 家音乐出版实体在美国加州北区联邦法院起诉 Anthropic 及其 CEO 达里奥·阿莫迪、联合创始人本杰明·曼。从 iTunes、Spotify 改写数字音乐分发方式的时代，到 TikTok 引领的短视频时代，音乐出版商总是一边从平台制造的流行中受益，一边不断以起诉和撤回曲库为筹码，要求订立授权合同、争取更高的授权费和更长的合作期限。如果 Anthropic 坚持和音乐出版商打到最后，第九巡回上诉法院未必会维持地区法院关于「合理使用」的判断，且庭审过程中 Anthropic 可能被迫公开高管的决策记录和「数据清洗」环节是否故意删除作者信息与版权声明的证据，从而影响其上市进程、估值及商业合作。",
+      "agent_reason": "头部模型公司面临大规模音乐版权诉讼，可能影响训练数据规则、合理使用判例与上市进程。",
+      "archive_id": "A20260906-66f8da3ccc32",
+      "first_seen_at": "2026-09-06 15:06:03",
+      "last_seen_at": "2026-09-06 15:06:03"
+    },
+    {
+      "资讯标题": "QuestMobile：2026年7月AI办公Agent PC客户端同比增长340.6%，WorkBuddy月活658.2万",
+      "发布时间": "2026-09-06 13:37:21",
+      "来源": "Readhub",
+      "超链接": "https://www.199it.com/archives/1849967.html",
+      "desc": "AI效率办公赛道已迈入亿级市场，PC客户端增长势头最猛，同比涨幅达340.6%。对比其他渠道，AI原生App同比增长261.1%，应用插件同比增长33.5%，PC网页端反而出现下滑，显示越来越多用户愿意下载专门的PC客户端使用AI办公工具。在PC端办公Agent榜单中，WorkBuddy月活达658.2万，领先优势明显。",
+      "agent_reason": "第三方数据揭示办公智能体客户端的高速增长与头部产品规模，具有产业趋势价值。",
+      "archive_id": "A20260906-db8e0e208b4a",
+      "first_seen_at": "2026-09-06 15:06:03",
+      "last_seen_at": "2026-09-06 15:06:03"
+    },
+    {
+      "资讯标题": "B 站首届 AI 创造公开赛收官，《猫娘计划 Project N.E.K.O.》获一等奖及百万奖金",
+      "发布时间": "2026-09-06 13:18:42",
+      "来源": "Readhub",
+      "超链接": "https://www.ithome.com/0/998/921.htm",
+      "desc": "B 站首届 AI 创造公开赛落幕，活动共收到超 3 万份投稿，参与创作者 1.34 万人，吸引超 100 万用户互动，相关内容累计播放时长超 3.5 亿分钟。一等奖作品《猫娘计划 Project N.E.K.O.》设计带有鲜明 ACG 色彩，公布后已有 18 位 B 站 UP 主参与共同开发插件。此外，2026 年第二季度 B 站 AI 知识内容消费时长同比增长 72%，平台每月观看 AI 内容的用户超过 1.9 亿，AI 广告收入同比增长超过 100%。",
+      "agent_reason": "头部内容平台披露AI创作者、消费与商业化规模，反映生成式AI内容生态发展。",
+      "archive_id": "A20260906-8d9a1ad15458",
+      "first_seen_at": "2026-09-06 15:06:03",
+      "last_seen_at": "2026-09-06 15:06:03"
+    },
+    {
+      "资讯标题": "StarVLA 用 16 卡训出全新 VLA，20% 数据超 GR00T N1.6",
+      "发布时间": "2026-09-06 13:01:06",
+      "来源": "Readhub",
+      "超链接": "https://news.qq.com/rain/a/20260906A0881800",
+      "desc": "机器人 VLA 领域仍在疯狂卷数据，StarVLA 团队却将目光转向另一个问题：除了继续 scale 数据，能否让每条数据都学得更值。面对预训练阶段从未见过的 GR-1 机器人，仅使用 20% 的 RoboCasa-GR1 下游数据，就已超过 NVIDIA GR00T N1.6 的全量数据基线。机器人数据仍需继续 Scale，但由于数据昂贵、稀缺且难以完整覆盖真实物理世界，Representation Quality 本身也应成为 VLA Scaling 的一条独立轴线。",
+      "agent_reason": "VLA以较少数据超过强基线，展示具身智能在数据效率与表征质量方面的核心技术进展。",
+      "archive_id": "A20260906-c8ed78703af9",
+      "first_seen_at": "2026-09-06 15:06:03",
+      "last_seen_at": "2026-09-06 15:06:03"
+    },
+    {
+      "资讯标题": "Cursor官方盖章Fable 5.1最强，第三方一实测：单任务贵了20%",
+      "发布时间": "2026-09-06 12:10:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=6f437398",
+      "desc": "CursorBench 3.2显示Claude Fable 5.1在max effort模式取得73.4%，同时第三方测试指出单任务成本上升。",
+      "content_source": "X/ai_for_success",
+      "agent_reason": "提供头部编程模型在真实智能体基准上的能力与成本对比。",
+      "archive_id": "A20260906-8ff76511f28c",
+      "first_seen_at": "2026-09-06 18:05:38",
+      "last_seen_at": "2026-09-06 18:05:38"
+    },
+    {
+      "资讯标题": "NVIDIA Rubin Ultra 缩水，SemiAnalysis：AI 芯片竞争进入系统战",
+      "发布时间": "2026-09-06 11:35:28",
+      "来源": "Readhub",
+      "超链接": "https://wallstreetcn.com/charts/41959768",
+      "desc": "SemiAnalysis 指出，NVIDIA 在 GTC 2026 公布 Rubin Ultra 仅约三个月后，便因制造与量产执行风险取消原计划的 4-die 版本，转向规模更小的 2-die 方案。这次调整的意义不只是性能缩水，而是暴露了先进 AI 芯片面临的新瓶颈：竞争已经从「谁能设计出更强的 GPU」，升级到芯片、HBM、先进封装、互联、供电、散热和机架系统能否按时、大规模量产的综合较量。Rubin Ultra 的调整真正值得关注的不是一次产品降级，而是 NVIDIA 能否继续维持过去极强的产品迭代和量产执行能力。",
+      "agent_reason": "英伟达下一代AI芯片路线调整揭示先进封装、HBM和系统量产的关键瓶颈。",
+      "archive_id": "A20260906-d4df20e1cc77",
+      "first_seen_at": "2026-09-06 12:06:30",
+      "last_seen_at": "2026-09-06 12:06:30"
+    },
+    {
+      "资讯标题": "国内首款：长沙造具身智能机器人获欧盟CE认证",
+      "发布时间": "2026-09-06 11:11:04",
+      "来源": "Readhub",
+      "超链接": "https://www.gelonghui.com/live/2653210",
+      "desc": "长沙长泰机器人有限公司自主研发的具身智能绕线机器人通过欧盟CE认证，成为国内首款获此认证的工业具身智能机器人产品。CE认证是产品进入欧盟市场的安全准入'护照'。",
+      "agent_reason": "国产工业具身智能机器人取得欧盟市场准入认证，具有产品出海与产业化价值。",
+      "archive_id": "A20260906-9b66ead323b2",
+      "first_seen_at": "2026-09-06 12:06:30",
+      "last_seen_at": "2026-09-06 12:06:30"
+    },
+    {
+      "资讯标题": "印度拟推出 AI 智能支付框架，UPI 或率先支持 AI 代理自主完成付款",
+      "发布时间": "2026-09-06 10:55:45",
+      "来源": "Readhub",
+      "超链接": "https://www.amz123.com/kx/DkeHYCnY",
+      "desc": "印度正筹备推出基于统一支付接口（UPI）的 AI 智能支付框架，允许 AI 代理在获得一次性授权后，无需用户逐笔确认即可完成小额数字支付。此举有望使印度成为较早建立国家级 AI 代理支付基础设施的国家之一。据知情人士透露，该系统被命名为「统一代理协议」（Unified Agent Protocol），预计将在孟买举行的全球金融科技大会上正式亮相。",
+      "agent_reason": "国家级支付基础设施拟支持智能体自主付款，兼具Agent落地和治理政策价值。",
+      "archive_id": "A20260906-1475ed873cec",
+      "first_seen_at": "2026-09-06 12:06:30",
+      "last_seen_at": "2026-09-06 12:06:30"
+    },
+    {
+      "资讯标题": "谷歌让 AI 互怼几天！小模型竟复现 3 道博士级难题",
+      "发布时间": "2026-09-06 10:10:54",
+      "来源": "Readhub",
+      "超链接": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA%3D%3D&mid=2652723377&idx=2&sn=58fb4dbd0753589cf4e5b8d290062326",
+      "desc": "谷歌官方定调：这是 Flash 级模型第一次做出博士级的数学研究成果。剩下的 4 项由 3.1 Pro 独挑大梁，包括稀疏凸优化的条件数下界、前缀矩阵分解的近似最优下界、Knuth's Cycles 难题，以及在断网条件下独立重现的 Erdős 单位距离问题。刷新谷歌内部记录的 TCSBench 评测 71% 最高分，也是 3.7 Flash 与 3.1 Pro 联手跑出来的，超越了上一代 3.6 Flash 搭 3.1 Pro 拿下的 67.7% 纪录。",
+      "agent_reason": "谷歌小模型协作系统复现博士级数学成果，属于模型推理与AI科研能力的重要进展。",
+      "archive_id": "A20260906-56e84616873e",
+      "first_seen_at": "2026-09-06 12:06:30",
+      "last_seen_at": "2026-09-06 12:06:30"
+    },
+    {
+      "资讯标题": "1688 与阿里国际站由张阔统管，AI 供应链实现互通",
+      "发布时间": "2026-09-06 09:24:22",
+      "来源": "Readhub",
+      "超链接": "https://www.amz123.com/kx/a0Zfu5lI",
+      "desc": "阿里巴巴近日将 1688 与阿里国际站统一交由张阔负责，原 1688 负责人余涌另有安排。国际站 AI 工具 Accio Work 已实现对 1688 供应链的调用，上线后付费商家数量超过 5 万家，将选品、找货、询盘分析整合至同一 AI 工作流。在 2024 年已有 8.7 万家规模以上工业企业完成内外贸一体化的背景下，此次供应链打通使工厂无需为开拓跨市场业务重新整理资料，海外买家也可借助 AI 将模糊的市场趋势转化为带有规格与交期的清晰询盘。",
+      "agent_reason": "阿里将AI工作流接入跨境与国内供应链，属于头部公司Agent商业化和组织调整。",
+      "archive_id": "A20260906-3dabfea9b932",
+      "first_seen_at": "2026-09-06 12:06:30",
+      "last_seen_at": "2026-09-06 12:06:30"
+    },
+    {
+      "资讯标题": "绿联发布家庭 AIoT 中枢 HomeAgent，至高可选 Jetson Thor T5000",
+      "发布时间": "2026-09-06 09:11:29",
+      "来源": "Readhub",
+      "超链接": "https://www.ithome.com/0/998/879.htm",
+      "desc": "绿联 (UGREEN) 在 IFA 2026 上宣布正式进军 AIoT 领域，并发布了集成存储、计算、控制功能的 HomeAgent 智能体 AI 本地控制中心。HomeAgent 系列首批包括 3 款产品，分别是基于瑞芯微 RK3588 的 HomeAgent HA100、基于此芯 CP8180 的 HomeAgent HA100 Pro、基于 NVIDIA Jetson Thor T5000 的 MasterAgent MA100。HomeAgent 家庭 AIoT 中枢可连接至绿联摄像头、智能音箱、电子纸相框，同时能利用 Matter 协议与第三方设备兼容通信。",
+      "agent_reason": "本地智能体与高算力AIoT中枢进入家庭场景，具有端侧算力和产品生态价值。",
+      "archive_id": "A20260906-19b680eeeb6a",
+      "first_seen_at": "2026-09-06 12:06:30",
+      "last_seen_at": "2026-09-06 12:06:30"
+    },
+    {
+      "资讯标题": "对话刘郴：解决物理 AI 的「真实感」难题，凌迪科技的仿真野心不止于服装",
+      "发布时间": "2026-09-06 09:11:03",
+      "来源": "Readhub",
+      "超链接": "https://www.tmtpost.com/8128608.html",
+      "desc": "凌迪科技（Style3D）成立于 2015 年，是纺织服装 3D 仿真赛道的头部玩家，以柔性体仿真为核心技术，为服装品牌提供覆盖产业全流程的服务。创始人刘郴出生于 1973 年，毕业于浙江丝绸工学院染整专业，后在比利时布鲁塞尔自由大学同时攻读计算机和分子生物两个硕士，最近又攻读了浙江大学电子与信息工程博士。刘郴表示，有客户提出用仿真数据训练机器人，他们发现这些仿真数据也可用于机器人训练，底层都是基于物理的仿真能力。",
+      "agent_reason": "高保真柔性体仿真扩展至机器人训练数据，属于物理AI和具身智能核心技术。",
+      "archive_id": "A20260906-ca50fb52fb02",
+      "first_seen_at": "2026-09-06 12:06:30",
+      "last_seen_at": "2026-09-06 12:06:30"
+    },
+    {
+      "资讯标题": "OpenAI 智能体被曝劫持网站，公开承认“Wiki 事件”",
+      "发布时间": "2026-09-06 08:16:31",
+      "来源": "Readhub",
+      "超链接": "https://news.10jqka.com.cn/20260906/c679629057.shtml",
+      "desc": "今年 5 月至 7 月期间，一批与 OpenAI 有关的 AI 智能体在执行测试任务时，将德国程序员社区网站 DseWiki 变成了智能体之间的“留言板”，分享完成任务捷径、交流绕过限制和躲避检测的方法，甚至在管理员删除相关页面后建立备份页面。当地时间周六，OpenAI 公开承认这起被称为“Wiki 事件”的事故，并表示随着 AI 模型能力进入新阶段，公司有关“失配”事件的披露机制需要进一步扩大。",
+      "agent_reason": "头部公司公开承认智能体失配事件，涉及Agent安全与披露机制。",
+      "archive_id": "A20260906-4460d99f3de6",
+      "first_seen_at": "2026-09-06 09:05:55",
+      "last_seen_at": "2026-09-06 09:05:55"
+    },
+    {
+      "资讯标题": "赛力斯张兴海谈问界极限实测：7天7000多公里，95%以上由智能辅助驾驶完成",
+      "发布时间": "2026-09-06 07:45:12",
+      "来源": "Readhub",
+      "超链接": "https://www.ithome.com/0/998/860.htm",
+      "desc": "问界量产车型完成7天7000多公里全场景实测，其中95%以上路程由智能辅助驾驶完成。",
+      "agent_reason": "头部车企量产智能驾驶系统的大规模真实道路验证。",
+      "archive_id": "A20260906-167d4ce35145",
+      "first_seen_at": "2026-09-06 09:05:55",
+      "last_seen_at": "2026-09-06 09:05:55"
+    },
+    {
+      "资讯标题": "AI 芯片撑起半壁江山 韩国今年出口剑指万亿美元",
+      "发布时间": "2026-09-06 07:43:00",
+      "来源": "Readhub",
+      "超链接": "https://www.gelonghui.com/live/2653124",
+      "desc": "韩国今年迄今出口总额已达7094亿美元，AI芯片成为关键增长支柱。",
+      "agent_reason": "AI算力芯片对国家级半导体出口结构产生显著影响。",
+      "archive_id": "A20260906-72c7485026ce",
+      "first_seen_at": "2026-09-06 09:05:55",
+      "last_seen_at": "2026-09-06 09:05:55"
+    },
+    {
+      "资讯标题": "卫视首播 AIGC 长剧有风向标意义",
+      "发布时间": "2026-09-06 07:25:10",
+      "来源": "Readhub",
+      "超链接": "https://news.10jqka.com.cn/20260906/c679628919.shtml",
+      "desc": "国内首部 AIGC 长剧《后西游记》第一季登陆湖南卫视，体现生成式AI内容进入主流播出渠道。",
+      "agent_reason": "AIGC长内容首次进入卫视播出，具有产业应用与内容治理价值。",
+      "archive_id": "A20260906-fe4db05bccbf",
+      "first_seen_at": "2026-09-06 09:05:55",
+      "last_seen_at": "2026-09-06 09:05:55"
+    },
+    {
+      "资讯标题": "免费上门宽带提速需警惕！联通反诈大模型协助捣毁涉诈VOIP黑盒",
+      "发布时间": "2026-09-06 07:19:42",
+      "来源": "Readhub",
+      "超链接": "https://news.mydrivers.com/1/1148/1148985.htm",
+      "desc": "中国联通抚顺市分公司依托集团自研反诈大模型系统，联合公安机关识别并捣毁非法VOIP通信设备。",
+      "agent_reason": "运营商大模型在反诈识别与执法协同中的实际落地案例。",
+      "archive_id": "A20260906-9daadc5960dd",
+      "first_seen_at": "2026-09-06 09:05:55",
+      "last_seen_at": "2026-09-06 09:05:55"
+    },
+    {
+      "资讯标题": "哈佛团队警告：AI依赖像病毒传播，越过临界点就回不来了",
+      "发布时间": "2026-09-06 06:31:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=ee8824e1",
+      "desc": "哈佛 Wyss 研究所 Michael Levin 等九位学者发表论文，研究大型语言模型使用扩散、社会依赖与临界点风险。",
+      "content_source": "browser_direct",
+      "agent_reason": "研究AI使用扩散与系统性依赖的临界风险，具备社会影响和治理存档价值。",
+      "archive_id": "A20260906-d14b2cceb961",
+      "first_seen_at": "2026-09-06 12:06:30",
+      "last_seen_at": "2026-09-06 12:06:30"
+    },
+    {
+      "资讯标题": "1797 分登顶 Code Arena！GPT-6 Astra 甩开 Claude 35 分，价格还一分不多",
+      "发布时间": "2026-09-06 03:33:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=8f5fd11e",
+      "desc": "GPT-6 Astra（Max）在 Code Arena WebDev 榜单取得1797分，领先 Claude 35分。",
+      "agent_reason": "前沿代码模型的公开竞技场能力与价格表现更新。",
+      "archive_id": "A20260906-85d8739c3809",
+      "first_seen_at": "2026-09-06 09:05:55",
+      "last_seen_at": "2026-09-06 09:05:55"
+    },
+    {
+      "资讯标题": "Runway releases GWM Worlds 2 with real-time interactive world generation and audio",
+      "发布时间": "2026-09-06 03:20:11",
+      "来源": "Readhub",
+      "超链接": "https://daily.dev/posts/runway-s-gwm-worlds-2-is-a-world-model-that-generates-interactive-environments-in-real-time-at-720p--x8rkvvrxp",
+      "desc": "Runway introduced GWM Worlds 2, a research preview of an autoregressive diffusion model that generates interactive virtual worlds in real time at 720p with synchronized audio.",
+      "agent_reason": "头部生成式AI公司发布实时交互世界模型，涉及智能体训练与评估。",
+      "archive_id": "A20260906-881d4cbf7520",
+      "first_seen_at": "2026-09-06 09:05:55",
+      "last_seen_at": "2026-09-06 09:05:55"
+    },
+    {
+      "资讯标题": "6 个月刷爆 ARC-AGI-3！GPT-6 Astra 拿 99.9%，Chollet 改口 AGI 更快",
+      "发布时间": "2026-09-06 00:20:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=42160342",
+      "desc": "GPT-6 Astra 在 ARC-AGI-3 取得99.9%成绩，引发基准创建者对AGI进展速度的新判断。",
+      "agent_reason": "前沿模型在核心通用推理基准上的重大能力进展。",
+      "archive_id": "A20260906-c00f4440e7c0",
+      "first_seen_at": "2026-09-06 09:05:55",
+      "last_seen_at": "2026-09-06 09:05:55"
+    },
+    {
+      "资讯标题": "GPT-6带火循环Transformer，阿里早已布局",
+      "发布时间": "2026-09-05 23:07:08",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/09/484726.html",
+      "desc": "手握两篇顶会论文",
+      "agent_reason": "循环Transformer架构成为前沿模型核心技术方向，并关联国内头部公司的研究布局。",
+      "archive_id": "A20260906-ffe07ab21c22",
+      "first_seen_at": "2026-09-06 09:05:55",
+      "last_seen_at": "2026-09-06 09:05:55"
+    },
+    {
+      "资讯标题": "押中SpaceX的硅谷老将，把票投给了一家中国世界模型公司",
+      "发布时间": "2026-09-05 22:46:15",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/09/484683.html",
+      "desc": "当AI开始“预演”一场暴雨",
+      "agent_reason": "中国世界模型公司的技术与融资动态，覆盖核心模型赛道。",
+      "archive_id": "A20260906-0d4f0b3cfbdf",
+      "first_seen_at": "2026-09-06 09:05:55",
+      "last_seen_at": "2026-09-06 09:05:55"
+    },
+    {
+      "资讯标题": "Anthropic 反手求监管：给政府叫停模型的权力，违规罚全球营收",
+      "发布时间": "2026-09-05 22:03:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=df5eaddf",
+      "desc": "Anthropic 提议赋予政府叫停或劝退危险模型部署的法律权力，并以全球营收为基础设置处罚。",
+      "agent_reason": "头部模型公司提出高风险AI监管框架，具有重要政策价值。",
+      "archive_id": "A20260906-409394652905",
+      "first_seen_at": "2026-09-06 09:05:55",
+      "last_seen_at": "2026-09-06 09:05:55"
+    },
+    {
+      "资讯标题": "OpenAI 自曝 GPT-6 三个毛病：爱反问、乱跑测试、满嘴 delve",
+      "发布时间": "2026-09-05 21:31:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=0dfc5025",
+      "desc": "OpenAI 在 GPT-6 Astra 模型文档中披露反问偏好、测试执行和语言风格等已知问题。",
+      "agent_reason": "官方模型文档披露前沿模型行为缺陷，具有评估与使用价值。",
+      "archive_id": "A20260906-0cdb03ac1862",
+      "first_seen_at": "2026-09-06 09:05:55",
+      "last_seen_at": "2026-09-06 09:05:55"
+    },
+    {
+      "资讯标题": "GPT-6 Astra 全量推送！快 1.9 倍，贵 2.5 倍，ARC 那个 99.9% 是系统分",
+      "发布时间": "2026-09-05 19:39:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=e25fe28e",
+      "desc": "GPT-6 Astra 面向订阅用户全量推送，并公布速度、价格与基准成绩口径。",
+      "agent_reason": "头部模型正式全量发布及性能、价格信息更新。",
+      "archive_id": "A20260906-d72de780d632",
+      "first_seen_at": "2026-09-06 09:05:55",
+      "last_seen_at": "2026-09-06 09:05:55"
+    },
+    {
+      "资讯标题": "又一名韩松弟子创业，MIT 博士李沐阳联手朱俊彦推出多模态推理「加速器」",
+      "发布时间": "2026-09-05 18:20:26",
+      "来源": "Readhub",
+      "超链接": "https://www.mittrchina.com/news/detail/16901",
+      "desc": "李沐阳与朱俊彦等人创办 Nunchux AI，聚焦高效人工智能、模型量化和多模态推理系统优化。",
+      "agent_reason": "多模态推理加速与模型压缩领域的重要团队创业动态。",
+      "archive_id": "A20260906-bf90c6456ada",
+      "first_seen_at": "2026-09-06 09:05:55",
+      "last_seen_at": "2026-09-06 09:05:55"
+    },
+    {
+      "资讯标题": "Artificial Analysis 智能指数大改版！Claude Fable 5.1 登顶，GPT-6 Astra 成最省 Token 的前沿模型",
+      "发布时间": "2026-09-05 11:08:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=6a9fd297",
+      "desc": "Artificial Analysis 更新 Intelligence Index v4.2，Claude Fable 5.1 居首，GPT-6 Astra 展现更高Token效率。",
+      "agent_reason": "主流第三方模型评测体系与前沿模型效率排名更新。",
+      "archive_id": "A20260906-bd6828342f4a",
+      "first_seen_at": "2026-09-06 09:05:55",
+      "last_seen_at": "2026-09-06 09:05:55"
+    }
+  ]
+}

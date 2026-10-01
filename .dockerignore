@@ -1,0 +1,15 @@
+*
+!Dockerfile
+!requirements-web.txt
+!news_web/
+!news_web/**
+!ai_news_daily/
+!ai_news_daily/*.json
+!web/
+!web/**
+web/node_modules
+web/dist
+**/__pycache__
+**/.DS_Store
+.env
+.env.*

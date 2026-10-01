@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+.venv-web/
+.news_web/
+web/node_modules/
+web/dist/
+web/*.tsbuildinfo
+__pycache__/
+.pytest_cache/
+*.pyc
+.DS_Store

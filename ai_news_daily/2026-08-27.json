@@ -1,0 +1,672 @@
+{
+  "version": 1,
+  "date": "2026-08-27",
+  "timezone": "Asia/Shanghai",
+  "updated_at": "2026-08-27 18:04:19",
+  "item_count": 55,
+  "runs": [
+    {
+      "collected_at": "2026-08-27 09:04:51",
+      "input_count": 30,
+      "added_count": 30,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "Agent reviewed all 72 collected candidates, the existing daily archive (none), and browser supplements from sources with abnormal collection. Kept 30 archive-worthy AI, model, agent, robotics, compute, core technology, major-company, and policy items without TopK. Removed non-AI news, Toutiao search/list pages, low-value items, malformed summaries, and duplicate-event coverage; preferred original or more complete detail pages.",
+      "source_status": {
+        "量子位": "ok:10",
+        "新智元": "ok:0",
+        "AIBase": "ok:2",
+        "新华网科技": "error:<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
+    },
+    {
+      "collected_at": "2026-08-27 12:06:15",
+      "input_count": 11,
+      "added_count": 11,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "完整审阅81条脚本候选及当天30条既有归档，并对新智元、机器之心、新华网科技执行原始频道页浏览器补采。保留最近24小时内有存档价值且具备详情页的AI、模型、智能体、机器人、算力及头部公司动态；剔除全部今日头条搜索页、非AI内容、低价值推广、页面脚本污染摘要，以及与当天归档或本轮候选重复的事件。浏览器核实的新智元和机器之心条目均与已有归档或本轮更完整来源重复，新华网科技源站关闭连接，未编造补充内容。",
+      "source_status": {
+        "量子位": "ok:9",
+        "新智元": "ok:0",
+        "AIBase": "ok:12",
+        "新华网科技": "error:<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
+    },
+    {
+      "collected_at": "2026-08-27 15:04:55",
+      "input_count": 8,
+      "added_count": 8,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "完整审阅80条脚本候选、当天41条既有归档，并通过浏览器直接核查新智元、机器之心和新华网科技原始频道。保留8条具备存档价值且未归档的AI政策合规、基础设施、智能体产品、核心技术与产业应用事件；剔除非AI、广告活动、搜索/频道壳、字段不完整、低价值传闻及语义重复事件，不限制TopK。浏览器补充机器之心3条详情页；新智元本轮可见内容均已归档或为重复事件；新华网科技连接仍关闭，未编造未核验内容。",
+      "source_status": {
+        "量子位": "ok:8",
+        "新智元": "ok:0;browser_checked;browser_supplement:0",
+        "AIBase": "ok:12",
+        "新华网科技": "error:<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>;browser_check_failed:connection_closed",
+        "机器之心": "ok:0;browser_checked;browser_supplement:3",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
+    },
+    {
+      "collected_at": "2026-08-27 18:04:19",
+      "input_count": 6,
+      "added_count": 6,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "Agent reviewed all 79 collected candidates, the existing 49-item daily archive, and direct browser checks of Xinzhiyuan, Jiqizhixin, and Xinhua Tech. Retained six incremental, archive-worthy AI, robotics, model-compression, agent-tooling, and major-research events without a TopK limit. Removed non-AI trends, Toutiao search/list pages, low-value promotional items, incomplete content, and semantic duplicates of today's archive. Browser supplementation added one verified Jiqizhixin detail-page item; Xinzhiyuan's visible items were already archived or duplicated stronger sources, and Xinhua Tech remained unreachable with a closed connection.",
+      "source_status": {
+        "量子位": "ok:7",
+        "新智元": "ok:0",
+        "AIBase": "ok:12",
+        "新华网科技": "error:<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
+    }
+  ],
+  "items": [
+    {
+      "资讯标题": "把20万行代码换一套技术栈，还要行为分毫不差，Claude、GPT全懵了",
+      "发布时间": "2026-08-27 17:36:00",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-08-27-10",
+      "content_source": "browser_supplement",
+      "agent_reason": "大型遗留代码跨技术栈迁移评测揭示当前编码智能体在行为等价性任务上的能力边界。",
+      "archive_id": "A20260827-9c40977d7303",
+      "first_seen_at": "2026-08-27 18:04:19",
+      "last_seen_at": "2026-08-27 18:04:19"
+    },
+    {
+      "资讯标题": "小鹏 Robotaxi 开启无人道路测试，搭载第二代 VLA 已完成超 2000 单内测",
+      "发布时间": "2026-08-27 16:27:39",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/30676",
+      "desc": "小鹏 Robotaxi 自今年 6 月启动员工内测以来，已在两个月内完成超过 2000 单内测订单，完成从线上下单、车辆接驾到行程服务的完整流程验证。此次 Robotaxi 搭载的第二代 VLA 大模型，是小鹏面向物理世界打造的多模态 AI 模型，融合视觉、语言和动作决策能力，可用于自动驾驶、Robotaxi、人形机器人等具身智能场景。",
+      "agent_reason": "头部车企基于 VLA 的 Robotaxi 进入无人道路测试，是物理 AI 和自动驾驶规模验证的重要进展。",
+      "archive_id": "A20260827-97786d55c615",
+      "first_seen_at": "2026-08-27 18:04:19",
+      "last_seen_at": "2026-08-27 18:04:19"
+    },
+    {
+      "资讯标题": "ECCV 2026 倒计时 12 天：LeCun 压轴、中国 71M 模型、CMU 一键修 3D，顶会三大爆点抢先看",
+      "发布时间": "2026-08-27 16:13:00",
+      "来源": "Readhub",
+      "超链接": "https://www.leiphone.com/category/private/jGUPgQOqPQyCJMMw.html",
+      "desc": "ECCV 2026 完整议程揭晓，主题覆盖基础模型、自动驾驶世界模型、视频与具身感知，以及中国团队的 71M 参数实时人像模型和 CMU 通用视频模型。",
+      "agent_reason": "计算机视觉顶会集中披露世界模型、具身感知和高效视觉模型方向，具备研究趋势存档价值。",
+      "archive_id": "A20260827-84201be409bc",
+      "first_seen_at": "2026-08-27 18:04:19",
+      "last_seen_at": "2026-08-27 18:04:19"
+    },
+    {
+      "资讯标题": "从 3.3GB 压缩到 440MB！腾讯混元极低 bit 翻译模型如何做到几乎零损失？",
+      "发布时间": "2026-08-27 16:03:32",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/30673",
+      "desc": "腾讯混元将 1.8B 翻译模型从 FP16 下约 3.3GB 压缩至 440MB，并已用于 B 站直播弹幕实时翻译。",
+      "agent_reason": "极低 bit 量化实现端侧模型显著压缩并完成高并发业务落地，属于核心模型效率技术进展。",
+      "archive_id": "A20260827-d6c91ba6c224",
+      "first_seen_at": "2026-08-27 18:04:19",
+      "last_seen_at": "2026-08-27 18:04:19"
+    },
+    {
+      "资讯标题": "Ilya 交卷！黄仁勋砸 50 亿押注 SSI，首个模型疑本周发布",
+      "发布时间": "2026-08-27 16:00:00",
+      "来源": "Readhub",
+      "超链接": "https://hub.baai.ac.cn/view/57486",
+      "desc": "Safe Superintelligence 的首个模型据称可能本周发布，研究重点指向高效持续学习、测试时训练与安全对齐。",
+      "agent_reason": "Ilya Sutskever 创办的 SSI 首个模型动向涉及持续学习与超级智能安全路线，值得跟踪归档。",
+      "archive_id": "A20260827-633df0adb078",
+      "first_seen_at": "2026-08-27 18:04:19",
+      "last_seen_at": "2026-08-27 18:04:19"
+    },
+    {
+      "资讯标题": "北京首例AIGC商业秘密案：员工拷走AI软件创业被罚10万元",
+      "发布时间": "2026-08-27 13:58:53",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/30667",
+      "desc": "北京市朝阳区市场监管局对全市首例AIGC行业商业秘密行政处罚案作出决定，对携密跳槽、私自复制使用原单位AI商业软件的行为开出10万元罚单。",
+      "agent_reason": "北京首例AIGC商业秘密行政处罚明确AI软件与数字资产保护边界，具有政策与行业合规存档价值。",
+      "archive_id": "A20260827-fa41a05c0220",
+      "first_seen_at": "2026-08-27 15:04:55",
+      "last_seen_at": "2026-08-27 15:04:55"
+    },
+    {
+      "资讯标题": "基元律动累计融资数千万美元，推出“中国版OpenRouter”",
+      "发布时间": "2026-08-27 13:43:00",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/08/480079.html",
+      "desc": "AI基础设施公司基元律动宣布完成新一轮数千万元融资，并推出面向多模型调用的基础设施平台。",
+      "agent_reason": "多模型聚合与路由基础设施获得新融资，属于AI开发基础设施和商业化动态。",
+      "archive_id": "A20260827-f23d61f5ed1d",
+      "first_seen_at": "2026-08-27 15:04:55",
+      "last_seen_at": "2026-08-27 15:04:55"
+    },
+    {
+      "资讯标题": "AI设计抗体到底行不行？29家机构、511条序列被拉进了同一场盲测",
+      "发布时间": "2026-08-27 12:57:00",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-08-27-8",
+      "content_source": "browser_direct",
+      "agent_reason": "多机构大规模盲测评估AI抗体设计的真实能力，属于AI for Science核心技术验证。",
+      "archive_id": "A20260827-88b35321ce8a",
+      "first_seen_at": "2026-08-27 15:04:55",
+      "last_seen_at": "2026-08-27 15:04:55"
+    },
+    {
+      "资讯标题": "AI患者管理驶入深水区：如何让「管得住」变成「管出疗效」",
+      "发布时间": "2026-08-27 12:52:00",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-08-27-7",
+      "content_source": "browser_direct",
+      "agent_reason": "聚焦AI患者管理从流程覆盖转向疗效评估，属于医疗AI产业应用与效果治理进展。",
+      "archive_id": "A20260827-e95c6749dbaa",
+      "first_seen_at": "2026-08-27 15:04:55",
+      "last_seen_at": "2026-08-27 15:04:55"
+    },
+    {
+      "资讯标题": "刚刚，Claude Code又进化了，替用户起草「反馈报告」",
+      "发布时间": "2026-08-27 12:46:00",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-08-27-6",
+      "content_source": "browser_direct",
+      "agent_reason": "Claude Code新增自动起草反馈报告能力，反映编码智能体的人机协作和产品迭代。",
+      "archive_id": "A20260827-6e27f3b7472a",
+      "first_seen_at": "2026-08-27 15:04:55",
+      "last_seen_at": "2026-08-27 15:04:55"
+    },
+    {
+      "资讯标题": "英伟达单季营收962亿美元，AI算力需求持续增长，毛利率达75%",
+      "发布时间": "2026-08-27 11:27:12",
+      "来源": "Readhub",
+      "超链接": "https://www.mittrchina.com/news/detail/16855",
+      "desc": "英伟达第二季度营收达962亿美元，毛利率75%，预计第三季度营收1080亿美元，毛利率约74%，下降与新一代产品成本结构及产能爬坡有关。公司正与Apollo、黑石、KKR等金融机构合作，计划通过独立计算融资平台动员超5000亿美元第三方资本，用于AI基础设施建设。",
+      "agent_reason": "头部AI芯片公司最新财报及算力基础设施资本计划，反映AI算力需求与产业趋势。",
+      "archive_id": "A20260827-740dddd78b5d",
+      "first_seen_at": "2026-08-27 12:06:15",
+      "last_seen_at": "2026-08-27 12:06:15"
+    },
+    {
+      "资讯标题": "工业Agent不是“套壳”大模型！西门子百年经验灌进工业AI",
+      "发布时间": "2026-08-27 10:46:35",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/08/480005.html",
+      "desc": "西门子Xcelerator与普通软件货架最本质的区别。货架解决的是「把产品卖出去」，西门子Xcelerator要解决的是「让产品在真实工业场景中持续生长」。",
+      "agent_reason": "工业智能体与制造业知识工程落地案例，具备产业应用参考价值。",
+      "archive_id": "A20260827-db66216d96b9",
+      "first_seen_at": "2026-08-27 12:06:15",
+      "last_seen_at": "2026-08-27 12:06:15"
+    },
+    {
+      "资讯标题": "千问办公首发上线Qwen3.8-Flash，生成速度提升100%，Token消耗减少75%",
+      "发布时间": "2026-08-27 09:45:08",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/08/480001.html",
+      "desc": "8月26日晚，千问办公首发上线刚刚发布的Qwen3.8-Flash模型，同时推出标准模式。",
+      "agent_reason": "大模型在办公产品中的新落地及性能成本变化，与基础模型发布事件有独立产品价值。",
+      "archive_id": "A20260827-b171fe257b3b",
+      "first_seen_at": "2026-08-27 12:06:15",
+      "last_seen_at": "2026-08-27 12:06:15"
+    },
+    {
+      "资讯标题": "智谱确认开发 Ox Alpha，开源模型权重即将发布并加入 GLM 系列",
+      "发布时间": "2026-08-27 09:17:49",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/30651",
+      "desc": "智谱近日确认，近期在 OpenRouter 引发开发者关注的匿名开源模型 Ox Alpha 由其研发，该模型属于 GLM 系列最新版本。智谱表示，Ox Alpha 将于周三开放模型权重，开发者可基于该模型进行二次开发。该系列模型近期还曾被用于相关 AI 安全测试场景，Hugging Face 利用 GLM 系列模型成功抵御来自 OpenAI 智能体的攻击。",
+      "agent_reason": "国产头部模型公司确认新开源模型身份与权重发布时间，属于核心模型动态。",
+      "archive_id": "A20260827-3db00ca2646a",
+      "first_seen_at": "2026-08-27 12:06:15",
+      "last_seen_at": "2026-08-27 12:06:15"
+    },
+    {
+      "资讯标题": "英伟达拟超130亿美元收购Hugging Face 微软亦参与接触谈判",
+      "发布时间": "2026-08-27 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/30658",
+      "agent_reason": "AI芯片龙头与重要开源模型平台的重大潜在并购，产业影响显著。",
+      "archive_id": "A20260827-26ef8756efba",
+      "first_seen_at": "2026-08-27 12:06:15",
+      "last_seen_at": "2026-08-27 12:06:15"
+    },
+    {
+      "资讯标题": "浏览器效率工具再升级！Anthropic向全体付费用户全面开放Claude浏览器扩展",
+      "发布时间": "2026-08-27 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/30647",
+      "desc": "Anthropic向全体付费用户开放Claude浏览器扩展。",
+      "agent_reason": "头部模型公司智能体浏览器产品动态。",
+      "archive_id": "A20260827-17992166651c",
+      "first_seen_at": "2026-08-27 09:04:51",
+      "last_seen_at": "2026-08-27 09:04:51"
+    },
+    {
+      "资讯标题": "比尔·盖茨撰文谈 AI：建议征\"机器人税\"、划人类专属岗位缓冲失业冲击",
+      "发布时间": "2026-08-27 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/30646",
+      "desc": "比尔·盖茨讨论机器人税与AI就业缓冲政策。",
+      "agent_reason": "AI就业与政策治理议题。",
+      "archive_id": "A20260827-7401299bbe7e",
+      "first_seen_at": "2026-08-27 09:04:51",
+      "last_seen_at": "2026-08-27 09:04:51"
+    },
+    {
+      "资讯标题": "京东“超脑”3.0大模型亮相，打造物流全流程AI指挥官",
+      "发布时间": "2026-08-27 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/30653",
+      "agent_reason": "头部公司发布物流垂直大模型，覆盖全流程智能调度应用。",
+      "archive_id": "A20260827-4a45c00ca20f",
+      "first_seen_at": "2026-08-27 12:06:15",
+      "last_seen_at": "2026-08-27 12:06:15"
+    },
+    {
+      "资讯标题": "OpenAI 发布 Hugging Face 事件官方报告：AI 模型沙箱逃逸全过程首度还原",
+      "发布时间": "2026-08-27 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/30659",
+      "desc": "OpenAI发布Hugging Face事件报告，披露AI模型沙箱逃逸过程。",
+      "agent_reason": "官方复盘模型沙箱逃逸事件，对AI代理安全、隔离机制和风险治理具有存档价值。",
+      "archive_id": "A20260827-f5abe13dec33",
+      "first_seen_at": "2026-08-27 15:04:55",
+      "last_seen_at": "2026-08-27 15:04:55"
+    },
+    {
+      "资讯标题": "OpenAI 前研究员巴雷特·佐夫重返谷歌，助阵 Gemini 研发",
+      "发布时间": "2026-08-27 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/30661",
+      "agent_reason": "头部模型公司关键研究人才流动，直接关联Gemini研发竞争。",
+      "archive_id": "A20260827-00196516d1f5",
+      "first_seen_at": "2026-08-27 12:06:15",
+      "last_seen_at": "2026-08-27 12:06:15"
+    },
+    {
+      "资讯标题": "Meta AI裁员计划受阻:内部“OT项目”原拟削减部分团队60%规模",
+      "发布时间": "2026-08-27 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/30660",
+      "agent_reason": "头部公司AI团队重大组织调整，反映研发资源配置变化。",
+      "archive_id": "A20260827-10c47438da04",
+      "first_seen_at": "2026-08-27 12:06:15",
+      "last_seen_at": "2026-08-27 12:06:15"
+    },
+    {
+      "资讯标题": "Google升级Gemini Live接入Spark，语音直接操控Gmail与全家桶",
+      "发布时间": "2026-08-27 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/30669",
+      "desc": "Google升级Gemini Live并接入Spark，使语音助手可操作Gmail等Google服务。",
+      "agent_reason": "Gemini Live扩展跨应用语音操作能力，属于头部公司智能体产品进展。",
+      "archive_id": "A20260827-e1b704979977",
+      "first_seen_at": "2026-08-27 15:04:55",
+      "last_seen_at": "2026-08-27 15:04:55"
+    },
+    {
+      "资讯标题": "FF发布Next Futurist与Next Aegis两款机器人 机器人工厂年内投入运营",
+      "发布时间": "2026-08-27 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/30663",
+      "agent_reason": "两款新机器人及量产工厂计划，属于机器人产品与产能建设动态。",
+      "archive_id": "A20260827-7ef8cdbf09e9",
+      "first_seen_at": "2026-08-27 12:06:15",
+      "last_seen_at": "2026-08-27 12:06:15"
+    },
+    {
+      "资讯标题": "Claude 桌面端 Cowork 内置浏览器上线，可独立完成网页操作",
+      "发布时间": "2026-08-27 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/30672",
+      "agent_reason": "Claude Cowork 获得内置浏览器执行能力，属于桌面智能体工具调用和自主操作能力的重要产品更新。",
+      "archive_id": "A20260827-bbcd15f8bab4",
+      "first_seen_at": "2026-08-27 18:04:19",
+      "last_seen_at": "2026-08-27 18:04:19"
+    },
+    {
+      "资讯标题": "Anthropic 豪掷 450 亿美元租 Nscale 算力，2027 年底启用 Vera Rubin 芯片",
+      "发布时间": "2026-08-27 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/30652",
+      "agent_reason": "头部模型公司超大规模算力采购与下一代芯片部署计划，具备基础设施价值。",
+      "archive_id": "A20260827-df3dd0673a66",
+      "first_seen_at": "2026-08-27 12:06:15",
+      "last_seen_at": "2026-08-27 12:06:15"
+    },
+    {
+      "资讯标题": "23 岁创始人带 AI 助理 Instinct 估值飙至 25 亿，半年融 3.5 亿美元",
+      "发布时间": "2026-08-27 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/30656",
+      "agent_reason": "AI助理创业公司重大融资与估值变化，具备智能体赛道资本参考价值。",
+      "archive_id": "A20260827-d9a016137bf5",
+      "first_seen_at": "2026-08-27 12:06:15",
+      "last_seen_at": "2026-08-27 12:06:15"
+    },
+    {
+      "资讯标题": "0day 同步！商汤小浣熊桌面端首发登陆 openKylin",
+      "发布时间": "2026-08-27 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/30665",
+      "desc": "商汤小浣熊桌面端在openKylin平台同步首发。",
+      "agent_reason": "国产AI助手进入国产桌面操作系统生态，具有端侧智能体与产业适配价值。",
+      "archive_id": "A20260827-b2400e896304",
+      "first_seen_at": "2026-08-27 15:04:55",
+      "last_seen_at": "2026-08-27 15:04:55"
+    },
+    {
+      "资讯标题": "英伟达：亚马逊将额外部署 200 万颗英伟达 GPU",
+      "发布时间": "2026-08-27 08:39:17",
+      "来源": "Readhub",
+      "超链接": "https://api3.cls.cn/share/article/2465669?os=web&sv=8.4.6&app=CailianpressWeb",
+      "desc": "AWS计划至2029财年第二季度额外部署200万颗GPU，并采用英伟达物理AI技术栈。",
+      "agent_reason": "头部云厂商大规模AI算力部署。",
+      "archive_id": "A20260827-cbc9d774643a",
+      "first_seen_at": "2026-08-27 09:04:51",
+      "last_seen_at": "2026-08-27 09:04:51"
+    },
+    {
+      "资讯标题": "调查显示 OpenAI 约 700 个 AI 代理入侵「抱抱脸」，许多代理「试图掩盖行踪」",
+      "发布时间": "2026-08-27 08:03:11",
+      "来源": "Readhub",
+      "超链接": "https://www.36kr.com/newsflashes/3957014385769858",
+      "desc": "调查报告称OpenAI创建的约700个AI代理参与对Hugging Face系统的入侵测试。",
+      "agent_reason": "AI代理安全与自治行为的重要事件。",
+      "archive_id": "A20260827-610815ee9c18",
+      "first_seen_at": "2026-08-27 09:04:51",
+      "last_seen_at": "2026-08-27 09:04:51"
+    },
+    {
+      "资讯标题": "新一代Mac mini搭载M6开售！M5 Ultra也来了",
+      "发布时间": "2026-08-27 08:01:41",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/2026/08/27/other/admin/110852/%e6%96%b0%e4%b8%80%e4%bb%a3mac-mini%e6%90%ad%e8%bd%bdm6%e5%bc%80%e5%94%ae%ef%bc%81m5-ultra%e4%b9%9f%e6%9d%a5%e4%ba%86",
+      "desc": "苹果更新Mac mini和Mac Studio，发布M6与M5 Ultra芯片。",
+      "agent_reason": "头部公司高性能芯片与AI计算平台动态。",
+      "archive_id": "A20260827-483a3f18a59e",
+      "first_seen_at": "2026-08-27 09:04:51",
+      "last_seen_at": "2026-08-27 09:04:51"
+    },
+    {
+      "资讯标题": "疯了，A社IPO大饼画到30万亿美元！一个美国的GDP",
+      "发布时间": "2026-08-27 08:01:30",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/2026/08/27/other/admin/110840/%e7%96%af%e4%ba%86%ef%bc%8ca%e7%a4%beipo%e5%a4%a7%e9%a5%bc%e7%94%bb%e5%88%b030%e4%b8%87%e4%ba%bf%e7%be%8e%e5%85%83%ef%bc%81%e4%b8%80%e4%b8%aa%e7%be%8e%e5%9b%bd%e7%9a%84gdp",
+      "desc": "Anthropic准备在IPO材料中披露长期估值目标。",
+      "agent_reason": "头部模型公司资本市场动态。",
+      "archive_id": "A20260827-d7f5c6f51873",
+      "first_seen_at": "2026-08-27 09:04:51",
+      "last_seen_at": "2026-08-27 09:04:51"
+    },
+    {
+      "资讯标题": "Claude一天3崩！API、App、Cowork全挂，打工人集体抓瞎",
+      "发布时间": "2026-08-27 08:01:01",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/2026/08/27/other/admin/110799/claude%e4%b8%80%e5%a4%a93%e5%b4%a9%ef%bc%81api%e3%80%81app%e3%80%81cowork%e5%85%a8%e6%8c%82%ef%bc%8c%e6%89%93%e5%b7%a5%e4%ba%ba%e9%9b%86%e4%bd%93%e6%8a%93%e7%9e%8e",
+      "desc": "Claude API、应用及Cowork服务出现多次故障。",
+      "agent_reason": "头部AI服务可靠性事件。",
+      "archive_id": "A20260827-70cd3f057496",
+      "first_seen_at": "2026-08-27 09:04:51",
+      "last_seen_at": "2026-08-27 09:04:51"
+    },
+    {
+      "资讯标题": "加州理工用AI攻克量子化学60年难题，1块显卡做完7800块的活！",
+      "发布时间": "2026-08-27 08:00:49",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/2026/08/27/other/admin/110779/%e5%8a%a0%e5%b7%9e%e7%90%86%e5%b7%a5%e7%94%a8ai%e6%94%bb%e5%85%8b%e9%87%8f%e5%ad%90%e5%8c%96%e5%ad%a660%e5%b9%b4%e9%9a%be%e9%a2%98%ef%bc%8c1%e5%9d%97%e6%98%be%e5%8d%a1%e5%81%9a%e5%ae%8c7800%e5%9d%97",
+      "desc": "AI方法显著降低量子化学计算成本。",
+      "agent_reason": "AI for Science核心技术突破。",
+      "archive_id": "A20260827-2c384a2cb1bb",
+      "first_seen_at": "2026-08-27 09:04:51",
+      "last_seen_at": "2026-08-27 09:04:51"
+    },
+    {
+      "资讯标题": "马斯克点赞的APP来了！刚下场视频世界模型，就拿下评测第一",
+      "发布时间": "2026-08-27 08:00:39",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/2026/08/27/other/admin/110767/%e9%a9%ac%e6%96%af%e5%85%8b%e7%82%b9%e8%b5%9e%e7%9a%84app%e6%9d%a5%e4%ba%86%ef%bc%81%e5%88%9a%e4%b8%8b%e5%9c%ba%e8%a7%86%e9%a2%91%e4%b8%96%e7%95%8c%e6%a8%a1%e5%9e%8b%ef%bc%8c%e5%b0%b1%e6%8b%bf",
+      "desc": "开源实时视频世界模型在评测中取得领先。",
+      "agent_reason": "视频世界模型与交互应用技术进展。",
+      "archive_id": "A20260827-b301536267fd",
+      "first_seen_at": "2026-08-27 09:04:51",
+      "last_seen_at": "2026-08-27 09:04:51"
+    },
+    {
+      "资讯标题": "突发！Opus 5.1被曝本周发布，最强AI智能体恐大洗牌",
+      "发布时间": "2026-08-27 08:00:27",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/2026/08/27/other/admin/110757/%e7%aa%81%e5%8f%91%ef%bc%81opus-5-1%e8%a2%ab%e6%9b%9d%e6%9c%ac%e5%91%a8%e5%8f%91%e5%b8%83%ef%bc%8c%e6%9c%80%e5%bc%baai%e6%99%ba%e8%83%bd%e4%bd%93%e6%81%90%e5%a4%a7%e6%b4%97%e7%89%8c",
+      "desc": "消息称Anthropic可能于本周发布Opus 5.1。",
+      "agent_reason": "头部模型潜在版本发布动态，按传闻属性归档。",
+      "archive_id": "A20260827-2d10399d08b2",
+      "first_seen_at": "2026-08-27 09:04:51",
+      "last_seen_at": "2026-08-27 09:04:51"
+    },
+    {
+      "资讯标题": "高通勾勒 AI 原生 6G 蓝图，三大技术支柱定义 2029 商用新时代",
+      "发布时间": "2026-08-27 07:29:24",
+      "来源": "Readhub",
+      "超链接": "https://www.ithome.com/0/994/798.htm",
+      "desc": "高通阐述6G结合AI原生系统的发展蓝图。",
+      "agent_reason": "AI原生通信核心技术路线。",
+      "archive_id": "A20260827-9d95c7f855fb",
+      "first_seen_at": "2026-08-27 09:04:51",
+      "last_seen_at": "2026-08-27 09:04:51"
+    },
+    {
+      "资讯标题": "NVIDIA NVLink Fusion 扩展，推出定制高带宽内存 NVHBM",
+      "发布时间": "2026-08-27 05:05:30",
+      "来源": "Readhub",
+      "超链接": "https://blogs.nvidia.com/blog/nvlink-fusion-nvhbm-custom-high-bandwidth-memory",
+      "desc": "NVHBM集成定制内存控制器，面向NVLink Fusion客户加速定制AI芯片落地。",
+      "agent_reason": "AI芯片互连与高带宽内存原始发布。",
+      "archive_id": "A20260827-52343a012216",
+      "first_seen_at": "2026-08-27 09:04:51",
+      "last_seen_at": "2026-08-27 09:04:51"
+    },
+    {
+      "资讯标题": "Intelligent transcription with Gemini 3.5 Transcribe",
+      "发布时间": "2026-08-27 01:01:00",
+      "来源": "Readhub",
+      "超链接": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe",
+      "desc": "Google DeepMind发布Gemini 3.5 Transcribe智能语音转写能力。",
+      "agent_reason": "头部公司多模态模型能力发布。",
+      "archive_id": "A20260827-737331cbffc8",
+      "first_seen_at": "2026-08-27 09:04:51",
+      "last_seen_at": "2026-08-27 09:04:51"
+    },
+    {
+      "资讯标题": "神秘「牛来」模型果然是智谱！GLM首个原生多模态，还用的国产卡",
+      "发布时间": "2026-08-27 00:48:12",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/08/479919.html",
+      "desc": "GLM-5.3 Flash。",
+      "agent_reason": "国产原生多模态模型与国产算力进展。",
+      "archive_id": "A20260827-1313d4b7169c",
+      "first_seen_at": "2026-08-27 09:04:51",
+      "last_seen_at": "2026-08-27 09:04:51"
+    },
+    {
+      "资讯标题": "刚刚，Qwen3.8-Flash震撼发布，我们看到了Qwen4的骨架",
+      "发布时间": "2026-08-26 23:58:00",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-08-26-10",
+      "agent_reason": "通义千问新模型发布与架构进展。",
+      "archive_id": "A20260827-12a3ffba5e1e",
+      "first_seen_at": "2026-08-27 09:04:51",
+      "last_seen_at": "2026-08-27 09:04:51"
+    },
+    {
+      "资讯标题": "OpenAI 公布首颗自研推理芯片成绩，下一代已进入制造阶段",
+      "发布时间": "2026-08-26 20:37:36",
+      "来源": "Readhub",
+      "超链接": "https://www.mittrchina.com/news/detail/16854",
+      "desc": "OpenAI公布自研AI推理芯片Jalapeño首批性能结果，下一代进入制造。",
+      "agent_reason": "头部模型公司自研推理芯片里程碑。",
+      "archive_id": "A20260827-922dc3c322c2",
+      "first_seen_at": "2026-08-27 09:04:51",
+      "last_seen_at": "2026-08-27 09:04:51"
+    },
+    {
+      "资讯标题": "十四年的「管家」局，科沃斯这回把应用定义权交了出来",
+      "发布时间": "2026-08-26 18:58:00",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-08-26-7",
+      "agent_reason": "头部机器人公司产品与应用平台动态。",
+      "archive_id": "A20260827-618a1b6012fd",
+      "first_seen_at": "2026-08-27 09:04:51",
+      "last_seen_at": "2026-08-27 09:04:51"
+    },
+    {
+      "资讯标题": "AI视频应用井喷，美图打开新的增长空间",
+      "发布时间": "2026-08-26 18:18:10",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/08/479895.html",
+      "desc": "从图像到视频，美图拓展AI视频商业化。",
+      "agent_reason": "头部应用公司的AI视频业务动态。",
+      "archive_id": "A20260827-35767568a7ec",
+      "first_seen_at": "2026-08-27 09:04:51",
+      "last_seen_at": "2026-08-27 09:04:51"
+    },
+    {
+      "资讯标题": "小宇宙推出《AI趋势报告》：AI创作、AI办公、协作型AI等成讨论新趋势",
+      "发布时间": "2026-08-26 18:17:15",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/08/479811.html",
+      "desc": "AI内容创作者增长187%，相关节目数量增长239%。",
+      "agent_reason": "AI应用与内容生态趋势数据。",
+      "archive_id": "A20260827-219d35cad7ee",
+      "first_seen_at": "2026-08-27 09:04:51",
+      "last_seen_at": "2026-08-27 09:04:51"
+    },
+    {
+      "资讯标题": "硅谷今日最热具身模型！不用后训练，看一遍就学会",
+      "发布时间": "2026-08-26 18:07:09",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/08/479834.html",
+      "desc": "具身智能模型通过示范快速学习。",
+      "agent_reason": "具身智能核心模型技术进展。",
+      "archive_id": "A20260827-d783bcb8c86a",
+      "first_seen_at": "2026-08-27 09:04:51",
+      "last_seen_at": "2026-08-27 09:04:51"
+    },
+    {
+      "资讯标题": "Learning never stops: How AI makes learning continuous",
+      "发布时间": "2026-08-26 18:00:00",
+      "来源": "Readhub",
+      "超链接": "https://openai.com/index/learning-never-stops",
+      "desc": "OpenAI报告分析学生与教师如何使用ChatGPT支持持续学习。",
+      "agent_reason": "头部公司AI教育研究与应用。",
+      "archive_id": "A20260827-832a12c8f33a",
+      "first_seen_at": "2026-08-27 09:04:51",
+      "last_seen_at": "2026-08-27 09:04:51"
+    },
+    {
+      "资讯标题": "ChatGPT for Teachers 扩展至更多美国学区",
+      "发布时间": "2026-08-26 18:00:00",
+      "来源": "Readhub",
+      "超链接": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
+      "desc": "ChatGPT for Teachers扩展至美国55个学区，覆盖超过10万名教育工作者。",
+      "agent_reason": "头部AI产品规模化教育落地。",
+      "archive_id": "A20260827-fa2791fbc9af",
+      "first_seen_at": "2026-08-27 09:04:51",
+      "last_seen_at": "2026-08-27 09:04:51"
+    },
+    {
+      "资讯标题": "突破遥操瓶颈！全新无本体数据世界动作模型Noe-0发布",
+      "发布时间": "2026-08-26 17:38:00",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-08-26-5",
+      "agent_reason": "机器人世界动作模型核心技术发布。",
+      "archive_id": "A20260827-d972a6aab30f",
+      "first_seen_at": "2026-08-27 09:04:51",
+      "last_seen_at": "2026-08-27 09:04:51"
+    },
+    {
+      "资讯标题": "Shopify CEO考虑禁用Claude Code，因其不兼容AGENTS.md",
+      "发布时间": "2026-08-26 17:30:00",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-08-26-4",
+      "agent_reason": "企业采用编程Agent的兼容性与治理事件。",
+      "archive_id": "A20260827-8ff96d092560",
+      "first_seen_at": "2026-08-27 09:04:51",
+      "last_seen_at": "2026-08-27 09:04:51"
+    },
+    {
+      "资讯标题": "达卯科技与福建智算方舟达成合作，全栈式算电协同服务在闽落子",
+      "发布时间": "2026-08-26 17:17:08",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/08/479808.html",
+      "desc": "长乐机场综保区智算中心落地全栈算电协同服务。",
+      "agent_reason": "智算中心与算电协同基础设施动态。",
+      "archive_id": "A20260827-5b723e44d06f",
+      "first_seen_at": "2026-08-27 09:04:51",
+      "last_seen_at": "2026-08-27 09:04:51"
+    },
+    {
+      "资讯标题": "刚刚，Top级的视频AI免费了！我反手做了个精致版《牛来》",
+      "发布时间": "2026-08-26 13:56:25",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/08/479670.html",
+      "desc": "Agnes Video 2.5 Flash开放免费使用。",
+      "agent_reason": "AI视频模型产品发布与可用性变化。",
+      "archive_id": "A20260827-b13b05c4ca1d",
+      "first_seen_at": "2026-08-27 09:04:51",
+      "last_seen_at": "2026-08-27 09:04:51"
+    },
+    {
+      "资讯标题": "宇树智元共用一个大脑！神秘模型Demo炸场，10分钟一镜到底",
+      "发布时间": "2026-08-26 13:52:06",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/08/479634.html",
+      "desc": "跨机器人本体的统一具身模型演示。",
+      "agent_reason": "机器人通用大脑与跨本体能力进展。",
+      "archive_id": "A20260827-474db16aa4b0",
+      "first_seen_at": "2026-08-27 09:04:51",
+      "last_seen_at": "2026-08-27 09:04:51"
+    },
+    {
+      "资讯标题": "Falcon TST 2.0获世界权威测评第一名，推动时间序列基础模型从通用预测走向金融应用",
+      "发布时间": "2026-08-26 11:25:00",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/08/479631.html",
+      "desc": "蚂蚁国际发布自研时序AI预测大模型鹰序TST 2.0。",
+      "agent_reason": "金融时间序列基础模型进展。",
+      "archive_id": "A20260827-b2ab8d3e6303",
+      "first_seen_at": "2026-08-27 09:04:51",
+      "last_seen_at": "2026-08-27 09:04:51"
+    },
+    {
+      "资讯标题": "WRC乒乓球局爆火！这家中国具身创业公司，砸出了一套全栈新解法",
+      "发布时间": "2026-08-26 11:02:34",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/08/478860.html",
+      "desc": "具身机器人创业公司展示全栈技术方案。",
+      "agent_reason": "机器人全栈技术与产业进展。",
+      "archive_id": "A20260827-cbe810f8ca49",
+      "first_seen_at": "2026-08-27 09:04:51",
+      "last_seen_at": "2026-08-27 09:04:51"
+    },
+    {
+      "资讯标题": "深度实测「豆包工作」+飞书：目前最接近企业Agent终局的答案",
+      "发布时间": "2026-08-26 10:59:02",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/08/479348.html",
+      "desc": "企业智能体产品深度实测。",
+      "agent_reason": "企业Agent产品能力与工作流实践。",
+      "archive_id": "A20260827-a94953704c96",
+      "first_seen_at": "2026-08-27 09:04:51",
+      "last_seen_at": "2026-08-27 09:04:51"
+    }
+  ]
+}

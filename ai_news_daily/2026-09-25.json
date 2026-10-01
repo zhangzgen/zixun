@@ -1,0 +1,539 @@
+{
+  "version": 1,
+  "date": "2026-09-25",
+  "timezone": "Asia/Shanghai",
+  "updated_at": "2026-09-25 18:06:46",
+  "item_count": 42,
+  "runs": [
+    {
+      "collected_at": "2026-09-25 09:05:33",
+      "input_count": 14,
+      "added_count": 14,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "完整审阅68条脚本候选、昨日39条归档，并通过浏览器直接核验新智元、AIBase、新华网科技和机器之心原始频道及详情页。保留所有可核验且具存档价值的AI模型、智能体、机器人、算力、核心技术、头部公司和产业应用事件，不限制TopK；剔除非AI、广告、搜索/频道/登录壳、字段不完整、低价值观点、未确认传闻、昨日已归档及语义重复事件。本轮保留9条脚本候选并补充5条浏览器候选。",
+      "source_status": {
+        "量子位": "ok:8",
+        "新智元": "ok:0",
+        "AIBase": "ok:0",
+        "新华网科技": "ok:0",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
+    },
+    {
+      "collected_at": "2026-09-25 12:04:56",
+      "input_count": 7,
+      "added_count": 7,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "完整审阅66条脚本候选并与当日14条既有归档比对，同时因新智元、AIBase、新华网科技、机器之心脚本结果为0而直接浏览四个原始频道补漏。保留所有新增且具存档价值的Agent基础设施、AI算力供应链、头部AI公司治理、AI芯片融资和模型安全监管事件，并补充机器之心两条有明确发布时间与详情页的产品动态；剔除非AI内容、Tophub搜索页、广告促销、低价值观点、重复事件、既有归档及未经充分证实的传闻，不限制TopK。",
+      "source_status": {
+        "量子位": "ok:6",
+        "新智元": "ok:0",
+        "AIBase": "ok:0",
+        "新华网科技": "ok:0",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
+    },
+    {
+      "collected_at": "2026-09-25 15:05:50",
+      "input_count": 11,
+      "added_count": 9,
+      "updated_count": 0,
+      "skipped_duplicate_count": 2,
+      "selection_reason": "完整审阅67条候选并与当日21条归档及前两轮筛选结果核对。保留11条具有存档价值且未重复的AI产业、模型、Agent、机器人、算力基础设施、安全与训练数据治理动态；排除非AI内容、TopHub搜索页、同事件重复报道、低价值宣传或评论、未经充分证实的传闻及详情链接不合格条目，不限制TopK。对四个零结果来源检查原始频道：浏览器会话不可用，改为只读直连原始页面；AIBase展示项与先前轮次重合，新智元、新华网科技及机器之心静态页未提供可核验的新近详情，因此未猜补。",
+      "source_status": {
+        "量子位": "ok:7",
+        "新智元": "ok:0",
+        "AIBase": "ok:0",
+        "新华网科技": "ok:0",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
+    },
+    {
+      "collected_at": "2026-09-25 18:06:46",
+      "input_count": 12,
+      "added_count": 12,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "完整审阅66条脚本候选并与当日30条归档对照；剔除Tophub搜索壳、非AI热榜、重复事件及低价值评论。因新智元、AIBase、新华网科技、机器之心脚本均为0条，直接核查原始频道及详情页：补录AIBase明确发表于2026-09-24 18:01之后且未重复归档的Gemini 4进展、高通AI眼镜离线模型、ChatGPT语音智能体、阿里医疗AI、腾讯混元训练效率研究等；不收录页面已在窗口前发布、与既有事件重复或未经确认的消息。机器之心RSS鉴权缺失，公开industry页现为数据服务宣传页；新智元公开首页无法提取到带时间的新稿。浏览器因系统锁屏不可用，使用标准库只读请求直接访问原始来源页面核验标题、详情URL与发布时间；新华社详情页虽有相关文章但发布时间早于本轮窗口。全程不请求飞书、不发送告警、不调用发布流程。",
+      "source_status": {
+        "量子位": "ok:6",
+        "新智元": "ok:0; direct_source_checked_no_verifiable_recent_items",
+        "AIBase": "ok:0; direct_source_checked_and_supplemented:6",
+        "新华网科技": "ok:0; direct_source_checked_no_in_window_items",
+        "机器之心": "ok:0; rss_token_missing; public_industry_page_is_data_service_landing_page",
+        "今日头条/Tophub": "ok:50; candidates_are_search_shells_and_non_ai_trending_topics_filtered",
+        "Readhub": "ok:10"
+      }
+    }
+  ],
+  "items": [
+    {
+      "资讯标题": "黄仁勋谈「AI 让孩子淡忘基础数学」：这不重要",
+      "发布时间": "2026-09-25 17:32:16",
+      "来源": "Readhub",
+      "超链接": "https://www.gelonghui.com/live/2689117",
+      "desc": "主持人 Ezra Klein 指出，一项针对中国 2.6 万名学生的研究发现，人工智能帮助学生更快完成作业并取得更好成绩，但随时间推移，他们的考试成绩却下降了。对此黄仁勋承认「知识留存不足」的现象可能存在，但他并不因此焦虑。他举例说：「现在你让孩子做长除法试试，乘法表都快被忘光了，更别说开平方根」。",
+      "agent_reason": "NVIDIA CEO对AI辅助学习与基础技能保留的公开观点，反映AI教育影响讨论。",
+      "archive_id": "A20260925-87251860552c",
+      "first_seen_at": "2026-09-25 18:06:46",
+      "last_seen_at": "2026-09-25 18:06:46"
+    },
+    {
+      "资讯标题": "The Pentagon wants $30 million to build an AI-powered lie detector",
+      "发布时间": "2026-09-25 17:16:25",
+      "来源": "Readhub",
+      "超链接": "https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector",
+      "desc": "Critics see intimidation, not investigation: Legal scholars warn the real purpose may be less about catching liars and more about pressuring people to confess—particularly as the Pentagon ramps up polygraph use to hunt for press leakers under Defense Secretary Pete Hegseth. The US government wants to spend $30.3 million over the next five years on an improved form of lie detector, according to a Department of Defense budget request. There have been a number of attempts to build new types of lie detectors over the decades, ranging from thermal cameras to pupil trackers to brain scans.",
+      "agent_reason": "美国国防部拟资助AI测谎技术并引发权利与监管争议，属于AI政策和社会治理动态。",
+      "archive_id": "A20260925-85141bd115a3",
+      "first_seen_at": "2026-09-25 18:06:46",
+      "last_seen_at": "2026-09-25 18:06:46"
+    },
+    {
+      "资讯标题": "起底 AI 网恋：4700 个 AI 围猎 2.5 万人，10 元造完美情人",
+      "发布时间": "2026-09-25 17:13:30",
+      "来源": "Readhub",
+      "超链接": "https://www.tmtpost.com/8152653.html",
+      "desc": "一家诈骗公司上线 20 多款交友软件，几台服务器就运转了 4700 多个 AI 女性账号，短短两周发出 236 万条情话，同时至少围猎 2.5 万人。脸（几毛）+ 声音（1 元）+ 换脸（几块）+ 聊天（几块）＝ 打造一个完美 AI 情人，成本不超 10 元。",
+      "agent_reason": "AI生成身份被用于规模化情感诈骗，揭示合成内容滥用及平台治理风险。",
+      "archive_id": "A20260925-b0ff172d1801",
+      "first_seen_at": "2026-09-25 18:06:46",
+      "last_seen_at": "2026-09-25 18:06:46"
+    },
+    {
+      "资讯标题": "AI 需求吃紧 12 英寸晶圆产能，2027 年涨价超 40%、2028 年继续上涨",
+      "发布时间": "2026-09-25 16:26:48",
+      "来源": "Readhub",
+      "超链接": "https://news.mydrivers.com/1/1153/1153958.htm",
+      "desc": "AI 需求持续吃紧 12 英寸晶圆供应，2027 年新签长期协议（LTA）价格大幅上涨，外延晶圆涨幅 15% 至 25%，抛光晶圆涨幅超过 40%，部分二线客户涨幅可能超过 50%。分析师预计 2027 年 CoWoS 封装产能同比增长 70.9%，GPU 和 AI ASIC 出货量增长 44.9%，Intel、AMD 和 NVIDIA 的 CPU 合计出货量增长 36%，对应更高的 12 英寸晶圆开工率和硅中介层需求。",
+      "agent_reason": "披露AI需求对12英寸晶圆、先进封装与芯片供应链的量化影响。",
+      "archive_id": "A20260925-6be822f95ac1",
+      "first_seen_at": "2026-09-25 18:06:46",
+      "last_seen_at": "2026-09-25 18:06:46"
+    },
+    {
+      "资讯标题": "甲骨文为数据中心延期风险留后路，发出「不可抗力」通知引华尔街质疑",
+      "发布时间": "2026-09-25 16:21:09",
+      "来源": "Readhub",
+      "超链接": "https://www.ithome.com/1/007/158.htm",
+      "desc": "甲骨文为旗下旗舰 AI 数据中心项目的延期风险提前采取保护措施，华尔街由此开始质疑，甲骨文能否如期建成足够的数据中心容量，为 AI 业务扩张提供支撑。甲骨文已向 Blue Owl Capital 旗下的 STACK Infrastructure 发出不可抗力通知，后者负责开发位于新墨西哥州的 Project Jupiter AI 数据中心项目。",
+      "agent_reason": "Oracle AI数据中心项目延期风险关系云算力供给和大型基础设施建设。",
+      "archive_id": "A20260925-76eac0b1d108",
+      "first_seen_at": "2026-09-25 18:06:46",
+      "last_seen_at": "2026-09-25 18:06:46"
+    },
+    {
+      "资讯标题": "京东物流「独狼」登顶智驾封神榜！L4 级无人配送车全场第一",
+      "发布时间": "2026-09-25 14:36:53",
+      "来源": "Readhub",
+      "超链接": "https://news.mydrivers.com/1/1153/1153937.htm",
+      "desc": "2026 第三届智驾「封神榜」挑战赛在长沙举行，京东物流「独狼」第六代智能配送车 Plus 版首次参赛便以全场综合得分第一斩获「最佳全能表现奖」，在国内首次增设的功能型无人车专属赛道上跑赢了新石器、白犀牛等 10 家头部企业。本届挑战赛以已落地的环卫、配送作业为实战场景，分为资格检录、场景闯关、极限挑战三个阶段，直接检验量产无人车在真实复杂道路中的感知、决策和交互能力。测试场景包括行人横穿、低矮障碍物识别、临时施工变道等，这些场景目标小、出现突然、易被误判，恰是无人配送车日常运营中最容易触发急停或漏判的情况，京东物流「独狼」在多个困难场景中均以满分通过。",
+      "agent_reason": "京东L4无人配送车在真实场景赛事中的量产能力表现，体现机器人商业化落地。",
+      "archive_id": "A20260925-271d06b85138",
+      "first_seen_at": "2026-09-25 15:05:50",
+      "last_seen_at": "2026-09-25 15:05:50"
+    },
+    {
+      "资讯标题": "别人忙着卷Code，Kimi抽身反打浏览器插件：网页操作一秒变Skill",
+      "发布时间": "2026-09-25 14:20:56",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/09/497075.html",
+      "desc": "Agent的手越伸越长",
+      "agent_reason": "Kimi将网页操作封装为可复用Skill，属于智能体工具调用和浏览器自动化产品进展。",
+      "archive_id": "A20260925-abe18aa013c2",
+      "first_seen_at": "2026-09-25 15:05:50",
+      "last_seen_at": "2026-09-25 15:05:50"
+    },
+    {
+      "资讯标题": "华为大模型双子星联手创业，要找物理世界的Scaling Law",
+      "发布时间": "2026-09-25 14:14:07",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/09/497070.html",
+      "desc": "一场物理世界的基模实验",
+      "agent_reason": "华为大模型团队成员创业探索物理世界基础模型，涉及具身智能核心技术与头部人才流动。",
+      "archive_id": "A20260925-4e721d0976c5",
+      "first_seen_at": "2026-09-25 15:05:50",
+      "last_seen_at": "2026-09-25 15:05:50"
+    },
+    {
+      "资讯标题": "瞄准 AI 数据中心光学需求，康宁扩大 Polarcor 玻璃偏振片产能",
+      "发布时间": "2026-09-25 14:09:48",
+      "来源": "Readhub",
+      "超链接": "https://www.ithome.com/1/007/130.htm",
+      "desc": "康宁公司于 9 月 24 日宣布，将扩大 Polarcor 玻璃偏振片的制造产能，以应对 AI 数据中心和计算应用持续增长的需求。该类产品广泛应用于光隔离器及其他激光光学器件，是先进光学和光子系统的重要组成部分。康宁的 Polarcor 工程化玻璃偏振片正是面向这一需求设计，能够控制偏振光，并在光隔离器中防止反向反射光对激光器件造成干扰。",
+      "agent_reason": "AI数据中心光学器件需求推动康宁扩产，属于算力基础设施供应链动态。",
+      "archive_id": "A20260925-a57ed6ecb065",
+      "first_seen_at": "2026-09-25 15:05:50",
+      "last_seen_at": "2026-09-25 15:05:50"
+    },
+    {
+      "资讯标题": "IMF 年报：全球经济韧性仍在，AI 投资今年或超 2 万亿美元",
+      "发布时间": "2026-09-25 14:02:38",
+      "来源": "Readhub",
+      "超链接": "https://www.gelonghui.com/live/2688907",
+      "desc": "IMF 年报援引外部估计称，2026 年由私人部门推动的全球人工智能投资可能超过 2 万亿美元，成为近年来最强劲的经济增长驱动力之一。在美国，与人工智能相关的技术投资估计使 2025 年 GDP 增速提高了 0.5 个百分点。报告指出，东亚是全球芯片制造和设计的重要中心，东南亚则正在利用自身制造业优势，进一步提升在全球价值链中的位置。",
+      "agent_reason": "IMF报告给出全球AI投资规模判断，反映AI对宏观经济和产业投资的影响。",
+      "archive_id": "A20260925-92d1a049bcf3",
+      "first_seen_at": "2026-09-25 15:05:50",
+      "last_seen_at": "2026-09-25 15:05:50"
+    },
+    {
+      "资讯标题": "Meta 个人智能体 Muse macOS 版被曝严重漏洞，可被劫持操控关联应用",
+      "发布时间": "2026-09-25 13:52:32",
+      "来源": "Readhub",
+      "超链接": "https://www.ithome.com/1/007/126.htm",
+      "desc": "macOS 安全研究员、Objective-See Foundation 创始人 Patrick Wardle 发现，Meta 面向 macOS 用户推出的 Muse 存在一项严重的零日漏洞，攻击者可借助一个隐藏配置项劫持用户的 Muse 账户，并利用其已获得的系统权限访问邮件、日历、WhatsApp 等关联应用。Wardle 表示，该漏洞允许本地进程或一条终端命令接管整个 Muse 账户，使 AI 助手本身成为攻击入口，而无需传统意义上的复杂恶意软件。Meta Superintelligence Labs 的 David Singleton 证实，在漏洞公开后，公司已推送热修复更新，删除了导致问题的调试语音配置项，以封堵这一漏洞。",
+      "agent_reason": "Meta个人智能体漏洞可被利用访问关联应用且已触发热修复，属于重要AI产品安全事件。",
+      "archive_id": "A20260925-c3e0343664fc",
+      "first_seen_at": "2026-09-25 15:05:50",
+      "last_seen_at": "2026-09-25 15:05:50"
+    },
+    {
+      "资讯标题": "给机器人当老师，还能赚外快？“中国版Index”觅蜂派来了",
+      "发布时间": "2026-09-25 13:52:18",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/09/497012.html",
+      "desc": "",
+      "agent_reason": "机器人训练数据采集平台连接人类示范者与机器人任务，涉及具身数据供给模式。",
+      "archive_id": "A20260925-be711a0088bb",
+      "first_seen_at": "2026-09-25 15:05:50",
+      "last_seen_at": "2026-09-25 15:05:50"
+    },
+    {
+      "资讯标题": "谷歌开始部署太空算力 TPU：功率仅 1 千瓦、跑 15 分钟就得降温关机",
+      "发布时间": "2026-09-25 13:05:52",
+      "来源": "Readhub",
+      "超链接": "https://news.mydrivers.com/1/1153/1153928.htm",
+      "desc": "谷歌 CEO Sundar Pichai 今天在 X 上宣布要把自家的 TPU AI 芯片送入太空，Project Suncatcher 的第一颗太空算力卫星原型会搭载 SpaceX 拼车发射任务 Transporter-18 进行太空部署，预定 10 月 1 日由猎鹰 9 号火箭发射。",
+      "agent_reason": "Google太空算力卫星提前试验，涉及AI芯片、轨道数据中心与散热工程挑战。",
+      "archive_id": "A20260925-cf8e46266038",
+      "first_seen_at": "2026-09-25 18:06:46",
+      "last_seen_at": "2026-09-25 18:06:46"
+    },
+    {
+      "资讯标题": "二手书店遭吨级扫货！50 吨书籍运往公司喂 AI：扫描完直接粉碎",
+      "发布时间": "2026-09-25 12:21:20",
+      "来源": "Readhub",
+      "超链接": "https://news.mydrivers.com/1/1153/1153923.htm",
+      "desc": "日本二手书店近期出现异常销售热潮，大量书籍被按吨批量采购，疑似送往海外 AI 公司进行扫描后销毁。日本电视台 NTV 获取的记录显示，一笔 50 吨的日本书籍订单已被发往美国，进入 Anthropic 的扫描处理流程。更深层的是版权问题：在日本现行法律下，除非能证明扫描行为不公平地损害版权方利益，否则用于 AI 学习目的的扫描仍属合法，但在这种隐秘的批量操作中，不太会有任何作者被征询意见。",
+      "agent_reason": "AI训练书籍扫描引发版权合规争议，涉及模型训练数据治理和知识产权。",
+      "archive_id": "A20260925-dcc5090a2d54",
+      "first_seen_at": "2026-09-25 15:05:50",
+      "last_seen_at": "2026-09-25 15:05:50"
+    },
+    {
+      "资讯标题": "戴尔高管：「代理 AI」这次不一样，关键组件（主要是内存和 HDD）短缺可能持续 5 年以上",
+      "发布时间": "2026-09-25 11:53:04",
+      "来源": "Readhub",
+      "超链接": "https://wallstreetcn.com/articles/3782527",
+      "desc": "戴尔高管表示，若相关 AI 工作负载持续增长，关键零部件的供应短缺可能持续五年以上，其中内存和 HDD 是他目前最担忧的环节。戴尔目前正以关键零部件可能出现多年持续短缺为前提进行运营，尤其关注内存和 HDD。这意味着，算力、服务器和存储的需求扩张可能持续更久，而内存、HDD 等关键组件的供给约束也可能从短期周期性波动转变为多年期的结构性问题。",
+      "agent_reason": "Agent工作负载对服务器内存和存储供应链的多年结构性影响，属于AI算力基础设施重要动态。",
+      "archive_id": "A20260925-f5c8e10458eb",
+      "first_seen_at": "2026-09-25 12:04:56",
+      "last_seen_at": "2026-09-25 12:04:56"
+    },
+    {
+      "资讯标题": "高端 PCB 扩产潮升温，自动化装备成标配",
+      "发布时间": "2026-09-25 11:47:32",
+      "来源": "Readhub",
+      "超链接": "https://www.tmtpost.com/8152330.html",
+      "desc": "AI 算力基础设施建设持续提速，PCB 产业掀起新一轮高端扩产潮。德邦证券不完全统计，全球主流 PCB 板厂 2026 年以来扩产规划投资规模达 1012 亿元，重心集中于 AI 配套的高多层、高阶 HDI 高端产能。德邦证券测算，AI PCB 设备需求 2025—2027 年预计分别达 158 亿元、295 亿元和 670 亿元，自动化装备在 PCB 扩产链条里的分量肉眼可见地加重了。",
+      "agent_reason": "量化披露AI服务器PCB扩产规模与设备需求，反映算力硬件核心供应链变化。",
+      "archive_id": "A20260925-de5530700e6d",
+      "first_seen_at": "2026-09-25 12:04:56",
+      "last_seen_at": "2026-09-25 12:04:56"
+    },
+    {
+      "资讯标题": "每人持股约 2%，却要 50.1% 投票权：Anthropic 创始人的 IPO 算盘",
+      "发布时间": "2026-09-25 11:36:34",
+      "来源": "Readhub",
+      "超链接": "https://www.36kr.com/p/3998243846459524",
+      "desc": "在即将迎来万亿美元级首次 IPO 的关键节点，Anthropic 正在酝酿一项极具争议但极具保护色彩的治理结构调整：让七位联合创始人在上市后仍保持公司控制权。The Information 引述知情人士报道，Anthropic 正向股东寻求批准一项全新的公司架构，为 CEO Dario Amodei 以及另外六位联合创始人设立特殊类别股票，使他们在多数公司事务中拥有集体投票控制权。公开信息显示，首席执行官 Dario Amodei 仅持有 Anthropic 约 2% 的股份，其他联合创始人（包括其妹妹、公司总裁 Daniela Amodei）的持股比例也大致相仿。",
+      "agent_reason": "Anthropic上市前控制权设计关系头部模型公司的资本与长期治理，具行业存档价值。",
+      "archive_id": "A20260925-d7d1c6c54a6a",
+      "first_seen_at": "2026-09-25 12:04:56",
+      "last_seen_at": "2026-09-25 12:04:56"
+    },
+    {
+      "资讯标题": "AI 芯片初创企业 DensityAI 正进入融资谈判后期，投后估值接近 100 亿美元",
+      "发布时间": "2026-09-25 11:16:09",
+      "来源": "Readhub",
+      "超链接": "https://www.36kr.com/newsflashes/3998246029070468",
+      "desc": "AI 芯片初创企业 DensityAI 由特斯拉 Dojo 超级计算机项目的前核心团队于一年前创立，目前正进入融资谈判后期，计划募资数亿美元，本轮融资对应的公司估值将达到 100 亿美元。知情人士称，公司管理层向潜在投资者表示，已经拿到一份协议：如果 DensityAI 芯片达到指定性能指标，亚马逊云科技（AWS）将采购其芯片。其中一名知情人士称，安德里森・霍罗威茨（a16z）正在洽谈领投本轮融资。",
+      "agent_reason": "前Dojo团队AI芯片公司的大额融资及潜在AWS采购，属于AI算力芯片重要产业动态。",
+      "archive_id": "A20260925-2714bdf64157",
+      "first_seen_at": "2026-09-25 12:04:56",
+      "last_seen_at": "2026-09-25 12:04:56"
+    },
+    {
+      "资讯标题": "OpenAI、Anthropic 被要求在完成白宫测试前不能向英国分享新模型",
+      "发布时间": "2026-09-25 10:43:11",
+      "来源": "Readhub",
+      "超链接": "https://www.36kr.com/newsflashes/3998199026274437",
+      "desc": "据知情人士和一位获准匿名描述该请求的美国政府高级官员透露，白宫已要求 OpenAI 和 Anthropic 在美国政府完成测试之前，不要与英国政府的测试机构分享其最新的人工智能模型。这项来自美国国家网络总监办公室的请求，使相关企业陷入了两难境地：他们要么拒绝向英国人工智能安全研究所提供模型——该机构是全球资源最丰富的政府测试机构之一，此前曾享有优先获取新模型的特权。",
+      "agent_reason": "涉及前沿模型发布前测试、跨国共享与政府安全监管，是重要AI治理政策事件。",
+      "archive_id": "A20260925-1058c20014c4",
+      "first_seen_at": "2026-09-25 12:04:56",
+      "last_seen_at": "2026-09-25 12:04:56"
+    },
+    {
+      "资讯标题": "突发：DeepSeek Harness出桌面版了！",
+      "发布时间": "2026-09-25 10:40:00",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-09-25-2",
+      "agent_reason": "浏览器直接核实机器之心频道的明确时间与详情页；DeepSeek Harness桌面化属于编码Agent产品形态更新。",
+      "archive_id": "A20260925-08b6ca56ea42",
+      "first_seen_at": "2026-09-25 12:04:56",
+      "last_seen_at": "2026-09-25 12:04:56"
+    },
+    {
+      "资讯标题": "实测Opus 5.5：一句提示词造出100个网页，还会做动画谱曲",
+      "发布时间": "2026-09-25 10:35:00",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-09-25",
+      "agent_reason": "浏览器直接核实机器之心频道的明确时间与详情页；实测展示头部模型在批量网页生成、多媒体创作等复杂任务上的能力边界。",
+      "archive_id": "A20260925-f720c98d319b",
+      "first_seen_at": "2026-09-25 12:04:56",
+      "last_seen_at": "2026-09-25 12:04:56"
+    },
+    {
+      "资讯标题": "Meta 推出 2 款 AI 工具，让用户在手机端直接构建游戏",
+      "发布时间": "2026-09-25 08:34:51",
+      "来源": "Readhub",
+      "超链接": "https://www.ithome.com/1/007/068.htm",
+      "desc": "在 2026 年 Connect 大会上，Meta 扩充其 Horizon 平台，推出 Horizon Create 和 Horizon Studio 两款 AI 工具，让用户直接在手机上构建游戏。游戏可包含成长系统、难度平衡、美术方向和多人模式，创作者还能继续调整游戏中的各项内容。Meta 称，Instagram 用户点击游戏片段后，几秒内即可进入多人游戏。",
+      "agent_reason": "近24小时内可核验的AI模型、智能体、机器人、算力、核心技术或头部公司动态，具有技术或产业存档价值。",
+      "archive_id": "A20260925-601ff47aca18",
+      "first_seen_at": "2026-09-25 09:05:33",
+      "last_seen_at": "2026-09-25 09:05:33"
+    },
+    {
+      "资讯标题": "China publishes landmark paper on AI-to-AI technique that removes human bottleneck, replacing it with an AI modem — C2C brainwave direct connection achieves 150% boost in inference speed",
+      "发布时间": "2026-09-25 08:15:00",
+      "来源": "Readhub",
+      "超链接": "https://www.techradar.com/pro/china-publishes-landmark-paper-on-ai-to-ai-technique-that-kicks-human-bottleneck-out-of-the-loop-and-replaces-us-with-an-ai-modem-c2c-brainwave-direct-connection-achieves-150-boost-in-inference-speed",
+      "desc": "When two AI models cooperate today, one has to turn its thinking into written sentences before the other can read them. C2C skips typed language entirely by letting one model pass that working memory straight into a second model's memory bank. This approach currently works only with open-weight models, since it requires direct access to a model's internal cache and layer structure.",
+      "agent_reason": "近24小时内可核验的AI模型、智能体、机器人、算力、核心技术或头部公司动态，具有技术或产业存档价值。",
+      "archive_id": "A20260925-1b9b64df71a4",
+      "first_seen_at": "2026-09-25 09:05:33",
+      "last_seen_at": "2026-09-25 09:05:33"
+    },
+    {
+      "资讯标题": "腾讯元宝鸿蒙版正式上线：原生适配，搭载混元 Hy4 preview 模型",
+      "发布时间": "2026-09-25 07:54:49",
+      "来源": "Readhub",
+      "超链接": "https://news.mydrivers.com/1/1153/1153901.htm",
+      "desc": "腾讯元宝官方宣布，元宝鸿蒙版正式登陆鸿蒙应用市场，首个版本即搭载最新的混元 Hy4 preview 模型，并支持切换到「专家模式」，全量开放 AI 写作、语音通话、精准识图、拍照翻译、文档精读等核心功能，同时接入微信公众号与视频号等腾讯生态信源。鸿蒙版元宝上线即内置五项核心能力，文档精读支持 36 种格式，可快速提炼 PDF、Word 等文件的核心摘要，并支持针对细节追问。元宝官方还在评论区回复用户称，鸿蒙版这次是原生适配上架的，不是简单的 WebView 封装，界面和操作逻辑都针对鸿蒙系统做了优化。",
+      "agent_reason": "近24小时内可核验的AI模型、智能体、机器人、算力、核心技术或头部公司动态，具有技术或产业存档价值。",
+      "archive_id": "A20260925-74bd50cf2eec",
+      "first_seen_at": "2026-09-25 09:05:33",
+      "last_seen_at": "2026-09-25 09:05:33"
+    },
+    {
+      "资讯标题": "谷歌计划下周发射搭载 4 颗 TPU 的原型卫星",
+      "发布时间": "2026-09-25 06:35:01",
+      "来源": "Readhub",
+      "超链接": "https://www.gelonghui.com/live/2688515",
+      "desc": "谷歌周四宣布，将在下周发射一颗搭载自研 TPU 的卫星升空，开始太空数据中心项目的首次在轨验证测试。作为谷歌「太阳捕手项目」（Project Suncatcher）的关键一步，下周的任务主要将测试 TPU 硬件能否在太空中「存活」。下周升空的卫星将搭载 4 颗 TPU 芯片，算力相当于一台数据中心里的服务器。",
+      "agent_reason": "近24小时内可核验的AI模型、智能体、机器人、算力、核心技术或头部公司动态，具有技术或产业存档价值。",
+      "archive_id": "A20260925-e486fc3c609e",
+      "first_seen_at": "2026-09-25 09:05:33",
+      "last_seen_at": "2026-09-25 09:05:33"
+    },
+    {
+      "资讯标题": "Anthropic signs $11.6bn Akamai cloud deal with warrant for 5% of Akamai stock",
+      "发布时间": "2026-09-25 04:50:13",
+      "来源": "Readhub",
+      "超链接": "https://daily.dev/posts/anthropic-signs-11-6bn-akamai-cloud-deal-and-gets-warrant-for-5-of-akamai-p2zii26cu",
+      "desc": "As part of the agreement, Akamai issued Anthropic a warrant for 7.7 million shares (about 5% of common stock), the first such warrant Akamai has given a customer. Akamai will supply CPU access and expects to spend about $5.5bn in capital to fulfill the contract, raising 2026 capex by $1.7bn. The deal builds on a $1.8bn agreement signed in May and adds to a string of large compute deals Anthropic has made this year, including with Volta and Rum Group.",
+      "agent_reason": "近24小时内可核验的AI模型、智能体、机器人、算力、核心技术或头部公司动态，具有技术或产业存档价值。",
+      "archive_id": "A20260925-ba93454e2c92",
+      "first_seen_at": "2026-09-25 09:05:33",
+      "last_seen_at": "2026-09-25 09:05:33"
+    },
+    {
+      "资讯标题": "「早该死磕代码！」谷歌高管承认走弯路，现已让AI智能体自己跑训练实验",
+      "发布时间": "2026-09-25 04:31:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=b624fc48",
+      "desc": "谷歌已让AI智能体自主运行训练实验，反映AI辅助模型研发与递归改进方向的进展。",
+      "agent_reason": "涉及头部实验室使用智能体自动运行训练实验，属于AI研发自动化的重要动态。",
+      "archive_id": "A20260925-cffef16e7c3c",
+      "first_seen_at": "2026-09-25 09:05:33",
+      "last_seen_at": "2026-09-25 09:05:33"
+    },
+    {
+      "资讯标题": "几百个AI和人类一起敲代码，Perplexity把搜索成本砍了68%",
+      "发布时间": "2026-09-25 02:50:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=6080a918",
+      "desc": "Perplexity以小型工程团队协同数百个AI智能体重写搜索底层，并上线自研Rust Fast Search API。",
+      "agent_reason": "展示多智能体参与核心搜索基础设施开发及成本优化，具有工程与产业价值。",
+      "archive_id": "A20260925-a86cedd35e42",
+      "first_seen_at": "2026-09-25 09:05:33",
+      "last_seen_at": "2026-09-25 09:05:33"
+    },
+    {
+      "资讯标题": "拔网线也能让AI跨应用干活？Perplexity本地版上线，不耗云端额度",
+      "发布时间": "2026-09-25 01:43:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=8bc629a1",
+      "desc": "Perplexity推出Windows本地智能体Portable Computer，任务可在设备端执行且不消耗云端额度。",
+      "agent_reason": "属于端侧智能体与跨应用执行能力的新产品进展。",
+      "archive_id": "A20260925-5fb9e689cb5d",
+      "first_seen_at": "2026-09-25 09:05:33",
+      "last_seen_at": "2026-09-25 09:05:33"
+    },
+    {
+      "资讯标题": "374家大厂的客服电话，被黑客在ChatGPT和Gemini里全换成了诈骗号",
+      "发布时间": "2026-09-25 01:19:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=44b7bc24",
+      "desc": "安全团队披露面向生成式AI答案的投毒攻击，影响374家企业的客服电话信息。",
+      "agent_reason": "揭示大模型检索与生成答案面临的数据投毒和诈骗风险，具有AI安全存档价值。",
+      "archive_id": "A20260925-e9460683ea3b",
+      "first_seen_at": "2026-09-25 09:05:33",
+      "last_seen_at": "2026-09-25 09:05:33"
+    },
+    {
+      "资讯标题": "出海Agent“小元AI”入驻腾讯WorkBuddy：找买家写开发信谈生意",
+      "发布时间": "2026-09-24 22:20:14",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/09/496961.html",
+      "desc": "懂出海，能记忆，自进化",
+      "agent_reason": "面向外贸场景的Agent接入腾讯WorkBuddy，展示垂直智能体工作流的产品化。",
+      "archive_id": "A20260925-e80d725cff44",
+      "first_seen_at": "2026-09-25 18:06:46",
+      "last_seen_at": "2026-09-25 18:06:46"
+    },
+    {
+      "资讯标题": "PCIe显卡被低估了！内核补齐+通信重构，DeepSeek推理吞吐翻近7倍",
+      "发布时间": "2026-09-24 22:17:48",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/09/496925.html",
+      "desc": "1.5台6000D跑赢1台B300！",
+      "agent_reason": "近24小时内可核验的AI模型、智能体、机器人、算力、核心技术或头部公司动态，具有技术或产业存档价值。",
+      "archive_id": "A20260925-113370045330",
+      "first_seen_at": "2026-09-25 09:05:33",
+      "last_seen_at": "2026-09-25 15:05:50"
+    },
+    {
+      "资讯标题": "Accelerating vision-language models with LFM2.5-VL-DSpark",
+      "发布时间": "2026-09-24 22:08:57",
+      "来源": "Readhub",
+      "超链接": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+      "desc": "As with our recently released LFM2.5-DSpark drafter models, it adds a speculative decoding path that trades a minimal increase in memory footprint for a larger speedup without changing output quality. The vision drafter uses the same architecture as our text LFM2.5-DSpark drafters: it captures the target model's hidden states at a fixed set of tapped layers and conditions on them to draft a block of k candidate tokens. Image patches and text tokens are projected into a shared representation before those layers, so the drafter operates on hidden-state vectors of identical dimensionality regardless of input modality.",
+      "agent_reason": "近24小时内可核验的AI模型、智能体、机器人、算力、核心技术或头部公司动态，具有技术或产业存档价值。",
+      "archive_id": "A20260925-280bf64dcca7",
+      "first_seen_at": "2026-09-25 09:05:33",
+      "last_seen_at": "2026-09-25 09:05:33"
+    },
+    {
+      "资讯标题": "How Open Science Can Help Researchers Prepare for the Next Pandemic",
+      "发布时间": "2026-09-24 22:00:50",
+      "来源": "Readhub",
+      "超链接": "https://blogs.nvidia.com/blog/open-protein-dataset",
+      "desc": "NVIDIA is also openly releasing the BioNeMo Structure Prediction Pipeline, the GPU-accelerated workflow used to generate the dataset, so researchers can go from protein sequence to predicted 3D structure for their own targets. The dataset release — coinciding with a United Nations General Assembly meeting convened by the World Economic Forum on pandemic prevention, preparedness and response taking place this week in New York City — contributes to the AlphaFold Database, which now holds more than 260 million protein and protein complex predictions covering nearly every cataloged protein known to science. Explore the viral protein complex dataset on the AlphaFold Database Pandemic Preparedness Portal, predict structures for protein targets with the BioNeMo Structure Prediction Pipeline, and learn more about NVIDIA BioNeMo.",
+      "agent_reason": "近24小时内可核验的AI模型、智能体、机器人、算力、核心技术或头部公司动态，具有技术或产业存档价值。",
+      "archive_id": "A20260925-2df4b99e390e",
+      "first_seen_at": "2026-09-25 09:05:33",
+      "last_seen_at": "2026-09-25 09:05:33"
+    },
+    {
+      "资讯标题": "一家机器人数据公司关门，创始人复盘：卖数据撑不起一家独立公司",
+      "发布时间": "2026-09-24 20:19:12",
+      "来源": "Readhub",
+      "超链接": "https://www.mittrchina.com/news/detail/17011",
+      "desc": "机器人数据公司 Eidon AI 联合创始人萨姆・帕迪拉（Sam Padilla）宣布关闭公司。萨姆在长文复盘中写道，具身智能训练数据匮乏的问题依然存在，但这些数据的价值，未必足以支撑一家独立公司的研发、硬件部署、采集运营和销售开支。2025 年初，Eidon 转向机器人数据，将业务收窄，只做一件具体的事：招募采集者佩戴设备，在真实家庭中完成日常任务，再把视频和动作记录卖给训练机器人模型的团队。",
+      "agent_reason": "近24小时内可核验的AI模型、智能体、机器人、算力、核心技术或头部公司动态，具有技术或产业存档价值。",
+      "archive_id": "A20260925-3df3def0d853",
+      "first_seen_at": "2026-09-25 09:05:33",
+      "last_seen_at": "2026-09-25 15:05:50"
+    },
+    {
+      "资讯标题": "首部上星AI长剧《后西游记》幕后：没有摄影机，100%画面由Seedance生成，单集成本压到十几万",
+      "发布时间": "2026-09-24 18:01:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31357",
+      "desc": "《后西游记》以Seedance完成100%视频生成，重组影视制作流程并显著降低单集制作成本。",
+      "agent_reason": "生成式视频在长剧生产中的规模化落地案例，具有AI内容产业与生产流程价值。",
+      "archive_id": "A20260925-d7ddcbfec6b8",
+      "first_seen_at": "2026-09-25 09:05:33",
+      "last_seen_at": "2026-09-25 09:05:33"
+    },
+    {
+      "资讯标题": "GPT-6之后，具身智能走向何方？诺因发布GLOW技术报告，给出机器人“一教就会”的答案",
+      "发布时间": "2026-09-24 16:20:12",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/09/496816.html",
+      "desc": "人类演示一次，机器人即可实现跨场景任务复用",
+      "agent_reason": "GLOW技术报告探索一次示范后的跨场景机器人任务复用，属于具身智能核心技术进展。",
+      "archive_id": "A20260925-b7bdd15f4762",
+      "first_seen_at": "2026-09-25 15:05:50",
+      "last_seen_at": "2026-09-25 15:05:50"
+    },
+    {
+      "资讯标题": "谷歌确认新一代旗舰 Gemini 4 即将推出：已进入后训练，有望远早于年底",
+      "发布时间": "2026-09-24 15:42:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31350",
+      "desc": "谷歌DeepMind负责人卡武克奥卢在AI峰会透露，新一代旗舰模型Gemini 4即将推出，目前已进入后训练初期，该阶段用于提升模型行为可靠性。",
+      "agent_reason": "头部实验室确认Gemini 4进入后训练阶段，属于旗舰大模型发布进展。",
+      "archive_id": "A20260925-c7c12e7182fb",
+      "first_seen_at": "2026-09-25 18:06:46",
+      "last_seen_at": "2026-09-25 18:06:46"
+    },
+    {
+      "资讯标题": "高通联手 PrismML 发布 1-bit Bonsai：AI 眼镜离线识图，内存占用降到 1/4",
+      "发布时间": "2026-09-24 14:54:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31349",
+      "desc": "高通与PrismML在骁龙AR1 Gen 1智能眼镜平台本地运行20亿参数1-bit量化Bonsai视觉模型，实现离线识图问答，内存占用降至4-bit模型的四分之一。",
+      "agent_reason": "端侧量化视觉模型降低AI眼镜内存占用，体现可穿戴AI本地推理进展。",
+      "archive_id": "A20260925-c62dd35066f5",
+      "first_seen_at": "2026-09-25 18:06:46",
+      "last_seen_at": "2026-09-25 18:06:46"
+    },
+    {
+      "资讯标题": "ChatGPT 移动端上新语音智能体：动动嘴就能写文档、总结邮件",
+      "发布时间": "2026-09-24 14:48:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31347",
+      "desc": "OpenAI宣布ChatGPT移动端新增语音智能体功能，用户可通过语音撰写文档、总结邮件等，并执行建站、制作PPT和使用云端浏览器等任务。",
+      "agent_reason": "ChatGPT语音入口扩展为可执行多步骤工作的智能体功能，属于头部产品更新。",
+      "archive_id": "A20260925-a180aa508d63",
+      "first_seen_at": "2026-09-25 18:06:46",
+      "last_seen_at": "2026-09-25 18:06:46"
+    },
+    {
+      "资讯标题": "阿里达摩院发布食管癌 AI 模型 DAMO EAGLE：不插管，平扫 CT 就能查早癌",
+      "发布时间": "2026-09-24 14:02:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31341",
+      "desc": "阿里达摩院联合多家医院发布食管癌筛查AI模型DAMO EAGLE，可仅凭平扫CT识别食管癌及早期病变，已在3国8万多病例验证。",
+      "agent_reason": "医疗AI模型披露大规模临床验证数据，属于重要行业应用和技术进展。",
+      "archive_id": "A20260925-db0f85c696a5",
+      "first_seen_at": "2026-09-25 18:06:46",
+      "last_seen_at": "2026-09-25 18:06:46"
+    },
+    {
+      "资讯标题": "腾讯混元把经典临界批大小理论搬进大模型强化学习，PPO生成吞吐最高拉到2.29倍、GRPO省下29%训练时间",
+      "发布时间": "2026-09-24 13:57:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31340",
+      "desc": "腾讯混元研究在线大模型强化学习的批大小设置，覆盖GRPO与PPO算法，并报告PPO生成吞吐最高提升2.29倍、GRPO训练时间减少29%。",
+      "agent_reason": "大模型强化学习训练效率研究给出量化提升，具有核心技术存档价值。",
+      "archive_id": "A20260925-c2432d3086b1",
+      "first_seen_at": "2026-09-25 18:06:46",
+      "last_seen_at": "2026-09-25 18:06:46"
+    }
+  ]
+}

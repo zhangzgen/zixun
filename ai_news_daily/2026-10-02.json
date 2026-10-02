@@ -2,8 +2,8 @@
   "version": 1,
   "date": "2026-10-02",
   "timezone": "Asia/Shanghai",
-  "updated_at": "2026-10-02 12:03:48",
-  "item_count": 35,
+  "updated_at": "2026-10-02 15:07:52",
+  "item_count": 45,
   "runs": [
     {
       "collected_at": "2026-10-02 09:07:02",
@@ -38,9 +38,103 @@
         "今日头条/Tophub": "ok:50",
         "Readhub": "ok:10"
       }
+    },
+    {
+      "collected_at": "2026-10-02 15:07:52",
+      "input_count": 10,
+      "added_count": 10,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "完整审阅63条候选和当天35条归档；剔除50条搜索链接及10条已有事件（含异URL东芝、zkAPI、NVIDIA）。保留3条新候选及7条浏览器补充。新智元展开60条滚动列表，剔除重复、非AI物理奖和时间窗口外内容；爆点榜缺精确发布时间和详情链接不纳入。AIBase最新详情为09-30 17:46，新华列表最新09-30，均窗口外。机器之心三篇详情加载后有完整正文，已补充；Gemini与已有事件重复。不限制TopK。",
+      "source_status": {
+        "量子位": "ok:3",
+        "新智元": "ok:0",
+        "AIBase": "ok:0",
+        "新华网科技": "ok:0",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
     }
   ],
   "items": [
+    {
+      "资讯标题": "arXiv最严新规！每人每月最多提交2篇，拒稿不退额度",
+      "发布时间": "2026-10-02 14:46:32",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/499958.html",
+      "desc": "换区也没用",
+      "agent_reason": "科研预印本平台投稿政策变化，影响AI及核心技术研究交流。",
+      "archive_id": "A20261002-090bb4f35277",
+      "first_seen_at": "2026-10-02 15:07:52",
+      "last_seen_at": "2026-10-02 15:07:52"
+    },
+    {
+      "资讯标题": "马斯克称特斯拉大幅下调 AI5 和 AI6 芯片内存规格",
+      "发布时间": "2026-10-02 14:28:22",
+      "来源": "Readhub",
+      "超链接": "https://usstock.jrj.com.cn/2026/10/02142858605318.shtml",
+      "desc": "特斯拉首席执行官埃隆·马斯克周四表示，为了扩大生产规模，这家电动汽车巨头已下调了其下一代「擎天柱」机器人芯片的内存规格。马斯克在 X 平台上发文称，特斯拉将 AI5 芯片的内存减半至 72GB，并将 AI6 芯片的内存削减三分之一至 144GB。他补充说，这种削减对擎天柱性能的影响「微乎其微」，因为内存带宽是比总内存容量更大的制约因素。",
+      "agent_reason": "机器人AI芯片内存规格与量产策略变化。",
+      "archive_id": "A20261002-d36252d4c851",
+      "first_seen_at": "2026-10-02 15:07:52",
+      "last_seen_at": "2026-10-02 15:07:52"
+    },
+    {
+      "资讯标题": "苹果造了个巨型金属润唇膏，不录像只发文字，要接管你的家",
+      "发布时间": "2026-10-02 12:06:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=e7b501bf",
+      "desc": "据Mark Gurman爆料，苹果筹备J450家庭摄像头，通过AI分析环境并发送文字提醒，不提供或保存回看视频，与Home Hub配合。",
+      "agent_reason": "AI家庭硬件与视觉感知产品规划，保留爆料性质。 已浏览详情正文，原始时间精度为分钟。",
+      "archive_id": "A20261002-a62264b8838c",
+      "first_seen_at": "2026-10-02 15:07:52",
+      "last_seen_at": "2026-10-02 15:07:52"
+    },
+    {
+      "资讯标题": "微软拉上黄仁勋能造出什么性能怪兽？128G内存直接把本地AI拉满",
+      "发布时间": "2026-10-02 12:06:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=24aed74d",
+      "desc": "微软预告10月7日开发者活动，与英伟达讨论本地AI和RTX Spark；曝光Surface Laptop Ultra最高128GB统一内存和本地1200亿参数模型支持。",
+      "agent_reason": "本地AI算力平台及活动预告，硬件规格按曝光信息归档。 已浏览详情正文，原始时间精度为分钟。",
+      "archive_id": "A20261002-bf79cd70e953",
+      "first_seen_at": "2026-10-02 15:07:52",
+      "last_seen_at": "2026-10-02 15:07:52"
+    },
+    {
+      "资讯标题": "OpenAI自家智能体失控乱跑？百余家机构连夜收到警告信",
+      "发布时间": "2026-10-02 12:06:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=b624378c",
+      "desc": "报道称OpenAI通知100多家机构有关未经授权智能体活动，筛查约50PB数据；收到通知不代表系统一定被入侵。",
+      "agent_reason": "公司对外通知和数据筛查是新进展，区别于既存传票及55网站报道。 已浏览详情正文，原始时间精度为分钟。",
+      "archive_id": "A20261002-a234a727ad44",
+      "first_seen_at": "2026-10-02 15:07:52",
+      "last_seen_at": "2026-10-02 15:07:52"
+    },
+    {
+      "资讯标题": "420亿美元净亏损挡不住敲钟，Anthropic最快下个月挂牌，估值直逼2万亿美元",
+      "发布时间": "2026-10-02 12:06:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=cb4f6c77",
+      "desc": "据彭博社援引知情人士，Anthropic最早11月9日当周启动IPO推介，争取感恩节前挂牌；2025年净亏损近420亿美元，其中超过340亿美元来自负债公允价值变动。",
+      "agent_reason": "头部AI公司融资及财务动态，上市时间属报道计划而非完成事实。 已浏览详情正文，原始时间精度为分钟。",
+      "archive_id": "A20261002-250c3b04162d",
+      "first_seen_at": "2026-10-02 15:07:52",
+      "last_seen_at": "2026-10-02 15:07:52"
+    },
+    {
+      "资讯标题": "AutoSynthData: Generating Training Data for Enterprise Agents",
+      "发布时间": "2026-10-02 12:01:31",
+      "来源": "Readhub",
+      "超链接": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+      "desc": "The work they ask these agents to do is shaped by the systems they use, the rules they follow, and the state of their data. Given an environment and a target model, AutoSynthData generates training tasks consisting of a system specification, user prompt, and verifier. AutoSynthData treats synthetic data generation as a search for tasks near the target model's capability boundary: difficult enough to expose weaknesses, but solvable enough for the teacher to provide reliable demonstrations.",
+      "agent_reason": "企业智能体合成训练任务、验证器及能力边界搜索技术。",
+      "archive_id": "A20261002-56c490db0401",
+      "first_seen_at": "2026-10-02 15:07:52",
+      "last_seen_at": "2026-10-02 15:07:52"
+    },
     {
       "资讯标题": "东芝拟将数据中心 HDD 产能翻倍",
       "发布时间": "2026-10-02 11:46:02",
@@ -326,6 +420,39 @@
       "archive_id": "A20261002-ba44de83936e",
       "first_seen_at": "2026-10-02 09:07:02",
       "last_seen_at": "2026-10-02 09:07:02"
+    },
+    {
+      "资讯标题": "汽车之后，安徽开始让车企跨界「造人」",
+      "发布时间": "2026-10-01 19:59:00",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-10-01-6",
+      "desc": "安徽机器人产业实施意见鼓励车机协同，开放汽车研发平台、制造和供应链，涉及奇瑞墨甲及中鼎的机器人产业布局。",
+      "agent_reason": "机器人产业政策和制造供应链迁移。 已浏览加载后的完整正文，频道时间精度为分钟。",
+      "archive_id": "A20261002-9ec520f53532",
+      "first_seen_at": "2026-10-02 15:07:52",
+      "last_seen_at": "2026-10-02 15:07:52"
+    },
+    {
+      "资讯标题": "OpenAI们被嫌死贵，美国大厂转向开源模型，中国成最大赢家",
+      "发布时间": "2026-10-01 19:57:00",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-10-01-5",
+      "desc": "报道AT&T约40% AI工作负载采用开放模型，计划提升至70%；Tinder、Digital Realty等企业因成本、数据主权和定制需求采用模型分流。",
+      "agent_reason": "企业开放模型采用及成本与数据主权策略。 已浏览加载后的完整正文，频道时间精度为分钟。",
+      "archive_id": "A20261002-deb9a5770888",
+      "first_seen_at": "2026-10-02 15:07:52",
+      "last_seen_at": "2026-10-02 15:07:52"
+    },
+    {
+      "资讯标题": "首发！openJiuwen WorkSwarm全双工多模态 ，像聊天一样与Agent交互，昇腾算力原生亲和",
+      "发布时间": "2026-10-01 19:52:00",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-10-01-4",
+      "desc": "WorkSwarm将实时音视频交互与后台Core Agent任务执行结合，支持任务队列、打断及调度，以及昇腾NPU部署的全双工多模态模型。",
+      "agent_reason": "开源智能体平台全双工交互与任务执行技术；剔除领Token促销。 已浏览加载后的完整正文，频道时间精度为分钟。",
+      "archive_id": "A20261002-e8361de6cda5",
+      "first_seen_at": "2026-10-02 15:07:52",
+      "last_seen_at": "2026-10-02 15:07:52"
     },
     {
       "资讯标题": "88小时解开百万美元数学难题，OpenAI数千智能体自我组织，人类不用当经理了",

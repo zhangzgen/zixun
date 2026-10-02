@@ -19,10 +19,16 @@ runtime:
 hard_boundaries:
   - 禁止运行 prepare_ai_news_publish.py、get_news_details.py、publish_ai_news.py 或 run_ai_news.py --legacy-auto。
   - 禁止请求飞书 tenant token、读取或写入飞书知识库、调用群机器人 webhook。
-  - 本任务不得发送飞书消息；失败只在任务结果中汇报并保留现场。
+  - 本任务不得发送飞书消息；失败在任务结果和本轮邮件摘要中汇报并保留现场。
   - get_news_list.py 必须带 --no-history，确保采集阶段不访问飞书历史。
 
 workflow:
+  - id: email_start
+    name: 建立本轮执行记录
+    actions:
+      - 业务开始前生成新的 UUID run_id 和带时区的 started_at，在 .task_reports/ 中建立本轮记录；该目录仅本机保存，不提交 GitHub。
+      - 记录本轮数据源异常和步骤结果；清理临时文件前保留来源状态的简明摘要。即使失败或提前停止，也须执行 email_summary 收尾。
+
   - id: collect
     name: 全数据源采集
     actions:
@@ -82,6 +88,16 @@ workflow:
       - 最多在 5 分钟内间隔检查；无部署记录、仍在构建或超时只汇报未确认或进行中，不宣称成功，不手动触发额外部署。
       - 部署 success 后检查 https://zixun-archive.onrender.com/api/health 正常响应；失败时单独汇报状态及可公开的日志链接。
       - 在原有采集结果后补充 GitHub 同步状态、提交 SHA、Render 部署状态；不发送任何飞书消息。
+
+  - id: email_summary
+    name: 发送本轮执行摘要到 QQ 邮箱
+    actions:
+      - 在采集、归档及原有 GitHub 同步、Render 核验结束后发送；成功、部分完成、失败、无候选跳过均执行。
+      - 生成 .task_reports/<run_id>.json；字段和命令遵循 README-email.md，填写本轮起止时间、执行摘要、实际数量、数据源异常、GitHub 提交和 Render 部署状态。采集任务的 feishu 填不适用。
+      - 不得使用旧的结果文件冒充本轮结果，未执行或未核验的步骤如实标注。
+      - 运行 .venv-web/bin/python task_email.py --report .task_reports/<run_id>.json；脚本从本机 .env 读取 SMTP 配置，未配置 SMTP_TO 时发给 SMTP_USER。
+      - 每轮仅一封最终摘要；同一 run_id 已发送会跳过。发送失败保留报告，仅在任务结果汇报 email 状态，不重新采集、不发飞书、不自动重发。
+      - 报告与邮件只含脱敏摘要，不写密钥、授权码、token、Authorization header 或完整 webhook，不把 .env、.task_reports/ 或邮箱凭据提交 GitHub。
 
 success_output:
   write_to: ai_news_collect_result.json

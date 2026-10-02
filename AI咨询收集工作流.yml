@@ -28,6 +28,12 @@ separation_of_responsibilities:
   - publish_ai_news.py 是唯一允许写飞书知识库和推送群聊的脚本。
 
 workflow:
+  - id: email_start
+    name: 建立本轮执行记录
+    actions:
+      - 业务开始前生成新的 UUID run_id 和带时区的 started_at，在 .task_reports/ 中建立本轮记录；该目录仅本机保存，不提交 GitHub。
+      - 记录本轮归档、历史读取及正文核验异常；清理临时文件前保留来源状态的简明摘要。无候选停止、任何步骤失败或提前停止时，也须执行 email_summary 收尾。
+
   - id: prepare
     name: 读取今昨归档与飞书历史
     actions:
@@ -107,6 +113,16 @@ workflow:
       - 有待提交变更时创建提交，说明为 Sync AI news repository YYYY-MM-DD（日期按 Asia/Shanghai）；无变更则跳过提交。
       - 执行 git push origin main，包含此前尚未推送的提交；不得强制推送、重置、自动覆盖或丢弃本地改动。
       - 若认证失败、远端存在分叉或推送失败，保留本地提交及工作区并单独汇报 GitHub 同步错误；不得重新发布飞书或重复发送资讯告警。同步成功时单独汇报 GitHub 同步状态、分支和提交号。
+
+  - id: email_summary
+    name: 发送本轮执行摘要到 QQ 邮箱
+    actions:
+      - 在飞书发布及原有 GitHub 同步结束后发送；成功、部分完成、失败、无候选跳过均执行。原有发布、清理及同步顺序保持不变。
+      - 生成 .task_reports/<run_id>.json；字段和命令遵循 README-email.md，填写本轮起止时间、执行摘要、实际发布数量、飞书文档链接、异常及 GitHub 状态；未核验 Render 时明确填未核验。
+      - 不得使用旧的结果文件冒充本轮结果，未执行的步骤如实标注。
+      - 运行 .venv-web/bin/python task_email.py --report .task_reports/<run_id>.json；脚本从本机 .env 读取 SMTP 配置，未配置 SMTP_TO 时发给 SMTP_USER。
+      - 每轮仅一封最终摘要；同一 run_id 已发送会跳过。发送失败保留报告，仅在任务结果汇报 email 状态，不重新发布或推送、不重复飞书告警、不自动重发。
+      - 报告与邮件只含脱敏摘要，不写密钥、授权码、token、Authorization header 或完整 webhook，不把 .env、.task_reports/ 或邮箱凭据提交 GitHub。
 
 success_output:
   write_to: ai_news_run_result.json

@@ -64,6 +64,8 @@ test -f .env || cp .env.example .env
 
 ## 验证
 
+本机采集和飞书发布任务的 QQ 邮件执行摘要配置见 [README-email.md](README-email.md)。邮件配置不进入公开网站。
+
 ```sh
 .venv-web/bin/pip install -r requirements-web-test.txt
 .venv-web/bin/python -m pytest tests/test_news_web.py

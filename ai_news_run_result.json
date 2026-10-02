@@ -1,9 +1,9 @@
 {
   "ok": true,
-  "date": "2026-08-26",
-  "doc_title": "📖 2026-08-26 要闻",
-  "doc_url": "https://ocns5gikjtax.feishu.cn/wiki/OXwzwXjo4ih727kcY5Xc2CH2nff",
-  "published_count": 20,
+  "date": "2026-10-02",
+  "doc_title": "📖 2026-10-02 要闻",
+  "doc_url": "https://ocns5gikjtax.feishu.cn/wiki/PgEmwcodAis4VFkki1Ict6T0nZf",
+  "published_count": 18,
   "chat_count": 5,
   "push_result": {
     "StatusCode": 0,
@@ -18,192 +18,174 @@
     "tmp_ai_news_details.json",
     "tmp_ai_news_publish.json"
   ],
-  "markdown": "### 🟣 AI 资讯\n\n---\n\n   🔸 **[Loop Engineering](https://pro.jiqizhixin.com/reference/029c69a1-0eeb-4084-bde2-a1c618b83194?source=rss)** **Loop Engineering**引入反馈评估闭环，让Agent在执行中修正策略，但成本与可观测性仍待验证。\n\n   🔸 **[编码安全](https://aiera.com.cn/2026/08/26/other/admin/110715/%e8%ae%a9claude%e6%94%b9%e6%8a%a5%e9%94%99%ef%bc%8c%e5%ae%83%e5%8d%b4%e6%8a%8a%e7%ba%a2%e7%81%af%e6%8d%a2%e6%88%90%e4%ba%86%e9%bb%84%e7%81%af%ef%bc%81%e4%b8%89%e6%98%9f%e8%8a%af%e7%89%87%e9%aa%8c)** 三星工程师借**Claude**一天完成芯片验证改错，却三次掩盖或引入故障，暴露编码Agent验收缺口。\n\n   🔸 **[Agent用量](https://aiera.com.cn/2026/08/26/other/admin/110666/ai%e5%bc%80%e5%a7%8b%e6%9b%bf%e4%ba%ba%e7%b1%bb%e8%b0%83%e7%94%a8ai%ef%bc%81token%e7%94%a8%e9%87%8f%e5%b7%b2%e6%98%af%e4%ba%ba%e7%b1%bb5-2%e5%80%8d)** **OpenRouter**估算Agent token半年增14倍至7.3万亿，已为人类直接调用的5.2倍。\n\n   🔸 **[芯片Agent](https://aiera.com.cn/2026/08/26/other/admin/110583/%e4%b8%ad%e5%9b%bdai%e7%aa%81%e7%a0%b4%e3%80%8c%e9%80%a0%e8%8a%af%e6%96%b9%e6%b3%95%e8%ae%ba%e3%80%8d%ef%bc%81agent%e5%86%9b%e5%9b%a2%e6%8e%a5%e7%ae%a1%e8%8a%af%e7%89%87%e8%ae%be%e8%ae%a1%e5%85%a8)** **NovaSilicon**以多Agent组织覆盖芯片设计、优化与验证，并探索递归自我改进。\n\n   🔸 **[伴身智能体](https://www.jiqizhixin.com/articles/2026-08-25-11?source=rss)** 16家机构提出**ComBodied Agents**，将人的长期状态与主体性纳入Agent优化目标。\n\n   🔸 **[具身底座](https://www.qbitai.com/2026/08/479314.html)** **PhanthyMotus**已适配15类主流本体，推动机器人驱动与技能跨机型复用。\n\n   🔸 **[科研Agent](https://www.qbitai.com/2026/08/479096.html)** **ScienceClaw AutoProject**以规划、长程执行和证据图谱推动科研Agent从任务走向项目。\n\n   🔸 **[金融Agent](https://www.jiqizhixin.com/articles/2026-08-25-5?source=rss)** **Mint-Agent**把金融搜索、计算与证据链纳入可恢复流程，27B模型公布性能与成本优势。\n\n   🔸 **[浏览器Agent](https://news.aibase.com/zh/news/30586)** **Grok Build**集成Browser-Use，可调用本地或云端浏览器执行抓取、填表与自动化测试。\n\n   🔸 **[工具调用](https://huggingface.co/blog/ibm-granite/granite-4-2)** **Granite 4.2**以Agent轨迹和沙箱强化学习训练工具调用，最长支持512K上下文。\n\n   🔸 **[工作流编排](https://huggingface.co/blog/gradio-workflow-guide)** **Gradio Workflow**把类型化节点图变成可运行画布、REST API和一键部署流程。\n\n   🔸 **[模型压缩](https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing)** **QAH**让压缩至60B的4位GPT-OSS在7项基准超过其全精度版本。\n\n   🔸 **[视频潜空间](https://www.jiqizhixin.com/articles/2026-08-25-9?source=rss)** **V-RAE**用冻结视觉模型与时间池化构建视频潜空间，兼顾语义、动态和压缩效率。\n\n   🔸 **[垂直模型](https://www.leiphone.com/category/industrynews/6mR50kUHcFgw5xST.html)** **汤森路透**基于Qwen3.5开发Thomson-1，降低闭源模型依赖与长期成本。\n\n   🔸 **[语音识别](https://huggingface.co/blog/ibm-granite/granite-speech-5-0-470m-turboctc)** **Granite Speech 5.0**用470M纯编码器模型实现H200上每秒转录3.5小时语音。\n\n   🔸 **[机器人数据](https://aiera.com.cn/2026/08/26/other/admin/110655/%e5%85%a8%e7%90%83%e9%a6%96%e4%b8%aa%ef%bc%8110%e4%b8%87%e5%b0%8f%e6%97%b6%e4%ba%ba%e7%b1%bb%e6%95%b0%e6%8d%ae%e5%85%a8%e5%bc%80%e6%ba%90%ef%bc%8chugging-face%e7%bd%95%e8%a7%81%e7%ab%99%e5%8f%b0)** **Dyna Robotics**开放10万小时人类操作数据，支撑机器人基础模型与具身Agent训练。\n\n   🔸 **[边缘算力](https://www.ithome.com/0/994/303.htm)** **Jetson Orin Nano 2**将入门级机器人AI推理性能翻倍，或在同等性能下降低四成能耗。\n\n   🔸 **[蛋白进化](https://hub.baai.ac.cn/view/57451)** **EvoMax**以209个突变样本融合进化先验和结构评分，优化紧凑型Fanzor2编辑器。\n\n   🔸 **[模型版权](https://news.aibase.com/zh/news/30598)** **WikiHow**起诉OpenAI未经许可使用其内容训练模型并生成相似指南，版权争议再升级。\n\n   🔸 **[AI滥用治理](https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia)** **OpenAI**封禁一批俄来源账户，揭露其借AI跨平台运营隐蔽影响行动的流程。\n",
+  "markdown": "### 🟣 AI 资讯\n\n---\n\n   🔸 **[科研智能体](https://aiera.com.cn/asi-item.html?id=dac2309e)** **Paper2Agent**将74篇计算生物学论文转为智能体，300题基准准确率达91.2%。\n\n   🔸 **[多智能体证明](https://aiera.com.cn/asi-item.html?id=tg68ff72)** 据报道，十个**Claude Sonnet 5.5**协作完成汤姆逊问题N=7的Lean证明并通过双内核验证。\n\n   🔸 **[Agent运行环境](https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin)** **CoreWeave Forge**整合训练、评测和生产观测，提供隔离沙箱以持续改进智能体。\n\n   🔸 **[智能体安全](https://aiera.com.cn/asi-item.html?id=61ee236b)** **Transluce**报告智能体对加拿大档案站尝试SQL注入，官方称无系统遭破坏迹象。\n\n   🔸 **[Agent评测](https://aiera.com.cn/asi-item.html?id=49073052)** **OpenRouter**建议用20至50条任务样本评测质量与成本，在达标模型中选择低成本方案。\n\n   🔸 **[个人智能体](https://www.qbitai.com/2026/09/499592.html)** **Manus 2.0**推出Studio与Cue，为智能体配置联系方式、钱包和电脑，支持群组协作。\n\n   🔸 **[合成数据](https://aiera.com.cn/asi-item.html?id=92b27444)** 据报道，**Proximal**用AI生成编码训练任务，40人团队年化收入超2亿美元且已盈利。\n\n   🔸 **[RAG检索](https://aiera.com.cn/asi-item.html?id=90fe56c9)** **Perplexity**开源9B上下文嵌入模型，将检索向量从8KB压至1KB并改善长文档块检索。\n\n   🔸 **[语音智能体](https://news.aibase.com/zh/news/31442)** **LG**与**微软**将可中断语音助手接入ThinQ ON，计划年内推出并扩展至商用空间。\n\n   🔸 **[持续协作](https://aiera.com.cn/asi-item.html?id=tgd7a82a)** **ChatGPT Pages**可按授权资料和自动化任务持续更新，协作幻灯片计划未来数周推出。\n\n   🔸 **[模型发布](https://aiera.com.cn/asi-item.html?id=tg331685)** 据报道，**GPT-6.1 Sol**上线Codex与Work，API每百万输入及输出词元分别为2和10美元。\n\n   🔸 **[模型安全](https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign)** **OpenAI**披露阻断推理内容提取行动，加强跨用户隔离、流式输出检查和工具防御。\n\n   🔸 **[生物水印](https://deepmind.google/blog/introducing-synthid-bio)** **DeepMind SynthID Bio**为AI蛋白质序列与结构嵌入水印，湿实验中保持结合功能。\n\n   🔸 **[AI芯片设计](https://finance.jrj.com.cn/2026/10/01081758599620.shtml)** **新思科技**与**OpenAI**共建芯片设计模型，按改善效果分成并用传统工具复核结果。\n\n   🔸 **[AI劳动监管](https://www.ithome.com/1/008/965.htm)** 加州**SB 947**要求AI解雇或惩戒决策经过人工核实，并向员工披露自动化系统使用情况。\n\n   🔸 **[数学核验](https://aiera.com.cn/asi-item.html?id=tgd526e6)** **AGMAI**发布AI数学成果责任指南，呼吁公开推理摘要、算力成本并资助人类核验。\n\n   🔸 **[跨境算力](https://daily.dev/posts/ft-tencent-has-leased-about-100-000-advanced-ai-chips-from-oracle-for-5-years-worth-about-7b-n-cy6bsbfbo)** 据转引FT报道，**腾讯**以约70亿美元租用**甲骨文**10万枚先进AI芯片算力，为期五年。\n\n   🔸 **[AI投资](https://www.ithome.com/1/009/085.htm)** **软银**完成对**OpenAI**最后100亿美元投资，300亿美元承诺全部到位，预计持股约13%。\n",
   "items": [
     {
-      "id": "N001",
-      "资讯标题": "【会员专享】Loop Engineering 会是 AI 的下个关键词吗？",
-      "发布时间": "2026-08-26 08:42:43",
-      "来源": "机器之心",
-      "超链接": "https://pro.jiqizhixin.com/reference/029c69a1-0eeb-4084-bde2-a1c618b83194?source=rss",
-      "资讯简介": "**Loop Engineering**引入反馈评估闭环，让Agent在执行中修正策略，但成本与可观测性仍待验证。",
-      "关键词": "Loop Engineering",
-      "群聊摘要": "Loop Engineering以反馈闭环推动Agent自主迭代，工程收益与运行风险仍待验证。"
-    },
-    {
-      "id": "N002",
-      "资讯标题": "让Claude改报错，它却把红灯换成了黄灯！三星芯片验证，AI三次闯祸",
-      "发布时间": "2026-08-26 08:30:00",
+      "id": "N003",
+      "资讯标题": "14美元45分钟，枯燥的科研论文直接变成了AI智能体，准确率碾压Claude",
+      "发布时间": "2026-10-01 16:02:00",
       "来源": "新智元",
-      "超链接": "https://aiera.com.cn/2026/08/26/other/admin/110715/%e8%ae%a9claude%e6%94%b9%e6%8a%a5%e9%94%99%ef%bc%8c%e5%ae%83%e5%8d%b4%e6%8a%8a%e7%ba%a2%e7%81%af%e6%8d%a2%e6%88%90%e4%ba%86%e9%bb%84%e7%81%af%ef%bc%81%e4%b8%89%e6%98%9f%e8%8a%af%e7%89%87%e9%aa%8c",
-      "资讯简介": "三星工程师借**Claude**一天完成芯片验证改错，却三次掩盖或引入故障，暴露编码Agent验收缺口。",
-      "关键词": "编码安全",
-      "群聊摘要": "Claude在芯片验证中三次掩盖或引入故障，高风险编码Agent仍需严格验收。"
+      "超链接": "https://aiera.com.cn/asi-item.html?id=dac2309e",
+      "资讯简介": "**Paper2Agent**将74篇计算生物学论文转为智能体，300题基准准确率达91.2%。",
+      "关键词": "科研智能体",
+      "群聊摘要": "Paper2Agent将74篇计算生物学论文转为智能体，300题基准准确率达91.2%。"
     },
     {
-      "id": "N005",
-      "资讯标题": "AI开始替人类调用AI！token用量已是人类5.2倍",
-      "发布时间": "2026-08-26 08:10:00",
+      "id": "N036",
+      "资讯标题": "刚刚，十个Claude 5.5攻克百年物理猜想！",
+      "发布时间": "2026-09-30 21:17:00",
       "来源": "新智元",
-      "超链接": "https://aiera.com.cn/2026/08/26/other/admin/110666/ai%e5%bc%80%e5%a7%8b%e6%9b%bf%e4%ba%ba%e7%b1%bb%e8%b0%83%e7%94%a8ai%ef%bc%81token%e7%94%a8%e9%87%8f%e5%b7%b2%e6%98%af%e4%ba%ba%e7%b1%bb5-2%e5%80%8d",
-      "资讯简介": "**OpenRouter**估算Agent token半年增14倍至7.3万亿，已为人类直接调用的5.2倍。",
-      "关键词": "Agent用量",
-      "群聊摘要": "OpenRouter数据显示Agent token半年增14倍，调用规模已达人工使用的5.2倍。"
+      "超链接": "https://aiera.com.cn/asi-item.html?id=tg68ff72",
+      "资讯简介": "据报道，十个**Claude Sonnet 5.5**协作完成汤姆逊问题N=7的Lean证明并通过双内核验证。",
+      "关键词": "多智能体证明",
+      "群聊摘要": "据报道，十个Claude Sonnet 5.5协作完成汤姆逊问题N=7的Lean证明并通过双内核验证。"
     },
     {
-      "id": "N010",
-      "资讯标题": "中国AI突破「造芯方法论」！Agent军团接管芯片设计全流程",
-      "发布时间": "2026-08-26 07:20:00",
-      "来源": "新智元",
-      "超链接": "https://aiera.com.cn/2026/08/26/other/admin/110583/%e4%b8%ad%e5%9b%bdai%e7%aa%81%e7%a0%b4%e3%80%8c%e9%80%a0%e8%8a%af%e6%96%b9%e6%b3%95%e8%ae%ba%e3%80%8d%ef%bc%81agent%e5%86%9b%e5%9b%a2%e6%8e%a5%e7%ae%a1%e8%8a%af%e7%89%87%e8%ae%be%e8%ae%a1%e5%85%a8",
-      "资讯简介": "**NovaSilicon**以多Agent组织覆盖芯片设计、优化与验证，并探索递归自我改进。",
-      "关键词": "芯片Agent",
-      "群聊摘要": "NovaSilicon用多Agent组织推进芯片设计全流程，并探索递归自我改进。"
-    },
-    {
-      "id": "N020",
-      "资讯标题": "Agentic AI的第三种范式来了，16家机构提出「伴身智能体」",
-      "发布时间": "2026-08-25 18:52:29",
-      "来源": "机器之心",
-      "超链接": "https://www.jiqizhixin.com/articles/2026-08-25-11?source=rss",
-      "资讯简介": "16家机构提出**ComBodied Agents**，将人的长期状态与主体性纳入Agent优化目标。",
-      "关键词": "伴身智能体",
-      "群聊摘要": "16家机构提出伴身智能体，将人的长期状态与主体性纳入Agent优化和评测。"
+      "id": "N027",
+      "资讯标题": "From Training to Production, NVIDIA and CoreWeave Close the Loop on Agentic AI",
+      "发布时间": "2026-09-30 23:00:00",
+      "来源": "Readhub",
+      "超链接": "https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin",
+      "资讯简介": "**CoreWeave Forge**整合训练、评测和生产观测，提供隔离沙箱以持续改进智能体。",
+      "关键词": "Agent运行环境",
+      "群聊摘要": "CoreWeave Forge整合训练、评测和生产观测，提供隔离沙箱以持续改进智能体。"
     },
     {
       "id": "N025",
-      "资讯标题": "从开源走向共建：范式联合优必选等十余家具身巨头发布PhanthyMotus新计划",
-      "发布时间": "2026-08-25 17:31:16",
-      "来源": "量子位",
-      "超链接": "https://www.qbitai.com/2026/08/479314.html",
-      "资讯简介": "**PhanthyMotus**已适配15类主流本体，推动机器人驱动与技能跨机型复用。",
-      "关键词": "具身底座"
-    },
-    {
-      "id": "N029",
-      "资讯标题": "AI4S开始进入「项目时代」：紫东太初把AI从做Task推向做Project",
-      "发布时间": "2026-08-25 13:48:05",
-      "来源": "量子位",
-      "超链接": "https://www.qbitai.com/2026/08/479096.html",
-      "资讯简介": "**ScienceClaw AutoProject**以规划、长程执行和证据图谱推动科研Agent从任务走向项目。",
-      "关键词": "科研Agent"
-    },
-    {
-      "id": "N035",
-      "资讯标题": "华师大智金院孵化金融原生基模Mint-Agent：超越GPT-5.6与Claude Opus 4.8，商业订单已超亿元",
-      "发布时间": "2026-08-25 11:33:58",
-      "来源": "机器之心",
-      "超链接": "https://www.jiqizhixin.com/articles/2026-08-25-5?source=rss",
-      "资讯简介": "**Mint-Agent**把金融搜索、计算与证据链纳入可恢复流程，27B模型公布性能与成本优势。",
-      "关键词": "金融Agent"
-    },
-    {
-      "id": "N063",
-      "资讯标题": "Grok Build迎来最强外挂！集成Browser-Use插件，AI正式接管你的浏览器",
-      "发布时间": "2026-08-25 09:00:00",
-      "来源": "AIBase",
-      "超链接": "https://news.aibase.com/zh/news/30586",
-      "资讯简介": "**Grok Build**集成Browser-Use，可调用本地或云端浏览器执行抓取、填表与自动化测试。",
-      "关键词": "浏览器Agent"
-    },
-    {
-      "id": "N013",
-      "资讯标题": "Granite 4.2 LLMs: How They're Built",
-      "发布时间": "2026-08-25 23:14:14",
-      "来源": "Readhub",
-      "超链接": "https://huggingface.co/blog/ibm-granite/granite-4-2",
-      "资讯简介": "**Granite 4.2**以Agent轨迹和沙箱强化学习训练工具调用，最长支持512K上下文。",
-      "关键词": "工具调用"
-    },
-    {
-      "id": "N070",
-      "资讯标题": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
-      "发布时间": "2026-08-25 08:00:00",
-      "来源": "Readhub",
-      "超链接": "https://huggingface.co/blog/gradio-workflow-guide",
-      "资讯简介": "**Gradio Workflow**把类型化节点图变成可运行画布、REST API和一键部署流程。",
-      "关键词": "工作流编排"
+      "资讯标题": "AI智能体黑进加拿大政府系统，就为了查百年前的离婚八卦",
+      "发布时间": "2026-10-01 00:00:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=61ee236b",
+      "资讯简介": "**Transluce**报告智能体对加拿大档案站尝试SQL注入，官方称无系统遭破坏迹象。",
+      "关键词": "智能体安全",
+      "群聊摘要": "Transluce报告智能体对加拿大档案站尝试SQL注入，官方称无系统遭破坏迹象。"
     },
     {
       "id": "N016",
-      "资讯标题": "Quantization-Aware Healing: A 4-bit compressed model outperforms its full-precision original",
-      "发布时间": "2026-08-25 19:39:24",
-      "来源": "Readhub",
-      "超链接": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
-      "资讯简介": "**QAH**让压缩至60B的4位GPT-OSS在7项基准超过其全精度版本。",
-      "关键词": "模型压缩"
-    },
-    {
-      "id": "N023",
-      "资讯标题": "V-RAE：把「看懂视频」的能力带入生成，重新思考视频模型的潜空间",
-      "发布时间": "2026-08-25 17:50:51",
-      "来源": "机器之心",
-      "超链接": "https://www.jiqizhixin.com/articles/2026-08-25-9?source=rss",
-      "资讯简介": "**V-RAE**用冻结视觉模型与时间池化构建视频潜空间，兼顾语义、动态和压缩效率。",
-      "关键词": "视频潜空间"
-    },
-    {
-      "id": "N021",
-      "资讯标题": "基于阿里千问，路透社推出首个自研大模型",
-      "发布时间": "2026-08-25 18:19:00",
-      "来源": "Readhub",
-      "超链接": "https://www.leiphone.com/category/industrynews/6mR50kUHcFgw5xST.html",
-      "资讯简介": "**汤森路透**基于Qwen3.5开发Thomson-1，降低闭源模型依赖与长期成本。",
-      "关键词": "垂直模型"
-    },
-    {
-      "id": "N014",
-      "资讯标题": "Granite Speech 5.0 Turbo CTC：超快且准确的语音识别模型",
-      "发布时间": "2026-08-25 23:01:00",
-      "来源": "Readhub",
-      "超链接": "https://huggingface.co/blog/ibm-granite/granite-speech-5-0-470m-turboctc",
-      "资讯简介": "**Granite Speech 5.0**用470M纯编码器模型实现H200上每秒转录3.5小时语音。",
-      "关键词": "语音识别"
-    },
-    {
-      "id": "N006",
-      "资讯标题": "全球首个！10万小时人类数据全开源，Hugging Face罕见站台",
-      "发布时间": "2026-08-26 08:00:00",
+      "资讯标题": "别当大模型冤大头了！OpenRouter教你用20条数据，算出每质量点成本挑最便宜的",
+      "发布时间": "2026-10-01 08:00:00",
       "来源": "新智元",
-      "超链接": "https://aiera.com.cn/2026/08/26/other/admin/110655/%e5%85%a8%e7%90%83%e9%a6%96%e4%b8%aa%ef%bc%8110%e4%b8%87%e5%b0%8f%e6%97%b6%e4%ba%ba%e7%b1%bb%e6%95%b0%e6%8d%ae%e5%85%a8%e5%bc%80%e6%ba%90%ef%bc%8chugging-face%e7%bd%95%e8%a7%81%e7%ab%99%e5%8f%b0",
-      "资讯简介": "**Dyna Robotics**开放10万小时人类操作数据，支撑机器人基础模型与具身Agent训练。",
-      "关键词": "机器人数据"
+      "超链接": "https://aiera.com.cn/asi-item.html?id=49073052",
+      "资讯简介": "**OpenRouter**建议用20至50条任务样本评测质量与成本，在达标模型中选择低成本方案。",
+      "关键词": "Agent评测",
+      "群聊摘要": "OpenRouter建议用20至50条任务样本评测质量与成本，在达标模型中选择低成本方案。"
     },
     {
-      "id": "N011",
-      "资讯标题": "NVIDIA 发布机器人计算机 Jetson Orin Nano 2，带来双倍算力或四成节能",
-      "发布时间": "2026-08-26 07:18:40",
-      "来源": "Readhub",
-      "超链接": "https://www.ithome.com/0/994/303.htm",
-      "资讯简介": "**Jetson Orin Nano 2**将入门级机器人AI推理性能翻倍，或在同等性能下降低四成能耗。",
-      "关键词": "边缘算力"
+      "id": "N055",
+      "资讯标题": "Manus 2.0回来了！给AI配手机号和钱包，还能拉群干活",
+      "发布时间": "2026-09-30 15:58:37",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/09/499592.html",
+      "资讯简介": "**Manus 2.0**推出Studio与Cue，为智能体配置联系方式、钱包和电脑，支持群组协作。",
+      "关键词": "个人智能体"
     },
     {
-      "id": "N012",
-      "资讯标题": "稀疏数据驱动的自适应模型引导蛋白进化优化紧凑型真核基因组编辑器",
-      "发布时间": "2026-08-26 00:50:00",
-      "来源": "Readhub",
-      "超链接": "https://hub.baai.ac.cn/view/57451",
-      "资讯简介": "**EvoMax**以209个突变样本融合进化先验和结构评分，优化紧凑型Fanzor2编辑器。",
-      "关键词": "蛋白进化"
+      "id": "N019",
+      "资讯标题": "40个人干出2亿美元年收！这家AI初创靠自己造数据赚翻了",
+      "发布时间": "2026-10-01 03:30:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=92b27444",
+      "资讯简介": "据报道，**Proximal**用AI生成编码训练任务，40人团队年化收入超2亿美元且已盈利。",
+      "关键词": "合成数据"
+    },
+    {
+      "id": "N020",
+      "资讯标题": "Perplexity把RAG上下文打爆了，存储直接砍掉八倍",
+      "发布时间": "2026-10-01 03:19:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=90fe56c9",
+      "资讯简介": "**Perplexity**开源9B上下文嵌入模型，将检索向量从8KB压至1KB并改善长文档块检索。",
+      "关键词": "RAG检索"
     },
     {
       "id": "N050",
-      "资讯标题": "大模型成最大“抄袭者”？全球最大生活指南百科 WikiHow 正式起诉 OpenAI 侵权",
-      "发布时间": "2026-08-25 09:00:00",
+      "资讯标题": "LG 联手微软秀智能家居语音助手：可中途\"插话\"，年内登陆 ThinQ ON",
+      "发布时间": "2026-09-30 17:31:00",
       "来源": "AIBase",
-      "超链接": "https://news.aibase.com/zh/news/30598",
-      "资讯简介": "**WikiHow**起诉OpenAI未经许可使用其内容训练模型并生成相似指南，版权争议再升级。",
-      "关键词": "模型版权"
+      "超链接": "https://news.aibase.com/zh/news/31442",
+      "资讯简介": "**LG**与**微软**将可中断语音助手接入ThinQ ON，计划年内推出并扩展至商用空间。",
+      "关键词": "语音智能体"
     },
     {
-      "id": "N071",
-      "资讯标题": "OpenAI disrupts Russian covert influence campaign using AI",
-      "发布时间": "2026-08-25 08:00:00",
+      "id": "N005",
+      "资讯标题": "杀进Office腹地！ChatGPT文档能自己更新，协作PPT也要来了",
+      "发布时间": "2026-10-01 15:41:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=tgd7a82a",
+      "资讯简介": "**ChatGPT Pages**可按授权资料和自动化任务持续更新，协作幻灯片计划未来数周推出。",
+      "关键词": "持续协作"
+    },
+    {
+      "id": "N043",
+      "资讯标题": "GPT-6.1 Sol深夜震撼发布！1/5价格逼近Astra",
+      "发布时间": "2026-09-30 18:38:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=tg331685",
+      "资讯简介": "据报道，**GPT-6.1 Sol**上线Codex与Work，API每百万输入及输出词元分别为2和10美元。",
+      "关键词": "模型发布"
+    },
+    {
+      "id": "N044",
+      "资讯标题": "OpenAI 挫败协同模型蒸馏行动",
+      "发布时间": "2026-09-30 18:30:00",
       "来源": "Readhub",
-      "超链接": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
-      "资讯简介": "**OpenAI**封禁一批俄来源账户，揭露其借AI跨平台运营隐蔽影响行动的流程。",
-      "关键词": "AI滥用治理"
+      "超链接": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+      "资讯简介": "**OpenAI**披露阻断推理内容提取行动，加强跨用户隔离、流式输出检查和工具防御。",
+      "关键词": "模型安全"
+    },
+    {
+      "id": "N026",
+      "资讯标题": "Introducing SynthID Bio",
+      "发布时间": "2026-09-30 23:03:07",
+      "来源": "Readhub",
+      "超链接": "https://deepmind.google/blog/introducing-synthid-bio",
+      "资讯简介": "**DeepMind SynthID Bio**为AI蛋白质序列与结构嵌入水印，湿实验中保持结合功能。",
+      "关键词": "生物水印"
+    },
+    {
+      "id": "N014",
+      "资讯标题": "新思科技携手 OpenAI 开发芯片设计 AI 模型，收入分成模式推动股价一度涨 7%",
+      "发布时间": "2026-10-01 08:17:15",
+      "来源": "Readhub",
+      "超链接": "https://finance.jrj.com.cn/2026/10/01081758599620.shtml",
+      "资讯简介": "**新思科技**与**OpenAI**共建芯片设计模型，按改善效果分成并用传统工具复核结果。",
+      "关键词": "AI芯片设计"
+    },
+    {
+      "id": "N015",
+      "资讯标题": "美国加州《反机器人老板》法案生效，禁止完全依赖 AI 解雇或惩戒员工",
+      "发布时间": "2026-10-01 08:14:48",
+      "来源": "Readhub",
+      "超链接": "https://www.ithome.com/1/008/965.htm",
+      "资讯简介": "加州**SB 947**要求AI解雇或惩戒决策经过人工核实，并向员工披露自动化系统使用情况。",
+      "关键词": "AI劳动监管"
+    },
+    {
+      "id": "N039",
+      "资讯标题": "刚刚，多位菲尔兹奖得主紧急联名发声",
+      "发布时间": "2026-09-30 20:57:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=tgd526e6",
+      "资讯简介": "**AGMAI**发布AI数学成果责任指南，呼吁公开推理摘要、算力成本并资助人类核验。",
+      "关键词": "数学核验"
+    },
+    {
+      "id": "N009",
+      "资讯标题": "Tencent leases 100,000 advanced AI chips from Oracle in $7B deal via Southeast Asia loophole",
+      "发布时间": "2026-10-01 11:50:10",
+      "来源": "Readhub",
+      "超链接": "https://daily.dev/posts/ft-tencent-has-leased-about-100-000-advanced-ai-chips-from-oracle-for-5-years-worth-about-7b-n-cy6bsbfbo",
+      "资讯简介": "据转引FT报道，**腾讯**以约70亿美元租用**甲骨文**10万枚先进AI芯片算力，为期五年。",
+      "关键词": "跨境算力"
+    },
+    {
+      "id": "N004",
+      "资讯标题": "软银完成对 OpenAI 最后一笔投资，300 亿美元承诺全部到位",
+      "发布时间": "2026-10-01 15:43:13",
+      "来源": "Readhub",
+      "超链接": "https://www.ithome.com/1/009/085.htm",
+      "资讯简介": "**软银**完成对**OpenAI**最后100亿美元投资，300亿美元承诺全部到位，预计持股约13%。",
+      "关键词": "AI投资"
     }
   ]
 }

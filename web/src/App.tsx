@@ -4,7 +4,7 @@ import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import Atmosphere from './Atmosphere'
 import SiteLink, { websiteDetails } from './SiteLink'
-import { chatStream, exportMarkdown, getJSON, sortedArticles, type Article, type Message } from './api'
+import { articleKey, chatStream, exportMarkdown, getJSON, sortedArticles, type Article, type Message } from './api'
 
 function Markdown({ message }: { message: Message }) {
   return <ReactMarkdown
@@ -43,7 +43,7 @@ function NewsResults({ items }: { items?: Article[] }) {
       </button>}
     </div>
     <ul className="result-list" id={listId}>
-      {visibleArticles.map(article => <li key={`${article.url}|${article.content_kind === '技术报告总结' ? 'report' : 'news'}`}>
+      {visibleArticles.map(article => <li key={articleKey(article)}>
         <SiteLink href={article.url} title={article.title} className="result-link">{article.title}</SiteLink>
         <div className="result-meta">{[article.source, article.published_at?.slice(0, 10), websiteDetails(article.url)?.domain]
           .filter(Boolean).join(' · ')}</div>

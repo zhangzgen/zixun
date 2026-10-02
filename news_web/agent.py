@@ -48,7 +48,7 @@ content_kind=技术报告总结时，返回内容是已完成全文阅读后的 
 使用简洁、美观的中文 Markdown，按问题需要使用小标题、列表、比较表格。避免空话和大段堆砌。
 每条新闻或事实就近引用工具给出的 citation，格式严格为 [N1](news:N1)。只引用确实取得的 citation，不要自行生成原始 URL。
 原始标题、时间、来源保持准确。区分新闻事实和你的归纳，找不到时明确说明。避免说「全部」「完整」除非检索确实支持。
-日期筛选按发布时间，而归档日期仅代表采集日。统计工具的 record_count 含跨日重复，article_count 按 URL 去重。
+日期筛选按发布时间，而归档日期仅代表采集日。统计工具的 record_count 含跨日重复，article_count 对资讯按 URL、对技术报告按报告 ID 去重；同一发布页可对应多份独立报告。
 最多进行有限轮次检索；拿到足够证据就回答。最后一轮不再允许调用工具时，用已有证据完成答案。
 """
 
@@ -189,7 +189,8 @@ class ResearchAgent:
                         all_matches = result.pop("_matches", None)
                         if all_matches is not None:
                             for item in all_matches:
-                                key = (item["url"], item.get("content_kind") == "技术报告总结")
+                                is_report = item.get("content_kind") == "技术报告总结"
+                                key = (item["id"] if is_report else item["url"], is_report)
                                 previous = matches.get(key)
                                 if previous is None or (item["published_at"], item["archive_date"]) >= (previous["published_at"], previous["archive_date"]):
                                     matches[key] = item

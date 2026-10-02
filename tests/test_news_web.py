@@ -257,6 +257,39 @@ def test_stream_keeps_news_and_report_summary_at_same_url(indexed, tmp_path):
     assert len({item['url'] for item in matches}) == 1
 
 
+def test_distinct_reports_sharing_release_page_survive_search_stats_and_stream(indexed, tmp_path):
+    store, settings = indexed
+    reports = tmp_path / 'reports'
+    items = []
+    for uid, title in [('report-framework', '长期记忆安全框架'), ('report-roadmap', '长期记忆安全路线图')]:
+        item = news(uid, title, 'https://example.com/memory', '2026-09-29 00:00:00', source='Google 技术报告')
+        item.update(content='独立报告的金字塔总结', content_kind='技术报告总结')
+        items.append(item)
+    write_archive(reports, '2026-09-29', items)
+    store.report_archive_dir = reports
+    store.refresh(force=True)
+    assert {item['id'] for item in store.search('记忆', limit=None)['items']} == {'a3', 'report-framework', 'report-roadmap'}
+    assert store.stats()['article_count'] == 5  # Three news URLs and two report IDs.
+    assert next(s['count'] for s in store.stats()['sources'] if s['name'] == 'Google 技术报告') == 2
+    requests = []
+    queries = [{'query': '记忆', 'source': 'Google 技术报告'}, {'query': '记忆'}, {'query': '记忆', 'source': 'Google 技术报告'}]
+
+    def handler(request):
+        requests.append(request)
+        if len(requests) <= len(queries):
+            return httpx.Response(200, text=sse(complete([call('search_news', queries[len(requests) - 1], len(requests))])))
+        return httpx.Response(200, text=sse({'type': 'response.output_text.delta', 'delta': '已找到两份独立报告和一条资讯。'}, complete([])))
+
+    async def run():
+        async with httpx.AsyncClient(transport=httpx.MockTransport(handler)) as client:
+            return [event async for event in ResearchAgent(store, settings, client).run('查找安全报告', [], {})]
+
+    done = asyncio.run(run())[-1]
+    assert done['event'] == 'done'
+    assert {item['id'] for item in done['data']['results']} == {'a3', 'report-framework', 'report-roadmap'}
+    assert len(done['data']['results']) == 3
+
+
 @pytest.mark.parametrize("status,body", [(401, "secret provider body private-test-key"), (200, sse({"type": "response.output_text.delta", "delta": "partial"}))])
 def test_provider_errors_and_incomplete_stream_never_finish(indexed, status, body):
     store, settings = indexed

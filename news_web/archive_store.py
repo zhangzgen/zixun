@@ -13,6 +13,9 @@ from pathlib import Path
 from urllib.parse import urlsplit
 
 
+ARTICLE_KEY_SQL = "CASE WHEN content_kind = '技术报告总结' THEN 'report:' || id ELSE 'news:' || url END"
+
+
 def plain(value, limit=16000):
     return html.unescape(re.sub(r"<[^>]+>", " ", str(value or "")))[:limit].strip()
 
@@ -140,8 +143,8 @@ class ArchiveStore:
     def stats(self):
         with self.connect() as db:
             meta = dict(db.execute("SELECT COUNT(*) AS archive_days, MIN(archive_date) AS first_date, MAX(archive_date) AS last_date FROM files").fetchone())
-            meta.update(dict(db.execute("SELECT COUNT(*) AS record_count, COUNT(DISTINCT url) AS article_count FROM news").fetchone()))
-            meta["sources"] = [dict(row) for row in db.execute("SELECT source AS name, COUNT(DISTINCT url) AS count FROM news GROUP BY source ORDER BY count DESC")]
+            meta.update(dict(db.execute(f"SELECT COUNT(*) AS record_count, COUNT(DISTINCT {ARTICLE_KEY_SQL}) AS article_count FROM news").fetchone()))
+            meta["sources"] = [dict(row) for row in db.execute(f"SELECT source AS name, COUNT(DISTINCT {ARTICLE_KEY_SQL}) AS count FROM news GROUP BY source ORDER BY count DESC")]
             meta["timeline"] = [dict(row) for row in db.execute("SELECT archive_date AS date, COUNT(*) AS count FROM news GROUP BY archive_date ORDER BY archive_date")]
         meta["warnings"] = self.warnings
         return meta
@@ -171,9 +174,10 @@ class ArchiveStore:
             clauses.append("n.source = ?")
             params.append(source)
         where = " WHERE " + " AND ".join(clauses) if clauses else ""
-        # One canonical result per URL, keeping the latest archived version.
+        # Distinct reports can share a release page. Their stable IDs preserve
+        # both originals while ordinary news still uses its canonical URL.
         cte = f"""WITH ranked AS (
-            SELECT n.*, ROW_NUMBER() OVER (PARTITION BY url, (content_kind = '技术报告总结') ORDER BY archive_date DESC, published_at DESC, id DESC) AS duplicate
+            SELECT n.*, ROW_NUMBER() OVER (PARTITION BY {ARTICLE_KEY_SQL} ORDER BY archive_date DESC, published_at DESC, id DESC) AS duplicate
             FROM news n {where}
         ), unique_news AS (SELECT * FROM ranked WHERE duplicate = 1) """
         with self.connect() as db:

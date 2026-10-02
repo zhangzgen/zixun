@@ -16,14 +16,20 @@ export type Message = {
   error?: string
 }
 
+export function articleKey(item: Article) {
+  if (item.content_kind === '技术报告总结') return `report:${item.id}`
+  const url = new URL(item.url)
+  url.hash = ''
+  return `news:${url.href}`
+}
+
 export function sortedArticles(items: Article[]) {
   const unique = new Map<string, Article>()
   for (const item of items) {
     try {
       const url = new URL(item.url)
       if (!/^https?:$/.test(url.protocol)) continue
-      url.hash = ''
-      const key = `${url.href}|${item.content_kind === '技术报告总结' ? 'report' : 'news'}`
+      const key = articleKey(item)
       if (!unique.has(key)) unique.set(key, item)
     } catch { /* Ignore an invalid archive URL rather than rendering a broken link. */ }
   }

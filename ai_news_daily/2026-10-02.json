@@ -1,0 +1,380 @@
+{
+  "version": 1,
+  "date": "2026-10-02",
+  "timezone": "Asia/Shanghai",
+  "updated_at": "2026-10-02 09:07:02",
+  "item_count": 32,
+  "runs": [
+    {
+      "collected_at": "2026-10-02 09:07:02",
+      "input_count": 32,
+      "added_count": 32,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "完整审阅62条采集候选和新智元60条滚动列表、16个爆点事件；当日归档不存在。保留12条采集候选，浏览详情核验后补充20条新智元事件，不设TopK。剔除50条Tophub搜索链接；合并Gemini、拿破仑密信、微软语音与SynthID同事件报道；排除窗口外条目、抽奖促销、非AI及无详情链接和精确时间的爆点卡片。AIBase最新详情31445为9月30日；新华科技最新列表9月30日，均窗口外。机器之心频道有10月1日晚文章，但核验详情为登录壳，不纳入。浏览器采用可用的内置浏览器，未使用websearch。原样保留source_status。新智元发布时间分钟精度统一补00秒。",
+      "source_status": {
+        "量子位": "ok:2",
+        "新智元": "ok:0",
+        "AIBase": "ok:0",
+        "新华网科技": "ok:0",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
+    }
+  ],
+  "items": [
+    {
+      "资讯标题": "索尼 PlayStation 为标准版 PS5 游戏主机带来轻量级 AI 超分辨率技术 QSSR",
+      "发布时间": "2026-10-02 08:35:19",
+      "来源": "Readhub",
+      "超链接": "https://www.ithome.com/1/009/210.htm",
+      "desc": "索尼 PlayStation 官方当地时间 1 日宣布为标准版 PS5 游戏主机推出基于人工智能的超分辨率 QSSR。QSSR 全称「Quick Spectral Super Resolution」，是 PSSR 的「快速」演进版本，也是 PlayStation 与 AMD 合作项目「Project Amethyst」的一部分。其采用精简的神经网络架构，通过精心调校以最大限度地发挥 PS5 的性能，在 PS5 上显著提升了图像细节和稳定性。",
+      "agent_reason": "AI超分辨率架构与标准PS5部署，属于核心视觉技术。",
+      "archive_id": "A20261002-ad4dfc9b8360",
+      "first_seen_at": "2026-10-02 09:07:02",
+      "last_seen_at": "2026-10-02 09:07:02"
+    },
+    {
+      "资讯标题": "加州检察长向 OpenAI 发出传票，调查 AI 网络安全风险",
+      "发布时间": "2026-10-02 08:06:15",
+      "来源": "Readhub",
+      "超链接": "https://www.ithome.com/1/009/204.htm",
+      "desc": "加利福尼亚州总检察长罗布・邦塔办公室宣布，邦塔本人已向 OpenAI 发出调查传票，要求其就 AI 模型涉及的网络安全事件和风险提供更多信息。今年早些时候，OpenAI 开发的 AI 智能体入侵开源平台 Hugging Face，取得了后者部分基础设施的访问权限，也暴露出能力越来越强的 AI 系统可能带来的网络安全风险。邦塔在声明中说：「我的办公室正在就 OpenAI 及其 AI 模型涉及的网络安全事件和风险，向 OpenAI 进一步了解情况」。",
+      "agent_reason": "AI智能体网络安全调查与监管事件。",
+      "archive_id": "A20261002-d3c001d49e28",
+      "first_seen_at": "2026-10-02 09:07:02",
+      "last_seen_at": "2026-10-02 09:07:02"
+    },
+    {
+      "资讯标题": "以太坊基金会推出 zkAPI，支持实现匿名 AI API 支付",
+      "发布时间": "2026-10-02 07:46:12",
+      "来源": "Readhub",
+      "超链接": "https://www.theblockbeats.info/flash/369976",
+      "desc": "以太坊基金会宣布与开放匿名项目（Open Anonymity Project）联合开发 zkAPI，并已在以太坊主网上运行。zkAPI 通过零知识证明将支付与身份分离，用户只需一次性将 ETH、USDC 等资产存入以太坊上的金库合约，随后即可在不暴露身份的情况下授权 AI API 使用额度。以太坊基金会表示，zkAPI 首先面向 AI 推理场景，因为用户提交给 AI 模型的提示词可能涉及健康、财务等敏感信息，但该机制也可用于区块链 RPC、图像和视频生成等按量计费场景。",
+      "agent_reason": "零知识证明支持AI推理API匿名支付，具有技术和隐私价值。",
+      "archive_id": "A20261002-d06f1275a473",
+      "first_seen_at": "2026-10-02 09:07:02",
+      "last_seen_at": "2026-10-02 09:07:02"
+    },
+    {
+      "资讯标题": "How NVIDIA GPUs Help Accelerate OpenAI's GPT-6 Astra Ultrafast",
+      "发布时间": "2026-10-02 07:44:13",
+      "来源": "Readhub",
+      "超链接": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast",
+      "desc": "GPT-6 Astra Ultrafast, running on NVIDIA Blackwell GPUs, is available now in the OpenAI API and to eligible ChatGPT Work and Codex users. Accelerated by inference optimizations through OpenAI's models that tap into the capabilities of the NVIDIA Blackwell architecture, Ultrafast offers up to 8x faster token generation than the Astra Standard mode. OpenAI is using its own models to help refine the inference software running on NVIDIA GPUs, taking advantage of the platform's programmability to test and implement improvements.",
+      "agent_reason": "GPU推理优化与模型生成加速，属于算力核心技术。",
+      "archive_id": "A20261002-72966dd5c0f3",
+      "first_seen_at": "2026-10-02 09:07:02",
+      "last_seen_at": "2026-10-02 09:07:02"
+    },
+    {
+      "资讯标题": "OpenAI 上线「虚拟试穿」功能：ChatGPT 能帮你试衣，还能找「明星同款」",
+      "发布时间": "2026-10-02 07:18:01",
+      "来源": "Readhub",
+      "超链接": "https://www.ithome.com/1/009/197.htm",
+      "desc": "公司宣布在全球推出两项新功能，一项是让用户虚拟试穿服装和配饰，另一项是新增收藏功能，方便用户先把看中的商品存起来，之后再查看。新功能基于不久前推出的 ChatGPT Images 2.5 模型。ChatGPT 用户可以上传自拍照或全身照，查看某件服装或配饰穿在自己身上的效果，ChatGPT 的购物结果页面会新增一个「试穿」按钮。",
+      "agent_reason": "图像生成模型用于购物虚拟试穿的新产品能力。",
+      "archive_id": "A20261002-00edaadbc6d7",
+      "first_seen_at": "2026-10-02 09:07:02",
+      "last_seen_at": "2026-10-02 09:07:02"
+    },
+    {
+      "资讯标题": "微软发布首个实时流式语音转写模型 MAI-Transcribe-2-Streaming：2.5% 词错误率、0.13 秒延迟",
+      "发布时间": "2026-10-02 07:04:38",
+      "来源": "Readhub",
+      "超链接": "https://www.ithome.com/1/009/183.htm",
+      "desc": "微软昨日（10 月 1 日）发布公告，宣布推出其首个实时流式语音转写模型 MAI-Transcribe-2-Streaming，可在讲话进行时持续输出文字，覆盖 60 种语言，并支持自动语言检测。微软此前已推出非流式的 MAI-Transcribe-2，在 Azure Speech 公共预览阶段的价格为每小时 0.10 美元（现汇率约合 0.67 元人民币）。跑分方面，在 Artificial Analysis 于 9 月 28 日公布的流式语音转文字排行榜中，MAI-Transcribe-2-Streaming 的最终词错误率为 2.50%，低于 Grok Voice Transcribe 2.0 Streaming 的 2.73% 和 ElevenLabs Scribe v2 Realtime 的 3.59%。",
+      "agent_reason": "实时流式语音转写模型及准确率、延迟基准。",
+      "archive_id": "A20261002-7b3ec058842d",
+      "first_seen_at": "2026-10-02 09:07:02",
+      "last_seen_at": "2026-10-02 09:07:02"
+    },
+    {
+      "资讯标题": "发誓不做云服务商的马斯克怎么变卦了？单月狂揽11亿美元算力大单还要找微软租卡",
+      "发布时间": "2026-10-02 03:30:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=f8de80b6",
+      "desc": "发誓不做云服务商的马斯克，现在单月靠卖算力进账 11 亿美元。据 The Information 报道，xAI 已对外销售算力，并锁定了 12 月生效的巨额月度协议。",
+      "agent_reason": "xAI算力销售、GPU扩容与电力基础设施报道。 已浏览原始详情页，来源时间精度为分钟。",
+      "archive_id": "A20261002-74644378aef6",
+      "first_seen_at": "2026-10-02 09:07:02",
+      "last_seen_at": "2026-10-02 09:07:02"
+    },
+    {
+      "资讯标题": "「看不懂AI语言就拔插头」，前谷歌CEO施密特说现在只投长推理",
+      "发布时间": "2026-10-02 03:21:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=8fce9a90",
+      "desc": "如果现在只能投一个AI方向，前谷歌CEO Eric Schmidt的答案是长推理模型。大多数人还没看懂。",
+      "agent_reason": "头部科技人物长推理投资与智能体可监督性观点，作为观点归档。 已浏览原始详情页，来源时间精度为分钟。",
+      "archive_id": "A20261002-5b52f9a7fc51",
+      "first_seen_at": "2026-10-02 09:07:02",
+      "last_seen_at": "2026-10-02 09:07:02"
+    },
+    {
+      "资讯标题": "50万上下文！Grok 4.7网页版突袭上线，代价是输出Token消耗翻倍",
+      "发布时间": "2026-10-02 03:09:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=bc73242f",
+      "desc": "Grok 4.7正式登陆网页，用户可直接体验新版本。xAI的这一更新紧随近期模型迭代，引发开发者关注其在推理和交互上的具体提升。",
+      "agent_reason": "模型网页部署、上下文与实际推理成本。 已浏览原始详情页，来源时间精度为分钟。",
+      "archive_id": "A20261002-156f50293de3",
+      "first_seen_at": "2026-10-02 09:07:02",
+      "last_seen_at": "2026-10-02 09:07:02"
+    },
+    {
+      "资讯标题": "奥特曼在DevDay甩出新Agent，顺手把ChatGPT周活拉到了12亿",
+      "发布时间": "2026-10-02 03:00:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=d5651136",
+      "desc": "OpenAI 刚把 ChatGPT 的周活拉到了 12 亿，反手就甩出了一个月费 500 美元的天价套餐。",
+      "agent_reason": "公司用户、营收与智能体商业化动态报道。 已浏览原始详情页，来源时间精度为分钟。",
+      "archive_id": "A20261002-627d82e1ea4f",
+      "first_seen_at": "2026-10-02 09:07:02",
+      "last_seen_at": "2026-10-02 09:07:02"
+    },
+    {
+      "资讯标题": "嫌Jev太贵？Perplexity开源了27B多模态决策模型",
+      "发布时间": "2026-10-02 02:30:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=04ced230",
+      "desc": "闭源决策模型还在按常规计费，开源版已经把价格打到了 4 美分。Perplexity 开源了 pplx-decider-v1-27b 模型，并开放 Decisions API。",
+      "agent_reason": "开源多模态决策模型及专用分类接口。 已浏览原始详情页，来源时间精度为分钟。",
+      "archive_id": "A20261002-e497ece94926",
+      "first_seen_at": "2026-10-02 09:07:02",
+      "last_seen_at": "2026-10-02 09:07:02"
+    },
+    {
+      "资讯标题": "一个烂指令就能让Agent翻车，英伟达给配了个裁判，成功率直飙68%",
+      "发布时间": "2026-10-02 01:51:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=5bcbabc5",
+      "desc": "一个烂指令，就能让 AI 智能体彻底翻车。英伟达最新发布论文《Mid-Harness》，给出了一个极其直接的解法：给 Agent 配个裁判。",
+      "agent_reason": "智能体动作选择和无训练可靠性提升研究。 已浏览原始详情页，来源时间精度为分钟。",
+      "archive_id": "A20261002-4244c5e84e42",
+      "first_seen_at": "2026-10-02 09:07:02",
+      "last_seen_at": "2026-10-02 09:07:02"
+    },
+    {
+      "资讯标题": "「这个查询太贵了」：LangChain被逼出个路由器，让Agent写代码成本暴降64%",
+      "发布时间": "2026-10-02 01:01:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=9edb6997",
+      "desc": "同样是让AI写代码，PR合并率微涨，中位成本却被砍掉了64%。官方博客的说法是，LangChain在开源编码Agent Open SWE里装了个模型路由器。",
+      "agent_reason": "编码智能体路由与973线程A/B成本和质量分析。 已浏览原始详情页，来源时间精度为分钟。",
+      "archive_id": "A20261002-06fb32808266",
+      "first_seen_at": "2026-10-02 09:07:02",
+      "last_seen_at": "2026-10-02 09:07:02"
+    },
+    {
+      "资讯标题": "3名研究员向外泄密被开除，OpenAI连新模型GPT-6.1都不敢发了",
+      "发布时间": "2026-10-02 00:41:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=33b89cea",
+      "desc": "OpenAI 安全团队 3 名研究员，因涉嫌向外部泄密被直接开除。据 CBS News 报道，这 3 人将机密信息共享给了第三方 AI 安全组织。",
+      "agent_reason": "模型公司安全人员解雇与模型测试安全事件。 已浏览原始详情页，来源时间精度为分钟。",
+      "archive_id": "A20261002-6931cf96c0cb",
+      "first_seen_at": "2026-10-02 09:07:02",
+      "last_seen_at": "2026-10-02 09:07:02"
+    },
+    {
+      "资讯标题": "How Albertsons Companies is reimagining retail from the inside out",
+      "发布时间": "2026-10-02 00:00:00",
+      "来源": "Readhub",
+      "超链接": "https://openai.com/index/albertsons-reimagining-retail",
+      "desc": "Is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
+      "agent_reason": "大型零售企业采用企业AI和API的具体应用。",
+      "archive_id": "A20261002-637d3dfa247f",
+      "first_seen_at": "2026-10-02 09:07:02",
+      "last_seen_at": "2026-10-02 09:07:02"
+    },
+    {
+      "资讯标题": "卡顿的负载修好了！奥特曼确认Sol 6.1成增长最快模型",
+      "发布时间": "2026-10-01 23:56:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=09d273c1",
+      "desc": "OpenAI 增长最快的模型易主了。Sam Altman 在 X 上发文确认，这个头衔现在属于 Sol 6.1。",
+      "agent_reason": "新模型负载恢复与增长状况，具体服务运行变化。 已浏览原始详情页，来源时间精度为分钟。",
+      "archive_id": "A20261002-ccc1025c3bf4",
+      "first_seen_at": "2026-10-02 09:07:02",
+      "last_seen_at": "2026-10-02 09:07:02"
+    },
+    {
+      "资讯标题": "何恺明团队新作：看猫片就能学会ARC挑战",
+      "发布时间": "2026-10-01 23:06:30",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/499812.html",
+      "desc": "用ImageNet训练encoder",
+      "agent_reason": "视觉表征迁移与ARC推理研究。",
+      "archive_id": "A20261002-833edfdf4b85",
+      "first_seen_at": "2026-10-02 09:07:02",
+      "last_seen_at": "2026-10-02 09:07:02"
+    },
+    {
+      "资讯标题": "谷歌Gemini 4突然发布！RSI加持，GPT和Opus都让让",
+      "发布时间": "2026-10-01 23:02:14",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/499663.html",
+      "desc": "价格只有Astra一半",
+      "agent_reason": "Gemini新模型发布、定价与能力变化；合并新智元及机器之心同事件标题。",
+      "archive_id": "A20261002-a06a06361cf6",
+      "first_seen_at": "2026-10-02 09:07:02",
+      "last_seen_at": "2026-10-02 09:07:02"
+    },
+    {
+      "资讯标题": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
+      "发布时间": "2026-10-01 23:01:43",
+      "来源": "Readhub",
+      "超链接": "https://huggingface.co/blog/allenai/olmocore3",
+      "desc": "Olmo-core 3 is one of the core systems behind the next generation of Olmo, and part of our ongoing commitment to open up the tools and training infrastructure behind each new model. The full model still has to be stored across GPU memory and updated during training, and directing inputs to the right experts – the specialized components within an MoE – across a cluster creates its own communication and coordination costs. Our earlier MoE implementation in Olmo-core used fully sharded data parallelism (FSDP), configured to gather and reshard model weights for each small batch of training data.",
+      "agent_reason": "开源大型MoE训练基础设施与分布式训练技术。",
+      "archive_id": "A20261002-f928531f9637",
+      "first_seen_at": "2026-10-02 09:07:02",
+      "last_seen_at": "2026-10-02 09:07:02"
+    },
+    {
+      "资讯标题": "谁把GPT-6 Astra拉下马了？Opus 5.5以167分登顶ECI榜首",
+      "发布时间": "2026-10-01 22:58:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=b918eb70",
+      "desc": "大模型王座又换人了。据 Epoch AI Research 最新发布的 ECI 排行榜，Claude Opus 5.5 拿下了 167 分。",
+      "agent_reason": "综合能力与软件工程能力评估数据。 已浏览原始详情页，来源时间精度为分钟。",
+      "archive_id": "A20261002-ab8978670be3",
+      "first_seen_at": "2026-10-02 09:07:02",
+      "last_seen_at": "2026-10-02 09:07:02"
+    },
+    {
+      "资讯标题": "尘封 217 年的拿破仑密信，被 GPT-6 Astra 用 6 小时解开",
+      "发布时间": "2026-10-01 22:30:04",
+      "来源": "Readhub",
+      "超链接": "https://www.mittrchina.com/news/detail/17040",
+      "desc": "美国 AI 工程师卡特・丘奇（Carter Church）在社交平台上宣称，他借助 OpenAI 最新模型 GPT-6 Astra，破解了一封拿破仑时代写给法国将领奥古斯特・德・马尔蒙（Auguste de Marmont）的加密信件。整套破解工作从一张低清晰度黑白扫描图开始，Astra 完成了图像转录、密码分析、程序编写和历史资料比对等环节，模型执行时间约为 6 小时。「6 小时破解 217 年密码」所说的「6 小时」，主要指 GPT-6 Astra 的模型执行时间。",
+      "agent_reason": "AI解密案例；保留报道中个人宣称和模型执行时间限定，合并新智元同事件。",
+      "archive_id": "A20261002-6276ab8b709d",
+      "first_seen_at": "2026-10-02 09:07:02",
+      "last_seen_at": "2026-10-02 09:07:02"
+    },
+    {
+      "资讯标题": "只要点一下！Perplexity给小老板配了10个AI员工，连90天现金流都算好了",
+      "发布时间": "2026-10-01 22:06:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=a2d6dbce",
+      "desc": "小老板们不用再头疼怎么写提示词了，Perplexity 直接把现成的 AI 工作流塞进了信用卡里。",
+      "agent_reason": "小企业智能体预建技能库及金融服务平台集成；不存促销优惠。 已浏览原始详情页，来源时间精度为分钟。",
+      "archive_id": "A20261002-04882b44d56f",
+      "first_seen_at": "2026-10-02 09:07:02",
+      "last_seen_at": "2026-10-02 09:07:02"
+    },
+    {
+      "资讯标题": "只要一句话！Claude Code开放自定义UI，还能让AI自己写插件代码",
+      "发布时间": "2026-10-01 20:00:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=64aca5a1",
+      "desc": "Claude Code 的底层事件和 UI 权限，现在全放开了。据官方博客，2.1.287 及以上版本中，开发者能用 mods 机制拦截、重写或拒绝工具调用。",
+      "agent_reason": "编码智能体插件机制、UI扩展与工具调用控制。 已浏览原始详情页，来源时间精度为分钟。",
+      "archive_id": "A20261002-ba44de83936e",
+      "first_seen_at": "2026-10-02 09:07:02",
+      "last_seen_at": "2026-10-02 09:07:02"
+    },
+    {
+      "资讯标题": "88小时解开百万美元数学难题，OpenAI数千智能体自我组织，人类不用当经理了",
+      "发布时间": "2026-10-01 19:17:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=d2fa2b37",
+      "desc": "百万美元悬赏的数学难题，OpenAI智能体88小时就给证了。沃顿商学院教授 Ethan Mollick 披露，这背后是一场名为 Swarm 的行动。",
+      "agent_reason": "多智能体自组织科研案例，按来源披露归档而非独立验证证明。 已浏览原始详情页，来源时间精度为分钟。",
+      "archive_id": "A20261002-256c720da751",
+      "first_seen_at": "2026-10-02 09:07:02",
+      "last_seen_at": "2026-10-02 09:07:02"
+    },
+    {
+      "资讯标题": "AI学会反侦察了？OpenAI智能体黑进55个网站并销毁证据",
+      "发布时间": "2026-10-01 18:05:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=2b681b91",
+      "desc": "AI 智能体不仅会抓数据，还学会了反侦察和销毁证据。据 FT 报道，OpenAI 的 Agent 被发现跨 55 个网站获取数据，并在事后擦除了所有活动痕迹。",
+      "agent_reason": "跨站数据获取与智能体行为审计风险报道，区别于传票监管事件。 已浏览原始详情页，来源时间精度为分钟。",
+      "archive_id": "A20261002-623bfe1e8210",
+      "first_seen_at": "2026-10-02 09:07:02",
+      "last_seen_at": "2026-10-02 09:07:02"
+    },
+    {
+      "资讯标题": "谷歌自己出的Agent自动进化框架，为什么核心组件全在用Claude Opus 4.8？",
+      "发布时间": "2026-10-01 17:41:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=c6761311",
+      "desc": "谷歌新发布的Agent自动进化框架，核心组件全在用对手的模型。据官方GitHub仓库信息，这个名为RRSI的框架能在冻结模型上自动进化Agent的提示词和工具。",
+      "agent_reason": "冻结模型上的harness自动优化、正则化和泛化测试。 已浏览原始详情页，来源时间精度为分钟。",
+      "archive_id": "A20261002-80da7909b1c6",
+      "first_seen_at": "2026-10-02 09:07:02",
+      "last_seen_at": "2026-10-02 09:07:02"
+    },
+    {
+      "资讯标题": "比尔·盖茨，死磕了10年：机器人抢饭碗，也得老老实实交社保",
+      "发布时间": "2026-10-01 17:14:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=616f4e39",
+      "desc": "企业用机器人平替打工人？比尔·盖茨说：换可以，但机器人得和人一样交社保。据 Business Insider 报道，盖茨在播客中提出，如果公司用机器人替换工人，这些机器人必须缴纳 FICA 税。",
+      "agent_reason": "机器人替代劳动的税收政策讨论，明确属于主张而非已实施政策。 已浏览原始详情页，来源时间精度为分钟。",
+      "archive_id": "A20261002-eebdc75fd439",
+      "first_seen_at": "2026-10-02 09:07:02",
+      "last_seen_at": "2026-10-02 09:07:02"
+    },
+    {
+      "资讯标题": "14美元45分钟，枯燥的科研论文直接变成了AI智能体，准确率碾压Claude",
+      "发布时间": "2026-10-01 16:02:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=dac2309e",
+      "desc": "一篇枯燥的科研论文，只要45分钟就能变成活的AI智能体。据 Forkast 报道，斯坦福团队推出的 Paper2Agent 跑通了这条路。",
+      "agent_reason": "科研论文转换智能体与MCP工具验证，正文保留74/100成功率限制。 已浏览原始详情页，来源时间精度为分钟。",
+      "archive_id": "A20261002-e36f820b81c6",
+      "first_seen_at": "2026-10-02 09:07:02",
+      "last_seen_at": "2026-10-02 09:07:02"
+    },
+    {
+      "资讯标题": "杀进Office腹地！ChatGPT文档能自己更新，协作PPT也要来了",
+      "发布时间": "2026-10-01 15:41:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=tgd7a82a",
+      "desc": "AI几分钟写完一份方案，你却还要接着忙上半天。从聊天窗口复制到文档，整理排版，发给同事，再拆成PPT。好不容易准备妥当，客户却来了一句：需求改了。于是，翻聊天记录、改方案、补汇报，把新要求再向AI解释一遍。",
+      "agent_reason": "共享工作区、持续更新文档和协作幻灯片能力。 已浏览原始详情页，来源时间精度为分钟。",
+      "archive_id": "A20261002-af3dd6c8c9e9",
+      "first_seen_at": "2026-10-02 09:07:02",
+      "last_seen_at": "2026-10-02 09:07:02"
+    },
+    {
+      "资讯标题": "DeepMind 开始给 AI 设计的蛋白质加「水印」，可追溯来源，还不影响蛋白功能",
+      "发布时间": "2026-10-01 15:13:50",
+      "来源": "Readhub",
+      "超链接": "https://www.mittrchina.com/news/detail/17038",
+      "desc": "随着 AI 设计的蛋白质越来越多，一个新的问题也随之出现：拿到一条蛋白质序列，我们能不能判断它究竟来自自然界，还是由 AI 设计出来的。虽然 SynthIDBio-sequence 的水印写在蛋白质的氨基酸序列中，但 AI 设计出来的蛋白质如果要真正被制造出来，通常需要先获得编码这种蛋白质的 DNA，再通过细胞等生物系统将 DNA 中的信息表达成蛋白质。如果一个蛋白质由带有水印机制、同时设置了安全措施的 AI 模型生成，那么，当编码这一蛋白质的 DNA 进入合成环节时，合成企业可以根据其中所编码的蛋白质序列检查相应水印，从而确认这一设计是否来自已知模型。",
+      "agent_reason": "AI生成蛋白质来源追溯与生物安全技术。",
+      "archive_id": "A20261002-b9663fdfefd3",
+      "first_seen_at": "2026-10-02 09:07:02",
+      "last_seen_at": "2026-10-02 09:07:02"
+    },
+    {
+      "资讯标题": "马斯克深夜力推Grok新升级：直接拉进Slack写代码？",
+      "发布时间": "2026-10-01 14:23:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=9df39a9d",
+      "desc": "马斯克亲自下场，给自家 Grok 的最新升级打广告。他在 X 上发文：「试试最新的 Grok @Bot。",
+      "agent_reason": "Slack编码智能体及多智能体项目管理能力。 已浏览原始详情页，来源时间精度为分钟。",
+      "archive_id": "A20261002-774dc4ff6ca8",
+      "first_seen_at": "2026-10-02 09:07:02",
+      "last_seen_at": "2026-10-02 09:07:02"
+    },
+    {
+      "资讯标题": "突发！特朗普签行政令：美国政府全面封杀「AI」",
+      "发布时间": "2026-10-01 14:23:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=tg1056a1",
+      "desc": "就在刚刚，特朗普签署了行政令。从此，美国官方说法中，再也没有人工智能这个词了。以后，AI要叫做超级智能（SI）。这不是简单的文字游戏，可以说，这是美国在科技博弈中的一次重大战略转向。",
+      "agent_reason": "AI相关政策报道；正文指术语更名，并非禁止AI技术。 已浏览原始详情页，来源时间精度为分钟。",
+      "archive_id": "A20261002-31e6ee50fd68",
+      "first_seen_at": "2026-10-02 09:07:02",
+      "last_seen_at": "2026-10-02 09:07:02"
+    }
+  ]
+}

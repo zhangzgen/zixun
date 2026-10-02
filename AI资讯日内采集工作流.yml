@@ -1,14 +1,14 @@
 version: 1
 name: AI资讯日内采集工作流
-description: 每天四次触发全部资讯源采集，由 Agent 过滤清理后幂等追加到当天本地归档；不进行任何飞书写入或群聊推送。
+description: 每天四次触发全部资讯源采集，由 Agent 过滤清理后幂等追加到当天本地归档，成功后同步 GitHub 并核验 Render 自动部署；不进行任何飞书写入或群聊推送。
 
 runtime:
   timezone: Asia/Shanghai
   schedule:
-    - "08:40"
-    - "11:40"
-    - "14:40"
-    - "17:40"
+    - "09:00"
+    - "12:00"
+    - "15:00"
+    - "18:00"
   mode: agent_in_loop
   entrypoints:
     collect: python3 get_news_list.py --no-history --workflow AI资讯日内采集工作流.yml --output tmp_ai_news_collect_candidates.json --pretty
@@ -64,6 +64,24 @@ workflow:
       - 每条新资讯生成稳定 archive_id，并记录 first_seen_at、last_seen_at；重复运行不得产生重复条目。
       - 成功后删除 tmp_ai_news_filtered.json 和 tmp_ai_news_collect_candidates.json，保留 ai_news_collect_result.json 和日归档。
       - 失败时不清理临时文件，也不得调用飞书告警。
+
+  - id: github_sync
+    name: 归档同步 GitHub
+    actions:
+      - 仅在归档成功、读取结果及清理临时文件后执行。
+      - 当前分支须为 main，origin 须为 https://github.com/zhangzgen/zixun.git；不符合时保留本地归档并单独汇报。
+      - 检查工作区及已有暂存内容；只将本轮新增或更新的 ai_news_daily/*.json、ai_news_collect_result.json 按明确路径暂存。不得顺带提交其他用户改动；已有无关暂存内容时停止同步，不清除或混入用户暂存内容。
+      - 排除凭据、.env、密钥、token、完整 webhook、.DS_Store、缓存和临时文件；不要使用无差别 git add。
+      - 有归档变更时创建说明为 Sync AI news archive YYYY-MM-DD HH:mm 的提交，日期按 Asia/Shanghai；无变更跳过提交。执行 git push origin main，不强制推送、不重置、不丢弃本地修改。
+      - 认证失败或远端分叉时保留现场并单独汇报，不调用任何飞书 API 或消息告警。
+
+  - id: render_verify
+    name: 核验 Render 自动部署
+    actions:
+      - 推送成功后通过 gh api 查询仓库 deployments 和对应 statuses；仅核验本次推送的提交 SHA，目标 environment_url 为 https://zixun-archive.onrender.com。
+      - 最多在 5 分钟内间隔检查；无部署记录、仍在构建或超时只汇报未确认或进行中，不宣称成功，不手动触发额外部署。
+      - 部署 success 后检查 https://zixun-archive.onrender.com/api/health 正常响应；失败时单独汇报状态及可公开的日志链接。
+      - 在原有采集结果后补充 GitHub 同步状态、提交 SHA、Render 部署状态；不发送任何飞书消息。
 
 success_output:
   write_to: ai_news_collect_result.json

@@ -42,11 +42,11 @@ test -f .env || cp .env.example .env
 2. 在 Render 选择 New → Blueprint，连接 `zhangzgen/zixun` 的 `main` 分支。Render 读取根目录 `render.yaml` 并构建 Docker 服务。
 3. 在创建服务时填入 `OPENAI_API_KEY`、`OPENAI_BASE_URL` 和 `OPENAI_MODEL`。可从本地 `.env` 复制，密钥不要放进仓库。Render 控制台负责保管这些环境变量。
 4. 部署完成后使用 Render 提供的 HTTPS 地址，任何人都能直接访问，无登录。
-5. 后续 GitHub `main` 提交触发重新部署。归档通过仓库一起部署：本机采集到的新归档，需要提交并推送后才会出现在公网服务。仓库内当前每日发布任务已配置发布成功后的 GitHub 同步步骤。
+5. 后续 GitHub `main` 提交触发重新部署。归档通过仓库一起部署：日内采集任务在每次归档成功后提交并推送本轮归档，再按本次提交 SHA 核验 Render 部署。每日飞书发布任务也保留发布成功后的 GitHub 同步步骤。
 
 选择免费实例可能遇到休眠和冷启动；需要持续响应时可在平台升级实例。SQLite 是可重建索引，不需要持久磁盘：启动时扫描部署包内的归档，之后按文件变化增量更新。原始 JSON 文件是数据来源。部署目录不会包含现有飞书发布脚本和配置。
 
-当前已验证本地网页构建、真实 Responses 问答和自动化测试。公网尚未部署，需要连接 Render 账号；本机 Docker Hub 镜像拉取因网络中断，尚未验证完整 Docker 镜像构建。
+公网服务已部署到 https://zixun-archive.onrender.com/ 。2026-10-02 已通过 GitHub deployments 确认 Render 自动部署成功，并验证公网健康检查及真实 Responses 问答。本机 Docker Hub 镜像拉取仍受网络影响。
 
 若用 GitHub Actions 做其他部署，GitHub Secrets 供 Actions 使用；运行中的服务仍需从托管平台环境变量读取密钥。不要设置 `VITE_OPENAI_API_KEY`，它会进入浏览器构建产物。
 

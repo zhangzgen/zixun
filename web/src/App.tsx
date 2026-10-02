@@ -43,7 +43,7 @@ function NewsResults({ items }: { items?: Article[] }) {
       </button>}
     </div>
     <ul className="result-list" id={listId}>
-      {visibleArticles.map(article => <li key={article.url}>
+      {visibleArticles.map(article => <li key={`${article.url}|${article.content_kind === '技术报告总结' ? 'report' : 'news'}`}>
         <SiteLink href={article.url} title={article.title} className="result-link">{article.title}</SiteLink>
         <div className="result-meta">{[article.source, article.published_at?.slice(0, 10), websiteDetails(article.url)?.domain]
           .filter(Boolean).join(' · ')}</div>

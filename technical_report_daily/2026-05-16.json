@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "date": "2026-05-16",
+  "generated_by": "technical_reports.export_search",
+  "items": [
+    {
+      "archive_id": "R-429e00b5ddf88b97d0d5",
+      "资讯标题": "Charon: A Unified and Fine-Grained Simulator for Large-Scale LLM Training and Inference",
+      "发布时间": "2026-05-16 00:00:00",
+      "date_precision": "day",
+      "来源": "Seed 技术报告",
+      "超链接": "https://seed.bytedance.com/en/public_papers/charon-a-unified-and-fine-grained-simulator-for-large-scale-llm-training-and-inference",
+      "desc": "Charon针对大规模LLM训练与推理调参成本高、仿真工具割裂的问题，以原生模型图、编译器式变换和算子级混合后端统一性能、显存与并行策略分析。报告称，所测跨集群规模场景的端到端时间误差最大为5.35%，并能辅助搜索吞吐—延迟前沿；精度仍依赖目标硬件测量与校准。",
+      "content": "## 核心结论\nCharon的主要价值是将训练与推理配置评估统一为可修改、可追踪的算子图仿真，以较低成本筛选并行方案、定位瓶颈和探索服务性能前沿；报告的准确性与优化收益属于特定条件下的厂商评测，不是任意部署的保证。\n\n## 问题与方法\n- **统一原生模型入口**：现有工具常分离训练与推理，依赖手工模板、轨迹或模型重写。Charon接收PyTorch及相关框架模型，用FX/编译追踪生成前向图，自动微分生成反向图，分别处理prefill与decode。对称模型可只仿真单块；非对称模型及流水线并行需多图与显式调度。\n- **编译器式图变换**：将融合、量化、重计算及TP、DP、PP、EP、SP、ZeRO/FSDP等表示为可组合pass，修改张量形状、插入通信和阶段依赖；支持1F1B与DualPipe，并通过张量活跃期分析估计激活、临时缓冲及峰值显存。\n- **混合算子后端**：通常优先使用真实profiling缓存，其次以随机森林预测未覆盖形状，最后用Roofline和链路级通信分析兜底。通信模型考虑拓扑、有效带宽与拥塞；重叠采用校准减速因子，通信分析后端还可按链路带宽竞争细化估计。\n- **配置搜索与工程集成**：规则剪枝、多进程仿真和预测内核降低搜索成本；以TPS/user约束下的TPS/GPU前沿辅助部署选择，并集成Hugging Face和作者内部推理框架。规则剪枝不构成全局最优保证。\n\n## 主要证据\n- **端到端验证**：训练覆盖Qwen3-8B、LLaMA3-8B、Qwen3-30B-A3B及Megatron/VeOmni，推理使用vLLM；作者对ASTRA-Sim、SimAI、Vidur作修复、扩展与校准后比较，报告称Charon精度最好。图11跨GPU误差最大为4.98%；64、96、4800、11520张H800的误差依次为+0.71%、+2.06%、−5.35%、−3.74%。因此结论中的3.74%不能作为所有大规模点的共同上限。\n- **细粒度精度并不一致**：表2中Qwen3-8B、TP1、Hopper推理的decode Attention为实测58.206微秒、仿真72.1微秒，说明端到端误差不能等同于每个算子的误差。图10未见形状测试中，FlashAttention-3的报告百分比MAE由Roofline的31.84%降至预测后端的2.22%。\n- **显存验证**：图9在Qwen3-30B-A3B、8卡FSDP、batch=2、序列长8192，并校准通信缓冲及碎片化的条件下，峰值allocated显存为实测68.93GB、仿真69.20GB，误差+0.39%；这是单一配置结果。\n- **优化案例**：第5.1节在LLaMA-3 70B、8张Ada Lovelace GPU上，动态SP相对zigzag基线使attention block延迟平均降低15%，并非整模型提速。第5.2节称性能空间分析通常两分钟内完成；图13放宽用户侧TPS约束后，TPS/GPU最多提高7倍，不能解读为同等约束下相对人工调参提升7倍。另有固定输出长度、端到端SLO为100毫秒的生产案例，报告称优于手调，但未披露具体收益。\n\n## 限制与适用价值\n精度依赖硬件profiling、预测数据及通信和重叠校准，不能确定性刻画网络抖动、动态拥塞与数据依赖的内核运行变化。大集群配置、统计重复、预测数据划分和成本摊销披露不足，功耗、NPU及部分功能也缺少同等验证。全文第6节为结论、第7节为致谢，第14—15页列22项参考资料，未见附录或独立局限章节；引用研究不能替代本报告验证。适合配置预筛选、OOM检查、瓶颈诊断和优化优先级判断，部署前仍需目标硬件实测。",
+      "content_kind": "技术报告总结",
+      "report_id": "R-429e00b5ddf88b97d0d5",
+      "fulltext_path": "technical_reports/fulltext/R-429e00b5ddf88b97d0d5-9e7c0a82318b796a.txt",
+      "source": "ByteDance Seed 官网",
+      "report_url": "https://arxiv.org/pdf/2605.17164",
+      "feishu_url": "https://ocns5gikjtax.feishu.cn/wiki/TidpwQlJ7irEiYkvmjwcCKumnRg"
+    }
+  ]
+}

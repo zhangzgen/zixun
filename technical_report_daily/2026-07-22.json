@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "date": "2026-07-22",
+  "generated_by": "technical_reports.export_search",
+  "items": [
+    {
+      "archive_id": "R-0fc0ceab509a41120e94",
+      "资讯标题": "PoTRE: Test-Time Reasoning inspired by Cognitive Heterogeneity",
+      "发布时间": "2026-07-22 00:00:00",
+      "date_precision": "day",
+      "来源": "Google 技术报告",
+      "超链接": "https://research.google/pubs/potre-test-time-reasoning-inspired-by-cognitive-heterogeneity/",
+      "desc": "PoTRE针对单一路径和同质采样容易重复相同推理错误的问题，并行组织四种推理拓扑，再按任务选择或融合候选。报告称其在多数所测配置中优于自洽采样，但收益受综合器、任务类型和计算预算制约；领域裁剪有时比完整配置更准确、更省token。",
+      "content": "## 核心结论\nPoTRE的主要价值是通过异构推理扩大正确候选覆盖，再用任务适配综合恢复收益，而非保证四代理配置始终最优；正确候选的识别仍是关键瓶颈。\n\n## 问题与方法\n- **问题定位**：报告认为，同质思维链采样共享模型先验，可能重复错误并形成错误共识。PoTRE是测试时编排框架，不修改基础模型权重，其创新主要在已有推理拓扑的组织与综合。\n- **四路互补**：并行运行对抗细化、层级战略规划、Spectrum Search和直接链式推理，分别侧重批评纠错、分解与战略转向、多候选探索及顺序推导。Spectrum通常生成8个候选；ARC结合训练例、代码执行和错误反馈筛选规则（附录A、C）。\n- **任务适配综合**：短答案任务比较理由后择优，金融任务核查冲突并融合论据，ARC验证规则并输出网格，而非统一多数投票。接入Google Search形成开卷版本；训练例匹配和内部批准均不保证最终正确。\n- **预算调节**：留一法消融用于发现冗余或干扰代理；完整四路可作为通用起点，但裁剪效果依赖已知任务分布，动态调度仍是未来方向。\n\n## 主要证据\n以下均为**报告称／厂商评测**。\n- **主实验**：闭卷HLE为2500题、ARC-AGI-2为120道公开评估题、金融为PRBench Finance Hard的300题。Gemini 3.1 Pro加PoTRE的HLE Pass@1为49.92%，既有提示基线42.15%；Flash的ARC为38.33%，基线19.16%。九种Gemini模型—任务组合中八种超过SC16；例外是3.1 Pro的ARC：PoTRE 78.33%，低于SC16的80.00%（表1）。\n- **搜索与跨模型**：HLE纯文本2158题开卷时，Flash为55.28%、3.1 Pro为60.24%；后者在全2500题上为58.40%，不可混用。金融搜索收益很小，Flash平均裁剪分仅由0.3486升至0.3509。Claude完整配置金融分为0.5196；DeepSeek仅测文本HLE和金融，其HLE综合20.20%略低于最佳分支20.4%（表9—11、附录D—E）。\n- **综合与互补**：3.1 Pro开卷HLE的Oracle覆盖64.60%，最终58.40%；Oracle只表示至少一个分支答对。Flash四种答案完全分歧时，Oracle为20.7%，综合仅5.8%。固定候选后，金融专用综合得0.3486，普通摘要0.2372、多数投票0.1339，显示综合收益具有领域依赖性（表8、附录H）。\n- **成本与稳健性**：Flash无搜索HLE中，四路PoTRE为39.80%、260K token/题，四候选CoT集成为38.88%、119K，故并非等预算优势。ARC移除规划代理约从7M降至1M token/题，报告称准确率升至39.20%。固定Flash配置在HLE重复三次，标准差0.37%；提示变体波动因模型而异，DeepSeek标准差2.90%（附录G、I—K）。\n\n## 限制与适用价值\n代理只是松散相关，并非统计独立；主实验主要依赖Gemini。HLE裁判在100题人工抽检中一致率98%，但不等于全量人工复核。重复运行仅覆盖一种模型与配置，不能据此证明所有差距显著。ARC公开集不能直接支持官方半私有榜单纪录；ReThinker成本为估算，缺少实测端到端延迟。正文与附录还存在ARC Pro解题数、金融基线及对抗代理超限时弃答或返回候选等不一致。其适用价值在于模块化编排、专业回答融合和可执行规则验证；部署时应优先核验综合可靠性，并按领域评估准确率与成本，而非默认启用全部代理。",
+      "content_kind": "技术报告总结",
+      "report_id": "R-0fc0ceab509a41120e94",
+      "fulltext_path": "technical_reports/fulltext/R-0fc0ceab509a41120e94-4d21b14ed082a602.txt",
+      "source": "Google Research 官方研究",
+      "report_url": "https://arxiv.org/pdf/2607.20268v1",
+      "feishu_url": "https://ocns5gikjtax.feishu.cn/wiki/OIMcwcjg3ibHqYk4pfTckmkKnHV"
+    }
+  ]
+}

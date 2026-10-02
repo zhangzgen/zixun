@@ -1,0 +1,4313 @@
+{
+  "version": 1,
+  "updated_at": "2026-10-03T03:17:50+08:00",
+  "audit_window": {
+    "start": "2026-04-02",
+    "end": "2026-10-02"
+  },
+  "scope_policy": "Independent model/agent method, theory, technical measurement or empirical evaluation; tutorials/books/commentary/pure proposed defensive disclosures require exclusion. Uncertain scope remains for Agent review.",
+  "complete_coverage": false,
+  "items": [
+    {
+      "vendor": "Google",
+      "title": "How Tech Workers Contend with Hazards of Humanlikeness in Generative AI",
+      "url": "https://research.google/pubs/how-tech-workers-contend-with-hazards-of-humanlikeness-in-generative-ai/",
+      "report_urls": [
+        "https://dl.acm.org/doi/10.1145/3772318.3791461"
+      ],
+      "scope_status": "not_reviewed",
+      "scope_reason": "arXiv first publication 2025-12-22; conference appearance on 2026-04-13 is later. HCI professional focus-group study, not a model/agent method.",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/how-tech-workers-contend-with-hazards-of-humanlikeness-in-generative-ai/"
+      ],
+      "decision": "outside_window",
+      "decision_reason": "arXiv first publication 2025-12-22; conference appearance on 2026-04-13 is later. HCI professional focus-group study, not a model/agent method.",
+      "date_lookup": {
+        "status": "verified_first_publication",
+        "published_at": "2025-12-22",
+        "date_precision": "day",
+        "date_source": "https://export.arxiv.org/api/query?search_query=ti%3A%22How+Tech+Workers+Contend+with+Hazards+of+Humanlikeness+in+Generative+AI%22&start=0&max_results=5",
+        "first_publication_verified": true,
+        "publication_date_evidence": [
+          {
+            "date": "2026-04-13",
+            "precision": "day",
+            "raw": "2026-04-13",
+            "source": "https://api.crossref.org/works/10.1145%2F3772318.3791461",
+            "field": "published-online",
+            "kind": "publisher_publication"
+          },
+          {
+            "date": "2026-04-13",
+            "precision": "day",
+            "raw": "2026-04-13",
+            "source": "https://api.crossref.org/works/10.1145%2F3772318.3791461",
+            "field": "published-print",
+            "kind": "publisher_publication"
+          },
+          {
+            "date": "2026-04-13",
+            "precision": "day",
+            "raw": "2026-04-13",
+            "source": "https://api.crossref.org/works/10.1145%2F3772318.3791461",
+            "field": "published",
+            "kind": "publisher_publication"
+          },
+          {
+            "date": "2026-04-13",
+            "precision": "day",
+            "raw": "2026-04-13",
+            "source": "https://api.crossref.org/works/10.1145%2F3772318.3791461",
+            "field": "issued",
+            "kind": "publisher_publication"
+          },
+          {
+            "date": "2025-12-22",
+            "precision": "day",
+            "raw": "2025-12-22T19:42:08Z",
+            "source": "https://export.arxiv.org/api/query?search_query=ti%3A%22How+Tech+Workers+Contend+with+Hazards+of+Humanlikeness+in+Generative+AI%22&start=0&max_results=5",
+            "field": "entry.published",
+            "kind": "arxiv_first_submission",
+            "title_match": "exact_normalized",
+            "authors": [
+              "Mark Díaz",
+              "Renee Shelby",
+              "Eric Corbett",
+              "Andrew Smart"
+            ]
+          }
+        ],
+        "arxiv_search_status": "exact_match",
+        "paper_id": "2512.19832",
+        "report_url": "https://arxiv.org/pdf/2512.19832v1",
+        "report_urls": [
+          "https://dl.acm.org/doi/10.1145/3772318.3791461",
+          "https://dl.acm.org/doi/pdf/10.1145/3772318.3791461",
+          "https://arxiv.org/pdf/2512.19832v1"
+        ],
+        "arxiv_matches": [
+          {
+            "paper_id": "2512.19832",
+            "title": "How Tech Workers Contend with Hazards of Humanlikeness in Generative AI",
+            "authors": [
+              "Mark Díaz",
+              "Renee Shelby",
+              "Eric Corbett",
+              "Andrew Smart"
+            ],
+            "report_url": "https://arxiv.org/pdf/2512.19832v1",
+            "updated_at": "2025-12-22T19:42:08Z"
+          }
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00"
+    },
+    {
+      "vendor": "Google",
+      "title": "How Google SREs Use Gemini CLI to Solve Real-World Outages",
+      "url": "https://research.google/pubs/how-google-sres-use-gemini-cli-to-solve-real-world-outages/",
+      "report_urls": [
+        "https://cloud.google.com/blog/topics/developers-practitioners/how-google-sres-use-gemini-cli-to-solve-real-world-outages"
+      ],
+      "scope_status": "not_reviewed",
+      "scope_reason": "Official Google Cloud article publication 2026-01-22; simulated-incident usage tutorial rather than an independent model technical report.",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/how-google-sres-use-gemini-cli-to-solve-real-world-outages/"
+      ],
+      "decision": "outside_window",
+      "decision_reason": "Official Google Cloud article publication 2026-01-22; simulated-incident usage tutorial rather than an independent model technical report.",
+      "first_publication_upper_bound": "2026-01-22",
+      "date_bound_evidence": [
+        {
+          "source": "https://cloud.google.com/blog/topics/developers-practitioners/how-google-sres-use-gemini-cli-to-solve-real-world-outages",
+          "field": "datePublished",
+          "date": "2026-01-22",
+          "precision": "day",
+          "kind": "publisher_publication",
+          "identity_review": "Official Google Research record links to this Google Cloud article"
+        }
+      ],
+      "date_lookup": {
+        "status": "unresolved",
+        "published_at": null,
+        "date_precision": null,
+        "date_source": null,
+        "first_publication_verified": false,
+        "publication_date_evidence": [],
+        "arxiv_search_status": "unavailable",
+        "report_urls": [
+          "https://cloud.google.com/blog/topics/developers-practitioners/how-google-sres-use-gemini-cli-to-solve-real-world-outages"
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00"
+    },
+    {
+      "vendor": "Google",
+      "title": "Developer Productivity in the Age of Generative AI: A Psychological Perspective",
+      "url": "https://research.google/pubs/developer-productivity-in-the-age-of-generative-ai-a-psychological-perspective/",
+      "report_urls": [
+        "https://doi.org/10.31234/osf.io/7gwx2_v1"
+      ],
+      "scope_status": "not_reviewed",
+      "scope_reason": "Crossref preprint publication 2026-02-05 already predates window; psychological interviews about developer identity rather than a model method.",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/developer-productivity-in-the-age-of-generative-ai-a-psychological-perspective/"
+      ],
+      "decision": "outside_window",
+      "decision_reason": "Crossref preprint publication 2026-02-05 already predates window; psychological interviews about developer identity rather than a model method.",
+      "date_lookup": {
+        "status": "publisher_date_only",
+        "published_at": "2026-02-05",
+        "date_precision": "day",
+        "date_source": "https://api.crossref.org/works/10.31234%2Fosf.io%2F7gwx2_v1",
+        "first_publication_verified": false,
+        "publication_date_evidence": [
+          {
+            "date": "2026-02-05",
+            "precision": "day",
+            "raw": "2026-02-05",
+            "source": "https://api.crossref.org/works/10.31234%2Fosf.io%2F7gwx2_v1",
+            "field": "published",
+            "kind": "publisher_publication"
+          },
+          {
+            "date": "2026-02-05",
+            "precision": "day",
+            "raw": "2026-02-05",
+            "source": "https://api.crossref.org/works/10.31234%2Fosf.io%2F7gwx2_v1",
+            "field": "issued",
+            "kind": "publisher_publication"
+          }
+        ],
+        "arxiv_search_status": "unavailable",
+        "report_urls": [
+          "https://doi.org/10.31234/osf.io/7gwx2_v1"
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00"
+    },
+    {
+      "vendor": "Google",
+      "title": "ALPS: Activation-Based Length Prediction for Intelligent LLM Inference Scheduling",
+      "url": "https://research.google/pubs/alps-activation-based-length-prediction-for-intelligent-llm-inference-scheduling-2/",
+      "report_urls": [
+        "https://zenodo.org/records/19078431"
+      ],
+      "scope_status": "not_reviewed",
+      "scope_reason": "Explicit Zenodo publication 2026-03-18 predates window; later index appearance cannot change initial release.",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/alps-activation-based-length-prediction-for-intelligent-llm-inference-scheduling-2/"
+      ],
+      "decision": "outside_window",
+      "decision_reason": "Explicit Zenodo publication 2026-03-18 predates window; later index appearance cannot change initial release.",
+      "date_lookup": {
+        "status": "publisher_date_only",
+        "published_at": "2026-03-18",
+        "date_precision": "day",
+        "date_source": "https://zenodo.org/api/records/19078431",
+        "first_publication_verified": false,
+        "publication_date_evidence": [
+          {
+            "date": "2026-03-18",
+            "precision": "day",
+            "raw": "2026-03-18",
+            "source": "https://zenodo.org/api/records/19078431",
+            "field": "metadata.publication_date",
+            "kind": "repository_publication"
+          }
+        ],
+        "arxiv_search_status": "unavailable",
+        "report_urls": [
+          "https://zenodo.org/records/19078431",
+          "https://zenodo.org/api/records/19078431/files/alps.pdf/content"
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00"
+    },
+    {
+      "vendor": "Google",
+      "title": "AASE: Activation-Based AI Safety Enforcement via Lightweight Probes",
+      "url": "https://research.google/pubs/aase-activation-based-ai-safety-enforcement-via-lightweight-probes/",
+      "report_urls": [
+        "https://zenodo.org/records/19209689"
+      ],
+      "scope_status": "not_reviewed",
+      "scope_reason": "Explicit Zenodo publication 2026-03-24 predates window; later index appearance cannot change initial release.",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/aase-activation-based-ai-safety-enforcement-via-lightweight-probes/"
+      ],
+      "decision": "outside_window",
+      "decision_reason": "Explicit Zenodo publication 2026-03-24 predates window; later index appearance cannot change initial release.",
+      "date_lookup": {
+        "status": "publisher_date_only",
+        "published_at": "2026-03-24",
+        "date_precision": "day",
+        "date_source": "https://zenodo.org/api/records/19209689",
+        "first_publication_verified": false,
+        "publication_date_evidence": [
+          {
+            "date": "2026-03-24",
+            "precision": "day",
+            "raw": "2026-03-24",
+            "source": "https://zenodo.org/api/records/19209689",
+            "field": "metadata.publication_date",
+            "kind": "repository_publication"
+          }
+        ],
+        "arxiv_search_status": "unavailable",
+        "report_urls": [
+          "https://zenodo.org/records/19209689",
+          "https://zenodo.org/api/records/19209689/files/aase.pdf/content"
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00"
+    },
+    {
+      "vendor": "Google",
+      "title": "Expert evaluation of LLM world models: A high-Tc superconductivity case study",
+      "url": "https://research.google/pubs/expert-evaluation-of-llm-world-models-a-high-tc-superconductivity-case-study/",
+      "report_urls": [
+        "https://www.pnas.org/doi/10.1073/pnas.2533676123"
+      ],
+      "scope_status": "not_reviewed",
+      "scope_reason": "PNAS publisher online publication 2026-03-10 predates window; formal print date is 2026-03-17, also outside.",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/expert-evaluation-of-llm-world-models-a-high-tc-superconductivity-case-study/"
+      ],
+      "decision": "outside_window",
+      "decision_reason": "PNAS publisher online publication 2026-03-10 predates window; formal print date is 2026-03-17, also outside.",
+      "date_lookup": {
+        "status": "publisher_date_only",
+        "published_at": "2026-03-10",
+        "date_precision": "day",
+        "date_source": "https://api.crossref.org/works/10.1073%2Fpnas.2533676123",
+        "first_publication_verified": false,
+        "publication_date_evidence": [
+          {
+            "date": "2026-03-10",
+            "precision": "day",
+            "raw": "2026-03-10",
+            "source": "https://api.crossref.org/works/10.1073%2Fpnas.2533676123",
+            "field": "published-online",
+            "kind": "publisher_publication"
+          },
+          {
+            "date": "2026-03-17",
+            "precision": "day",
+            "raw": "2026-03-17",
+            "source": "https://api.crossref.org/works/10.1073%2Fpnas.2533676123",
+            "field": "published-print",
+            "kind": "publisher_publication"
+          },
+          {
+            "date": "2026-03-10",
+            "precision": "day",
+            "raw": "2026-03-10",
+            "source": "https://api.crossref.org/works/10.1073%2Fpnas.2533676123",
+            "field": "published",
+            "kind": "publisher_publication"
+          },
+          {
+            "date": "2026-03-10",
+            "precision": "day",
+            "raw": "2026-03-10",
+            "source": "https://api.crossref.org/works/10.1073%2Fpnas.2533676123",
+            "field": "issued",
+            "kind": "publisher_publication"
+          }
+        ],
+        "arxiv_search_status": "unavailable",
+        "report_urls": [
+          "https://www.pnas.org/doi/10.1073/pnas.2533676123",
+          "https://pnas.org/doi/pdf/10.1073/pnas.2533676123"
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00"
+    },
+    {
+      "vendor": "Google",
+      "title": "Designing Privacy Choice in Generative AI Chatbot Ecosystems",
+      "url": "https://research.google/pubs/designing-privacy-choice-in-generative-ai-chatbot-ecosystems/",
+      "report_urls": [
+        "https://dl.acm.org/doi/pdf/10.1145/3772318.3790809"
+      ],
+      "scope_status": "excluded",
+      "scope_reason": "Two privacy-choice vignette surveys and user interviews; no independent model/agent method or model evaluation. Formal publisher date 2026-04-13 is only publisher evidence.",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/designing-privacy-choice-in-generative-ai-chatbot-ecosystems/"
+      ],
+      "decision": "excluded_scope",
+      "decision_reason": "Two privacy-choice vignette surveys and user interviews; no independent model/agent method or model evaluation. Formal publisher date 2026-04-13 is only publisher evidence.",
+      "date_lookup": {
+        "status": "publisher_date_only",
+        "published_at": "2026-04-13",
+        "date_precision": "day",
+        "date_source": "https://api.crossref.org/works/10.1145%2F3772318.3790809",
+        "first_publication_verified": false,
+        "publication_date_evidence": [
+          {
+            "date": "2026-04-13",
+            "precision": "day",
+            "raw": "2026-04-13",
+            "source": "https://api.crossref.org/works/10.1145%2F3772318.3790809",
+            "field": "published-online",
+            "kind": "publisher_publication"
+          },
+          {
+            "date": "2026-04-13",
+            "precision": "day",
+            "raw": "2026-04-13",
+            "source": "https://api.crossref.org/works/10.1145%2F3772318.3790809",
+            "field": "published-print",
+            "kind": "publisher_publication"
+          },
+          {
+            "date": "2026-04-13",
+            "precision": "day",
+            "raw": "2026-04-13",
+            "source": "https://api.crossref.org/works/10.1145%2F3772318.3790809",
+            "field": "published",
+            "kind": "publisher_publication"
+          },
+          {
+            "date": "2026-04-13",
+            "precision": "day",
+            "raw": "2026-04-13",
+            "source": "https://api.crossref.org/works/10.1145%2F3772318.3790809",
+            "field": "issued",
+            "kind": "publisher_publication"
+          }
+        ],
+        "arxiv_search_status": "no_exact_match",
+        "report_urls": [
+          "https://dl.acm.org/doi/pdf/10.1145/3772318.3790809"
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00"
+    },
+    {
+      "vendor": "Google",
+      "title": "Towards A Human-in-the-Loop Framework for Reliable Patch Evaluation using an LLM-as-a-Judge",
+      "url": "https://research.google/pubs/towards-a-human-in-the-loop-framework-for-reliable-patch-evaluation-using-an-llm-as-a-judge/",
+      "report_urls": [
+        "https://dl.acm.org/doi/10.1145/3786175.3788348"
+      ],
+      "scope_status": "not_reviewed",
+      "scope_reason": "Exact-title and author-matched arXiv manuscript 2511.10865 first public 2025-11-14; 2026 conference metadata is a later publication.",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/towards-a-human-in-the-loop-framework-for-reliable-patch-evaluation-using-an-llm-as-a-judge/"
+      ],
+      "decision": "outside_window",
+      "decision_reason": "Exact-title and author-matched arXiv manuscript 2511.10865 first public 2025-11-14; 2026 conference metadata is a later publication.",
+      "date_lookup": {
+        "status": "verified_first_publication",
+        "published_at": "2025-11-14",
+        "date_precision": "day",
+        "date_source": "https://export.arxiv.org/api/query?search_query=ti%3A%22Towards+A+Human-in-the-Loop+Framework+for+Reliable+Patch+Evaluation+using+an+LLM-as-a-Judge%22&start=0&max_results=5",
+        "first_publication_verified": true,
+        "publication_date_evidence": [
+          {
+            "date": "2026-07-03",
+            "precision": "day",
+            "raw": "2026-07-03",
+            "source": "https://api.crossref.org/works/10.1145%2F3786175.3788348",
+            "field": "published-online",
+            "kind": "publisher_publication"
+          },
+          {
+            "date": "2026-04-12",
+            "precision": "day",
+            "raw": "2026-04-12",
+            "source": "https://api.crossref.org/works/10.1145%2F3786175.3788348",
+            "field": "published-print",
+            "kind": "publisher_publication"
+          },
+          {
+            "date": "2026-04-12",
+            "precision": "day",
+            "raw": "2026-04-12",
+            "source": "https://api.crossref.org/works/10.1145%2F3786175.3788348",
+            "field": "published",
+            "kind": "publisher_publication"
+          },
+          {
+            "date": "2026-04-12",
+            "precision": "day",
+            "raw": "2026-04-12",
+            "source": "https://api.crossref.org/works/10.1145%2F3786175.3788348",
+            "field": "issued",
+            "kind": "publisher_publication"
+          },
+          {
+            "date": "2025-11-14",
+            "precision": "day",
+            "raw": "2025-11-14T00:22:04Z",
+            "source": "https://export.arxiv.org/api/query?search_query=ti%3A%22Towards+A+Human-in-the-Loop+Framework+for+Reliable+Patch+Evaluation+using+an+LLM-as-a-Judge%22&start=0&max_results=5",
+            "field": "entry.published",
+            "kind": "arxiv_first_submission",
+            "title_match": "exact_normalized",
+            "authors": [
+              "Sherry Shi",
+              "Renyao Wei",
+              "Michele Tufano",
+              "José Cambronero",
+              "Runxiang Cheng",
+              "Franjo Ivančić",
+              "Pat Rondon"
+            ]
+          }
+        ],
+        "arxiv_search_status": "exact_match",
+        "paper_id": "2511.10865",
+        "report_url": "https://arxiv.org/pdf/2511.10865v1",
+        "report_urls": [
+          "https://dl.acm.org/doi/10.1145/3786175.3788348",
+          "https://dl.acm.org/doi/pdf/10.1145/3786175.3788348",
+          "https://arxiv.org/pdf/2511.10865v1"
+        ],
+        "arxiv_matches": [
+          {
+            "paper_id": "2511.10865",
+            "title": "Towards a Human-in-the-Loop Framework for Reliable Patch Evaluation Using an LLM-as-a-Judge",
+            "authors": [
+              "Sherry Shi",
+              "Renyao Wei",
+              "Michele Tufano",
+              "José Cambronero",
+              "Runxiang Cheng",
+              "Franjo Ivančić",
+              "Pat Rondon"
+            ],
+            "report_url": "https://arxiv.org/pdf/2511.10865v1",
+            "updated_at": "2025-11-14T00:22:04Z"
+          }
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00"
+    },
+    {
+      "vendor": "Google",
+      "title": "Abstain and Validate: A Dual-LLM Policy for Reducing Noise in Agentic Program Repair",
+      "url": "https://research.google/pubs/abstain-and-validate-a-dual-llm-policy-for-reducing-noise-in-agentic-program-repair/",
+      "report_urls": [
+        "https://doi.acm.org?doi=3786583.3786858"
+      ],
+      "scope_status": "not_reviewed",
+      "scope_reason": "Exact-title/DOI/author-matched arXiv manuscript 2510.03217 first public 2025-10-03; later v2/conference publication is not new first release.",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/abstain-and-validate-a-dual-llm-policy-for-reducing-noise-in-agentic-program-repair/"
+      ],
+      "decision": "outside_window",
+      "decision_reason": "Exact-title/DOI/author-matched arXiv manuscript 2510.03217 first public 2025-10-03; later v2/conference publication is not new first release.",
+      "date_lookup": {
+        "status": "verified_first_publication",
+        "published_at": "2025-10-03",
+        "date_precision": "day",
+        "date_source": "https://export.arxiv.org/api/query?search_query=ti%3A%22Abstain+and+Validate%3A+A+Dual-LLM+Policy+for+Reducing+Noise+in+Agentic+Program+Repair%22&start=0&max_results=5",
+        "first_publication_verified": true,
+        "publication_date_evidence": [
+          {
+            "date": "2026-07-11",
+            "precision": "day",
+            "raw": "2026-07-11",
+            "source": "https://api.crossref.org/works/10.1145%2F3786583.3786858",
+            "field": "published-online",
+            "kind": "publisher_publication"
+          },
+          {
+            "date": "2026-04-12",
+            "precision": "day",
+            "raw": "2026-04-12",
+            "source": "https://api.crossref.org/works/10.1145%2F3786583.3786858",
+            "field": "published-print",
+            "kind": "publisher_publication"
+          },
+          {
+            "date": "2026-04-12",
+            "precision": "day",
+            "raw": "2026-04-12",
+            "source": "https://api.crossref.org/works/10.1145%2F3786583.3786858",
+            "field": "published",
+            "kind": "publisher_publication"
+          },
+          {
+            "date": "2026-04-12",
+            "precision": "day",
+            "raw": "2026-04-12",
+            "source": "https://api.crossref.org/works/10.1145%2F3786583.3786858",
+            "field": "issued",
+            "kind": "publisher_publication"
+          },
+          {
+            "date": "2025-10-03",
+            "precision": "day",
+            "raw": "2025-10-03T17:53:28Z",
+            "source": "https://export.arxiv.org/api/query?search_query=ti%3A%22Abstain+and+Validate%3A+A+Dual-LLM+Policy+for+Reducing+Noise+in+Agentic+Program+Repair%22&start=0&max_results=5",
+            "field": "entry.published",
+            "kind": "arxiv_first_submission",
+            "title_match": "exact_normalized",
+            "authors": [
+              "José Cambronero",
+              "Michele Tufano",
+              "Sherry Shi",
+              "Renyao Wei",
+              "Grant Uy",
+              "Runxiang Cheng",
+              "Chin-Jung Liu",
+              "Shiying Pan",
+              "Satish Chandra",
+              "Pat Rondon"
+            ]
+          }
+        ],
+        "arxiv_search_status": "exact_match",
+        "paper_id": "2510.03217",
+        "report_url": "https://arxiv.org/pdf/2510.03217v2",
+        "report_urls": [
+          "https://doi.acm.org?doi=3786583.3786858",
+          "https://dl.acm.org/doi/pdf/10.1145/3786583.3786858",
+          "https://arxiv.org/pdf/2510.03217v2"
+        ],
+        "arxiv_matches": [
+          {
+            "paper_id": "2510.03217",
+            "title": "Abstain and Validate: A Dual-LLM Policy for Reducing Noise in Agentic Program Repair",
+            "authors": [
+              "José Cambronero",
+              "Michele Tufano",
+              "Sherry Shi",
+              "Renyao Wei",
+              "Grant Uy",
+              "Runxiang Cheng",
+              "Chin-Jung Liu",
+              "Shiying Pan",
+              "Satish Chandra",
+              "Pat Rondon"
+            ],
+            "report_url": "https://arxiv.org/pdf/2510.03217v2",
+            "updated_at": "2026-01-29T00:09:30Z"
+          }
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00"
+    },
+    {
+      "vendor": "Google",
+      "title": "Dynamic Cogeneration of Bug Reproduction Test in Agentic Program Repair",
+      "url": "https://research.google/pubs/dynamic-cogeneration-of-bug-reproduction-test-in-agentic-program-repair/",
+      "report_urls": [
+        "https://doi.org/10.1145/3803437.3805237"
+      ],
+      "scope_status": "not_reviewed",
+      "scope_reason": "Exact-title/author-matched arXiv manuscript 2601.19066 first public 2026-01-27; current v3 is a revision dated 2026-08-21.",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/dynamic-cogeneration-of-bug-reproduction-test-in-agentic-program-repair/"
+      ],
+      "decision": "outside_window",
+      "decision_reason": "Exact-title/author-matched arXiv manuscript 2601.19066 first public 2026-01-27; current v3 is a revision dated 2026-08-21.",
+      "date_lookup": {
+        "status": "verified_first_publication",
+        "published_at": "2026-01-27",
+        "date_precision": "day",
+        "date_source": "https://export.arxiv.org/api/query?search_query=ti%3A%22Dynamic+Cogeneration+of+Bug+Reproduction+Test+in+Agentic+Program+Repair%22&start=0&max_results=5",
+        "first_publication_verified": true,
+        "publication_date_evidence": [
+          {
+            "date": "2026-07-17",
+            "precision": "day",
+            "raw": "2026-07-17",
+            "source": "https://api.crossref.org/works/10.1145%2F3803437.3805237",
+            "field": "published-online",
+            "kind": "publisher_publication"
+          },
+          {
+            "date": "2026-07-05",
+            "precision": "day",
+            "raw": "2026-07-05",
+            "source": "https://api.crossref.org/works/10.1145%2F3803437.3805237",
+            "field": "published-print",
+            "kind": "publisher_publication"
+          },
+          {
+            "date": "2026-07-05",
+            "precision": "day",
+            "raw": "2026-07-05",
+            "source": "https://api.crossref.org/works/10.1145%2F3803437.3805237",
+            "field": "published",
+            "kind": "publisher_publication"
+          },
+          {
+            "date": "2026-07-05",
+            "precision": "day",
+            "raw": "2026-07-05",
+            "source": "https://api.crossref.org/works/10.1145%2F3803437.3805237",
+            "field": "issued",
+            "kind": "publisher_publication"
+          },
+          {
+            "date": "2026-01-27",
+            "precision": "day",
+            "raw": "2026-01-27T01:02:57Z",
+            "source": "https://export.arxiv.org/api/query?search_query=ti%3A%22Dynamic+Cogeneration+of+Bug+Reproduction+Test+in+Agentic+Program+Repair%22&start=0&max_results=5",
+            "field": "entry.published",
+            "kind": "arxiv_first_submission",
+            "title_match": "exact_normalized",
+            "authors": [
+              "Runxiang Cheng",
+              "Michele Tufano",
+              "José Cambronero",
+              "Renyao Wei",
+              "Sherry Shi",
+              "Grant Uy",
+              "Pat Rondon",
+              "Franjo Ivančić"
+            ]
+          }
+        ],
+        "arxiv_search_status": "exact_match",
+        "paper_id": "2601.19066",
+        "report_url": "https://arxiv.org/pdf/2601.19066v3",
+        "report_urls": [
+          "https://doi.org/10.1145/3803437.3805237",
+          "https://dl.acm.org/doi/pdf/10.1145/3803437.3805237",
+          "https://arxiv.org/pdf/2601.19066v3"
+        ],
+        "arxiv_matches": [
+          {
+            "paper_id": "2601.19066",
+            "title": "Dynamic Cogeneration of Bug Reproduction Test in Agentic Program Repair",
+            "authors": [
+              "Runxiang Cheng",
+              "Michele Tufano",
+              "José Cambronero",
+              "Renyao Wei",
+              "Sherry Shi",
+              "Grant Uy",
+              "Pat Rondon",
+              "Franjo Ivančić"
+            ],
+            "report_url": "https://arxiv.org/pdf/2601.19066v3",
+            "updated_at": "2026-08-21T22:02:46Z"
+          }
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00"
+    },
+    {
+      "vendor": "Google",
+      "title": "Leveraging LLMs to Understand Public Perception of Earthquake Early Warnings: A Case Study of the 2025 M6.2 Türkiye Earthquake",
+      "url": "https://research.google/pubs/leveraging-llms-to-understand-public-perception-of-earthquake-early-warnings-a-case-study-of-the-2025-m62-t%C3%BCrkiye-earthquake/",
+      "report_urls": [
+        "https://www.nature.com/articles/s41598-026-50521-2"
+      ],
+      "scope_status": "excluded",
+      "scope_reason": "LLMs are used to label earthquake social-media posts; contribution is user/public-warning behavior analysis, not a model/agent technical method. Publisher final title also differs from Google title; do not auto-attach its date by title.",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/leveraging-llms-to-understand-public-perception-of-earthquake-early-warnings-a-case-study-of-the-2025-m62-t%C3%BCrkiye-earthquake/"
+      ],
+      "decision": "excluded_scope",
+      "decision_reason": "LLMs are used to label earthquake social-media posts; contribution is user/public-warning behavior analysis, not a model/agent technical method. Publisher final title also differs from Google title; do not auto-attach its date by title.",
+      "date_lookup": {
+        "status": "unresolved",
+        "published_at": null,
+        "date_precision": null,
+        "date_source": null,
+        "first_publication_verified": false,
+        "publication_date_evidence": [],
+        "arxiv_search_status": "no_exact_match",
+        "report_urls": [
+          "https://www.nature.com/articles/s41598-026-50521-2"
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00"
+    },
+    {
+      "vendor": "Google",
+      "title": "A Theoretical Framework for Statistical Evaluability of Generative Models",
+      "url": "https://research.google/pubs/a-theoretical-framework-for-statistical-evaluability-of-generative-models/",
+      "report_urls": [
+        "https://icml.cc/virtual/2026/poster/65788"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": "Exact official arXiv first-publication evidence 2026-04-07; formal language/generative-model statistical evaluation theory. Complete official v3 HTML includes all math and appendix proofs; same-version LaTeX source/30-page PDF crosschecked.",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/a-theoretical-framework-for-statistical-evaluability-of-generative-models/"
+      ],
+      "decision": "ready",
+      "decision_reason": "Exact official arXiv first-publication evidence 2026-04-07; formal language/generative-model statistical evaluation theory. Complete official v3 HTML includes all math and appendix proofs; same-version LaTeX source/30-page PDF crosschecked.",
+      "date_lookup": {
+        "status": "verified_first_publication",
+        "published_at": "2026-04-07",
+        "date_precision": "day",
+        "date_source": "https://export.arxiv.org/api/query?search_query=ti%3A%22A+Theoretical+Framework+for+Statistical+Evaluability+of+Generative+Models%22&start=0&max_results=5",
+        "first_publication_verified": true,
+        "publication_date_evidence": [
+          {
+            "date": "2026-04-07",
+            "precision": "day",
+            "raw": "2026-04-07T01:53:59Z",
+            "source": "https://export.arxiv.org/api/query?search_query=ti%3A%22A+Theoretical+Framework+for+Statistical+Evaluability+of+Generative+Models%22&start=0&max_results=5",
+            "field": "entry.published",
+            "kind": "arxiv_first_submission",
+            "title_match": "exact_normalized",
+            "authors": [
+              "Shashaank Aiyer",
+              "Yishay Mansour",
+              "Shay Moran",
+              "Han Shao"
+            ]
+          }
+        ],
+        "arxiv_search_status": "exact_match",
+        "paper_id": "2604.05324",
+        "report_url": "https://arxiv.org/pdf/2604.05324v3",
+        "report_urls": [
+          "https://icml.cc/virtual/2026/poster/65788",
+          "https://arxiv.org/pdf/2604.05324v3"
+        ],
+        "arxiv_matches": [
+          {
+            "paper_id": "2604.05324",
+            "title": "A Theoretical Framework for Statistical Evaluability of Generative Models",
+            "authors": [
+              "Shashaank Aiyer",
+              "Yishay Mansour",
+              "Shay Moran",
+              "Han Shao"
+            ],
+            "report_url": "https://arxiv.org/pdf/2604.05324v3",
+            "updated_at": "2026-08-17T16:34:31Z"
+          }
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00"
+    },
+    {
+      "vendor": "Google",
+      "title": "A large language model for complex cardiology care",
+      "url": "https://research.google/pubs/a-large-language-model-for-complex-cardiology-care/",
+      "report_urls": [
+        "https://www.nature.com/articles/s41591-025-04190-9"
+      ],
+      "scope_status": "not_reviewed",
+      "scope_reason": "Nature Medicine publication 2026-02-06 predates window; earlier preprint, if any, only makes it older.",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/a-large-language-model-for-complex-cardiology-care/"
+      ],
+      "decision": "outside_window",
+      "decision_reason": "Nature Medicine publication 2026-02-06 predates window; earlier preprint, if any, only makes it older.",
+      "date_lookup": {
+        "status": "publisher_date_only",
+        "published_at": "2026-02-06",
+        "date_precision": "day",
+        "date_source": "https://www.nature.com/articles/s41591-025-04190-9",
+        "first_publication_verified": false,
+        "publication_date_evidence": [
+          {
+            "date": "2026-02",
+            "precision": "month",
+            "raw": "2026-02",
+            "source": "https://www.nature.com/articles/s41591-025-04190-9",
+            "field": "citation_publication_date",
+            "kind": "publisher_publication"
+          },
+          {
+            "date": "2026-02-06",
+            "precision": "day",
+            "raw": "2026-02-06",
+            "source": "https://www.nature.com/articles/s41591-025-04190-9",
+            "field": "citation_online_date",
+            "kind": "publisher_publication"
+          },
+          {
+            "date": "2026-02-06",
+            "precision": "day",
+            "raw": "2026-02-06",
+            "source": "https://www.nature.com/articles/s41591-025-04190-9",
+            "field": "dc.date",
+            "kind": "publisher_publication"
+          }
+        ],
+        "arxiv_search_status": "unavailable",
+        "report_urls": [
+          "https://www.nature.com/articles/s41591-025-04190-9"
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00"
+    },
+    {
+      "vendor": "Google",
+      "title": "PointDiT: Pixel-Space Diffusion for Monocular Geometry Estimation",
+      "url": "https://research.google/pubs/pointdit-pixel-space-diffusion-for-monocular-geometry-estimation/",
+      "report_urls": [
+        "https://icml.cc/virtual/2026/poster/62351"
+      ],
+      "scope_status": "excluded",
+      "scope_reason": "Monocular geometry ViT/diffusion model; no LLM component. ICML poster datePublished=2026-05-05 is webpage metadata and was not accepted as paper publication.",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/pointdit-pixel-space-diffusion-for-monocular-geometry-estimation/"
+      ],
+      "decision": "excluded_scope",
+      "decision_reason": "Monocular geometry ViT/diffusion model; no LLM component. ICML poster datePublished=2026-05-05 is webpage metadata and was not accepted as paper publication.",
+      "date_lookup": {
+        "status": "unresolved",
+        "published_at": null,
+        "date_precision": null,
+        "date_source": null,
+        "first_publication_verified": false,
+        "publication_date_evidence": [],
+        "arxiv_search_status": "unavailable",
+        "report_urls": [
+          "https://icml.cc/virtual/2026/poster/62351"
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00"
+    },
+    {
+      "vendor": "Google",
+      "title": "A Theoretical Framework for Statistical Evaluability of Generative Models",
+      "url": "https://research.google/pubs/a-theoretical-framework-for-statistical-evaluability-of-generative-models-2/",
+      "report_urls": [
+        "https://icml.cc/virtual/2026/poster/65788"
+      ],
+      "scope_status": "duplicate",
+      "scope_reason": "Same title, ICML/OpenReview links and exact arXiv 2604.05324 as first Statistical Evaluability Google page; preserved as related URL, no second reader input.",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/a-theoretical-framework-for-statistical-evaluability-of-generative-models-2/"
+      ],
+      "decision": "duplicate",
+      "decision_reason": "Same title, ICML/OpenReview links and exact arXiv 2604.05324 as first Statistical Evaluability Google page; preserved as related URL, no second reader input.",
+      "date_lookup": {
+        "status": "verified_first_publication",
+        "published_at": "2026-04-07",
+        "date_precision": "day",
+        "date_source": "https://export.arxiv.org/api/query?search_query=ti%3A%22A+Theoretical+Framework+for+Statistical+Evaluability+of+Generative+Models%22&start=0&max_results=5",
+        "first_publication_verified": true,
+        "publication_date_evidence": [
+          {
+            "date": "2026-04-07",
+            "precision": "day",
+            "raw": "2026-04-07T01:53:59Z",
+            "source": "https://export.arxiv.org/api/query?search_query=ti%3A%22A+Theoretical+Framework+for+Statistical+Evaluability+of+Generative+Models%22&start=0&max_results=5",
+            "field": "entry.published",
+            "kind": "arxiv_first_submission",
+            "title_match": "exact_normalized",
+            "authors": [
+              "Shashaank Aiyer",
+              "Yishay Mansour",
+              "Shay Moran",
+              "Han Shao"
+            ]
+          }
+        ],
+        "arxiv_search_status": "exact_match",
+        "paper_id": "2604.05324",
+        "report_url": "https://arxiv.org/pdf/2604.05324v3",
+        "report_urls": [
+          "https://icml.cc/virtual/2026/poster/65788",
+          "https://arxiv.org/pdf/2604.05324v3"
+        ],
+        "arxiv_matches": [
+          {
+            "paper_id": "2604.05324",
+            "title": "A Theoretical Framework for Statistical Evaluability of Generative Models",
+            "authors": [
+              "Shashaank Aiyer",
+              "Yishay Mansour",
+              "Shay Moran",
+              "Han Shao"
+            ],
+            "report_url": "https://arxiv.org/pdf/2604.05324v3",
+            "updated_at": "2026-08-17T16:34:31Z"
+          }
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "duplicate_of": "https://research.google/pubs/a-theoretical-framework-for-statistical-evaluability-of-generative-models/"
+    },
+    {
+      "vendor": "Google",
+      "title": "Reinforcement Learning Control of Quantum Error Correction",
+      "url": "https://research.google/pubs/reinforcement-learning-control-of-quantum-error-correction/",
+      "report_urls": [
+        "https://www.nature.com/articles/s41586-026-10759-2"
+      ],
+      "scope_status": "excluded",
+      "scope_reason": "RL controls quantum hardware calibration/error correction; no LLM/foundation-language-model method.",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/reinforcement-learning-control-of-quantum-error-correction/"
+      ],
+      "decision": "excluded_scope",
+      "decision_reason": "RL controls quantum hardware calibration/error correction; no LLM/foundation-language-model method.",
+      "date_lookup": {
+        "status": "publisher_date_only",
+        "published_at": "2026-07-08",
+        "date_precision": "day",
+        "date_source": "https://www.nature.com/articles/s41586-026-10759-2",
+        "first_publication_verified": false,
+        "publication_date_evidence": [
+          {
+            "date": "2026-07",
+            "precision": "month",
+            "raw": "2026-07",
+            "source": "https://www.nature.com/articles/s41586-026-10759-2",
+            "field": "citation_publication_date",
+            "kind": "publisher_publication"
+          },
+          {
+            "date": "2026-07-08",
+            "precision": "day",
+            "raw": "2026-07-08",
+            "source": "https://www.nature.com/articles/s41586-026-10759-2",
+            "field": "citation_online_date",
+            "kind": "publisher_publication"
+          },
+          {
+            "date": "2026-07-08",
+            "precision": "day",
+            "raw": "2026-07-08",
+            "source": "https://www.nature.com/articles/s41586-026-10759-2",
+            "field": "dc.date",
+            "kind": "publisher_publication"
+          }
+        ],
+        "arxiv_search_status": "unavailable",
+        "report_urls": [
+          "https://www.nature.com/articles/s41586-026-10759-2"
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00"
+    },
+    {
+      "vendor": "Google",
+      "title": "From Black Box to Toolbox: Human-Centered Explainability in Developer-Authored Agent Rules",
+      "url": "https://research.google/pubs/from-black-box-to-toolbox-human-centered-explainability-in-developer-authored-agent-rules/",
+      "report_urls": [
+        "https://zenodo.org/records/19700278"
+      ],
+      "scope_status": "excluded",
+      "scope_reason": "Qualitative interviews with 12 agent-rule authors identify attribution/explainability gaps; no implemented model/agent method or direct model technical evaluation. Keep source diagnostics instead of treating recommendations as an evaluated model report.",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/from-black-box-to-toolbox-human-centered-explainability-in-developer-authored-agent-rules/"
+      ],
+      "decision": "excluded_scope",
+      "decision_reason": "Qualitative interviews with 12 agent-rule authors identify attribution/explainability gaps; no implemented model/agent method or direct model technical evaluation. Keep source diagnostics instead of treating recommendations as an evaluated model report.",
+      "date_lookup": {
+        "status": "publisher_date_only",
+        "published_at": "2026-04-13",
+        "date_precision": "day",
+        "date_source": "https://zenodo.org/api/records/19700278",
+        "first_publication_verified": false,
+        "publication_date_evidence": [
+          {
+            "date": "2026-04-13",
+            "precision": "day",
+            "raw": "2026-04-13",
+            "source": "https://zenodo.org/api/records/19700278",
+            "field": "metadata.publication_date",
+            "kind": "repository_publication"
+          }
+        ],
+        "arxiv_search_status": "no_exact_match",
+        "report_urls": [
+          "https://zenodo.org/records/19700278",
+          "https://zenodo.org/api/records/19700278/files/HCXAI2026_paper_14.pdf/content"
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00"
+    },
+    {
+      "vendor": "Google",
+      "title": "GenAI on Google Cloud: Enterprise Generative AI Systems and AI Agents",
+      "url": "https://research.google/pubs/genai-on-google-cloud-enterprise-generative-ai-systems-and-ai-agents/",
+      "report_urls": [
+        "https://learning.oreilly.com/library/view/genai-on-google/9798341623842/"
+      ],
+      "scope_status": "excluded",
+      "scope_reason": "Practical O’Reilly book, not an independent model technical report",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/genai-on-google-cloud-enterprise-generative-ai-systems-and-ai-agents/"
+      ],
+      "decision": "excluded_scope",
+      "decision_reason": "Practical O’Reilly book, not an independent model technical report",
+      "date_lookup": {
+        "status": "unresolved",
+        "published_at": null,
+        "date_precision": null,
+        "date_source": null,
+        "first_publication_verified": false,
+        "publication_date_evidence": [],
+        "arxiv_search_status": "no_exact_match",
+        "report_urls": [
+          "https://learning.oreilly.com/library/view/genai-on-google/9798341623842/"
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "authors": [
+        "Ayo Adedeji",
+        "Lavi Nigam",
+        "Sarita Joshi",
+        "Stephanie Gervasi"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "title": "Agentic Trend-to-Knowledge: A Methodology for Automating Case Deflection through Proactive Content Surfacing in Enterprise Employee Support",
+      "url": "https://research.google/pubs/agentic-trend-to-knowledge-a-methodology-for-automating-case-deflection-through-proactive-content-surfacing-in-enterprise-employee-support/",
+      "report_urls": [
+        "https://www.tdcommons.org/dpubs_series/9145/"
+      ],
+      "scope_status": "excluded",
+      "scope_reason": "Pure defensive patent disclosure of a proposed LLM enterprise-support workflow; no independent model theory or model/agent experiment/evaluation in the official abstract",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/agentic-trend-to-knowledge-a-methodology-for-automating-case-deflection-through-proactive-content-surfacing-in-enterprise-employee-support/"
+      ],
+      "decision": "excluded_scope",
+      "decision_reason": "Pure defensive patent disclosure of a proposed LLM enterprise-support workflow; no independent model theory or model/agent experiment/evaluation in the official abstract",
+      "date_lookup": {
+        "status": "unresolved",
+        "published_at": null,
+        "date_precision": null,
+        "date_source": null,
+        "first_publication_verified": false,
+        "publication_date_evidence": [],
+        "arxiv_search_status": "no_exact_match",
+        "report_urls": [
+          "https://www.tdcommons.org/dpubs_series/9145/"
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "authors": [
+        "Tanmay Kayande",
+        "Deep Raithatha",
+        "Akash Dambhare",
+        "Pooja Agrawal",
+        "Mohith P"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "title": "Multi-Agent System for Cognitive Work Automation Using an Adversarial Review Panel",
+      "url": "https://research.google/pubs/multi-agent-system-for-cognitive-work-automation-using-an-adversarial-review-panel/",
+      "report_urls": [
+        "https://www.tdcommons.org/dpubs_series/9132/"
+      ],
+      "scope_status": "excluded",
+      "scope_reason": "Pure defensive patent disclosure of proposed enterprise agent workflows, without independent theory/model/agent experimental evaluation",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/multi-agent-system-for-cognitive-work-automation-using-an-adversarial-review-panel/"
+      ],
+      "decision": "outside_window",
+      "decision_reason": "A verified manuscript/repository/publisher release existed before the interval; a later conference appearance or revision is not first publication",
+      "date_lookup": {
+        "status": "publisher_date_only",
+        "published_at": "2026-01-07",
+        "date_precision": "day",
+        "date_source": "https://www.tdcommons.org/dpubs_series/9132/",
+        "first_publication_verified": false,
+        "publication_date_evidence": [
+          {
+            "date": "2026-01-07",
+            "precision": "day",
+            "raw": "2026-01-07",
+            "source": "https://www.tdcommons.org/dpubs_series/9132/",
+            "field": "Publication Date",
+            "kind": "repository_publication"
+          }
+        ],
+        "arxiv_search_status": "no_exact_match",
+        "report_urls": [
+          "https://www.tdcommons.org/dpubs_series/9132/"
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "authors": [
+        "Tanmay Kayande",
+        "Laura Hartney"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "title": "Agentic AI Infrastructure in Practice: Learn These Key Hurdles to Deploy Production AI Agents Efficiently",
+      "url": "https://research.google/pubs/agentic-ai-infrastructure-in-practice-learn-these-key-hurdles-to-deploy-production-ai-agents-efficiently/",
+      "report_urls": [
+        "https://swisscognitive.ch/2026/02/10/agentic-ai-infrastructure-in-practice-learn-these-key-hurdles-to-deploy-production-ai-agents-efficiently/"
+      ],
+      "scope_status": "excluded",
+      "scope_reason": "Industry deployment-hurdles article with guidance, no independent model/agent technical method or evaluation",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/agentic-ai-infrastructure-in-practice-learn-these-key-hurdles-to-deploy-production-ai-agents-efficiently/"
+      ],
+      "decision": "excluded_scope",
+      "decision_reason": "Industry deployment-hurdles article with guidance, no independent model/agent technical method or evaluation",
+      "date_lookup": {
+        "status": "unresolved",
+        "published_at": null,
+        "date_precision": null,
+        "date_source": null,
+        "first_publication_verified": false,
+        "publication_date_evidence": [],
+        "arxiv_search_status": "no_exact_match",
+        "report_urls": [
+          "https://swisscognitive.ch/2026/02/10/agentic-ai-infrastructure-in-practice-learn-these-key-hurdles-to-deploy-production-ai-agents-efficiently/"
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "authors": [
+        "Abhijeet Rajwade"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "title": "Dynamic Case Precedent: An Architecture for Accelerating Agent Proficiency and Resolution Consistency in Large-Scale People Operations",
+      "url": "https://research.google/pubs/dynamic-case-precedent-an-architecture-for-accelerating-agent-proficiency-and-resolution-consistency-in-large-scale-people-operations/",
+      "report_urls": [
+        "https://www.tdcommons.org/dpubs_series/9143/"
+      ],
+      "scope_status": "excluded",
+      "scope_reason": "Pure defensive patent disclosure of a proposed LLM enterprise-support workflow; no independent model theory or model/agent experiment/evaluation in the official abstract",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/dynamic-case-precedent-an-architecture-for-accelerating-agent-proficiency-and-resolution-consistency-in-large-scale-people-operations/"
+      ],
+      "decision": "excluded_scope",
+      "decision_reason": "Pure defensive patent disclosure of a proposed LLM enterprise-support workflow; no independent model theory or model/agent experiment/evaluation in the official abstract",
+      "date_lookup": {
+        "status": "unresolved",
+        "published_at": null,
+        "date_precision": null,
+        "date_source": null,
+        "first_publication_verified": false,
+        "publication_date_evidence": [],
+        "arxiv_search_status": "no_exact_match",
+        "report_urls": [
+          "https://www.tdcommons.org/dpubs_series/9143/"
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "authors": [
+        "Tanmay Kayande",
+        "Deep Raithatha",
+        "Akash Dambhare",
+        "Pooja Agrawal",
+        "Mohith P"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "title": "Prompt-Level Distillation: A Non-Parametric Alternative to Model Fine-Tuning for Efficient Reasoning",
+      "url": "https://research.google/pubs/prompt-level-distillation-a-non-parametric-alternative-to-model-fine-tuning-for-efficient-reasoning/",
+      "report_urls": [
+        "https://aclanthology.org/2026.acl-industry.142/"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": "Official manuscript/abstract describes an independently implemented or evaluated model/agent method, theory, or technical measurement",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/prompt-level-distillation-a-non-parametric-alternative-to-model-fine-tuning-for-efficient-reasoning/"
+      ],
+      "decision": "outside_window",
+      "decision_reason": "A verified manuscript/repository/publisher release existed before the interval; a later conference appearance or revision is not first publication",
+      "date_lookup": {
+        "status": "verified_first_publication",
+        "published_at": "2026-02-24",
+        "date_precision": "day",
+        "date_source": "https://export.arxiv.org/api/query?search_query=ti%3A%22Prompt-Level+Distillation%3A+A+Non-Parametric+Alternative+to+Model+Fine-Tuning+for+Efficient+Reasoning%22&start=0&max_results=5",
+        "first_publication_verified": true,
+        "publication_date_evidence": [
+          {
+            "date": "2026-07",
+            "precision": "month",
+            "raw": "2026-7",
+            "source": "https://aclanthology.org/2026.acl-industry.142/",
+            "field": "citation_publication_date",
+            "kind": "publisher_publication"
+          },
+          {
+            "date": "2026-02-24",
+            "precision": "day",
+            "raw": "2026-02-24T17:03:21Z",
+            "source": "https://export.arxiv.org/api/query?search_query=ti%3A%22Prompt-Level+Distillation%3A+A+Non-Parametric+Alternative+to+Model+Fine-Tuning+for+Efficient+Reasoning%22&start=0&max_results=5",
+            "field": "entry.published",
+            "kind": "arxiv_first_submission",
+            "title_match": "exact_normalized",
+            "authors": [
+              "Sanket Badhe",
+              "Deep Shah"
+            ]
+          }
+        ],
+        "arxiv_search_status": "exact_match",
+        "paper_id": "2602.21103",
+        "report_url": "https://arxiv.org/pdf/2602.21103v2",
+        "report_urls": [
+          "https://aclanthology.org/2026.acl-industry.142/",
+          "https://arxiv.org/pdf/2602.21103v2"
+        ],
+        "arxiv_matches": [
+          {
+            "paper_id": "2602.21103",
+            "title": "Prompt-Level Distillation: A Non-Parametric Alternative to Model Fine-Tuning for Efficient Reasoning",
+            "authors": [
+              "Sanket Badhe",
+              "Deep Shah"
+            ],
+            "report_url": "https://arxiv.org/pdf/2602.21103v2",
+            "updated_at": "2026-06-02T21:43:34Z"
+          }
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "canonical_paper_title": "Prompt-Level Distillation: A Non-Parametric Alternative to Model Fine-Tuning for Efficient Reasoning",
+      "authors": [
+        "Sanket Badhe",
+        "Deep Shah"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "title": "Self-Evolving Systems: Moving Beyond Deterministic Interfaces to Adaptive Generative Interfaces",
+      "url": "https://research.google/pubs/self-evolving-systems-moving-beyond-deterministic-interfaces-to-adaptive-generative-interfaces/",
+      "report_urls": [
+        "https://storage.googleapis.com/gweb-research2023-media/pubtools/1034946.pdf"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": "Official manuscript/abstract describes an independently implemented or evaluated model/agent method, theory, or technical measurement",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/self-evolving-systems-moving-beyond-deterministic-interfaces-to-adaptive-generative-interfaces/"
+      ],
+      "decision": "pending_exact_publication_date",
+      "decision_reason": "First exact public release has not been verified; saved title/metadata searches and fetch errors retained. No year, indexing, modification, poster entry or PDF creation timestamp was substituted",
+      "date_lookup": {
+        "status": "unresolved",
+        "published_at": null,
+        "date_precision": null,
+        "date_source": null,
+        "first_publication_verified": false,
+        "publication_date_evidence": [],
+        "arxiv_search_status": "unavailable",
+        "report_urls": [
+          "https://storage.googleapis.com/gweb-research2023-media/pubtools/1034946.pdf"
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "authors": [
+        "Piyush Arora",
+        "Ram Vivekananda",
+        "Wendy Yun",
+        "Colby Hawker",
+        "Jaime Sonoda"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "title": "Reasoning-Driven Synthetic Data Generation and Evaluation",
+      "url": "https://research.google/pubs/reasoning-driven-synthetic-data-generation-and-evaluation/",
+      "report_urls": [
+        "https://openreview.net/pdf?id=NALsdGEPhB"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": "Official manuscript/abstract describes an independently implemented or evaluated model/agent method, theory, or technical measurement",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/reasoning-driven-synthetic-data-generation-and-evaluation/"
+      ],
+      "decision": "outside_window",
+      "decision_reason": "A verified manuscript/repository/publisher release existed before the interval; a later conference appearance or revision is not first publication",
+      "date_lookup": {
+        "status": "verified_first_publication",
+        "published_at": "2026-03-31",
+        "date_precision": "day",
+        "date_source": "https://export.arxiv.org/api/query?search_query=ti%3A%22Reasoning-Driven+Synthetic+Data+Generation+and+Evaluation%22&start=0&max_results=5",
+        "first_publication_verified": true,
+        "publication_date_evidence": [
+          {
+            "date": "2026-03-31",
+            "precision": "day",
+            "raw": "2026-03-31T14:26:33Z",
+            "source": "https://export.arxiv.org/api/query?search_query=ti%3A%22Reasoning-Driven+Synthetic+Data+Generation+and+Evaluation%22&start=0&max_results=5",
+            "field": "entry.published",
+            "kind": "arxiv_first_submission",
+            "title_match": "exact_normalized",
+            "authors": [
+              "Tim R. Davidson",
+              "Benoit Seguin",
+              "Enrico Bacis",
+              "Cesar Ilharco",
+              "Hamza Harkous"
+            ]
+          }
+        ],
+        "arxiv_search_status": "exact_match",
+        "paper_id": "2603.29791",
+        "report_url": "https://arxiv.org/pdf/2603.29791v1",
+        "report_urls": [
+          "https://openreview.net/pdf?id=NALsdGEPhB",
+          "https://arxiv.org/pdf/2603.29791v1"
+        ],
+        "arxiv_matches": [
+          {
+            "paper_id": "2603.29791",
+            "title": "Reasoning-Driven Synthetic Data Generation and Evaluation",
+            "authors": [
+              "Tim R. Davidson",
+              "Benoit Seguin",
+              "Enrico Bacis",
+              "Cesar Ilharco",
+              "Hamza Harkous"
+            ],
+            "report_url": "https://arxiv.org/pdf/2603.29791v1",
+            "updated_at": "2026-03-31T14:26:33Z"
+          }
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "canonical_paper_title": "Reasoning-Driven Synthetic Data Generation and Evaluation",
+      "authors": [
+        "Tim R. Davidson",
+        "Benoit Seguin",
+        "Enrico Bacis",
+        "Cesar Magalhaes",
+        "Hamza Harkous"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "title": "Vibe Coding XR: Accelerating AI + XR Prototyping with XR Blocks and Gemini",
+      "url": "https://research.google/pubs/vibe-coding-xr-accelerating-ai-xr-prototyping-with-xr-blocks-and-gemini/",
+      "report_urls": [
+        "http://duruofei.com/papers/Du_VibeCodingXR-AcceleratingAI+XRPrototypingWithXRBlocksAndGemini_2026.pdf"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": "Official manuscript/abstract describes an independently implemented or evaluated model/agent method, theory, or technical measurement",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/vibe-coding-xr-accelerating-ai-xr-prototyping-with-xr-blocks-and-gemini/"
+      ],
+      "decision": "outside_window",
+      "decision_reason": "A verified manuscript/repository/publisher release existed before the interval; a later conference appearance or revision is not first publication",
+      "date_lookup": {
+        "status": "verified_first_publication",
+        "published_at": "2026-03-25",
+        "date_precision": "day",
+        "date_source": "https://export.arxiv.org/api/query?search_query=ti%3A%22Vibe+Coding+XR%22&start=0&max_results=20",
+        "first_publication_verified": true,
+        "publication_date_evidence": [
+          {
+            "date": "2026-03-25",
+            "precision": "day",
+            "raw": "2026-03-25T17:58:56Z",
+            "source": "https://export.arxiv.org/api/query?search_query=ti%3A%22Vibe+Coding+XR%22&start=0&max_results=20",
+            "field": "entry.published",
+            "kind": "arxiv_first_submission",
+            "title_match": "exact_normalized",
+            "authors": [
+              "Ruofei Du",
+              "Benjamin Hersh",
+              "David Li",
+              "Nels Numan",
+              "Xun Qian",
+              "Yanhe Chen",
+              "Zhongyi Zhou",
+              "Xingyue Chen",
+              "Jiahao Ren",
+              "Robert Timothy Bettridge",
+              "Xiang 'Anthony' Chen",
+              "Faraz Faruqi",
+              "Steve Toh",
+              "David Kim"
+            ]
+          }
+        ],
+        "arxiv_search_status": "exact_match",
+        "paper_id": "2603.24591",
+        "report_url": "https://arxiv.org/pdf/2603.24591v2",
+        "report_urls": [
+          "http://duruofei.com/papers/Du_VibeCodingXR-AcceleratingAI+XRPrototypingWithXRBlocksAndGemini_2026.pdf"
+        ],
+        "arxiv_matches": [
+          {
+            "paper_id": "2603.24591",
+            "title": "Vibe Coding XR: Accelerating AI + XR Prototyping with XR Blocks and Gemini",
+            "authors": [
+              "Ruofei Du",
+              "Benjamin Hersh",
+              "David Li",
+              "Nels Numan",
+              "Xun Qian",
+              "Yanhe Chen",
+              "Zhongyi Zhou",
+              "Xingyue Chen",
+              "Jiahao Ren",
+              "Robert Timothy Bettridge",
+              "Xiang 'Anthony' Chen",
+              "Faraz Faruqi",
+              "Steve Toh",
+              "David Kim"
+            ],
+            "report_url": "https://arxiv.org/pdf/2603.24591v2",
+            "updated_at": "2026-04-03T16:34:38Z"
+          }
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "canonical_paper_title": "Vibe Coding XR: Accelerating AI + XR Prototyping with XR Blocks and Gemini",
+      "authors": [
+        "Ruofei Du",
+        "Benjamin Hersh",
+        "David Li",
+        "Nels Numan",
+        "Xun Qian",
+        "Yanhe Chen",
+        "Zhongyi Zhou",
+        "Jiahao Ren",
+        "Xingyue Chen",
+        "Robert Timothy Bettridge",
+        "Faraz Faruqi",
+        "Anthony &#x27;Xiang&#x27; Chen",
+        "Steve Toh",
+        "David Kim"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "title": "AgentHands: Generating Interactive Hands Gestures for Spatially Grounded Agent Conversations in XR",
+      "url": "https://research.google/pubs/agenthands-generating-interactive-hands-gestures-for-spatially-grounded-agent-conversations-in-xr/",
+      "report_urls": [
+        "https://duruofei.com/papers/Liu_AgentHands-GeneratingInteractiveHandsGesturesForSpatiallyGroundedAgentConversationsInXR_CHI2026.pdf"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": "Official manuscript/abstract describes an independently implemented or evaluated model/agent method, theory, or technical measurement",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/agenthands-generating-interactive-hands-gestures-for-spatially-grounded-agent-conversations-in-xr/"
+      ],
+      "decision": "pending_first_publication_verification",
+      "decision_reason": "The canonical linked PDF title uses Hand while Google title uses Hands, with all six authors and DOI agreeing. Publisher date 2026-04-13 is verified, but no first-public-release proof has been recovered; full and short canonical arXiv title searches returned no exact match",
+      "date_lookup": {
+        "status": "publisher_date_only",
+        "published_at": "2026-04-13",
+        "date_precision": "day",
+        "date_source": "https://api.crossref.org/works/10.1145%2F3772318.3790938",
+        "first_publication_verified": false,
+        "publication_date_evidence": [
+          {
+            "date": "2026-04-13",
+            "precision": "day",
+            "raw": "2026-04-13",
+            "source": "https://api.crossref.org/works/10.1145%2F3772318.3790938",
+            "field": "published-online",
+            "kind": "publisher_publication"
+          },
+          {
+            "date": "2026-04-13",
+            "precision": "day",
+            "raw": "2026-04-13",
+            "source": "https://api.crossref.org/works/10.1145%2F3772318.3790938",
+            "field": "published-print",
+            "kind": "publisher_publication"
+          },
+          {
+            "date": "2026-04-13",
+            "precision": "day",
+            "raw": "2026-04-13",
+            "source": "https://api.crossref.org/works/10.1145%2F3772318.3790938",
+            "field": "published",
+            "kind": "publisher_publication"
+          },
+          {
+            "date": "2026-04-13",
+            "precision": "day",
+            "raw": "2026-04-13",
+            "source": "https://api.crossref.org/works/10.1145%2F3772318.3790938",
+            "field": "issued",
+            "kind": "publisher_publication"
+          }
+        ],
+        "arxiv_search_status": "unavailable",
+        "report_urls": [
+          "https://duruofei.com/papers/Liu_AgentHands-GeneratingInteractiveHandsGesturesForSpatiallyGroundedAgentConversationsInXR_CHI2026.pdf"
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "canonical_paper_title": "AgentHands: Generating Interactive Hand Gestures for Spatially Grounded Agent Conversations in XR",
+      "authors": [
+        "Ziyi Liu",
+        "David Li",
+        "Zhongyi Zhou",
+        "David Kim",
+        "Ruofei Du",
+        "Xun Qian"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "title": "Adversarial Attacks on Multimodal Large Language Models: A Comprehensive Survey",
+      "url": "https://research.google/pubs/adversarial-attacks-on-multimodal-large-language-models-a-comprehensive-survey/",
+      "report_urls": [
+        "https://openreview.net/pdf?id=zwzodDJkzZ"
+      ],
+      "scope_status": "excluded",
+      "scope_reason": "Comprehensive literature survey; no independently proposed/evaluated model method",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/adversarial-attacks-on-multimodal-large-language-models-a-comprehensive-survey/"
+      ],
+      "decision": "excluded_scope",
+      "decision_reason": "Comprehensive literature survey; no independently proposed/evaluated model method",
+      "date_lookup": {
+        "status": "unresolved",
+        "published_at": null,
+        "date_precision": null,
+        "date_source": null,
+        "first_publication_verified": false,
+        "publication_date_evidence": [],
+        "arxiv_search_status": "unavailable",
+        "report_urls": [
+          "https://openreview.net/pdf?id=zwzodDJkzZ"
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "authors": [
+        "Bhavuk Jain",
+        "Sercan Arik",
+        "Hardeo Kumar Thakur"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "title": "From Correctness to Collaboration: A Human-Centered Taxonomy of AI Agent Behavior in Software Engineering",
+      "url": "https://research.google/pubs/from-correctness-to-collaboration-a-human-centered-taxonomy-of-ai-agent-behavior-in-software-engineering/",
+      "report_urls": [
+        "https://storage.googleapis.com/gweb-research2023-media/pubtools/1036663.pdf"
+      ],
+      "scope_status": "excluded",
+      "scope_reason": "Human-centered taxonomy from developer-written agent rules; no implemented/evaluated model method",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/from-correctness-to-collaboration-a-human-centered-taxonomy-of-ai-agent-behavior-in-software-engineering/"
+      ],
+      "decision": "excluded_scope",
+      "decision_reason": "Human-centered taxonomy from developer-written agent rules; no implemented/evaluated model method",
+      "date_lookup": {
+        "status": "unresolved",
+        "published_at": null,
+        "date_precision": null,
+        "date_source": null,
+        "first_publication_verified": false,
+        "publication_date_evidence": [],
+        "arxiv_search_status": "unavailable",
+        "report_urls": [
+          "https://storage.googleapis.com/gweb-research2023-media/pubtools/1036663.pdf"
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "authors": [
+        "Tao Dong",
+        "Sherry Shi",
+        "Harini Sampath",
+        "Andrew Macvean"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "title": "Probabilistic Governance and Telemetry Framework for Autonomous Agents",
+      "url": "https://research.google/pubs/probabilistic-governance-and-telemetry-framework-for-autonomous-agents/",
+      "report_urls": [
+        "https://www.tdcommons.org/dpubs_series/9605/"
+      ],
+      "scope_status": "excluded",
+      "scope_reason": "Pure defensive patent disclosure of proposed enterprise agent workflows, without independent theory/model/agent experimental evaluation",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/probabilistic-governance-and-telemetry-framework-for-autonomous-agents/"
+      ],
+      "decision": "outside_window",
+      "decision_reason": "A verified manuscript/repository/publisher release existed before the interval; a later conference appearance or revision is not first publication",
+      "date_lookup": {
+        "status": "publisher_date_only",
+        "published_at": "2026-03-24",
+        "date_precision": "day",
+        "date_source": "https://www.tdcommons.org/dpubs_series/9605/",
+        "first_publication_verified": false,
+        "publication_date_evidence": [
+          {
+            "date": "2026-03-24",
+            "precision": "day",
+            "raw": "2026-03-24",
+            "source": "https://www.tdcommons.org/dpubs_series/9605/",
+            "field": "Recommended Citation publication date",
+            "kind": "repository_publication"
+          }
+        ],
+        "arxiv_search_status": "unavailable",
+        "report_urls": [
+          "https://www.tdcommons.org/dpubs_series/9605/"
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "authors": [
+        "Tanmay Kayande"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "title": "A Multi-Layered Framework for Behavioral Governance of Non-Deterministic AI Agents",
+      "url": "https://research.google/pubs/a-multi-layered-framework-for-behavioral-governance-of-non-deterministic-ai-agents/",
+      "report_urls": [
+        "https://www.tdcommons.org/dpubs_series/9603/"
+      ],
+      "scope_status": "excluded",
+      "scope_reason": "Pure defensive patent disclosure of proposed enterprise agent workflows, without independent theory/model/agent experimental evaluation",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/a-multi-layered-framework-for-behavioral-governance-of-non-deterministic-ai-agents/"
+      ],
+      "decision": "outside_window",
+      "decision_reason": "A verified manuscript/repository/publisher release existed before the interval; a later conference appearance or revision is not first publication",
+      "date_lookup": {
+        "status": "publisher_date_only",
+        "published_at": "2026-03-24",
+        "date_precision": "day",
+        "date_source": "https://www.tdcommons.org/dpubs_series/9603/",
+        "first_publication_verified": false,
+        "publication_date_evidence": [
+          {
+            "date": "2026-03-24",
+            "precision": "day",
+            "raw": "2026-03-24",
+            "source": "https://www.tdcommons.org/dpubs_series/9603/",
+            "field": "Recommended Citation publication date",
+            "kind": "repository_publication"
+          }
+        ],
+        "arxiv_search_status": "unavailable",
+        "report_urls": [
+          "https://www.tdcommons.org/dpubs_series/9603/"
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "authors": [
+        "Tanmay Kayande"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "title": "Detecting Safety Training Modification in Language Models via Activation Analysis",
+      "url": "https://research.google/pubs/ams-detecting-unsafe-and-tampered-language-models-via-activation-analysis/",
+      "report_urls": [
+        "https://ieeexplore.ieee.org/document/11568484"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": "Official manuscript/abstract describes an independently implemented or evaluated model/agent method, theory, or technical measurement",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/ams-detecting-unsafe-and-tampered-language-models-via-activation-analysis/"
+      ],
+      "decision": "ready",
+      "decision_reason": "Verified arXiv first public date within window and complete 14-page original acquired with exhaustive reading chunks",
+      "date_lookup": {
+        "status": "verified_first_publication",
+        "published_at": "2026-08-06",
+        "date_precision": "day",
+        "date_source": "https://export.arxiv.org/api/query?search_query=ti%3A%22Detecting+Safety+Training+Modification+in+Language+Models+via+Activation+Analysis%22&start=0&max_results=5",
+        "first_publication_verified": true,
+        "publication_date_evidence": [
+          {
+            "date": "2026-08-06",
+            "precision": "day",
+            "raw": "2026-08-06T03:57:38Z",
+            "source": "https://export.arxiv.org/api/query?search_query=ti%3A%22Detecting+Safety+Training+Modification+in+Language+Models+via+Activation+Analysis%22&start=0&max_results=5",
+            "field": "entry.published",
+            "kind": "arxiv_first_submission",
+            "title_match": "exact_normalized",
+            "authors": [
+              "Glen Messenger"
+            ]
+          }
+        ],
+        "arxiv_search_status": "exact_match",
+        "paper_id": "2608.05578",
+        "report_url": "https://arxiv.org/pdf/2608.05578v1",
+        "report_urls": [
+          "https://ieeexplore.ieee.org/document/11568484",
+          "https://arxiv.org/pdf/2608.05578v1"
+        ],
+        "arxiv_matches": [
+          {
+            "paper_id": "2608.05578",
+            "title": "Detecting Safety Training Modification in Language Models via Activation Analysis",
+            "authors": [
+              "Glen Messenger"
+            ],
+            "report_url": "https://arxiv.org/pdf/2608.05578v1",
+            "updated_at": "2026-08-06T03:57:38Z"
+          }
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "canonical_paper_title": "Detecting Safety Training Modification in Language Models via Activation Analysis",
+      "authors": [
+        "Glen Messenger"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "title": "Industrial Agentic Engineering",
+      "url": "https://research.google/pubs/industrial-agentic-engineering/",
+      "report_urls": [
+        "https://docs.google.com/presentation/d/1nMuN1xpDj5DUCTqOcewRSQuux6tEbnGs0h2B6m-K0co/edit?usp=drive_link"
+      ],
+      "scope_status": "excluded",
+      "scope_reason": "Engineering principles presentation/tutorial rather than an independent evaluated technical report",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/industrial-agentic-engineering/"
+      ],
+      "decision": "excluded_scope",
+      "decision_reason": "Engineering principles presentation/tutorial rather than an independent evaluated technical report",
+      "date_lookup": {
+        "status": "unresolved",
+        "published_at": null,
+        "date_precision": null,
+        "date_source": null,
+        "first_publication_verified": false,
+        "publication_date_evidence": [],
+        "arxiv_search_status": "unavailable",
+        "report_urls": [
+          "https://docs.google.com/presentation/d/1nMuN1xpDj5DUCTqOcewRSQuux6tEbnGs0h2B6m-K0co/edit?usp=drive_link"
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "authors": [
+        "Ramón Medrano Llamas"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "title": "ConvApparel: A Benchmark Dataset and Validation Framework for User Simulators in Conversational Recommenders",
+      "url": "https://research.google/pubs/convapparel-a-benchmark-dataset-and-validation-framework-for-user-simulators-in-conversational-recommenders-2/",
+      "report_urls": [],
+      "scope_status": "eligible",
+      "scope_reason": "Official manuscript/abstract describes an independently implemented or evaluated model/agent method, theory, or technical measurement",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/convapparel-a-benchmark-dataset-and-validation-framework-for-user-simulators-in-conversational-recommenders-2/"
+      ],
+      "decision": "outside_window",
+      "decision_reason": "ACL Anthology publication metadata explicitly says March 2026. Month precision proves existence before 2026-04-02 without inventing a day",
+      "date_lookup": {
+        "status": "unresolved",
+        "published_at": null,
+        "date_precision": null,
+        "date_source": null,
+        "first_publication_verified": false,
+        "publication_date_evidence": [
+          {
+            "date": "2026-03",
+            "precision": "month",
+            "raw": "2026-3",
+            "source": "https://aclanthology.org/2026.eacl-long.244/",
+            "field": "citation_publication_date",
+            "kind": "publisher_publication"
+          }
+        ],
+        "arxiv_search_status": "unavailable",
+        "report_urls": []
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "authors": [
+        "Ofer Meshi",
+        "Krisztian Balog",
+        "Sally Goldman",
+        "Avi Caciularu",
+        "Guy Tennenholtz",
+        "Jihwan Jeong",
+        "Amir Globerson",
+        "Craig Boutilier"
+      ],
+      "first_publication_upper_bound": "2026-03-31"
+    },
+    {
+      "vendor": "Google",
+      "title": "Unified Management System for a Hybrid Workforce of Human and Computational Agents",
+      "url": "https://research.google/pubs/unified-management-system-for-a-hybrid-workforce-of-human-and-computational-agents/",
+      "report_urls": [
+        "https://www.tdcommons.org/dpubs_series/9608/"
+      ],
+      "scope_status": "excluded",
+      "scope_reason": "Pure defensive patent disclosure of proposed enterprise agent workflows, without independent theory/model/agent experimental evaluation",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/unified-management-system-for-a-hybrid-workforce-of-human-and-computational-agents/"
+      ],
+      "decision": "outside_window",
+      "decision_reason": "A verified manuscript/repository/publisher release existed before the interval; a later conference appearance or revision is not first publication",
+      "date_lookup": {
+        "status": "publisher_date_only",
+        "published_at": "2026-03-24",
+        "date_precision": "day",
+        "date_source": "https://www.tdcommons.org/dpubs_series/9608/",
+        "first_publication_verified": false,
+        "publication_date_evidence": [
+          {
+            "date": "2026-03-24",
+            "precision": "day",
+            "raw": "2026-03-24",
+            "source": "https://www.tdcommons.org/dpubs_series/9608/",
+            "field": "Recommended Citation publication date",
+            "kind": "repository_publication"
+          }
+        ],
+        "arxiv_search_status": "unavailable",
+        "report_urls": [
+          "https://www.tdcommons.org/dpubs_series/9608/"
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "authors": [
+        "Tanmay Kayande"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "title": "Architecting Conversational Data Systems for Stateless LLM APIs",
+      "url": "https://research.google/pubs/architecting-conversational-data-systems-for-stateless-llm-apis/",
+      "report_urls": [],
+      "scope_status": "excluded",
+      "scope_reason": "High-level platform architecture writeup explicitly withholding implementation details; no model method/theory/evaluation",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/architecting-conversational-data-systems-for-stateless-llm-apis/"
+      ],
+      "decision": "excluded_scope",
+      "decision_reason": "High-level platform architecture writeup explicitly withholding implementation details; no model method/theory/evaluation",
+      "date_lookup": {
+        "status": "unresolved",
+        "published_at": null,
+        "date_precision": null,
+        "date_source": null,
+        "first_publication_verified": false,
+        "publication_date_evidence": [],
+        "arxiv_search_status": "unavailable",
+        "report_urls": []
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "authors": [
+        "Joseph Axisa"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "title": "Securing Multi-Agent Systems: An Empirical Analysis of Security Prompt Hardening and Residual Risks",
+      "url": "https://research.google/pubs/securing-multi-agent-systems-an-empirical-analysis-of-security-prompt-hardening-and-residual-risks/",
+      "report_urls": [],
+      "scope_status": "eligible",
+      "scope_reason": "Official manuscript/abstract describes an independently implemented or evaluated model/agent method, theory, or technical measurement",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/securing-multi-agent-systems-an-empirical-analysis-of-security-prompt-hardening-and-residual-risks/"
+      ],
+      "decision": "pending_exact_publication_date_and_original",
+      "decision_reason": "Official abstract reports original agent experiments, but Google supplies no primary full-text link or exact date; full and short arXiv title searches returned no exact match",
+      "date_lookup": {
+        "status": "unresolved",
+        "published_at": null,
+        "date_precision": null,
+        "date_source": null,
+        "first_publication_verified": false,
+        "publication_date_evidence": [],
+        "arxiv_search_status": "unavailable",
+        "report_urls": []
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "authors": [
+        "Mithil Roshan",
+        "Shashank Nagesh"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "title": "PROMPTS: Performance Optimization via Multi-Agent Planning for LLM Training and Serving",
+      "url": "https://research.google/pubs/prompts-performance-optimization-via-multi-agent-planning-for-llm-training-and-serving/",
+      "report_urls": [
+        "https://storage.googleapis.com/gweb-research2023-media/pubtools/1038279.pdf"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": "Official manuscript/abstract describes an independently implemented or evaluated model/agent method, theory, or technical measurement",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/prompts-performance-optimization-via-multi-agent-planning-for-llm-training-and-serving/"
+      ],
+      "decision": "pending_exact_publication_date",
+      "decision_reason": "First exact public release has not been verified; saved title/metadata searches and fetch errors retained. No year, indexing, modification, poster entry or PDF creation timestamp was substituted",
+      "date_lookup": {
+        "status": "unresolved",
+        "published_at": null,
+        "date_precision": null,
+        "date_source": null,
+        "first_publication_verified": false,
+        "publication_date_evidence": [],
+        "arxiv_search_status": "unavailable",
+        "report_urls": [
+          "https://storage.googleapis.com/gweb-research2023-media/pubtools/1038279.pdf"
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "authors": [
+        "Yuran Ding",
+        "Ruobing Han",
+        "Xiaofan Zhang",
+        "Xinwei Chen"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "title": "Towards AI as a Collaborative Partner: A Taxonomy of AI Agent Behavior in Software Engineering",
+      "url": "https://research.google/pubs/towards-ai-as-a-collaborative-partner-a-taxonomy-of-ai-agent-behavior-in-software-engineering/",
+      "report_urls": [
+        "https://storage.googleapis.com/gweb-research2023-media/pubtools/1038077.pdf"
+      ],
+      "scope_status": "excluded",
+      "scope_reason": "Developer-rule taxonomy validated through interviews, without an implemented/evaluated model method",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/towards-ai-as-a-collaborative-partner-a-taxonomy-of-ai-agent-behavior-in-software-engineering/"
+      ],
+      "decision": "excluded_scope",
+      "decision_reason": "Developer-rule taxonomy validated through interviews, without an implemented/evaluated model method",
+      "date_lookup": {
+        "status": "unresolved",
+        "published_at": null,
+        "date_precision": null,
+        "date_source": null,
+        "first_publication_verified": false,
+        "publication_date_evidence": [],
+        "arxiv_search_status": "unavailable",
+        "report_urls": [
+          "https://storage.googleapis.com/gweb-research2023-media/pubtools/1038077.pdf"
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "authors": [
+        "Tao Dong",
+        "Sherry Shi",
+        "Harini Sampath",
+        "Andrew Macvean"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "title": "Beyond PII: How Users Perceive and Attempt to Mitigate Implicit LLM Inference",
+      "url": "https://research.google/pubs/beyond-pii-how-users-perceive-and-attempt-to-mitigate-implicit-llm-inference/",
+      "report_urls": [
+        "https://dl.acm.org/doi/10.1145/3772318.3791762"
+      ],
+      "scope_status": "excluded",
+      "scope_reason": "User privacy-risk perception and rewrite survey; no new model method/theory/evaluation",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/beyond-pii-how-users-perceive-and-attempt-to-mitigate-implicit-llm-inference/"
+      ],
+      "decision": "excluded_scope",
+      "decision_reason": "User privacy-risk perception and rewrite survey; no new model method/theory/evaluation",
+      "date_lookup": {
+        "status": "unresolved",
+        "published_at": null,
+        "date_precision": null,
+        "date_source": null,
+        "first_publication_verified": false,
+        "publication_date_evidence": [],
+        "arxiv_search_status": "unavailable",
+        "report_urls": [
+          "https://dl.acm.org/doi/10.1145/3772318.3791762"
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "authors": [
+        "Synthia Wang",
+        "Sai Teja Peddinti",
+        "Nina Taft",
+        "Nick Feamster"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "title": "LLM-Powered Analysis of IoT User Reviews: Tracking and Ranking Security and Privacy Concerns",
+      "url": "https://research.google/pubs/llm-powered-analysis-of-iot-user-reviews-tracking-and-ranking-security-and-privacy-concerns/",
+      "report_urls": [
+        "https://ojs.aaai.org/index.php/ICWSM/article/view/42730"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": "Official manuscript/abstract describes an independently implemented or evaluated model/agent method, theory, or technical measurement",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/llm-powered-analysis-of-iot-user-reviews-tracking-and-ranking-security-and-privacy-concerns/"
+      ],
+      "decision": "outside_window",
+      "decision_reason": "A verified manuscript/repository/publisher release existed before the interval; a later conference appearance or revision is not first publication",
+      "date_lookup": {
+        "status": "verified_first_publication",
+        "published_at": "2026-01-01",
+        "date_precision": "day",
+        "date_source": "https://export.arxiv.org/api/query?search_query=ti%3A%22LLM-Powered+Analysis+of+IoT+User+Reviews%3A+Tracking+and+Ranking+Security+and+Privacy+Concerns%22&start=0&max_results=5",
+        "first_publication_verified": true,
+        "publication_date_evidence": [
+          {
+            "date": "2026-05-25",
+            "precision": "day",
+            "raw": "2026-05-25",
+            "source": "https://ojs.aaai.org/index.php/ICWSM/article/view/42730",
+            "field": "citation_date",
+            "kind": "publisher_publication"
+          },
+          {
+            "date": "2026-05-25",
+            "precision": "day",
+            "raw": "2026-05-25",
+            "source": "https://ojs.aaai.org/index.php/ICWSM/article/view/42730",
+            "field": "dc.date.issued",
+            "kind": "publisher_publication"
+          },
+          {
+            "date": "2026-01-01",
+            "precision": "day",
+            "raw": "2026-01-01T15:24:21Z",
+            "source": "https://export.arxiv.org/api/query?search_query=ti%3A%22LLM-Powered+Analysis+of+IoT+User+Reviews%3A+Tracking+and+Ranking+Security+and+Privacy+Concerns%22&start=0&max_results=5",
+            "field": "entry.published",
+            "kind": "arxiv_first_submission",
+            "title_match": "exact_normalized",
+            "authors": [
+              "Taufiq Islam Protick",
+              "Sai Teja Peddinti",
+              "Nina Taft",
+              "Anupam Das"
+            ]
+          }
+        ],
+        "arxiv_search_status": "exact_match",
+        "paper_id": "2601.00372",
+        "report_url": "https://arxiv.org/pdf/2601.00372v1",
+        "report_urls": [
+          "https://ojs.aaai.org/index.php/ICWSM/article/view/42730",
+          "https://arxiv.org/pdf/2601.00372v1"
+        ],
+        "arxiv_matches": [
+          {
+            "paper_id": "2601.00372",
+            "title": "LLM-Powered Analysis of IoT User Reviews: Tracking and Ranking Security and Privacy Concerns",
+            "authors": [
+              "Taufiq Islam Protick",
+              "Sai Teja Peddinti",
+              "Nina Taft",
+              "Anupam Das"
+            ],
+            "report_url": "https://arxiv.org/pdf/2601.00372v1",
+            "updated_at": "2026-01-01T15:24:21Z"
+          }
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "canonical_paper_title": "LLM-Powered Analysis of IoT User Reviews: Tracking and Ranking Security and Privacy Concerns",
+      "authors": [
+        "Taufiq Islam Protick",
+        "Sai Teja Peddinti",
+        "Nina Taft",
+        "Anupam Das"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "title": "Diffusion Controller: Framework, Algorithms and Parameterization",
+      "url": "https://research.google/pubs/diffusion-controller-framework-algorithms-and-parameterization/",
+      "report_urls": [],
+      "scope_status": "not_reviewed",
+      "scope_reason": "An explicit pre-window publication already excludes this record from the requested interval",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/diffusion-controller-framework-algorithms-and-parameterization/"
+      ],
+      "decision": "outside_window",
+      "decision_reason": "A verified manuscript/repository/publisher release existed before the interval; a later conference appearance or revision is not first publication",
+      "date_lookup": {
+        "status": "verified_first_publication",
+        "published_at": "2026-03-07",
+        "date_precision": "day",
+        "date_source": "https://export.arxiv.org/api/query?search_query=ti%3A%22Diffusion+Controller%3A+Framework%2C+Algorithms+and+Parameterization%22&start=0&max_results=5",
+        "first_publication_verified": true,
+        "publication_date_evidence": [
+          {
+            "date": "2026-03-07",
+            "precision": "day",
+            "raw": "2026-03-07T01:49:59Z",
+            "source": "https://export.arxiv.org/api/query?search_query=ti%3A%22Diffusion+Controller%3A+Framework%2C+Algorithms+and+Parameterization%22&start=0&max_results=5",
+            "field": "entry.published",
+            "kind": "arxiv_first_submission",
+            "title_match": "exact_normalized",
+            "authors": [
+              "Tong Yang",
+              "Moonkyung Ryu",
+              "Chih-Wei Hsu",
+              "Guy Tennenholtz",
+              "Yuejie Chi",
+              "Craig Boutilier",
+              "Bo Dai"
+            ]
+          }
+        ],
+        "arxiv_search_status": "exact_match",
+        "paper_id": "2603.06981",
+        "report_url": "https://arxiv.org/pdf/2603.06981v1",
+        "report_urls": [
+          "https://arxiv.org/pdf/2603.06981v1"
+        ],
+        "arxiv_matches": [
+          {
+            "paper_id": "2603.06981",
+            "title": "Diffusion Controller: Framework, Algorithms and Parameterization",
+            "authors": [
+              "Tong Yang",
+              "Moonkyung Ryu",
+              "Chih-Wei Hsu",
+              "Guy Tennenholtz",
+              "Yuejie Chi",
+              "Craig Boutilier",
+              "Bo Dai"
+            ],
+            "report_url": "https://arxiv.org/pdf/2603.06981v1",
+            "updated_at": "2026-03-07T01:49:59Z"
+          }
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "canonical_paper_title": "Diffusion Controller: Framework, Algorithms and Parameterization",
+      "authors": [
+        "Tong Yang",
+        "Moonkyung Ryu",
+        "Chih-wei Hsu",
+        "Guy Tennenholtz",
+        "Yuejie Chi",
+        "Craig Boutilier",
+        "Bo Dai"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "title": "Reinforcement Learning with Discrete Diffusion Policies for Combinatorial Action-Spaces",
+      "url": "https://research.google/pubs/reinforcement-learning-with-discrete-diffusion-policies-for-combinatorial-action-spaces/",
+      "report_urls": [],
+      "scope_status": "not_reviewed",
+      "scope_reason": "An explicit pre-window publication already excludes this record from the requested interval",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/reinforcement-learning-with-discrete-diffusion-policies-for-combinatorial-action-spaces/"
+      ],
+      "decision": "outside_window",
+      "decision_reason": "A verified manuscript/repository/publisher release existed before the interval; a later conference appearance or revision is not first publication",
+      "date_lookup": {
+        "status": "verified_first_publication",
+        "published_at": "2025-09-26",
+        "date_precision": "day",
+        "date_source": "https://export.arxiv.org/api/query?search_query=ti%3A%22Reinforcement+Learning+with+Discrete+Diffusion+Policies+for+Combinatorial+Action-Spaces%22&start=0&max_results=5",
+        "first_publication_verified": true,
+        "publication_date_evidence": [
+          {
+            "date": "2025-09-26",
+            "precision": "day",
+            "raw": "2025-09-26T21:53:36Z",
+            "source": "https://export.arxiv.org/api/query?search_query=ti%3A%22Reinforcement+Learning+with+Discrete+Diffusion+Policies+for+Combinatorial+Action-Spaces%22&start=0&max_results=5",
+            "field": "entry.published",
+            "kind": "arxiv_first_submission",
+            "title_match": "exact_normalized",
+            "authors": [
+              "Haitong Ma",
+              "Ofir Nabati",
+              "Aviv Rosenberg",
+              "Bo Dai",
+              "Oran Lang",
+              "Craig Boutilier",
+              "Na Li",
+              "Shie Mannor",
+              "Lior Shani",
+              "Guy Tenneholtz"
+            ]
+          }
+        ],
+        "arxiv_search_status": "exact_match",
+        "paper_id": "2509.22963",
+        "report_url": "https://arxiv.org/pdf/2509.22963v3",
+        "report_urls": [
+          "https://arxiv.org/pdf/2509.22963v3"
+        ],
+        "arxiv_matches": [
+          {
+            "paper_id": "2509.22963",
+            "title": "Reinforcement Learning with Discrete Diffusion Policies for Combinatorial Action Spaces",
+            "authors": [
+              "Haitong Ma",
+              "Ofir Nabati",
+              "Aviv Rosenberg",
+              "Bo Dai",
+              "Oran Lang",
+              "Craig Boutilier",
+              "Na Li",
+              "Shie Mannor",
+              "Lior Shani",
+              "Guy Tenneholtz"
+            ],
+            "report_url": "https://arxiv.org/pdf/2509.22963v3",
+            "updated_at": "2026-05-19T22:38:20Z"
+          }
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "canonical_paper_title": "Reinforcement Learning with Discrete Diffusion Policies for Combinatorial Action-Spaces",
+      "authors": [
+        "Haitong Ma",
+        "Ofir Nabati",
+        "Aviv Rosenberg",
+        "Bo Dai",
+        "Oran Lang",
+        "Craig Boutilier",
+        "Na Li",
+        "Shie Mannor",
+        "Lior Shani",
+        "Guy Tennenholtz"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "title": "Efficient, Property-Aligned Fan-Out Retrieval via RL-Compiled Diffusion",
+      "url": "https://research.google/pubs/efficient-property-aligned-fan-out-retrieval-via-rl-compiled-diffusion/",
+      "report_urls": [],
+      "scope_status": "eligible",
+      "scope_reason": "Official manuscript/abstract describes an independently implemented or evaluated model/agent method, theory, or technical measurement",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/efficient-property-aligned-fan-out-retrieval-via-rl-compiled-diffusion/"
+      ],
+      "decision": "outside_window",
+      "decision_reason": "A verified manuscript/repository/publisher release existed before the interval; a later conference appearance or revision is not first publication",
+      "date_lookup": {
+        "status": "verified_first_publication",
+        "published_at": "2026-03-06",
+        "date_precision": "day",
+        "date_source": "https://export.arxiv.org/api/query?search_query=ti%3A%22Efficient%2C+Property-Aligned+Fan-Out+Retrieval+via+RL-Compiled+Diffusion%22&start=0&max_results=5",
+        "first_publication_verified": true,
+        "publication_date_evidence": [
+          {
+            "date": "2026-03-06",
+            "precision": "day",
+            "raw": "2026-03-06T15:42:33Z",
+            "source": "https://export.arxiv.org/api/query?search_query=ti%3A%22Efficient%2C+Property-Aligned+Fan-Out+Retrieval+via+RL-Compiled+Diffusion%22&start=0&max_results=5",
+            "field": "entry.published",
+            "kind": "arxiv_first_submission",
+            "title_match": "exact_normalized",
+            "authors": [
+              "Pengcheng Jiang",
+              "Judith Yue Li",
+              "Moonkyung Ryu",
+              "R. Lily Hu",
+              "Kun Su",
+              "Zhong Yi Wan",
+              "Liam Hebert",
+              "Hao Peng",
+              "Jiawei Han",
+              "Dima Kuzmin",
+              "Craig Boutilier"
+            ]
+          }
+        ],
+        "arxiv_search_status": "exact_match",
+        "paper_id": "2603.06397",
+        "report_url": "https://arxiv.org/pdf/2603.06397v1",
+        "report_urls": [
+          "https://arxiv.org/pdf/2603.06397v1"
+        ],
+        "arxiv_matches": [
+          {
+            "paper_id": "2603.06397",
+            "title": "Efficient, Property-Aligned Fan-Out Retrieval via RL-Compiled Diffusion",
+            "authors": [
+              "Pengcheng Jiang",
+              "Judith Yue Li",
+              "Moonkyung Ryu",
+              "R. Lily Hu",
+              "Kun Su",
+              "Zhong Yi Wan",
+              "Liam Hebert",
+              "Hao Peng",
+              "Jiawei Han",
+              "Dima Kuzmin",
+              "Craig Boutilier"
+            ],
+            "report_url": "https://arxiv.org/pdf/2603.06397v1",
+            "updated_at": "2026-03-06T15:42:33Z"
+          }
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "authors": [
+        "Patrick Jiang",
+        "Judith Li",
+        "Moonkyung Ryu",
+        "Lily Hu",
+        "Kun Su",
+        "Zhong Yi Wan",
+        "Liam Hebert",
+        "Hao Peng",
+        "Jiawei Han",
+        "Dima Kuzmin",
+        "Craig Boutilier"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "title": "Understanding U.S. Users' Security and Privacy Transparency Needs for Consumer-Facing Generative AI",
+      "url": "https://research.google/pubs/understanding-us-users-security-and-privacy-transparency-needs-for-consumer-facing-generative-ai/",
+      "report_urls": [],
+      "scope_status": "excluded",
+      "scope_reason": "User interviews and transparency-design study; no independent model method/theory/evaluation",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/understanding-us-users-security-and-privacy-transparency-needs-for-consumer-facing-generative-ai/"
+      ],
+      "decision": "excluded_scope",
+      "decision_reason": "User interviews and transparency-design study; no independent model method/theory/evaluation",
+      "date_lookup": {
+        "status": "unresolved",
+        "published_at": null,
+        "date_precision": null,
+        "date_source": null,
+        "first_publication_verified": false,
+        "publication_date_evidence": [],
+        "arxiv_search_status": "unavailable",
+        "report_urls": []
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "authors": [
+        "Jiaxun Cao",
+        "Yu Dong",
+        "Chunxi Zhan",
+        "Rithvik Neti",
+        "Sai Teja Peddinti",
+        "Pardis Emami-Naeini"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "title": "What’s on My Network? Using Large Language Models to Identify Real-World IoT Devices at Scale",
+      "url": "https://research.google/pubs/whats-on-my-network-using-large-language-models-to-identify-real-world-iot-devices-at-scale/",
+      "report_urls": [],
+      "scope_status": "eligible",
+      "scope_reason": "Official manuscript/abstract describes an independently implemented or evaluated model/agent method, theory, or technical measurement",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/whats-on-my-network-using-large-language-models-to-identify-real-world-iot-devices-at-scale/"
+      ],
+      "decision": "outside_window",
+      "decision_reason": "A verified manuscript/repository/publisher release existed before the interval; a later conference appearance or revision is not first publication",
+      "date_lookup": {
+        "status": "verified_first_publication",
+        "published_at": "2025-09-24",
+        "date_precision": "day",
+        "date_source": "https://export.arxiv.org/api/query?search_query=ti%3A%22What%E2%80%99s+on+My+Network%3F+Using+Large+Language+Models+to+Identify+Real-World+IoT+Devices+at+Scale%22&start=0&max_results=5",
+        "first_publication_verified": true,
+        "publication_date_evidence": [
+          {
+            "date": "2025-09-24",
+            "precision": "day",
+            "raw": "2025-09-24T05:33:48Z",
+            "source": "https://export.arxiv.org/api/query?search_query=ti%3A%22What%E2%80%99s+on+My+Network%3F+Using+Large+Language+Models+to+Identify+Real-World+IoT+Devices+at+Scale%22&start=0&max_results=5",
+            "field": "entry.published",
+            "kind": "arxiv_first_submission",
+            "title_match": "exact_normalized",
+            "authors": [
+              "Rameen Mahmood",
+              "Tousif Ahmed",
+              "Sai Teja Peddinti",
+              "Danny Yuxing Huang"
+            ]
+          }
+        ],
+        "arxiv_search_status": "exact_match",
+        "paper_id": "2510.13817",
+        "report_url": "https://arxiv.org/pdf/2510.13817v2",
+        "report_urls": [
+          "https://arxiv.org/pdf/2510.13817v2"
+        ],
+        "arxiv_matches": [
+          {
+            "paper_id": "2510.13817",
+            "title": "What's on My Network? Using Large Language Models to Identify Real-World IoT Devices at Scale",
+            "authors": [
+              "Rameen Mahmood",
+              "Tousif Ahmed",
+              "Sai Teja Peddinti",
+              "Danny Yuxing Huang"
+            ],
+            "report_url": "https://arxiv.org/pdf/2510.13817v2",
+            "updated_at": "2026-07-08T17:47:16Z"
+          }
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "canonical_paper_title": "What’s on My Network? Using Large Language Models to Identify Real-World IoT Devices at Scale",
+      "authors": [
+        "Rameen Mahmood",
+        "Sai Teja Peddinti",
+        "Tousif Ahmed",
+        "Danny Yuxing Huang"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "title": "Generative AI Synthesis of Automated Interactions into a Structured Agent Briefing",
+      "url": "https://research.google/pubs/generative-ai-synthesis-of-automated-interactions-into-a-structured-agent-briefing/",
+      "report_urls": [
+        "https://www.tdcommons.org/dpubs_series/10338/"
+      ],
+      "scope_status": "excluded",
+      "scope_reason": "Pure defensive patent disclosure of a proposed escalation workflow; no theory or model/agent experiment/evaluation",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/generative-ai-synthesis-of-automated-interactions-into-a-structured-agent-briefing/"
+      ],
+      "decision": "excluded_scope",
+      "decision_reason": "Pure defensive patent disclosure of a proposed escalation workflow; no theory or model/agent experiment/evaluation",
+      "date_lookup": {
+        "status": "publisher_date_only",
+        "published_at": "2026-06-03",
+        "date_precision": "day",
+        "date_source": "https://www.tdcommons.org/dpubs_series/10338/",
+        "first_publication_verified": false,
+        "publication_date_evidence": [
+          {
+            "date": "2026-06-03",
+            "precision": "day",
+            "raw": "2026-06-03",
+            "source": "https://www.tdcommons.org/dpubs_series/10338/",
+            "field": "Recommended Citation publication date",
+            "kind": "repository_publication"
+          }
+        ],
+        "arxiv_search_status": "unavailable",
+        "report_urls": [
+          "https://www.tdcommons.org/dpubs_series/10338/"
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "authors": [
+        "Deep Raithatha",
+        "Tanmay Kayande"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "title": "When Backdoors Go Beyond Triggers: Semantic Drift in Diffusion Models Under Encoder Attacks",
+      "url": "https://research.google/pubs/when-backdoors-go-beyond-triggers-semantic-drift-in-diffusion-models-under-encoder-attacks/",
+      "report_urls": [
+        "https://aclanthology.org/2026.findings-acl.1421/"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": "Official manuscript/abstract describes an independently implemented or evaluated model/agent method, theory, or technical measurement",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/when-backdoors-go-beyond-triggers-semantic-drift-in-diffusion-models-under-encoder-attacks/"
+      ],
+      "decision": "outside_window",
+      "decision_reason": "A verified manuscript/repository/publisher release existed before the interval; a later conference appearance or revision is not first publication",
+      "date_lookup": {
+        "status": "verified_first_publication",
+        "published_at": "2026-02-21",
+        "date_precision": "day",
+        "date_source": "https://export.arxiv.org/api/query?search_query=ti%3A%22When+Backdoors+Go+Beyond+Triggers%3A+Semantic+Drift+in+Diffusion+Models+Under+Encoder+Attacks%22&start=0&max_results=5",
+        "first_publication_verified": true,
+        "publication_date_evidence": [
+          {
+            "date": "2026-07",
+            "precision": "month",
+            "raw": "2026-7",
+            "source": "https://aclanthology.org/2026.findings-acl.1421/",
+            "field": "citation_publication_date",
+            "kind": "publisher_publication"
+          },
+          {
+            "date": "2026-02-21",
+            "precision": "day",
+            "raw": "2026-02-21T23:48:04Z",
+            "source": "https://export.arxiv.org/api/query?search_query=ti%3A%22When+Backdoors+Go+Beyond+Triggers%3A+Semantic+Drift+in+Diffusion+Models+Under+Encoder+Attacks%22&start=0&max_results=5",
+            "field": "entry.published",
+            "kind": "arxiv_first_submission",
+            "title_match": "exact_normalized",
+            "authors": [
+              "Shenyang Chen",
+              "Liuwan Zhu"
+            ]
+          }
+        ],
+        "arxiv_search_status": "exact_match",
+        "paper_id": "2602.20193",
+        "report_url": "https://arxiv.org/pdf/2602.20193v1",
+        "report_urls": [
+          "https://aclanthology.org/2026.findings-acl.1421/",
+          "https://arxiv.org/pdf/2602.20193v1"
+        ],
+        "arxiv_matches": [
+          {
+            "paper_id": "2602.20193",
+            "title": "When Backdoors Go Beyond Triggers: Semantic Drift in Diffusion Models Under Encoder Attacks",
+            "authors": [
+              "Shenyang Chen",
+              "Liuwan Zhu"
+            ],
+            "report_url": "https://arxiv.org/pdf/2602.20193v1",
+            "updated_at": "2026-02-21T23:48:04Z"
+          }
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "canonical_paper_title": "When Backdoors Go Beyond Triggers: Semantic Drift in Diffusion Models Under Encoder Attacks",
+      "authors": [
+        "Shenyang Chen"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "title": "From Silicon to Boardroom: A Multivocal Survey of the Techno-Economic Layers Governing Generative AI Monetization",
+      "url": "https://research.google/pubs/from-silicon-to-boardroom-a-multivocal-survey-of-the-techno-economic-layers-governing-generative-ai-monetization/",
+      "report_urls": [
+        "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7061660"
+      ],
+      "scope_status": "excluded",
+      "scope_reason": "Techno-economic literature survey on AI pricing/monetization; no model method/theory/evaluation",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/from-silicon-to-boardroom-a-multivocal-survey-of-the-techno-economic-layers-governing-generative-ai-monetization/"
+      ],
+      "decision": "excluded_scope",
+      "decision_reason": "Techno-economic literature survey on AI pricing/monetization; no model method/theory/evaluation",
+      "date_lookup": {
+        "status": "unresolved",
+        "published_at": null,
+        "date_precision": null,
+        "date_source": null,
+        "first_publication_verified": false,
+        "publication_date_evidence": [],
+        "arxiv_search_status": "unavailable",
+        "report_urls": [
+          "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7061660"
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "authors": [
+        "Vipin Singh",
+        "Susmita Singh",
+        "Mrinal Ahlawat"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "title": "Co-RedTeam: Orchestrated Security Discovery and Exploitation with LLM Agents",
+      "url": "https://research.google/pubs/co-redteam-orchestrated-security-discovery-and-exploitation-with-llm-agents/",
+      "report_urls": [],
+      "scope_status": "eligible",
+      "scope_reason": "Official manuscript/abstract describes an independently implemented or evaluated model/agent method, theory, or technical measurement",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/co-redteam-orchestrated-security-discovery-and-exploitation-with-llm-agents/"
+      ],
+      "decision": "outside_window",
+      "decision_reason": "A verified manuscript/repository/publisher release existed before the interval; a later conference appearance or revision is not first publication",
+      "date_lookup": {
+        "status": "verified_first_publication",
+        "published_at": "2026-02-02",
+        "date_precision": "day",
+        "date_source": "https://export.arxiv.org/api/query?search_query=%28ti%3A%22Co-RedTeam%22+OR+ti%3A%22Code-RedTeam%22%29&start=0&max_results=20",
+        "first_publication_verified": true,
+        "publication_date_evidence": [
+          {
+            "date": "2026-02-02",
+            "precision": "day",
+            "raw": "2026-02-02T14:38:45Z",
+            "source": "https://export.arxiv.org/api/query?search_query=%28ti%3A%22Co-RedTeam%22+OR+ti%3A%22Code-RedTeam%22%29&start=0&max_results=20",
+            "field": "entry.published",
+            "kind": "arxiv_first_submission",
+            "title_match": "exact_normalized",
+            "authors": [
+              "Pengfei He",
+              "Ash Fox",
+              "Lesly Miculicich",
+              "Stefan Friedli",
+              "Daniel Fabian",
+              "Burak Gokturk",
+              "Jiliang Tang",
+              "Chen-Yu Lee",
+              "Tomas Pfister",
+              "Long T. Le"
+            ]
+          }
+        ],
+        "arxiv_search_status": "exact_match",
+        "paper_id": "2602.02164",
+        "report_url": "https://arxiv.org/pdf/2602.02164v2",
+        "report_urls": [],
+        "arxiv_matches": [
+          {
+            "paper_id": "2602.02164",
+            "title": "Co-RedTeam: Orchestrated Security Discovery and Exploitation with LLM Agents",
+            "authors": [
+              "Pengfei He",
+              "Ash Fox",
+              "Lesly Miculicich",
+              "Stefan Friedli",
+              "Daniel Fabian",
+              "Burak Gokturk",
+              "Jiliang Tang",
+              "Chen-Yu Lee",
+              "Tomas Pfister",
+              "Long T. Le"
+            ],
+            "report_url": "https://arxiv.org/pdf/2602.02164v2",
+            "updated_at": "2026-02-03T20:29:37Z"
+          }
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "canonical_paper_title": "Co-RedTeam: Orchestrated Security Discovery and Exploitation with LLM Agents",
+      "authors": [
+        "Pengfei He",
+        "Ash Fox",
+        "Lesly Miculicich",
+        "Stefan Friedli",
+        "Daniel Fabian",
+        "Burak Gokturk",
+        "Jiliang Tang",
+        "Chen-Yu Lee",
+        "Tomas Pfister",
+        "Long Le"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "title": "Efficient, Property-Aligned Fan-Out Retrieval via RL-Compiled Diffusion",
+      "url": "https://research.google/pubs/efficient-property-aligned-fan-out-retrieval-via-rl-compiled-diffusion-2/",
+      "report_urls": [
+        "https://openreview.net/forum?id=4P9cEcinYP"
+      ],
+      "scope_status": "duplicate",
+      "scope_reason": "Exact first publication outside the requested interval or already separately reviewed/acquired",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/efficient-property-aligned-fan-out-retrieval-via-rl-compiled-diffusion-2/"
+      ],
+      "decision": "duplicate",
+      "decision_reason": "Same verified arXiv paper identity as Google index26; both records refer to the March 6 first manuscript, outside the interval",
+      "date_lookup": {
+        "status": "verified_first_publication",
+        "published_at": "2026-03-06",
+        "date_precision": "day",
+        "date_source": "https://export.arxiv.org/api/query?search_query=ti%3A%22Efficient%2C+Property-Aligned+Fan-Out+Retrieval+via+RL-Compiled+Diffusion%22&start=0&max_results=5",
+        "first_publication_verified": true,
+        "publication_date_evidence": [
+          {
+            "date": "2026-03-06",
+            "precision": "day",
+            "raw": "2026-03-06T15:42:33Z",
+            "source": "https://export.arxiv.org/api/query?search_query=ti%3A%22Efficient%2C+Property-Aligned+Fan-Out+Retrieval+via+RL-Compiled+Diffusion%22&start=0&max_results=5",
+            "field": "entry.published",
+            "kind": "arxiv_first_submission",
+            "title_match": "exact_normalized",
+            "authors": [
+              "Pengcheng Jiang",
+              "Judith Yue Li",
+              "Moonkyung Ryu",
+              "R. Lily Hu",
+              "Kun Su",
+              "Zhong Yi Wan",
+              "Liam Hebert",
+              "Hao Peng",
+              "Jiawei Han",
+              "Dima Kuzmin",
+              "Craig Boutilier"
+            ]
+          }
+        ],
+        "arxiv_search_status": "exact_match",
+        "paper_id": "2603.06397",
+        "report_url": "https://arxiv.org/pdf/2603.06397v1",
+        "report_urls": [
+          "https://openreview.net/forum?id=4P9cEcinYP",
+          "https://arxiv.org/pdf/2603.06397v1"
+        ],
+        "arxiv_matches": [
+          {
+            "paper_id": "2603.06397",
+            "title": "Efficient, Property-Aligned Fan-Out Retrieval via RL-Compiled Diffusion",
+            "authors": [
+              "Pengcheng Jiang",
+              "Judith Yue Li",
+              "Moonkyung Ryu",
+              "R. Lily Hu",
+              "Kun Su",
+              "Zhong Yi Wan",
+              "Liam Hebert",
+              "Hao Peng",
+              "Jiawei Han",
+              "Dima Kuzmin",
+              "Craig Boutilier"
+            ],
+            "report_url": "https://arxiv.org/pdf/2603.06397v1",
+            "updated_at": "2026-03-06T15:42:33Z"
+          }
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "duplicate_of": "https://research.google/pubs/efficient-property-aligned-fan-out-retrieval-via-rl-compiled-diffusion/"
+    },
+    {
+      "vendor": "Google",
+      "title": "PoTRE: Test-Time Reasoning inspired by Cognitive Heterogeneity",
+      "url": "https://research.google/pubs/potre-test-time-reasoning-inspired-by-cognitive-heterogeneity/",
+      "report_urls": [
+        "https://openreview.net/pdf?id=wApf83NZmh"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": "Independent LLM reasoning/evaluation method; complete original separately acquired",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/potre-test-time-reasoning-inspired-by-cognitive-heterogeneity/"
+      ],
+      "decision": "ready",
+      "decision_reason": "Exact arXiv first publication within interval; complete original acquired and reading handoff frozen",
+      "date_lookup": {
+        "status": "verified_first_publication",
+        "published_at": "2026-07-22",
+        "date_precision": "day",
+        "date_source": "https://export.arxiv.org/api/query?search_query=ti%3A%22PoTRE%3A+Test-Time+Reasoning+inspired+by+Cognitive+Heterogeneity%22&start=0&max_results=5",
+        "first_publication_verified": true,
+        "publication_date_evidence": [
+          {
+            "date": "2026-07-22",
+            "precision": "day",
+            "raw": "2026-07-22T15:20:53Z",
+            "source": "https://export.arxiv.org/api/query?search_query=ti%3A%22PoTRE%3A+Test-Time+Reasoning+inspired+by+Cognitive+Heterogeneity%22&start=0&max_results=5",
+            "field": "entry.published",
+            "kind": "arxiv_first_submission",
+            "title_match": "exact_normalized",
+            "authors": [
+              "Anmol Kankariya",
+              "Sercan Ö. Arık"
+            ]
+          }
+        ],
+        "arxiv_search_status": "exact_match",
+        "paper_id": "2607.20268",
+        "report_url": "https://arxiv.org/pdf/2607.20268v1",
+        "report_urls": [
+          "https://openreview.net/pdf?id=wApf83NZmh",
+          "https://arxiv.org/pdf/2607.20268v1"
+        ],
+        "arxiv_matches": [
+          {
+            "paper_id": "2607.20268",
+            "title": "PoTRE: Test-Time Reasoning inspired by Cognitive Heterogeneity",
+            "authors": [
+              "Anmol Kankariya",
+              "Sercan Ö. Arık"
+            ],
+            "report_url": "https://arxiv.org/pdf/2607.20268v1",
+            "updated_at": "2026-07-22T15:20:53Z"
+          }
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00"
+    },
+    {
+      "vendor": "Google",
+      "title": "``AI is (not) the new...\": A Diagnostic Analogy Framework for Generative AI's Cultural Impacts",
+      "url": "https://research.google/pubs/ai-is-not-the-new-a-diagnostic-analogy-framework-for-generative-ais-cultural-impacts/",
+      "report_urls": [],
+      "scope_status": "excluded",
+      "scope_reason": "Cultural/epistemic analogy and governance framework; no model/agent technical method, formal model theory or direct model evaluation",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/ai-is-not-the-new-a-diagnostic-analogy-framework-for-generative-ais-cultural-impacts/"
+      ],
+      "decision": "excluded_scope",
+      "decision_reason": "Cultural/epistemic analogy and governance framework; no model/agent technical method, formal model theory or direct model evaluation",
+      "date_lookup": {
+        "status": "unresolved",
+        "published_at": null,
+        "date_precision": null,
+        "date_source": null,
+        "first_publication_verified": false,
+        "publication_date_evidence": [],
+        "arxiv_search_status": "no_exact_match",
+        "report_urls": []
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "authors": [
+        "Rida Qadri",
+        "Vinodkumar Prabhakaran",
+        "Remi Denton"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "title": "DocLens: A Tool-Augmented Multi-Agent Framework for Long Visual Document Understanding",
+      "url": "https://research.google/pubs/doclens-a-tool-augmented-multi-agent-framework-for-long-visual-document-understanding/",
+      "report_urls": [],
+      "scope_status": "not_reviewed",
+      "scope_reason": "Exact first publication outside the requested interval or already separately reviewed/acquired",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/doclens-a-tool-augmented-multi-agent-framework-for-long-visual-document-understanding/"
+      ],
+      "decision": "outside_window",
+      "decision_reason": "Verified manuscript first public release predates 2026-04-02; later publisher/conference appearance or current-version modification is not initial publication",
+      "date_lookup": {
+        "status": "verified_first_publication",
+        "published_at": "2025-11-14",
+        "date_precision": "day",
+        "date_source": "https://export.arxiv.org/api/query?search_query=ti%3A%22DocLens%3A+A+Tool-Augmented+Multi-Agent+Framework+for+Long+Visual+Document+Understanding%22&start=0&max_results=5",
+        "first_publication_verified": true,
+        "publication_date_evidence": [
+          {
+            "date": "2025-11-14",
+            "precision": "day",
+            "raw": "2025-11-14T18:42:18Z",
+            "source": "https://export.arxiv.org/api/query?search_query=ti%3A%22DocLens%3A+A+Tool-Augmented+Multi-Agent+Framework+for+Long+Visual+Document+Understanding%22&start=0&max_results=5",
+            "field": "entry.published",
+            "kind": "arxiv_first_submission",
+            "title_match": "exact_normalized",
+            "authors": [
+              "Dawei Zhu",
+              "Rui Meng",
+              "Jiefeng Chen",
+              "Sujian Li",
+              "Tomas Pfister",
+              "Jinsung Yoon"
+            ]
+          }
+        ],
+        "arxiv_search_status": "exact_match",
+        "paper_id": "2511.11552",
+        "report_url": "https://arxiv.org/pdf/2511.11552v1",
+        "report_urls": [
+          "https://arxiv.org/pdf/2511.11552v1"
+        ],
+        "arxiv_matches": [
+          {
+            "paper_id": "2511.11552",
+            "title": "DocLens : A Tool-Augmented Multi-Agent Framework for Long Visual Document Understanding",
+            "authors": [
+              "Dawei Zhu",
+              "Rui Meng",
+              "Jiefeng Chen",
+              "Sujian Li",
+              "Tomas Pfister",
+              "Jinsung Yoon"
+            ],
+            "report_url": "https://arxiv.org/pdf/2511.11552v1",
+            "updated_at": "2025-11-14T18:42:18Z"
+          }
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00"
+    },
+    {
+      "vendor": "Google",
+      "title": "A Theoretical Framework for Modular Learning of Robust Generative Models",
+      "url": "https://research.google/pubs/a-theoretical-framework-for-modular-learning-of-robust-generative-models/",
+      "report_urls": [
+        "https://openreview.net/pdf?id=ToCArdndt6"
+      ],
+      "scope_status": "not_reviewed",
+      "scope_reason": "Exact first publication outside the requested interval or already separately reviewed/acquired",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/a-theoretical-framework-for-modular-learning-of-robust-generative-models/"
+      ],
+      "decision": "outside_window",
+      "decision_reason": "Verified manuscript first public release predates 2026-04-02; later publisher/conference appearance or current-version modification is not initial publication",
+      "date_lookup": {
+        "status": "verified_first_publication",
+        "published_at": "2026-02-19",
+        "date_precision": "day",
+        "date_source": "https://export.arxiv.org/api/query?search_query=ti%3A%22A+Theoretical+Framework+for+Modular+Learning+of+Robust+Generative+Models%22&start=0&max_results=5",
+        "first_publication_verified": true,
+        "publication_date_evidence": [
+          {
+            "date": "2026-02-19",
+            "precision": "day",
+            "raw": "2026-02-19T17:09:13Z",
+            "source": "https://export.arxiv.org/api/query?search_query=ti%3A%22A+Theoretical+Framework+for+Modular+Learning+of+Robust+Generative+Models%22&start=0&max_results=5",
+            "field": "entry.published",
+            "kind": "arxiv_first_submission",
+            "title_match": "exact_normalized",
+            "authors": [
+              "Corinna Cortes",
+              "Mehryar Mohri",
+              "Yutao Zhong"
+            ]
+          }
+        ],
+        "arxiv_search_status": "exact_match",
+        "paper_id": "2602.17554",
+        "report_url": "https://arxiv.org/pdf/2602.17554v3",
+        "report_urls": [
+          "https://openreview.net/pdf?id=ToCArdndt6",
+          "https://arxiv.org/pdf/2602.17554v3"
+        ],
+        "arxiv_matches": [
+          {
+            "paper_id": "2602.17554",
+            "title": "A Theoretical Framework for Modular Learning of Robust Generative Models",
+            "authors": [
+              "Corinna Cortes",
+              "Mehryar Mohri",
+              "Yutao Zhong"
+            ],
+            "report_url": "https://arxiv.org/pdf/2602.17554v3",
+            "updated_at": "2026-08-11T20:24:29Z"
+          }
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00"
+    },
+    {
+      "vendor": "Google",
+      "title": "Scalable Detection of Adversarial Synthetic Slop and Coordinated Media Abuse: A LoRA-Enabled Multimodal Defense System",
+      "url": "https://research.google/pubs/scalable-detection-of-adversarial-synthetic-slop-and-coordinated-media-abuse-a-lora-enabled-multimodal-defense-system-2/",
+      "report_urls": [],
+      "scope_status": "eligible",
+      "scope_reason": "New LoRA/APO-enhanced multimodal abuse-detection pipeline with 16250-channel evaluation, false-positive and routing metrics",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/scalable-detection-of-adversarial-synthetic-slop-and-coordinated-media-abuse-a-lora-enabled-multimodal-defense-system-2/"
+      ],
+      "decision": "pending_exact_publication_date_and_original",
+      "decision_reason": "Exact initial public release remains unverified; official source only gives 2026 year and exact-title arXiv lookup returned no matching manuscript. New LoRA/APO-enhanced multimodal abuse-detection pipeline with 16250-channel evaluation, false-positive and routing metrics",
+      "date_lookup": {
+        "status": "unresolved",
+        "published_at": null,
+        "date_precision": null,
+        "date_source": null,
+        "first_publication_verified": false,
+        "publication_date_evidence": [],
+        "arxiv_search_status": "no_exact_match",
+        "report_urls": []
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "authors": [
+        "Abhinav Mathur",
+        "Yifei Liu",
+        "Kelvin Tan",
+        "Claire Liu"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "title": "Scalable Detection of Adversarial Synthetic Slop and Coordinated Media Abuse: A LoRA-Enabled Multimodal Defense System",
+      "url": "https://research.google/pubs/scalable-detection-of-adversarial-synthetic-slop-and-coordinated-media-abuse-a-lora-enabled-multimodal-defense-system-3/",
+      "report_urls": [],
+      "scope_status": "duplicate",
+      "scope_reason": "Same full official title, same four-author list, and identical normalized abstract as index38; cosmetic line-hyphenation only",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/scalable-detection-of-adversarial-synthetic-slop-and-coordinated-media-abuse-a-lora-enabled-multimodal-defense-system-3/"
+      ],
+      "decision": "duplicate",
+      "decision_reason": "Repeated Google Research record of the same independently described LoRA detection system; initial date/complete original remain unresolved on primary record",
+      "date_lookup": {
+        "status": "unresolved",
+        "published_at": null,
+        "date_precision": null,
+        "date_source": null,
+        "first_publication_verified": false,
+        "publication_date_evidence": [],
+        "arxiv_search_status": "no_exact_match",
+        "report_urls": []
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "authors": [
+        "Abhinav Mathur",
+        "Yifei Liu",
+        "Kelvin Tan",
+        "Claire Liu"
+      ],
+      "duplicate_of": "https://research.google/pubs/scalable-detection-of-adversarial-synthetic-slop-and-coordinated-media-abuse-a-lora-enabled-multimodal-defense-system-2/"
+    },
+    {
+      "vendor": "Google",
+      "title": "Lessons learned from building an agent to convert the R Forecast Package into a JAX api",
+      "url": "https://research.google/pubs/lessons-learned-from-building-an-agent-to-convert-the-r-forecast-package-into-a-jax-api/",
+      "report_urls": [],
+      "scope_status": "eligible",
+      "scope_reason": "Implemented LLM-agent R/C++ to JAX/PAX code-conversion pipeline, experiments on TBATs/auto.arima/ETS, and reusable skills artifact",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/lessons-learned-from-building-an-agent-to-convert-the-r-forecast-package-into-a-jax-api/"
+      ],
+      "decision": "pending_exact_publication_date_and_original",
+      "decision_reason": "Exact initial public release remains unverified; official source only gives 2026 year and exact-title arXiv lookup returned no matching manuscript. Implemented LLM-agent R/C++ to JAX/PAX code-conversion pipeline, experiments on TBATs/auto.arima/ETS, and reusable skills artifact",
+      "date_lookup": {
+        "status": "unresolved",
+        "published_at": null,
+        "date_precision": null,
+        "date_source": null,
+        "first_publication_verified": false,
+        "publication_date_evidence": [],
+        "arxiv_search_status": "no_exact_match",
+        "report_urls": []
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "authors": [
+        "Anna Novakovska",
+        "Dennis Kashkin",
+        "Skander Hannachi",
+        "Jasmeet Bhatia"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "title": "Scalable Detection of Adversarial Synthetic Slop and Coordinated Media Abuse: A LoRA-Enabled Multimodal Defense System",
+      "url": "https://research.google/pubs/scalable-detection-of-adversarial-synthetic-slop-and-coordinated-media-abuse-a-lora-enabled-multimodal-defense-system-4/",
+      "report_urls": [],
+      "scope_status": "duplicate",
+      "scope_reason": "Same full official title, same four-author list, and identical normalized abstract as index38; cosmetic line-hyphenation only",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/scalable-detection-of-adversarial-synthetic-slop-and-coordinated-media-abuse-a-lora-enabled-multimodal-defense-system-4/"
+      ],
+      "decision": "duplicate",
+      "decision_reason": "Repeated Google Research record of the same independently described LoRA detection system; initial date/complete original remain unresolved on primary record",
+      "date_lookup": {
+        "status": "unresolved",
+        "published_at": null,
+        "date_precision": null,
+        "date_source": null,
+        "first_publication_verified": false,
+        "publication_date_evidence": [],
+        "arxiv_search_status": "no_exact_match",
+        "report_urls": []
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "authors": [
+        "Abhinav Mathur",
+        "Yifei Liu",
+        "Kelvin Tan",
+        "Claire Liu"
+      ],
+      "duplicate_of": "https://research.google/pubs/scalable-detection-of-adversarial-synthetic-slop-and-coordinated-media-abuse-a-lora-enabled-multimodal-defense-system-2/"
+    },
+    {
+      "vendor": "Google",
+      "title": "Generational differences in anthropomorphism and trust calibration for large language models",
+      "url": "https://research.google/pubs/generational-differences-in-anthropomorphism-and-trust-calibration-for-large-language-models/",
+      "report_urls": [
+        "https://www.frontiersin.org/journals/cognition/articles/10.3389/fcogn.2026.1824836/full"
+      ],
+      "scope_status": "excluded",
+      "scope_reason": "Human generation/anthropomorphism/trust study using a pseudo-LLM and predetermined responses; no model/agent technical method or model performance study",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/generational-differences-in-anthropomorphism-and-trust-calibration-for-large-language-models/"
+      ],
+      "decision": "excluded_scope",
+      "decision_reason": "Human generation/anthropomorphism/trust study using a pseudo-LLM and predetermined responses; no model/agent technical method or model performance study",
+      "date_lookup": {
+        "status": "unresolved",
+        "published_at": null,
+        "date_precision": null,
+        "date_source": null,
+        "first_publication_verified": false,
+        "publication_date_evidence": [],
+        "arxiv_search_status": "no_exact_match",
+        "report_urls": [
+          "https://www.frontiersin.org/journals/cognition/articles/10.3389/fcogn.2026.1824836/full"
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "authors": [
+        "Michelle Cohn",
+        "Mahima Pushkarna",
+        "Mark Díaz",
+        "Joscelin Cooper",
+        "Femi Olanubi",
+        "Joe Moran",
+        "Zion Mengesha",
+        "Courtney Heldreth"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "title": "Inference Perf: A Benchmarking Tool for GenAI Inference",
+      "url": "https://research.google/pubs/inference-perf-a-benchmarking-tool-for-genai-inference/",
+      "report_urls": [
+        "https://joss.theoj.org/papers/10.21105/joss.10314.pdf"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": "Independent LLM inference benchmarking software paper; outside interval due to public proof available by March27",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/inference-perf-a-benchmarking-tool-for-genai-inference/"
+      ],
+      "decision": "outside_window",
+      "decision_reason": "Official JOSS page links its public paper-review thread; that title-matched thread publicly posted a Download article proof PDF link on 2026-03-27 before the audit interval. The comment was not subsequently edited. Therefore first full public release is no later than this date; 2026-08-27 is later journal final publication. Submission date or GitHub repository/commit timestamps are not used.",
+      "date_lookup": {
+        "status": "publisher_date_only",
+        "published_at": "2026-08-27",
+        "date_precision": "day",
+        "date_source": "https://api.crossref.org/works/10.21105%2Fjoss.10314",
+        "first_publication_verified": false,
+        "publication_date_evidence": [
+          {
+            "date": "2026-08-27",
+            "precision": "day",
+            "raw": "2026-08-27",
+            "source": "https://api.crossref.org/works/10.21105%2Fjoss.10314",
+            "field": "published-print",
+            "kind": "publisher_publication"
+          },
+          {
+            "date": "2026-08-27",
+            "precision": "day",
+            "raw": "2026-08-27",
+            "source": "https://api.crossref.org/works/10.21105%2Fjoss.10314",
+            "field": "published",
+            "kind": "publisher_publication"
+          },
+          {
+            "date": "2026-08-27",
+            "precision": "day",
+            "raw": "2026-08-27",
+            "source": "https://api.crossref.org/works/10.21105%2Fjoss.10314",
+            "field": "issued",
+            "kind": "publisher_publication"
+          }
+        ],
+        "arxiv_search_status": "no_exact_match",
+        "report_urls": [
+          "https://joss.theoj.org/papers/10.21105/joss.10314.pdf"
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "authors": [
+        "Ashok Chandrasekar",
+        "Sachin Varghese",
+        "Jason Kramberger",
+        "Brendan Slabe",
+        "Chen Wang",
+        "Yuan Tang"
+      ],
+      "first_publication_upper_bound": "2026-03-27",
+      "date_bound_evidence": [
+        {
+          "source": "https://github.com/openjournals/joss-reviews/issues/10314#issuecomment-4145563023",
+          "field": "unedited_public_comment_created_at_with_article_proof_link",
+          "raw": "2026-03-27T21:54:28Z",
+          "date": "2026-03-27",
+          "precision": "day",
+          "kind": "public_manuscript_available_by",
+          "proof_url": "https://raw.githubusercontent.com/openjournals/joss-papers/joss.10314/joss.10314/10.21105.joss.10314.pdf",
+          "comment_created_at": "2026-03-27T21:54:28Z",
+          "comment_updated_at": "2026-03-27T21:54:28Z",
+          "title_identity_source": "https://github.com/openjournals/joss-reviews/issues/10314",
+          "title_identity": "[REVIEW]: Inference Perf: A Benchmarking Tool for GenAI Inference"
+        }
+      ]
+    },
+    {
+      "vendor": "Google",
+      "title": "TFRBench: A Reasoning Benchmark for Evaluating Forecasting Systems",
+      "url": "https://research.google/pubs/tfrbench-a-reasoning-benchmark-for-evaluating-forecasting-systems/",
+      "report_urls": [
+        "https://openreview.net/forum?id=3ExTD9F0u1"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": "Independent LLM reasoning/evaluation method; complete original separately acquired",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/tfrbench-a-reasoning-benchmark-for-evaluating-forecasting-systems/"
+      ],
+      "decision": "ready",
+      "decision_reason": "Exact arXiv first publication within interval; complete original acquired and reading handoff frozen",
+      "date_lookup": {
+        "status": "verified_first_publication",
+        "published_at": "2026-04-07",
+        "date_precision": "day",
+        "date_source": "https://export.arxiv.org/api/query?search_query=ti%3A%22TFRBench%3A+A+Reasoning+Benchmark+for+Evaluating+Forecasting+Systems%22&start=0&max_results=5",
+        "first_publication_verified": true,
+        "publication_date_evidence": [
+          {
+            "date": "2026-04-07",
+            "precision": "day",
+            "raw": "2026-04-07T03:04:45Z",
+            "source": "https://export.arxiv.org/api/query?search_query=ti%3A%22TFRBench%3A+A+Reasoning+Benchmark+for+Evaluating+Forecasting+Systems%22&start=0&max_results=5",
+            "field": "entry.published",
+            "kind": "arxiv_first_submission",
+            "title_match": "exact_normalized",
+            "authors": [
+              "Md Atik Ahamed",
+              "Mihir Parmar",
+              "Palash Goyal",
+              "Yiwen Song",
+              "Long T. Le",
+              "Qiang Cheng",
+              "Chun-Liang Li",
+              "Hamid Palangi",
+              "Jinsung Yoon",
+              "Tomas Pfister"
+            ]
+          }
+        ],
+        "arxiv_search_status": "exact_match",
+        "paper_id": "2604.05364",
+        "report_url": "https://arxiv.org/pdf/2604.05364v1",
+        "report_urls": [
+          "https://openreview.net/forum?id=3ExTD9F0u1",
+          "https://arxiv.org/pdf/2604.05364v1"
+        ],
+        "arxiv_matches": [
+          {
+            "paper_id": "2604.05364",
+            "title": "TFRBench: A Reasoning Benchmark for Evaluating Forecasting Systems",
+            "authors": [
+              "Md Atik Ahamed",
+              "Mihir Parmar",
+              "Palash Goyal",
+              "Yiwen Song",
+              "Long T. Le",
+              "Qiang Cheng",
+              "Chun-Liang Li",
+              "Hamid Palangi",
+              "Jinsung Yoon",
+              "Tomas Pfister"
+            ],
+            "report_url": "https://arxiv.org/pdf/2604.05364v1",
+            "updated_at": "2026-04-07T03:04:45Z"
+          }
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00"
+    },
+    {
+      "vendor": "Google",
+      "title": "OpenClaw in the Wild: Security Analysis of Autonomous Agents",
+      "url": "https://research.google/pubs/openclaw-in-the-wild-security-analysis-of-autonomous-agents/",
+      "report_urls": [
+        "https://ieeexplore.ieee.org/abstract/document/11595140"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": "Independent autonomous-agent lifecycle security/trust-boundary framework analyzing prompt injection, memory poisoning, tool execution and supply-chain threats",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/openclaw-in-the-wild-security-analysis-of-autonomous-agents/"
+      ],
+      "decision": "pending_exact_publication_date_and_original",
+      "decision_reason": "Exact initial public release remains unverified; official source only gives 2026 year and exact-title arXiv lookup returned no matching manuscript. Independent autonomous-agent lifecycle security/trust-boundary framework analyzing prompt injection, memory poisoning, tool execution and supply-chain threats",
+      "date_lookup": {
+        "status": "unresolved",
+        "published_at": null,
+        "date_precision": null,
+        "date_source": null,
+        "first_publication_verified": false,
+        "publication_date_evidence": [],
+        "arxiv_search_status": "no_exact_match",
+        "report_urls": [
+          "https://ieeexplore.ieee.org/abstract/document/11595140"
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "authors": [
+        "Wanlun Ma",
+        "Qing-Long Han",
+        "Xiaogang Zhu",
+        "Wei Zhou",
+        "Junwu Xiong",
+        "Peter Ren",
+        "Sheng Wen",
+        "Yang Xiang"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "title": "Theoretical Perspectives on Data Quality and Synergistic Effects in Pre- and Post-Training Reasoning Models",
+      "url": "https://research.google/pubs/theoretical-perspectives-on-data-quality-and-synergistic-effects-in-pre-and-post-training-reasoning-models/",
+      "report_urls": [
+        "https://openreview.net/pdf?id=URIdUFsz9E"
+      ],
+      "scope_status": "not_reviewed",
+      "scope_reason": "Exact first publication outside the requested interval or already separately reviewed/acquired",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/theoretical-perspectives-on-data-quality-and-synergistic-effects-in-pre-and-post-training-reasoning-models/"
+      ],
+      "decision": "outside_window",
+      "decision_reason": "Verified manuscript first public release predates 2026-04-02; later publisher/conference appearance or current-version modification is not initial publication",
+      "date_lookup": {
+        "status": "verified_first_publication",
+        "published_at": "2026-03-01",
+        "date_precision": "day",
+        "date_source": "https://export.arxiv.org/api/query?search_query=ti%3A%22Theoretical+Perspectives+on+Data+Quality+and+Synergistic+Effects+in+Pre-+and+Post-Training+Reasoning+Models%22&start=0&max_results=5",
+        "first_publication_verified": true,
+        "publication_date_evidence": [
+          {
+            "date": "2026-03-01",
+            "precision": "day",
+            "raw": "2026-03-01T21:58:09Z",
+            "source": "https://export.arxiv.org/api/query?search_query=ti%3A%22Theoretical+Perspectives+on+Data+Quality+and+Synergistic+Effects+in+Pre-+and+Post-Training+Reasoning+Models%22&start=0&max_results=5",
+            "field": "entry.published",
+            "kind": "arxiv_first_submission",
+            "title_match": "exact_normalized",
+            "authors": [
+              "Adel Javanmard",
+              "Baharan Mirzasoleiman",
+              "Vahab Mirrokni"
+            ]
+          }
+        ],
+        "arxiv_search_status": "exact_match",
+        "paper_id": "2603.01293",
+        "report_url": "https://arxiv.org/pdf/2603.01293v1",
+        "report_urls": [
+          "https://openreview.net/pdf?id=URIdUFsz9E",
+          "https://arxiv.org/pdf/2603.01293v1"
+        ],
+        "arxiv_matches": [
+          {
+            "paper_id": "2603.01293",
+            "title": "Theoretical Perspectives on Data Quality and Synergistic Effects in Pre- and Post-Training Reasoning Models",
+            "authors": [
+              "Adel Javanmard",
+              "Baharan Mirzasoleiman",
+              "Vahab Mirrokni"
+            ],
+            "report_url": "https://arxiv.org/pdf/2603.01293v1",
+            "updated_at": "2026-03-01T21:58:09Z"
+          }
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00"
+    },
+    {
+      "vendor": "Google",
+      "title": "Outrunning LLM Cutoffs: A Live Kernel Crash Resolution Benchmark for All,",
+      "url": "https://research.google/pubs/outrunning-llm-cutoffs-a-live-kernel-crash-resolution-benchmark-for-all/",
+      "report_urls": [],
+      "scope_status": "not_reviewed",
+      "scope_reason": "Exact first publication outside the requested interval or already separately reviewed/acquired",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/outrunning-llm-cutoffs-a-live-kernel-crash-resolution-benchmark-for-all/"
+      ],
+      "decision": "outside_window",
+      "decision_reason": "Verified manuscript first public release predates 2026-04-02; later publisher/conference appearance or current-version modification is not initial publication",
+      "date_lookup": {
+        "status": "verified_first_publication",
+        "published_at": "2026-02-02",
+        "date_precision": "day",
+        "date_source": "https://export.arxiv.org/api/query?search_query=ti%3A%22Outrunning+LLM+Cutoffs%3A+A+Live+Kernel+Crash+Resolution+Benchmark+for+All%2C%22&start=0&max_results=5",
+        "first_publication_verified": true,
+        "publication_date_evidence": [
+          {
+            "date": "2026-02-02",
+            "precision": "day",
+            "raw": "2026-02-02T19:06:15Z",
+            "source": "https://export.arxiv.org/api/query?search_query=ti%3A%22Outrunning+LLM+Cutoffs%3A+A+Live+Kernel+Crash+Resolution+Benchmark+for+All%2C%22&start=0&max_results=5",
+            "field": "entry.published",
+            "kind": "arxiv_first_submission",
+            "title_match": "exact_normalized",
+            "authors": [
+              "Chenxi Huang",
+              "Alex Mathai",
+              "Feiyang Yu",
+              "Aleksandr Nogikh",
+              "Petros Maniatis",
+              "Franjo Ivančić",
+              "Eugene Wu",
+              "Kostis Kaffes",
+              "Junfeng Yang",
+              "Baishakhi Ray"
+            ]
+          }
+        ],
+        "arxiv_search_status": "exact_match",
+        "paper_id": "2602.02690",
+        "report_url": "https://arxiv.org/pdf/2602.02690v3",
+        "report_urls": [
+          "https://arxiv.org/pdf/2602.02690v3"
+        ],
+        "arxiv_matches": [
+          {
+            "paper_id": "2602.02690",
+            "title": "Outrunning LLM Cutoffs: A Live Kernel Crash Resolution Benchmark for All",
+            "authors": [
+              "Chenxi Huang",
+              "Alex Mathai",
+              "Feiyang Yu",
+              "Aleksandr Nogikh",
+              "Petros Maniatis",
+              "Franjo Ivančić",
+              "Eugene Wu",
+              "Kostis Kaffes",
+              "Junfeng Yang",
+              "Baishakhi Ray"
+            ],
+            "report_url": "https://arxiv.org/pdf/2602.02690v3",
+            "updated_at": "2026-06-17T01:08:37Z"
+          }
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00"
+    },
+    {
+      "vendor": "Google",
+      "title": "A Declarative Multi-Agent Framework for Reducing On-Call Operational Burden",
+      "url": "https://research.google/pubs/a-declarative-multi-agent-framework-for-reducing-on-call-operational-burden/",
+      "report_urls": [
+        "https://storage.googleapis.com/gweb-research2023-media/pubtools/1046157.pdf"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": "Implemented LLM-driven declarative multi-agent incident-triage/RAG system evaluated in production, with triage latency and onboarding results",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/a-declarative-multi-agent-framework-for-reducing-on-call-operational-burden/"
+      ],
+      "decision": "pending_exact_publication_date",
+      "decision_reason": "First exact public release has not been verified; saved title/metadata searches and fetch errors retained. No year, indexing, modification, poster entry or PDF creation timestamp was substituted",
+      "date_lookup": {
+        "status": "unresolved",
+        "published_at": null,
+        "date_precision": null,
+        "date_source": null,
+        "first_publication_verified": false,
+        "publication_date_evidence": [],
+        "arxiv_search_status": "no_exact_match",
+        "report_urls": [
+          "https://storage.googleapis.com/gweb-research2023-media/pubtools/1046157.pdf"
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "authors": [
+        "Khushan Adatiya",
+        "Twinkle Kariya"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "title": "Holistic Latent Diffusion Acceleration: Unifying Spatial, Temporal, and Architectural Efficiency",
+      "url": "https://research.google/pubs/holistic-latent-diffusion-acceleration-unifying-spatial-temporal-and-architectural-efficiency/",
+      "report_urls": [
+        "https://openreview.net/pdf?id=0tfUyAW8Vi"
+      ],
+      "scope_status": "uncertain",
+      "scope_reason": "Latent diffusion teacher/student acceleration method is technical, but full OpenReview original is challenge-blocked and the foundation/language-model role is not yet established",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/holistic-latent-diffusion-acceleration-unifying-spatial-temporal-and-architectural-efficiency/"
+      ],
+      "decision": "pending_exact_publication_date_and_scope",
+      "decision_reason": "Exact initial public release remains unverified; official source only gives 2026 year and exact-title arXiv lookup returned no matching manuscript. Latent diffusion teacher/student acceleration method is technical, but full OpenReview original is challenge-blocked and the foundation/language-model role is not yet established",
+      "date_lookup": {
+        "status": "unresolved",
+        "published_at": null,
+        "date_precision": null,
+        "date_source": null,
+        "first_publication_verified": false,
+        "publication_date_evidence": [],
+        "arxiv_search_status": "no_exact_match",
+        "report_urls": [
+          "https://openreview.net/pdf?id=0tfUyAW8Vi"
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "authors": [
+        "Ruyi An",
+        "Xin Yuan",
+        "Xixi Hu",
+        "Yeqing Li",
+        "Eugene Ie",
+        "Hongliang Fei",
+        "Mingyuan Zhou",
+        "Keyang Xu"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "title": "Generative Manifold Distillation: Aligning Restoration Trajectories with Natural Image Prior",
+      "url": "https://research.google/pubs/generative-manifold-distillation-aligning-restoration-trajectories-with-natural-image-prior/",
+      "report_urls": [
+        "https://www.springerprofessional.de/en/generative-manifold-distillation-aligning-restoration-trajectori/53700332"
+      ],
+      "scope_status": "not_reviewed",
+      "scope_reason": "Exact first publication outside the requested interval or already separately reviewed/acquired",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/generative-manifold-distillation-aligning-restoration-trajectories-with-natural-image-prior/"
+      ],
+      "decision": "outside_window",
+      "decision_reason": "Verified manuscript first public release predates 2026-04-02; later publisher/conference appearance or current-version modification is not initial publication",
+      "date_lookup": {
+        "status": "verified_first_publication",
+        "published_at": "2025-12-11",
+        "date_precision": "day",
+        "date_source": "https://export.arxiv.org/api/query?search_query=ti%3A%22Generative+Manifold+Distillation%3A+Aligning+Restoration+Trajectories+with+Natural+Image+Prior%22&start=0&max_results=5",
+        "first_publication_verified": true,
+        "publication_date_evidence": [
+          {
+            "date": "2025-12-11",
+            "precision": "day",
+            "raw": "2025-12-11T21:04:29Z",
+            "source": "https://export.arxiv.org/api/query?search_query=ti%3A%22Generative+Manifold+Distillation%3A+Aligning+Restoration+Trajectories+with+Natural+Image+Prior%22&start=0&max_results=5",
+            "field": "entry.published",
+            "kind": "arxiv_first_submission",
+            "title_match": "exact_normalized",
+            "authors": [
+              "Yuyang Hu",
+              "Mojtaba Sahraee-Ardakan",
+              "Arpit Bansal",
+              "Kangfu Mei",
+              "Chenyang Qi",
+              "Peyman Milanfar",
+              "Mauricio Delbracio"
+            ]
+          },
+          {
+            "date": "2025-12-11",
+            "precision": "day",
+            "raw": "2025-12-11T21:04:29Z",
+            "source": "https://export.arxiv.org/api/query?search_query=ti%3A%22Generative+Manifold+Distillation%3A+Aligning+Restoration+Trajectories+with+Natural+Image+Prior%22&start=0&max_results=5",
+            "field": "entry.published",
+            "kind": "arxiv_first_submission",
+            "title_match": "exact_normalized",
+            "authors": [
+              "Yuyang Hu",
+              "Mojtaba Sahraee-Ardakan",
+              "Arpit Bansal",
+              "Kangfu Mei",
+              "Chenyang Qi",
+              "Peyman Milanfar",
+              "Mauricio Delbracio"
+            ]
+          }
+        ],
+        "arxiv_search_status": "exact_match",
+        "paper_id": "2512.11121",
+        "report_url": "https://arxiv.org/pdf/2512.11121v2",
+        "report_urls": [
+          "https://www.springerprofessional.de/en/generative-manifold-distillation-aligning-restoration-trajectori/53700332",
+          "https://arxiv.org/pdf/2512.11121v2"
+        ],
+        "arxiv_matches": [
+          {
+            "paper_id": "2512.11121",
+            "title": "Generative Manifold Distillation: Aligning Restoration Trajectories with Natural Image Prior",
+            "authors": [
+              "Yuyang Hu",
+              "Mojtaba Sahraee-Ardakan",
+              "Arpit Bansal",
+              "Kangfu Mei",
+              "Chenyang Qi",
+              "Peyman Milanfar",
+              "Mauricio Delbracio"
+            ],
+            "report_url": "https://arxiv.org/pdf/2512.11121v2",
+            "updated_at": "2026-06-22T21:33:48Z"
+          }
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "authors": [
+        "Yuyang Hu",
+        "Mojtaba Ardakani",
+        "Arpit Bansal",
+        "Kangfu Mei",
+        "Chenyang Chenyang",
+        "Peyman Milanfar",
+        "Mauricio Delbracio"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "title": "When “Correct” Is Not Safe: Can We Trust Functionally Correct Patches Generated by Code Agents?",
+      "url": "https://research.google/pubs/when-correct-is-not-safe-can-we-trust-functionally-correct-patches-generated-by-code-agents-2/",
+      "report_urls": [
+        "https://aclanthology.org/2026.acl-long.707/"
+      ],
+      "scope_status": "not_reviewed",
+      "scope_reason": "Exact first publication outside the requested interval or already separately reviewed/acquired",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/when-correct-is-not-safe-can-we-trust-functionally-correct-patches-generated-by-code-agents-2/"
+      ],
+      "decision": "outside_window",
+      "decision_reason": "Verified manuscript first public release predates 2026-04-02; later publisher/conference appearance or current-version modification is not initial publication",
+      "date_lookup": {
+        "status": "verified_first_publication",
+        "published_at": "2025-10-15",
+        "date_precision": "day",
+        "date_source": "https://export.arxiv.org/api/query?search_query=ti%3A%22When+%E2%80%9CCorrect%E2%80%9D+Is+Not+Safe%3A+Can+We+Trust+Functionally+Correct+Patches+Generated+by+Code+Agents%3F%22&start=0&max_results=5",
+        "first_publication_verified": true,
+        "publication_date_evidence": [
+          {
+            "date": "2025-10-15",
+            "precision": "day",
+            "raw": "2025-10-15T17:16:36Z",
+            "source": "https://export.arxiv.org/api/query?search_query=ti%3A%22When+%E2%80%9CCorrect%E2%80%9D+Is+Not+Safe%3A+Can+We+Trust+Functionally+Correct+Patches+Generated+by+Code+Agents%3F%22&start=0&max_results=5",
+            "field": "entry.published",
+            "kind": "arxiv_first_submission",
+            "title_match": "exact_normalized",
+            "authors": [
+              "Yibo Peng",
+              "James Song",
+              "Lei Li",
+              "Xinyu Yang",
+              "Mihai Christodorescu",
+              "Ravi Mangal",
+              "Corina Pasareanu",
+              "Haizhong Zheng",
+              "Beidi Chen"
+            ]
+          },
+          {
+            "date": "2025-10-15",
+            "precision": "day",
+            "raw": "2025-10-15T17:16:36Z",
+            "source": "https://export.arxiv.org/api/query?search_query=ti%3A%22When+%E2%80%9CCorrect%E2%80%9D+Is+Not+Safe%3A+Can+We+Trust+Functionally+Correct+Patches+Generated+by+Code+Agents%3F%22&start=0&max_results=5",
+            "field": "entry.published",
+            "kind": "arxiv_first_submission",
+            "title_match": "exact_normalized",
+            "authors": [
+              "Yibo Peng",
+              "James Song",
+              "Lei Li",
+              "Xinyu Yang",
+              "Mihai Christodorescu",
+              "Ravi Mangal",
+              "Corina Pasareanu",
+              "Haizhong Zheng",
+              "Beidi Chen"
+            ]
+          }
+        ],
+        "arxiv_search_status": "exact_match",
+        "paper_id": "2510.17862",
+        "report_url": "https://arxiv.org/pdf/2510.17862v1",
+        "report_urls": [
+          "https://aclanthology.org/2026.acl-long.707/",
+          "https://arxiv.org/pdf/2510.17862v1"
+        ],
+        "arxiv_matches": [
+          {
+            "paper_id": "2510.17862",
+            "title": "When \"Correct\" Is Not Safe: Can We Trust Functionally Correct Patches Generated by Code Agents?",
+            "authors": [
+              "Yibo Peng",
+              "James Song",
+              "Lei Li",
+              "Xinyu Yang",
+              "Mihai Christodorescu",
+              "Ravi Mangal",
+              "Corina Pasareanu",
+              "Haizhong Zheng",
+              "Beidi Chen"
+            ],
+            "report_url": "https://arxiv.org/pdf/2510.17862v1",
+            "updated_at": "2025-10-15T17:16:36Z"
+          }
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "authors": [
+        "Corina Pasareanu",
+        "Haizhong Zheng",
+        "Beidi Chen",
+        "Mihai Christodorescu",
+        "Ravi Mangal",
+        "Xinyu Yang",
+        "James Song",
+        "Yibo Peng"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "title": "Securing the Agentic Enterprise",
+      "url": "https://research.google/pubs/securing-the-agentic-enterprise/",
+      "report_urls": [
+        "https://storage.googleapis.com/gweb-research2023-media/pubtools/1046563.pdf"
+      ],
+      "scope_status": "excluded",
+      "scope_reason": "204-page practitioner book and architecture guide; excluded book genre rather than an independent model/agent research technical report",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/securing-the-agentic-enterprise/"
+      ],
+      "decision": "excluded_scope",
+      "decision_reason": "204-page practitioner book and architecture guide; excluded book genre rather than an independent model/agent research technical report",
+      "date_lookup": {
+        "status": "unresolved",
+        "published_at": null,
+        "date_precision": null,
+        "date_source": null,
+        "first_publication_verified": false,
+        "publication_date_evidence": [],
+        "arxiv_search_status": "no_exact_match",
+        "report_urls": [
+          "https://storage.googleapis.com/gweb-research2023-media/pubtools/1046563.pdf"
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "authors": [
+        "Khushan Adatiya"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "title": "Bottom-Up AI Agent Security: The Complete 14-Layer Framework for Cloud Architects",
+      "url": "https://research.google/pubs/bottom-up-ai-agent-security-the-complete-14-layer-framework-for-cloud-architects/",
+      "report_urls": [
+        "https://storage.googleapis.com/gweb-research2023-media/pubtools/1046562.pdf"
+      ],
+      "scope_status": "excluded",
+      "scope_reason": "18-page implementation guide with copy-paste security templates and a four-week roadmap; no independently specified model/agent experimental study or formal theory",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/bottom-up-ai-agent-security-the-complete-14-layer-framework-for-cloud-architects/"
+      ],
+      "decision": "excluded_scope",
+      "decision_reason": "18-page implementation guide with copy-paste security templates and a four-week roadmap; no independently specified model/agent experimental study or formal theory",
+      "date_lookup": {
+        "status": "unresolved",
+        "published_at": null,
+        "date_precision": null,
+        "date_source": null,
+        "first_publication_verified": false,
+        "publication_date_evidence": [],
+        "arxiv_search_status": "unavailable",
+        "report_urls": [
+          "https://storage.googleapis.com/gweb-research2023-media/pubtools/1046562.pdf"
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "authors": [
+        "Khushan Adatiya"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "title": "Agentic AI Is Forcing Procurement to Rethink What It Means to Trust a Vendor",
+      "url": "https://research.google/pubs/agentic-ai-is-forcing-procurement-to-rethink-what-it-means-to-trust-a-vendor/",
+      "report_urls": [
+        "https://storage.googleapis.com/gweb-research2023-media/pubtools/1046366.pdf"
+      ],
+      "scope_status": "excluded",
+      "scope_reason": "Procurement and vendor-governance opinion article; no model/agent technical contribution",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/agentic-ai-is-forcing-procurement-to-rethink-what-it-means-to-trust-a-vendor/"
+      ],
+      "decision": "excluded_scope",
+      "decision_reason": "Procurement and vendor-governance opinion article; no model/agent technical contribution",
+      "date_lookup": {
+        "status": "unresolved",
+        "published_at": null,
+        "date_precision": null,
+        "date_source": null,
+        "first_publication_verified": false,
+        "publication_date_evidence": [],
+        "arxiv_search_status": "unavailable",
+        "report_urls": [
+          "https://storage.googleapis.com/gweb-research2023-media/pubtools/1046366.pdf"
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "authors": [
+        "Khushan Adatiya"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "title": "OpenClaw in Practice: Building Laptop-Less Engineering Workflows with an Agent Harness",
+      "url": "https://research.google/pubs/openclaw-in-practice-building-laptop-less-engineering-workflows-with-an-agent-harness/",
+      "report_urls": [
+        "https://storage.googleapis.com/gweb-research2023-media/pubtools/1046361.pdf"
+      ],
+      "scope_status": "excluded",
+      "scope_reason": "14-page practitioner workflow article demonstrating existing OpenClaw harness use; no independent model/agent research method or evaluated technical study",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/openclaw-in-practice-building-laptop-less-engineering-workflows-with-an-agent-harness/"
+      ],
+      "decision": "excluded_scope",
+      "decision_reason": "14-page practitioner workflow article demonstrating existing OpenClaw harness use; no independent model/agent research method or evaluated technical study",
+      "date_lookup": {
+        "status": "unresolved",
+        "published_at": null,
+        "date_precision": null,
+        "date_source": null,
+        "first_publication_verified": false,
+        "publication_date_evidence": [],
+        "arxiv_search_status": "unavailable",
+        "report_urls": [
+          "https://storage.googleapis.com/gweb-research2023-media/pubtools/1046361.pdf"
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "authors": [
+        "Khushan Adatiya"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "title": "Cold Start Latency of Quantized Small Language Models on Serverless CPU Infrastructure",
+      "url": "https://research.google/pubs/cold-start-latency-of-quantized-small-language-models-on-serverless-cpu-infrastructure/",
+      "report_urls": [
+        "https://storage.googleapis.com/gweb-research2023-media/pubtools/1046363.pdf"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": "Independent controlled performance/quantization study of five language models on serverless CPU infrastructure, including perplexity and fitted latency/cost model",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/cold-start-latency-of-quantized-small-language-models-on-serverless-cpu-infrastructure/"
+      ],
+      "decision": "pending_exact_publication_date",
+      "decision_reason": "First exact public release has not been verified; saved title/metadata searches and fetch errors retained. No year, indexing, modification, poster entry or PDF creation timestamp was substituted",
+      "date_lookup": {
+        "status": "unresolved",
+        "published_at": null,
+        "date_precision": null,
+        "date_source": null,
+        "first_publication_verified": false,
+        "publication_date_evidence": [],
+        "arxiv_search_status": "unavailable",
+        "report_urls": [
+          "https://storage.googleapis.com/gweb-research2023-media/pubtools/1046363.pdf"
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "authors": [
+        "Khushan Adatiya",
+        "Ming Hu"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "title": "The End of SaaS Dashboards: Why 2026 Belongs to Agents-as-a-Service",
+      "url": "https://research.google/pubs/the-end-of-saas-dashboards-why-2026-belongs-to-agents-as-a-service/",
+      "report_urls": [
+        "https://storage.googleapis.com/gweb-research2023-media/pubtools/1046360.pdf"
+      ],
+      "scope_status": "excluded",
+      "scope_reason": "8-page SaaS/business architecture commentary on Agents-as-a-Service; no independent model/agent method or formal/empirical technical study",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/the-end-of-saas-dashboards-why-2026-belongs-to-agents-as-a-service/"
+      ],
+      "decision": "excluded_scope",
+      "decision_reason": "8-page SaaS/business architecture commentary on Agents-as-a-Service; no independent model/agent method or formal/empirical technical study",
+      "date_lookup": {
+        "status": "unresolved",
+        "published_at": null,
+        "date_precision": null,
+        "date_source": null,
+        "first_publication_verified": false,
+        "publication_date_evidence": [],
+        "arxiv_search_status": "unavailable",
+        "report_urls": [
+          "https://storage.googleapis.com/gweb-research2023-media/pubtools/1046360.pdf"
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "authors": [
+        "Khushan Adatiya"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "title": "A Unified Protocol Architecture for Agentic Interoperability: Quantitative Evaluation of Standardized Context Exchange in the N + M Economy",
+      "url": "https://research.google/pubs/a-unified-protocol-architecture-for-agentic-interoperability-quantitative-evaluation-of-standardized-context-exchange-in-the-n-m-economy/",
+      "report_urls": [
+        "https://storage.googleapis.com/gweb-research2023-media/pubtools/1046056.pdf"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": "Independent formal and quantitative agent-interoperability framework with 100-agent/500-tool enterprise simulation and measured configuration/maintenance metrics",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/a-unified-protocol-architecture-for-agentic-interoperability-quantitative-evaluation-of-standardized-context-exchange-in-the-n-m-economy/"
+      ],
+      "decision": "pending_exact_publication_date",
+      "decision_reason": "First exact public release has not been verified; saved title/metadata searches and fetch errors retained. No year, indexing, modification, poster entry or PDF creation timestamp was substituted",
+      "date_lookup": {
+        "status": "unresolved",
+        "published_at": null,
+        "date_precision": null,
+        "date_source": null,
+        "first_publication_verified": false,
+        "publication_date_evidence": [],
+        "arxiv_search_status": "unavailable",
+        "report_urls": [
+          "https://storage.googleapis.com/gweb-research2023-media/pubtools/1046056.pdf"
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "authors": [
+        "Khushan Adatiya",
+        "Reshma Nair",
+        "Ming Hu"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "title": "POLCA: Stochastic Generative Optimization with LLM",
+      "url": "https://research.google/pubs/polca-stochastic-generative-optimization-with-llm-2/",
+      "report_urls": [
+        "https://openreview.net/pdf?id=2RKPztDfgZ"
+      ],
+      "scope_status": "not_reviewed",
+      "scope_reason": "Exact first publication outside the requested interval or already separately reviewed/acquired",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/polca-stochastic-generative-optimization-with-llm-2/"
+      ],
+      "decision": "outside_window",
+      "decision_reason": "Verified manuscript first public release predates 2026-04-02; later publisher/conference appearance or current-version modification is not initial publication",
+      "date_lookup": {
+        "status": "verified_first_publication",
+        "published_at": "2026-03-16",
+        "date_precision": "day",
+        "date_source": "https://export.arxiv.org/api/query?search_query=ti%3A%22POLCA%3A+Stochastic+Generative+Optimization+with+LLM%22&start=0&max_results=5",
+        "first_publication_verified": true,
+        "publication_date_evidence": [
+          {
+            "date": "2026-03-16",
+            "precision": "day",
+            "raw": "2026-03-16T03:07:44Z",
+            "source": "https://export.arxiv.org/api/query?search_query=ti%3A%22POLCA%3A+Stochastic+Generative+Optimization+with+LLM%22&start=0&max_results=5",
+            "field": "entry.published",
+            "kind": "arxiv_first_submission",
+            "title_match": "exact_normalized",
+            "authors": [
+              "Xuanfei Ren",
+              "Allen Nie",
+              "Tengyang Xie",
+              "Ching-An Cheng"
+            ]
+          },
+          {
+            "date": "2026-03-16",
+            "precision": "day",
+            "raw": "2026-03-16T03:07:44Z",
+            "source": "https://export.arxiv.org/api/query?search_query=ti%3A%22POLCA%3A+Stochastic+Generative+Optimization+with+LLM%22&start=0&max_results=5",
+            "field": "entry.published",
+            "kind": "arxiv_first_submission",
+            "title_match": "exact_normalized",
+            "authors": [
+              "Xuanfei Ren",
+              "Allen Nie",
+              "Tengyang Xie",
+              "Ching-An Cheng"
+            ]
+          }
+        ],
+        "arxiv_search_status": "exact_match",
+        "paper_id": "2603.14769",
+        "report_url": "https://arxiv.org/pdf/2603.14769v1",
+        "report_urls": [
+          "https://openreview.net/pdf?id=2RKPztDfgZ",
+          "https://arxiv.org/pdf/2603.14769v1"
+        ],
+        "arxiv_matches": [
+          {
+            "paper_id": "2603.14769",
+            "title": "POLCA: Stochastic Generative Optimization with LLM",
+            "authors": [
+              "Xuanfei Ren",
+              "Allen Nie",
+              "Tengyang Xie",
+              "Ching-An Cheng"
+            ],
+            "report_url": "https://arxiv.org/pdf/2603.14769v1",
+            "updated_at": "2026-03-16T03:07:44Z"
+          }
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "authors": [
+        "Xuanfei Ren",
+        "Allen Nie",
+        "Tengyang Xie",
+        "Ching-An Cheng"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "title": "Agent-to-Agent (A2A) Protocol: The Future of Autonomous Multi-Agent Systems",
+      "url": "https://research.google/pubs/agent-to-agent-a2a-protocol-the-future-of-autonomous-multi-agent-systems/",
+      "report_urls": [
+        "https://storage.googleapis.com/gweb-research2023-media/pubtools/1046359.pdf"
+      ],
+      "scope_status": "excluded",
+      "scope_reason": "15-page tutorial explaining an existing A2A protocol and industry scenarios; no independent protocol/model/agent experiment or theory",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/agent-to-agent-a2a-protocol-the-future-of-autonomous-multi-agent-systems/"
+      ],
+      "decision": "excluded_scope",
+      "decision_reason": "15-page tutorial explaining an existing A2A protocol and industry scenarios; no independent protocol/model/agent experiment or theory",
+      "date_lookup": {
+        "status": "unresolved",
+        "published_at": null,
+        "date_precision": null,
+        "date_source": null,
+        "first_publication_verified": false,
+        "publication_date_evidence": [],
+        "arxiv_search_status": "unavailable",
+        "report_urls": [
+          "https://storage.googleapis.com/gweb-research2023-media/pubtools/1046359.pdf"
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "authors": [
+        "Khushan Adatiya"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "title": "VIP-MINGLE: A Corpus for Videoconference and In-Person Multimodal Interaction in Group Language Engagement",
+      "url": "https://research.google/pubs/vip-mingle-a-corpus-for-videoconference-and-in-person-multimodal-interaction-in-group-language-engagement/",
+      "report_urls": [
+        "https://doi.org/10.21437/Interspeech.2026-2367"
+      ],
+      "scope_status": "excluded",
+      "scope_reason": "Human group-conversation corpus and behavioral distribution-shift analysis; no LLM/agent method, model theory or direct model technical evaluation",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/vip-mingle-a-corpus-for-videoconference-and-in-person-multimodal-interaction-in-group-language-engagement/"
+      ],
+      "decision": "excluded_scope",
+      "decision_reason": "Official abstract introduces a 59-hour corpus of human group conversation and analyzes behavioral distribution shifts; no LLM/agent method, model theory or direct model technical evaluation",
+      "date_lookup": {
+        "status": "verified_first_publication",
+        "published_at": "2026-07-15",
+        "date_precision": "day",
+        "date_source": "https://export.arxiv.org/api/query?search_query=ti%3A%22VIP-MINGLE%3A+A+Corpus+for+Videoconference+and+In-Person+Multimodal+Interaction+in+Group+Language+Engagement%22&start=0&max_results=5",
+        "first_publication_verified": true,
+        "publication_date_evidence": [
+          {
+            "date": "2026-07-15",
+            "precision": "day",
+            "raw": "2026-07-15T09:04:21Z",
+            "source": "https://export.arxiv.org/api/query?search_query=ti%3A%22VIP-MINGLE%3A+A+Corpus+for+Videoconference+and+In-Person+Multimodal+Interaction+in+Group+Language+Engagement%22&start=0&max_results=5",
+            "field": "entry.published",
+            "kind": "arxiv_first_submission",
+            "title_match": "exact_normalized",
+            "authors": [
+              "Andrew Chang",
+              "Abhinay K Bodi",
+              "Wenxin Deng",
+              "Junrui Huang",
+              "Venu G Kadamba",
+              "Sumanth B H Karanam",
+              "Dhiwahar A Kennady",
+              "David Poeppel",
+              "Dustin Freeman"
+            ]
+          },
+          {
+            "date": "2026-07-15",
+            "precision": "day",
+            "raw": "2026-07-15T09:04:21Z",
+            "source": "https://export.arxiv.org/api/query?search_query=ti%3A%22VIP-MINGLE%3A+A+Corpus+for+Videoconference+and+In-Person+Multimodal+Interaction+in+Group+Language+Engagement%22&start=0&max_results=5",
+            "field": "entry.published",
+            "kind": "arxiv_first_submission",
+            "title_match": "exact_normalized",
+            "authors": [
+              "Andrew Chang",
+              "Abhinay K Bodi",
+              "Wenxin Deng",
+              "Junrui Huang",
+              "Venu G Kadamba",
+              "Sumanth B H Karanam",
+              "Dhiwahar A Kennady",
+              "David Poeppel",
+              "Dustin Freeman"
+            ]
+          }
+        ],
+        "arxiv_search_status": "exact_match",
+        "paper_id": "2607.13614",
+        "report_url": "https://arxiv.org/pdf/2607.13614v1",
+        "report_urls": [
+          "https://doi.org/10.21437/Interspeech.2026-2367",
+          "https://arxiv.org/pdf/2607.13614v1"
+        ],
+        "arxiv_matches": [
+          {
+            "paper_id": "2607.13614",
+            "title": "VIP-MINGLE: A Corpus for Videoconference and In-Person Multimodal Interaction in Group Language Engagement",
+            "authors": [
+              "Andrew Chang",
+              "Abhinay K Bodi",
+              "Wenxin Deng",
+              "Junrui Huang",
+              "Venu G Kadamba",
+              "Sumanth B H Karanam",
+              "Dhiwahar A Kennady",
+              "David Poeppel",
+              "Dustin Freeman"
+            ],
+            "report_url": "https://arxiv.org/pdf/2607.13614v1",
+            "updated_at": "2026-07-15T09:04:21Z"
+          }
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "authors": [
+        "Andrew Chang",
+        "Abhinay K Bodi",
+        "Wenxin Deng",
+        "Junrui Huang",
+        "Venu G Kadamba",
+        "Sumanth B H Karanam",
+        "Dhiwahar A Kennady",
+        "David Poeppel",
+        "Dustin Freeman"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "title": "AI Driven Verification Architectures - Scaling Formal Sign-off of High Bandwidth Data Crossbars via Generative AI and Required-Proof-Depth (RPD) Synthesis",
+      "url": "https://research.google/pubs/ai-driven-verification-architectures-scaling-formal-sign-off-of-high-bandwidth-data-crossbars-via-generative-ai-and-required-proof-depth-rpd-synthesis/",
+      "report_urls": [],
+      "scope_status": "uncertain",
+      "scope_reason": "Official page exposes only title, authors and year: no abstract, primary full-text link, or model/agent method/evaluation evidence",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/ai-driven-verification-architectures-scaling-formal-sign-off-of-high-bandwidth-data-crossbars-via-generative-ai-and-required-proof-depth-rpd-synthesis/"
+      ],
+      "decision": "pending_exact_publication_date_and_scope",
+      "decision_reason": "Exact initial public release remains unverified; official source only gives 2026 year and exact-title arXiv lookup returned no matching manuscript. Official page exposes only title, authors and year: no abstract, primary full-text link, or model/agent method/evaluation evidence",
+      "date_lookup": {
+        "status": "unresolved",
+        "published_at": null,
+        "date_precision": null,
+        "date_source": null,
+        "first_publication_verified": false,
+        "publication_date_evidence": [],
+        "arxiv_search_status": "unavailable",
+        "report_urls": []
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "authors": [
+        "Aman Vyas",
+        "Nitin Ahuja"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "title": "Dynamic Learning and Optimal Advertising Mechanism for LLM Platforms",
+      "url": "https://research.google/pubs/dynamic-learning-and-optimal-advertising-mechanism-for-llm-platforms/",
+      "report_urls": [],
+      "scope_status": "eligible",
+      "scope_reason": "Independent stochastic-control and mechanism-design theory for conversational LLM platforms, explicit approximate-threshold performance guarantees and incentive-compatibility results",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/dynamic-learning-and-optimal-advertising-mechanism-for-llm-platforms/"
+      ],
+      "decision": "pending_exact_publication_date_and_original",
+      "decision_reason": "Exact initial public release remains unverified; official source only gives 2026 year and exact-title arXiv lookup returned no matching manuscript. Independent stochastic-control and mechanism-design theory for conversational LLM platforms, explicit approximate-threshold performance guarantees and incentive-compatibility results",
+      "date_lookup": {
+        "status": "unresolved",
+        "published_at": null,
+        "date_precision": null,
+        "date_source": null,
+        "first_publication_verified": false,
+        "publication_date_evidence": [],
+        "arxiv_search_status": "unavailable",
+        "report_urls": []
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "authors": [
+        "Saeed Alaei",
+        "Ali Makhdoumi",
+        "Azarakhsh Malekian"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "title": "Beyond Real or Fake: A Dual-Channel Authenticity and Reasoning Protocol for Photographic Assessment",
+      "url": "https://research.google/pubs/beyond-real-or-fake-a-dual-channel-authenticity-and-reasoning-protocol-for-photographic-assessment/",
+      "report_urls": [
+        "https://storage.googleapis.com/gweb-research2023-media/pubtools/1046763.pdf"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": "Independent contrastive-camera/frozen-VLM dual-channel forensic model method and paired evaluation across five VLM configurations",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/beyond-real-or-fake-a-dual-channel-authenticity-and-reasoning-protocol-for-photographic-assessment/"
+      ],
+      "decision": "pending_exact_publication_date",
+      "decision_reason": "First exact public release has not been verified; saved title/metadata searches and fetch errors retained. No year, indexing, modification, poster entry or PDF creation timestamp was substituted",
+      "date_lookup": {
+        "status": "unresolved",
+        "published_at": null,
+        "date_precision": null,
+        "date_source": null,
+        "first_publication_verified": false,
+        "publication_date_evidence": [],
+        "arxiv_search_status": "unavailable",
+        "report_urls": [
+          "https://storage.googleapis.com/gweb-research2023-media/pubtools/1046763.pdf"
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "authors": [
+        "Xiaoxiao (Shaun) Li",
+        "Ruinan Jin",
+        "Lili Meng",
+        "Miaosen Wang",
+        "Athula Balachandran",
+        "Pei Cao"
+      ]
+    },
+    {
+      "vendor": "Google",
+      "title": "Open and Emergent Problems in Agentic Privacy and Security: A Contextual Angle",
+      "url": "https://research.google/pubs/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle/",
+      "report_urls": [
+        "https://storage.googleapis.com/gweb-research2023-media/pubtools/1047874.pdf"
+      ],
+      "scope_status": "uncertain",
+      "scope_reason": "116-page contextual privacy/security workshop/research-agenda manuscript with systematic analysis of 16 existing benchmarks; scope requires review of whether its new framework counts as model/agent theory rather than only an open-problems synthesis",
+      "scope_evidence_urls": [
+        "https://research.google/pubs/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle/"
+      ],
+      "decision": "pending_exact_publication_date_and_scope",
+      "decision_reason": "Exact initial public release remains unverified; official source only gives 2026 year and exact-title arXiv lookup returned no matching manuscript. 116-page contextual privacy/security workshop/research-agenda manuscript with systematic analysis of 16 existing benchmarks; scope requires review of whether its new framework counts as model/agent theory rather than only an open-problems synthesis",
+      "date_lookup": {
+        "status": "unresolved",
+        "published_at": null,
+        "date_precision": null,
+        "date_source": null,
+        "first_publication_verified": false,
+        "publication_date_evidence": [],
+        "arxiv_search_status": "unavailable",
+        "report_urls": [
+          "https://storage.googleapis.com/gweb-research2023-media/pubtools/1047874.pdf"
+        ]
+      },
+      "audited_at": "2026-10-03T03:16:20+08:00",
+      "authors": [
+        "Eugene Bagdasaryan",
+        "Lily Tsai",
+        "Sahar Abdelnabi",
+        "Ananth Balashankar",
+        "Borja de Balle Pigem",
+        "Sebastian Benthall",
+        "Igor Bilogrevic",
+        "Eleanor Birrell",
+        "Elie Bursztein",
+        "Kamalika Chaudhuri",
+        "Madiha Zahrah Choksi",
+        "Mihai Christodorescu",
+        "Rachel Cummings",
+        "Adam Davies",
+        "Dj Dvijotham",
+        "Seliem El-Sayed",
+        "Ferdinando Fioretto",
+        "Matt Franchi",
+        "Julien Freudiger",
+        "Adria Gascon",
+        "Roxana Geambasu",
+        "Sahra Ghalebikesabi",
+        "Hamed Haddadi",
+        "Jamie Hayes",
+        "Ashish Hooda",
+        "Amir Houmansadr",
+        "Somesh Jha",
+        "Peter Kairouz",
+        "Chloé Kiddon",
+        "Tadayoshi Kohno",
+        "Abdullatif Köksal",
+        "Alison Lentz",
+        "Haoran Li",
+        "Tianshi Li",
+        "Nathan Malkin",
+        "Sarah Meiklejohn",
+        "Niloofar Mireshghallah",
+        "Sewoong Oh",
+        "Katherine Ortiz",
+        "Ivan Petrov",
+        "Francesco Pinto",
+        "Daniel Ramage",
+        "Mariana Raykova",
+        "Franziska Roesner",
+        "Edo Roth",
+        "Jacqueline Rowe",
+        "Khawaja Shams",
+        "Reza Shokri",
+        "Ilia Shumailov",
+        "Yan Shvartzshnaider",
+        "Dawn Song",
+        "Jose Such",
+        "Octavian Suciu",
+        "Pierre Tholoniat",
+        "Matt Tierney",
+        "Trishita Tiwari",
+        "Hal Triedman",
+        "Ren Yi",
+        "Wen Zhang",
+        "Xuhui Zhou",
+        "Kassem Fawaz",
+        "Stefan Mellem",
+        "Helen Nissenbaum",
+        "Nina Taft",
+        "Sarah de Haas",
+        "Marco Gruteser"
+      ]
+    }
+  ]
+}

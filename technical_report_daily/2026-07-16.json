@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "date": "2026-07-16",
+  "generated_by": "technical_reports.export_search",
+  "items": [
+    {
+      "archive_id": "R-4fb7da60d677a28216ac",
+      "资讯标题": "Kimi K3: Open Frontier Intelligence",
+      "发布时间": "2026-07-16 00:00:00",
+      "date_precision": "day",
+      "来源": "Kimi 技术报告",
+      "超链接": "https://www.kimi.com/en/blog/kimi-k3",
+      "desc": "报告针对开放权重模型在长程推理、多模态理解和代理执行上的能力与工程瓶颈，提出2.78万亿参数稀疏模型、混合注意力、分领域分预算强化学习及百万token系统协同。报告称其编码、检索和部分视觉任务接近前沿，特定评测成本较低，但总体仍落后于最强闭源基线。",
+      "content": "## 核心结论\nKimi K3的主要贡献是联合扩展基础模型、测试时计算与代理基础设施，而非仅增加参数；报告评测支持其在编码、搜索和长程工具工作流中的竞争力，但不支持“所有任务全面领先”或“无人值守可靠性已解决”的结论。\n\n## 问题与方法\n- **基础规模与信息流（第2—3章）**：模型为2.78T总参数、104.2B激活参数，原生处理文字、图像和视频，最长上下文1M token。以3:1的KDA递归注意力与Gated MLA组合兼顾固定状态和全局交互，Block Attention Residuals支持跨层读取，Stable LatentMoE压缩路由专家的计算宽度。\n- **稳定性与负载均衡（附录B—E）**：SiTU-GLU平滑限制激活，所用参数使逐坐标幅度上界为100；Quantile Balancing通过全局直方图近似分位数更新路由bias。附录证明估计误差受箱宽限制，以及MoonEP冗余专家的一般上界E/R；这些理论边界不等于端到端加速保证。\n- **分域、分预算后训练（第4章）**：一般任务、一般代理、编码代理分别训练low/high/max专家，再在线蒸馏为统一模型；结合可验证最终状态奖励、持续事件环境、视觉工具循环和多框架训练。部分rollout允许长轨迹暂停恢复，量化感知训练与draft优化提前适配部署。累计数百万轨迹token不等于单次上下文超过1M。\n- **系统与交互协同（第5章、附录F）**：KDA融合内核和上下文并行、MoonEP均衡执行、激活卸载、外部KV池、可恢复microVM及预算调度支撑长程任务。XTML统一消息、推理与类型化工具参数，支持动态工具声明和缓存复用；其低对齐成本主要是设计主张，缺少量化对照。\n\n## 主要证据\n- **能力（第6章、表2）**：厂商评测K3在ProgramBench为77.8%、Terminal-Bench 2.1为88.3%，后者接近Sol的88.8%；SWE-Marathon为42.0%，使用H20重校准分支。BrowseComp为91.2%，在300K token压缩上下文；不压缩的1M配置为90.4%。ZeroBench使用Python的pass@5为41.0%，不能当作单次成功率。研究级短板仍明显：HLE无/有工具为43.5%/56.0%，CritPt为23.4%。\n- **体验与外部证据（表3—5）**：内部Deep Research和Swarm分别为90.0、76.3，但Agent Behavior仅65.0，低于两项最强闭源基线。网页开发专家盲评对Opus的胜/平/负为58.6%/13.8%/27.6%，未给样本量与显著性。报告转引7月23日Artificial Analysis指数57.1，低于Fable的59.9和Sol的58.9。\n- **效率与工程案例（图7、图13—15）**：报告称相对K2总体扩展效率约提高2.5倍，来自架构、数据和配方的验证损失拟合，不是推理提速。BrowseComp每题2.03美元、约为Sol成本一半，限定于所用框架、档位和价格。编译器、GPU内核和科研案例展示端到端执行潜力；芯片案例只是nano模型RTL仿真，不是完整K3流片。附录D在B=1000时称分位数误差为几个10^-3，通信低于逐微批交换原始margin方案的1%，均限定于报告配置。\n\n## 限制与适用价值\n全文及附录、参考资料显示，评测混合厂商自测、内部套件和外部榜单，工具框架、硬件、最高分选择、fallback及安全约束并不统一；元数据首发日期早于部分榜单和引用日期。训练总token、总算力、完整成本消融和统计不确定性披露不足。安全评测也呈现显著边界，外部一组端到端任务为0/41。其价值在于开放权重多模态代理、百万上下文服务及超大MoE系统设计的研究参考，而非普遍能力或生产可靠性的独立认证。",
+      "content_kind": "技术报告总结",
+      "report_id": "R-4fb7da60d677a28216ac",
+      "fulltext_path": "technical_reports/fulltext/R-4fb7da60d677a28216ac-719459bead61e9c3.txt",
+      "source": "Kimi 官方研究",
+      "report_url": "https://raw.githubusercontent.com/MoonshotAI/Kimi-K3/main/k3_tech_report.pdf",
+      "feishu_url": "https://ocns5gikjtax.feishu.cn/wiki/OSXww42iVipJL3krXs5csiQ3nxb"
+    }
+  ]
+}

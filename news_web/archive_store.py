@@ -35,9 +35,10 @@ def valid_date(value):
 
 
 class ArchiveStore:
-    def __init__(self, archive_dir: Path, database_path: Path):
+    def __init__(self, archive_dir: Path, database_path: Path, report_archive_dir: Path | None = None):
         self.archive_dir = archive_dir
         self.database_path = database_path
+        self.report_archive_dir = report_archive_dir
         self.database_path.parent.mkdir(parents=True, exist_ok=True)
         self.lock = threading.Lock()
         self.last_check = 0.0
@@ -81,13 +82,15 @@ class ArchiveStore:
             if not force and time.monotonic() - self.last_check < 10:
                 return
             warnings = []
-            paths = sorted(p for p in self.archive_dir.glob("*.json") if re.fullmatch(r"\d{4}-\d{2}-\d{2}", p.stem))
+            paths = [(p.name, p) for p in sorted(self.archive_dir.glob("*.json")) if re.fullmatch(r"\d{4}-\d{2}-\d{2}", p.stem)]
+            if self.report_archive_dir:
+                paths.extend(("reports/" + p.name, p) for p in sorted(self.report_archive_dir.glob("*.json")) if re.fullmatch(r"\d{4}-\d{2}-\d{2}", p.stem))
             with self.connect() as db:
                 signatures = {row["name"]: row["signature"] for row in db.execute("SELECT * FROM files")}
-                for path in paths:
+                for file_key, path in paths:
                     stat = path.stat()
                     signature = f"{stat.st_mtime_ns}:{stat.st_size}"
-                    if signatures.get(path.name) == signature:
+                    if signatures.get(file_key) == signature:
                         continue
                     try:
                         valid_date(path.stem)
@@ -111,16 +114,16 @@ class ArchiveStore:
                             published_at = plain(item.get("发布时间"), 40)
                             if not re.match(r"\d{4}-\d{2}-\d{2}", published_at):
                                 published_at = path.stem + " 00:00:00"
-                            rows.append((uid, path.name, path.stem, title, published_at, source, url, summary, body or summary,
-                                         "正文" if body else "摘要", " ".join(tokens(title + " " + source + " " + summary + " " + body))))
+                            rows.append((uid, file_key, path.stem, title, published_at, source, url, summary, body or summary,
+                                         plain(item.get("content_kind"), 40) or ("正文" if body else "摘要"), " ".join(tokens(title + " " + source + " " + summary + " " + body))))
                     except (ValueError, KeyError, TypeError, OSError):
-                        warnings.append({"file": path.name, "reason": "归档暂不可读，保留上次索引"})
+                        warnings.append({"file": file_key, "reason": "归档暂不可读，保留上次索引"})
                         continue
                     # Replace a complete day's index in one transaction, never partially.
-                    db.execute("DELETE FROM news WHERE file = ?", (path.name,))
+                    db.execute("DELETE FROM news WHERE file = ?", (file_key,))
                     db.executemany("INSERT OR REPLACE INTO news VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)", rows)
-                    db.execute("INSERT OR REPLACE INTO files VALUES (?, ?, ?)", (path.name, signature, path.stem))
-                existing = {p.name for p in paths}
+                    db.execute("INSERT OR REPLACE INTO files VALUES (?, ?, ?)", (file_key, signature, path.stem))
+                existing = {key for key, p in paths}
                 for removed in set(signatures) - existing:
                     db.execute("DELETE FROM news WHERE file = ?", (removed,))
                     db.execute("DELETE FROM files WHERE name = ?", (removed,))
@@ -170,7 +173,7 @@ class ArchiveStore:
         where = " WHERE " + " AND ".join(clauses) if clauses else ""
         # One canonical result per URL, keeping the latest archived version.
         cte = f"""WITH ranked AS (
-            SELECT n.*, ROW_NUMBER() OVER (PARTITION BY url ORDER BY archive_date DESC, published_at DESC, id DESC) AS duplicate
+            SELECT n.*, ROW_NUMBER() OVER (PARTITION BY url, (content_kind = '技术报告总结') ORDER BY archive_date DESC, published_at DESC, id DESC) AS duplicate
             FROM news n {where}
         ), unique_news AS (SELECT * FROM ranked WHERE duplicate = 1) """
         with self.connect() as db:

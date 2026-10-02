@@ -30,6 +30,7 @@ test -f .env || cp .env.example .env
 | `OPENAI_BASE_URL` | API 基础地址；应用在后面追加 `/responses`，不自行追加 `/v1` |
 | `OPENAI_MODEL` | 服务提供的模型名称，须支持 Responses 流式响应和 function tools |
 | `ARCHIVE_DIR` | 可选，归档目录，默认 `ai_news_daily` |
+| `REPORT_ARCHIVE_DIR` | 可选，已完成全文阅读的技术报告总结目录，默认 `technical_report_daily` |
 | `NEWS_DB_PATH` | 可选，SQLite 缓存位置，默认 `.news_web/index.sqlite3` |
 
 兼容 OpenAI 官方服务及兼容 Responses 的中转服务，不使用 Chat Completions。工具使用扁平 function 定义、`function_call_output` 和 `call_id`，每轮保留响应输出项。所有请求 `store: false`。一个问题最多 6 轮模型请求、12 次本地工具调用，总超时 150 秒。
@@ -38,7 +39,7 @@ test -f .env || cp .env.example .env
 
 ## Render 公网部署
 
-1. 将网页代码、`web/package-lock.json`、`Dockerfile`、`render.yaml` 以及最新 `ai_news_daily/*.json` 提交到 GitHub。
+1. 将网页代码、`web/package-lock.json`、`Dockerfile`、`render.yaml` 以及最新 `ai_news_daily/*.json` 和 `technical_report_daily/*.json` 提交到 GitHub。
 2. 在 Render 选择 New → Blueprint，连接 `zhangzgen/zixun` 的 `main` 分支。Render 读取根目录 `render.yaml` 并构建 Docker 服务。
 3. 在创建服务时填入 `OPENAI_API_KEY`、`OPENAI_BASE_URL` 和 `OPENAI_MODEL`。可从本地 `.env` 复制，密钥不要放进仓库。Render 控制台负责保管这些环境变量。
 4. 部署完成后使用 Render 提供的 HTTPS 地址，任何人都能直接访问，无登录。
@@ -59,6 +60,7 @@ test -f .env || cp .env.example .env
 - Agent 会用中英文关键词和同义表述补充检索。链接清单反映已执行搜索的匹配范围，不代表已穷尽所有语义相关事件。
 - 网站图标从原站 `/favicon.ico` 加载，失败时显示域名首字母。答案中的 N1 等引用也能直接打开原始来源；复制回答包含完整结果清单及原始链接。
 - 有些记录只有摘要，工具与提示词明确区分摘要和正文；模型未检索到证据时应说明范围或无结果。
+- 技术报告采用独立归档，检索返回中文概述与金字塔总结，并标为「技术报告总结」。原始论文/PDF通过来源链接查阅；网站不会把总结冒充论文原文。采集、全文阅读与飞书同步见 [技术报告接入说明](README-technical-reports.md)。
 - 不使用 localStorage、sessionStorage 或服务器会话存储。当前页面内可连续追问，刷新或点击「新对话」即清空。
 - 未使用登录或账户系统。输入长度、检索轮数和并发上限属于运行边界。
 

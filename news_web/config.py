@@ -19,6 +19,7 @@ class Settings:
     max_rounds: int = 6
     max_tool_calls: int = 12
     timeout: float = 150
+    report_archive_dir: Path | None = None
 
     @property
     def model_ready(self):
@@ -33,4 +34,5 @@ class Settings:
             api_key=os.getenv("OPENAI_API_KEY", ""),
             base_url=os.getenv("OPENAI_BASE_URL", "https://api.openai.com/v1").rstrip("/"),
             model=os.getenv("OPENAI_MODEL", ""),
+            report_archive_dir=Path(os.getenv("REPORT_ARCHIVE_DIR", str(ROOT / "technical_report_daily"))),
         )

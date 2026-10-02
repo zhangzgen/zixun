@@ -4,6 +4,7 @@ import html
 import json
 import os
 import re
+import shlex
 import sys
 import time
 import urllib.error
@@ -15,9 +16,59 @@ from pathlib import Path
 from xml.etree import ElementTree as ET
 
 
+def _load_local_env(path=None):
+    """Load local configuration with environment variables taking precedence."""
+    env_path = Path(path) if path is not None else Path(__file__).resolve().parent / ".env"
+    try:
+        lines = env_path.read_text(encoding="utf-8-sig").splitlines()
+    except FileNotFoundError:
+        return
+    for raw_line in lines:
+        line = raw_line.strip()
+        if not line or line.startswith("#"):
+            continue
+        if line.startswith("export ") or line.startswith("export\t"):
+            line = line[6:].lstrip()
+        key, separator, value = line.partition("=")
+        key = key.strip()
+        if not separator or not re.fullmatch(r"[A-Za-z_][A-Za-z0-9_]*", key):
+            continue
+        value = value.strip()
+        if value.startswith(("'", '"')):
+            try:
+                parts = shlex.split(value, comments=True, posix=True)
+            except ValueError:
+                continue
+            if len(parts) != 1:
+                continue
+            value = parts[0]
+        else:
+            value = re.split(r"\s+#", value, maxsplit=1)[0].rstrip()
+            if value.startswith("#"):
+                value = ""
+        os.environ.setdefault(key, value)
+
+
+def safe_error(error, secrets=()):
+    """Remove configured credentials from messages before they reach logs."""
+    message = str(error)
+    if isinstance(secrets, str):
+        secrets = (secrets,)
+    values = [globals().get("APP_SECRET", ""), globals().get("WEBHOOK", ""), *secrets]
+    values.extend(value for key, value in os.environ.items()
+                  if re.search(r"(?:SECRET|PASSWORD|TOKEN|API_KEY|WEBHOOK)", key, re.I))
+    for value in sorted({value for value in values if isinstance(value, str) and value}, key=len, reverse=True):
+        message = message.replace(value, "[redacted]")
+    message = re.sub(r"https?://[^\s\"'<>]*/bot/v2/hook/[^\s\"'<>]+", "[redacted webhook]", message)
+    message = re.sub(r"(?i)\bBearer\s+[^\s\"'<>]+", "Bearer [redacted]", message)
+    return message
+
+
+_load_local_env()
+
 APP_ID = "cli_aa9f8fe7eebb9bd0"
-APP_SECRET = "t84XiS74cREDgVwIIGmjFb3FPVRFIdDa"
-WEBHOOK = "https://open.feishu.cn/open-apis/bot/v2/hook/b5637c8c-aeb9-49d0-8a1c-b9d3fae7fa66"
+APP_SECRET = os.environ.get("FEISHU_APP_SECRET", "")
+WEBHOOK = os.environ.get("FEISHU_WEBHOOK", "")
 PARENT_NODE_TOKEN = "DtXbws0qciwGbkkLUXCcHIdDnOc"
 PARENT_WIKI_URL = "https://ocns5gikjtax.feishu.cn/wiki/DtXbws0qciwGbkkLUXCcHIdDnOc"
 JIQIZHIXIN_RSS_ENDPOINT = "https://mcp.applications.jiqizhixin.com/rss"
@@ -55,7 +106,7 @@ def api_json(url, method="GET", payload=None, token=None):
             return json.loads(body) if body else {}
     except urllib.error.HTTPError as e:
         body = e.read().decode("utf-8", "replace")
-        raise RuntimeError(f"{method} {url} HTTP {e.code}: {body[:500]}")
+        raise RuntimeError(safe_error(f"{method} {url} HTTP {e.code}: {body[:500]}", secrets=(token,))) from None
 
 
 def strip_tags(s):
@@ -516,23 +567,13 @@ def create_wiki_doc(token, space_id, title):
     return node
 
 
-def write_doc_blocks(token, document_id, items):
-    clear_doc_children(token, document_id)
+def write_doc_blocks(token, document_id, items, reports=None):
     children = news_doc_blocks(items)
-    url = f"https://open.feishu.cn/open-apis/docx/v1/documents/{document_id}/blocks/{document_id}/children"
-    last = None
-    for start in range(0, len(children), 50):
-        res = api_json(
-            f"{url}?client_token={uuid.uuid4()}",
-            "POST",
-            {"children": children[start:start + 50], "index": start},
-            token=token,
-        )
-        if res.get("code") != 0:
-            raise RuntimeError(f"write doc blocks failed: {res}")
-        last = res
-        time.sleep(0.35)
-    return last or {}
+    from technical_reports.store import latest
+    from technical_reports.renderer import section_blocks
+    from technical_reports.feishu import write_blocks
+    children.extend(section_blocks(latest(15) if reports is None else reports))
+    return {"children": write_blocks(token, document_id, children, replace=True)}
 
 
 def send_card(title, card_or_markdown):
@@ -654,7 +695,7 @@ def build_news_card(date_text, doc_url, items):
 
 
 def failure(reason):
-    safe = re.sub(APP_SECRET, "***", str(reason))
+    safe = safe_error(reason)
     try:
         send_card("资讯警告", f"{TODAY} AI资讯推送失败：{safe[:800]}")
     except Exception:

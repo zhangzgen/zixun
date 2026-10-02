@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "date": "2026-08-27",
+  "generated_by": "technical_reports.export_search",
+  "items": [
+    {
+      "archive_id": "R-26c5561eca65fa67fc55",
+      "资讯标题": "Gemini Omni Flash Model Card",
+      "发布时间": "2026-08-27 00:00:00",
+      "date_precision": "day",
+      "来源": "Google 技术报告",
+      "超链接": "https://deepmind.google/models/model-cards/gemini-omni-flash/",
+      "desc": "该模型卡介绍 Gemini Omni Flash 与 Gemini Omni 1.1 Flash 如何基于原生多模态 Transformer，从文本、图像、音频和视频生成带音频的视频，并支持对话式编辑。报告称其具备高质量创作能力，但未提供定量性能或安全结果，且明确承认编辑一致性、复杂运动和文字渲染仍有局限。",
+      "content": "## 核心结论\nGemini Omni Flash 系列定位于多模态视频生成与对话式编辑；这份模型卡主要提供能力定位、训练概况和安全治理说明，而非足以验证性能优势或安全水平的量化证据。（第1—4页）\n\n## 问题与方法\n- **任务与交互方式**：面向降低视频创作与编辑门槛，接收文本、图像、音频和视频，输出带音频的视频。报告称模型可遵循简单及复杂指令、模拟现实世界物理，并通过对话编辑视频，但未给出分辨率、帧率、时长或能力验证数据。\n- **模型与训练数据**：采用原生支持多模态输入的 Transformer，正文引用 Vaswani 等人（2017）。训练使用音频、视频、图像和文本，音视频配有不同详细程度的文本说明；训练视频经过合规、安全和质量过滤及语义去重。参数规模、模块设计、生成机制、数据规模和来源构成均未披露。\n- **实现与分发**：使用 Google TPU、JAX 和 ML Pathways 训练，通过 Gemini App、YouTube、Google Flow 和 Google Flow Music 分发。报告讨论 TPU、高带宽内存及分布式训练的效率潜力，但没有训练耗时、硬件数量、能耗、碳排放或实测效率数据，不能据此确认可持续性收益。\n- **安全治理与缓解**：覆盖训练中及训练后的自动与人工评估、开发团队之外的专业人工红队、自动化红队及发布前伦理与安全审查。风险同时包括对抗性滥用和善意使用中的非预期失效。措施包括预训练中的多样化合成文本说明、后训练及部署中的生产过滤器，以及用于验证 AI 生成内容的 SynthID 数字水印。报告称目前限制视频编辑中改变人物讲话的能力，未说明具体范围或开放时间。\n\n## 主要证据\n所提供全文笔记覆盖 PDF 第1—4页，包括模型信息、训练数据、实现与可持续性、分发、用途与限制、伦理和内容安全；没有附录、独立参考资料列表或定量实验表。正文标注首次发布于2026年5月、最后更新于2026年8月，未确认元数据所列的8月27日。\n\n报告称模型在世界理解、多模态和编辑方面取得进展，但未披露测试集、样本量、评分规则、基线、通过率、风险发生率或统计不确定性；过滤器和水印也没有有效性、误报率、漏报率及适用条件数据。因此，评测流程的存在不等于已证明性能提升或安全可靠。模型卡同时描述两个版本，却未区分其架构、训练或性能。\n\n## 限制与适用价值\n报告明确列出三项困难：在整个编辑过程中保持完全一致性、生成复杂运动场景、渲染完全准确的文字。高质量视频、物理模拟和指令遵循均应视为厂商定性表述，而非所有场景下的可靠保证。\n\n该卡适合开发者初步了解输入输出、视频创作与编辑定位、分发渠道和安全治理要求，不足以支持模型选型中的性能排名、绝对安全承诺或能效比较。教育中的个性化视听内容，以及机器人、计算机视觉和生成式3D研究中的合成数据应用，属于报告提出的潜在价值，尚无成效实验。使用须遵守适用条款及禁止使用政策，不应集成至危险、非法、危及安全，或从事露骨色情、暴力、仇恨、有害及误导活动的系统。",
+      "content_kind": "技术报告总结",
+      "report_id": "R-26c5561eca65fa67fc55",
+      "fulltext_path": "technical_reports/fulltext/R-26c5561eca65fa67fc55-d524e0df0fa83557.txt",
+      "source": "Google DeepMind 官方模型卡目录",
+      "report_url": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-Omni-Flash-Model-Card.pdf",
+      "feishu_url": "https://ocns5gikjtax.feishu.cn/wiki/TOt5wSoDuijdF4kOAPKc6UUcn3g"
+    },
+    {
+      "archive_id": "R-2620a44e7782b0be0f5c",
+      "资讯标题": "Piloting the world's first double-blind AI evaluations",
+      "发布时间": "2026-08-27 00:00:00",
+      "date_precision": "day",
+      "来源": "Google 技术报告",
+      "超链接": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
+      "desc": "报告针对私有评测基准与专有模型权重难以同时保密的问题，提出结合硬件安全隔离区、远程证明和PySyft代码审批的“双盲评测”，并报告完成Gemini 2.5 Flash Lite试点。证据支持保密评测的部署可行性，但试点未完整实现独立验证与代码白名单目标，也未提供模型安全分数或抗攻击实测。",
+      "content": "## 核心结论\n报告展示了在不向模型方披露私有提示、不向评测方移交明文权重的条件下开展评测的合作路径；但它是具有额外信任前提的部署验证，不是完全无需信任的安全证明，也不构成Gemini安全水平的量化结论。作者称其为首次实际部署，正文未独立验证这一首创性判断。（全文第1—8页）\n\n## 问题与方法\n- **双重保密困境：**普通API会向模型方暴露提示，可能损害基准完整性；直接交付权重则涉及知识产权及双重用途风险。合同和零日志机制仍需要信任。\n- **硬件隔离与远程证明：**框架使用GCP Confidential Space、Intel TDX及NVIDIA H100机密GPU保护运行中的权重和提示；通过签名测量、临时公钥绑定和加密通道，核验软件栈并提交资产。隔离区仍依赖硬件厂商、云服务商和可信计算基，并非绝对安全。\n- **双方审批与输出约束：**PySyft管理代码提交、审查及双方批准；理论设计允许隐藏专有代码，但要求隐藏部分仅调用经syft-restrict验证的白名单方法，并约束通信及输出。图1展示获准结果返回后销毁环境，硬件隔离本身不能替代代码和输出政策审查。\n- **独立验证目标：**理想框架要求公开源码的确定性构建，以及各方独立核验证书链、证明新鲜性和预期测量值。这些目标与实际试点存在差距。\n\n## 主要证据\n报告称，AVERI与MLCommons使用AILuminate储备集，对Gemini 2.5 Flash Lite完成端到端评测。报告称这些提示此前未被任何模型处理，覆盖多类危险或有害内容；AVERI负责提示加密、输出解密及人工评估。部署采用a3-highgpu-1g实例、H100 80GB GPU和PySyft v0.10.x，模型通过Google JAX C++ Model Server服务。（第3.1节）\n报告另称Singapore AISI使用同一模型评测新加坡语境的私有提示，但未提供独立流程细节或分数。前序2024年概念验证仅使用GPT-2及5行样本，不能视为本次规模。\n\n本文未报告本次提示数量、违规率、通过率、置信区间、吞吐、费用或泄漏攻击测试。“计算开销低于5%”是报告引用的NVIDIA厂商性能说法，并非本次端到端实测；具体任务、批大小和测量方法未交代，也不包含法律协调和人工审查成本。\n\n## 限制与适用价值\n实际试点保留部分专有实现，未做到全部代码可检查或纳入白名单，AVERI知情接受；Confidential Space构建依赖私有签名密钥，第三方不能独立复现，证明签名及验证也依赖Google服务。正文还存在AIRR 1.0与1.4版本不一致，且未充分说明图1聚合指标输出与AVERI人工评估输出的政策关系，以及持久编译缓存如何满足无残留目标。\n\n报告未给出独立安全审计或完整威胁覆盖证明。当前主要瓶颈被认为是法律、代码审查与多方协调；标准化证明、多节点H100/B200扩展及自动识别模型篡改均属未来方向。其价值是为安全机构、非营利评测者和开发者提供减少资产暴露的合作机制；采用前仍需明确厂商信任、可审查代码范围、证明验证方式及输出保密政策。",
+      "content_kind": "技术报告总结",
+      "report_id": "R-2620a44e7782b0be0f5c",
+      "fulltext_path": "technical_reports/fulltext/R-2620a44e7782b0be0f5c-3a23b21703d485d3.txt",
+      "source": "Google DeepMind 官网",
+      "report_url": "https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/piloting-the-worlds-first-double-blind-ai-evaluations/double-blind-evaluations-technical-report.pdf",
+      "feishu_url": "https://ocns5gikjtax.feishu.cn/wiki/VDcJw3CMUiItsMkZHy7c5glenfb"
+    }
+  ]
+}

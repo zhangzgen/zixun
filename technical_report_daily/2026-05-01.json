@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "date": "2026-05-01",
+  "generated_by": "technical_reports.export_search",
+  "items": [
+    {
+      "archive_id": "R-894ddef99174dd1d01a8",
+      "资讯标题": "End-to-End Autoregressive Image Generation with 1D Semantic Tokenizer",
+      "发布时间": "2026-05-01 00:00:00",
+      "date_precision": "day",
+      "来源": "Seed 技术报告",
+      "超链接": "https://seed.bytedance.com/en/public_papers/end-to-end-autoregressive-image-generation-with-1d-semantic-tokenizer",
+      "desc": "报告针对视觉Tokenizer与生成器分阶段训练不匹配、联合训练易码本塌缩的问题，提出EOSTok，以一维离散表示、预测重建损失和隐式语义对齐实现端到端优化。厂商评测称，其在ImageNet-1K 256×256无引导生成中达到gFID 1.48，但对应644M生成器与388M Tokenizer，且证据主要限于类别条件生成。",
+      "content": "## 核心结论\nEOSTok表明：让Tokenizer学习适合顺序预测的表示，并用像素重建约束联合训练，比仅降低下一Token预测损失更有利于自回归图像生成；这一结论得到报告内部消融支持，尚非独立复现。\n\n## 问题与方法\n- **训练目标错配**：传统流程先训练并冻结Tokenizer，再训练生成器，潜空间难以适应生成任务；联合训练若只增加下一Token预测（NTP）目标，Tokenizer可能减少有效码字，使预测变简单但图像质量下降。\n- **一维表示与可微联合训练**：以可学习查询压缩图像块，采用查询间因果注意力和IBQ可微量化，将NTP梯度传回编码器、码本。去除二维先验针对压缩潜序列，并非输入和解码输出没有二维结构。\n- **自回归预测重建（APR）**：将生成器在教师强制条件下预测的Token解码成图像，以L2和LPIPS监督保留视觉信息、抑制码本塌缩；它不是直接优化完整自由采样结果。\n- **隐式语义对齐**：将编码器图像块隐藏特征与冻结DINOv2特征对齐，而非直接约束一维潜Token布局；同时对齐解码器中间特征。总目标联合重建、量化正则、NTP、APR和语义监督。\n\n## 主要证据\n以下均为报告称或厂商评测。\n- **塌缩消融（表1）**：L模型训练50 epochs、无引导时，两阶段基线、仅NTP联合训练、加入APR的gFID分别为3.82、8.01、3.32；对应码本使用率99.8%、51.8%、99.7%。仅NTP的预测准确率升至30.2%，但生成恶化，说明该指标不能替代图像质量。\n- **语义注入（表2）**：相同50 epochs条件下，无语义监督、仅解码器对齐、直接潜Token对齐、隐式对齐的gFID分别为12.27、5.68、5.98、3.32，支持避免强制潜序列空间化的设计。\n- **主结果（表3、附录A）**：ImageNet-1K 256×256，256个Token、4096码本，训练400 epochs、batch 256、8张H100。H无引导gFID为1.48、IS为239.5、重建rFID为0.71；生成器644M加Tokenizer 388M，合计约1.03B参数。报告将1.48称为该基准最先进结果，但有引导时L的gFID 1.35优于H的1.38；S/B使用CFG，L/H使用AutoGuidance。\n- **边界与成本（表4—8、附录B）**：冻结Tokenizer后按原序、反序、随机序训练生成器，gFID为4.10、10.27、7.81，支持潜序列适应顺序建模。长度和码本增大改善重建，却不保证生成改善；512分辨率L模型无引导gFID为1.98。报告估计L/H训练计算较两阶段增加15.2%/18.6%；单H100约10.5张/秒，但未给具体吞吐batch及质量匹配条件。\n\n## 限制与适用价值\n正文及附录证据主要覆盖ImageNet类别条件生成，不能外推到文本生图、视频或开放域指令能力。APR仍存在教师强制训练与自由采样差别；基线来自不同报告，模型规模和引导条件不统一，未提供多种子波动、置信区间或独立验证，部分表间配置与文字也有不一致。其主要价值是为Tokenizer—生成器联合优化提供可扩展方案，并揭示重建质量、预测难度与生成质量之间不能简单等同的权衡。",
+      "content_kind": "技术报告总结",
+      "report_id": "R-894ddef99174dd1d01a8",
+      "fulltext_path": "technical_reports/fulltext/R-894ddef99174dd1d01a8-90658938fda93480.txt",
+      "source": "ByteDance Seed 官网",
+      "report_url": "https://arxiv.org/pdf/2605.00503",
+      "feishu_url": "https://ocns5gikjtax.feishu.cn/wiki/O8WFw1EfUiX6HxkkImqcYxYvnBf"
+    }
+  ]
+}

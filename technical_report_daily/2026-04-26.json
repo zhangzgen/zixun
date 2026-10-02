@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "date": "2026-04-26",
+  "generated_by": "technical_reports.export_search",
+  "items": [
+    {
+      "archive_id": "R-93dd1706aa0d1b14117c",
+      "资讯标题": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
+      "发布时间": "2026-04-26 00:00:00",
+      "date_precision": "day",
+      "来源": "DeepSeek 技术报告",
+      "超链接": "https://arxiv.org/abs/2606.19348",
+      "desc": "DeepSeek-V4针对百万token上下文的注意力计算与缓存瓶颈，以CSA/HCA混合压缩注意力、mHC、Muon及训练推理系统协同优化，推出Pro与Flash预览模型。报告称其显著降低长上下文估算开销，并提升知识、推理和真实任务能力；但效率不等于实测服务成本，能力也并非全面领先。",
+      "content": "## 核心结论\n报告的主要贡献是将百万token上下文的架构、训练和部署优化贯通，而非仅扩大窗口：厂商评测显示能力与参数效率提升，但长序列检索仍退化，复杂代理任务仍有差距。\n\n## 问题与方法\n- **压缩注意力（第2节、第4.2节）**：CSA将每4个token压缩并进行top-k稀疏选择，HCA每128个token压缩后保留稠密关注，两类层交错并配128-token局部窗口；低精度KV进一步降低缓存。Pro总参数1.6T、激活49B，Flash为284B、13B，均支持1M上下文。\n- **优化与稳定性（第2、4节）**：mHC以双随机矩阵约束残差混合，多数参数采用Muon；预训练分别使用33T、32T token，长度从4K渐进扩至1M。路由预计算与SwiGLU截断缓解损失尖峰，但机制尚未充分解释。\n- **系统协同（第3节）**：融合MoE通信与计算，以两阶段上下文并行、张量级重计算、确定性kernel支撑训练；推理区分压缩KV与尾部状态缓存，磁盘前缀复用提供不同存储—重算权衡。\n- **能力整合（第5节）**：先独立培养领域专家，再以超过10个教师的全词表在策略反向KL蒸馏整合学生；配合FP4量化感知训练、可恢复rollout、百万token RL及代理沙箱，提供Non-think、High、Max三档投入。\n\n## 主要证据\n- **效率（图1）**：报告在1M上下文、等效FP8 FLOPs口径下估算，Pro单token推理计算约为V3.2的27%、KV缓存约10%；Flash约10%、7%。这些不是端到端吞吐、延迟或费用实测。\n- **基础能力（表1）**：厂商统一框架下，V3.2/Flash/Pro的5-shot MMLU-Pro为65.5/68.3/73.5，1-shot LongBench-V2为40.2/44.7/51.5；但BigCodeBench仍以V3.2最高，提升并非逐项成立。\n- **推理与代理（表6—7）**：厂商评测Pro-Max的LiveCodeBench Pass@1为93.5%，SWE Verified解决率80.6%；GPQA为90.1%，低于Gemini-3.1-Pro的94.3%。知识推理三档窗口分别8K/128K/384K，代码代理最多500步、512K；跨模型档位不代表相同计算预算。\n- **长上下文（表6、图9）**：Pro-Max在1M MRCR/CorpusQA为83.5/62.0，高于Gemini、低于Opus；单独的MRCR八针曲线在128K与1024K为0.92与0.59，不应与表6汇总指标混用。\n- **真实任务与附录B**：869例搜索比较中，代理式搜索胜RAG为61.7%，平局20%，平均工具调用16.2次，token消耗也更高；3170例中文功能写作对Gemini胜率62.65%，但196例困难写作对Opus-4.5胜率45.9%、低于对手52.0%。30项白领任务盲评对Opus-4.6为53%胜、10%平；30项内部研发任务通过率67%，低于Opus-4.6 Thinking的80%。\n\n## 限制与适用价值\n上述结果主要来自厂商评测，缺少独立复现及多项误差信息；内部任务样本小，附录B表13还存在名义样本数与计数不一致。原文承认架构复杂、稳定性理论不足，以及复杂指令、简短摘要和视觉设计短板。报告适合指导长文分析、中文办公、搜索与编程代理选型，但须按预算和工具框架复验；在线学习、多模态等属于未来方向，而非已证实能力。",
+      "content_kind": "技术报告总结",
+      "report_id": "R-93dd1706aa0d1b14117c",
+      "fulltext_path": "technical_reports/fulltext/R-93dd1706aa0d1b14117c-da60ff84ff1d1f77.txt",
+      "source": "DeepSeek 官方研究",
+      "report_url": "https://arxiv.org/pdf/2606.19348",
+      "feishu_url": "https://ocns5gikjtax.feishu.cn/wiki/DzOBwtVdziMZnqkG16scaAM5n6e"
+    },
+    {
+      "archive_id": "R-4b985f3d57bd5e76aca6",
+      "资讯标题": "MegaScale-Omni: A Hyper-Scale, Workload-Resilient System for MultiModal LLM Training in Production",
+      "发布时间": "2026-04-26 00:00:00",
+      "date_precision": "day",
+      "来源": "Seed 技术报告",
+      "超链接": "https://seed.bytedance.com/en/public_papers/megascale-omni-a-hyper-scale-workload-resilient-system-for-multimodal-llm-training-in-production",
+      "desc": "MegaScale-Omni针对多模态大模型训练中模态比例变化、样本长度偏斜造成的计算失衡与显存瓶颈，采用编码器—LLM解耦并行、全GPU共置复用及分布式负载均衡。厂商评测显示特定负载下吞吐显著提升，并提供数千GPU长期训练经验；收益仍受工作负载、通信拓扑和内存管理条件约束。",
+      "content": "## 核心结论\nMegaScale-Omni的关键是让编码器与LLM共享GPU、独立选择并行策略，再通过稳定联合调度和数据均衡适应动态负载；厂商实验与生产经验支持其效率价值，但不构成普遍收益或收敛保证。\n\n## 问题与方法\n- **动态负载，而非固定模型划分问题**：模态比例随训练阶段甚至步骤变化，样本长度与计算成本也不同；按样本数混合不能保证计算均衡。编码器前置于LLM首阶段容易形成计算、显存瓶颈，固定资源解耦则可能阻塞或闲置。跨模态hybrid packing使LLM输入长度相对稳定（第2—3节）。\n- **独立并行、全GPU共置**：编码器优先采用DP，并以长短序列并行LSSP在节点内按长度切换DP/Ulysses SP，结合ZeRO降低内存；LLM保留DP、TP、PP、SP及MoE的EP。各流水线阶段同质共置编码器，减少模态变化导致的阶段失衡（第4节）。\n- **稳定、按需联合流水线**：EncoderAnchor将编码器挂接位置与微批数据流分离，降低对既有流水线代码的侵入。编码器微批均匀插入各阶段，在输出即将被使用时执行并尽早回收激活；稳定性依赖打包及负载均衡，而非任意负载下无条件成立（第4节）。\n- **数据与内存协同治理**：去中心化加载器按网络局部性分组重排，过滤非本阶段数据；编码结果先发送再按LLM并行方式自适应重分片。结合选择性卸载、重计算和通信计算重叠，避免以全局重排或大量激活驻留换取均衡（第5—6节）。\n\n## 主要证据\n- **端到端比较**：厂商在64/128/256/512 GPU上测试ViT1B—10B与LLaMA12B/70B、GPT175B组合，序列为8K或16K，图文样本比例从9:1至1:9，比较四种基线。图13相对最强有效基线的最大提升分别为1.54、3.30、7.57、1.98倍；512 GPU、9:1时所有基线OOM。摘要称总体1.27—7.57倍，但图13含1.20倍，口径未解释。\n- **长序列与多模态**：Workload-C、256 GPU下，16K/32K最大提升6.88/4.72倍。Workload-B、128 GPU下，图文比7:3、序列4K至32K时MFU由17.0%升至38.2%；三模态相对两个Megatron基线最高提升2.01倍，不能扩展为对四种基线均已验证（图14、16—17）。\n- **消融与代价**：图文比7:3、16K，A/B分别使用64/128 GPU；禁用复用使吞吐下降60.6%/52.9%，禁用负载均衡下降50.7%/45.9%。扩大重排组最高增益1.33倍，但128-rank组的数据all-to-all开销达738ms，说明均衡范围并非越大越好（图18—20）。\n- **生产运行**：报告称数千GPU内部训练平均约800万token/s，约10万步内重启59次，多数因软硬件故障并自动恢复。512K任务改用先前向后反向流水线并加强卸载、重计算，称节省约三分之二GPU小时；异步加载器状态快照将6—20分钟长尾降至约800ms。均为特定任务经验，非普遍指标（第7.4节）。\n\n## 限制与适用价值\n基线含作者重实现版本，结果均为厂商评测；GPU型号、生产集群细节及内部数据未充分公开，也缺少统计误差和完整最终质量对照。生产中仍出现损失尖峰、主机内存争用、通信挂起和检查点停顿；超过512-rank通信组的不稳定仅是其环境经验。参考文献涵盖并行、调度和多模态系统，引用工作的规模不能算作本系统验证；笔记未见独立附录或局限章节。该报告适合指导动态多模态、长短样本混合训练的架构与工程优化，具体收益须结合硬件、配方和并行布局复测。",
+      "content_kind": "技术报告总结",
+      "report_id": "R-4b985f3d57bd5e76aca6",
+      "fulltext_path": "technical_reports/fulltext/R-4b985f3d57bd5e76aca6-14829c108a9b93f2.txt",
+      "source": "ByteDance Seed 官网",
+      "report_url": "https://arxiv.org/pdf/2605.08962",
+      "feishu_url": "https://ocns5gikjtax.feishu.cn/wiki/V7UPwvFmzicTs1kKQmNcz5gNnLh"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "date": "2026-04-27",
+  "generated_by": "technical_reports.export_search",
+  "items": [
+    {
+      "archive_id": "R-ef3fcb104df09c30a0d2",
+      "资讯标题": "DeepSeek-V4 模型卡",
+      "发布时间": "2026-04-27 00:00:00",
+      "date_precision": "day",
+      "来源": "DeepSeek 技术报告",
+      "超链接": "https://fe-static.deepseek.com/chat/transparency/deepseek-V4-model-card-CN_3c2bd9.pdf",
+      "desc": "DeepSeek V4 模型卡集中说明 Pro/Flash 的参数、百万上下文、架构、分发许可和训练数据政策，适合作为部署与使用边界的基础资料。",
+      "content": "结论：这份模型卡提供 V4 系列的可部署规格与数据治理说明，详细能力评测应另读完整技术报告。\n\n- 模型规格：文本 MoE，Pro 总参数 1.6T/激活 49B，Flash 总参数 285B/激活 13B；上下文为 1M，提供非思考、高思考和极限思考三档。\n- 架构要点：继承 DeepSeekMoE 与多 token 预测，结合压缩稀疏注意力 CSA、深度压缩 HCA、流形约束超连接 mHC 和 Muon 优化器，分别优化长上下文成本、信号传播稳定性与收敛。\n- 分发与用途：通过 API 和开放权重部署，权重及代码采用 MIT；通用问答与 Agent 是预期用途，具体自部署软硬件要求转引官方 Hugging Face 卡片。\n- 数据政策：预训练以公开和授权数据为主，声明不主动收集用于关联特定个人的信息并过滤敏感信息；后训练中少量用户输入若用于构造样本，需加密、去标识及匿名化。\n\n价值与限制：可用于模型规格和许可对照。模型卡没有完整评测、训练配比和硬件容量表；首页文档发布日期写 2026-04-27、模型发布日期为 2026-04-24，二者已分别保存，原文还出现更新日早于文档发布日期的表述。",
+      "content_kind": "技术报告总结",
+      "report_id": "R-ef3fcb104df09c30a0d2",
+      "fulltext_path": "technical_reports/fulltext/R-ef3fcb104df09c30a0d2-a5adbdc23e2c5cf2.txt",
+      "source": "DeepSeek 官方研究",
+      "report_url": "https://fe-static.deepseek.com/chat/transparency/deepseek-V4-model-card-CN_3c2bd9.pdf",
+      "feishu_url": "https://ocns5gikjtax.feishu.cn/wiki/SYRXwWCYtibGdDkwmcHcEajpnlf"
+    },
+    {
+      "archive_id": "R-84d2be054225fe08abc7",
+      "资讯标题": "An open-source spec for orchestration: Symphony",
+      "发布时间": "2026-04-27 00:00:00",
+      "date_precision": "day",
+      "来源": "OpenAI 技术报告",
+      "超链接": "https://openai.com/index/open-source-codex-orchestration-symphony",
+      "desc": "Symphony 针对多编程智能体并行时的人类注意力与工作管理瓶颈，以语言无关规范、版控工作流、独立工作空间和 Codex App Server，将任务看板变成常驻编排控制平面。报告称部分团队前三周合并 PR 数达到此前六倍，但证据不足以验证因果；其定位是供团队定制的开源参考实现，而非承诺持续维护的独立产品。",
+      "content": "## 核心结论\nSymphony 的核心价值是把工程师从逐个管理智能体会话转向定义任务、完善防护和审查交付物；其编排蓝图具有可移植性，但生产率收益与安全性仍取决于仓库、工具权限和评审机制。\n\n## 问题与方法\n- **从会话管理转向任务控制平面。** 报告描述，内部工程师通常只能同时管理约 3—5 个 Codex 会话，这是实践观察而非普遍上限。Symphony 持续读取任务看板，为符合活跃状态、依赖和并发条件的任务派发智能体；一个 issue 可产生多个跨仓库 PR，也可仅交付调研。并非所有未关闭任务都会无条件执行。\n- **用规范与文档表达流程。** 语言无关的《Symphony Service Specification》为 Draft v1；仓库版控的 WORKFLOW.md 同时承载配置、提示和生命周期钩子，可显式定义检出、更新任务状态、创建 PR、提交视频等步骤，并支持动态重载。编排器负责读取、调度和跟踪，业务状态修改通常由智能体工具完成；成功运行也可能只到人工审核阶段。\n- **以独立工作空间和恢复机制支撑常驻执行。** 每个 issue 使用可复用目录，唯一权威编排状态避免重复派发；轮询、状态协调、停滞终止和指数退避处理故障，重启依靠跟踪器与文件系统恢复，无需持久编排数据库。规范默认轮询 30 秒、并发 10、失败重试退避上限 5 分钟；这些是配置默认值，不是吞吐量评测。阻塞规则明确针对 Todo 状态，不能扩大解释为所有状态统一检查。\n- **通过 App Server 放宽执行层自主性。** 使用 stdio 上类似 JSON-RPC 的协议启动线程、执行轮次并接收事件，提供结构化日志及可选 token、运行时间和限流快照。动态工具 linear_graphql 可代理 Linear 请求，避免向容器及子智能体暴露访问令牌。团队从硬编码提交、测试等业务步骤，转向提供工具和目标；这不取消调度状态机，也不意味着目录隔离等同于强沙箱。\n\n## 主要证据\n- **生产率自报：** 报告称，部分 OpenAI 团队前三周合并至主分支的 PR 数达到此前 6 倍，即增长 500%。未给出绝对基线、团队样本量、对照组、任务规模、人员变化、统计置信度或成本，不能据此推断工程质量、用户价值或因果效果。\n- **实现与工作流案例：** 报告称 Codex 一次性完成 Elixir 参考实现，并成功生成 TypeScript、Go、Rust、Java、Python 版本，但未提供统一验收或跨语言性能测试。手机提交任务、附视频评审包、智能体持续处理 CI 和变基等案例说明工作方式变化，未给出完成率或可靠性统计。\n- **社区关注：** 报告称截至 4 月 23 日 GitHub 星数超过 1.5 万；Linear 创始人反馈工作空间创建量增加，但无具体数值。星数与反馈不能证明部署规模或生产效果；四条嵌入社交帖子无法读取，不能补推其内容。\n\n## 限制与适用价值\n工单式执行减少了中途纠偏，智能体可能偏离目标；高度不确定、依赖专业判断的工作仍适合交互式 Codex。有效部署需要智能体友好仓库、自动测试、明确任务定义与人工评审；审批和沙箱由实现选择，配置预检不是安全审计，工具及 API 版本兼容也需测试。报告没有正式实验设置、独立附录或完整参考文献，未展示的链接正文不能作为补充证据。团队明确不打算将 Symphony 作为独立产品持续维护：它更适合用作常规实现、依赖驱动迁移及跨仓库交付的定制参考，而不是开箱即用的可靠性或维护承诺。",
+      "content_kind": "技术报告总结",
+      "report_id": "R-84d2be054225fe08abc7",
+      "fulltext_path": "technical_reports/fulltext/R-84d2be054225fe08abc7-728f95e276e1da01.txt",
+      "source": "OpenAI Research",
+      "report_url": "",
+      "feishu_url": "https://ocns5gikjtax.feishu.cn/wiki/V2lywQzwZizajwkboyaccURSn1c"
+    }
+  ]
+}

@@ -12,6 +12,7 @@ COPY requirements-web.txt ./
 RUN pip install --no-cache-dir -r requirements-web.txt && useradd --create-home app
 COPY news_web/ ./news_web/
 COPY ai_news_daily/ ./ai_news_daily/
+COPY technical_report_daily/ ./technical_report_daily/
 COPY --from=frontend /build/web/dist ./web/dist
 USER app
 EXPOSE 8000

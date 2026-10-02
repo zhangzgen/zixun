@@ -5,6 +5,7 @@ import re
 from pathlib import Path
 
 import run_ai_news as core
+from technical_reports.store import latest as latest_reports
 
 
 REQUIRED_ITEM_FIELDS = ["资讯标题", "发布时间", "来源", "超链接", "资讯简介", "关键词"]
@@ -50,10 +51,12 @@ def markdown_for(items):
     for item in items:
         lines.append(f"   🔸 **[{item['关键词']}]({item['超链接']})** {item['资讯简介']}")
         lines.append("")
-    return "\n".join(lines).rstrip() + "\n"
+    from technical_reports.renderer import markdown
+    from technical_reports.store import latest
+    return "\n".join(lines).rstrip() + "\n\n" + markdown(latest(15))
 
 
-def build_agent_card(date_text, doc_url, items):
+def build_agent_card(date_text, doc_url, items, reports=None):
     summary_lines = []
     for index, item in enumerate(items, 1):
         summary = item.get("群聊摘要") or re.sub(r"\*\*", "", item["资讯简介"])
@@ -61,7 +64,83 @@ def build_agent_card(date_text, doc_url, items):
 
     card = core.build_news_card(date_text, doc_url, items)
     card["body"]["elements"][3]["content"] = "\n".join(summary_lines)
+    from technical_reports.renderer import card_sections
+    from technical_reports.store import latest
+    reports = latest(15) if reports is None else reports
+    card['body']['elements'].extend([
+        {'tag': 'hr'}, {'tag': 'markdown', 'content': f'**🟢 技术报告 · 最新 {len(reports)} 份**'},
+        *card_sections(reports),
+    ])
     return card
+
+
+def build_agent_cards(date_text, doc_url, items, reports=None, max_bytes=19000):
+    """Webhook bodies are limited to 20 KB; preserve complete reports in pages."""
+    from copy import deepcopy
+    from technical_reports.renderer import card_sections
+    reports = latest_reports(15) if reports is None else reports[:15]
+    first = build_agent_card(date_text, doc_url, items, reports=[])
+    first['body']['elements'][-1]['content'] = f'**🟢 技术报告 · 最新 {len(reports)} 份**'
+    continuation = {'schema': '2.0', 'config': {'width_mode': 'fill'},
+                    'header': {'template': 'purple', 'title': {'tag': 'plain_text', 'content': f'{date_text} 技术报告'}},
+                    'body': {'elements': [{'tag': 'markdown', 'content': f'**🟢 技术报告 · 最新 {len(reports)} 份**\n[查看完整要闻文档]({doc_url})'}]}}
+    def size(card):
+        return len(json.dumps({'msg_type': 'interactive', 'card': card}, ensure_ascii=False).encode('utf-8'))
+    if size(first) > max_bytes:
+        raise ValueError('AI news card exceeds the Feishu webhook body limit')
+    cards = [first]
+    for report in reports:
+        elements = card_sections([report])
+        trial = deepcopy(cards[-1])
+        trial['body']['elements'].extend(elements)
+        if size(trial) <= max_bytes:
+            cards[-1] = trial
+        else:
+            page = deepcopy(continuation)
+            page['body']['elements'].extend(elements)
+            if size(page) > max_bytes:
+                raise ValueError('one complete report exceeds the Feishu webhook body limit')
+            cards.append(page)
+    for number, card in enumerate(cards, 1):
+        if len(cards) > 1:
+            card['header']['title']['content'] += f'（{number}/{len(cards)}）'
+    return cards
+
+
+def push_agent_cards(date_text, doc_url, items):
+    import fcntl
+    from technical_reports.common import ROOT
+    folder = ROOT / '.technical_reports'
+    folder.mkdir(parents=True, exist_ok=True)
+    with (folder / 'push.lock').open('a') as lock:
+        fcntl.flock(lock, fcntl.LOCK_EX)
+        return _push_agent_cards(date_text, doc_url, items)
+
+
+def _push_agent_cards(date_text, doc_url, items):
+    """Checkpoint accepted pages so a retry does not repeat a partial push."""
+    from technical_reports.common import ROOT, digest, now, write_json
+    ledger_path = ROOT / '.technical_reports' / 'push_state' / (date_text + '.json')
+    ledger = load_json(ledger_path) if ledger_path.exists() else {'pages': {}}
+    publication = digest(json.dumps([date_text, doc_url, items], ensure_ascii=False, sort_keys=True))
+    events = ledger.setdefault('publications', {})
+    if publication not in events:
+        events[publication] = build_agent_cards(date_text, doc_url, items)
+        write_json(ledger_path, ledger)
+    cards = events[publication]
+    results = []
+    for card in cards:
+        key = digest(json.dumps(card, ensure_ascii=False, sort_keys=True))
+        if key in ledger['pages']:
+            results.append({'code': 0, 'already_sent': True})
+            continue
+        result = core.send_card(f'{date_text} 要闻', card)
+        if result.get('code', result.get('StatusCode')) != 0:
+            raise RuntimeError(f"Feishu card page rejected: code={result.get('code', result.get('StatusCode'))}")
+        ledger['pages'][key] = {'accepted_at': now()}
+        write_json(ledger_path, ledger)
+        results.append({'code': 0})
+    return {'code': 0, 'card_count': len(cards), 'pages': results}
 
 
 def cleanup_temp_files(paths):
@@ -109,7 +188,7 @@ def main():
             raise RuntimeError(f"created node missing document token: {node}")
 
         core.write_doc_blocks(token, doc_id, items)
-        push_res = core.send_card(f"{date_text} 要闻", build_agent_card(date_text, doc_url, chat_items))
+        push_res = push_agent_cards(date_text, doc_url, chat_items)
 
     cleanup_removed = []
     if args.cleanup_temp and not args.dry_run:
@@ -131,6 +210,7 @@ def main():
         "cleanup_removed": cleanup_removed,
         "markdown": markdown,
         "items": items,
+        "technical_report_count": len(latest_reports(15)),
     }
     Path(args.result).write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
     print(json.dumps({

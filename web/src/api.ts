@@ -6,6 +6,7 @@ export type Article = {
   published_at: string
   summary?: string
   citation?: string
+  content_kind?: string
 }
 export type Message = {
   role: 'user' | 'assistant'
@@ -22,7 +23,7 @@ export function sortedArticles(items: Article[]) {
       const url = new URL(item.url)
       if (!/^https?:$/.test(url.protocol)) continue
       url.hash = ''
-      const key = url.href
+      const key = `${url.href}|${item.content_kind === '技术报告总结' ? 'report' : 'news'}`
       if (!unique.has(key)) unique.set(key, item)
     } catch { /* Ignore an invalid archive URL rather than rendering a broken link. */ }
   }

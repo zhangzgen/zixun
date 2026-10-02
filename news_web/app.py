@@ -44,7 +44,7 @@ class ChatRequest(BaseModel):
 
 def create_app(settings=None, model_client=None):
     settings = settings or Settings.from_env()
-    store = ArchiveStore(settings.archive_dir, settings.database_path)
+    store = ArchiveStore(settings.archive_dir, settings.database_path, settings.report_archive_dir)
     agent = ResearchAgent(store, settings, model_client)
     slots = asyncio.Semaphore(4)
 

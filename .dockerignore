@@ -5,6 +5,8 @@
 !news_web/**
 !ai_news_daily/
 !ai_news_daily/*.json
+!technical_report_daily/
+!technical_report_daily/*.json
 !web/
 !web/**
 web/node_modules

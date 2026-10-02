@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "date": "2026-04-09",
+  "generated_by": "technical_reports.export_search",
+  "items": [
+    {
+      "archive_id": "R-6514ab212216a2735a48",
+      "资讯标题": "Introducing Seed Full-Duplex Speech LLM: Attentive Listening, Robust Interference Suppression, Enabling More Natural Interaction",
+      "发布时间": "2026-04-09 00:00:00",
+      "date_precision": "day",
+      "来源": "Seed 技术报告",
+      "超链接": "https://seed.bytedance.com/en/blog/introducing-seed-full-duplex-speech-llm-attentive-listening-robust-interference-suppression-enabling-more-natural-interaction",
+      "desc": "Seeduplex 以持续听说的原生全双工框架联合建模语音、语义与轮次节奏，降低噪声误触发和提前抢答。官方相对前代半双工系统报告误回应/误打断减半、提前回应减少40%，总体对话流畅度仍低于真实人类。",
+      "content": "**核心结论**：Seeduplex 用模型持续判断说话对象、意图和轮次状态，使语音助手能一边说一边听、在思考停顿时等待并及时响应打断。\n\n**技术依据**：语音预训练与多能力多任务后训练联合优化交流能力、延迟、节奏、抗干扰和定向理解；流式感知将声学特征与对话上下文融合，选择继续听、开始答或响应打断。推理采用推测解码与量化，并优化高并发音频输入/播放稳定性。\n\n**关键证据**：官方对前代半双工系统报告Endpoint MOS增加8%、Dialogue Fluency MOS增加12%；端点延迟约降低250毫秒，用户打断响应约降低300毫秒，复杂场景提前回应减少40%，误回应和误打断均减半。大规模A/B测试中整体通话满意度绝对提高8.34个百分点。竞品在图中匿名，正文未公开完整样本量和统计区间。\n\n**边界与价值**：真实人类对话对照显示端点处理差距缩小，但总体流畅度仍有明显差距；多人、智能设备、主动反馈和视觉整合是后续方向。适合语音练习、客服和实时助手，但应在实际噪声、方言、多人及网络条件下复测，并区分绝对满意度增幅和相对MOS增幅。",
+      "content_kind": "技术报告总结",
+      "report_id": "R-6514ab212216a2735a48",
+      "fulltext_path": "technical_reports/fulltext/R-6514ab212216a2735a48-130cc8a5e787056d.txt",
+      "source": "ByteDance Seed 官网",
+      "report_url": "",
+      "feishu_url": "https://ocns5gikjtax.feishu.cn/wiki/WNjRwFur8iafxPkgyAscIrmznNh"
+    },
+    {
+      "archive_id": "R-25b698210ff531158090",
+      "资讯标题": "Trustworthy agents in practice",
+      "发布时间": "2026-04-09 00:00:00",
+      "date_precision": "day",
+      "来源": "Anthropic 技术报告",
+      "超链接": "https://www.anthropic.com/research/trustworthy-agents",
+      "desc": "报告针对自主智能体误读用户意图、遭提示注入及监督困难的问题，提出在模型、运行约束框架、工具和环境四层协同治理，并结合权限控制、计划审批和澄清训练介绍产品实践。核心结论是可信性不能仅靠模型训练；现有证据主要为厂商自述，尚不足以证明系统安全性。",
+      "content": "## 核心结论\n可信智能体需要模型、运行约束框架（harness）、工具和环境共同落实人类控制、目标对齐与安全防护，并以共享基准、证据交流和开放标准支撑治理；本文是政策与产品实践说明，而非独立验证的完整技术评测。\n\n## 问题与方法\n- **四层协同治理**：智能体自主循环执行规划、行动、观察和调整，而非遵循固定脚本。模型决定推理与行为，harness规定指令及护栏，工具提供执行能力，环境决定可访问资源与风险范围。即使模型训练良好，配置不当、权限过宽或环境暴露仍可能导致风险。差旅报销及“超过100美元需标记”只是解释性示例，并非实测结果或统一默认设置。\n- **人类控制：权限与计划审批**：Claude.ai与Claude Desktop允许用户选择工具，并将动作设为始终允许、需要批准或阻止。针对复杂任务中反复确认造成的摩擦，Claude Code的Plan Mode让用户在行动前审查、编辑和批准整体计划，执行中仍可介入。并行子智能体使监督更复杂，协调方式仍在探索。\n- **目标对齐：区分信息缺口与意图缺口**：报告主张，智能体应判断哪些问题可以自行研究，哪些涉及用户偏好、必须澄清。方法包括训练模型在含糊情境中暂停而非自行假设，以及通过影响训练的Claude Constitution鼓励提出疑虑、寻求澄清或拒绝继续。\n- **安全：提示注入的纵深防御**：不可信邮件、网页等内容可能被误当作指令；环境越开放、工具能力越强，攻击入口和潜在后果越大。报告称其措施包括识别注入的模型训练、生产流量监控与阻断、外部红队测试，同时要求部署者限制数据、工具、权限及运行环境，并明确多层措施也不能保证完全防护。\n- **生态基础设施**：建议NIST等机构与行业维护共享基准，扩大第三方评估及实际使用证据共享。报告称Anthropic创建的Model Context Protocol已捐赠给Linux Foundation旗下Agentic AI Foundation，主张通过开放协议统一设计基础设施安全属性；这些措施不能替代开发者自身的安全责任。\n\n## 主要证据\n报告称，其智能体使用研究发现：在复杂任务相较简单任务时，用户打断Claude的频率仅略高，而Claude主动向用户确认的频率约翻倍。文中未给出绝对频率、样本量、复杂度定义、模型版本或统计置信度，因此这只能作为厂商行为观察，不能证明训练干预的因果效果，也不等同于任务成功率提升或风险降低。\n\n其余证据主要是产品机制与实践描述：生产力收益、计划审批体验和提示注入防护均缺少定量评测；没有防御成功率、攻击集、红队规模或误拦截指标，也未提供开放协议安全性质的形式化证明或比较实验。\n\n## 限制与适用价值\n提供的全文无独立附录、完整实验设置、正式参考文献列表或技术评测表；外链正文、相关内容卡片及页脚导航不作为本文证据。框架涵盖人类控制、价值对齐、交互安全、透明和隐私五项原则，但后两项未单独详述。子智能体监督尚未解决，安全防护不作保证。本文适合作为企业部署检查框架，用于划分四层责任、设计权限和计划审批、建立不确定性升级机制；不宜据此认定具体系统已被证明安全，或可无需监督运行。",
+      "content_kind": "技术报告总结",
+      "report_id": "R-25b698210ff531158090",
+      "fulltext_path": "technical_reports/fulltext/R-25b698210ff531158090-bf818266ad57fc01.txt",
+      "source": "Anthropic Research",
+      "report_url": "",
+      "feishu_url": "https://ocns5gikjtax.feishu.cn/wiki/OTzlwOYmFiTzlckdj41cUUlFnLc"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "date": "2026-06-10",
+  "generated_by": "technical_reports.export_search",
+  "items": [
+    {
+      "archive_id": "R-f8c43b8bcc6cc5606f1d",
+      "资讯标题": "DiffusionGemma Model Card",
+      "发布时间": "2026-06-10 00:00:00",
+      "date_precision": "day",
+      "来源": "Google 技术报告",
+      "超链接": "https://ai.google.dev/gemma/docs/diffusiongemma/model_card?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content",
+      "desc": "DiffusionGemma 针对逐 token 生成的串行瓶颈，采用缓存上下文的编码器、并行去噪解码器与块自回归生成。报告称其在 H100、FP8、低批量条件下单用户速度超过 1100 tokens/s，但厂商评测中多数能力指标低于同规模 Gemma 4，体现速度优先的能力取舍。",
+      "content": "## 核心结论\nDiffusionGemma 是 Google DeepMind 的开放权重视觉语言模型，以画布内并行扩散换取快速生成；现有厂商证据支持特定硬件条件下的高吞吐定位，不支持无条件加速或能力全面领先的判断。\n\n## 问题与方法\n- **缓解串行瓶颈（模型介绍、架构）**：基于 Gemma 4 26B A4B 稀疏 MoE，实际总参数 25.2B、活跃参数 3.8B。自回归编码器处理提示并缓存 KV，解码器通过交叉注意力读取上下文、以双向注意力并行去噪。\n- **画布内并行、画布间串行（多画布采样）**：每个画布为 256 tokens；完成去噪后由编码器处理并追加缓存，再生成下一画布，并非整篇一次性并行生成。报告称每次前向传播约生成 15—20 tokens，计算量随任务复杂度变化。\n- **自适应推理（推荐配置）**：推荐熵有界采样器与自适应停止，最多 48 步，温度从 0.8 线性降至 0.4；提前停止要求平均模型熵低于 0.005，且连续两步最高概率预测完全一致。\n- **多模态与应用接口（能力、使用设置）**：接受文本、图像和逐帧视频，输出文本，支持函数调用、可配置思考模式及最高 256K 上下文。视频最多 60 秒以每秒 1 帧为前提；图像 token 预算可调。训练数据包含音频不等于支持音频输入。\n\n## 主要证据\n**速度**：报告称在 H100、FP8、低批量设置下，单用户生成速度超过 **1100 tokens/s**；未披露明确批大小、任务分布、输出长度、预填充耗时或端到端延迟，也没有与 Gemma 4 的同条件速度对照，不能计算整体加速倍数。\n\n**能力（基准表）**：均为指令微调模型使用推荐熵有界采样器的厂商评测。以下按“DiffusionGemma / Gemma 4”列示：MMLU Pro 为 **77.6% / 82.6%**；AIME 2026 无工具为 **69.1% / 88.3%**；LiveCodeBench v6 为 **69.1% / 77.1%**；GPQA Diamond 为 **73.2% / 82.3%**。视觉 MMMU Pro 为 **54.3% / 73.8%**；OmniDocBench 1.5 平均编辑距离为 **0.319 / 0.149**，越低越好。长上下文 MRCR v2 在 **8 needle、128k、平均值**条件下为 **32.0% / 44.1%**，不是 256K 质量验证。所有列示指标中，仅 HLE 无工具领先，为 **11.0% / 8.7%**。原文未提供误差范围、显著性检验或完整复现协议。\n\n**训练与安全**：报告称数据截止于 2025 年 1 月，并实施儿童性虐待材料、部分个人信息及内容安全过滤，但未披露规模、来源比例或完整训练设置。安全评测包含自动与人工测试，故意不使用安全过滤器；报告称较早期 Gemma 改善且违规极少，但没有违规率、拒答率、样本量等定量证据。\n\n## 限制与适用价值\n原文明示模型可能产生错误或过时事实，受数据偏差、覆盖缺口、提示清晰度影响，在复杂任务、语言细微含义和常识推理上仍有限制。材料没有独立附录或正式参考文献表，也未提供显存实测与最低硬件要求；链接目标不能作为已提供证据。\n\n其 Apache 2.0 开放权重适合单用户、小批量快速生成、多模态文本任务及离散扩散研究。部署时应权衡多数基准能力下降、硬件与采样条件，并增加事实核验、隐私保护、内容安全保障和持续监测；开放许可不保证正确性、安全性或所有硬件上的效率。",
+      "content_kind": "技术报告总结",
+      "report_id": "R-f8c43b8bcc6cc5606f1d",
+      "fulltext_path": "technical_reports/fulltext/R-f8c43b8bcc6cc5606f1d-07592a9d370b1fbe.txt",
+      "source": "Google DeepMind 官方模型卡目录",
+      "report_url": "https://ai.google.dev/gemma/docs/diffusiongemma/model_card?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content",
+      "feishu_url": "https://ocns5gikjtax.feishu.cn/wiki/OV8ywVWXcivnsEk1t2acEqh9n3g"
+    }
+  ]
+}

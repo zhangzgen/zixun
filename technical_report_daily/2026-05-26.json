@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "date": "2026-05-26",
+  "generated_by": "technical_reports.export_search",
+  "items": [
+    {
+      "archive_id": "R-6dd68d2aed8d795cc1ed",
+      "资讯标题": "More Expressive Feedforward Layers: Part I. Token-Adaptive Mixing of Activations",
+      "发布时间": "2026-05-26 00:00:00",
+      "date_precision": "day",
+      "来源": "Seed 技术报告",
+      "超链接": "https://seed.bytedance.com/en/public_papers/more-expressive-feedforward-layers-part-i-token-adaptive-mixing-of-activations",
+      "desc": "报告针对Transformer前馈层对所有token采用固定非线性的问题，提出共享线性投影、按token动态混合激活函数的MoA。报告称，该方法在特定有限宽度函数类中具有严格表达优势，并在最高2B参数语言模型及视觉重建预训练中改善损失，但收益依赖设计选择，训练时间仍有增量。",
+      "content": "## 核心结论\nMoA将条件计算从独立参数化专家移到激活函数混合：以较小参数和显存增量提高FFN表达能力。报告的理论与预训练结果支持其作为轻量改造候选，但不证明所有配置、任务或更大规模均受益。\n\n## 问题与方法\n- **固定非线性的局限（第1—3节）**：传统FFN对所有token使用同一种激活；静态可学习组合LA虽能混合激活，系数仍不随输入变化。MoA以输入依赖门控生成每个token的混合权重，各激活共享线性投影，同一激活的权重在隐藏通道间共享。\n- **两类架构与变体（第3节）**：Type-I对应普通双层FFN；Type-II对应SwiGLU式双分支乘积，并设计单侧、双侧和激活对混合。候选字典包含ReLU、ReLU²、GELU、SiLU、LeakyReLU、tanh，Type-II另含恒等映射；默认软门控，不是稀疏MoE专家路由。\n- **表达能力依据（第4节、附录B）**：在指定字典、含偏置、有限宽度和至少二维输入条件下，证明“固定激活类⊊LA类⊊MoA类”。Type-I给出W^{1,∞}函数与梯度误差下界；Type-II证明针对二次混合形式的精确表示分离，未给出相应定量逼近下界。核心机制是MoA能使奇异超平面上的导数跳跃幅度随位置变化；不能将其直接解释为任意Transformer的任务优势。\n- **门控与优化选择（第5节）**：理论采用tanh，但实际消融中sigmoid最好；字典先筛选、再比较门控，并未穷举。更高最优学习率被作者视为可能改善稳定性的线索，因果机制尚未验证。\n\n## 主要证据\n- **语言预训练（第5节、附录A）**：厂商评测采用Llama式Dense和LlamaMoE，序列长度1024、批量480。Dense主要为20 tokens/参数，另测0.12B的100 tokens/参数；MoE为约100 tokens/激活参数，最高2B总参数、0.62B激活参数。报告称MoA降低终端损失，MoE多数实验降低超过0.01；0.25B MoE的双侧变体却近似基线。0.12B消融中，sigmoid双侧MoA相对SwiGLU损失差为−0.029，这是损失差值而非百分比。\n- **下游任务（表3）**：相同token预算的2B MoE零样本评测，ARC-C、HellaSwag、OpenBookQA、WinoGrande平均分由42.20升至单侧MoA的42.86、二次MoA的42.96；并非逐项提升，单侧版本的OpenBookQA下降。\n- **开销（第5节、附录A）**：0.12B最大双侧变体参数相对增量约0.0501%，参数匹配基线几乎无损失收益。0.5B Dense经torch.compile、预热后平均10步测试，Type-I/II训练时间分别增加约3%/13%，显存分别增加56/114MiB，不能称为零计算代价。\n- **视觉验证（图5、附录A.4）**：ViT-Base/16在MAE框架训练800轮、批量4096、遮挡率0.75，以SwiGLU为基线。报告称二次MoA在相同学习率下验证重建损失更低，最佳学习率由3×10⁻⁴增至1.2×10⁻³；未提供分类或迁移准确率。\n\n## 限制与适用价值\n实验未披露语料组成、重复运行、误差条、统计显著性及完整硬件信息；最高仅验证2B，更大尺度收益是拟合趋势推测。门控与字典影响明显，小幅下游差异不能认定为稳健提升。元数据发布日期与论文首页、版本日期不一致。MoA适合探索Dense或MoE的轻量FFN改造，但需重新验证学习率、字典、吞吐及多次运行表现；最强实证仍是特定设置下的预训练损失改善。",
+      "content_kind": "技术报告总结",
+      "report_id": "R-6dd68d2aed8d795cc1ed",
+      "fulltext_path": "technical_reports/fulltext/R-6dd68d2aed8d795cc1ed-304b83cacd47a3e9.txt",
+      "source": "ByteDance Seed 官网",
+      "report_url": "https://arxiv.org/pdf/2605.26647",
+      "feishu_url": "https://ocns5gikjtax.feishu.cn/wiki/JKtgwP2hoimJf4k2k2BcOPLEnKg"
+    },
+    {
+      "archive_id": "R-087c9d7a1911e92a73ad",
+      "资讯标题": "Negligible in Size, Significant in Effect: On Scale Vectors in Large Language Models",
+      "发布时间": "2026-05-26 00:00:00",
+      "date_precision": "day",
+      "来源": "Seed 技术报告",
+      "超链接": "https://seed.bytedance.com/en/public_papers/negligible-in-size-significant-in-effect-on-scale-vectors-in-large-language-models",
+      "desc": "报告研究大语言模型归一化层中极少量缩放参数为何显著影响预训练，以条件性理论证明和稠密、MoE模型消融，将其作用解释为隐式预条件化。厂商评测显示，组合分支独立缩放、双侧归一化、幅度—方向重参数化及分类权重衰减，可在所测规模下降低验证损失，但尚未证明更大模型或下游任务同样受益。",
+      "content": "## 核心结论\n缩放向量的价值不主要在于增加标准Pre-Norm的表达能力，而在于改变优化几何；报告提出的组合设计以极小参数增量改善了所测预训练验证损失，但有实际运行开销，且理论保证有明确条件。\n\n## 问题与方法\n- **为何微小参数重要（第2节、附录C.1）**：Llama-1B原有缩放向量仅占约0.00784%参数。标准Pre-Norm中，缩放可吸收入后续线性权重，不扩展对应函数族；训练时却诱导逐输入通道、状态依赖的“自增强预条件器”。在线性教师—学生、各向同性输入、平方损失、零矩阵与单位尺度初始化的梯度流模型中，报告证明加入缩放后损失严格更低。\n- **按结构位置施加衰减（第2.2节、附录C.2）**：IWD对紧接线性映射的Input-Norm缩放施加权重衰减，对Q/K-Norm及子模块输出归一化等Output-Norm缩放不衰减。前者旨在控制参数失衡和Hessian尖锐度，后者避免削弱分支相对残差流的贡献。其稳定性证明基于特定加性噪声SDE，并非所有LLM的普遍保证。\n- **分支独立与双侧放置（第3节、附录D.1）**：HG为Q/K/V及FFN的gate/up分支分别配置缩放；DP在线性映射两侧放置缩放，DNP再归一化投影输出。DNP不是纯重参数化，单独使用未改善消融结果，优势依赖组合。\n- **幅度—方向分离（第3节、附录D.2）**：OR将缩放拆为标量幅度与归一化方向，ER在指数空间作类似分解。最终方案选择HG+DNP+OR+IWD。理论详细支持OR：匹配有效状态下下降不慢，指定条件下早期严格加速；全程严格优势还要求平衡教师列，双侧缩放则要求matching教师支持等特殊结构。\n\n## 主要证据\n- **必要性与参数匹配**：厂商评测在Llama-0.12B中移除缩放后，相同峰值学习率下终端验证损失约高0.028，报告称约有1.4倍token效率差异；重新调优学习率后仍约高0.015。统一方案与增加FFN宽度的对照均约0.11985B参数，前者降低损失0.033，后者仅小幅改善（图1、图10、附录B.1.3/B.2.1）。\n- **规模与训练条件**：厂商评测覆盖约0.12B—1B稠密模型及0.25B—2B总参数MoE，预算约100 tokens/总参数或激活参数；全部使用H100 80G。默认AdamW配余弦调度，先调优基线学习率再用于改进模型。报告称各稠密规模均改善，MoE终端损失改善均超过0.02（图6—7、附录B）。缩放律图的1.22×、1.25×标注不能视为实测端到端提速。\n- **兼容性与成本**：Muon下三个所测模型损失分别降低0.0156、0.0167、0.0187；wsd调度下也保持优势，但未给精确终端数值。Muon实验中缩放等非矩阵参数仍由AdamW更新。Dense-1B经torch.compile、预热后平均10步，耗时151→157 ms，显存34,263→34,729 MiB，约增加4%时间和1%显存；新增参数约0.00785%（图8—9、表3）。\n\n## 限制与适用价值\n全文及附录支持其优化机制解释，但线性模型、连续时间动态和特殊初始化不能直接覆盖非线性Transformer的离散训练。实验主要测验证损失，未提供下游能力、安全性、重复实验方差或统计显著性；语料组成及部分复现细节仍不充分。正文与附录存在batch size、MoE激活参数标注差异，元数据与PDF版本日期也不同。适用价值是为预训练提供低参数开销、可组合的缩放设计与分类衰减原则；更大规模收益、其他架构迁移和最终能力提升仍需验证。",
+      "content_kind": "技术报告总结",
+      "report_id": "R-087c9d7a1911e92a73ad",
+      "fulltext_path": "technical_reports/fulltext/R-087c9d7a1911e92a73ad-a13b317252330890.txt",
+      "source": "ByteDance Seed 官网",
+      "report_url": "https://arxiv.org/pdf/2605.26895",
+      "feishu_url": "https://ocns5gikjtax.feishu.cn/wiki/P623wyQJ0ihMsAkcETVcFr1yn9d"
+    }
+  ]
+}

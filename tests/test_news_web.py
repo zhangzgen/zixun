@@ -230,6 +230,33 @@ def test_multiple_searches_merge_by_url_and_keep_latest_result(many_indexed):
     assert result_events[-1]["data"]["items"] == matches
 
 
+def test_stream_keeps_news_and_report_summary_at_same_url(indexed, tmp_path):
+    store, settings = indexed
+    reports = tmp_path / 'reports'
+    item = news('report-memory', '长期记忆技术报告', 'https://example.com/memory',
+                '2026-09-29 00:00:00', source='Kimi 技术报告', summary='全文阅读后的结论')
+    item.update(content='金字塔总结', content_kind='技术报告总结')
+    write_archive(reports, '2026-09-29', [item])
+    store.report_archive_dir = reports
+    store.refresh(force=True)
+    requests = []
+
+    def handler(request):
+        requests.append(request)
+        if len(requests) == 1:
+            return httpx.Response(200, text=sse(complete([call('search_news', {'query': '记忆'}, 1)])))
+        return httpx.Response(200, text=sse({'type': 'response.output_text.delta', 'delta': '已找到资讯和技术报告总结。'}, complete([])))
+
+    async def run():
+        async with httpx.AsyncClient(transport=httpx.MockTransport(handler)) as client:
+            return [event async for event in ResearchAgent(store, settings, client).run('记忆技术报告', [], {})]
+
+    matches = asyncio.run(run())[-1]['data']['results']
+    assert len(matches) == 2
+    assert {item['content_kind'] for item in matches} == {'摘要', '技术报告总结'}
+    assert len({item['url'] for item in matches}) == 1
+
+
 @pytest.mark.parametrize("status,body", [(401, "secret provider body private-test-key"), (200, sse({"type": "response.output_text.delta", "delta": "partial"}))])
 def test_provider_errors_and_incomplete_stream_never_finish(indexed, status, body):
     store, settings = indexed

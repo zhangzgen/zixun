@@ -11,3 +11,10 @@ __pycache__/
 *.pyc
 .DS_Store
 .task_reports/
+.technical_reports/
+technical_reports/fulltext/
+technical_reports/bootstrap/
+technical_reports/archive.json
+technical_reports/reading_result.json
+technical_reports/sync_result.json
+technical_report_daily/.export.lock

@@ -143,6 +143,7 @@ async def read_report(item, client, settings):
     prompt = f'''报告元数据：{metadata}
 以下是逐段完整阅读全文得到的全部阅读笔记，共 {len(notes)} 段，总原文字数 {len(text)}。请整合全部笔记，不能只看第一段。
 返回 JSON：{{"overview":"1至2句，直接说报告解决什么问题、用了什么方法、最重要结论，约100至180中文字符",
+"chat_overview":"供每日群聊使用的独立中文短句，不超过60个字符（含标点）。说清具体问题或方法及核心结论，必要时注明报告称/厂商评测，不省略关键限制，不用省略号，不写日期、来源标签或Markdown。",
 "summary":"中文 Markdown，按：核心结论；问题与方法（3至5个分组要点）；主要证据（必要指标和条件）；限制与适用价值。约700至1400中文字符，以清晰程度为准。保留报告章节或页码依据（笔记有才写）。"}}
 <all_reading_notes>
 {json.dumps(notes, ensure_ascii=False)}
@@ -211,6 +212,7 @@ async def run(paths, concurrency=3, vendors=VENDORS):
                     cached = json.loads(analyzed_path.read_text())
                     if cached.get('reading_evidence', {}).get('sha256') == digest(original):
                         cached = {**cached, **item, 'overview': cached['overview'], 'summary': cached['summary'],
+                                  'chat_overview': cached.get('chat_overview') or item.get('chat_overview'),
                                   'reading_evidence': cached['reading_evidence'], 'read_status': 'full_text_read', 'error': None}
                         await asyncio.to_thread(merge_locked, cached)
                         counts['skipped'] += 1

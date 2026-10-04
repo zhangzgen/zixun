@@ -57,6 +57,7 @@ def markdown_for(items):
 
 
 def build_agent_card(date_text, doc_url, items, reports=None):
+    from copy import deepcopy
     summary_lines = []
     for index, item in enumerate(items, 1):
         summary = item.get("群聊摘要") or re.sub(r"\*\*", "", item["资讯简介"])
@@ -65,46 +66,23 @@ def build_agent_card(date_text, doc_url, items, reports=None):
     card = core.build_news_card(date_text, doc_url, items)
     card["body"]["elements"][3]["content"] = "\n".join(summary_lines)
     from technical_reports.renderer import card_sections
-    from technical_reports.store import latest
-    reports = latest(15) if reports is None else reports
-    card['body']['elements'].extend([
-        {'tag': 'hr'}, {'tag': 'markdown', 'content': f'**🟢 技术报告 · 最新 {len(reports)} 份**'},
-        *card_sections(reports),
-    ])
+    reports = latest_reports(5) if reports is None else reports
+    elements = card['body']['elements']
+    label = deepcopy(elements[1])
+    label['columns'][1]['elements'][0]['content'] = "<text_tag color='purple'>技术报告</text_tag>"
+    # Insert the second peer section before the shared More footer.
+    card['body']['elements'] = [*elements[:5], label, {'tag': 'hr'},
+                               *card_sections(reports), *elements[4:]]
     return card
 
 
 def build_agent_cards(date_text, doc_url, items, reports=None, max_bytes=19000):
-    """Webhook bodies are limited to 20 KB; preserve complete reports in pages."""
-    from copy import deepcopy
-    from technical_reports.renderer import card_sections
-    reports = latest_reports(15) if reports is None else reports[:15]
-    first = build_agent_card(date_text, doc_url, items, reports=[])
-    first['body']['elements'][-1]['content'] = f'**🟢 技术报告 · 最新 {len(reports)} 份**'
-    continuation = {'schema': '2.0', 'config': {'width_mode': 'fill'},
-                    'header': {'template': 'purple', 'title': {'tag': 'plain_text', 'content': f'{date_text} 技术报告'}},
-                    'body': {'elements': [{'tag': 'markdown', 'content': f'**🟢 技术报告 · 最新 {len(reports)} 份**\n[查看完整要闻文档]({doc_url})'}]}}
-    def size(card):
-        return len(json.dumps({'msg_type': 'interactive', 'card': card}, ensure_ascii=False).encode('utf-8'))
-    if size(first) > max_bytes:
-        raise ValueError('AI news card exceeds the Feishu webhook body limit')
-    cards = [first]
-    for report in reports:
-        elements = card_sections([report])
-        trial = deepcopy(cards[-1])
-        trial['body']['elements'].extend(elements)
-        if size(trial) <= max_bytes:
-            cards[-1] = trial
-        else:
-            page = deepcopy(continuation)
-            page['body']['elements'].extend(elements)
-            if size(page) > max_bytes:
-                raise ValueError('one complete report exceeds the Feishu webhook body limit')
-            cards.append(page)
-    for number, card in enumerate(cards, 1):
-        if len(cards) > 1:
-            card['header']['title']['content'] += f'（{number}/{len(cards)}）'
-    return cards
+    """One compact card; the complete latest fifteen remain in the wiki."""
+    card = build_agent_card(date_text, doc_url, items, reports)
+    size = len(json.dumps({'msg_type': 'interactive', 'card': card}, ensure_ascii=False).encode('utf-8'))
+    if size > max_bytes:
+        raise ValueError('AI news and report preview card exceeds the Feishu webhook body limit')
+    return [card]
 
 
 def push_agent_cards(date_text, doc_url, items):
@@ -211,6 +189,7 @@ def main():
         "markdown": markdown,
         "items": items,
         "technical_report_count": len(latest_reports(15)),
+        "technical_report_chat_count": len(latest_reports(5)),
     }
     Path(args.result).write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
     print(json.dumps({

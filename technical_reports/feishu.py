@@ -7,7 +7,7 @@ from pathlib import Path
 
 import run_ai_news as core
 from .common import ROOT, VENDORS, digest, now, write_json
-from .renderer import section_blocks
+from .renderer import section_blocks, catalogue_blocks, leaf_section_blocks
 from .store import ARCHIVE, export_search, load, latest, is_fully_read, omitted_pdf_pages
 
 REPORT_PARENT = 'BPXvwO7TyiT8kukRTHecuViMnZb'
@@ -49,18 +49,69 @@ def ensure_node(token, space, parent, title, known):
     return found
 
 
-def write_blocks(token, document, blocks, replace=False):
+def write_blocks(token, document, blocks, replace=False, bulk=False):
     old_count = 0
     if replace:
         existing = core.list_doc_blocks(token, document)
         root = next(b for b in existing if b['block_id'] == document)
         old_count = len(root.get('children', []))
-    results = []
-    for start in range(0, len(blocks), 40):
-        data = api(token, f'docx/v1/documents/{document}/blocks/{document}/children?client_token={uuid.uuid4()}',
-                   'POST', {'children': blocks[start:start + 40], 'index': -1})
-        results.extend(data.get('children', []))
-        time.sleep(.2)
+    def append(parent, payloads):
+        results = []
+        for start in range(0, len(payloads), 40):
+            batch = payloads[start:start + 40]
+            data = api(token, f'docx/v1/documents/{document}/blocks/{parent}/children?client_token={uuid.uuid4()}',
+                       'POST', {'children': [{k: v for k, v in b.items() if k != 'children'} for b in batch], 'index': -1})
+            created = data.get('children', [])
+            if len(created) != len(batch):
+                raise RuntimeError('Feishu accepted an unexpected number of blocks; previous content retained')
+            results.extend(created)
+            time.sleep(.2)
+            for source, target in zip(batch, created):
+                if source.get('children'):
+                    append(target['block_id'], source['children'])
+        return results
+
+    def append_descendants(payloads):
+        batches, batch, size = [], [], 0
+
+        def tree_size(block):
+            return 1 + sum(tree_size(child) for child in block.get('children', []))
+
+        for block in payloads:
+            count = tree_size(block)
+            if count > 900:
+                raise ValueError('One report tree exceeds the bulk block limit')
+            if batch and size + count > 900:
+                batches.append(batch)
+                batch, size = [], 0
+            batch.append(block)
+            size += count
+        if batch:
+            batches.append(batch)
+        results = []
+        for batch in batches:
+            descendants = []
+
+            def flatten(block):
+                uid = 'tmp_' + uuid.uuid4().hex
+                payload = {k: v for k, v in block.items() if k != 'children'}
+                payload['block_id'] = uid
+                descendants.append(payload)
+                payload['children'] = [flatten(child) for child in block.get('children', [])]
+                return uid
+
+            roots = [flatten(block) for block in batch]
+            data = api(token, f'docx/v1/documents/{document}/blocks/{document}/descendant?document_revision_id=-1&client_token={uuid.uuid4()}',
+                       'POST', {'children_id': roots, 'descendants': descendants, 'index': -1})
+            relation = {r['temporary_block_id']: r['block_id'] for r in data.get('block_id_relations', [])}
+            if any(block['block_id'] not in relation for block in descendants):
+                raise RuntimeError('Feishu did not confirm every nested block; previous content retained')
+            for uid, source in zip(roots, batch):
+                results.append({**{k: v for k, v in source.items() if k != 'children'}, 'block_id': relation[uid]})
+            time.sleep(.4)
+        return results
+
+    results = append_descendants(blocks) if bulk else append(document, blocks)
     # Keep the previous content until the entire replacement has been accepted.
     if replace and old_count:
         api(token, f'docx/v1/documents/{document}/blocks/{document}/children/batch_delete', 'DELETE',
@@ -86,7 +137,7 @@ def update_daily_section(token, document, reports):
                 start = index
     if start is not None:
         ranges.append((start, len(ids)))
-    write_blocks(token, document, section_blocks(reports))
+    write_blocks(token, document, section_blocks(reports), bulk=True)
     # A previous interrupted append may have left more than one section.
     # Remove every older copy backwards, leaving unrelated sections in place.
     for start, end in reversed(ranges):
@@ -96,7 +147,7 @@ def update_daily_section(token, document, reports):
 
 def reconcile_retired_documents(token, space, archive, state):
     """Label retained related articles and exclusions without deleting evidence."""
-    from .renderer import heading, paragraph, report_blocks
+    from .renderer import heading, paragraph, leaf_report_blocks as report_blocks
     current = {i['id']: i for i in archive['items']}
     errors = []
     for uid, primary in archive.get('aliases', {}).items():
@@ -172,7 +223,7 @@ def label_incomplete_original(token, item, state):
     return True
 
 
-def sync(path=ARCHIVE, update_today=True):
+def sync(path=ARCHIVE, update_today=True, update_reports=True):
     archive = load(path)
     token = core.tenant_token()
     parent = node(token, REPORT_PARENT)
@@ -184,9 +235,9 @@ def sync(path=ARCHIVE, update_today=True):
         directory = ensure_node(token, space, REPORT_PARENT, vendor + ' 技术报告', existing_vendors)
         state['vendors'][vendor] = directory
         write_json(STATE, state)
-        report_nodes = children(token, space, directory['node_token'])
+        report_nodes = children(token, space, directory['node_token']) if update_reports else []
         records = [i for i in archive['items'] if i['vendor'] == vendor]
-        for item in records:
+        for item in records if update_reports else []:
             if not is_fully_read(item):
                 try:
                     if label_incomplete_original(token, item, state):
@@ -209,7 +260,7 @@ def sync(path=ARCHIVE, update_today=True):
                 item['feishu_node_token'] = target['node_token']
                 item['feishu_document_id'] = target['obj_token']
                 item['feishu_url'] = 'https://ocns5gikjtax.feishu.cn/wiki/' + target['node_token']
-                rendered = section_blocks([item], folded=False)
+                rendered = leaf_section_blocks([item], folded=False)
                 # Layout changes (including folding) must invalidate the cache.
                 content_hash = digest(json.dumps(rendered, ensure_ascii=False, sort_keys=True))
                 if cached.get('render_hash') != content_hash or cached.get('document') != target['obj_token'] or cached.get('pending_quality_hash'):
@@ -221,17 +272,20 @@ def sync(path=ARCHIVE, update_today=True):
             except Exception as exc:
                 errors.append({'id': item['id'], 'vendor': vendor, 'error': str(exc)[:300]})
         # The vendor directory is a complete catalogue, including unresolved originals.
-        from .renderer import heading, paragraph
-        catalogue = [paragraph(f"已收录 {len(records)} 份；其中 {sum(is_fully_read(i) for i in records)} 份已完成全文阅读。")]
-        for item in records:
-            catalogue.append(heading(4, f"{item['published_at'][:10]} · {item['title']}", link=item.get('feishu_url') or item['url']))
-            catalogue.append(paragraph(item.get('overview') if is_fully_read(item) else '已发现报告；原文完整读取（包括图表）和总结尚待完成。'))
+        catalogue = catalogue_blocks(records)
         index_hash = digest(json.dumps(catalogue, ensure_ascii=False, sort_keys=True))
         if state.get('index_hashes', {}).get(vendor) != index_hash:
-            write_blocks(token, directory['obj_token'], catalogue, replace=True)
+            write_blocks(token, directory['obj_token'], catalogue, replace=True, bulk=True)
             state.setdefault('index_hashes', {})[vendor] = index_hash
             write_json(STATE, state)
-    errors.extend(reconcile_retired_documents(token, space, archive, state))
+    if update_reports:
+        errors.extend(reconcile_retired_documents(token, space, archive, state))
+    root_catalogue = catalogue_blocks(archive['items'])
+    root_hash = digest(json.dumps(root_catalogue, ensure_ascii=False, sort_keys=True))
+    if state.get('root_index_hash') != root_hash:
+        write_blocks(token, parent['obj_token'], root_catalogue, replace=True, bulk=True)
+        state['root_index_hash'] = root_hash
+        write_json(STATE, state)
     write_json(path, archive)
     export_search(path)
     today_url = None

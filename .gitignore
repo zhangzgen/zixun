@@ -12,6 +12,7 @@ __pycache__/
 .DS_Store
 .task_reports/
 .technical_reports/
+.agent_frameworks/
 technical_reports/fulltext/
 technical_reports/bootstrap/
 technical_reports/archive.json

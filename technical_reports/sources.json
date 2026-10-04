@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "title": "技术报告来源列表",
+  "description": "按厂商整理当前技术报告采集使用的官方研究入口、模型卡、研究博客及官方仓库。新闻入口用于发现报告或核对日期；公告不会自动视为技术报告。",
+  "vendors": [
+    {
+      "vendor": "Anthropic",
+      "sources": [
+        {"name": "Anthropic Research", "url": "https://www.anthropic.com/research", "description": "研究文章、方法创新与技术评测；关联论文全文。"},
+        {"name": "Transparency Hub", "url": "https://www.anthropic.com/transparency", "description": "Claude 系统卡、安全评估与透明度资料。"},
+        {"name": "Anthropic Engineering", "url": "https://www.anthropic.com/engineering", "description": "包含独立方法或实验的智能体与工程研究。"},
+        {"name": "Alignment Science", "url": "https://alignment.anthropic.com/", "description": "对齐、安全与自动化研究团队的原始研究。"},
+        {"name": "Transformer Circuits", "url": "https://transformer-circuits.pub/", "description": "机制可解释性研究、实验及可视化。"},
+        {"name": "Anthropic News", "url": "https://www.anthropic.com/news", "description": "辅助发现正式报告并核对模型发布日；不将一般公告直接收录。"}
+      ]
+    },
+    {
+      "vendor": "OpenAI",
+      "sources": [
+        {"name": "OpenAI News RSS", "url": "https://openai.com/news/rss.xml", "description": "官方新闻、研究及工程文章订阅；筛选技术方法与评测，并跟随正式报告链接。"},
+        {"name": "Deployment Safety Hub", "url": "https://deploymentsafety.openai.com/", "description": "模型系统卡、补充报告、部署安全与风险评估。"}
+      ]
+    },
+    {
+      "vendor": "DeepSeek",
+      "sources": [
+        {"name": "DeepSeek News", "url": "https://www.deepseek.com/news/", "description": "官方模型发布及技术报告入口，关联正式论文。"},
+        {"name": "DeepSeek Transparency", "url": "https://www.deepseek.com/transparency/", "description": "模型卡与透明度报告。"},
+        {"name": "DeepSeek 官方 GitHub", "url": "https://github.com/deepseek-ai", "description": "官方模型与研究仓库，核对 README 的主论文及技术报告链接。"}
+      ]
+    },
+    {
+      "vendor": "Kimi",
+      "sources": [
+        {"name": "Kimi 官方博客", "url": "https://www.kimi.com/en/blog/", "description": "模型、智能体、评测与研究发布文章，关联报告全文。"},
+        {"name": "MoonshotAI 官方 GitHub", "url": "https://github.com/MoonshotAI", "description": "Kimi 与月之暗面的官方研究项目及主论文链接。"}
+      ]
+    },
+    {
+      "vendor": "GLM",
+      "display_name": "GLM / 智谱（Z.ai）",
+      "sources": [
+        {"name": "智谱官方研究", "url": "https://www.zhipuai.cn/zh/research", "description": "GLM 模型、训练方法、智能体与技术评测的官方研究入口。"},
+        {"name": "Z.ai 官方 GitHub", "url": "https://github.com/zai-org", "description": "GLM 与 Z.ai 官方模型仓库及正式报告链接。"}
+      ]
+    },
+    {
+      "vendor": "Google",
+      "display_name": "Google / Google DeepMind",
+      "sources": [
+        {"name": "Google DeepMind Publications", "url": "https://deepmind.google/research/publications/", "description": "DeepMind 正式论文与研究报告索引，关联出版方或论文原文。"},
+        {"name": "Google DeepMind Model Cards", "url": "https://deepmind.google/models/model-cards/", "description": "Gemini 等模型的模型卡、安全评估及修订版本。"},
+        {"name": "Google DeepMind Blog", "url": "https://deepmind.google/blog/", "description": "包含独立技术方法与实验的研究文章，关联正式论文。"},
+        {"name": "Google Research Publications", "url": "https://research.google/pubs/", "description": "Google Research 论文索引；采集时核对大模型相关性、日期及报告范围。"}
+      ]
+    },
+    {
+      "vendor": "Seed",
+      "display_name": "Seed / 字节跳动",
+      "sources": [
+        {"name": "Seed 研究论文（中文）", "url": "https://seed.bytedance.com/zh/public_papers", "description": "Seed 公开论文与技术报告目录，关联论文或 PDF 原文。"},
+        {"name": "Seed Research Papers（英文）", "url": "https://seed.bytedance.com/en/public_papers", "description": "英文论文目录；与中文页面关联去重，同一论文只收录一次。"},
+        {"name": "Seed 研究进展", "url": "https://seed.bytedance.com/zh/research", "description": "研究动态与技术文章；采集器通过官方分页数据获取中英文研究发布。"},
+        {"name": "Seed Transparency", "url": "https://seed.bytedance.com/transparency", "description": "训练数据透明度资料与报告，以 PDF 明示版本日期核对更新。"}
+      ]
+    }
+  ],
+  "collection_notes": [
+    "每天北京时间 00:00 检查上述入口；遍历分页或完整页面数据，组合使用研究目录、模型卡、博客与官方仓库。",
+    "arXiv、正式出版方及官方关联 PDF 用于核对论文身份、首次发表日期和取得原文，不以 GitHub 更新时间或站点更新时间冒充报告首发日。",
+    "目录页面负责发现报告；只有完整阅读正文和附录后才生成概述及金字塔总结。来源或原文失败保留待处理状态。"
+  ]
+}

@@ -160,8 +160,9 @@ def test_latest_fifteen_and_shared_folded_layout(tmp_path):
     assert blocks[0]['block_type'] == 5
     assert blocks[0]['heading3']['style']['folded'] is False
     assert blocks[1:] == sum((report_blocks(item) for item in records), [])
-    assert sum(b['block_type'] == 7 and b['heading5']['style']['folded'] for b in blocks) == 15
-    assert all(p.get('expanded') is False for p in card_sections(records) if p['tag']=='collapsible_panel')
+    assert sum(b['block_type'] == 2 and b['text']['style'].get('folded', False) and bool(b.get('children')) for b in blocks) == 15
+    card, = card_sections(records)
+    assert card['tag'] == 'markdown' and len(card['content'].splitlines()) == 5
 
 
 def test_reports_index_separate_from_news_labels_summary(tmp_path):

@@ -4,12 +4,12 @@ description: 每天从本地今昨资讯归档构建候选，与飞书已发布�
 
 runtime:
   timezone: Asia/Shanghai
-  schedule: 每天 09:00
+  schedule: 每天 08:30
   mode: agent_in_loop
   entrypoints:
-    prepare_candidates: python3 prepare_ai_news_publish.py --archive-dir ai_news_daily --output tmp_ai_news_candidates.json
-    fetch_details: python3 get_news_details.py --input tmp_ai_news_selected.json --candidates tmp_ai_news_candidates.json --output tmp_ai_news_details.json
-    publish: python3 publish_ai_news.py --input tmp_ai_news_publish.json --result ai_news_run_result.json --cleanup-temp
+    prepare_candidates: .venv-web/bin/python prepare_ai_news_publish.py --archive-dir ai_news_daily --output tmp_ai_news_candidates.json
+    fetch_details: .venv-web/bin/python get_news_details.py --input tmp_ai_news_selected.json --candidates tmp_ai_news_candidates.json --output tmp_ai_news_details.json
+    publish: .venv-web/bin/python publish_ai_news.py --input tmp_ai_news_publish.json --result ai_news_run_result.json --cleanup-temp
   input_archives:
     - ai_news_daily/{{TODAY}}.json
     - ai_news_daily/{{YESTERDAY}}.json
@@ -37,7 +37,7 @@ workflow:
   - id: prepare
     name: 读取今昨归档与飞书历史
     actions:
-      - 先运行 python3 -m py_compile run_ai_news.py archive_ai_news.py prepare_ai_news_publish.py get_news_details.py publish_ai_news.py。
+      - 先运行 .venv-web/bin/python -m py_compile run_ai_news.py archive_ai_news.py prepare_ai_news_publish.py get_news_details.py publish_ai_news.py，并确认可导入mistune。
       - 运行 prepare_ai_news_publish.py，读取 ai_news_daily 中今天和昨天的 JSON 文件。
       - 脚本同时读取飞书中今天、昨天和前天标题为“📖 yyyy-MM-dd 要闻”的文档，输出 history_text 和 history_status。
       - 若某个归档文件不存在，按 archive_status 记录 missing；只要另一个归档存在且有有效候选即可继续。
@@ -101,6 +101,8 @@ workflow:
     actions:
       - 运行 publish_ai_news.py 写入或更新“📖 {{TODAY}} 要闻”知识库文档并推送群聊卡片。
       - 发布脚本自动读取technical_reports/archive.json中已全文阅读的最新15份报告，在与AI资讯同级的技术报告栏展示；概述下的金字塔总结默认折叠，报告文档与每日要闻使用同一渲染函数。
+      - 知识库中的技术报告采用正文来源标签及标题，换行概述；来源链接原文，隐藏日期和收录统计，最新优先，完整总结默认折叠。
+      - 群卡片仅展示最新5份已读技术报告，栏目标签样式与AI资讯一致；每条使用编号、不超过60字的chat_overview及绿色厂商标签。群卡片不展示报告完整总结、日期或折叠面板，底部共用More按钮打开含最新15份完整总结的要闻文档。
       - 技术报告的采集、全文阅读和厂商目录归档由技术报告每日采集工作流.yml负责，本任务不重新采集报告。
       - Wiki 关键词链接必须是单层方括号形式：**[关键词](详情页URL)**，禁止双层方括号。
       - 发布成功后清理四个 tmp_ai_news_*.json 临时文件，仅保留 ai_news_run_result.json。

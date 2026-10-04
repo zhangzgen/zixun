@@ -201,6 +201,7 @@ def main():
     b.add_argument('--directory', default=str(ROOT / 'technical_reports' / 'bootstrap'))
     s = sub.add_parser('sync')
     s.add_argument('--no-today', action='store_true')
+    s.add_argument('--catalogues-only', action='store_true', help='Update summary directories while preserving report child pages')
     sub.add_parser('stats')
     args = parser.parse_args()
     lock_path = ROOT / '.technical_reports' / 'pipeline.lock'
@@ -226,7 +227,7 @@ def main():
             result['search_days'] = export_search()
         elif args.command == 'sync':
             from .feishu import sync
-            result = sync(update_today=not args.no_today)
+            result = sync(update_today=not args.no_today, update_reports=not args.catalogues_only)
         else:
             items = load()['items']
             result = {'total': len(items), 'fully_read': sum(is_fully_read(i) for i in items),

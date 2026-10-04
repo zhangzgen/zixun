@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "frameworks": [
+    {"name": "LangChain / LangGraph", "focus": "Agent架构、上下文、持久工作流、工具与评测", "sources": [
+      {"id": "langchain-blog", "name": "官方技术博客", "url": "https://www.langchain.com/blog", "kind": "index", "path": "/blog/", "exclude": ["/category/", "/tag/"]},
+      {"id": "langgraph-releases", "name": "LangGraph版本更新", "url": "https://github.com/langchain-ai/langgraph/releases", "collect_url": "https://github.com/langchain-ai/langgraph/releases.atom", "kind": "atom"},
+      {"id": "langchain-releases", "name": "LangChain版本更新", "url": "https://github.com/langchain-ai/langchain/releases", "collect_url": "https://github.com/langchain-ai/langchain/releases.atom", "kind": "atom"}
+    ]},
+    {"name": "Microsoft Agent Framework", "focus": "多Agent编排、持久执行、协议互通及生产部署", "sources": [
+      {"id": "microsoft-blog", "name": "官方技术博客", "url": "https://devblogs.microsoft.com/agent-framework/", "kind": "index", "path": "/agent-framework/", "exclude": ["/page/", "/category/", "/tag/", "/feed/", "/author/"]},
+      {"id": "microsoft-releases", "name": "版本更新", "url": "https://github.com/microsoft/agent-framework/releases", "collect_url": "https://github.com/microsoft/agent-framework/releases.atom", "kind": "atom"}
+    ]},
+    {"name": "LlamaIndex", "focus": "数据Agent、RAG、文档提取、工作流和基准评测", "sources": [
+      {"id": "llamaindex-blog", "name": "官方技术博客", "url": "https://www.llamaindex.ai/blog", "kind": "index", "path": "/blog/"},
+      {"id": "llamaindex-engineering", "name": "Engineering栏目", "url": "https://www.llamaindex.ai/blog?tag=Engineering", "kind": "index", "path": "/blog/"}
+    ]},
+    {"name": "Pydantic AI", "focus": "类型化Agent、结构化输出、工具、持久执行、评测与可观测性", "sources": [
+      {"id": "pydantic-blog", "name": "官方技术文章", "url": "https://pydantic.dev/articles", "collect_url": "https://pydantic.dev/feed.xml", "kind": "rss"},
+      {"id": "pydantic-releases", "name": "版本更新", "url": "https://github.com/pydantic/pydantic-ai/releases", "collect_url": "https://github.com/pydantic/pydantic-ai/releases.atom", "kind": "atom"}
+    ]},
+    {"name": "Google ADK", "focus": "多Agent、会话状态、工具、评测和部署", "sources": [
+      {"id": "google-adk-changelog", "name": "官方更新日志", "url": "https://adk.dev/release-notes/", "kind": "snapshot"},
+      {"id": "google-adk-releases", "name": "Python版本更新", "url": "https://github.com/google/adk-python/releases", "collect_url": "https://github.com/google/adk-python/releases.atom", "kind": "atom"}
+    ]},
+    {"name": "CrewAI", "focus": "多Agent协作、任务编排、工具与生产实践", "sources": [
+      {"id": "crewai-blog", "name": "官方博客", "url": "https://blog.crewai.com/", "collect_url": "https://blog.crewai.com/rss/", "kind": "rss"}
+    ]},
+    {"name": "Mastra", "focus": "Agent记忆、RAG、评测、工作流与TypeScript工程", "sources": [
+      {"id": "mastra-research", "name": "Research研究栏目", "url": "https://mastra.ai/research", "kind": "index", "path": "/research/"},
+      {"id": "mastra-blog", "name": "官方技术博客", "url": "https://mastra.ai/blog", "kind": "index", "path": "/blog/", "exclude": ["/category/"]}
+    ]},
+    {"name": "Hugging Face smolagents", "focus": "代码执行型Agent、工具调用和评测", "sources": [
+      {"id": "huggingface-blog", "name": "官方博客（筛选smolagents相关）", "url": "https://huggingface.co/blog", "kind": "index", "path": "/blog/", "title_filter": "smolagents|code.?agent", "exclude": ["/community", "/zh", "/es", "/fr", "/de", "/ja", "/ko"]},
+      {"id": "smolagents-releases", "name": "版本更新", "url": "https://github.com/huggingface/smolagents/releases", "collect_url": "https://github.com/huggingface/smolagents/releases.atom", "kind": "atom"},
+      {"id": "smolagents-introduction", "name": "官方技术介绍（监测修订）", "url": "https://huggingface.co/blog/smolagents", "kind": "snapshot"}
+    ]},
+    {"name": "Agno", "focus": "Agent记忆、工具、评测、多Agent与运行架构", "sources": [
+      {"id": "agno-articles", "name": "官方技术文章", "url": "https://www.agno.com/articles", "collect_url": "https://www.agno.com/rss.xml", "kind": "rss"}
+    ]},
+    {"name": "Dify", "focus": "Agent引擎、工作流、插件治理与应用工程", "sources": [
+      {"id": "dify-blog", "name": "官方技术博客", "url": "https://dify.ai/blog", "kind": "index", "path": "/blog/"},
+      {"id": "dify-blog-zh", "name": "中文官方博客", "url": "https://dify.ai/zh/blog", "kind": "index", "path": "/zh/blog/"}
+    ]},
+    {"name": "Langflow", "focus": "可视化工作流、人工介入、协议集成和可观测性", "sources": [
+      {"id": "langflow-blog", "name": "官方博客", "url": "https://www.langflow.org/blog/", "collect_url": "https://www.langflow.org/blog/rss.xml", "kind": "rss"},
+      {"id": "langflow-releases", "name": "版本更新", "url": "https://github.com/langflow-ai/langflow/releases", "collect_url": "https://github.com/langflow-ai/langflow/releases.atom", "kind": "atom"}
+    ]},
+    {"name": "AutoGen", "focus": "维护模式：仅跟踪维护修复与迁移相关更新，新技术优先看Microsoft Agent Framework", "sources": [
+      {"id": "autogen-releases", "name": "维护版本更新", "url": "https://github.com/microsoft/autogen/releases", "collect_url": "https://github.com/microsoft/autogen/releases.atom", "kind": "atom"}
+    ]}
+  ]
+}

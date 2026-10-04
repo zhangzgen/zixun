@@ -24,6 +24,12 @@ LABELS = {
     "input_count": "本轮输入", "added_count": "新增归档", "updated_count": "更新归档",
     "skipped_duplicate_count": "重复跳过", "archive_count": "当天归档总数",
     "published_count": "飞书发布条数", "chat_count": "群聊摘要条数",
+    "report_added_count": "新增技术报告", "report_revised_count": "修订技术报告",
+    "report_reading_completed_count": "补齐全文阅读", "report_summary_updated_count": "总结更新",
+    "report_changed_vendor_count": "有归档更新的厂商",
+    "framework_source_count": "框架来源数", "framework_source_success_count": "采集成功来源",
+    "framework_update_count": "技术更新数", "framework_changed_count": "有更新的框架",
+    "framework_pending_count": "待处理更新", "framework_excluded_count": "非技术内容排除",
 }
 STATUSES = {"success": "成功", "partial": "部分完成", "failed": "失败", "skipped": "跳过"}
 
@@ -78,8 +84,45 @@ def render(report, values):
     ]
     for key, value in report.get("counts", {}).items():
         lines.append((LABELS.get(key, key), value))
-    for key, label in (("source_status", "数据源情况"), ("feishu", "飞书发布"),
-                       ("github", "GitHub 同步"), ("render", "Render 部署")):
+    if 'technical_report_updates' in report:
+        updates = report['technical_report_updates']
+        kinds = {'new': '新增', 'revised': '原文修订',
+                 'reading_completed': '补齐全文阅读', 'summary_updated': '总结更新'}
+        any_updates = False
+        for vendor, items in updates.items():
+            if not items:
+                continue
+            any_updates = True
+            entries = []
+            for item in items:
+                state = '已全文阅读' if item['read_status'] == 'full_text_read' else '待完整阅读'
+                entry = f"{kinds[item['kind']]} · {item['title']}（{state}）\n原文：{item['original_url']}"
+                if item.get('feishu_url'):
+                    entry += '\n飞书：' + item['feishu_url']
+                entries.append(entry)
+            lines.append((vendor + ' 技术报告', '\n\n'.join(entries)))
+        if not any_updates:
+            lines.append(('厂商报告更新', '本轮归档未记录新增、修订、阅读补齐或总结更新。采集覆盖及失败情况见下方数据源情况。'))
+    if 'framework_updates' in report:
+        updates = report['framework_updates']
+        for framework, items in updates.items():
+            entries = []
+            for item in items:
+                entry = f"{item['title']}\n技术变化：{item['what_changed']}\n用途：{item['usefulness']}\n原文：{item['url']}"
+                if item.get('feishu_url'):
+                    entry += '\n飞书：' + item['feishu_url']
+                entries.append(entry)
+            lines.append((framework, '\n\n'.join(entries)))
+        if not any(updates.values()):
+            lines.append(('框架技术更新', '本轮未发现可确认的新增技术更新；来源失败或待处理情况见下方。'))
+    details = (("source_status", "数据源情况"), ("feishu", "飞书发布"))
+    if report.get('report_type') != 'agent_frameworks':
+        details += (("github", "GitHub 同步"), ("render", "Render 部署"))
+    for key, label in details:
+        if key == 'source_status' and isinstance(report.get(key), list):
+            value = '\n'.join(f"{s['framework']} / {s['name']}：{'成功' if s['status'] == 'success' else '异常'}（{s['candidate_count']}个候选）" + ('；' + s['baseline_note'] if s.get('baseline_note') else '') for s in report[key])
+            lines.append((label, value))
+            continue
         lines.append((label, report.get(key, "未执行或未核验")))
     lines.append(("错误 / 异常", "\n".join(str(e) for e in report.get("errors", [])) or "无"))
     lines.append(("执行编号", report["run_id"]))

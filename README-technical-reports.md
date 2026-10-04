@@ -10,13 +10,15 @@
 
 | 厂商 | 每日检查入口 |
 | --- | --- |
-| Anthropic | https://www.anthropic.com/research · https://www.anthropic.com/transparency · https://www.anthropic.com/engineering |
+| Anthropic | https://www.anthropic.com/research · https://www.anthropic.com/transparency · https://www.anthropic.com/engineering · https://alignment.anthropic.com/ · https://transformer-circuits.pub/ · https://www.anthropic.com/news |
 | OpenAI | https://openai.com/news/rss.xml · https://deploymentsafety.openai.com/ |
-| DeepSeek | https://www.deepseek.com/news/ · https://github.com/deepseek-ai |
+| DeepSeek | https://www.deepseek.com/news/ · https://www.deepseek.com/transparency/ · https://github.com/deepseek-ai |
 | Kimi | https://www.kimi.com/en/blog/ · https://github.com/MoonshotAI |
 | GLM | https://www.zhipuai.cn/zh/research · https://github.com/zai-org |
 | Google | https://deepmind.google/research/publications/ · https://deepmind.google/models/model-cards/ · https://deepmind.google/blog/ · https://research.google/pubs/ |
-| Seed | https://seed.bytedance.com/zh/public_papers · https://seed.bytedance.com/zh/research |
+| Seed | https://seed.bytedance.com/zh/public_papers · https://seed.bytedance.com/en/public_papers · https://seed.bytedance.com/zh/research · https://seed.bytedance.com/transparency |
+
+结构化来源清单保存在`technical_reports/sources.json`，按厂商列出23个官方入口及用途。飞书技术报告目录下另设[技术报告来源列表](https://ocns5gikjtax.feishu.cn/wiki/JMhqwXVH5ih2kqkX57FcHCv2nsh)子页面，以🔗标识和可点击完整网址展示。飞书开放接口的LinkPreview目前只支持消息链接，外部网站不能通过此接口直接生成带网站图标的预览卡片。
 
 这些地址是持续更新的目录，更新频率由研究/模型发布决定。采集器遍历分页或完整页面数据；目录、研究博客和模型报告需组合监测。原始首发日期与索引更新时间分开记录，引用旧论文不会产生一份新报告。
 
@@ -65,8 +67,14 @@ Codex 已建立独立项目定时任务「技术报告每日采集与飞书归�
 
 根目录：https://ocns5gikjtax.feishu.cn/wiki/BPXvwO7TyiT8kukRTHecuViMnZb 。下设七个厂商目录，每份已读报告有独立子文档。厂商目录保留完整已发现目录及待处理状态。
 
-报告子文档与每日要闻共用渲染函数：标题与超链接、中文概述、来源/首次发布时间/原文链接，然后是默认折叠的「总结（展开查看）」。每日要闻新增与「AI资讯」同级的「技术报告」，按首次发布时间展示最新15份；不足15份则展示实际数量。
+技术报告总目录、七个厂商汇总和每日要闻采用同一版式：正文第一行「🔸 [来源] 原题」，换行显示中文概述；只有来源文字链接报告原文。标题左侧箭头默认收起完整金字塔总结，没有单独的「总结」标题。总结以原生文档块写入正文父块的子层级，标题、加粗及列表正确渲染。页面不展示发布时间，日期仍在本地 JSON 中保存并用于最新优先排序。每日要闻新增与「AI资讯」同级的「技术报告」，固定展示最新15份；不足15份则展示实际数量。
 
-原有每日飞书发布脚本自动在文档和群卡片中附加技术报告；群卡片使用默认收起的折叠面板。自定义机器人请求体上限为20KB，完整15份报告按实际字节数自动分成数张卡片，同次每日推送包含全部15份及完整总结，不截断。成功发送的页有本地收据，部分失败重试会续发尚未成功的页。夜间任务更新报告目录和当天已有要闻文档，不额外发送群消息。写入新内容成功后再移除旧内容，以保留失败时的可读版本。
+所有技术报告汇总页直接展示报告，不显示「已收录…份；其中…份已完成全文阅读」等收录信息。每次同步按发布时间倒序排列，后续新增的最新报告默认位于最上面。
+
+现有单份报告子页面保留原版式和渲染哈希。只迁移汇总时运行 `.venv-web/bin/python -m technical_reports sync --catalogues-only`，跳过子页面内容、名称及质量标记；常规同步继续按旧版式维护新建或内容更新的单份子页面。
+
+每日飞书群卡片在与AI资讯同级的「技术报告」栏展示最新5份已读报告：编号短句与绿色厂商标签，概述优先使用全文阅读Agent生成的chat_overview，不超过60个字符。历史记录缺少短句时使用受长度限制的概述作为兼容回退。群卡片不携带完整总结、发布时间或折叠面板，底部More按钮打开仍含最新15份及完整折叠总结的要闻文档。请求体须小于20KB；成功发送保留本地收据，同一轮重试不重复发送已成功页。夜间任务更新报告目录和当天已有要闻文档，不额外发送群消息。写入新内容成功后再移除旧内容，以保留失败时的可读版本。
+
+夜间技术报告任务在业务开始前运行`.venv-web/bin/python -m technical_reports.task_report begin`，保存run_id、开始时间和归档快照；完成或失败后填写本轮实际结果，再运行`finish --report .task_reports/<run_id>.json`生成按厂商分组的新增、原文修订、补齐阅读及总结更新清单，最后调用`task_email.py`发送一封最终邮件。每轮都发邮件，无更新也明确说明；快照无法核验时不能声称无更新。邮件沿用现有SMTP配置和发送收据，包含报告标题、原文及飞书链接、阅读状态与执行异常。详见`README-email.md`。
 
 网站部署继续使用 GitHub/Render 的既有流程；夜间任务将本轮总结 JSON 同步 GitHub，并按提交 SHA 核验部署。公开部署包仅包含总结 JSON，不包含原始PDF、本机凭据、完整本地目录和阅读缓存。

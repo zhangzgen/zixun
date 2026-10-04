@@ -121,6 +121,7 @@ def validate(item, root=ROOT):
         item['read_status'] = 'pending_full_text'
         item.pop('summary', None)
         item.pop('overview', None)
+        item.pop('chat_overview', None)
     return item
 
 
@@ -164,12 +165,12 @@ def merge(items, path=ARCHIVE, root=ROOT, coverage=None):
                     old['last_checked_at'] = now()
                     old['last_fetch_error'] = item.get('error', 'full original unavailable')
                     continue
-                preserved = {key: old[key] for key in ('overview', 'summary', 'reading_evidence', 'fulltext_path', 'content_hash')}
+                preserved = {key: old[key] for key in ('overview', 'summary', 'chat_overview', 'reading_evidence', 'fulltext_path', 'content_hash') if key in old}
                 item = {**old, **item, **preserved, 'read_status': 'full_text_read', 'error': None}
             item['first_seen_at'] = old.get('first_seen_at', now())
             versions = list(old.get('versions', []))
             if old.get('content_hash') and old.get('content_hash') != item.get('content_hash'):
-                versions.append({k: old.get(k) for k in ('content_hash', 'overview', 'summary', 'reading_evidence', 'fulltext_path', 'updated_at',
+                versions.append({k: old.get(k) for k in ('content_hash', 'overview', 'summary', 'chat_overview', 'reading_evidence', 'fulltext_path', 'updated_at',
                                 'published_at', 'first_published_at', 'version_published_at', 'original_documents', 'extraction_evidence',
                                 'original_acquired_at')})
             item['versions'] = versions

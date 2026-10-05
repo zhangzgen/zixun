@@ -105,9 +105,11 @@ def _report_links(markup, base):
     return sorted(set(result), key=lambda x: (not ('/pdf/' in x or '.pdf' in x.lower()), x))
 
 
-def _verify_google_dates(records, start_date, end_date, coverage, errors):
+def _verify_google_dates(records, start_date, end_date, coverage, errors, known=None):
     """Do not treat later conference/index appearance as first publication."""
     def verify(record):
+        if known and known(record):
+            return None
         paper = record.get('paper_id')
         if not paper or record.get('date_source', '').startswith('https://arxiv.org/abs/'):
             return record
@@ -131,7 +133,7 @@ def _verify_google_dates(records, start_date, end_date, coverage, errors):
         return [item for item in pool.map(verify, records) if item]
 
 
-def _seed(start_date, end_date):
+def _seed(start_date, end_date, known=None):
     items = {}; errors = []; coverage = {'indexes': [], 'raw_total': {}, 'returned_visible_total': {}, 'pages': {}, 'excluded': [], 'date_timezone': 'Asia/Shanghai'}
     global_seen = set()
     for article_type, locale in ((1, 'US'), (2, 'US'), (2, 'CN')):
@@ -209,6 +211,8 @@ def _seed(start_date, end_date):
                          if re.fullmatch(r'Model card', label.strip(), re.I) and '.pdf' in href.lower()), '')
             coverage['model_card_projects']['checked'].append({'url': project, 'report_url': card})
             if not card: continue
+            if known and known({'vendor': 'Seed', 'url': project, 'canonical_url': card, 'report_url': card}):
+                continue
             original_key = next((key for key, record in items.items()
                                  if record['title'].startswith(model + ' Officially Released')), None)
             if original_key is None:
@@ -230,7 +234,7 @@ def _seed(start_date, end_date):
             items[card] = record
         except Exception as exc:
             errors.append({'url': project, 'error': str(exc)})
-    transparency = _seed_transparency(start_date, end_date)
+    transparency = _seed_transparency(start_date, end_date, known)
     for record in transparency['items']:
         items.setdefault(record['canonical_url'], record)
     errors.extend(transparency['errors']); coverage['transparency_reports'] = transparency['coverage']
@@ -238,7 +242,7 @@ def _seed(start_date, end_date):
     return {'items': sorted(items.values(), key=lambda x: x['published_at'], reverse=True), 'errors': errors, 'coverage': coverage}
 
 
-def _seed_transparency(start_date, end_date):
+def _seed_transparency(start_date, end_date, known=None):
     """The document's printed update day, never its storage-folder date."""
     index = 'https://seed.bytedance.com/transparency'
     errors = []; coverage = {'index': index, 'date_policy': 'Printed Last update day in the original PDF', 'documents': []}
@@ -249,6 +253,9 @@ def _seed_transparency(start_date, end_date):
     targets = sorted(set(urllib.parse.urljoin(index, href) for href, label in parser.links
                          if '.pdf' in href.lower() and 'pdf' in label.lower()))
     def qualify(target):
+        if known and known({'vendor': 'Seed', 'url': target, 'report_url': target}):
+            coverage['documents'].append({'url': target, 'status': 'already_archived'})
+            return None
         try:
             # The public directory is undated; its complete PDF supplies the
             # explicit version day and is also retained for exhaustive reading.
@@ -280,7 +287,7 @@ def _seed_transparency(start_date, end_date):
     return {'items': items, 'errors': errors, 'coverage': coverage}
 
 
-def _google(start_date, end_date):
+def _google(start_date, end_date, known=None):
     items = {}; errors = []; coverage = {'indexes': [], 'excluded': [], 'undated_candidates': [], 'date_policy': 'Explicit official day or arXiv first submission; never website lastmod'}
     index = 'https://deepmind.google/research/publications/'
     for page in range(1, 100):
@@ -303,6 +310,8 @@ def _google(start_date, end_date):
             if re.search(r'Economic Policy|Globally Beneficial|Politics of AI Consciousness|From AGI to ASI|superintelligence.*cooperative|Worker Retraining', name, re.I):
                 coverage['excluded'].append({'title': name, 'reason': 'Policy/philosophy without model technical method or evaluation'}); continue
             u = urllib.parse.urljoin(index, href)
+            if known and known({'vendor': 'Google', 'url': u}):
+                continue
             items[u] = {'title': name, 'vendor': 'Google', 'publisher': 'Google DeepMind', 'source': 'Google DeepMind 官网', 'published_at': published,
                         'url': u, 'content_type': 'research_paper', 'language': 'en', 'date_precision': 'day'}
         if not entries or (dates and all(d and d < start_date for d in dates)): break
@@ -371,6 +380,8 @@ def _google(start_date, end_date):
             u = urllib.parse.urljoin(url, href); u = urllib.parse.urlunsplit(urllib.parse.urlsplit(u)._replace(query='', fragment=''))
             candidates[u] = name
         for u, name in candidates.items():
+            if known and known({'vendor': 'Google', 'url': u}):
+                continue
             try: markup = _fetch(u)
             except Exception as exc:
                 errors.append({'url': u, 'error': str(exc)}); continue
@@ -396,14 +407,14 @@ def _google(start_date, end_date):
                               'url': u, 'canonical_url': report or u, 'report_url': report, 'paper_id': _paper_id(report), 'related_urls': reports,
                               'content_type': ('model_card' if re.search(r'card|safety', report, re.I) else 'technical_report') if report else 'technical_article', 'language': 'en', 'date_precision': 'day'}
         if not months or all(m < start_date[:7] for m in months): break
-    research = _google_research(start_date, end_date)
+    research = _google_research(start_date, end_date, known)
     for record in research['items']:
         key = record.get('paper_id') or record['url']
         if key not in items: items[key] = record
     errors.extend(research['errors']); coverage['google_research_supplement'] = research['coverage']
-    verified = _verify_google_dates(list(items.values()), start_date, end_date, coverage, errors)
+    verified = _verify_google_dates(list(items.values()), start_date, end_date, coverage, errors, known)
     items = {record.get('paper_id') or record.get('canonical_url') or record['url']: record for record in verified}
-    cards = _google_model_cards(start_date, end_date)
+    cards = _google_model_cards(start_date, end_date, known)
     for record in cards['items']:
         items.setdefault(record['canonical_url'], record)
     errors.extend(cards['errors']); coverage['model_cards'] = cards['coverage']
@@ -449,7 +460,7 @@ def _canonical_google_original(record, coverage):
                 'title': record['title']})
 
 
-def _google_research(start_date, end_date):
+def _google_research(start_date, end_date, known=None):
     """Scan year indexes, then verify first arXiv submission dates individually.
 
     A conference year is not a release date. Undated records remain in coverage
@@ -478,10 +489,14 @@ def _google_research(start_date, end_date):
     coverage['candidate_count'] = len(candidates)
     def qualify(pair):
         u, title = pair
+        if known and known({'vendor': 'Google', 'url': u}):
+            return None
         try:
             markup = _fetch(u); links = _report_links(markup, u)
             paper_url = next((link for link in links if _paper_id(link)), '')
             paper_id = _paper_id(paper_url)
+            if paper_id and known and known({'vendor': 'Google', 'url': u, 'paper_id': paper_id}):
+                return None
             if not paper_id:
                 coverage['undated_candidates'].append({'title': title, 'url': u, 'report_urls': links, 'reason': 'Official page only provides publication year; no exact initial date'}); return None
             # arXiv IDs encode the first submission month, making old references cheap to exclude.
@@ -512,7 +527,7 @@ def _google_research(start_date, end_date):
     return {'items': items, 'errors': errors, 'coverage': coverage}
 
 
-def _google_model_cards(start_date, end_date):
+def _google_model_cards(start_date, end_date, known=None):
     """Discover card publications/revisions from the official fixed directory.
 
     A row's explicit Updated date is a version event, not proof of first
@@ -536,6 +551,8 @@ def _google_model_cards(start_date, end_date):
             if title: coverage['excluded'].append({'title': _text(title[1]), 'url': target, 'reason': 'No precise official publication/update day'})
             continue
         if not start_date <= event <= end_date: continue
+        if known and known({'vendor': 'Google', 'url': target}):
+            continue
         candidates.append((_text(title[1]), event, raw, target))
     coverage['candidate_count'] = len(candidates)
     def qualify(candidate):
@@ -572,10 +589,10 @@ def _google_model_cards(start_date, end_date):
     return {'items': items, 'errors': errors, 'coverage': coverage}
 
 
-def discover(vendor, start_date, end_date):
+def discover(vendor, start_date, end_date, known=None):
     """Return items/errors/coverage for a closed ISO-date interval."""
     dt.date.fromisoformat(start_date); dt.date.fromisoformat(end_date)
     if start_date > end_date: raise ValueError('start_date must precede end_date')
-    if vendor == 'Seed': return _seed(start_date, end_date)
-    if vendor == 'Google': return _google(start_date, end_date)
+    if vendor == 'Seed': return _seed(start_date, end_date, known)
+    if vendor == 'Google': return _google(start_date, end_date, known)
     raise ValueError('vendor must be Google or Seed')

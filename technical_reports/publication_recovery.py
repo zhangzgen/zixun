@@ -179,7 +179,7 @@ def _item(candidate, lookup, published, scope):
 
 def recover_undated_discoveries(coverage, start, end, *, fetcher=None, audit_path=None,
                                 scope_path=None, cache_path=None, retry_after_seconds=86400,
-                                checked_at=None):
+                                checked_at=None, known=None):
     """Return reader candidates only after both exact date and scope verification.
 
     Failed/negative metadata is retried after 24 hours or when sources change.
@@ -202,6 +202,8 @@ def recover_undated_discoveries(coverage, start, end, *, fetcher=None, audit_pat
              'duplicate_count': 0, 'outside_window_count': 0, 'pending_date_count': 0}
     cache_changed = False
     for candidate in _candidates(coverage):
+        if known and known(candidate):
+            continue
         stats['candidate_count'] += 1
         key = _identity(candidate)
         audit, scope = audits.get(key, {}), scopes.get(key, audits.get(key, {}))

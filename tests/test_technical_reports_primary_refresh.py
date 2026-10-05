@@ -168,7 +168,7 @@ def collect_fixture(tmp_path, item, discoveries, fake_acquire, archive_fields=No
     with patch.object(cli, 'load', return_value={'items': [item], **(archive_fields or {})}), \
          patch.object(acquisition, 'acquire', side_effect=fake_acquire), \
          patch.object(cli.importlib, 'import_module', return_value=adapter):
-        result = cli.collect('2026-09-27', '2026-10-02', ['Anthropic'], output)
+        result = cli.collect('2026-09-27', '2026-10-02', ['Anthropic'], output, recheck_archived=True)
     return result, json.loads(output.read_text())
 
 

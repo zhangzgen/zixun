@@ -250,7 +250,7 @@ def _team_publication_date(page):
     return None
 
 
-def _anthropic_team_sites(start, end, existing=()):
+def _anthropic_team_sites(start, end, existing=(), known=None):
     items, errors, inspected, candidates, duplicates = [], [], [], [], []
     existing_by_slug = {item["url"].rstrip("/").rsplit("/", 1)[-1]: item for item in existing}
     sources = [("https://alignment.anthropic.com/", "Anthropic Alignment Science"),
@@ -266,6 +266,8 @@ def _anthropic_team_sites(start, end, existing=()):
                 else:
                     in_window = start[:7] <= date[:7] <= end[:7]
                 if not in_window:
+                    continue
+                if known and known({'vendor': 'Anthropic', **row}):
                     continue
                 existing_item = existing_by_slug.get(TEAM_MAIN_SLUGS.get(row["url"], ""))
                 if existing_item:
@@ -385,7 +387,7 @@ OPENAI_EXCLUDE = {
 }
 
 
-def _anthropic(start, end):
+def _anthropic(start, end, known=None):
     items, errors, inspected, excluded = [], [], [], []
     nodes_by_source = {}
     for name in ("research", "engineering", "news", "transparency"):
@@ -457,7 +459,7 @@ def _anthropic(start, end):
         if "Fable%20" in primary:
             title = urllib.parse.unquote(primary.rsplit("/", 1)[-1]).removesuffix(".pdf")
         items.append({"title": title, "vendor": "Anthropic", "source": "Anthropic Transparency Hub", "published_at": date, "published_at_raw": news["publishedOn"] if news else release, "date_precision": "day" if news else "month", "url": primary, "report_url": primary, "related_urls": related, "content_type": "system_card", "language": "en", "read_status": "pending_full_text"})
-    team = _anthropic_team_sites(start, end, items)
+    team = _anthropic_team_sites(start, end, items, known)
     items.extend(team["items"])
     errors.extend(team["errors"])
     inspected.extend(team["coverage"]["sources"])
@@ -519,11 +521,11 @@ def _openai(start, end):
     return {"items": sorted(unique.values(), key=lambda item: (item["published_at"], item["title"]), reverse=True), "errors": errors, "coverage": {"start_date": start, "end_date": end, "sources": inspected, "rss_items_scanned": scanned, "method": "Complete RSS plus the full public deployment safety list (including items behind View more); research/engineering articles selected for technical methods or evaluations; commercial and program announcements excluded.", "excluded_slugs": sorted(set(excluded)), "complete": not errors}}
 
 
-def discover(vendor, start_date, end_date):
+def discover(vendor, start_date, end_date, known=None):
     """Return items/errors/coverage; dates are inclusive ISO calendar dates."""
     vendor = vendor.lower().replace(" ", "")
     if vendor == "anthropic":
-        return _anthropic(str(start_date), str(end_date))
+        return _anthropic(str(start_date), str(end_date), known)
     if vendor == "openai":
         return _openai(str(start_date), str(end_date))
     raise ValueError("adapters_west supports Anthropic and OpenAI")

@@ -254,7 +254,7 @@ def test_unchanged_original_retains_corrected_metadata_and_reading(tmp_path):
     adapter = SimpleNamespace(discover=lambda *a: {'items': [new], 'coverage': {}, 'errors': []})
     output = tmp_path / 'candidates.json'
     with patch('technical_reports.__main__.load', return_value={'items': [old]}), patch('technical_reports.acquire.acquire', return_value=new), patch('technical_reports.__main__.importlib.import_module', return_value=adapter):
-        collect('2026-09-01', '2026-09-03', ['Kimi'], output)
+        collect('2026-09-01', '2026-09-03', ['Kimi'], output, recheck_archived=True)
     saved = json.loads(output.read_text())['items'][0]
     assert saved['title'] == new['title']
     assert saved['published_at'] == new['published_at']

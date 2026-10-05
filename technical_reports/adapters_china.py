@@ -189,7 +189,7 @@ def _model_card_date(text, url):
             "date_source_page": 1}
 
 
-def discover(vendor, start_date, end_date):
+def discover(vendor, start_date, end_date, known=None):
     """Discover the whole date window, returning items, errors and coverage."""
     if vendor not in ORG:
         raise ValueError("unsupported vendor: " + str(vendor))
@@ -261,6 +261,8 @@ def discover(vendor, start_date, end_date):
             for model, year, month, day, card in re.findall(
                     r'(DeepSeek-[A-Za-z0-9.]+)[\s\S]{0,800}?(\d{4})年(\d{1,2})月(\d{1,2})日[\s\S]{0,900}?href="([^"]+model-card[^"]+\.pdf)"',
                     transparency):
+                if known and known({'vendor': vendor, 'url': card, 'report_url': card}):
+                    continue
                 try:
                     publication = _model_card_publication(card)
                 except Exception as exc:
@@ -317,6 +319,9 @@ def discover(vendor, start_date, end_date):
                                     related_urls=[repo["html_url"]])
             if vendor == "Kimi" and repo["name"] == "FlashKDA":
                 for date, path in re.findall(r"\*\*(\d{4}-\d{2}-\d{2})\*\*[^\n]*?\]\((docs/[^)]+\.md)\)", readme):
+                    if known and known({'vendor': vendor, 'url': repo['html_url'] + '/blob/' + repo['default_branch'] + '/' + path,
+                                        'report_url': base + path}):
+                        continue
                     announced = date
                     try:
                         body = _get(base + path)
@@ -333,6 +338,8 @@ def discover(vendor, start_date, end_date):
             if vendor == "GLM" and repo["name"] == "SurveyReview":
                 doi = re.search(r"https://doi\.org/([\d.]+/[^\s}]+)", readme)
                 if doi:
+                    if known and known({'vendor': vendor, 'url': 'https://doi.org/' + doi[1]}):
+                        continue
                     try:
                         metadata = json.loads(_get("https://api.crossref.org/works/" + doi[1]))["message"]
                         date = metadata.get("published-online", metadata.get("published", {}))["date-parts"][0]
@@ -357,7 +364,8 @@ def discover(vendor, start_date, end_date):
 
     # Validate publication metadata for every owned paper. Source metadata and
     # identifier months can differ; the identifier is never a date filter.
-    candidates = list(paper_sources.items())
+    candidates = [(pid, source) for pid, source in paper_sources.items()
+                  if not known or not known({'vendor': vendor, 'url': 'https://arxiv.org/abs/' + pid, 'paper_id': pid})]
     def paper(job):
         pid, source = job
         try:

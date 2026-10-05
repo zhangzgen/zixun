@@ -1,6 +1,6 @@
 version: 1
 name: 技术报告每日采集与飞书归档
-description: 每天北京时间00:00（前一天24:00）检查七家模型厂商的全部研究入口，阅读全文并总结新增/修订报告，JSON归档并同步飞书。
+description: 每天北京时间00:00（前一天24:00）检查七家模型厂商的研究入口，仅对新发布且未归档的技术报告阅读全文、总结、归档并同步飞书；无新增跳过后续业务操作。
 
 runtime:
   timezone: Asia/Shanghai
@@ -19,7 +19,9 @@ runtime:
 scope:
   - 保存正式技术报告、模型卡/系统卡、公开研究论文，以及包含独立方法与实验的研究技术文章；排除商业公告、教程、招聘和非相关学科内容。
   - 必须遍历索引分页和官方关联报告；不限制TopK、不仅采集首页。
-  - 新内容按最近7天重叠窗口发现，并重查所有已归档报告的原文以检测修订，失败条目每日重试。
+  - 按最近7天重叠窗口检查各官方索引、RSS和分页是否发布新报告；获取全文前按报告身份、官方网址及关联版本与本地归档去重。
+  - 每日仅处理新发布且未归档的报告；已归档报告不重新下载、不刷新主报告链接、不检测修订、不重读、不自动补齐历史失败项。同一论文的新arXiv版本不是新报告。
+  - collect默认使用new_only模式；--recheck-archived仅供用户另行要求的历史维护，定时任务禁止使用。
   - 日期取原始发表时间；sitemap lastmod、GitHub updated_at、期刊年份不得冒充精确首次发表日期。
   - 同一论文的官网、PDF、arXiv、仓库和中英文版本关联去重，保存官方来源与原文链接。
 
@@ -32,11 +34,12 @@ workflow:
     actions:
       - 先运行 .venv-web/bin/python -m compileall -q technical_reports。
       - 运行 collect 入口；记录本轮来源coverage和errors。单源失败不阻止其他来源。
-      - 阅读候选JSON的agent_instruction、source_refresh_errors、new_primary_candidates、publication_date_recovery和new_date_verified_candidates；不能直接跳过日期或范围诊断进入reader。
+      - 阅读候选JSON的mode、items、agent_instruction、publication_date_recovery和new_date_verified_candidates；确认mode为new_only。items仅包含未归档的新报告，不能把历史归档重新加入候选。
+      - items和new_date_verified_candidates均为空时，停止后续业务操作：不运行reader、ingest、sync，不重写历史目录，不提交GitHub，不等待Render；直接执行email_summary。来源失败或新候选日期未决如实记录，不能宣称已确认无新发布。
       - 对每条new_date_verified_candidates核对官方身份、正式原文或充分的官方方法与实验信息，按scope规则判断eligible、excluded或uncertain；证据不足保留uncertain，不因日期明确自动入库。
       - 用 .venv-web/bin/python -m technical_reports.publication_recovery --record-scope eligible|excluded|uncertain --vendor VENDOR --title TITLE --url URL --reason REASON --evidence-url SOURCE_URL 记录范围决策；参数引用候选的准确厂商、标题和URL，理由及证据链接使用本轮审核结果。
       - 新决策记录后，以候选JSON的start_date、end_date、原vendors和output参数重跑collect，获取合格稿件原文；保留原采集区间，不用默认七天窗口替换回填区间。范围不确定和日期未核实的稿件保留诊断，不进入reader-ready items，也不宣称完整覆盖。
-      - publication_date_recovery中未定日期通过正常官方metadata或原文证据继续核查；年月精度、出版方日期和首发上界不能冒充精确首次发表日。
+      - 仅核查本轮新发现候选的日期与范围；历史日期未决清单继续保留，不因历史缺口启动原文补救或长时间浏览器巡检。年月精度、出版方日期和首发上界不能冒充精确首次发表日。
       - PDF只跟随已核实的主报告链接，不能把首个参考文献PDF误认作报告。
   - id: read_and_summarize
     actions:
@@ -46,16 +49,16 @@ workflow:
       - 不得截断正文、只读摘要、按标题臆测或伪造全文阅读证据。每段完成后保存断点，后续可继续。
       - 对原文缺失、403、动态壳、PDF提取障碍、图表影响关键结论等异常，当前任务Agent操作正常浏览器或官方全文替代入口补齐，不绕过安全验证；必要时视觉核对PDF页。
       - 无法完整读取的条目保留pending_full_text和错误，不进入已全文阅读的每日最新15份；任务报告如实标为partial。
-      - 已完成阅读的记录只在全文哈希一致时跳过；原文修订必须重新阅读，并保留旧版原文和总结。
+      - 只读取本轮新报告；全文和附录全部完成后再生成总结。已归档报告直接跳过，不为比较哈希重新获取全文。新报告本轮补救仍失败时保留待处理证据，历史补读由用户另行安排。
       - 若浏览器补齐了候选文件中的fulltext_path，再次运行read入口，仅处理未完成内容。
   - id: ingest
     actions:
-      - 运行ingest入口保存所有已发现元数据；不会用pending记录覆盖之前已读版本。
+      - 仅在有新报告时运行ingest入口保存本轮新报告元数据及阅读结果；不会用pending记录覆盖之前已读版本。
       - 原文、概述、总结、source、发布时间、原始/附件链接、阅读证据和版本保存到本地JSON及全文文件。
       - 同步生成technical_report_daily供网页检索；不混入原有资讯候选，避免每日资讯重复收录。
   - id: feishu
     actions:
-      - 运行sync入口；幂等创建或复用根目录下七个厂商目录，每份已完整阅读报告创建独立子文档。
+      - 仅在本轮有新报告归档时运行sync入口；幂等创建或复用根目录下七个厂商目录，每份新报告完成全文阅读后创建独立子文档。
       - 厂商目录保存全部报告索引；原文读取待处理条目明确标识，不伪造总结。
       - 总目录、厂商汇总及每日要闻使用正文第一行“🔸 [来源] 原题”，换行显示中文概述；仅来源加粗链接原文，标题左侧箭头默认折叠完整总结，不显示发布时间、收录统计或独立总结标题，按发布时间倒序排列。
       - 单份报告子页面沿用现有版式；汇总格式变化不触发旧子页面重写。
@@ -77,7 +80,7 @@ workflow:
   - id: finish
     actions:
       - 汇报本轮发现/全文阅读/待处理/飞书同步数量、GitHub提交与Render核验结果及来源覆盖缺口，引用飞书技术报告目录。
-      - 仅在出现新报告、完成修订、采集/阅读失败或需要用户处理时通知；无变化正常轮次保持安静。
+      - 仅在出现新报告、采集/阅读失败或需要用户处理时通知；无新增正常轮次保持安静。
   - id: email_summary
     actions:
       - 每轮任务结束发送一封邮件，包括成功、部分完成、失败和无更新。先在本轮report中填写实际status（success/partial/failed/skipped）、summary、source_status、feishu、github、render及errors；未执行或未核验的步骤如实标注，不用旧结果冒充本轮成功。

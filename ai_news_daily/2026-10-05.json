@@ -1,0 +1,244 @@
+{
+  "version": 1,
+  "date": "2026-10-05",
+  "timezone": "Asia/Shanghai",
+  "updated_at": "2026-10-05 09:06:00",
+  "item_count": 19,
+  "runs": [
+    {
+      "collected_at": "2026-10-05 09:06:00",
+      "input_count": 19,
+      "added_count": 19,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "完整审阅62候选和浏览器新智元60条列表；当天归档不存在。剔除50条榜单搜索链接、旧闻重发（4月封号事件）、超窗和时间无法核验内容。保留12脚本详情页及7浏览器补充，无TopK，传闻/观点明确限定。",
+      "source_status": {
+        "量子位": "ok:2",
+        "新智元": "ok:0",
+        "AIBase": "ok:0",
+        "新华网科技": "ok:0",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
+    }
+  ],
+  "items": [
+    {
+      "资讯标题": "机器人通用大脑受追捧：FieldAI 拟融资 7 亿美元，估值达 100 亿美元",
+      "发布时间": "2026-10-05 08:15:29",
+      "来源": "Readhub",
+      "超链接": "https://www.ithome.com/1/009/746.htm",
+      "desc": "一位了解本次交易的人士透露，这家机器人企业正在融资 7 亿美元（约合 46.97 亿元人民币），投后估值达到 100 亿美元（约合 671.04 亿元人民币）。该公司上一轮估值为 20 亿美元（约合 134.21 亿元人民币），去年完成了超过 4 亿美元（约合 26.84 亿元人民币）融资，投资方包括杰夫・贝索斯的家族办公室、劳伦・鲍威尔・乔布斯的 Emerson Collective 以及 Khosla Ventures。经过本轮融资之后，FieldAI 的估值已经接近资金充裕的同行竞争对手：Physical Intelligence 估值约 110 亿美元（约合 738.14 亿元人民币），Skild AI 估值超过 140 亿美元（约合 939.45 亿元人民币）。",
+      "agent_reason": "具身机器人融资及通用大脑进展；融资为消息人士披露。",
+      "archive_id": "A20261005-8199bb8a4f64",
+      "first_seen_at": "2026-10-05 09:06:00",
+      "last_seen_at": "2026-10-05 09:06:00"
+    },
+    {
+      "资讯标题": "OpenAI 首席执行官：人工智能的益处值得承受风险",
+      "发布时间": "2026-10-05 08:12:46",
+      "来源": "Readhub",
+      "超链接": "https://www.gelonghui.com/live/2697980",
+      "desc": "OpenAI 首席执行官萨姆・奥特曼表示，人工智能带来的益处足以让人类接受一些风险，并主张这项技术应继续向公众广泛开放，而不是由少数几家实验室严格垄断或集中控制。奥特曼在一次采访中说道：「我们认为，为了这项技术带来的益处以及人们所拥有的自主权，世界应当接受某些负面事件的发生。」他还表示：「我不会接受这样的交换条件：即为了确保不发生重大黑客攻击、不滥用这项技术、杜绝诈骗以及消除所有其他负面后果，而做出某种妥协。」",
+      "agent_reason": "头部AI公司关于开放与安全风险的治理观点。",
+      "archive_id": "A20261005-0ec3f40a3f36",
+      "first_seen_at": "2026-10-05 09:06:00",
+      "last_seen_at": "2026-10-05 09:06:00"
+    },
+    {
+      "资讯标题": "TypeSafe AI 决策模型 Jev 日处理量达 1 万亿 Token，硅谷巨头火速跟进复刻",
+      "发布时间": "2026-10-05 08:06:00",
+      "来源": "Readhub",
+      "超链接": "https://www.ithome.com/1/009/744.htm",
+      "desc": "该模型不同于聊天机器人，不生成文本，而是将输入归类到预设输出中，采用「面向校准决策的强化学习」。其创始人来自 OpenAI，目前约 25% 的世界 500 强企业在使用，日处理 token 量已达一万亿，新一轮融资估值或超 100 亿美元。",
+      "agent_reason": "离散决策模型规模化应用及融资动态，保留来源声称口径。",
+      "archive_id": "A20261005-22ddd1f6e1c0",
+      "first_seen_at": "2026-10-05 09:06:00",
+      "last_seen_at": "2026-10-05 09:06:00"
+    },
+    {
+      "资讯标题": "我们盘点了半年数据，发现 22 万部 AI 短剧，播放量破亿的不到千分之五",
+      "发布时间": "2026-10-05 08:01:56",
+      "来源": "Readhub",
+      "超链接": "https://www.huxiu.com/article/4895398.html?f=rss",
+      "desc": "中国网络视听协会统计显示，2026 年一季度全行业上线微短剧约 12.8 万部，其中 AI 微短剧约 12.2 万部，占比超过 95%。DataEye（剧查查）统计，2026 年上半年抖音端新上线的 AI 剧与漫剧达 22.19 万部，其中播放量破亿的只有 1055 部，破亿率 0.47%。平台约 400 部作品中 AI 创作内容约 30 部，占比不到 8%，公司的目标是年内提到 30%，路径是把现有 IP 改编为 AI 漫剧并制作原创 AI 仿真人短剧。",
+      "agent_reason": "AI短剧产业规模和商业表现数据。",
+      "archive_id": "A20261005-ada577f88785",
+      "first_seen_at": "2026-10-05 09:06:00",
+      "last_seen_at": "2026-10-05 09:06:00"
+    },
+    {
+      "资讯标题": "Server-Side Code Execution Tools for AI Agents, Compared",
+      "发布时间": "2026-10-05 08:00:00",
+      "来源": "Readhub",
+      "超链接": "https://openrouter.ai/blog/insights/server-side-code-execution-tools-for-ai-agents-compared",
+      "desc": "A server-side code execution tool runs the model's commands in the provider's sandbox during your API request, so you don't provision or secure a container. Our openrouter:shell tool runs commands for any model on the Responses and Messages APIs, and our openrouter:bash tool does the same on the Messages API. This article compares the four on runtime, isolation, persistence, and cost, shows a complete request against our sandbox with the output it returned, and describes the jobs that still need a sandbox platform of your own.",
+      "agent_reason": "智能体服务端执行工具的隔离、持久化与成本比较。",
+      "archive_id": "A20261005-962cdd9bb6d2",
+      "first_seen_at": "2026-10-05 09:06:00",
+      "last_seen_at": "2026-10-05 09:06:00"
+    },
+    {
+      "资讯标题": "英伟达 AI 芯片走私案嫌疑人被捕，涉案金额超 3 亿美元",
+      "发布时间": "2026-10-05 07:54:41",
+      "来源": "Readhub",
+      "超链接": "https://finance.jrj.com.cn/2026/10/05075458615289.shtml",
+      "desc": "美国上周逮捕了一名嫌疑人，此人被控走私含有受出口管制的英伟达芯片的高端计算机服务器进入中国。美国联邦调查局的起诉书中称，格雷格・刘是大地智造计算机公司（Earthmade Computer）的首席执行官，他涉嫌与马来西亚、新加坡等南亚国家的货运代理企业合谋，将服务器芯片非法转运进入中国，其中就包括英伟达 A100 图形处理器与 H100 图形处理器，还包括消费级旗舰的 GeForce RTX 4090 和 GeForce RTX 5090。英伟达 A100 图形处理器与 H100 图形处理器并非英伟达最先进的产品，但它们可以处理海量数据、训练大语言模型。",
+      "agent_reason": "AI芯片出口管制和执法事件；保留被控措辞。",
+      "archive_id": "A20261005-db0d39995dec",
+      "first_seen_at": "2026-10-05 09:06:00",
+      "last_seen_at": "2026-10-05 09:06:00"
+    },
+    {
+      "资讯标题": "华为首款「韬定律逻辑折叠」芯片海思麒麟 9050 Pro 裸片显微照首曝：双裸片垂直堆叠，晶体管密度提升 55% 而面积小于前代",
+      "发布时间": "2026-10-05 07:26:12",
+      "来源": "Readhub",
+      "超链接": "https://www.ithome.com/1/009/739.htm",
+      "desc": "照片显示，麒麟 9050 Pro 由两颗尺寸完全相同的裸片垂直堆叠而成，尺寸 11.13 × 10.84 mm，每颗裸片面积约 120.65mm²，这一面积甚至略小于前代麒麟 9030S 的 122mm²。晶体管密度方面，何庭波此前曾在论文中表示，麒麟 9050 Pro（当时以麒麟 2026 代称）的等效晶体管密度从麒麟 9030 Pro 的每平方毫米约 1.55 亿个提升至约 2.38 亿个，增幅约 55%。在 10 月 1 日的 Mate 90 系列发布会上，余承东正式揭晓了该系列的芯片阵容：标准版搭载麒麟 9030，Mate 90 Pro 搭载麒麟 9035，Mate 90 Pro Max 典藏版与 Mate 90 RS 非凡大师搭载麒麟 9050 Pro。",
+      "agent_reason": "芯片堆叠架构与晶体管密度核心技术。",
+      "archive_id": "A20261005-b0d2c797e67f",
+      "first_seen_at": "2026-10-05 09:06:00",
+      "last_seen_at": "2026-10-05 09:06:00"
+    },
+    {
+      "资讯标题": "机器人组装GB300母线，成功率超95%",
+      "发布时间": "2026-10-05 06:08:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=168fcdc7",
+      "desc": "英伟达与鸿海展示机器人母线组装，成功率超95%，尚低于99.5%目标；速度亦未达要求。",
+      "content_source": "browser_original_detail",
+      "agent_reason": "机器人制造AI服务器的实际进展与限制。",
+      "archive_id": "A20261005-2fd4180bf55b",
+      "first_seen_at": "2026-10-05 09:06:00",
+      "last_seen_at": "2026-10-05 09:06:00"
+    },
+    {
+      "资讯标题": "诺奖得主 Eric Betzig：用 AlphaFold 开发新药会失败，生物学教科书是幻觉",
+      "发布时间": "2026-10-04 21:56:49",
+      "来源": "Readhub",
+      "超链接": "https://www.mittrchina.com/news/detail/17053",
+      "desc": "诺奖得主 Eric Betzig 判断，用 AlphaFold 开发新药一定会失败，称这些药企「正在无谓地烧钱」。他指出，美国加州湾区有一批公司正试图根据 AlphaFold 测出的蛋白质结构做药物研发，并预言使用该工具的药企会在五年内倒闭。他引用曾任默克研究负责人的 Roger Perlmutter 的话说，假如能找到一款有效的药其实那是奇迹，因为人类根本不知道自己在做什么，使用现有工具无法真正理解细胞这个复杂动态系统，因此药物是否能够成功带有很大的运气成分。",
+      "agent_reason": "AlphaFold药物研发局限的专家观点，非已证实结论。",
+      "archive_id": "A20261005-fae3392a6837",
+      "first_seen_at": "2026-10-05 09:06:00",
+      "last_seen_at": "2026-10-05 09:06:00"
+    },
+    {
+      "资讯标题": "OpenAI 基金会要花 250 亿美元做科研，首批资助面向癌症疫苗和阿尔茨海默症",
+      "发布时间": "2026-10-04 21:49:13",
+      "来源": "Readhub",
+      "超链接": "https://www.mittrchina.com/news/detail/17052",
+      "desc": "OpenAI 的非营利母体 OpenAI 基金会宣布了一批总额超过 1.25 亿美元的资助，用于建设公开的健康与生命科学数据。重组完成时，基金会持有的 OpenAI 集团股权估值约 1,300 亿美元，250 亿美元将作为首期承诺发放，重点投向两个领域：健康与攻克疾病，以及 AI 韧性（降低先进 AI 风险的技术方案）。要评价这家基金会在历史长河中的真正作用，还须观察这些开放数据能否产出可验证的科研成果、是否可被 OpenAI 以外的团队广泛使用，以及基金会与 OpenAI 集团之间的边界能否通过更透明的治理披露接受外部检验。",
+      "agent_reason": "头部AI基金会科研资助与治理动态。",
+      "archive_id": "A20261005-301f0cdb8936",
+      "first_seen_at": "2026-10-05 09:06:00",
+      "last_seen_at": "2026-10-05 09:06:00"
+    },
+    {
+      "资讯标题": "AlphaGo核心作者：十年了，LLM还没学到那场棋局「神之一手」的精华",
+      "发布时间": "2026-10-04 19:38:00",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-10-04-5",
+      "desc": "Thore Graepel讨论显式搜索和可审计推理，文章包含David Duvenaud等人的反驳。",
+      "content_source": "browser_original_detail",
+      "agent_reason": "有争议的机器推理研究观点及回应。",
+      "archive_id": "A20261005-ffb26de44d90",
+      "first_seen_at": "2026-10-05 09:06:00",
+      "last_seen_at": "2026-10-05 09:06:00"
+    },
+    {
+      "资讯标题": "终于有人管管屎山代码了！Tibo预告，Astra 6.1要来了？",
+      "发布时间": "2026-10-04 19:31:00",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-10-04-4",
+      "desc": "Tibo预告未来模型改善代码删除和简化，研究员征集代码质量反馈；Astra型号及发布日期为文章猜测，未官方确认。",
+      "content_source": "browser_original_detail",
+      "agent_reason": "编码模型质量改进预告及用户反馈，避免把标题推测当官宣。",
+      "archive_id": "A20261005-001d42786b75",
+      "first_seen_at": "2026-10-05 09:06:00",
+      "last_seen_at": "2026-10-05 09:06:00"
+    },
+    {
+      "资讯标题": "太卷了！DeepSeek假期更新，Harness有了新版本",
+      "发布时间": "2026-10-04 19:21:00",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-10-04-2",
+      "desc": "v0.2.1-alpha.1新增实验性Claude Code Mods兼容层及插件创建入口，仅示例桥接，尚不提供完整实用兼容性。",
+      "content_source": "browser_original_detail",
+      "agent_reason": "智能体插件架构与跨工具扩展实验。",
+      "archive_id": "A20261005-c718d4dfda77",
+      "first_seen_at": "2026-10-05 09:06:00",
+      "last_seen_at": "2026-10-05 09:06:00"
+    },
+    {
+      "资讯标题": "人类217年没解开的拿破仑密信被GPT-6 Astra用6小时破译",
+      "发布时间": "2026-10-04 18:07:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=9f7b4dfc",
+      "desc": "报道称SentinelOne工程师Carter Church用模型从历史扫描图识别符号并破译1809年密信。",
+      "content_source": "browser_original_detail",
+      "agent_reason": "大模型用于历史文献解密的报道案例，保留报道口径。",
+      "archive_id": "A20261005-67cdd399687c",
+      "first_seen_at": "2026-10-05 09:06:00",
+      "last_seen_at": "2026-10-05 09:06:00"
+    },
+    {
+      "资讯标题": "AI 一年进展或压缩到五周，辛顿、Bengio 等 22 位顶尖学者联名警告：「智能爆炸」比想象中更近",
+      "发布时间": "2026-10-04 16:58:24",
+      "来源": "Readhub",
+      "超链接": "https://www.mittrchina.com/news/detail/17050",
+      "desc": "剑桥大学人工智能科学与政策项目（CASP）发布了一篇由 22 位 AI 领域前沿专家联合撰写的论文《如果自动化 AI 研发触发「智能爆炸」会怎样》。在论文中，他们讨论了一个核心问题：如果 AI 逐渐接管 AI 研发流程，更强的模型帮助开发下一代模型，下一代模型又进一步提高研发效率，这种循环是否可能让 AI 进步突然加速，把原本需要数年完成的技术进展压缩到几个月，甚至更短。后来，这类讨论逐渐发展出递归自我改进（Recursive Self-Improvement，RSI）的概念：AI 能力提高后，进一步增强自身参与 AI 研发的能力，从而推动下一轮改进。",
+      "agent_reason": "AI自动化研发和递归自我改进的风险研究，非确定预测。",
+      "archive_id": "A20261005-952bd062824e",
+      "first_seen_at": "2026-10-05 09:06:00",
+      "last_seen_at": "2026-10-05 09:06:00"
+    },
+    {
+      "资讯标题": "AI算力硬合作，马斯克还是更相信中国制造",
+      "发布时间": "2026-10-04 14:12:22",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/501605.html",
+      "desc": "一种混搭的可能：英特尔继续供先进工艺，即前端用14A；后端再接台积电，来补工厂运营、良率、封装这些能力。",
+      "agent_reason": "AI算力芯片制造供应链合作。",
+      "archive_id": "A20261005-d8195ce58ea0",
+      "first_seen_at": "2026-10-05 09:06:00",
+      "last_seen_at": "2026-10-05 09:06:00"
+    },
+    {
+      "资讯标题": "最火AI岗位FDE：月薪5万，都干这些…",
+      "发布时间": "2026-10-04 14:05:35",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/501506.html",
+      "desc": "什么是FDE？它会一直存在吗？",
+      "agent_reason": "AI工程FDE岗位与应用交付模式。",
+      "archive_id": "A20261005-5692f9235439",
+      "first_seen_at": "2026-10-05 09:06:00",
+      "last_seen_at": "2026-10-05 09:06:00"
+    },
+    {
+      "资讯标题": "睡一觉模型自己调好了！谷歌开源自动微调框架，AI包揽写代码到跑实验",
+      "发布时间": "2026-10-04 12:13:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=5dd8df82",
+      "desc": "autofinetune通过文档指定边界与指标，让智能体修改训练脚本、运行实验并提交改进，基于Tunix/Gemma/Cloud TPU。",
+      "content_source": "browser_original_detail",
+      "agent_reason": "开源智能体自动化后训练技术。",
+      "archive_id": "A20261005-f392cf72c4c6",
+      "first_seen_at": "2026-10-05 09:06:00",
+      "last_seen_at": "2026-10-05 09:06:00"
+    },
+    {
+      "资讯标题": "Anthropic年底冲刺IPO！旗舰模型Fable 5.5被曝专为上市护航",
+      "发布时间": "2026-10-04 09:38:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=c6476eb3",
+      "desc": "爆料账号ChrisGPT称IPO路演与旗舰模型发布可能配合；日期及型号安排未获官方确认。",
+      "content_source": "browser_original_detail",
+      "agent_reason": "头部公司资本与产品规划传闻，明确未确认。",
+      "archive_id": "A20261005-61af6ba58db7",
+      "first_seen_at": "2026-10-05 09:06:00",
+      "last_seen_at": "2026-10-05 09:06:00"
+    }
+  ]
+}

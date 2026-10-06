@@ -2,8 +2,8 @@
   "version": 1,
   "date": "2026-10-06",
   "timezone": "Asia/Shanghai",
-  "updated_at": "2026-10-06 11:57:53",
-  "item_count": 37,
+  "updated_at": "2026-10-06 15:04:35",
+  "item_count": 44,
   "runs": [
     {
       "collected_at": "2026-10-06 09:07:17",
@@ -38,9 +38,82 @@
         "今日头条/Tophub": "ok:50",
         "Readhub": "ok:10"
       }
+    },
+    {
+      "collected_at": "2026-10-06 15:04:35",
+      "input_count": 7,
+      "added_count": 7,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "完整审阅62条候选及当天37条归档，不限制TopK。排除50条搜索链接及非AI诺奖报道；按事件剔除OpenAI首日提速、融资、Claude预算、月之暗面、可灵IPO、欧盟文本溯源等已有报道。保留5条新技术/产业资讯及浏览器核验的2条AI办公更新。新智元完整60条滚动列表已补查，榜单部分条目无法核验精确时间和详情链接，不纳入；机器之心近期相关条目均已归档；AIBase最新5天前，新华网最新9月30日。",
+      "source_status": {
+        "量子位": "ok:2",
+        "新智元": "ok:0",
+        "AIBase": "ok:0",
+        "新华网科技": "ok:0",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
     }
   ],
   "items": [
+    {
+      "资讯标题": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
+      "发布时间": "2026-10-06 14:44:39",
+      "来源": "Readhub",
+      "超链接": "https://huggingface.co/blog/tiiuae/falcon-emirati",
+      "desc": "It's the sweet spot in the family: large enough to hold onto the nuance that dialect adaptation needs, but small enough that both training and inference stay practical. The 34B model would likely push quality a bit further, but at a training and serving cost that doesn't make sense for a dialect-specialized chat model, and the 3B model doesn't leave enough headroom for the depth of cultural and linguistic understanding we were after. So alongside Alyah, we ran a second evaluation: open-ended generation on the same 1,173 Alyah questions, scored by an LLM judge (Gemini 3.7 Flash) against five models, Falcon-Emirati-7B, ALLaM-7B-Instruct-preview, gemma-3-27b-it, Jais-2-8B-Chat, and Fanar-2-27B-Instruct, chosen as the strongest competing models from the Alyah leaderboard.",
+      "agent_reason": "方言专用大模型的文化适配与评测报告，属于核心模型技术。",
+      "archive_id": "A20261006-fe424883c3ca",
+      "first_seen_at": "2026-10-06 15:04:35",
+      "last_seen_at": "2026-10-06 15:04:35"
+    },
+    {
+      "资讯标题": "a16z 深度报告：AI 付费市场，已出现不需要登上大众流量榜的生意",
+      "发布时间": "2026-10-06 13:44:23",
+      "来源": "Readhub",
+      "超链接": "https://wallstreetcn.com/articles/3783052",
+      "desc": "a16z 最新一期 Top 100 消费者 AI 应用追踪报告显示，只有 7 家公司同时进入网页流量、移动月活和消费支出三张榜单，有 29 家支出排名前 50 的厂商根本不在任何流量榜上。本期报告首次引入由 YipitData 基于美国消费者银行卡及信用卡面板观察到的 AI 支出数据，与原有的 Similarweb 网页访问量和 Sensor Tower 移动月活并列，形成三条独立的观察维度。支出排名前 50 的厂商中，有 29 家根本不出现在任何流量榜上，说明在特定专业人群中建立深度使用，已经足以支撑可观的商业规模——无需依赖大众流量。",
+      "agent_reason": "AI消费付费市场报告提供流量与收入差异数据，具有行业商业研究价值。",
+      "archive_id": "A20261006-dc1288689075",
+      "first_seen_at": "2026-10-06 15:04:35",
+      "last_seen_at": "2026-10-06 15:04:35"
+    },
+    {
+      "资讯标题": "长江存储预计 NAND 闪存短缺还将持续三年：AI 需求继续挤压消费级存储市场",
+      "发布时间": "2026-10-06 13:32:48",
+      "来源": "Readhub",
+      "超链接": "https://news.mydrivers.com/1/1155/1155495.htm",
+      "desc": "长江存储（YMTC）预计，当前全球 NAND 闪存市场供应紧张的局面可能还将持续约三年。随着人工智能基础设施建设持续扩大，数据中心对高容量企业级 SSD 的需求快速增长，NAND 闪存产能越来越多地被用于服务器和 AI 相关存储，传统消费电子市场可获得的供应则受到挤压。目前三星仍占据全球 NAND 市场第一的位置，SK 海力士及其旗下 Solidigm 紧随其后，而长江存储的全球市场份额已达相当规模。",
+      "agent_reason": "AI数据中心需求对NAND供应的影响，属于算力基础设施产业动态。",
+      "archive_id": "A20261006-f4e98d37f335",
+      "first_seen_at": "2026-10-06 15:04:35",
+      "last_seen_at": "2026-10-06 15:04:35"
+    },
+    {
+      "资讯标题": "彭博：DeepSeek 融资规模扩大至 120 亿美元，腾讯和宁德时代据称参与投资",
+      "发布时间": "2026-10-06 13:25:05",
+      "来源": "Readhub",
+      "超链接": "https://www.techflowpost.com/zh-CN/newsletter/138937",
+      "desc": "DeepSeek 接近完成新一轮融资，规模预计至少达到 800 亿元人民币（约 120 亿美元），远超公司此前约 500 亿元人民币的融资目标。由于 DeepSeek 最新 AI 模型发布后市场关注度提升，投资需求超过预期，最终融资规模可能接近 1000 亿元人民币。该融资金额也将使 DeepSeek 成为近年来全球 AI 领域规模较大的私募融资案例之一。",
+      "agent_reason": "DeepSeek融资规模出现新的报道进展；保留消息称及据称表述，尚非官方确认。",
+      "archive_id": "A20261006-2c22415e7d63",
+      "first_seen_at": "2026-10-06 15:04:35",
+      "last_seen_at": "2026-10-06 15:04:35"
+    },
+    {
+      "资讯标题": "「忘掉那些花哨功能」，微软给Word Copilot加上了防胡编补丁",
+      "发布时间": "2026-10-06 12:12:00",
+      "来源": "新智元",
+      "超链接": "https://www.aiera.com.cn/asi-item.html?id=c48051fd",
+      "desc": "据Windows Central报道，Word Copilot新增来源引用链接，便于核对回答；引用并不保证完全消除幻觉。",
+      "content_source": "browser_verified_detail",
+      "agent_reason": "原始频道时间及详情正文已核验；AI办公产品功能及生态更新。",
+      "archive_id": "A20261006-3468533d115c",
+      "first_seen_at": "2026-10-06 15:04:35",
+      "last_seen_at": "2026-10-06 15:04:35"
+    },
     {
       "资讯标题": "消息称月之暗面完成上市前最后一轮融资：估值约 500 亿美元，计划明年一季度赴港 IPO",
       "发布时间": "2026-10-06 11:38:47",
@@ -51,6 +124,17 @@
       "archive_id": "A20261006-54200faf1546",
       "first_seen_at": "2026-10-06 11:57:53",
       "last_seen_at": "2026-10-06 11:57:53"
+    },
+    {
+      "资讯标题": "从「卖电气」到「卖智能」—— 施耐德 226 亿美元并购 PTC 背后的工业 AI 变局",
+      "发布时间": "2026-10-06 10:42:00",
+      "来源": "Readhub",
+      "超链接": "https://bydrug.pharmcube.com/news/detail/33125f9a27aeb3671d6e9f18f3373ee3",
+      "desc": "法国能源技术集团施耐德电气宣布，将以每股 205 美元、总计约 226 亿美元（企业价值约 237 亿美元）的全现金交易，收购美国工业软件巨头 PTC。这一价格较 PTC 公告前收盘价溢价 42.3%，预计 2027 年第三季度完成交割，成为施耐德史上最大并购，也远超其 2023 年约 110 亿美元收购英国 Aveva 的规模。公布当日，施耐德股价在巴黎市场一度下挫近 10%，蒸发约 150 亿欧元市值，而 PTC 美股盘前大涨 34.4%。",
+      "agent_reason": "工业软件并购与工业AI产业布局，属于头部企业产业动态。",
+      "archive_id": "A20261006-415d733e9cee",
+      "first_seen_at": "2026-10-06 15:04:35",
+      "last_seen_at": "2026-10-06 15:04:35"
     },
     {
       "资讯标题": "消息称快手旗下可灵 AI 已选定投行筹备赴港 IPO，拟募资至少 10 亿美元",
@@ -233,6 +317,18 @@
       "archive_id": "A20261006-312e1bfe7e8c",
       "first_seen_at": "2026-10-06 09:07:17",
       "last_seen_at": "2026-10-06 09:07:17"
+    },
+    {
+      "资讯标题": "大模型把谷歌办公套件的规矩改了！Docs终于原生支持Markdown",
+      "发布时间": "2026-10-06 00:00:00",
+      "来源": "新智元",
+      "超链接": "https://www.aiera.com.cn/asi-item.html?id=41e4c514",
+      "desc": "报道Google Docs和Drive原生支持Markdown及逐步推送，与大模型输出格式的工作流有关。",
+      "content_source": "browser_verified_detail",
+      "agent_reason": "原始频道时间及详情正文已核验；AI办公产品功能及生态更新。",
+      "archive_id": "A20261006-98a8674c3e49",
+      "first_seen_at": "2026-10-06 15:04:35",
+      "last_seen_at": "2026-10-06 15:04:35"
     },
     {
       "资讯标题": "84次尝试仅答对1次，Eon发布企业Agent新基准，Fable 5.1和Astra领跑",

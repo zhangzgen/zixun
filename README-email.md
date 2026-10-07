@@ -58,8 +58,10 @@ SMTP_PASSWORD=QQ邮箱SMTP授权码
 
 邮件包含纯文本和 HTML 两个版本。脚本对 `.env`/环境变量中配置的密钥、授权码、token 和 webhook 做值替换脱敏；报告生成方仍须只写脱敏摘要，不能写原始凭据或完整日志。
 
-技术报告任务先运行`.venv-web/bin/python -m technical_reports.task_report begin`，仅在本机保存采集前的归档快照和新run_id。业务与同步步骤完成后，Agent在返回的report路径中填写真实最终status、summary及各步骤状态，再运行`finish --report .task_reports/<run_id>.json`。该步骤根据采集前后差异写入`technical_report_updates`，按厂商列出新增、原文修订、补齐全文阅读及总结更新的报告标题、链接和阅读状态。只改检查时间、飞书链接或渲染格式不计作报告修订。邮件将这些清单显示为独立厂商条目；无归档变化也明确说明，来源失败仍单独列出。快照缺失时报告标为变更未核验，不能编造历史变更或无更新。
+技术报告任务先运行`.venv-web/bin/python -m technical_reports.task_report begin`，仅在本机保存采集前的归档快照和新run_id。业务与同步步骤完成或失败后，Agent在返回的report路径中填写真实最终status、summary及各步骤状态，再运行`.venv-web/bin/python -m technical_reports.task_report finalize --report .task_reports/<run_id>.json`。统一入口核验归档变化并发送最终邮件，涵盖成功、部分完成、失败及无更新；归档快照异常也生成未核验的失败或部分完成汇报，不会编造无更新。source_status支持文字、对象、厂商列表和框架列表。
 
-SMTP 接收成功后保存本机发送凭据，同一个 run_id 和收件人再次运行会返回 `already_sent`。`accepted_by_smtp` 表示邮件服务器接受发送，不等于已进入收件箱。失败时只输出错误类型和 SMTP 错误码，保留报告，不自动重试；连接中断等情况可能无法确认服务器是否已接收，不应换 run_id 重复发送。
+finalize最多尝试发送3次，间隔5秒；只重试同一run_id的邮件，保留首次收尾的结束时间和归档差异，不重跑业务。成功回执防止重复发送；必须返回ok=true且email为accepted_by_smtp或already_sent才视为邮件步骤完成。三次均失败会保存email失败状态并返回非零退出码，定时任务下一轮先补发本任务已结束的失败邮件。SMTP接受只证明服务器接收，不证明邮件进入收件箱。保留的finish入口只生成归档差异，不发送邮件，定时任务应使用finalize。
+
+SMTP 接收成功后保存本机发送回执，同一个 run_id 和收件人再次运行会返回 `already_sent`。`accepted_by_smtp` 表示邮件服务器接受发送，不等于已进入收件箱。单独运行task_email.py失败时只输出错误类型和 SMTP 错误码，保留报告，不自动重试；技术报告finalize入口负责有限重试。连接中断等情况可能无法确认服务器是否已接收，不应换 run_id 重复发送。
 
 离线验证：`.venv-web/bin/python -m pytest tests/test_task_email.py -q`。

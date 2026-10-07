@@ -120,8 +120,18 @@ def render(report, values):
         details += (("github", "GitHub 同步"), ("render", "Render 部署"))
     for key, label in details:
         if key == 'source_status' and isinstance(report.get(key), list):
-            value = '\n'.join(f"{s['framework']} / {s['name']}：{'成功' if s['status'] == 'success' else '异常'}（{s['candidate_count']}个候选）" + ('；' + s['baseline_note'] if s.get('baseline_note') else '') for s in report[key])
-            lines.append((label, value))
+            sources = []
+            for source in report[key]:
+                if isinstance(source, dict) and all(field in source for field in
+                                                    ('framework', 'name', 'status', 'candidate_count')):
+                    value = f"{source['framework']} / {source['name']}：{'成功' if source['status'] == 'success' else '异常'}（{source['candidate_count']}个候选）"
+                    if source.get('baseline_note'):
+                        value += '；' + str(source['baseline_note'])
+                else:
+                    # Technical reports use vendor records; other tasks may use strings.
+                    value = json.dumps(source, ensure_ascii=False) if isinstance(source, dict) else str(source)
+                sources.append(value)
+            lines.append((label, '\n'.join(sources) or '未提供来源结果，覆盖情况未核验'))
             continue
         lines.append((label, report.get(key, "未执行或未核验")))
     lines.append(("错误 / 异常", "\n".join(str(e) for e in report.get("errors", [])) or "无"))

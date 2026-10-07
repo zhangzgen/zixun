@@ -67,3 +67,31 @@ def test_auth_failure_leaves_no_receipt_and_closes(tmp_path):
     with pytest.raises(RuntimeError):
         send_report(report(), VALUES, tmp_path, SMTP)
     assert closed and not list(tmp_path.iterdir())
+
+
+@pytest.mark.parametrize('status', ['success', 'partial', 'failed', 'skipped'])
+def test_vendor_source_records_render_for_every_final_status(status):
+    data = report()
+    data.update(status=status, source_status=[
+        {'vendor': 'Kimi', 'status': 'partial', 'pending_date_count': 0,
+         'errors': ['README <unavailable> smtp-test-secret']},
+        {'vendor': 'Google', 'status': 'partial', 'pending_date_count': 14},
+    ])
+    _, plain, rich = render(data, VALUES)
+    assert 'Kimi' in plain and 'Google' in rich and '14' in plain
+    assert 'README &lt;unavailable&gt;' in rich
+    assert 'smtp-test-secret' not in plain + rich
+
+
+def test_framework_source_records_keep_the_existing_format():
+    data = report()
+    data['source_status'] = [{'framework': 'LangChain', 'name': 'Releases',
+                             'status': 'success', 'candidate_count': 2,
+                             'baseline_note': '本轮已核查'}]
+    assert 'LangChain / Releases：成功（2个候选）；本轮已核查' in render(data, VALUES)[1]
+
+
+def test_other_source_records_do_not_prevent_failure_email():
+    data = report()
+    data['source_status'] = [{'vendor': 'Kimi'}, '采集失败', None]
+    assert '采集失败' in render(data, VALUES)[1]

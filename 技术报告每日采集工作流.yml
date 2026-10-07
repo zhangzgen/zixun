@@ -8,6 +8,7 @@ runtime:
   mode: agent_in_loop
   vendors: [Anthropic, OpenAI, DeepSeek, Kimi, GLM, Google, Seed]
   entrypoints:
+    finalize: .venv-web/bin/python -m technical_reports.task_report finalize --report .task_reports/<run_id>.json
     collect: .venv-web/bin/python -m technical_reports collect --output .technical_reports/candidates.json
     read: .venv-web/bin/python -m technical_reports.reader --input .technical_reports/candidates.json --concurrency 3
     ingest: .venv-web/bin/python -m technical_reports ingest --input .technical_reports/candidates.json
@@ -28,7 +29,9 @@ scope:
 workflow:
   - id: email_start
     actions:
+      - 开始本轮业务前，检查.task_reports/中本任务已结束且email.status为failed的历史报告；先用原report路径运行finalize重试邮件。保留原run_id、结束时间和归档变化，不重跑历史业务，不为补发新建run_id。历史邮件仍失败也记录异常并继续建立本轮报告。
       - 任何业务操作前运行 .venv-web/bin/python -m technical_reports.task_report begin，保存返回的run_id及report路径；该步骤生成本轮开始时间和采集前的技术报告归档快照，仅保存在.task_reports/。
+      - begin返回status为failed时停止业务步骤，使用已保存的本轮report直接进入email_summary。
       - 后续失败、无新增或提前停止只停止业务步骤，仍执行末尾email_summary；不得复用旧run_id、旧报告或采集结果。
   - id: collect
     actions:
@@ -84,10 +87,13 @@ workflow:
   - id: email_summary
     actions:
       - 每轮任务结束发送一封邮件，包括成功、部分完成、失败和无更新。先在本轮report中填写实际status（success/partial/failed/skipped）、summary、source_status、feishu、github、render及errors；未执行或未核验的步骤如实标注，不用旧结果冒充本轮成功。
-      - 运行 .venv-web/bin/python -m technical_reports.task_report finish --report .task_reports/<run_id>.json，对比本轮开始快照与结束归档，按厂商列出新增、原文修订、补齐全文阅读和总结更新的报告标题、原文/飞书链接及阅读状态，并生成本轮变化数量；没有归档变化也明确说明，采集覆盖失败单独呈现。
-      - 快照缺失或归档损坏时如实在errors说明“厂商变更未核验”，不得编造无更新或历史增量；仍用本轮report发送失败或部分完成邮件。
-      - 运行 .venv-web/bin/python task_email.py --report .task_reports/<run_id>.json，发给现有SMTP_TO（未设置则SMTP_USER）；配置由邮件脚本自行读取，不输出凭据。
-      - 邮件发送适用于每轮；无变化时应用内保持安静的要求不影响邮件。每个run_id只发送一次，SMTP失败保留报告并汇报email错误，不换run_id重发、不重跑采集或飞书推送。
+      - source_status可用文字、对象或厂商列表；厂商列表不需要framework字段。邮件模板必须兼容本轮真实来源结构。
+      - 必须运行统一收尾入口 .venv-web/bin/python -m technical_reports.task_report finalize --report .task_reports/<run_id>.json。该入口核验本轮归档变化并发送邮件，不再将finish与发邮件拆成可被遗漏的两步。
+      - finalize按厂商列出新增、原文修订、补齐全文阅读和总结更新的报告标题、原文/飞书链接及阅读状态；快照缺失或归档损坏时记录“厂商变更未核验”，移除未核实增量数量，仍发送失败或部分完成邮件。未填写最终业务状态时自动形成失败汇报。
+      - 邮件使用现有SMTP_TO（未设置则SMTP_USER）；配置由脚本读取，不输出凭据。发送失败最多尝试3次，每次间隔5秒，只重试同一run_id的邮件；已被SMTP接受并保存回执后跳过发送。
+      - 检查命令返回ok=true且email为accepted_by_smtp或already_sent，才可汇报邮件成功；只尝试发送不算成功，SMTP接受不等于已确认进入收件箱。
+      - 三次均失败时保留完整report及email失败状态，应用内明确汇报；下一轮开始前再次补发该报告，仍使用同一run_id，不重跑采集、阅读、归档或飞书。只发一封是成功后去重，不是失败后禁止重试。
+      - 邮件收尾适用于每轮；无变化时应用内保持安静的要求不影响邮件。业务步骤失败、无新增及提前停止后均必须执行finalize，完成邮件确认后再输出最终回复。
       - 不把.task_reports/、.env、收件邮箱、凭据或原文缓存提交GitHub；邮件仅包含脱敏执行摘要及报告更新清单。
 
 summary_rules:

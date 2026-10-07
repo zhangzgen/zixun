@@ -18,6 +18,22 @@
       "source": "Google DeepMind 官方模型卡目录",
       "report_url": "https://storage.googleapis.com/deepmind-media/Model-Cards/Nano-Banana-2-1-Model-Card.pdf",
       "feishu_url": "https://ocns5gikjtax.feishu.cn/wiki/Jiz8w00HXicJ0fkia7rc4nzwnfc"
+    },
+    {
+      "archive_id": "R-350ede59807f4ea2fb3c",
+      "资讯标题": "EmbeddingGemma 2 Model Card",
+      "发布时间": "2026-10-06 00:00:00",
+      "date_precision": "day",
+      "来源": "Google 技术报告",
+      "超链接": "https://ai.google.dev/gemma/docs/embeddinggemma/model_card_2",
+      "desc": "EmbeddingGemma 2统一四类输入。厂商评测显示，模型提升代码检索。",
+      "content": "### 核心结论\n模型统一文本、图像、视频和音频。\n模型面向本地检索。\n厂商评测显示，模型提升代码检索。\n\n### 问题与方法\n**1. 统一表示**\n模型把四类输入映射到同一向量空间。\n模型输出768维向量。\n模型也支持混合输入。\n模型采用Gemma 4架构。\n模型使用24层网络和均值池化。\n\n**2. 按需加载**\n模型共含7.4亿参数。\n文本部分含2.7亿参数。\n视觉编码器含1.7亿参数。\n音频编码器含3亿参数。\n开发者可关闭不用的编码器。\n\n**3. 缩减存储**\n模型采用套娃表示学习。\n开发者可将向量截为512或256维。\n开发者也可将向量截为128维。\n128维向量可将存储量降至六分之一。\n开发者截断后须重新归一化。\n查询和文档须使用相同维度。\n\n**4. 输入配置**\n模型共享8192词元的上下文。\n默认配置可容纳约29张图像。\n默认配置可容纳约58帧视频。\n默认配置可容纳约327秒音频。\n这些上限不含其他模态输入。\n视频默认每秒采样一帧。\n音频须使用16千赫兹单声道。\n开发者须为文本添加对应任务前缀。\n\n### 关键实验与条件\n以下成绩来自厂商评测。\n厂商使用全精度权重和768维向量。\n代码检索得分从68.76升至78.68。\n该成绩来自MTEB代码评测。\n多语言得分从61.15升至61.36。\n该成绩来自MTEB多语言评测。\n图像评测MIEB得分为64.64。\n音频评测MAEB得分为49.39。\n模型卡的评测表列出各项指标。\n各项指标不能直接横向比较。\n256维向量保留较多质量。\n128维向量明显降低多模态质量。\n开发者须在实际任务中验证截断效果。\n\n### 局限与适用价值\n训练数据截止于2025年1月。\n训练数据覆盖140多种语言。\n模型支持100多种语言。\n模型在各语言上的表现并不一致。\n模型不进行生成式安全对齐。\n开发者须过滤检索结果并检查公平性。\n开发者应使用bfloat16或float32。\nfloat16可能产生无效或退化向量。\n模型适合本地检索和聚类。\n模型也可支持检索增强生成。\n模型卡未提供独立复现结果。\n",
+      "content_kind": "技术报告总结",
+      "report_id": "R-350ede59807f4ea2fb3c",
+      "fulltext_path": "technical_reports/fulltext/R-350ede59807f4ea2fb3c-472d6765ba8331e6.txt",
+      "source": "Google DeepMind 官方模型卡目录",
+      "report_url": "https://ai.google.dev/gemma/docs/embeddinggemma/model_card_2",
+      "feishu_url": "https://ocns5gikjtax.feishu.cn/wiki/Q7dOwvdPFizvy7ktfd7cA3FNnTg"
     }
   ]
 }

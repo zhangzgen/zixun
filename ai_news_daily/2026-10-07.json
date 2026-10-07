@@ -2,8 +2,8 @@
   "version": 1,
   "date": "2026-10-07",
   "timezone": "Asia/Shanghai",
-  "updated_at": "2026-10-07 08:59:11",
-  "item_count": 26,
+  "updated_at": "2026-10-07 12:08:01",
+  "item_count": 32,
   "runs": [
     {
       "collected_at": "2026-10-07 08:59:11",
@@ -21,9 +21,48 @@
         "今日头条/Tophub": "ok:50",
         "Readhub": "ok:10"
       }
+    },
+    {
+      "collected_at": "2026-10-07 12:08:01",
+      "input_count": 6,
+      "added_count": 6,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "完整审阅64条脚本候选及当天26条归档；保留2条新事件，浏览器审阅新智元60条滚动列表并核验补充4条详情。不限制TopK。剔除50条搜索链接、非AI诺奖报道、已归档及同事件数学成果/合同智能体重复报道、低价值出镜动态。机器之心近期AI稿已归档；AIBase最新6天前、新华科技最新9月30日，超窗口。热点榜欠缺准确发布时间和详情链接，不补未经核验条目。",
+      "source_status": {
+        "量子位": "ok:4",
+        "新智元": "ok:0",
+        "AIBase": "ok:0",
+        "新华网科技": "ok:0",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
     }
   ],
   "items": [
+    {
+      "资讯标题": "Anthropic 扩大先进 AI 模型访问权限，允许特定机构开展网络安全测试",
+      "发布时间": "2026-10-07 09:43:34",
+      "来源": "Readhub",
+      "超链接": "https://www.36kr.com/newsflashes/4015151743815561",
+      "desc": "Anthropic 正与美国政府合作，扩大其最先进 AI 模型的使用权限，允许一批经过筛选的机构测试这家初创公司的尖端网络能力。根据周二发布的声明，这家总部位于旧金山的公司将允许经过验证的机构使用其能力最强的模型，包括 Claude Opus 5.5、Claude Sonnet 5.5、Claude Mythos 5.1，以及未来推出的新模型。声明称，获得权限的机构可以对旨在保护电网、银行和航班运行系统等关键基础设施的安全系统进行「高风险攻击性测试」。",
+      "agent_reason": "先进AI模型的受控网络安全测试授权与关键基础设施治理报道，仅保留政策层面信息。",
+      "archive_id": "A20261007-760e275c741f",
+      "first_seen_at": "2026-10-07 12:08:01",
+      "last_seen_at": "2026-10-07 12:08:01"
+    },
+    {
+      "资讯标题": "中国团队全球首次构建水稻全生命周期三维时空细胞图谱",
+      "发布时间": "2026-10-07 09:31:37",
+      "来源": "Readhub",
+      "超链接": "https://www.ithome.com/1/010/155.htm",
+      "desc": "我国研究团队在全球范围内首次构建了覆盖水稻从种子萌发到开花结实全过程的三维时空细胞图谱，整合了基因组测序、单细胞测序与空间转录组测序，为理解水稻生长发育、探索籽粒品质改良提供了新的研究资源。科研人员还建设了可供全球研究者使用的数据库与水稻单细胞基础模型，支持基因查询、空间表达展示和比较分析。有了这张图谱和这些数据，科研人员可以重新认知水稻优良性状和基因表达调控的关系，最终理解一棵水稻是如何从种子萌发到开花结果的。",
+      "agent_reason": "水稻单细胞基础模型和三维时空数据资源，具有AI科学研究存档价值。",
+      "archive_id": "A20261007-56818b2d9474",
+      "first_seen_at": "2026-10-07 12:08:01",
+      "last_seen_at": "2026-10-07 12:08:01"
+    },
     {
       "资讯标题": "OpenAI「rogue」agent activities found on Wikimedia projects",
       "发布时间": "2026-10-07 08:16:45",
@@ -47,6 +86,30 @@
       "last_seen_at": "2026-10-07 08:59:11"
     },
     {
+      "资讯标题": "谷歌Nano Banana 2.1杀进Arena竞技场拿下多图编辑第4",
+      "发布时间": "2026-10-07 05:01:00",
+      "来源": "新智元",
+      "超链接": "https://www.aiera.com.cn/asi-item.html?id=5f86564b",
+      "desc": "Arena官方在X上公布：多图编辑1431分排第4，文本到图像1328分排第5，图像编辑1428分排第6。",
+      "content_source": "browser_detail_verified",
+      "agent_reason": "图像模型多项竞技场评测；分数和名次按媒体转述，适用特定榜单。",
+      "archive_id": "A20261007-23cfd43a28fb",
+      "first_seen_at": "2026-10-07 12:08:01",
+      "last_seen_at": "2026-10-07 12:08:01"
+    },
+    {
+      "资讯标题": "速度快达GPT-6 Luna的10倍，OpenAI开放决策API公测",
+      "发布时间": "2026-10-07 04:47:00",
+      "来源": "新智元",
+      "超链接": "https://www.aiera.com.cn/asi-item.html?id=d0f2d10e",
+      "desc": "Decisions API开放公测，通过Responses API调用，提供真假判断、预设选项选择与置信度、给定范围评分。报道援引官方称决策速度最高为GPT-6 Luna的10倍。",
+      "content_source": "browser_detail_verified",
+      "agent_reason": "通用分类API及智能体请求路由产品变化；性能为报道引用的官方口径。",
+      "archive_id": "A20261007-ca1dcd1adb9c",
+      "first_seen_at": "2026-10-07 12:08:01",
+      "last_seen_at": "2026-10-07 12:08:01"
+    },
+    {
       "资讯标题": "Introducing Mistral Large 4: Le chonk",
       "发布时间": "2026-10-07 04:18:19",
       "来源": "Readhub",
@@ -67,6 +130,18 @@
       "archive_id": "A20261007-2ee55c894d54",
       "first_seen_at": "2026-10-07 08:59:11",
       "last_seen_at": "2026-10-07 08:59:11"
+    },
+    {
+      "资讯标题": "数学要「毕业」了！xAI联创宣判：两千年英雄史彻底落幕",
+      "发布时间": "2026-10-07 02:28:00",
+      "来源": "新智元",
+      "超链接": "https://www.aiera.com.cn/asi-item.html?id=tgbabc4a",
+      "desc": "xAI联合创始人Christian Szegedy长文讨论自动形式化和AI数学工业化；文章同时介绍Wolfram关于证明陈述与人类目标的不同观点。",
+      "content_source": "browser_detail_verified",
+      "agent_reason": "AI数学研究及自动形式化的独立观点报道；预测和文中突破说法未经独立核验，不视为已完成证明的证据。",
+      "archive_id": "A20261007-f32e9bde51f2",
+      "first_seen_at": "2026-10-07 12:08:01",
+      "last_seen_at": "2026-10-07 12:08:01"
     },
     {
       "资讯标题": "全球第二、全美第一！一家影视黑马力压硅谷巨头，已估值10亿",
@@ -114,6 +189,18 @@
       "archive_id": "A20261007-b7a621033b64",
       "first_seen_at": "2026-10-07 08:59:11",
       "last_seen_at": "2026-10-07 08:59:11"
+    },
+    {
+      "资讯标题": "黄仁勋嫌AI末日论太奇怪，转手用硬件给智能体造了座物理牢房",
+      "发布时间": "2026-10-06 23:26:00",
+      "来源": "新智元",
+      "超链接": "https://www.aiera.com.cn/asi-item.html?id=aec61ce8",
+      "desc": "报道回顾9月28日发布的Open Agent Safety Platform：OpenShell隔离文件、凭证和网络访问，BlueField-4 DPU上的Sentry提供芯片级遥测和隔离。",
+      "content_source": "browser_detail_verified",
+      "agent_reason": "智能体硬件隔离与安全工程分析；这是近期报道对较早发布的回顾，部署数及事故说法未独立核验。",
+      "archive_id": "A20261007-a84870029304",
+      "first_seen_at": "2026-10-07 12:08:01",
+      "last_seen_at": "2026-10-07 12:08:01"
     },
     {
       "资讯标题": "全球流量大盘到底谁在逆势狂飙？ChatGPT连续两月成唯一增长超1%巨头",

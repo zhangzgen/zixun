@@ -2,8 +2,8 @@
   "version": 1,
   "date": "2026-10-07",
   "timezone": "Asia/Shanghai",
-  "updated_at": "2026-10-07 12:08:01",
-  "item_count": 32,
+  "updated_at": "2026-10-07 15:00:45",
+  "item_count": 44,
   "runs": [
     {
       "collected_at": "2026-10-07 08:59:11",
@@ -38,9 +38,129 @@
         "今日头条/Tophub": "ok:50",
         "Readhub": "ok:10"
       }
+    },
+    {
+      "collected_at": "2026-10-07 15:00:45",
+      "input_count": 12,
+      "added_count": 12,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "Agent读取完整64条候选及当天32条归档，不限TopK；保留5条新候选和7条浏览器核验补充，剔除50条搜索链接、非AI诺奖、营销减重信息、同一事件及已归档报道。",
+      "source_status": {
+        "量子位": "ok:4",
+        "新智元": "ok:0",
+        "AIBase": "ok:0",
+        "新华网科技": "ok:0",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
     }
   ],
   "items": [
+    {
+      "资讯标题": "Meshy 跻身 a16z 消费级 AI 应用月收入 Top 50，为榜单唯一 AI 3D 公司",
+      "发布时间": "2026-10-07 14:39:36",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/501791.html",
+      "desc": "在 a16z 首份消费级 AI 应用月收入榜单中，Meshy 位列第 31 名，与 OpenAI、Anthropic、Canva、Superhuman、Higgsfield 等共同上榜",
+      "agent_reason": "消费级AI收入榜及3D生成应用商业化动态；排名按报道口径。",
+      "archive_id": "A20261007-40108184811a",
+      "first_seen_at": "2026-10-07 15:00:45",
+      "last_seen_at": "2026-10-07 15:00:45"
+    },
+    {
+      "资讯标题": "为什么 ChatGPT 总爱在标题里塞色情赌博小广告？",
+      "发布时间": "2026-10-07 14:30:30",
+      "来源": "Readhub",
+      "超链接": "https://www.36kr.com/p/4015290777981060",
+      "desc": "如果你是 ChatGPT 的高频用户，想必从今年 8 月开始，就碰上过一种神秘现象：ChatGPT 偶尔会在自动生成的会话标题最后，加上一些意义不明的外语单词，或是来自赌博、色情小广告的片段。但考虑到标题生成往往快于正文回答，而且存在「正文干净、标题被污染」的现象，可以推断出标题生成使用的或许是一个不同于会话正文的、更轻量化的模型。它可能是和原标题语义相近的外语词元、词表里的色情赌博小广告词元、被误认为是控制符的符号词元，甚至是模型的思维链本身，最后形成了我们看见的各种异常标题。",
+      "agent_reason": "AI会话标题污染与输出质量分析；轻量模型机制属于推断。",
+      "archive_id": "A20261007-0a70457703e6",
+      "first_seen_at": "2026-10-07 15:00:45",
+      "last_seen_at": "2026-10-07 15:00:45"
+    },
+    {
+      "资讯标题": "突发！Claude拿下概率论「圣杯」，AI跨过菲尔兹奖终点线",
+      "发布时间": "2026-10-07 13:17:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=tg8728dd",
+      "desc": "报道介绍Claude生成渗流连续相变猜想的Lean证明，正文同时明确结果仍等待学者验证和可读解释。",
+      "content_source": "browser_detail_verified",
+      "agent_reason": "AI数学与形式化验证研究；只存档报道，不将待验证证明或菲尔兹奖级别说法视为已确认。",
+      "archive_id": "A20261007-bee23f286d87",
+      "first_seen_at": "2026-10-07 15:00:45",
+      "last_seen_at": "2026-10-07 15:00:45"
+    },
+    {
+      "资讯标题": "AI 教父辛顿提议 AI 行业建立 FDA 式审批机制：模型推出前需通过安全审核",
+      "发布时间": "2026-10-07 12:32:00",
+      "来源": "Readhub",
+      "超链接": "https://www.ithome.com/1/010/187.htm",
+      "desc": "辛顿在播客中提出，AI 企业应像制药行业一样，产品发布前向监管机构证明安全性。他提到 OpenAI 因安全和权限担忧搁置了新模型，并警告递归式自我改进可能让局面在一两年内恶化。",
+      "agent_reason": "AI上市前安全审核的监管建议；属于个人提议，非已生效政策。",
+      "archive_id": "A20261007-9569054c2de0",
+      "first_seen_at": "2026-10-07 15:00:45",
+      "last_seen_at": "2026-10-07 15:00:45"
+    },
+    {
+      "资讯标题": "深度｜一家在招股书里写「产品可能会灭亡人类」的公司，正在推进史上最大规模的 IPO",
+      "发布时间": "2026-10-07 12:30:30",
+      "来源": "Readhub",
+      "超链接": "https://www.huxiu.com/article/4895609.html?f=rss",
+      "desc": "一家正在冲刺上市的公司，把自己的研究员「预测人类有超过十分之一概率被自己的产品杀死」这句话，写进了招股书。这家在招股书里用 80 页警告 AI 可能毁灭人类的公司，同时用一套治理结构把最终控制权交给七个人。你会买一家在招股书里写「我的产品有超过 10% 概率杀死很多人」的公司的股票吗。",
+      "agent_reason": "头部AI公司IPO治理和风险披露分析；招股书说法按媒体报道，未独立核验。",
+      "archive_id": "A20261007-eab41b961d8f",
+      "first_seen_at": "2026-10-07 15:00:45",
+      "last_seen_at": "2026-10-07 15:00:45"
+    },
+    {
+      "资讯标题": "AI几年内或超越所有人类！Claude核心研究员预测",
+      "发布时间": "2026-10-07 12:14:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=tg2ec2fc",
+      "desc": "Anthropic研究员Sholto Douglas和Nick Marwell访谈讨论AGI门槛、长程任务、算力投入及人机分工。节目8月录制、10月2日上线。",
+      "content_source": "browser_detail_verified",
+      "agent_reason": "头部实验室研究方向与安全观点；AGI时间、资本开支、GDP等为个人预测。",
+      "archive_id": "A20261007-a358225a566c",
+      "first_seen_at": "2026-10-07 15:00:45",
+      "last_seen_at": "2026-10-07 15:00:45"
+    },
+    {
+      "资讯标题": "突发！Claude中文版悄悄上线了",
+      "发布时间": "2026-10-07 12:13:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=tgdacfee",
+      "desc": "报道称Claude网页端和桌面端增加简体及繁体中文界面；结账菜单出现China不等于支持地区政策已改变，正文指出大陆仍不在支持名单中。",
+      "content_source": "browser_detail_verified",
+      "agent_reason": "模型产品本地化变化与地区可用性澄清；避免把中文界面误读为地区开放。",
+      "archive_id": "A20261007-9c17f192beba",
+      "first_seen_at": "2026-10-07 15:00:45",
+      "last_seen_at": "2026-10-07 15:00:45"
+    },
+    {
+      "资讯标题": "AI要干翻黎曼猜想了？未发布Claude仅用一天半打破37年数学记录",
+      "发布时间": "2026-10-07 12:04:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=1a9e4745",
+      "desc": "报道援引媒体称未发布Claude提升黎曼相关下界，并讨论形式化验证；正文明确提升下界不等于证明黎曼猜想。",
+      "content_source": "browser_detail_verified",
+      "agent_reason": "独立AI数学研究报道；数值、时间及验证说法未独立核验，不宣称解决黎曼猜想。",
+      "archive_id": "A20261007-12c3069d74f4",
+      "first_seen_at": "2026-10-07 15:00:45",
+      "last_seen_at": "2026-10-07 15:00:45"
+    },
+    {
+      "资讯标题": "谷歌 AI 基建主管谈：Agent 重塑基建、光网络突破、终极物理瓶颈和未来 10 年的算力形态",
+      "发布时间": "2026-10-07 11:55:05",
+      "来源": "Readhub",
+      "超链接": "https://wallstreetcn.com/articles/3783104",
+      "desc": "从衡量系统真实性能的「goodput」指标，到光路交换网络、轨道数据中心，再到十年后的算力形态，谷歌 AI 基础设施负责人 Amin Vahdat 在近期一次深度对谈中，系统梳理了这场建设背后的技术逻辑与战略取舍。Vahdat 在接受 Sequoia Capital 合伙人 Sonia Huang 访谈时表示，长程智能体（long-horizon agent）的崛起正在从根本上改变数据中心的设计逻辑，不仅推高了对加速器的需求，也让 CPU、网络与存储的需求同步「暴涨」。谷歌约 15 年前率先将波分复用（WDM）引入数据中心，随后叠加了光路交换（optical circuit switching）技术——后者在纯光域内完成数据路由，绕过了传统电分组交换逐包查表的电域处理环节。",
+      "agent_reason": "智能体对数据中心CPU、网络、存储和算力形态的技术影响。",
+      "archive_id": "A20261007-4e7ebca50687",
+      "first_seen_at": "2026-10-07 15:00:45",
+      "last_seen_at": "2026-10-07 15:00:45"
+    },
     {
       "资讯标题": "Anthropic 扩大先进 AI 模型访问权限，允许特定机构开展网络安全测试",
       "发布时间": "2026-10-07 09:43:34",
@@ -156,6 +276,18 @@
       "last_seen_at": "2026-10-07 08:59:11"
     },
     {
+      "资讯标题": "5.4亿美元！Anthropic一年捐出的钱，是财富500强第二名的近5倍",
+      "发布时间": "2026-10-07 02:00:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=4ab0bf5e",
+      "desc": "报道援引The Information及Calcbench讨论Anthropic 2025年慈善支出与股东支出、商业化责任。",
+      "content_source": "browser_detail_verified",
+      "agent_reason": "头部AI公司财务和治理动态；金额及比较按媒体报道口径。",
+      "archive_id": "A20261007-88fcb5259da9",
+      "first_seen_at": "2026-10-07 15:00:45",
+      "last_seen_at": "2026-10-07 15:00:45"
+    },
+    {
       "资讯标题": "Anthropic连夜撒钱抢人，初创公司白拿5.25万美元大礼包",
       "发布时间": "2026-10-07 01:21:00",
       "来源": "新智元",
@@ -166,6 +298,30 @@
       "archive_id": "A20261007-bc80a0fb855a",
       "first_seen_at": "2026-10-07 08:59:11",
       "last_seen_at": "2026-10-07 08:59:11"
+    },
+    {
+      "资讯标题": "前亚马逊AI高管，接盘了波士顿动力，要让2.5万台机器人进厂打工",
+      "发布时间": "2026-10-07 00:00:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=02c4218d",
+      "desc": "报道称前亚马逊AI首席科学家Rohit Prasad出任波士顿动力CEO，并分析Atlas量产、成本及现代起亚工厂部署计划。",
+      "content_source": "browser_detail_verified",
+      "agent_reason": "机器人企业管理层及物理AI商业化；产量、成本为报道或计划，非已实现部署。",
+      "archive_id": "A20261007-3ac8cbbd8ee1",
+      "first_seen_at": "2026-10-07 15:00:45",
+      "last_seen_at": "2026-10-07 15:00:45"
+    },
+    {
+      "资讯标题": "初创老板往ChatGPT敲了不到60个词就干碎了30年无解的数学猜想",
+      "发布时间": "2026-10-07 00:00:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=be0fca43",
+      "desc": "报道援引New Scientist介绍Autokernel联合创始人Dmitry Rybin借助ChatGPT寻找Dinitz-Garg-Goemans猜想反例的过程。",
+      "content_source": "browser_detail_verified",
+      "agent_reason": "不同于已归档OpenAI批量数学手稿的独立图论案例；数学和模型表现说法未独立复现。",
+      "archive_id": "A20261007-06e5b50a1ef5",
+      "first_seen_at": "2026-10-07 15:00:45",
+      "last_seen_at": "2026-10-07 15:00:45"
     },
     {
       "资讯标题": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",

@@ -2,8 +2,8 @@
   "version": 1,
   "date": "2026-10-08",
   "timezone": "Asia/Shanghai",
-  "updated_at": "2026-10-08 09:02:41",
-  "item_count": 42,
+  "updated_at": "2026-10-08 12:02:04",
+  "item_count": 59,
   "runs": [
     {
       "collected_at": "2026-10-08 09:02:41",
@@ -21,9 +21,223 @@
         "今日头条/Tophub": "ok:50",
         "Readhub": "ok:10"
       }
+    },
+    {
+      "collected_at": "2026-10-08 12:02:04",
+      "input_count": 17,
+      "added_count": 17,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "完整审阅78条候选及今日42条归档，无TopK；排除50条搜索链接、非AI诺奖、脚本壳和重复事件。浏览器核验AIBase真实时间并替换脚本壳摘要；新智元Eazo软文剔除，GPT UI重复剔除；机器之心数学及NanoBanana重复。补充新智元1、机器之心1、新华网3。",
+      "source_status": {
+        "量子位": "ok:7",
+        "新智元": "ok:0",
+        "AIBase": "ok:11",
+        "新华网科技": "ok:0",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
     }
   ],
   "items": [
+    {
+      "资讯标题": "鄂维南院士：AI for Science 的下半场，是重构整个科研体系｜PAIR 2026",
+      "发布时间": "2026-10-08 11:44:00",
+      "来源": "Readhub",
+      "超链接": "https://www.mittrchina.com/news/detail/17065",
+      "desc": "下一代科学发现专题重点放在 AI 从辅助科研走向智能观测、自主实验之后，科学研究方法和科研体系可能发生的变化。与通常围绕模型能力、自动化实验室或具体科研案例展开的讨论不同，他把问题进一步延伸到当前的科研基础设施和科研组织体系：如果 AI for Science 真正成为一种新的科研范式，我们需要建设什么样的基础设施。科研体系未来同样需要类似的尝试，直接在现有体系内部推动全面重塑阻力较大，可以探索建立一些新型研发机构和公共科研平台，以解决实际产业问题为牵引，在体制机制上彻底打通研发与落地之间的鸿沟。",
+      "agent_reason": "AI for Science科研基础设施与组织体系观点，保留为采访观点。",
+      "archive_id": "A20261008-81342b68cb65",
+      "first_seen_at": "2026-10-08 12:02:04",
+      "last_seen_at": "2026-10-08 12:02:04"
+    },
+    {
+      "资讯标题": "会进化的不应该只有能力：让 Agent 的安全守卫也成为一个可进化的 Skill｜NeurIPS 2026",
+      "发布时间": "2026-10-08 11:33:00",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-10-08-3",
+      "desc": "产业频道提供明确时间；详情标题与论文链接可见，正文主要为图片，未推断实验结果。",
+      "content_source": "browser_verified_original_detail",
+      "agent_reason": "智能体安全守卫与技能研究；仅归档已核实标题及链接。",
+      "archive_id": "A20261008-954303a2ccb4",
+      "first_seen_at": "2026-10-08 12:02:04",
+      "last_seen_at": "2026-10-08 12:02:04"
+    },
+    {
+      "资讯标题": "微软发布 MAI Code1.1Flash 模型，GitHub Copilot 将支持本地与云端混合推理",
+      "发布时间": "2026-10-08 11:26:43",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31464",
+      "desc": "微软于 2026 年 10 月 7 日的 Windows 和 Surface 发布会上宣布，将于本月底前为 GitHub Copilot 引入本地 AI 模型支持，允许开发者在云端与设备端模型之间自由切换或实现自动调度。针对端侧推理中的内存瓶颈与长上下文资源占用问题，微软推出了高效的 MAI Code1.1Flash 混合专家（MoE）模型。在具体应用上，用户可通过 GitHub Copilot CLI、Copilot 应用及 Visual Studio Code 自主选择推理模式，既可依赖 Copilot 后台自动协调资源，也可指定通过 Windows ML 供应商或兼容 OpenAI 的本地端点调用 MAI Code1.1Flash 等本地模型。",
+      "agent_reason": "本地与云端代码模型混合推理，区别于已归档AI PC发布。",
+      "archive_id": "A20261008-35a1b0647597",
+      "first_seen_at": "2026-10-08 12:02:04",
+      "last_seen_at": "2026-10-08 12:02:04"
+    },
+    {
+      "资讯标题": "独角兽诞生！估值 15 亿美元的开源黑马如何靠 AI Agent 收割企业级市场？",
+      "发布时间": "2026-10-08 11:14:37",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31462",
+      "desc": "三年前成立的开源 AI 初创公司 Nous Research 正式确认，公司已完成由 Robot Ventures 领投的 9000 万美元 B 轮融资，估值飙升至 15 亿美元。凭借开源的 Hermes Agent，Nous Research 在开发者和个人用户群体中积累了极高的人气。根据该公司的数据估算，Hermes Agent 已被克隆超过 2400 万次，承担了全球约 2.5% 的 AI Token 使用量。",
+      "agent_reason": "开源智能体公司新融资及商业化进展，数据为公司口径。",
+      "archive_id": "A20261008-2a35d613dbe4",
+      "first_seen_at": "2026-10-08 12:02:04",
+      "last_seen_at": "2026-10-08 12:02:04"
+    },
+    {
+      "资讯标题": "非营利组织发布新报告：ChatGPT 青少年模式安全风险过高",
+      "发布时间": "2026-10-08 10:53:08",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31461",
+      "desc": "加州非营利组织 Common Sense Media 近日发布报告指出，OpenAI 的 ChatGPT 青少年模式对未成年人而言存在过高风险。测试显示，当青少年账户长时间讨论自杀、自伤或进食障碍等高风险话题时，系统往往无法及时向家长发送预警，也未能稳定提供危机干预热线等求助信息。研究团队指出，即便考虑到绑定账号后可能存在的延迟生效时间，系统在危机情况下依然未能可靠发出预警，因此坚持认为 ChatGPT 青少年模式的安全性暂未达标。",
+      "agent_reason": "未成年人AI安全评测与预警机制争议，区别于官方产品报告。",
+      "archive_id": "A20261008-6c0a8c3991fa",
+      "first_seen_at": "2026-10-08 12:02:04",
+      "last_seen_at": "2026-10-08 12:02:04"
+    },
+    {
+      "资讯标题": "对话如祺出行 COO 韩锋：世界模型越强，真实数据才是真壁垒",
+      "发布时间": "2026-10-08 10:27:00",
+      "来源": "Readhub",
+      "超链接": "https://www.leiphone.com/category/transportation/ESCXNijR4DVx6uDl.html",
+      "desc": "由于真实数据采集成本高昂且周期漫长，越来越多智驾和具身智能公司借助世界模型和仿真平台生成合成数据，补充真实数据不足，以提升模型训练效率。如祺出行试图依靠投入常态化出行服务的数据采集车、Robotaxi 和线下运维网络，以较低成本持续获得真实、连续且规模化的数据，再通过已经搭建的数据闭环，将其转化为自动驾驶、世界模型和具身智能公司可以直接使用的训练材料。如祺相关数据资产已经覆盖感知数据、行为数据、合成数据和多模态训练数据集四大类。",
+      "agent_reason": "自动驾驶真实数据与世界模型训练壁垒的产业采访。",
+      "archive_id": "A20261008-013b439b3ca8",
+      "first_seen_at": "2026-10-08 12:02:04",
+      "last_seen_at": "2026-10-08 12:02:04"
+    },
+    {
+      "资讯标题": "大模型原生智能体手机STEPX Neo将于10月13日正式发布",
+      "发布时间": "2026-10-08 10:15:37",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/501915.html",
+      "desc": "",
+      "agent_reason": "原生智能体手机发布计划，发布尚未发生。",
+      "archive_id": "A20261008-98a871bfc677",
+      "first_seen_at": "2026-10-08 12:02:04",
+      "last_seen_at": "2026-10-08 12:02:04"
+    },
+    {
+      "资讯标题": "无驾驶舱重卡上路，卡尔动力押注无人货运规模化",
+      "发布时间": "2026-10-08 10:14:00",
+      "来源": "Readhub",
+      "超链接": "https://www.leiphone.com/category/transportation/YNHH7HgbCnGN56XQ.html",
+      "desc": "卡尔动力在棋盘井镇宣布启动规模化 AI 运输网络，将有人驾驶、保留驾驶舱的无人卡车以及无驾驶舱的运输机器人纳入同一运输系统。卡尔动力敢把目标设定为建设规模化 AI 运输网络，前提是这门生意已经开始算得过账。随着无驾驶舱的运输机器人投入运营，卡尔动力宣布单车经济效益有望从 20% 提升至 30% 以上。",
+      "agent_reason": "无人货运机器人商业化及运输网络，效益为公司预期。",
+      "archive_id": "A20261008-3d50f4bd821d",
+      "first_seen_at": "2026-10-08 12:02:04",
+      "last_seen_at": "2026-10-08 12:02:04"
+    },
+    {
+      "资讯标题": "WordPress 7.1. 3 紧急修补 7 洞：Anthropic反过来给全球建站系统补漏",
+      "发布时间": "2026-10-08 10:10:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31460",
+      "desc": "WordPress修复7个漏洞，其中Anthropic报告3个；文章未确认漏洞由模型还是人员发现。",
+      "content_source": "browser_verified_original_detail",
+      "agent_reason": "AI企业参与开源安全维护；不把发现归因于模型。",
+      "archive_id": "A20261008-88f70b2d023b",
+      "first_seen_at": "2026-10-08 12:02:04",
+      "last_seen_at": "2026-10-08 12:02:04"
+    },
+    {
+      "资讯标题": "抖音生活服务发布双节报告:AI入口拉动消费，“豆包订酒店”下单量环比增56%",
+      "发布时间": "2026-10-08 10:05:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31459",
+      "desc": "抖音生活服务发布双节消费报告，称豆包订酒店下单量环比增长超56%。",
+      "content_source": "browser_verified_original_detail",
+      "agent_reason": "AI交互入口商业化交易数据，注明平台自报口径。",
+      "archive_id": "A20261008-4d6c2a86fcd9",
+      "first_seen_at": "2026-10-08 12:02:04",
+      "last_seen_at": "2026-10-08 12:02:04"
+    },
+    {
+      "资讯标题": "谷歌把AI搜索塞进手机！不到600MB，照片、视频、录音断网照样搜",
+      "发布时间": "2026-10-08 10:04:00",
+      "来源": "新智元",
+      "超链接": "https://www.aiera.com.cn/asi-item.html?id=tg8686ce",
+      "desc": "原频道称谷歌开源EmbeddingGemma 2，支持本地多模态搜索；详情展示567MB及本地代码搜索。",
+      "content_source": "browser_verified_original_detail",
+      "agent_reason": "端侧多模态检索模型，区别于Foresight报道。",
+      "archive_id": "A20261008-df41082b01be",
+      "first_seen_at": "2026-10-08 12:02:04",
+      "last_seen_at": "2026-10-08 12:02:04"
+    },
+    {
+      "资讯标题": "谷歌Gmail暗藏Gemini智能体：APK拆解泄露，未来让AI替你回邮件",
+      "发布时间": "2026-10-08 09:57:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31456",
+      "desc": "Gmail APK拆解发现Gemini邮件智能体相关字符串，谷歌尚未官宣，功能形态可能变化。",
+      "content_source": "browser_verified_original_detail",
+      "agent_reason": "保留未经官宣的产品线索，不能写成已上线。",
+      "archive_id": "A20261008-1ea58da8c106",
+      "first_seen_at": "2026-10-08 12:02:04",
+      "last_seen_at": "2026-10-08 12:02:04"
+    },
+    {
+      "资讯标题": "大模型商业化步伐提速 可灵AI冲刺港股或开启生成式AI上市新阶段",
+      "发布时间": "2026-10-08 09:35:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31455",
+      "desc": "消息称可灵AI筹备香港IPO，募资至少10亿美元；商讨尚在进行，官方未公开回应。",
+      "content_source": "browser_verified_original_detail",
+      "agent_reason": "视频生成头部公司资本动态，以未确认消息归档。",
+      "archive_id": "A20261008-ec5dbd511f90",
+      "first_seen_at": "2026-10-08 12:02:04",
+      "last_seen_at": "2026-10-08 12:02:04"
+    },
+    {
+      "资讯标题": "马斯克打破门户之见！Grok Bot将接入Claude等最佳AI模型",
+      "发布时间": "2026-10-08 09:20:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31453",
+      "desc": "报道称马斯克宣布Grok Bot按任务选择Claude、Midjourney、Suno等第三方模型。",
+      "content_source": "browser_verified_original_detail",
+      "agent_reason": "智能体多模型路由策略变化。",
+      "archive_id": "A20261008-4cd5ba3233b0",
+      "first_seen_at": "2026-10-08 12:02:04",
+      "last_seen_at": "2026-10-08 12:02:04"
+    },
+    {
+      "资讯标题": "探访火车“智慧检修医院”：AI当医生，机器人当同事",
+      "发布时间": "2026-10-08 09:15:00",
+      "来源": "新华网科技",
+      "超链接": "https://www.news.cn/tech/20261008/23abbd75e05441bebd426a05224ca47d/c.html",
+      "desc": "铁路检修采用机械臂、AGV及AI图像初筛，由人员复核疑似故障。",
+      "content_source": "browser_verified_original_detail",
+      "agent_reason": "工业AI与机器人真实应用报道。",
+      "archive_id": "A20261008-7418a662035f",
+      "first_seen_at": "2026-10-08 12:02:04",
+      "last_seen_at": "2026-10-08 12:02:04"
+    },
+    {
+      "资讯标题": "向更精准计时迈进 中国科学家成功研制核光钟",
+      "发布时间": "2026-10-08 09:04:36",
+      "来源": "新华网科技",
+      "超链接": "https://www.news.cn/tech/20261008/b0010e0229524f6aad6818132660605f/c.html",
+      "desc": "报道清华团队研制核光钟并稳定运行，成果发表于自然，涉及量子精密测量。",
+      "content_source": "browser_verified_original_detail",
+      "agent_reason": "核心技术突破，保留公开新闻层面的技术信息。",
+      "archive_id": "A20261008-19a18d3583b8",
+      "first_seen_at": "2026-10-08 12:02:04",
+      "last_seen_at": "2026-10-08 12:02:04"
+    },
+    {
+      "资讯标题": "国庆假期 科技赋能假日文旅新体验（组图）",
+      "发布时间": "2026-10-08 08:59:33",
+      "来源": "新华网科技",
+      "超链接": "https://www.news.cn/tech/20261008/0f4fdc197ff2442a88e9db79ad587919/c.html",
+      "desc": "外骨骼助力登山、AI眼镜导览及机器人互动带来文旅新体验。",
+      "content_source": "browser_verified_original_detail",
+      "agent_reason": "具身智能及AI消费应用，区别于已归档消费总量报道。",
+      "archive_id": "A20261008-301c79cd6243",
+      "first_seen_at": "2026-10-08 12:02:04",
+      "last_seen_at": "2026-10-08 12:02:04"
+    },
     {
       "资讯标题": "可持续交通体系建设阔步前行",
       "发布时间": "2026-10-08 08:51:03",

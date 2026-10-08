@@ -4,6 +4,22 @@
   "generated_by": "technical_reports.export_search",
   "items": [
     {
+      "archive_id": "R-da6345bf27d4f976105f",
+      "资讯标题": "Advancing computer use with Ironclad",
+      "发布时间": "2026-10-06 00:00:00",
+      "date_precision": "day",
+      "来源": "OpenAI 技术报告",
+      "超链接": "https://openai.com/index/advancing-computer-use-with-ironclad",
+      "desc": "报告称，强化学习提高合同任务评分。报告中的用时仅为模拟估算。",
+      "content": "## 核心结论\n报告称，强化学习提高合同任务评分。\n报告中的用时仅为模拟估算。\n智能体仍需人工监督。\n\n## 问题与方法\n### 完整业务规则\n智能体需要完成多步骤合同流程。\n智能体需要始终遵守业务规则。\n研究要求智能体配置表单与审批规则。\n研究也要求智能体验证条件分支。\n单次操作正确不能保证完整流程正确。\n\n### 专家与评分标准\nIronclad员工参与定义研究任务。\nOpenAI内部使用者也参与定义任务。\n研究覆盖11项任务。\n任务包括保密协议与采购审批。\n任务也包括更新可复用法律条款。\n每项任务有8至50项评分标准。\n评分标准帮助研究人员定位错误。\n\n### 环境与强化学习\nIronclad提供托管软件环境。\n研究人员生成合成训练任务。\n研究人员通过强化学习训练Astra。\n模型通过练习和反馈改进。\n\n### 数据来源\n研究使用SEC EDGAR公开合同。\n研究人员过滤合同中的个人信息。\n研究没有使用客户的非公开合同。\n过滤目标不能证明个人信息全被清除。\n\n## 主要证据\n以下数据均来自厂商评测。\nAstra使用Max推理设置。\nGPT-5.6 Sol使用高推理设置。\n两款模型采用各自得分最高的设置。\nAstra的平均评分为55.0%。\nGPT-5.6 Sol的平均评分为41.6%。\nAstra的评分相对提高32%。\n评分提高了13.4个百分点。\n平均评分不是完整任务成功率。\n\nAstra每次尝试估算用时19.2分钟。\nGPT-5.6 Sol估算用时37.0分钟。\n模拟估算用时减少48%。\n研究根据假定处理速度估算用时。\n这些数据不是实测客户节省时间。\n内部模型的平均评分为63.7%。\n这个成绩不代表发布模型已有能力。\n\n单项演示中，Astra满足约94%的标准。\n演示估算Astra用时20分钟。\n对照模型满足约85%的标准。\n演示估算对照模型用时32分钟。\n单项演示不能替代总体结果。\n\n## 限制与适用价值\n研究只覆盖11项合同任务。\n发布模型的平均评分仍为55.0%。\n报告没有提供逐任务分数。\n报告没有提供统计不确定性。\n报告没有披露完整训练规模。\n研究展示了业务规则的端到端评估。\n合同平台仍需保留人工监督。\n潜在产品应用尚不是已证实的效果。\n全文包含全部三条脚注。\n报告没有单独附录。",
+      "content_kind": "技术报告总结",
+      "report_id": "R-da6345bf27d4f976105f",
+      "fulltext_path": "technical_reports/fulltext/R-da6345bf27d4f976105f-0b0e20e9a621199d.txt",
+      "source": "OpenAI Research",
+      "report_url": "https://openai.com/index/advancing-computer-use-with-ironclad",
+      "feishu_url": "https://ocns5gikjtax.feishu.cn/wiki/LQDiwBOQSi7NtWk1PopcG9c2nmf"
+    },
+    {
       "archive_id": "R-9e8bbad982e581e2c543",
       "资讯标题": "Nano Banana 2.1 Model Card",
       "发布时间": "2026-10-06 00:00:00",

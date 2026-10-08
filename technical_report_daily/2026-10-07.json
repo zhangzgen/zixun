@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "date": "2026-10-07",
+  "generated_by": "technical_reports.export_search",
+  "items": [
+    {
+      "archive_id": "R-d76b0944cc56454ef224",
+      "资讯标题": "GPT-6 Sol and GPT-6 Luna: October 2026 update",
+      "发布时间": "2026-10-07 00:00:00",
+      "date_precision": "day",
+      "来源": "OpenAI 技术报告",
+      "超链接": "https://deploymentsafety.openai.com/gpt-6-october",
+      "desc": "报告称，十月版模型减少事实错误。两款模型在部分安全评测中退步。",
+      "content": "## 核心结论\n报告称，十月版模型减少事实错误。\n两款模型在部分安全评测中退步。\n产品仍依赖系统防护。\n\n## 问题与方法\n### 版本与评测口径\n报告评测十月版Sol和Luna。\nChatGPT提供这两个版本。\nCodex和Work仍使用此前版本。\n安全评测通常使用最低推理设置。\n能力评测使用最高推理设置。\n多数评测没有启用完整系统防护。\n困难样本不能代表平均生产流量。\n\n### 训练与攻击防御\nOpenAI通过强化学习训练推理模型。\nOpenAI更新了高风险滥用防护。\nGPT-Red使用自动红队开展对抗训练。\n报告区分直接注入与间接注入。\n动态心理健康评测模拟对抗用户。\n模拟用户会根据回答改变对话。\n\n### 健康与对齐测量\n健康评测同时提供长度校正分。\n校正方法减少冗长回答的评分优势。\n对齐评测检查绕过限制与欺骗行为。\n受阻任务评测检查模型是否披露限制。\n\n## 主要证据\n以下数据均来自厂商评测。\n间接注入稳健率按推理等级等权平均。\nSol的稳健率为97.13%。\nLuna的稳健率为95.80%。\n多轮越狱结果优于GPT-5.6 Sol。\n十月版与九月版的置信区间广泛重叠。\n\nSol的临床健康校正分为55.2。\nLuna的临床健康校正分为48.2。\n两款模型均超过各自前代。\n两款模型的回答也明显变长。\nLuna的心理健康总分为51.73。\nSol的心理健康总分为48.81。\n动态评测未发现显著总体差异。\n\n厂商观察到部分安全指标退步。\n未成年人保护也出现多项退步。\n厂商复核认为违规总体严重性较低。\n这个判断不能证明风险为零。\n厂商将网络与生化能力按High管理。\nAI自我改进能力未达到High。\n\n## 限制与适用价值\n全部结果来自厂商自评。\n困难样本与合成场景限制外推。\n旧模型比较值可能来自后续更新。\n政策和评分器变化也影响比较。\n系统防护的综合剩余风险未被量化。\n报告没有披露完整训练配方。\n部分图表仅支持正文中的定性结论。\n总结不补造图表中的精确数值。\n读者可据此识别版本改进与退步。\n读者不能据此认定模型全面更安全。\n全文涵盖24页及参考文献。\n报告没有单独附录。",
+      "content_kind": "技术报告总结",
+      "report_id": "R-d76b0944cc56454ef224",
+      "fulltext_path": "technical_reports/fulltext/R-d76b0944cc56454ef224-0c71c5d5d4c3a6eb.txt",
+      "source": "OpenAI Deployment Safety Hub",
+      "report_url": "https://deploymentsafety.openai.com/gpt-6-october/gpt-6-october.pdf",
+      "feishu_url": "https://ocns5gikjtax.feishu.cn/wiki/OnvfwkspQiKTexkvmWPcGK96nIe"
+    }
+  ]
+}

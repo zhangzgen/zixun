@@ -2,8 +2,8 @@
   "version": 1,
   "date": "2026-10-09",
   "timezone": "Asia/Shanghai",
-  "updated_at": "2026-10-09 15:06:55",
-  "item_count": 70,
+  "updated_at": "2026-10-09 18:06:22",
+  "item_count": 82,
   "runs": [
     {
       "collected_at": "2026-10-09 09:06:16",
@@ -38,9 +38,104 @@
         "今日头条/Tophub": "ok:50",
         "Readhub": "ok:10"
       }
+    },
+    {
+      "collected_at": "2026-10-09 18:06:22",
+      "input_count": 12,
+      "added_count": 12,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "从完整候选中保留 12 条具备 AI、大模型、智能体、机器人、算力或治理存档价值的详情页资讯，剔除 TopHub 搜索页、非 AI 内容和当日已有重复事件。",
+      "source_status": {
+        "量子位": "ok:10",
+        "新智元": "ok:0",
+        "AIBase": "ok:12",
+        "新华网科技": "ok:0",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10",
+        "browser_supplement": "未完成：浏览器直连异常来源页面导航超时，未新增可核验条目。"
+      }
     }
   ],
   "items": [
+    {
+      "资讯标题": "TRAE终于把Code和Work合并了",
+      "发布时间": "2026-10-09 17:19:57",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/502426.html",
+      "desc": "大写的方便",
+      "agent_reason": "TRAE 编程与工作端合并，属于开发者智能体产品重大更新。",
+      "archive_id": "A20261009-eb2e4b7cf722",
+      "first_seen_at": "2026-10-09 18:06:22",
+      "last_seen_at": "2026-10-09 18:06:22"
+    },
+    {
+      "资讯标题": "联想天禧自研代码智能体TianxiCode斩获SWE-bench-Live全球第一",
+      "发布时间": "2026-10-09 16:53:08",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/502422.html",
+      "desc": "联想天禧AI自主研发的专业代码智能体框架TianxiCode 以71%的问题解决率登顶全球第一名",
+      "agent_reason": "联想代码智能体在 SWE-bench-Live 取得领先，属于企业代码智能体进展。",
+      "archive_id": "A20261009-1aa889340694",
+      "first_seen_at": "2026-10-09 18:06:22",
+      "last_seen_at": "2026-10-09 18:06:22"
+    },
+    {
+      "资讯标题": "0.2秒急停、秒级重规划！因果智能走进真实世界",
+      "发布时间": "2026-10-09 16:47:34",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/502411.html",
+      "desc": "这是一台机器人正在关闭微波炉门时，因人手突然插进来而紧急悬停的时间",
+      "agent_reason": "因果智能机器人实现急停和重规划，属于具身智能与机器人技术进展。",
+      "archive_id": "A20261009-72e58c805245",
+      "first_seen_at": "2026-10-09 18:06:22",
+      "last_seen_at": "2026-10-09 18:06:22"
+    },
+    {
+      "资讯标题": "国产 GPU 又进一步！壁仞官宣新一代产品提前点亮：募资 40 亿冲刺量产",
+      "发布时间": "2026-10-09 16:34:39",
+      "来源": "Readhub",
+      "超链接": "https://news.mydrivers.com/1/1156/1156269.htm",
+      "desc": "国产 GPU 企业壁仞科技发布公告披露，其新一代产品已成功点亮，目前已完成启动测试并进入流片后验证阶段，进度较先前配售时的预期更快。壁仞科技还表示，新一代产品旨在大幅提升计算性能及效率，公司已推进其商业化准备工作，并制定了大规模的生产计划，预期将于未来数个季度内进行客户送样及量产。其中约 70% 募资用于新一代产品的战略供应链采购、生产准备及商业化，提前采购关键材料和组件并预留产能，应对 AI 芯片全行业供应紧张、交付周期延长的局面。",
+      "agent_reason": "壁仞新一代国产 GPU 提前点亮并推进量产，属于 AI 算力基础设施动态。",
+      "archive_id": "A20261009-16e309b27bcc",
+      "first_seen_at": "2026-10-09 18:06:22",
+      "last_seen_at": "2026-10-09 18:06:22"
+    },
+    {
+      "资讯标题": "Anthropic 携手天文学家，Claude AI 填补空白打造首张全天紫外地图",
+      "发布时间": "2026-10-09 15:50:05",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31506",
+      "desc": "天体物理学家 Brice Ménard 与 Anthropic 公司合作，利用 AI 科研工具 Claude Science 成功绘制出人类首张完整的全天紫外地图。这一成果不仅填补了多年来紫外天文观测中的数据空白，也标志着人工智能在科研领域的应用取得突破性进展。研究团队利用大模型对海量公开数据进行坐标清洗与交叉校准，并运用统计学预测补全了缺失的盲区数据，成功推算出超一亿颗恒星的紫外亮度。",
+      "agent_reason": "Claude 与天文学家合作生成全天紫外地图，属于 AI 科研应用进展。",
+      "archive_id": "A20261009-39f4af5de509",
+      "first_seen_at": "2026-10-09 18:06:22",
+      "last_seen_at": "2026-10-09 18:06:22"
+    },
+    {
+      "资讯标题": "字节找到了DeepSeek时强时弱的原因",
+      "发布时间": "2026-10-09 15:11:55",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/502364.html",
+      "desc": "答不答得对，得看Token站位",
+      "agent_reason": "字节分析 DeepSeek 性能波动原因，属于头部公司模型技术动态。",
+      "archive_id": "A20261009-0075bac2c25f",
+      "first_seen_at": "2026-10-09 18:06:22",
+      "last_seen_at": "2026-10-09 18:06:22"
+    },
+    {
+      "资讯标题": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+      "发布时间": "2026-10-09 15:00:00",
+      "来源": "Readhub",
+      "超链接": "https://openai.com/index/sophos",
+      "desc": "Discover how Sophos uses OpenAI's Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
+      "agent_reason": "OpenAI Daybreak 在网络安全调查中显著提效，属于企业 AI 应用案例。",
+      "archive_id": "A20261009-570fe3204556",
+      "first_seen_at": "2026-10-09 18:06:22",
+      "last_seen_at": "2026-10-09 18:06:22"
+    },
     {
       "资讯标题": "Anthropic 推出 OSS Scanner，用最强 AI 模型为全球开源软件免费扫漏洞",
       "发布时间": "2026-10-09 14:43:22",
@@ -172,6 +267,61 @@
       "archive_id": "A20261009-9f2ef6e68fca",
       "first_seen_at": "2026-10-09 15:06:55",
       "last_seen_at": "2026-10-09 15:06:55"
+    },
+    {
+      "资讯标题": "谷歌云重磅发布Gemini Agent，全面杀入企业级AI办公赛道",
+      "发布时间": "2026-10-09 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31507",
+      "desc": "谷歌云重磅发布Gemini Agent，全面杀入企业级AI办公赛道 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-col",
+      "agent_reason": "Google Cloud 发布 Gemini Agent，属于企业级智能体产品更新。",
+      "archive_id": "A20261009-af99555affa8",
+      "first_seen_at": "2026-10-09 18:06:22",
+      "last_seen_at": "2026-10-09 18:06:22"
+    },
+    {
+      "资讯标题": "谷歌 Gemini 4 Argon 突袭开放，AI 或将直接代替程序员提交代码",
+      "发布时间": "2026-10-09 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31499",
+      "desc": "谷歌 Gemini 4 Argon 突袭开放，AI 或将直接代替程序员提交代码 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(pr",
+      "agent_reason": "Gemini 4 Argon 开放及编程代理能力报道，属于大模型与代码智能体动态。",
+      "archive_id": "A20261009-462bdd10d064",
+      "first_seen_at": "2026-10-09 18:06:22",
+      "last_seen_at": "2026-10-09 18:06:22"
+    },
+    {
+      "资讯标题": "智谱AI新一代大模型路线曝光：参数量突破万亿，双轨技术路径剑指AGI",
+      "发布时间": "2026-10-09 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31498",
+      "desc": "智谱AI新一代大模型路线曝光：参数量突破万亿，双轨技术路径剑指AGI \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color-scheme\"+o+\")\")}funct",
+      "agent_reason": "智谱 AI 下一代大模型路线曝光，属于国产大模型技术路线动态。",
+      "archive_id": "A20261009-0e57a2f8c67a",
+      "first_seen_at": "2026-10-09 18:06:22",
+      "last_seen_at": "2026-10-09 18:06:22"
+    },
+    {
+      "资讯标题": "快手发布“AI魔改”视频治理公告:9月处置违规内容2544条，重点整治四大名著乱改",
+      "发布时间": "2026-10-09 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31505",
+      "desc": "快手发布“AI魔改”视频治理公告:9月处置违规内容2544条，重点整治四大名著乱改 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color",
+      "agent_reason": "快手发布 AI 生成视频治理公告，属于生成式 AI 治理政策与平台实践。",
+      "archive_id": "A20261009-17ac1cb709c7",
+      "first_seen_at": "2026-10-09 18:06:22",
+      "last_seen_at": "2026-10-09 18:06:22"
+    },
+    {
+      "资讯标题": "OpenAI 预计年底年化收入超 700 亿，企业业务成核心增长引擎",
+      "发布时间": "2026-10-09 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31509",
+      "desc": "OpenAI 预计年底年化收入超 700 亿，企业业务成核心增长引擎 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefer",
+      "agent_reason": "OpenAI 收入预期与企业业务增长，属于头部 AI 公司经营动态。",
+      "archive_id": "A20261009-f409a9c541c1",
+      "first_seen_at": "2026-10-09 18:06:22",
+      "last_seen_at": "2026-10-09 18:06:22"
     },
     {
       "资讯标题": "美国暂停微软及Adobe等IT巨头参与技术人才绿卡计划",

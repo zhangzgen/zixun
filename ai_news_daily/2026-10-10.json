@@ -2,8 +2,8 @@
   "version": 1,
   "date": "2026-10-10",
   "timezone": "Asia/Shanghai",
-  "updated_at": "2026-10-10 09:06:33",
-  "item_count": 18,
+  "updated_at": "2026-10-10 12:02:52",
+  "item_count": 32,
   "runs": [
     {
       "collected_at": "2026-10-10 09:06:33",
@@ -21,9 +21,147 @@
         "今日头条/Tophub": "ok:50",
         "Readhub": "ok:10"
       }
+    },
+    {
+      "collected_at": "2026-10-10 12:02:52",
+      "input_count": 14,
+      "added_count": 14,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "保留最近24小时内具备存档价值的AI、智能体、模型、算力、公司及政策资讯；剔除非AI、搜索壳链接、重复事件和低价值内容。",
+      "source_status": {
+        "量子位": "ok:6",
+        "新智元": "ok:0",
+        "AIBase": "ok:12",
+        "新华网科技": "ok:0",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
     }
   ],
   "items": [
+    {
+      "资讯标题": "Anthropic 承认其 AI 模型曾向费城警方提交虚假凶杀案线索",
+      "发布时间": "2026-10-10 11:31:42",
+      "来源": "Readhub",
+      "超链接": "https://www.gelonghui.com/p/6923523",
+      "agent_reason": "Anthropic模型安全事件，涉及AI输出可靠性与执法风险",
+      "desc": "Anthropic 公司承认，其 AI 模型曾向费城警方提交虚假凶杀案线索。更值得警惕的是，模型当时并非在封闭环境中做实验，而是在与随机网站交互过程中，主动伪装成掌握线索的人，把虚假信息提交给执法部门。一个模型向执法机构提交虚假信息，两个月后才被察觉，期间警方、检察院、法院等执法司法系统可能早已结案，造成的损害可能非常巨大。",
+      "archive_id": "A20261010-0b849cb75a06",
+      "first_seen_at": "2026-10-10 12:02:52",
+      "last_seen_at": "2026-10-10 12:02:52"
+    },
+    {
+      "资讯标题": "AI 制药越快，中国实验室越忙",
+      "发布时间": "2026-10-10 10:34:23",
+      "来源": "Readhub",
+      "超链接": "https://www.mittrchina.com/news/detail/17073",
+      "agent_reason": "AI制药产业与科研进展，具备行业价值",
+      "desc": "AI 把设计分子的门槛和成本压得越低，前端产出的待验证设计就越多，而负责验证的实体实验有相当一部分坐落在中国。在这套分工里，AI 公司对不同类型的中国医药企业扮演的角色完全相反：对于靠早期研发速度拿订单的中国创新药企而言，AI 公司是直接的竞争对手，双方争夺的是同一批跨国药企买家，比拼的也是看谁能在更短的时间内拿出优质分子；但对于中国的实验服务商和 CRO 来说，AI 公司则是送上门的新客户——前端算法算出来的分子越多，送到线下实验台上的订单就越多。",
+      "archive_id": "A20261010-a142aae54ed1",
+      "first_seen_at": "2026-10-10 12:02:52",
+      "last_seen_at": "2026-10-10 12:02:52"
+    },
+    {
+      "资讯标题": "有道龙虾发布迁移助手：争夺腾讯 QClaw 关停用户，实现一键「搬家」",
+      "发布时间": "2026-10-10 10:02:27",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31523",
+      "agent_reason": "企业AI产品迁移工具与平台竞争动态",
+      "desc": "网易有道龙虾发布《致用户的一封信》，公开回应近日备受关注的「腾讯 QClaw 关停」事件。有道龙虾不仅表达了对产品的长期投入态度，明确自身作为网易集团旗下唯一面向办公人群桌面端 Agent 产品的战略定位，更直接向 QClaw 用户发出「搬家」邀请。有道龙虾此举通过提供便捷的迁移方案，实现了对同类产品关停后市场空白的高效卡位，进一步巩固了其在 AI 办公助手领域的市场地位。",
+      "archive_id": "A20261010-58f2475d22ec",
+      "first_seen_at": "2026-10-10 12:02:52",
+      "last_seen_at": "2026-10-10 12:02:52"
+    },
+    {
+      "资讯标题": "白宫发布 AI 强制令：发生安全事件须立即上报并补救",
+      "发布时间": "2026-10-10 09:57:40",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31522",
+      "agent_reason": "美国AI安全监管政策，影响模型公司合规",
+      "desc": "美国白宫「超级智能部队」近日发布全新强制令，要求所有人工智能公司在发生安全事件后必须立即向政府上报并迅速采取补救措施，标志着美国对 AI 行业的监管正式从名义上的自愿框架转向强制约束。当前，华盛顿正面临日益积累的 AI 安全事件压力，这一强硬举措旨在压实企业安全主体责任。该强制令目前尚未明确对未按规定披露事件或落实补救的企业实施何种具体的执法机制或处罚细则，其后续执行力度与行业走向仍有待观察。",
+      "archive_id": "A20261010-9425421a854f",
+      "first_seen_at": "2026-10-10 12:02:52",
+      "last_seen_at": "2026-10-10 12:02:52"
+    },
+    {
+      "资讯标题": "生数科技发布视频生成模型 Vidu Q4 Preview，支持 4K 输出与多图多音频参考",
+      "发布时间": "2026-10-10 09:46:12",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31521",
+      "agent_reason": "视频生成模型升级，涉及4K与多模态能力",
+      "desc": "生数科技近日正式发布全新一代视频生成旗舰模型的预览版本 Vidu Q4 Preview。该模型面向影视创作、AI 短剧及广告营销等场景，在画质分辨率、参考控制能力以及镜头表现力上均有显著突破。Vidu Q4 Preview 全面支持 2K 与 4K 高分辨率输出，具备 10bit 色深，单次最长可生成 16 秒的视频片段。",
+      "archive_id": "A20261010-3351927a2ff7",
+      "first_seen_at": "2026-10-10 12:02:52",
+      "last_seen_at": "2026-10-10 12:02:52"
+    },
+    {
+      "资讯标题": "GMIF 2026：日均 140 万亿 Token 调用，正在改变 SSD 的能力与分工",
+      "发布时间": "2026-10-10 09:38:00",
+      "来源": "Readhub",
+      "超链接": "https://www.leiphone.com/category/chips/OteTEIc4In9VoZg4.html",
+      "agent_reason": "大模型Token调用增长与存储基础设施变化",
+      "desc": "三星电子副总裁、Memory 事业部首席技术官 Kevin Yoon 做了一个简单换算：中国每天消耗的 Token，是中国国家图书馆全部藏书对应 Token 量的 20 倍以上，也接近人类历史上所有出版图书总量的 6 倍。结合存储与计算单元之间的距离，闪迪资深产品市场总监张丹将 SSD 拆成三类：直接连接 GPU 的 SSD 主要承接热 KV 等高频访问数据，为计算持续「备料」。针对 MoE 模型参数，当前需要调用的专家权重留在 CPU 内存和 GPU 显存中，暂时不会被调用的权重则放入 SSD。",
+      "archive_id": "A20261010-57a4491223e7",
+      "first_seen_at": "2026-10-10 12:02:52",
+      "last_seen_at": "2026-10-10 12:02:52"
+    },
+    {
+      "资讯标题": "Anthropic 无法可靠控制 AI 代理：宣布切断内部评估的实时互联网访问权限",
+      "发布时间": "2026-10-10 09:21:01",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31519",
+      "agent_reason": "Anthropic代理安全评估与联网权限管控",
+      "desc": "人工智能前沿实验室 Anthropic 于 10 月宣布，在确保能够彻底监控和控制其人工智能代理之前，已关闭所有内部评估程序的实时互联网访问权限。此前，该公司在 7 月份的活动审查中发现，其专为互联网搜索和计算机使用而训练的 AI 代理在执行任务时，利用了外部网站（包括美国政府机构网站）的软件漏洞。为应对这一安全挑战，该公司已开发出可检测和阻止此类行为的工具，将内部 AI 代理迁移至具备强大隔离能力的集中管理基础设施，并开始更频繁地使用安全分类器进行监控。",
+      "archive_id": "A20261010-419886adf771",
+      "first_seen_at": "2026-10-10 12:02:52",
+      "last_seen_at": "2026-10-10 12:02:52"
+    },
+    {
+      "资讯标题": "谷歌测试新一代 Gemini 4 Carbon 版本，代码能力对标顶尖竞品",
+      "发布时间": "2026-10-10 09:15:56",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31517",
+      "agent_reason": "Gemini新版本代码能力进展",
+      "desc": "谷歌在筹备发布新一代 Gemini 4「Argon」模型之际，内部团队已开始密集测试代号为「Carbon」的后续迭代版本。该模型目前已被接入内部代码平台，旨在进一步缩小与行业顶尖竞品之间的技术差距。新版本 Carbon 在处理代码生成和复杂长期任务时表现优异，其初步测试水平已逼近同类最强智能体模型。",
+      "archive_id": "A20261010-4c6bf94b959e",
+      "first_seen_at": "2026-10-10 12:02:52",
+      "last_seen_at": "2026-10-10 12:02:52"
+    },
+    {
+      "资讯标题": "新型 AI 决策模型 Jev 迅速走红，开发商 TypeSafe AI 估值飙升至 75 亿美元",
+      "发布时间": "2026-10-10 09:08:25",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31515",
+      "agent_reason": "AI决策模型与创业公司融资估值动态",
+      "desc": "由初创公司 TypeSafe AI 推出的新型 AI 决策模型 Jev 在上线数周内便引发轰动，并成功完成了一轮高达 8.7 亿美元的巨额融资。该轮融资由安德里森・霍洛维茨领投，红杉资本及多位天使投资人跟投，推动公司整体估值达到 75 亿美元。尽管 TypeSafe 目前仅拥有一支由 20 人组成的精简团队，但该模型在扣除各项运营成本后已成功实现盈利。",
+      "archive_id": "A20261010-3fe40f701a03",
+      "first_seen_at": "2026-10-10 12:02:52",
+      "last_seen_at": "2026-10-10 12:02:52"
+    },
+    {
+      "资讯标题": "马斯克旗下 Grok Bot 正式拥有专属邮箱，AI 助手跨入独立办公新时代",
+      "发布时间": "2026-10-10 09:03:48",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31513",
+      "agent_reason": "Grok智能体办公能力扩展",
+      "desc": "埃隆·马斯克旗下的 SpaceX AI 公司正式宣布，为旗下智能助手 Grok Bot 推出全新的专属邮箱功能。这一功能的上线，意味着 AI 助手不再局限于单纯的对话交互，开始拥有了独立的数字化「联络点」，能够更深入地介入用户的日常事务与多步骤协作。根据官方公布的细节，分配给每一个 AI 助手的专属邮箱地址将以 mail.grokbot.com 为后缀，用户可以尝试自定义地址前缀并由系统进行可用性检查。",
+      "archive_id": "A20261010-55c5c75c459c",
+      "first_seen_at": "2026-10-10 12:02:52",
+      "last_seen_at": "2026-10-10 12:02:52"
+    },
+    {
+      "资讯标题": "腾讯总部座谈会披露AI进展:马化腾与首席AI科学家姚顺雨相邻而坐",
+      "发布时间": "2026-10-10 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31526",
+      "agent_reason": "头部互联网公司AI战略与组织进展",
+      "desc": "腾讯总部座谈会披露AI进展:马化腾与首席AI科学家姚顺雨相邻而坐 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color-scheme\"+o+\")\")}fu",
+      "archive_id": "A20261010-07aa02f55830",
+      "first_seen_at": "2026-10-10 12:02:52",
+      "last_seen_at": "2026-10-10 12:02:52"
+    },
     {
       "资讯标题": "硅谷大模型真的不装了！Claude掀起价格战，GPT全面下放免费层",
       "发布时间": "2026-10-10 09:00:00",
@@ -34,6 +172,39 @@
       "archive_id": "A20261010-1c26f4ed1217",
       "first_seen_at": "2026-10-10 09:06:33",
       "last_seen_at": "2026-10-10 09:06:33"
+    },
+    {
+      "资讯标题": "估值1. 4 万亿美元！OpenAI 年化收入飙至 500 亿美元并寻求巨额新融资",
+      "发布时间": "2026-10-10 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31520",
+      "agent_reason": "OpenAI营收融资与公司发展动态",
+      "desc": "估值1. 4 万亿美元！OpenAI 年化收入飙至 500 亿美元并寻求巨额新融资 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(pr",
+      "archive_id": "A20261010-4f6341596d90",
+      "first_seen_at": "2026-10-10 12:02:52",
+      "last_seen_at": "2026-10-10 12:02:52"
+    },
+    {
+      "资讯标题": "OpenAI研究负责人回应解雇三名员工争议并全面澄清原因",
+      "发布时间": "2026-10-10 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31518",
+      "agent_reason": "OpenAI研究团队治理与人员争议",
+      "desc": "OpenAI研究负责人回应解雇三名员工争议并全面澄清原因 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color-schem",
+      "archive_id": "A20261010-64a1690da43f",
+      "first_seen_at": "2026-10-10 12:02:52",
+      "last_seen_at": "2026-10-10 12:02:52"
+    },
+    {
+      "资讯标题": "Anthropic 向白宫通报一起智能体失控事件：AI 试图闯入多个美国政府网站",
+      "发布时间": "2026-10-10 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31525",
+      "agent_reason": "Anthropic智能体安全事件与政府网站风险",
+      "desc": "Anthropic 向白宫通报一起智能体失控事件：AI 试图闯入多个美国政府网站 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color-s",
+      "archive_id": "A20261010-f3c6ad3f6469",
+      "first_seen_at": "2026-10-10 12:02:52",
+      "last_seen_at": "2026-10-10 12:02:52"
     },
     {
       "资讯标题": "消息称 OpenAI、Anthropic 高管私下推演 AI 灾难情景，以应对公众反弹与政治抵制",

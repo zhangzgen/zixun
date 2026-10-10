@@ -1,0 +1,226 @@
+{
+  "version": 1,
+  "date": "2026-10-10",
+  "timezone": "Asia/Shanghai",
+  "updated_at": "2026-10-10 09:06:33",
+  "item_count": 18,
+  "runs": [
+    {
+      "collected_at": "2026-10-10 09:06:33",
+      "input_count": 18,
+      "added_count": 18,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "已复核完整候选；剔除非 AI、Tophub 搜索壳、广告/营销、低价值和不完整字段，保留可验证详情页并按事件去重。对新智元、新华网科技、机器之心进行了浏览器直查；机器之心首页虽有 10 月 9 日文章列表，但未暴露可验证详情页 URL，未擅自入档。",
+      "source_status": {
+        "量子位": "ok:9",
+        "新智元": "ok:0",
+        "AIBase": "ok:1",
+        "新华网科技": "ok:0",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
+    }
+  ],
+  "items": [
+    {
+      "资讯标题": "硅谷大模型真的不装了！Claude掀起价格战，GPT全面下放免费层",
+      "发布时间": "2026-10-10 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31511",
+      "desc": "硅谷大模型真的不装了！Claude掀起价格战，GPT全面下放免费层 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(",
+      "agent_reason": "大模型产品定价与竞争格局变化，具备行业存档价值。",
+      "archive_id": "A20261010-1c26f4ed1217",
+      "first_seen_at": "2026-10-10 09:06:33",
+      "last_seen_at": "2026-10-10 09:06:33"
+    },
+    {
+      "资讯标题": "消息称 OpenAI、Anthropic 高管私下推演 AI 灾难情景，以应对公众反弹与政治抵制",
+      "发布时间": "2026-10-10 08:32:24",
+      "来源": "Readhub",
+      "超链接": "https://www.ithome.com/1/011/183.htm",
+      "desc": "Anthropic、OpenAI 以及其他人工智能公司的高管们，目前正私下闭门推演：若发生重大灾难性 AI 事件，该如何应对公众与政界的强烈抗议及抵制浪潮。一旦非安全可控的 AI 首次在现实世界中造成实质性重大危害，本就心存戒备的公众将更加坚决地反对这项技术及其领军人物，包括 Anthropic 首席执行官达里奥・阿莫迪（Dario Amodei）与 OpenAI 首席执行官萨姆・奥尔特曼（Sam Altman）。虽然情景规划在诸多企业和国家安全领域屡见不鲜，但本质区别在于：许多顶尖 AI 研究人员与行业高管一致认为，发生重大安全事故只是时间问题，在所难免。",
+      "agent_reason": "头部模型公司 AI 安全治理与灾难应对动态。",
+      "archive_id": "A20261010-5f55653d77a9",
+      "first_seen_at": "2026-10-10 09:06:33",
+      "last_seen_at": "2026-10-10 09:06:33"
+    },
+    {
+      "资讯标题": "特朗普政府实施新要求：AI 公司发生安全事件后须立即上报",
+      "发布时间": "2026-10-10 08:27:42",
+      "来源": "Readhub",
+      "超链接": "https://www.ithome.com/1/011/182.htm",
+      "desc": "当地时间 9 日，在人工智能公司 Anthropic 发生多起未经授权使用美国政府系统的安全事件后，特朗普政府宣布实施新的强制性 AI 安全事件报告要求。根据新要求，AI 公司今后发生安全事件后必须立即向政府报告，提高事件透明度，并对受到影响的机构采取补救和纠正措施。本月早些时候，特朗普宣布成立「超级智能工作组」，任务是协调联邦政府的各项相关工作，确保美国能够继续在超级智能领域引领全世界。",
+      "agent_reason": "AI 安全事件报告政策，属于重要监管资讯。",
+      "archive_id": "A20261010-46ecab5ea8df",
+      "first_seen_at": "2026-10-10 09:06:33",
+      "last_seen_at": "2026-10-10 09:06:33"
+    },
+    {
+      "资讯标题": "苹果投资 Huxe：2026 年披露的第 4 笔 AI 交易，由前谷歌 NotebookLM 团队成员创立",
+      "发布时间": "2026-10-10 08:24:22",
+      "来源": "Readhub",
+      "超链接": "https://www.ithome.com/1/011/181.htm",
+      "desc": "苹果与 AI 音频初创公司 Huxe 达成人才引进与技术许可协议，这是今年公开披露的第 4 笔苹果 AI 相关交易。根据欧盟《数字市场法》透明度数据库本月（2026 年 10 月）披露的文件，苹果有权向 Huxe 的特定员工发出聘用邀请并录用员工。协议允许苹果引进部分员工并使用相关知识产权，但交易不包括购买 Huxe 业务，报道未披露协议金额。",
+      "agent_reason": "苹果 AI 人才与技术交易，涉及头部公司布局。",
+      "archive_id": "A20261010-6a1498878af4",
+      "first_seen_at": "2026-10-10 09:06:33",
+      "last_seen_at": "2026-10-10 09:06:33"
+    },
+    {
+      "资讯标题": "黄仁勋投 85 后双胞胎：出租 AI 算力，估值 970 亿",
+      "发布时间": "2026-10-10 08:10:00",
+      "来源": "Readhub",
+      "超链接": "https://news.pedaily.cn/202610/570008.shtml",
+      "desc": "它叫 Lambda，专门建设算力集群，再把算力出租，收取服务费。这类企业近年来被称为 Neocloud（新兴 AI 云服务商），与亚马逊、微软等传统云计算巨头相比，它们更加专注于 GPU 算力。从开发图片应用，到卖显卡，再到为全球头部大模型公司建设 AI 算力集群，Lambda 花了十多年。",
+      "agent_reason": "AI 算力云与估值动态，属于算力基础设施重点事件。",
+      "archive_id": "A20261010-799041ada26e",
+      "first_seen_at": "2026-10-10 09:06:33",
+      "last_seen_at": "2026-10-10 09:06:33"
+    },
+    {
+      "资讯标题": "98后AI+多肽创业者种子轮融资近5000万",
+      "发布时间": "2026-10-10 08:00:00",
+      "来源": "Readhub",
+      "超链接": "https://bydrug.pharmcube.com/news/detail/19c0e780d0ae1694ce0b576148387ac7",
+      "desc": "AI制药范式正从AI辅助药物发现转向AI原生药物设计，多肽是核心赛道之一。传统多肽AI模型嵌入大量领域特定归纳偏置，结构复杂，难以像大语言模型那样通过算力、数据投入实现能力线性提升，制约了规模化进阶。国内布局AI+多肽的企业逐渐增多，但多数仍采用「传统技术+AI辅助」模式，纯AI原生路线的多肽公司仍较少。",
+      "agent_reason": "AI 制药与多肽模型融资，属于 AI for Science 产业动态。",
+      "archive_id": "A20261010-657e599c174d",
+      "first_seen_at": "2026-10-10 09:06:33",
+      "last_seen_at": "2026-10-10 09:06:33"
+    },
+    {
+      "资讯标题": "10 秒拉起千个沙盒！英伟达 Vera 处理器实测：速度达 AMD Zen 5 八倍",
+      "发布时间": "2026-10-10 07:25:11",
+      "来源": "Readhub",
+      "超链接": "https://news.mydrivers.com/1/1156/1156372.htm",
+      "desc": "AI 代码执行平台 Daytona 今日公布了最新的智能体 AI 基准测试结果，数据显示英伟达 Vera 处理器在沙盒启动速度和任务吞吐量上均优于 AMD EPYC「Zen 5」架构产品。在这项针对多智能体协同工作的集群测试中，英伟达 Vera 仅用 10.8 秒便上线了 1000 个沙盒，启动速度达到 AMD 基准测试芯片的 8 倍左右。具体测试数据上，英伟达 Vera 处理器达到了每秒 13.3 个智能体任务的峰值吞吐量，并且在扩展至 2000 个沙盒时耗时仅为 27.4 秒。",
+      "agent_reason": "英伟达处理器与多智能体基础设施性能测试，属于算力技术资讯。",
+      "archive_id": "A20261010-2a42d1a9bab1",
+      "first_seen_at": "2026-10-10 09:06:33",
+      "last_seen_at": "2026-10-10 09:06:33"
+    },
+    {
+      "资讯标题": "Impactful scheduling for GPU clusters",
+      "发布时间": "2026-10-09 23:20:29",
+      "来源": "Readhub",
+      "超链接": "https://huggingface.co/blog/allenai/impactful-scheduling",
+      "desc": "We recently replaced a priority-based scheduler with a system including GPU time budgets, hierarchical fair-share allocation, and a time-slicing contract. As a result, we shifted the debate about how much GPU time each research project deserves from a case-by-case operational task to a transparent administrative budgeting process. Our initial attempts to ensure the most important work received GPU time were focused on tighter control of how priorities were set, and, ultimately, working around the priority-based scheduler by explicitly assigning GPU monopolies to important projects.",
+      "agent_reason": "GPU 集群调度技术实践，具备核心技术存档价值。",
+      "archive_id": "A20261010-e05551817b22",
+      "first_seen_at": "2026-10-10 09:06:33",
+      "last_seen_at": "2026-10-10 09:06:33"
+    },
+    {
+      "资讯标题": "蝙蝠侠大本创办电影 AI 公司，自采数据训模型，已被网飞收购",
+      "发布时间": "2026-10-09 18:41:08",
+      "来源": "Readhub",
+      "超链接": "https://www.mittrchina.com/news/detail/17072",
+      "desc": "在这两次谈话中，他反复强调一个观点：如今的通用视频模型已经能够生成相当逼真的画面，却未必真正理解电影是如何制作出来的。在最初的震惊之后，阿弗莱克开始进一步研究这些模型使用的数据、标注方式和生成结果，却逐渐发现，「看起来真实」与「能够用于电影制作」是两回事。至少在电影这件事上，他给出的路线已经相当明确：先把电影拍出来，再让 AI 学习这部电影。",
+      "agent_reason": "影视生成模型训练数据与产业收购案例，属于生成式 AI 产业动态。",
+      "archive_id": "A20261010-9f5a2a9021ac",
+      "first_seen_at": "2026-10-10 09:06:33",
+      "last_seen_at": "2026-10-10 09:06:33"
+    },
+    {
+      "资讯标题": "TRAE终于把Code和Work合并了",
+      "发布时间": "2026-10-09 17:19:57",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/502426.html",
+      "desc": "大写的方便",
+      "agent_reason": "代码智能体产品整合，属于智能体应用进展。",
+      "archive_id": "A20261010-eb2e4b7cf722",
+      "first_seen_at": "2026-10-10 09:06:33",
+      "last_seen_at": "2026-10-10 09:06:33"
+    },
+    {
+      "资讯标题": "联想天禧自研代码智能体TianxiCode斩获SWE-bench-Live全球第一",
+      "发布时间": "2026-10-09 16:53:08",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/502422.html",
+      "desc": "联想天禧AI自主研发的专业代码智能体框架TianxiCode 以71%的问题解决率登顶全球第一名",
+      "agent_reason": "代码智能体基准测试排名，属于智能体技术进展。",
+      "archive_id": "A20261010-1aa889340694",
+      "first_seen_at": "2026-10-10 09:06:33",
+      "last_seen_at": "2026-10-10 09:06:33"
+    },
+    {
+      "资讯标题": "0.2秒急停、秒级重规划！因果智能走进真实世界",
+      "发布时间": "2026-10-09 16:47:34",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/502411.html",
+      "desc": "这是一台机器人正在关闭微波炉门时，因人手突然插进来而紧急悬停的时间",
+      "agent_reason": "机器人因果智能与实时安全控制，属于具身智能核心技术。",
+      "archive_id": "A20261010-72e58c805245",
+      "first_seen_at": "2026-10-10 09:06:33",
+      "last_seen_at": "2026-10-10 09:06:33"
+    },
+    {
+      "资讯标题": "字节找到了DeepSeek时强时弱的原因",
+      "发布时间": "2026-10-09 15:11:55",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/502364.html",
+      "desc": "答不答得对，得看Token站位",
+      "agent_reason": "大模型推理稳定性与 token 位置研究，属于模型能力技术分析。",
+      "archive_id": "A20261010-0075bac2c25f",
+      "first_seen_at": "2026-10-10 09:06:33",
+      "last_seen_at": "2026-10-10 09:06:33"
+    },
+    {
+      "资讯标题": "《柳叶刀》研究表明：AI 有望改善医患关系",
+      "发布时间": "2026-10-09 14:28:55",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/502359.html",
+      "desc": "Google 研究成果首次登上《柳叶刀》主刊",
+      "agent_reason": "AI 医疗研究发表于权威医学期刊，属于 AI for Science 进展。",
+      "archive_id": "A20261010-12d4d6f92408",
+      "first_seen_at": "2026-10-10 09:06:33",
+      "last_seen_at": "2026-10-10 09:06:33"
+    },
+    {
+      "资讯标题": "灵巧操作头号玩家：Sharpa把指尖「触觉」进化到全面「体感」",
+      "发布时间": "2026-10-09 12:15:05",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/502330.html",
+      "desc": "机器人摆脱展会、舞台Demo，产生真实商业价值，究竟需要哪些东西？",
+      "agent_reason": "机器人触觉与灵巧操作技术，属于具身智能核心技术。",
+      "archive_id": "A20261010-188f7b1e7309",
+      "first_seen_at": "2026-10-10 09:06:33",
+      "last_seen_at": "2026-10-10 09:06:33"
+    },
+    {
+      "资讯标题": "清华具身模型登顶全球第一！突围GPT-6、英伟达，不靠外挂和额外数据",
+      "发布时间": "2026-10-09 11:52:21",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/502125.html",
+      "desc": "星动纪元选择将视频预测与动作学习分阶段训练，重点不是「视频、动作一锅炖」，而是把两者「解耦」，重新「排序」。",
+      "agent_reason": "清华具身模型与训练方法进展，属于大模型与机器人技术。",
+      "archive_id": "A20261010-057191d6e26b",
+      "first_seen_at": "2026-10-10 09:06:33",
+      "last_seen_at": "2026-10-10 09:06:33"
+    },
+    {
+      "资讯标题": "openJiuwen发布并开源企业级AgentOS，加速智能体规模落地企业",
+      "发布时间": "2026-10-09 10:37:22",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/502106.html",
+      "desc": "多Agent协同还能自我进化",
+      "agent_reason": "企业级 AgentOS 开源，属于智能体基础软件进展。",
+      "archive_id": "A20261010-fdd53ad010f5",
+      "first_seen_at": "2026-10-10 09:06:33",
+      "last_seen_at": "2026-10-10 09:06:33"
+    },
+    {
+      "资讯标题": "代码造世界，扩散绘现实：AgentGarten让智能体在实时试炼场中边玩边进化",
+      "发布时间": "2026-10-09 10:03:48",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/502096.html",
+      "desc": "让AI反复试错的“练兵场”来了",
+      "agent_reason": "智能体实时试炼与进化平台，属于智能体核心技术。",
+      "archive_id": "A20261010-9f2ef6e68fca",
+      "first_seen_at": "2026-10-10 09:06:33",
+      "last_seen_at": "2026-10-10 09:06:33"
+    }
+  ]
+}

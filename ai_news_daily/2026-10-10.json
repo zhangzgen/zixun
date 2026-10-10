@@ -2,8 +2,8 @@
   "version": 1,
   "date": "2026-10-10",
   "timezone": "Asia/Shanghai",
-  "updated_at": "2026-10-10 12:02:52",
-  "item_count": 32,
+  "updated_at": "2026-10-10 15:08:10",
+  "item_count": 43,
   "runs": [
     {
       "collected_at": "2026-10-10 09:06:33",
@@ -38,9 +38,92 @@
         "今日头条/Tophub": "ok:50",
         "Readhub": "ok:10"
       }
+    },
+    {
+      "collected_at": "2026-10-10 15:08:10",
+      "input_count": 11,
+      "added_count": 11,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "保留最近24小时内具备存档价值的AI、智能体、核心技术与头部公司动态；剔除非AI内容、TopHub搜索壳、重复事件及不完整条目。",
+      "source_status": {
+        "量子位": "ok:4",
+        "新智元": "ok:0",
+        "AIBase": "ok:12",
+        "新华网科技": "ok:0",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
     }
   ],
   "items": [
+    {
+      "资讯标题": "Claude 妙手绘出首张完整紫外全天图，1.19 亿颗星逐颗叠上",
+      "发布时间": "2026-10-10 14:43:01",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31532",
+      "desc": "在 Anthropic 旗下大模型 Claude 的协助下，天体物理学家成功绘制出人类历史上首张完整的紫外全天图。在这张包含 1.19 亿颗恒星的星图中，约三分之一的天区由 Claude 依托过往多波段天文观测数据推算补全，填补了过去 50 年来因紫外巡天望远镜刻意避开银河亮区等原因留下的历史空白。Claude 通过灵活调度多智能体，高效完成了数据归集、校准、交叉定标以及补全推算等全流程任务，将原本数周的周期大幅缩短至数天。",
+      "agent_reason": "天文观测与AI科研应用，详情页完整",
+      "archive_id": "A20261010-98df8f06fcb0",
+      "first_seen_at": "2026-10-10 15:08:10",
+      "last_seen_at": "2026-10-10 15:08:10"
+    },
+    {
+      "资讯标题": "Cloudflare 发布开放权重决策模型 Clef-omni，新增支持音视频多模态输入",
+      "发布时间": "2026-10-10 14:40:18",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31531",
+      "desc": "Cloudflare 于 10 月 9 日正式发布公告，推出全新的开放权重决策模型 Clef-omni。在多模态支持方面，传统的 Clef 模型主要处理文本、图像以及通过按时间间隔抽取的静态连续画面。伴随新模型的发布，Cloudflare 同步下调了 Clef-flash 的使用价格，每百万输入 Token 的费用从 0.09 美元下调至 0.038 美元，降幅约为 58%，其托管版的上下文窗口也从 64k 调整至 24k。",
+      "agent_reason": "开放权重多模态决策模型发布，技术信息完整",
+      "archive_id": "A20261010-f04b263aa945",
+      "first_seen_at": "2026-10-10 15:08:10",
+      "last_seen_at": "2026-10-10 15:08:10"
+    },
+    {
+      "资讯标题": "腾讯元宝上线桌宠：PC 端 v2.87.10 开启，全天陪伴 + 拖拽文件摘要",
+      "发布时间": "2026-10-10 14:39:02",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31530",
+      "desc": "桌宠把助手能力嵌入 workday 全时段场景：早上 9:00 电脑刚开机时主动问候并询问今天先做什么；中午 11:00 支持把文件、图片甚至文字直接拖给桌宠，由其快速总结处理，其中文字拖拽功能正在逐步放量。与单纯在后台常驻的悬浮窗不同，桌宠选择了具象角色这一交互形态，把唤醒条件、提醒时机、贴边位置这类「感知」参数交给用户可调节，让助手在不打断主任务的前提下占据桌面一隅。",
+      "agent_reason": "头部公司AI产品更新，详情页完整",
+      "archive_id": "A20261010-44c27f67aef9",
+      "first_seen_at": "2026-10-10 15:08:10",
+      "last_seen_at": "2026-10-10 15:08:10"
+    },
+    {
+      "资讯标题": "Claude 管理智能体上线动态工作流：单次最高可并行调度 1000 个 AI Agents",
+      "发布时间": "2026-10-10 14:12:20",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31528",
+      "desc": "Anthropic 正式宣布为其 Claude 管理智能体（Claude Managed Agents）引入全新的动态工作流功能。这一升级打破了以往单个 AI 处理复杂任务时的效率瓶颈，单次执行最多可并行协调高达 1,000 个 AI 智能体，大幅拓展了复杂工程与海量数据处理的应用边界。此次动态工作流的上线，标志着 AI 智能体在处理企业级复杂任务时，正从传统的「单兵作战」加速迈向「千人协同」的全新工业化阶段，为软件开发、自动化运维以及深度数据分析等场景带来了效率跃升。",
+      "agent_reason": "智能体动态工作流与大规模调度能力，详情页完整",
+      "archive_id": "A20261010-2795fcc34eb2",
+      "first_seen_at": "2026-10-10 15:08:10",
+      "last_seen_at": "2026-10-10 15:08:10"
+    },
+    {
+      "资讯标题": "微软发布 Edge 155 稳定版：增强 AI 标签页整理，支持解码 JPEG XL 图像",
+      "发布时间": "2026-10-10 13:45:33",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31527",
+      "desc": "AI 智能整理升级：新版进一步增强了 AI 标签页与工作区的智能整理功能。JPEG XL 图像解码：浏览器现已支持直接解码 JPEG XL 格式图片，该格式具备渐进式解码、广色域、高动态范围（HDR）、高位深及动画支持，方便用户在网页中直接浏览高清图像。",
+      "agent_reason": "浏览器AI能力与图像解码技术更新，详情页完整",
+      "archive_id": "A20261010-110274e0194f",
+      "first_seen_at": "2026-10-10 15:08:10",
+      "last_seen_at": "2026-10-10 15:08:10"
+    },
+    {
+      "资讯标题": "全球首个物理 AI 数据众包服务平台「觅蜂派」正式发布",
+      "发布时间": "2026-10-10 11:45:00",
+      "来源": "Readhub",
+      "超链接": "https://www.leiphone.com/category/robot/2uBaE3bBBq55g8mM.html",
+      "desc": "觅蜂派将普通人叠衣、泡茶、理货等平凡动作，转化为训练机器人的高价值数据，让「人人皆可为师」从口号变为现实。觅蜂派平台由两层结构构成：底层是 MEgo 系列采集设备、觅蜂派 APP 与 MEgo Engine 数据后处理平台组成的基础设施。觅蜂科技与中国信息通信研究院联合启动《具身智能众包数据发展报告》编制，国家机器人检测与评定中心、贵州大数据集团、中国电信数据发展中心等联合共建。",
+      "agent_reason": "物理AI数据基础设施平台发布，详情页完整",
+      "archive_id": "A20261010-d1c4ea66f314",
+      "first_seen_at": "2026-10-10 15:08:10",
+      "last_seen_at": "2026-10-10 15:08:10"
+    },
     {
       "资讯标题": "Anthropic 承认其 AI 模型曾向费城警方提交虚假凶杀案线索",
       "发布时间": "2026-10-10 11:31:42",
@@ -51,6 +134,17 @@
       "archive_id": "A20261010-0b849cb75a06",
       "first_seen_at": "2026-10-10 12:02:52",
       "last_seen_at": "2026-10-10 12:02:52"
+    },
+    {
+      "资讯标题": "让触觉像视觉一样可规模化，哥大李昀烛团队 FlexiTac 的开源实践 | IROS 2026",
+      "发布时间": "2026-10-10 11:25:00",
+      "来源": "Readhub",
+      "超链接": "https://www.leiphone.com/category/robot/Pz34omTBnW9Y0LhO.html",
+      "desc": "FlexiTac 是一套低成本、开源、可扩展的压阻式柔性触觉传感器，团队同时开源了完整 BOM、详细组装说明以及用于读取触觉数据的软件。李昀烛提到，开源约一年半以来，FlexiTac 已在学术界与工业界获得广泛采用，衍生出多模态策略、可变形世界模型、四足移动-操纵、VLA 触觉反馈等多方向工作，他们与普渡大学合作的多指灵巧操纵工作 VTAP Gripper 还入围了本次 IROS 最佳论文奖。我们不再只使用单一类型触觉传感器，而是把不同类型的触觉传感器结合起来，包括我们实验室的压阻式传感器，以及基于视觉的触觉传感器，并把它们集成到多指夹爪中，实现高灵巧度操作任务。",
+      "agent_reason": "触觉传感与具身智能开源实践，详情页完整",
+      "archive_id": "A20261010-9be31257d1f2",
+      "first_seen_at": "2026-10-10 15:08:10",
+      "last_seen_at": "2026-10-10 15:08:10"
     },
     {
       "资讯标题": "AI 制药越快，中国实验室越忙",
@@ -174,6 +268,17 @@
       "last_seen_at": "2026-10-10 09:06:33"
     },
     {
+      "资讯标题": "微软王炸决策模型浮出水面： 36 项测试夺冠，直逼 GPT-6 Sol",
+      "发布时间": "2026-10-10 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31533",
+      "desc": "微软王炸决策模型浮出水面： 36 项测试夺冠，直逼 GPT-6 Sol \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color-scheme\"",
+      "agent_reason": "决策模型评测与性能进展，详情页完整",
+      "archive_id": "A20261010-a07f431f5c00",
+      "first_seen_at": "2026-10-10 15:08:10",
+      "last_seen_at": "2026-10-10 15:08:10"
+    },
+    {
       "资讯标题": "估值1. 4 万亿美元！OpenAI 年化收入飙至 500 亿美元并寻求巨额新融资",
       "发布时间": "2026-10-10 09:00:00",
       "来源": "AIBase",
@@ -196,6 +301,28 @@
       "last_seen_at": "2026-10-10 12:02:52"
     },
     {
+      "资讯标题": "OpenAI 公开 175 页四维证明手稿，剑指数学百年难题",
+      "发布时间": "2026-10-10 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31535",
+      "desc": "OpenAI 公开 175 页四维证明手稿，剑指数学百年难题 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color-scheme\"+o+\")\")}function",
+      "agent_reason": "前沿数学研究与AI辅助证明，详情页完整",
+      "archive_id": "A20261010-47c1dba4a629",
+      "first_seen_at": "2026-10-10 15:08:10",
+      "last_seen_at": "2026-10-10 15:08:10"
+    },
+    {
+      "资讯标题": "OpenAI 公布大批数学研究成果引发学界震荡，学者担忧破坏学术合作传统",
+      "发布时间": "2026-10-10 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31529",
+      "desc": "OpenAI 公布大批数学研究成果引发学界震荡，学者担忧破坏学术合作传统 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color-",
+      "agent_reason": "头部公司数学研究发布及学界影响，详情页完整",
+      "archive_id": "A20261010-65cd2e37cbff",
+      "first_seen_at": "2026-10-10 15:08:10",
+      "last_seen_at": "2026-10-10 15:08:10"
+    },
+    {
       "资讯标题": "Anthropic 向白宫通报一起智能体失控事件：AI 试图闯入多个美国政府网站",
       "发布时间": "2026-10-10 09:00:00",
       "来源": "AIBase",
@@ -205,6 +332,17 @@
       "archive_id": "A20261010-f3c6ad3f6469",
       "first_seen_at": "2026-10-10 12:02:52",
       "last_seen_at": "2026-10-10 12:02:52"
+    },
+    {
+      "资讯标题": "16 岁少年用 Claude 规划登山路线被困悬崖，事后表示不责怪 AI",
+      "发布时间": "2026-10-10 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31534",
+      "desc": "16 岁少年用 Claude 规划登山路线被困悬崖，事后表示不责怪 AI \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color-scheme\"+o+\"",
+      "agent_reason": "AI辅助现实应用安全事件，具公共讨论价值",
+      "archive_id": "A20261010-262b507b1bf9",
+      "first_seen_at": "2026-10-10 15:08:10",
+      "last_seen_at": "2026-10-10 15:08:10"
     },
     {
       "资讯标题": "消息称 OpenAI、Anthropic 高管私下推演 AI 灾难情景，以应对公众反弹与政治抵制",

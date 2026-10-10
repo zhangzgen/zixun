@@ -18,6 +18,22 @@
       "source": "Anthropic Research",
       "report_url": "",
       "feishu_url": "https://ocns5gikjtax.feishu.cn/wiki/JgKVwIv1TiAm2WkmBT4cqkYBn4b"
+    },
+    {
+      "archive_id": "R-52a391da174ef2b11837",
+      "资讯标题": "Launching an opt-in vulnerability-finding service for open-source software",
+      "发布时间": "2026-10-08 00:00:00",
+      "date_precision": "day",
+      "来源": "Anthropic 技术报告",
+      "超链接": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
+      "desc": "报告介绍面向主动加入的开源项目、免费的OSS Scanner：以Anthropic最强语言模型定期审计代码，并直接发送未经人工审核的漏洞报告、复现器和候选补丁。报告称其早期筛选出的97项高危/严重候选中，85项达到CVD标准，但结果不能代表全部输出准确率，项目仍须自行验证、去重和分诊。",
+      "content": "## 核心结论\nAnthropic推出面向主动选择加入的关键开源项目的免费OSS Scanner，用最强语言模型审计代码并快速发送完全未经人工审核的结果。报告称，早期筛选出的97项高危或严重候选漏洞中，85项达到其协调漏洞披露（CVD）标准，但该比例不能代表全部模型输出的准确率或召回率；服务的核心价值是扩大扫描覆盖、提高发现频率并缩短披露速度，核心风险则是误报、重复发现、严重性高估和维护者额外分诊负担。\n\n## 问题与方法\n- **人工分诊瓶颈**：Anthropic称，过去六个月扫描重要软件项目发现超过29,000个候选漏洞，但只能人工审查和分诊约6,000个；在维护者要求下，已直接发送近5,000份未经验证的报告。报告据此提出快速通道，以应对漏洞利用可能在数分钟内形成的风险。\n- **服务定位**：OSS Scanner受OSS-Fuzz启发，但不用模糊测试，而是用语言模型审计代码；它不同于面向企业防御的Claude Security，为符合条件的开源项目免费提供安全审计。项目核心维护者需通过指定GitHub仓库提交PR主动报名，资格按个案决定。\n- **输出与流程**：结果完全由模型生成，不经人工审核或分诊。报告通常包括自包含复现器、漏洞解释、可能的缺陷引入时间二分，以及可用时的候选修复补丁。Anthropic称曾用数十个项目运行数周验证流水线，初始阶段出现数百份错误或漏洞报告，其中包括可串联成未认证远程代码执行的案例，但未披露逐项详情或复现成功率。\n- **配套支持**：Anthropic称将继续通过人工验证的CVD流程服务缺乏分诊资源的项目，并推出Cyber Verification Program及免费的Claude for OSS订阅；文中未说明前者的资格和具体能力范围。\n\n## 主要证据\n- 在CyberGym基准上，Anthropic称LLM发现的漏洞比例从“去年年初”不足20%升至“今年”超过85%，但未给出实验配置、样本量或不确定性。\n- 专家渗透测试人员检查了OSS Scanner在48个项目中筛选出的97项高危/严重候选：85项（88%）达到Anthropic CVD标准；其余12项中，11项是真实问题但与已知问题或同轮其他发现重复，1项被判为假阳性。该样本经过高危筛选，不能推导总体准确率、误报率或召回率。\n- PostgreSQL、OpenSSL、wolfSSL、HotCRP和curl维护者均报告了有价值或可直接验证的发现；wolfSSL称74份中除2份外有效、5份最终成为CVE。但这些是维护者陈述，原文未提供独立审计或逐项证据。上述29,000、6,000、近5,000和88%均属于报告称或厂商评测指标。\n\n## 限制与适用价值\n输出未经人工审核，接收方必须复现、去重、重新判断严重性和威胁模型，并审查补丁。报告未披露扫描频率、代码范围、支持语言、数据处理、保密、披露时限、成本、漏报、可重复性、退出机制和服务保证。该服务更适合具有关键基础设施或用户安全影响、且能快速验证结果的项目；缺乏分诊资源的项目应优先采用人工验证的CVD流程。任何情况下，OSS Scanner结果都应视为未经确认的候选漏洞，而不是已证实的安全缺陷。",
+      "content_kind": "技术报告总结",
+      "report_id": "R-52a391da174ef2b11837",
+      "fulltext_path": "technical_reports/fulltext/R-52a391da174ef2b11837-7aa36fa41f60b81b.txt",
+      "source": "Anthropic Research",
+      "report_url": "",
+      "feishu_url": "https://ocns5gikjtax.feishu.cn/wiki/Eeudw6wLhiCev7k2JvMc0QzDnOe"
     }
   ]
 }

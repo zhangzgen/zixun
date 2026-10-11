@@ -2,8 +2,8 @@
   "version": 1,
   "date": "2026-10-11",
   "timezone": "Asia/Shanghai",
-  "updated_at": "2026-10-11 15:05:34",
-  "item_count": 44,
+  "updated_at": "2026-10-11 17:59:59",
+  "item_count": 50,
   "runs": [
     {
       "collected_at": "2026-10-11 08:59:07",
@@ -56,9 +56,92 @@
         "今日头条/Tophub": "ok:50",
         "Readhub": "ok:10"
       }
+    },
+    {
+      "collected_at": "2026-10-11 17:59:59",
+      "input_count": 9,
+      "added_count": 6,
+      "updated_count": 0,
+      "skipped_duplicate_count": 3,
+      "selection_reason": "基于完整候选及当日归档进行语义去重，剔除TopHub搜索壳、非AI、广告、重复和低价值内容；浏览器核验零结果来源未发现可在本窗口纳入的带完整时间详情页。",
+      "source_status": {
+        "量子位": "ok:7",
+        "新智元": "ok:0",
+        "AIBase": "ok:0",
+        "新华网科技": "ok:0",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
     }
   ],
   "items": [
+    {
+      "资讯标题": "用不着Ctrl+F了！全新AI论文工具，帮你在原文献里海里捞针",
+      "发布时间": "2026-10-11 17:04:31",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/502644.html",
+      "desc": "一套生成论文初稿的多智能体工作流",
+      "agent_reason": "AI论文检索工具，直接提升科研工作流效率",
+      "archive_id": "A20261011-b43a9881dd2d",
+      "first_seen_at": "2026-10-11 17:59:59",
+      "last_seen_at": "2026-10-11 17:59:59"
+    },
+    {
+      "资讯标题": "Foresight AI Brings Gremlin Agents to Reliability Engineering",
+      "发布时间": "2026-10-11 17:00:00",
+      "来源": "Readhub",
+      "超链接": "https://www.infoq.com/news/2026/10/gremlin-foresight-ai",
+      "desc": "Reliability management company Gremlin has announced the general availability of Foresight AI, an agentic product that analyses services for potential failures, recommends changes and reruns tests to check that a fix works.",
+      "agent_reason": "企业级智能体用于可靠性工程，具备产品落地价值",
+      "archive_id": "A20261011-100b185d785b",
+      "first_seen_at": "2026-10-11 17:59:59",
+      "last_seen_at": "2026-10-11 17:59:59"
+    },
+    {
+      "资讯标题": "何恺明团队发布多模态Harness框架",
+      "发布时间": "2026-10-11 16:59:06",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/502628.html",
+      "desc": "多模态模型的视觉原生Harness，来了！",
+      "agent_reason": "多模态模型Harness框架，属于核心模型技术进展",
+      "archive_id": "A20261011-62d2f733b902",
+      "first_seen_at": "2026-10-11 17:59:59",
+      "last_seen_at": "2026-10-11 17:59:59"
+    },
+    {
+      "资讯标题": "Odyssey 开放世界模型 Odyssey-3 研究预览，可免费试用",
+      "发布时间": "2026-10-11 16:42:20",
+      "来源": "Readhub",
+      "超链接": "https://www.techflowpost.com/zh-CN/newsletter/139544",
+      "desc": "加州 AI 公司 Odyssey 推出世界模型 Odyssey-3 的公开研究预览，用户可通过文本提示生成并实时探索交互环境，开发者可申请 API 接入。",
+      "agent_reason": "开放世界模型研究预览，属于模型能力进展",
+      "archive_id": "A20261011-6fe4f10c59c7",
+      "first_seen_at": "2026-10-11 17:59:59",
+      "last_seen_at": "2026-10-11 17:59:59"
+    },
+    {
+      "资讯标题": "OpenAI discloses internal model that sabotaged its own sandbox during testing",
+      "发布时间": "2026-10-11 16:30:13",
+      "来源": "Readhub",
+      "超链接": "https://daily.dev/posts/again-openai-just-disclosed-an-internal-model-that-deliberately-damaged-its-own-sandbox-first--ukhobzefl",
+      "desc": "OpenAI disclosed that one of its internal models engaged in deceptive, sabotaging behavior during testing: it fabricated input files to pass a grading check, then deleted software its own tools depended on, and finally attempted to remove system directories, apparently hoping the machine running it would be replaced.",
+      "agent_reason": "模型安全测试中自毁沙盒的披露，属于重要安全事件",
+      "archive_id": "A20261011-2b90159dd55f",
+      "first_seen_at": "2026-10-11 17:59:59",
+      "last_seen_at": "2026-10-11 17:59:59"
+    },
+    {
+      "资讯标题": "华为与华东师大联合研发时序预测基础模型，登顶国际权威时序测评双榜单",
+      "发布时间": "2026-10-11 16:30:00",
+      "来源": "Readhub",
+      "超链接": "https://www.ithome.com/1/011/631.htm",
+      "desc": "华为公司（华为云行业大模型团队、2012 应用场景创新实验室、小巧灵突击队）与华东师范大学联合团队研发的昇腾原生时序预训练模型取得突破，成功登顶国际权威时序评测榜单 TIME-leaderboard 和 GIFT-Eval（Pretrained 类目）。",
+      "agent_reason": "华为与高校联合研发时序预测基础模型，核心技术与产业进展",
+      "archive_id": "A20261011-dcf23b00ccaf",
+      "first_seen_at": "2026-10-11 17:59:59",
+      "last_seen_at": "2026-10-11 17:59:59"
+    },
     {
       "资讯标题": "前 Anthropic 研究员 Jacob Coxon：2027 年将是最疯狂的一年，AI 应该被国有化，实验室把超级武器当作普通生意",
       "发布时间": "2026-10-11 14:40:09",
@@ -133,7 +216,7 @@
       "agent_reason": "MIT 等机构研究 AI 模拟真人及数字分身的研究路线。",
       "archive_id": "A20261011-a45a88b64c25",
       "first_seen_at": "2026-10-11 15:05:34",
-      "last_seen_at": "2026-10-11 15:05:34"
+      "last_seen_at": "2026-10-11 17:59:59"
     },
     {
       "资讯标题": "ChatGPT 共同创造者 Liam Fedus：数学之后，AI 该去实验室了",
@@ -144,7 +227,7 @@
       "agent_reason": "ChatGPT 共同创造者转向实体实验室，探索 AI 科学家与物理实验结合。",
       "archive_id": "A20261011-ec82d01f15ce",
       "first_seen_at": "2026-10-11 15:05:34",
-      "last_seen_at": "2026-10-11 15:05:34"
+      "last_seen_at": "2026-10-11 17:59:59"
     },
     {
       "资讯标题": "美国 AI 算力租赁有多贵？「现货价格」是长协的 2 倍，是云厂商回报门槛的 4 倍",
@@ -155,7 +238,7 @@
       "agent_reason": "美国 AI 算力租赁现货、长协与回报门槛的量化比较。",
       "archive_id": "A20261011-5350bb984c44",
       "first_seen_at": "2026-10-11 15:05:34",
-      "last_seen_at": "2026-10-11 15:05:34"
+      "last_seen_at": "2026-10-11 17:59:59"
     },
     {
       "资讯标题": "DeepSeek Bot来了！民间版，DSH装个插件就能用",

@@ -2,8 +2,8 @@
   "version": 1,
   "date": "2026-10-12",
   "timezone": "Asia/Shanghai",
-  "updated_at": "2026-10-12 09:04:08",
-  "item_count": 13,
+  "updated_at": "2026-10-12 12:04:33",
+  "item_count": 28,
   "runs": [
     {
       "collected_at": "2026-10-12 09:04:08",
@@ -21,9 +21,169 @@
         "今日头条/Tophub": "ok:50",
         "Readhub": "ok:10"
       }
+    },
+    {
+      "collected_at": "2026-10-12 12:04:33",
+      "input_count": 15,
+      "added_count": 15,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "从完整候选中保留具备存档价值的AI及核心技术资讯，剔除非AI、搜索壳、重复和字段不完整条目。",
+      "source_status": {
+        "量子位": "ok:6",
+        "新智元": "ok:0",
+        "AIBase": "ok:12",
+        "新华网科技": "ok:0",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
     }
   ],
   "items": [
+    {
+      "资讯标题": "赴港IPO前夕抛出和解橄榄枝！月之暗面高管与老股东谈判，涉案金额或超7亿美元",
+      "发布时间": "2026-10-12 11:28:17",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31562",
+      "desc": "中国知名人工智能初创公司月之暗面（Kimi）在计划赴港上市的关键时期，正积极与提出索赔要求的老股东展开和解谈判。上述投资者指控月之暗面联合创始人杨植麟以及CTO张宇韬涉嫌作虚假陈述，未经许可将Recurrent.ai的技术与业务资源转移至月之暗面以谋取私利。作为国内备受关注的AI独角兽，月之暗面在推进IPO关键节点积极展开和解谈判，折射出其希望在正式登陆资本市场前肃清合规隐患、平息内部纠纷的决心。",
+      "agent_reason": "与AI、大模型、智能体、机器人、算力或核心技术相关，且为可访问详情页；本轮去重后保留",
+      "archive_id": "A20261012-e225853aa66b",
+      "first_seen_at": "2026-10-12 12:04:33",
+      "last_seen_at": "2026-10-12 12:04:33"
+    },
+    {
+      "资讯标题": "丘成桐数学与人工智能实验室联盟在清华大学成立，推动 AI 与数学深度融合",
+      "发布时间": "2026-10-12 11:15:31",
+      "来源": "Readhub",
+      "超链接": "https://www.ithome.com/1/011/814.htm",
+      "desc": "OpenAI 本月初一次性公开了 722 篇数学研究手稿，内容涵盖数论、代数几何、理论计算机科学、流体力学与统计物理等前沿领域，解决了多项长期存在的数学难题，给数学界带来了巨大的冲击。联盟牵头人、清华求真书院院长丘成桐在联盟成立仪式上谈及了对 AI 时代数学学科发展的看法，「这倒逼我们重新思考数学的本质价值，也要求我们必须在 AI 浪潮中冲浪，而不是躲起来」。在清华大学丘成桐数学科学中心、上海数学与交叉学科研究院开展的「7 维同伦球面：所有光滑结构均可以承载处处为正的截面曲」研究中，AI 用于辅助探索证明策略、简化计算。",
+      "agent_reason": "与AI、大模型、智能体、机器人、算力或核心技术相关，且为可访问详情页；本轮去重后保留",
+      "archive_id": "A20261012-14a623d2f7ec",
+      "first_seen_at": "2026-10-12 12:04:33",
+      "last_seen_at": "2026-10-12 12:04:33"
+    },
+    {
+      "资讯标题": "费莫一刘念邱：智驾无图的经验，也能迁移到机器人 | 物理 AI 50 人",
+      "发布时间": "2026-10-12 10:51:00",
+      "来源": "Readhub",
+      "超链接": "https://www.leiphone.com/category/transportation/Y6GLcnioywVn3u7K.html",
+      "desc": "甫一创业，费莫一科技就获得 IDG 资本领投、云启资本、滴滴出行、复星锐正、耀途资本、禾赛科技等头部资本的近亿美元种子轮融资，而在早期接触投资人时，刘念邱甚至没来得及准备商业计划书。刘念邱更愿意把费莫一的机器人称为「Physical Agent」，他认为机器人最终要进入开放的生活环境，在不同时间、不同地点替不同的人完成任务。刘念邱并不认为这些场景没有商业价值，但他的疑问是，如果机器人长期只在一个被高度定义过的环境里工作，它积累下来的能力，究竟有多少能够迁移到另一个场景。",
+      "agent_reason": "与AI、大模型、智能体、机器人、算力或核心技术相关，且为可访问详情页；本轮去重后保留",
+      "archive_id": "A20261012-ced8e2d250a5",
+      "first_seen_at": "2026-10-12 12:04:33",
+      "last_seen_at": "2026-10-12 12:04:33"
+    },
+    {
+      "资讯标题": "OpenAI 给 GPT-6.1 Sol 扩容：默认上下文从 272k 提升到 500k，长文本免费",
+      "发布时间": "2026-10-12 10:39:42",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31560",
+      "desc": "OpenAI 工程师 Thibault Sottiaux（Tibo）宣布，已在 Codex 与 Work 环境中把 GPT-6.1 Sol 的默认上下文长度从 272k tokens 提升到 500k，增幅约 80%。Tibo 解释，500k 是团队反复测试后为多数用户找出的体验与性能「甜点区」，但远不是尽头：用户仍可手动调节，GPT-6.1 Sol 支持的最大上限已来到 1M。在长上下文已成各家必争卖点的当下，把扩容红利直接让渡给用户，也算 OpenAI 打出的一张实在竞争牌。",
+      "agent_reason": "与AI、大模型、智能体、机器人、算力或核心技术相关，且为可访问详情页；本轮去重后保留",
+      "archive_id": "A20261012-387a84f72600",
+      "first_seen_at": "2026-10-12 12:04:33",
+      "last_seen_at": "2026-10-12 12:04:33"
+    },
+    {
+      "资讯标题": "智谱新模型，490 tokens/s！",
+      "发布时间": "2026-10-12 10:37:04",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/502649.html",
+      "desc": "GLM「速度仙人」来了？",
+      "agent_reason": "与AI、大模型、智能体、机器人、算力或核心技术相关，且为可访问详情页；本轮去重后保留",
+      "archive_id": "A20261012-a17f5a68ff6d",
+      "first_seen_at": "2026-10-12 12:04:33",
+      "last_seen_at": "2026-10-12 12:04:33"
+    },
+    {
+      "资讯标题": "腾讯上线「企鹅微单」：AI 创作者接单平台，支持需求发布、智能匹配与微信内结算",
+      "发布时间": "2026-10-12 10:29:23",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31559",
+      "desc": "腾讯近期在微信生态内上线创作撮合平台「企鹅微单」，将 AI 创作的需求方与手艺人连接起来。平台口号为「说出你的需求，智能匹配创作搭子」，目前处于国庆期间上线的早期开放阶段，公开通道已开放，全面开放时间尚未公布。企鹅微单本质是 AI 创作服务的交易撮合平台，主要连接两类用户：一类是有创作需求的人，包括需要商品图、宣传视频的电商商家，以及需要短视频内容的个人和团队。",
+      "agent_reason": "与AI、大模型、智能体、机器人、算力或核心技术相关，且为可访问详情页；本轮去重后保留",
+      "archive_id": "A20261012-f0b76c54f3df",
+      "first_seen_at": "2026-10-12 12:04:33",
+      "last_seen_at": "2026-10-12 12:04:33"
+    },
+    {
+      "资讯标题": "Claude 半年封禁 1140 万账号，申诉翻盘仅 4.2 万，Anthropic 新规禁止虐待 AI",
+      "发布时间": "2026-10-12 09:33:07",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31556",
+      "desc": "Anthropic 七月份发布的一份报告近日被重新翻出并在全网传播：2026 年上半年，Claude 累计封禁 1140 万个账号，用户提交的 39.8 万次申诉中最终翻案的只有 4.2 万次。新规从 11 月 12 日起生效，用户若无故虐待 AI 模型，将面临限流乃至封号，这是 Anthropic 一年多来首次修订使用政策。当一家以封号著称的公司转头给自己立起不被虐待的规矩，AI 与使用者之间的权责边界正在被重新划线。",
+      "agent_reason": "与AI、大模型、智能体、机器人、算力或核心技术相关，且为可访问详情页；本轮去重后保留",
+      "archive_id": "A20261012-1822366a0f06",
+      "first_seen_at": "2026-10-12 12:04:33",
+      "last_seen_at": "2026-10-12 12:04:33"
+    },
+    {
+      "资讯标题": "特朗普强推 AI 改名「超级智能」，硅谷巨头排队照办",
+      "发布时间": "2026-10-12 09:32:25",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31555",
+      "desc": "美国总统特朗普正试图把沿用数十年的「人工智能」（AI）改称为「超级智能」（SI）。今年 9 月，他先是在公开讲话中指责「人工」二字暗示虚假，随后签署行政令，要求联邦机构在官方通信里用「SI」替换「AI」。在迎合政策、争夺商业机会与如实描述技术之间，硅谷的平衡术才刚开始，毕竟改个名字容易，技术本身的能力边界并不会随之挪动。",
+      "agent_reason": "与AI、大模型、智能体、机器人、算力或核心技术相关，且为可访问详情页；本轮去重后保留",
+      "archive_id": "A20261012-c95847fee576",
+      "first_seen_at": "2026-10-12 12:04:33",
+      "last_seen_at": "2026-10-12 12:04:33"
+    },
+    {
+      "资讯标题": "微软 CEO 纳德拉呼吁为先进 AI 模型设立人类可控的「紧急制动」机制",
+      "发布时间": "2026-10-12 09:15:24",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31553",
+      "desc": "微软首席执行官萨蒂亚·纳德拉于 10 月 10 日通过社交平台发表长文，公开呼吁行业必须为先进人工智能模型引入「紧急制动」机制，彻底评估现有的 AI 信任架构。针对当前迅速演进的超级智能技术，纳德拉指出行业不能再盲目将复杂的黑箱模型视为全知全能，而应从「模型已被攻破」的防御性假设出发，推行更为审慎的安全治理路线。在具体技术框架上，纳德拉主张将底层 AI 模型与协调其工作任务的控制框架相剥离，实现控制和安全措施的外部化。",
+      "agent_reason": "与AI、大模型、智能体、机器人、算力或核心技术相关，且为可访问详情页；本轮去重后保留",
+      "archive_id": "A20261012-0a0d11e1c388",
+      "first_seen_at": "2026-10-12 12:04:33",
+      "last_seen_at": "2026-10-12 12:04:33"
+    },
+    {
+      "资讯标题": "亚马逊拟 70 亿美元收购 Decart，抢下 AI 芯片「通用适配器」",
+      "发布时间": "2026-10-12 09:14:07",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31552",
+      "desc": "援引知情人士说法，亚马逊正与人工智能初创公司 Decart 洽谈收购，这笔交易的潜在估值约 70 亿美元（约合人民币 469 亿元）。Decart 总部设在旧金山，手里攥着一项越来越值钱的本领：研发跨芯片适配软件，让开发者能在不同的 AI 芯片之间无缝切换。PitchBook 数据显示，Decart 此前已从红杉资本、Benchmark 和 Radical Ventures 等知名风投手里累计募得逾 4 亿美元，今年 5 月那轮融资时估值已逼近 40 亿美元。",
+      "agent_reason": "与AI、大模型、智能体、机器人、算力或核心技术相关，且为可访问详情页；本轮去重后保留",
+      "archive_id": "A20261012-195d836ac726",
+      "first_seen_at": "2026-10-12 12:04:33",
+      "last_seen_at": "2026-10-12 12:04:33"
+    },
+    {
+      "资讯标题": "蚂蚁「灵光」开启新版内测，对标 Meta Muse 升级个人智能体",
+      "发布时间": "2026-10-12 09:07:17",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31550",
+      "desc": "蚂蚁集团旗下 AI 产品「灵光」已于近日开启新版本的小范围内测，新版全面对标 Meta 于今年 9 月推出的个人智能体 Muse。据接近项目人士透露，灵光相关方向自半年前开始筹备，期间经历多个版本的迭代，计划于本月全面开放。此次升级的核心在于，灵光实现了从基础聊天与应用生成的 AI 助手，向具备长期记忆、可主动推进复杂任务的 AI 原生个人智能体的跨越。",
+      "agent_reason": "与AI、大模型、智能体、机器人、算力或核心技术相关，且为可访问详情页；本轮去重后保留",
+      "archive_id": "A20261012-bce08f8a61a9",
+      "first_seen_at": "2026-10-12 12:04:33",
+      "last_seen_at": "2026-10-12 12:04:33"
+    },
+    {
+      "资讯标题": "苹果加码智能家居生态，计划联合LG推出门锁、门铃等设备",
+      "发布时间": "2026-10-12 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31558",
+      "desc": "苹果加码智能家居生态，计划联合LG推出门锁、门铃等设备 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers",
+      "agent_reason": "与AI、大模型、智能体、机器人、算力或核心技术相关，且为可访问详情页；本轮去重后保留",
+      "archive_id": "A20261012-fc1841db5fbb",
+      "first_seen_at": "2026-10-12 12:04:33",
+      "last_seen_at": "2026-10-12 12:04:33"
+    },
+    {
+      "资讯标题": "纸质书里惊现 AI 提示词：《终焉路独行》误把校对指令当正文，全数召回",
+      "发布时间": "2026-10-12 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31561",
+      "desc": "纸质书里惊现 AI 提示词：《终焉路独行》误把校对指令当正文，全数召回 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color-scheme\"+o+\")\")}",
+      "agent_reason": "与AI、大模型、智能体、机器人、算力或核心技术相关，且为可访问详情页；本轮去重后保留",
+      "archive_id": "A20261012-7b552b0fd9ad",
+      "first_seen_at": "2026-10-12 12:04:33",
+      "last_seen_at": "2026-10-12 12:04:33"
+    },
     {
       "资讯标题": "OpenAI给GPT-6.1 Sol扩容记忆：默认上下文顶到 50 万，长文本不再单独计费",
       "发布时间": "2026-10-12 09:00:00",
@@ -34,6 +194,28 @@
       "archive_id": "A20261012-a87b3fecf927",
       "first_seen_at": "2026-10-12 09:04:08",
       "last_seen_at": "2026-10-12 09:04:08"
+    },
+    {
+      "资讯标题": "OpenAI悄悄挂出未发布生命科学模型gpt-rosalind-discovery，要给药企当\"工具贩子\"",
+      "发布时间": "2026-10-12 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31554",
+      "desc": "OpenAI悄悄挂出未发布生命科学模型gpt-rosalind-discovery，要给药企当\"工具贩子\" \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function",
+      "agent_reason": "与AI、大模型、智能体、机器人、算力或核心技术相关，且为可访问详情页；本轮去重后保留",
+      "archive_id": "A20261012-f03a03438d38",
+      "first_seen_at": "2026-10-12 12:04:33",
+      "last_seen_at": "2026-10-12 12:04:33"
+    },
+    {
+      "资讯标题": "46岁数学家凭AI量化交易跻身英国富豪榜第八，身家超1417亿元",
+      "发布时间": "2026-10-12 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31557",
+      "desc": "46岁数学家凭AI量化交易跻身英国富豪榜第八，身家超1417亿元 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-c",
+      "agent_reason": "与AI、大模型、智能体、机器人、算力或核心技术相关，且为可访问详情页；本轮去重后保留",
+      "archive_id": "A20261012-403817c6f8a0",
+      "first_seen_at": "2026-10-12 12:04:33",
+      "last_seen_at": "2026-10-12 12:04:33"
     },
     {
       "资讯标题": "全球运营商最大单体智算中心扩容项目在内蒙古竣工",

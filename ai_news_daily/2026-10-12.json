@@ -2,8 +2,8 @@
   "version": 1,
   "date": "2026-10-12",
   "timezone": "Asia/Shanghai",
-  "updated_at": "2026-10-12 15:10:51",
-  "item_count": 46,
+  "updated_at": "2026-10-12 18:04:37",
+  "item_count": 57,
   "runs": [
     {
       "collected_at": "2026-10-12 09:04:08",
@@ -55,9 +55,92 @@
         "今日头条/Tophub": "ok:50",
         "Readhub": "ok:10"
       }
+    },
+    {
+      "collected_at": "2026-10-12 18:04:37",
+      "input_count": 14,
+      "added_count": 11,
+      "updated_count": 0,
+      "skipped_duplicate_count": 3,
+      "selection_reason": "完整检查 77 条脚本候选，并浏览器核验新智元原始频道；剔除 TopHub 搜索壳、非 AI、广告和重复事件，保留具备存档价值的详情页资讯。",
+      "source_status": {
+        "量子位": "ok:5",
+        "新智元": "ok:0",
+        "AIBase": "ok:12",
+        "新华网科技": "ok:0",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
     }
   ],
   "items": [
+    {
+      "资讯标题": "芯片越坏越聪明？他让有缺陷的芯片学会联想和容错",
+      "发布时间": "2026-10-12 17:45:54",
+      "来源": "Readhub",
+      "超链接": "https://www.mittrchina.com/news/detail/17082",
+      "desc": "第一篇相关论文发表在 Nature Communications。李灿和团队让芯片在训练过程中主动适应自身硬件缺陷，把不完美的器件纳入计算后，存储容量反而实现超线性增长。他们想做的，是让芯片也掌握联想能力，并打破容量上限，为此开发了一种新的训练算法，让芯片在训练过程中测量并补偿每个器件的真实缺陷。",
+      "agent_reason": "与 AI、大模型、智能体、机器人、算力或头部公司相关，来源为可访问的资讯详情页；经本轮语义去重后保留。",
+      "archive_id": "A20261012-e9ded8ccf744",
+      "first_seen_at": "2026-10-12 18:04:37",
+      "last_seen_at": "2026-10-12 18:04:37"
+    },
+    {
+      "资讯标题": "个人 AI 概念爆火，a16z 投了一个没有屏幕的「AI 电脑」，19 岁创始人想重新定义电脑交互",
+      "发布时间": "2026-10-12 17:41:00",
+      "来源": "Readhub",
+      "超链接": "https://www.mittrchina.com/news/detail/17081",
+      "desc": "上周，他创办的 Ghost 宣布获得由 a16z 领投的 1,100 万美元种子轮融资，并推出首款产品：一台私人 AI 电脑「Core」。它既包括增加了 AI 功能的手机和电脑，也包括 AI Pin 这样的专用设备，后者尝试把助手做成一枚随身佩戴的胸针。这几位 Z 世代创业者都还不到 25 岁，但他们想重新定义电脑，以及人和电脑交互的方式。",
+      "agent_reason": "与 AI、大模型、智能体、机器人、算力或头部公司相关，来源为可访问的资讯详情页；经本轮语义去重后保留。",
+      "archive_id": "A20261012-56cfa24cee71",
+      "first_seen_at": "2026-10-12 18:04:37",
+      "last_seen_at": "2026-10-12 18:04:37"
+    },
+    {
+      "资讯标题": "具身智能回到产业现场， 思灵机器人Agile Robots携12款展品亮相2026工博会",
+      "发布时间": "2026-10-12 16:14:58",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/502683.html",
+      "desc": "思灵机器人Agile Robots携12款展品参展第26届中国国际工业博览会。",
+      "agent_reason": "与 AI、大模型、智能体、机器人、算力或头部公司相关，来源为可访问的资讯详情页；经本轮语义去重后保留。",
+      "archive_id": "A20261012-6e72cff7edaf",
+      "first_seen_at": "2026-10-12 18:04:37",
+      "last_seen_at": "2026-10-12 18:04:37"
+    },
+    {
+      "资讯标题": "AI从「造图」卷到「造世界」，这次真有点科幻了。。。",
+      "发布时间": "2026-10-12 16:08:05",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/502701.html",
+      "desc": "从画出一个世界，到让整个世界「活」过来",
+      "agent_reason": "与 AI、大模型、智能体、机器人、算力或头部公司相关，来源为可访问的资讯详情页；经本轮语义去重后保留。",
+      "archive_id": "A20261012-fd047df308d8",
+      "first_seen_at": "2026-10-12 18:04:37",
+      "last_seen_at": "2026-10-12 18:04:37"
+    },
+    {
+      "资讯标题": "刚刚，GPT-6 Astra联手非职业数学家，证明57年「摆圆」 难题",
+      "发布时间": "2026-10-12 15:48:53",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/502667.html",
+      "desc": "GPT-6 Astra扫荡数学证明ing",
+      "agent_reason": "与 AI、大模型、智能体、机器人、算力或头部公司相关，来源为可访问的资讯详情页；经本轮语义去重后保留。",
+      "archive_id": "A20261012-0c9caadf0e7b",
+      "first_seen_at": "2026-10-12 18:04:37",
+      "last_seen_at": "2026-10-12 18:04:37"
+    },
+    {
+      "资讯标题": "百度世界 2026 将于 11 月 12 日在北京举办，主题为「下一幕，智能组织」",
+      "发布时间": "2026-10-12 15:42:00",
+      "来源": "Readhub",
+      "超链接": "https://www.leiphone.com/category/industrynews/ukm5yjK3oT5X29yV.html",
+      "desc": "十年后，「下一幕，智能组织」的大会主题与这一判断形成呼应，将关注点进一步引向 AI 驱动的组织重构。自去年百度世界以来，李彦宏多次谈及 AI 在组织中的应用，从企业内化 AI 能力到组织自我进化，持续探讨 AI 推动组织变革的可能性。12 场分论坛将聚焦 AI 驱动组织跃迁，涵盖组织进化、AI 办公激发组织动能、企业推进智能体规模化落地、数字人跨场景应用等方向，并探讨 RSI、具身智能、AI4S 等前沿议题。",
+      "agent_reason": "与 AI、大模型、智能体、机器人、算力或头部公司相关，来源为可访问的资讯详情页；经本轮语义去重后保留。",
+      "archive_id": "A20261012-3a17316d634d",
+      "first_seen_at": "2026-10-12 18:04:37",
+      "last_seen_at": "2026-10-12 18:04:37"
+    },
     {
       "资讯标题": "微软升级 Copilot Notebooks：支持任务委派、Office 文档编辑与交互式报告",
       "发布时间": "2026-10-12 14:11:18",
@@ -67,7 +150,7 @@
       "agent_reason": "与 AI、大模型、智能体、机器人、算力或核心技术相关，且为详情页；本轮过滤去重后保留。",
       "archive_id": "A20261012-689eb905fd73",
       "first_seen_at": "2026-10-12 15:10:51",
-      "last_seen_at": "2026-10-12 15:10:51"
+      "last_seen_at": "2026-10-12 18:04:37"
     },
     {
       "资讯标题": "微软新模型底座是阿里 Qwen，超六成决策模型都基于 Qwen 开发",
@@ -90,6 +173,17 @@
       "archive_id": "A20261012-dd2dec0afb23",
       "first_seen_at": "2026-10-12 15:10:51",
       "last_seen_at": "2026-10-12 15:10:51"
+    },
+    {
+      "资讯标题": "微软基于阿里 Qwen 打造决策模型 Microsoft-Decision-1，或推广至所有领域",
+      "发布时间": "2026-10-12 13:36:00",
+      "来源": "Readhub",
+      "超链接": "https://www.leiphone.com/category/industrynews/LApMolUCs9YwwXHn.html",
+      "desc": "微软基于阿里 Qwen 推出全新决策模型 Microsoft-Decision-1。该模型基于 Qwen3.5-9B 后训练而成，在结构化决策任务中，时延和准确性等方面均超过 LLM 及 Jev 1.13.0 等热门决策模型。微软 Xbox 研究团队已用它处理超过 1 万条玩家反馈，微软 CEO 纳德拉也在社交媒体上透露，基于新模型的优异表现，微软正在所有领域测试应用新模型，包括事件响应、质量控制、科学发现等。",
+      "agent_reason": "与 AI、大模型、智能体、机器人、算力或头部公司相关，来源为可访问的资讯详情页；经本轮语义去重后保留。",
+      "archive_id": "A20261012-5607ad043c3c",
+      "first_seen_at": "2026-10-12 18:04:37",
+      "last_seen_at": "2026-10-12 18:04:37"
     },
     {
       "资讯标题": "OpenAI 三名安全研究员发公开信否认泄密",
@@ -144,7 +238,7 @@
       "agent_reason": "与AI、大模型、智能体、机器人、算力或核心技术相关，且为可访问详情页；本轮去重后保留",
       "archive_id": "A20261012-e225853aa66b",
       "first_seen_at": "2026-10-12 12:04:33",
-      "last_seen_at": "2026-10-12 12:04:33"
+      "last_seen_at": "2026-10-12 18:04:37"
     },
     {
       "资讯标题": "丘成桐数学与人工智能实验室联盟在清华大学成立，推动 AI 与数学深度融合",
@@ -199,7 +293,7 @@
       "agent_reason": "与AI、大模型、智能体、机器人、算力或核心技术相关，且为可访问详情页；本轮去重后保留",
       "archive_id": "A20261012-f0b76c54f3df",
       "first_seen_at": "2026-10-12 12:04:33",
-      "last_seen_at": "2026-10-12 12:04:33"
+      "last_seen_at": "2026-10-12 18:04:37"
     },
     {
       "资讯标题": "Claude 半年封禁 1140 万账号，申诉翻盘仅 4.2 万，Anthropic 新规禁止虐待 AI",
@@ -290,6 +384,39 @@
       "last_seen_at": "2026-10-12 12:04:33"
     },
     {
+      "资讯标题": "宇树科技王兴兴发声：过去犯的最大错误是不够相信 AI，具身智能临界点最快一两年内爆发",
+      "发布时间": "2026-10-12 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31564",
+      "desc": "宇树科技王兴兴发声：过去犯的最大错误是不够相信 AI，具身智能临界点最快一两年内爆发 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.ma",
+      "agent_reason": "与 AI、大模型、智能体、机器人、算力或头部公司相关，来源为可访问的资讯详情页；经本轮语义去重后保留。",
+      "archive_id": "A20261012-daa54195831f",
+      "first_seen_at": "2026-10-12 18:04:37",
+      "last_seen_at": "2026-10-12 18:04:37"
+    },
+    {
+      "资讯标题": "唯品会悄悄上线 AI 助手\"小唯\"：能聊天能比价，重金招人月薪最高 8 万",
+      "发布时间": "2026-10-12 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31570",
+      "desc": "唯品会悄悄上线 AI 助手\"小唯\"：能聊天能比价，重金招人月薪最高 8 万 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color-sc",
+      "agent_reason": "与 AI、大模型、智能体、机器人、算力或头部公司相关，来源为可访问的资讯详情页；经本轮语义去重后保留。",
+      "archive_id": "A20261012-527a24a88884",
+      "first_seen_at": "2026-10-12 18:04:37",
+      "last_seen_at": "2026-10-12 18:04:37"
+    },
+    {
+      "资讯标题": "​Claude Opus 5.5 Max 强势登顶智能体榜首，国产多模型稳居中上游",
+      "发布时间": "2026-10-12 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31567",
+      "desc": "​Claude Opus 5.5 Max 强势登顶智能体榜首，国产多模型稳居中上游 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers",
+      "agent_reason": "与 AI、大模型、智能体、机器人、算力或头部公司相关，来源为可访问的资讯详情页；经本轮语义去重后保留。",
+      "archive_id": "A20261012-8eb31c989b16",
+      "first_seen_at": "2026-10-12 18:04:37",
+      "last_seen_at": "2026-10-12 18:04:37"
+    },
+    {
       "资讯标题": "OpenAI给GPT-6.1 Sol扩容记忆：默认上下文顶到 50 万，长文本不再单独计费",
       "发布时间": "2026-10-12 09:00:00",
       "来源": "AIBase",
@@ -310,6 +437,17 @@
       "archive_id": "A20261012-f03a03438d38",
       "first_seen_at": "2026-10-12 12:04:33",
       "last_seen_at": "2026-10-12 12:04:33"
+    },
+    {
+      "资讯标题": "OpenAI 给 GPT-6.1 Sol 扩容：默认上下文 272k 飙到 500k，长文本还免费",
+      "发布时间": "2026-10-12 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31560",
+      "desc": "OpenAI 给 GPT-6.1 Sol 扩容：默认上下文 272k 飙到 500k，长文本还免费 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(",
+      "agent_reason": "与 AI、大模型、智能体、机器人、算力或头部公司相关，来源为可访问的资讯详情页；经本轮语义去重后保留。",
+      "archive_id": "A20261012-d5e410635359",
+      "first_seen_at": "2026-10-12 18:04:37",
+      "last_seen_at": "2026-10-12 18:04:37"
     },
     {
       "资讯标题": "46岁数学家凭AI量化交易跻身英国富豪榜第八，身家超1417亿元",

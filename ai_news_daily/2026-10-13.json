@@ -1,0 +1,281 @@
+{
+  "version": 1,
+  "date": "2026-10-13",
+  "timezone": "Asia/Shanghai",
+  "updated_at": "2026-10-13 08:59:13",
+  "item_count": 23,
+  "runs": [
+    {
+      "collected_at": "2026-10-13 08:59:13",
+      "input_count": 23,
+      "added_count": 23,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "已完整审阅本轮候选并与当日归档去重；保留 AI/大模型/智能体/机器人/算力/核心技术/头部公司及相关政策的详情页资讯。AIBase 09:00 记录在采集结束时为未来时间，已剔除；TopHub 为搜索壳且非 AI，已剔除。浏览器直接检查新华科技、机器之心和 Aiera 原始频道，当前仅有日期无精确发布时间或缺少详情页链接的条目，按字段完整性规则不补入。",
+      "source_status": {
+        "量子位": "ok:6",
+        "新智元": "ok:0",
+        "AIBase": "ok:12",
+        "新华网科技": "ok:0",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
+    }
+  ],
+  "items": [
+    {
+      "资讯标题": "高利率如何冲击 AI 融资？",
+      "发布时间": "2026-10-13 08:48:18",
+      "来源": "Readhub",
+      "超链接": "https://www.gelonghui.com/p/6955652",
+      "desc": "美国经济仍具韧性，通胀压力尚未消退，叠加财政融资需求较高，长端美债利率可能继续维持高位，AI 企业新增债务融资成本面临持续压力。AI 美元债市场供给压力上升，AI 企业正通过三条路径拓宽融资渠道。往后看，高利率单独难以引发 AI 融资出清，风险或先在部分安全垫偏薄的主体暴露。",
+      "agent_reason": "AI 融资环境与利率影响的行业分析",
+      "archive_id": "A20261013-c9a9d1f479f0",
+      "first_seen_at": "2026-10-13 08:59:13",
+      "last_seen_at": "2026-10-13 08:59:13"
+    },
+    {
+      "资讯标题": "天数智芯业界最高密度单机柜 GPU 超节点亮相：单柜内集成 144 颗 GPU 与 18 颗 CPU",
+      "发布时间": "2026-10-13 08:33:54",
+      "来源": "Readhub",
+      "超链接": "https://news.mydrivers.com/1/1156/1156937.htm",
+      "desc": "作为业界最高密度的单机柜 GPU 超节点，该方案单柜可集成 144 颗 GPU。天垓 300 IXL144 在单柜内集成 144 颗 GPU 与 18 颗 CPU，配备约 10.1TB 显存。天数智芯副总裁邹翾表示，「天垓 300 IXL144 只是一个开始，是天数智芯整套系统化超节点方案中率先推出的第一个」。",
+      "agent_reason": "国产 GPU 超节点硬件与算力基础设施进展",
+      "archive_id": "A20261013-e52cef5fe300",
+      "first_seen_at": "2026-10-13 08:59:13",
+      "last_seen_at": "2026-10-13 08:59:13"
+    },
+    {
+      "资讯标题": "Anthropic 强化蒸馏攻击防御，已封禁数万个相关账号",
+      "发布时间": "2026-10-13 08:07:21",
+      "来源": "Readhub",
+      "超链接": "https://www.theblockbeats.info/flash/371461",
+      "desc": "公司称，攻击者通常借助虚假账号网络批量获取模型回复，未经授权复制其能力，其中完整推理记录比最终答案更具训练价值。新措施包括限制推理记录在对话、模型及账号间转移，部署两阶段分类器识别和拦截提取请求，并对反复尝试的账号限流或封禁。Anthropic 称，分类器误报率低于 0.1%，已封禁数万个与蒸馏有关的账号，往往在相关攻击开始后两小时内完成封禁。",
+      "agent_reason": "头部模型蒸馏攻击治理与账号安全措施",
+      "archive_id": "A20261013-4a5af4b7c678",
+      "first_seen_at": "2026-10-13 08:59:13",
+      "last_seen_at": "2026-10-13 08:59:13"
+    },
+    {
+      "资讯标题": "梁文锋被曝密集接触具身智能创业者 DeepSeek 拟入局具身智能",
+      "发布时间": "2026-10-13 08:00:54",
+      "来源": "Readhub",
+      "超链接": "https://news.mydrivers.com/1/1156/1156932.htm",
+      "desc": "DeepSeek 创始人梁文锋近期密集关注具身智能领域，并与多位该领域创业者交流，探讨机器人、大模型与现实世界交互等方向。知情人士透露，梁文锋正在考虑 DeepSeek 进入具身智能领域的可能性，可能会亲自组建团队下场研发，也可能通过投资相关企业切入。今年 8 月，DeepSeek 以 1.41 亿元战略投资入股宇树科技，双方签署《战略合作备忘录》，宣布在通用人工智能（AGI）、高性能通用机器人和 AI 大模型三大方向开展深度合作。",
+      "agent_reason": "DeepSeek 进入具身智能领域的公司动态",
+      "archive_id": "A20261013-6c928c746161",
+      "first_seen_at": "2026-10-13 08:59:13",
+      "last_seen_at": "2026-10-13 08:59:13"
+    },
+    {
+      "资讯标题": "量子计算机从混沌走向有序获验证",
+      "发布时间": "2026-10-13 07:52:53",
+      "来源": "Readhub",
+      "超链接": "https://www.36kr.com/newsflashes/4023512637116292",
+      "desc": "美国罗格斯大学、IBM 公司等机构的科学家在一台拥有 156 个量子比特的处理器上，演示了量子计算机在运行过程中反复检查和重置部分量子比特的能力，使系统从混沌状态转向可控的有序状态。这项实验是通往容错量子计算道路上的一个重要里程碑，表明相关研究又向前迈进了一步，为构建更大规模、更可靠的容错量子计算机提供了实验依据。",
+      "agent_reason": "量子计算容错方向的重要实验进展",
+      "archive_id": "A20261013-a1baa31cf9d7",
+      "first_seen_at": "2026-10-13 08:59:13",
+      "last_seen_at": "2026-10-13 08:59:13"
+    },
+    {
+      "资讯标题": "《纽约时报》《经济学人》等出版商加入 SPUR 联盟，遏制 AI 未经授权使用内容",
+      "发布时间": "2026-10-13 07:12:35",
+      "来源": "Readhub",
+      "超链接": "https://www.gelonghui.com/live/2707259",
+      "desc": "《纽约时报》、法新社和《经济学人》周一与 40 多家出版商共同加入「出版商使用权标准」（SPUR）联盟，旨在防止人工智能公司未经许可使用其内容或从中获利。该联盟于今年 2 月成立，目前已有来自 20 多个国家的 80 多家成员。新成员包括《大西洋月刊》和巴西全国报业协会，它们加入了《金融时报》、英国广播公司（BBC）和美联社等创始成员的行列。",
+      "agent_reason": "出版商应对 AI 内容授权的行业政策动态",
+      "archive_id": "A20261013-8c57d1008f99",
+      "first_seen_at": "2026-10-13 08:59:13",
+      "last_seen_at": "2026-10-13 08:59:13"
+    },
+    {
+      "资讯标题": "OCP全球峰会：NVIDIA开放Vera Rubin架构，助力全球AI工厂规模化",
+      "发布时间": "2026-10-12 23:00:25",
+      "来源": "Readhub",
+      "超链接": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories",
+      "desc": "NVIDIA通过开放的NVIDIA MGX架构，向OCP贡献了关键的Vera Rubin机架和计算托盘设计，为系统构建商开发下一代AI工厂基础设施提供共同基础。针对NVIDIA Vera Rubin AI工厂，更新的MGX 1.2规范扩展了开放架构，支持机架级盲插液冷、可互操作的机架级互连基础设施以及专为更高功率AI系统设计的液冷5000A母线。会上，Meta与NVIDIA宣布，Meta将采用NVIDIA Spectrum-6 102.4Tb/s以太网交换机，在开放网络上构建更大、更高性能的NVIDIA Vera Rubin AI工厂。",
+      "agent_reason": "NVIDIA Vera Rubin AI 工厂开放架构与生态合作",
+      "archive_id": "A20261013-9e0276cba47c",
+      "first_seen_at": "2026-10-13 08:59:13",
+      "last_seen_at": "2026-10-13 08:59:13"
+    },
+    {
+      "资讯标题": "俞大鹏院士：量子计算目前还很弱，产业不能「虚火过旺」｜PAIR 2026",
+      "发布时间": "2026-10-12 21:56:13",
+      "来源": "Readhub",
+      "超链接": "https://www.mittrchina.com/news/detail/17084",
+      "desc": "下一代计算范式专题从量子计算的发展路径出发，交流算法、硬件和系统的最新探索，并讨论量子计算与人工智能如何相互促进。在 9 月 21 日下午的专题论坛上，中国科学院院士、深圳国际量子研究院院长俞大鹏以《量子计算技术前沿与产业发展趋势》为题发表主旨演讲，介绍了量子力学的发展历程、量子计算面临的机遇与挑战，以及深圳团队近年来的研究进展。国际上也有类似的技术路线，IBM 的量子计算发展规划就涉及模块化架构和量子互联，希望通过连接不同模块，逐步构建规模更大的容错量子计算系统。",
+      "agent_reason": "量子计算产业发展与 AI 协同的专家观点",
+      "archive_id": "A20261013-4f7012b5daa0",
+      "first_seen_at": "2026-10-13 08:59:13",
+      "last_seen_at": "2026-10-13 08:59:13"
+    },
+    {
+      "资讯标题": "芯片越坏越聪明？他让有缺陷的芯片学会联想和容错",
+      "发布时间": "2026-10-12 17:45:54",
+      "来源": "Readhub",
+      "超链接": "https://www.mittrchina.com/news/detail/17082",
+      "desc": "第一篇相关论文发表在 Nature Communications。李灿和团队让芯片在训练过程中主动适应自身硬件缺陷，把不完美的器件纳入计算后，存储容量反而实现超线性增长。他们想做的，是让芯片也掌握联想能力，并打破容量上限，为此开发了一种新的训练算法，让芯片在训练过程中测量并补偿每个器件的真实缺陷。",
+      "agent_reason": "面向缺陷芯片的容错与类脑计算研究",
+      "archive_id": "A20261013-e9ded8ccf744",
+      "first_seen_at": "2026-10-13 08:59:13",
+      "last_seen_at": "2026-10-13 08:59:13"
+    },
+    {
+      "资讯标题": "个人 AI 概念爆火，a16z 投了一个没有屏幕的「AI 电脑」，19 岁创始人想重新定义电脑交互",
+      "发布时间": "2026-10-12 17:41:00",
+      "来源": "Readhub",
+      "超链接": "https://www.mittrchina.com/news/detail/17081",
+      "desc": "上周，他创办的 Ghost 宣布获得由 a16z 领投的 1,100 万美元种子轮融资，并推出首款产品：一台私人 AI 电脑「Core」。它既包括增加了 AI 功能的手机和电脑，也包括 AI Pin 这样的专用设备，后者尝试把助手做成一枚随身佩戴的胸针。这几位 Z 世代创业者都还不到 25 岁，但他们想重新定义电脑，以及人和电脑交互的方式。",
+      "agent_reason": "个人 AI 电脑创业融资与新交互形态",
+      "archive_id": "A20261013-56cfa24cee71",
+      "first_seen_at": "2026-10-13 08:59:13",
+      "last_seen_at": "2026-10-13 08:59:13"
+    },
+    {
+      "资讯标题": "具身智能回到产业现场， 思灵机器人Agile Robots携12款展品亮相2026工博会",
+      "发布时间": "2026-10-12 16:14:58",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/502683.html",
+      "desc": "思灵机器人Agile Robots携12款展品参展第26届中国国际工业博览会。",
+      "agent_reason": "具身智能机器人产业展示与应用进展",
+      "archive_id": "A20261013-6e72cff7edaf",
+      "first_seen_at": "2026-10-13 08:59:13",
+      "last_seen_at": "2026-10-13 08:59:13"
+    },
+    {
+      "资讯标题": "刚刚，GPT-6 Astra联手非职业数学家，证明57年「摆圆」 难题",
+      "发布时间": "2026-10-12 15:48:53",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/502667.html",
+      "desc": "GPT-6 Astra扫荡数学证明ing",
+      "agent_reason": "GPT-6 Astra 辅助数学证明的模型能力案例",
+      "archive_id": "A20261013-0c9caadf0e7b",
+      "first_seen_at": "2026-10-13 08:59:13",
+      "last_seen_at": "2026-10-13 08:59:13"
+    },
+    {
+      "资讯标题": "华为AI靠RSI通关25款游戏！操作次数比人类少56%",
+      "发布时间": "2026-10-12 13:48:36",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/502654.html",
+      "desc": "游戏打到21:0，AI甚至不用再调用大模型了",
+      "agent_reason": "华为 AI 智能体游戏操作与推理效率测试",
+      "archive_id": "A20261013-dd2dec0afb23",
+      "first_seen_at": "2026-10-13 08:59:13",
+      "last_seen_at": "2026-10-13 08:59:13"
+    },
+    {
+      "资讯标题": "智谱新模型，490 tokens/s！",
+      "发布时间": "2026-10-12 10:37:04",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/502649.html",
+      "desc": "GLM「速度仙人」来了？",
+      "agent_reason": "智谱新模型推理速度与国产模型进展",
+      "archive_id": "A20261013-a17f5a68ff6d",
+      "first_seen_at": "2026-10-13 08:59:13",
+      "last_seen_at": "2026-10-13 08:59:13"
+    },
+    {
+      "资讯标题": "阶跃 Step 5 Preview 登陆腾讯 WorkBuddy，限时免费两周",
+      "发布时间": "2026-10-12 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31565",
+      "desc": "阶跃 Step 5 Preview 登陆腾讯 WorkBuddy，限时免费两周 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.match",
+      "agent_reason": "阶跃模型接入企业智能体办公平台",
+      "archive_id": "A20261013-185b5e5682e9",
+      "first_seen_at": "2026-10-13 08:59:13",
+      "last_seen_at": "2026-10-13 08:59:13"
+    },
+    {
+      "资讯标题": "赴港 IPO 前夕抛出和解橄榄枝！月之暗面高管与老股东谈判，涉案金额或超 7 亿美元",
+      "发布时间": "2026-10-12 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31562",
+      "desc": "赴港 IPO 前夕抛出和解橄榄枝！月之暗面高管与老股东谈判，涉案金额或超 7 亿美元 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color-scheme\"+o+",
+      "agent_reason": "月之暗面 IPO 前股东和解与融资进展",
+      "archive_id": "A20261013-d1031fbb91d6",
+      "first_seen_at": "2026-10-13 08:59:13",
+      "last_seen_at": "2026-10-13 08:59:13"
+    },
+    {
+      "资讯标题": "纸质书里惊现 AI 提示词：《终焉路独行》误把校对指令当正文，全数召回",
+      "发布时间": "2026-10-12 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31561",
+      "desc": "纸质书里惊现 AI 提示词：《终焉路独行》误把校对指令当正文，全数召回 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color-scheme\"+o+\")\")}",
+      "agent_reason": "生成式 AI 内容错误进入出版物的治理事件",
+      "archive_id": "A20261013-7b552b0fd9ad",
+      "first_seen_at": "2026-10-13 08:59:13",
+      "last_seen_at": "2026-10-13 08:59:13"
+    },
+    {
+      "资讯标题": "微软升级 Copilot Notebooks:支持任务委派、Office 文档编辑与交互式报告",
+      "发布时间": "2026-10-12 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31563",
+      "desc": "微软升级 Copilot Notebooks:支持任务委派、Office 文档编辑与交互式报告 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return",
+      "agent_reason": "微软 Copilot Notebooks 的任务委派与文档能力更新",
+      "archive_id": "A20261013-5943d4da07df",
+      "first_seen_at": "2026-10-13 08:59:13",
+      "last_seen_at": "2026-10-13 08:59:13"
+    },
+    {
+      "资讯标题": "宇树科技王兴兴发声：过去犯的最大错误是不够相信 AI，具身智能临界点最快一两年内爆发",
+      "发布时间": "2026-10-12 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31564",
+      "desc": "宇树科技王兴兴发声：过去犯的最大错误是不够相信 AI，具身智能临界点最快一两年内爆发 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.ma",
+      "agent_reason": "宇树科技对具身智能发展窗口的判断",
+      "archive_id": "A20261013-daa54195831f",
+      "first_seen_at": "2026-10-13 08:59:13",
+      "last_seen_at": "2026-10-13 08:59:13"
+    },
+    {
+      "资讯标题": "唯品会悄悄上线 AI 助手\"小唯\"：能聊天能比价，重金招人月薪最高 8 万",
+      "发布时间": "2026-10-12 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31570",
+      "desc": "唯品会悄悄上线 AI 助手\"小唯\"：能聊天能比价，重金招人月薪最高 8 万 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color-sc",
+      "agent_reason": "电商企业上线 AI 导购助手的产品与招聘动态",
+      "archive_id": "A20261013-527a24a88884",
+      "first_seen_at": "2026-10-13 08:59:13",
+      "last_seen_at": "2026-10-13 08:59:13"
+    },
+    {
+      "资讯标题": "​Claude Opus 5.5 Max 强势登顶智能体榜首，国产多模型稳居中上游",
+      "发布时间": "2026-10-12 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31567",
+      "desc": "​Claude Opus 5.5 Max 强势登顶智能体榜首，国产多模型稳居中上游 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers",
+      "agent_reason": "智能体模型评测榜单与模型竞争格局",
+      "archive_id": "A20261013-8eb31c989b16",
+      "first_seen_at": "2026-10-13 08:59:13",
+      "last_seen_at": "2026-10-13 08:59:13"
+    },
+    {
+      "资讯标题": "OpenAI 给 GPT-6.1 Sol 扩容：默认上下文 272k 飙到 500k，长文本还免费",
+      "发布时间": "2026-10-12 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31560",
+      "desc": "OpenAI 给 GPT-6.1 Sol 扩容：默认上下文 272k 飙到 500k，长文本还免费 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(",
+      "agent_reason": "OpenAI GPT-6.1 Sol 上下文容量升级",
+      "archive_id": "A20261013-d5e410635359",
+      "first_seen_at": "2026-10-13 08:59:13",
+      "last_seen_at": "2026-10-13 08:59:13"
+    },
+    {
+      "资讯标题": "AI 没抢走程序员饭碗？美初级码农就业反降 20%，专家忧十年后断档",
+      "发布时间": "2026-10-12 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31568",
+      "desc": "AI 没抢走程序员饭碗？美初级码农就业反降 20%，专家忧十年后断档 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia",
+      "agent_reason": "AI 对初级程序员就业结构的影响分析",
+      "archive_id": "A20261013-3a1837919fe3",
+      "first_seen_at": "2026-10-13 08:59:13",
+      "last_seen_at": "2026-10-13 08:59:13"
+    }
+  ]
+}

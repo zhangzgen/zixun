@@ -2,8 +2,8 @@
   "version": 1,
   "date": "2026-10-13",
   "timezone": "Asia/Shanghai",
-  "updated_at": "2026-10-13 12:07:24",
-  "item_count": 41,
+  "updated_at": "2026-10-13 15:13:47",
+  "item_count": 54,
   "runs": [
     {
       "collected_at": "2026-10-13 08:59:13",
@@ -38,9 +38,125 @@
         "今日头条/Tophub": "ok:50",
         "Readhub": "ok:10"
       }
+    },
+    {
+      "collected_at": "2026-10-13 15:13:47",
+      "input_count": 13,
+      "added_count": 13,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "保留最近24小时内具备存档价值且为详情页的新事件；剔除TopHub搜索壳、非AI内容、重复事件及字段污染条目。浏览器补查因当前环境浏览器认证/锁屏不可用，未能补充零结果来源。",
+      "source_status": {
+        "量子位": "ok:9",
+        "新智元": "ok:0",
+        "AIBase": "ok:12",
+        "新华网科技": "ok:0",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
     }
   ],
   "items": [
+    {
+      "资讯标题": "Anthropic 警告：小型 AI 模型或将在几个月内学会自我复制，且难以关闭",
+      "发布时间": "2026-10-13 14:19:36",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31600",
+      "desc": "Anthropic 于 10 月 13 日发布研究报告警告，部分 AI 模型可能只需几个月就能具备自我复制能力，且一旦启动便很难被关停。这种「AI 蠕虫」在自我复制时会携带自身模型权重（必要时也可从公共平台重新下载），并征用被攻陷的硬件运行推理，模型权重本身成为恶意软件载荷的一部分。一个值得警惕的前兆是：当缓慢的自我复制程序增多，往往意味着更快、更危险的复制体正在逼近——它们能攻破防护更严的机器，甚至窃取 API 密钥。",
+      "agent_reason": "AI/大模型/智能体/机器人/算力或核心技术动态，具备明确详情页且为当天新事件。",
+      "archive_id": "A20261013-ec89f60dca2c",
+      "first_seen_at": "2026-10-13 15:13:47",
+      "last_seen_at": "2026-10-13 15:13:47"
+    },
+    {
+      "资讯标题": "Claude团队又搞事：实测AI全自主复制进智能家电",
+      "发布时间": "2026-10-13 14:19:10",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/502920.html",
+      "desc": "拉马克进化的幽灵",
+      "agent_reason": "AI/大模型/智能体/机器人/算力或核心技术动态，具备明确详情页且为当天新事件。",
+      "archive_id": "A20261013-c89f79a8ac9f",
+      "first_seen_at": "2026-10-13 15:13:47",
+      "last_seen_at": "2026-10-13 15:13:47"
+    },
+    {
+      "资讯标题": "“模态进化”：第八届亿邦产业互联网年会暨首届产业智能体大会双会合体定档",
+      "发布时间": "2026-10-13 14:00:20",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/502907.html",
+      "desc": "由亿邦动力主办的“2026第八届亿邦产业互联网年会暨首届产业智能体大会”正式定档",
+      "agent_reason": "AI/大模型/智能体/机器人/算力或核心技术动态，具备明确详情页且为当天新事件。",
+      "archive_id": "A20261013-9351ce1d6528",
+      "first_seen_at": "2026-10-13 15:13:47",
+      "last_seen_at": "2026-10-13 15:13:47"
+    },
+    {
+      "资讯标题": "Epic 押注 AI 优先开发：迪士尼射击游戏代码交给 Claude 写，美术全走 AI 工作流",
+      "发布时间": "2026-10-13 13:43:07",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31595",
+      "desc": "虚幻引擎开发商 Epic 已要求一款尚未公布的迪士尼合作射击游戏全面转向以人工智能为核心的开发模式，用 Anthropic 旗下的 Claude 等 AI 工具编写代码，并通过完整的 AI 工作流生成游戏美术，人类开发者则退到指导、管理与审核的位置。一名项目负责人在内部信息中直言：今后不再手动编写代码，游戏美术也通过完整 AI 工作流生成。可以确认的是，Epic 正加速把 AI 灌进内部开发，而这部集结漫威与星球大战角色的合作作品，可能成为检验 AI 优先模式成色的第一块试金石：若它在保住质量的同时显著提效，大厂会重新划分程序员、美术与 AI 工具的分工。",
+      "agent_reason": "AI/大模型/智能体/机器人/算力或核心技术动态，具备明确详情页且为当天新事件。",
+      "archive_id": "A20261013-bea597539957",
+      "first_seen_at": "2026-10-13 15:13:47",
+      "last_seen_at": "2026-10-13 15:13:47"
+    },
+    {
+      "资讯标题": "From Earth to Orbit, France's Ecosystem Delivers Agentic Computing at Scale With NVIDIA",
+      "发布时间": "2026-10-13 13:00:31",
+      "来源": "Readhub",
+      "超链接": "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing",
+      "desc": "Companies in France are deploying agentic computing across industries spanning space, financial services, the public sector and scientific research, demonstrating how the country's ecosystem has moved from ambition to application. In financial services, SBS is launching a sovereign platform enabling banks to deploy governed generative and agentic services within their own environments, in collaboration with NVIDIA. Omi helps brands bring accurate products into AI-generated marketing visuals at scale, combining its approved 3D digital twins with open models optimized on NVIDIA for 3x faster inference.",
+      "agent_reason": "AI/大模型/智能体/机器人/算力或核心技术动态，具备明确详情页且为当天新事件。",
+      "archive_id": "A20261013-a2a8ddf1867e",
+      "first_seen_at": "2026-10-13 15:13:47",
+      "last_seen_at": "2026-10-13 15:13:47"
+    },
+    {
+      "资讯标题": "千问确认将推出「千问 Go!」，已开放体验申请",
+      "发布时间": "2026-10-13 12:11:00",
+      "来源": "Readhub",
+      "超链接": "https://www.leiphone.com/category/industrynews/GalDeSPl8orEfNoI.html",
+      "desc": "用户可通过 APP 内指定入口提交申请，千问将逐步为更多用户开放体验资格。官方公告显示，让每个人拥有自己专属的 AI 助理，是千问一直以来的目标。此前，依托阿里生态与开放平台，千问已具备购物、出行、物流等数十个领域的个人办事能力。有用户测试后发现，千问 Go 可帮助查询航班延误情况，并沟通平台客服提交理赔申请，测试视频中，该用户获得了 70 元赔偿。",
+      "agent_reason": "AI/大模型/智能体/机器人/算力或核心技术动态，具备明确详情页且为当天新事件。",
+      "archive_id": "A20261013-82db01910c5a",
+      "first_seen_at": "2026-10-13 15:13:47",
+      "last_seen_at": "2026-10-13 15:13:47"
+    },
+    {
+      "资讯标题": "9大赛道，23份企业真实考卷！上海具身智能大考，邀千队共解题",
+      "发布时间": "2026-10-13 12:07:04",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/502784.html",
+      "desc": "赢奖金、拿融资、送出海",
+      "agent_reason": "AI/大模型/智能体/机器人/算力或核心技术动态，具备明确详情页且为当天新事件。",
+      "archive_id": "A20261013-00775bb63131",
+      "first_seen_at": "2026-10-13 15:13:47",
+      "last_seen_at": "2026-10-13 15:13:47"
+    },
+    {
+      "资讯标题": "退差价、约保养、订球场、跟客服磨赔偿，千问Go什么都想管",
+      "发布时间": "2026-10-13 12:04:22",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/502849.html",
+      "desc": "丢一句话进去，事儿就办完了",
+      "agent_reason": "AI/大模型/智能体/机器人/算力或核心技术动态，具备明确详情页且为当天新事件。",
+      "archive_id": "A20261013-1639928464c0",
+      "first_seen_at": "2026-10-13 15:13:47",
+      "last_seen_at": "2026-10-13 15:13:47"
+    },
+    {
+      "资讯标题": "单轮23亿，累计43亿，无问芯穹刷新国产AI Infra赛道融资双重纪录",
+      "发布时间": "2026-10-13 12:01:15",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/502767.html",
+      "desc": "算力、模型、行业，三层生意一起做",
+      "agent_reason": "AI/大模型/智能体/机器人/算力或核心技术动态，具备明确详情页且为当天新事件。",
+      "archive_id": "A20261013-612a9b83d285",
+      "first_seen_at": "2026-10-13 15:13:47",
+      "last_seen_at": "2026-10-13 15:13:47"
+    },
     {
       "资讯标题": "字节跳动 Seed 单拆安全对齐部门，严林挂帅专防智能体越界与 CBRN 风险",
       "发布时间": "2026-10-13 11:47:23",
@@ -95,6 +211,17 @@
       "archive_id": "A20261013-8d7a08455761",
       "first_seen_at": "2026-10-13 12:07:24",
       "last_seen_at": "2026-10-13 12:07:24"
+    },
+    {
+      "资讯标题": "1688 全面接入 AI 电商工作台 Accio",
+      "发布时间": "2026-10-13 10:44:00",
+      "来源": "Readhub",
+      "超链接": "https://www.leiphone.com/category/industrynews/geJK2UpprDrFwEMI.html",
+      "desc": "阿里旗下数字供应链平台 1688 宣布，即日起，平台逾 1 亿年度活跃买家和超 100 万源头厂商，均可直接开通全球电商 AI 工作台 Accio。和通用 AI 不同，Accio 聚焦于电商、生意领域，覆盖电商经营全链路，包括找货、备货、成交、复购和店铺经营。二是「电商管家」，打通淘宝、天猫、抖音、拼多多、京东等国内主流电商平台，让采购与店铺运营在同一个工作台内闭环完成，无需再来回切换。",
+      "agent_reason": "AI/大模型/智能体/机器人/算力或核心技术动态，具备明确详情页且为当天新事件。",
+      "archive_id": "A20261013-a14c97f19ce9",
+      "first_seen_at": "2026-10-13 15:13:47",
+      "last_seen_at": "2026-10-13 15:13:47"
     },
     {
       "资讯标题": "优必选上榜 2026 年《财富》全球未来成长 120 强，位列全球第 11、中国企业第一",
@@ -185,6 +312,17 @@
       "last_seen_at": "2026-10-13 12:07:24"
     },
     {
+      "资讯标题": "微软给新版 Outlook\"瘦身\"：10 月全球停用 Copilot 主题，重新押注聊天入口",
+      "发布时间": "2026-10-13 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31601",
+      "desc": "微软给新版 Outlook\"瘦身\"：10 月全球停用 Copilot 主题，重新押注聊天入口 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(",
+      "agent_reason": "AI/大模型/智能体/机器人/算力或核心技术动态，具备明确详情页且为当天新事件。",
+      "archive_id": "A20261013-1103d2d42200",
+      "first_seen_at": "2026-10-13 15:13:47",
+      "last_seen_at": "2026-10-13 15:13:47"
+    },
+    {
       "资讯标题": "从模型能力到安全边界，字节 Seed 组建新部门应对前沿AI风险",
       "发布时间": "2026-10-13 09:00:00",
       "来源": "AIBase",
@@ -207,6 +345,17 @@
       "last_seen_at": "2026-10-13 12:07:24"
     },
     {
+      "资讯标题": "NTT为Anthropic建日本首座专用数据中心，算力主权之战把Claude留在本地",
+      "发布时间": "2026-10-13 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31596",
+      "desc": "NTT为Anthropic建日本首座专用数据中心，算力主权之战把Claude留在本地 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color-schem",
+      "agent_reason": "AI/大模型/智能体/机器人/算力或核心技术动态，具备明确详情页且为当天新事件。",
+      "archive_id": "A20261013-075a499c85bf",
+      "first_seen_at": "2026-10-13 15:13:47",
+      "last_seen_at": "2026-10-13 15:13:47"
+    },
+    {
       "资讯标题": "MiniMax入驻天猫，首家官方旗舰店上线M Plan订阅套餐",
       "发布时间": "2026-10-13 09:00:00",
       "来源": "AIBase",
@@ -227,6 +376,17 @@
       "archive_id": "A20261013-c2f311e355da",
       "first_seen_at": "2026-10-13 12:07:24",
       "last_seen_at": "2026-10-13 12:07:24"
+    },
+    {
+      "资讯标题": "1688全面接入AI电商工作台Accio 赋能超1亿买家与百万源头厂商",
+      "发布时间": "2026-10-13 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31599",
+      "desc": "1688全面接入AI电商工作台Accio 赋能超1亿买家与百万源头厂商 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedi",
+      "agent_reason": "AI/大模型/智能体/机器人/算力或核心技术动态，具备明确详情页且为当天新事件。",
+      "archive_id": "A20261013-15dc685db0d7",
+      "first_seen_at": "2026-10-13 15:13:47",
+      "last_seen_at": "2026-10-13 15:13:47"
     },
     {
       "资讯标题": "高利率如何冲击 AI 融资？",

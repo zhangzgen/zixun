@@ -2,8 +2,8 @@
   "version": 1,
   "date": "2026-10-13",
   "timezone": "Asia/Shanghai",
-  "updated_at": "2026-10-13 08:59:13",
-  "item_count": 23,
+  "updated_at": "2026-10-13 12:07:24",
+  "item_count": 41,
   "runs": [
     {
       "collected_at": "2026-10-13 08:59:13",
@@ -21,9 +21,213 @@
         "今日头条/Tophub": "ok:50",
         "Readhub": "ok:10"
       }
+    },
+    {
+      "collected_at": "2026-10-13 12:07:24",
+      "input_count": 21,
+      "added_count": 18,
+      "updated_count": 0,
+      "skipped_duplicate_count": 3,
+      "selection_reason": "保留最近24小时内具备存档价值的AI、大模型、智能体、机器人、算力与核心技术资讯；剔除非AI、搜索壳、字段缺失及语义重复事件。",
+      "source_status": {
+        "量子位": "ok:6",
+        "新智元": "ok:0",
+        "AIBase": "ok:12",
+        "新华网科技": "ok:0",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
     }
   ],
   "items": [
+    {
+      "资讯标题": "字节跳动 Seed 单拆安全对齐部门，严林挂帅专防智能体越界与 CBRN 风险",
+      "发布时间": "2026-10-13 11:47:23",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31593",
+      "desc": "字节跳动 Seed 团队近日发出内部邮件，宣布成立名为 Seed Model-Alignment&Preparedness 的新部门，由原 Responsible AI 团队和部分 Chat 团队成员转入，由严林负责，直接向 Seed 负责人吴永辉汇报。把安全与对齐单独拎出来成立一级部门，意味着该公司在模型安全方向上的投入被提到了一个新量级。新部门要啃的两块硬骨头也很清楚——一是提升 Agent Model 也就是智能体模型的安全能力，二是防范 CBRN 这类前沿能力风险。",
+      "agent_reason": "属于 AI/大模型/智能体/机器人/算力或核心技术动态，来源为详情页且时间在最近24小时；已剔除搜索壳、广告、非AI与重复事件。",
+      "archive_id": "A20261013-fba289b3918f",
+      "first_seen_at": "2026-10-13 12:07:24",
+      "last_seen_at": "2026-10-13 12:07:24"
+    },
+    {
+      "资讯标题": "天序智能斩获厚雪数千万元融资，把气象大模型送上天：要在太空给新能源装一双「眼睛」",
+      "发布时间": "2026-10-13 11:29:42",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31591",
+      "desc": "天序智能科技（嘉兴）有限公司近期完成数千万元 Pre-A+ 轮融资，由厚雪资本独家投资，资金主要投向凝空星座建设、能源气象大模型迭代、团队扩张与海外预研。其气象大模型并非大语言模型，而是参数规模在 100 亿以内的垂直领域模型，从第一行代码自研，在主流架构上做了能源向改造，并提出了名为洛伦兹框架的设计——名字致敬混沌理论提出者、气象学家洛伦兹。更进一步的是其垂类世界模型：普通气象大模型只输出气象结果，它能进一步推演气象变化如何传导成新能源出力波动、如何撼动全网负荷、如何驱动现货电价涨跌，实现从算天气到算能源系统演化的跨越，为电力交易、大基地规划、电网风险预演提供仿真能力。",
+      "agent_reason": "属于 AI/大模型/智能体/机器人/算力或核心技术动态，来源为详情页且时间在最近24小时；已剔除搜索壳、广告、非AI与重复事件。",
+      "archive_id": "A20261013-023b6a14c4c7",
+      "first_seen_at": "2026-10-13 12:07:24",
+      "last_seen_at": "2026-10-13 12:07:24"
+    },
+    {
+      "资讯标题": "MiniMax 入驻天猫开首家旗舰店，开卖 Token 套餐：大模型厂商集体把柜台搬进电商",
+      "发布时间": "2026-10-13 11:26:14",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31590",
+      "desc": "MiniMax 已正式入驻天猫，开出首家品牌官方旗舰店，上架 M Plan 订阅套餐，分 Go、Explore、Build 三档，支持按月或按年购买，把原本在官网办理的订阅搬进了电商平台。Kimi、阶跃星辰等多家厂商也在与天猫接洽，准备跟进开店、开售 Token 订阅套餐。大模型之间的竞争，已从参数榜和基准测试延伸到离用户钱包更近的电商柜台。",
+      "agent_reason": "属于 AI/大模型/智能体/机器人/算力或核心技术动态，来源为详情页且时间在最近24小时；已剔除搜索壳、广告、非AI与重复事件。",
+      "archive_id": "A20261013-406f4cfece7f",
+      "first_seen_at": "2026-10-13 12:07:24",
+      "last_seen_at": "2026-10-13 12:07:24"
+    },
+    {
+      "资讯标题": "英伟达与思科联合推出 USFP 光模块规范：单通道 400G、带宽翻四倍，为 AI 集群扩容",
+      "发布时间": "2026-10-13 10:59:07",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31588",
+      "desc": "英伟达与思科当地时间 10 月 12 日联合推出业界首款支持 400Gbps/lane 高速信号的可插拔光模块规范 USFP，将单通道速率翻倍、总带宽提升至四倍，为下一代更大规模 AI 工厂提前铺好更粗的数据管道。当芯片巨头和老牌网络设备商把规范一起摆上台，AI 竞赛里最容易被忽视、却最要命的那段「神经连线」，已经先一步开始了换代。",
+      "agent_reason": "属于 AI/大模型/智能体/机器人/算力或核心技术动态，来源为详情页且时间在最近24小时；已剔除搜索壳、广告、非AI与重复事件。",
+      "archive_id": "A20261013-52aa680249f6",
+      "first_seen_at": "2026-10-13 12:07:24",
+      "last_seen_at": "2026-10-13 12:07:24"
+    },
+    {
+      "资讯标题": "OpenAI 要把 Sora「复活」：交给卡岑伯格团队，转做专业影视工具",
+      "发布时间": "2026-10-13 10:57:46",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31587",
+      "desc": "OpenAI 正与一家专注电影制作 AI 视频技术的隐身初创公司谈判，打算把此前已停运的视频生成模型 Sora 移交出去，让它以专业影视工具的面貌重新登场。今年早些时候，为削减高算力消耗的非核心项目，公司叫停了 Sora 模型及其类 TikTok 视频应用的开发，把资源调向企业 AI 与编程工具。接盘的团队来头不小：这家数月前成立的初创公司由好莱坞制片人杰弗里・卡岑伯格、Sora 前研究负责人比尔・皮布尔斯，以及 Dropbox 前 CFO 苏杰・贾斯瓦共同创立，名字尚未对外公开。",
+      "agent_reason": "属于 AI/大模型/智能体/机器人/算力或核心技术动态，来源为详情页且时间在最近24小时；已剔除搜索壳、广告、非AI与重复事件。",
+      "archive_id": "A20261013-8d7a08455761",
+      "first_seen_at": "2026-10-13 12:07:24",
+      "last_seen_at": "2026-10-13 12:07:24"
+    },
+    {
+      "资讯标题": "优必选上榜 2026 年《财富》全球未来成长 120 强，位列全球第 11、中国企业第一",
+      "发布时间": "2026-10-13 10:01:56",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/502770.html",
+      "desc": "优必选以总分 115 拿下2026 Fortune Future 120全球第 11 名",
+      "agent_reason": "属于 AI/大模型/智能体/机器人/算力或核心技术动态，来源为详情页且时间在最近24小时；已剔除搜索壳、广告、非AI与重复事件。",
+      "archive_id": "A20261013-0f3702def570",
+      "first_seen_at": "2026-10-13 12:07:24",
+      "last_seen_at": "2026-10-13 12:07:24"
+    },
+    {
+      "资讯标题": "软件又「死」一次？一款 AI 工具突然爆火，号称能逆向还原任何软件",
+      "发布时间": "2026-10-13 09:55:00",
+      "来源": "Readhub",
+      "超链接": "https://www.mittrchina.com/news/detail/17086",
+      "desc": "借助 AI 分析现有软件的内部实现，它想让开发者即使拿不到源代码，也有机会弄清楚一款软件的功能是如何实现的，并尝试编写自己的版本。如今，REA 又将 AI 的能力延伸到对现有软件的分析和重建，让软件行业的未来再次成为讨论焦点。也有人指出，逆向工程早已存在，理解某项功能的实现原理，与完整开发一款可靠的软件之间仍有很大差距。",
+      "agent_reason": "属于 AI/大模型/智能体/机器人/算力或核心技术动态，来源为详情页且时间在最近24小时；已剔除搜索壳、广告、非AI与重复事件。",
+      "archive_id": "A20261013-31ee612d0c21",
+      "first_seen_at": "2026-10-13 12:07:24",
+      "last_seen_at": "2026-10-13 12:07:24"
+    },
+    {
+      "资讯标题": "罗氏要让 AI 参与八成研究决策，药物研发正在进入模型驱动的闭环时代",
+      "发布时间": "2026-10-13 09:52:46",
+      "来源": "Readhub",
+      "超链接": "https://www.mittrchina.com/news/detail/17085",
+      "desc": "亮眼数据之外，真正让这场投资者日有别于往年的，是罗氏旗下基因泰克（Genentech）研究与早期开发部门（gRED）负责人阿维夫・雷格夫（Aviv Regev）的报告《用实验室闭环变革药物研发》。罗氏开发了靶点评估智能体 TargetNexus，从靶点生物学、药物发现、临床与组合三个层面、11 个维度审视候选靶点，目标是在今年第四季度前参与 80% 的研究组合决策。为这些能力买单的钱，来自研发体系内部的腾挪：罗氏计划在 2024 年至 2026 年间，把研发效率提升省下的约 19.6 亿瑞士法郎重新分配，其中 4.86 亿瑞士法郎投向实验室闭环和类器官等「未来能力」。",
+      "agent_reason": "属于 AI/大模型/智能体/机器人/算力或核心技术动态，来源为详情页且时间在最近24小时；已剔除搜索壳、广告、非AI与重复事件。",
+      "archive_id": "A20261013-b52e2526d30d",
+      "first_seen_at": "2026-10-13 12:07:24",
+      "last_seen_at": "2026-10-13 12:07:24"
+    },
+    {
+      "资讯标题": "英特尔陈立武预警：AI 硬件还要缺两三年，智能体正改写芯片配比",
+      "发布时间": "2026-10-13 09:13:11",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31578",
+      "desc": "英特尔首席执行官陈立武在新加坡星展银行举办的会议上判断，受技术供应链持续受限拖累，未来两到三年人工智能硬件仍将保持供应紧张。陈立武指出，智能体 AI 的普及正催生对 CPU 而非 GPU 的渴求，这也成了他重振英特尔的抓手：公司二季度数据中心与 AI 部门营收同比大涨 59%，而 AI 训练里「8 块 GPU 配 1 块 CPU」的老黄历，已被智能体拉低到 4 比 1。对于量子计算，陈立武态度乐观，预期未来三到五年走向主流，并重申技术普及的核心在于找准落地场景——这番判断与他上月末通过风投基金披露的重点投资相互印证。",
+      "agent_reason": "属于 AI/大模型/智能体/机器人/算力或核心技术动态，来源为详情页且时间在最近24小时；已剔除搜索壳、广告、非AI与重复事件。",
+      "archive_id": "A20261013-86949c26daa6",
+      "first_seen_at": "2026-10-13 12:07:24",
+      "last_seen_at": "2026-10-13 12:07:24"
+    },
+    {
+      "资讯标题": "微软发布第三代自研 AI 芯片 Maia300，计划 2027 年投产",
+      "发布时间": "2026-10-13 09:10:35",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31577",
+      "desc": "微软计划自 2027 年起，将 Azure Maia 系列部署规模扩展至数千亿瓦级，逐步提高自研芯片在内部 AI 基础设施中的应用比例。Maia200 已用于微软 Copilot、GitHub Copilot、Microsoft Foundry 及微软自研 AI 模型等生产级 AI 工作负载。Guthrie 称，Maia200 目前是微软芯片集群中按 AI 服务实际指标衡量表现最好的基础设施之一，而 Maia300 将进一步适配新一代 AI 应用需求。",
+      "agent_reason": "属于 AI/大模型/智能体/机器人/算力或核心技术动态，来源为详情页且时间在最近24小时；已剔除搜索壳、广告、非AI与重复事件。",
+      "archive_id": "A20261013-f88a8ec87952",
+      "first_seen_at": "2026-10-13 12:07:24",
+      "last_seen_at": "2026-10-13 12:07:24"
+    },
+    {
+      "资讯标题": "3个月烧掉5000亿Token，AI把《现代战争2》源代码「复刻」了83%",
+      "发布时间": "2026-10-13 09:09:10",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31576",
+      "desc": "开发者莫里斯·霍伊曼于10月9日公布项目报告：他的团队耗时三个月、消耗超过5000亿词元的算力，调动AI智能体把2009年《使命召唤：现代战争2》反编译，并重建成C++源码。最初，团队在Claude Code与Codex两套命令行里并行跑智能体，模型覆盖Sonnet 5、Opus 5.5、Luna、Sol、Terra，任务靠GitHub Issues派发、进度在Discord里同步。首月只摆了4个智能体，三个专职拆解提交、一个负责审查，虽让游戏能启动、出菜单、载入地图，也啃下约80%的函数，但生成的代码只是「读得懂」，函数签名、类型乃至逻辑仍藏着语义错漏。",
+      "agent_reason": "属于 AI/大模型/智能体/机器人/算力或核心技术动态，来源为详情页且时间在最近24小时；已剔除搜索壳、广告、非AI与重复事件。",
+      "archive_id": "A20261013-f4095cc2b47e",
+      "first_seen_at": "2026-10-13 12:07:24",
+      "last_seen_at": "2026-10-13 12:07:24"
+    },
+    {
+      "资讯标题": "阿里千问推出 Personal Agent「千问Go」办事类 Agent 落地真实 App",
+      "发布时间": "2026-10-13 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31586",
+      "desc": "阿里千问推出 Personal Agent「千问Go」办事类 Agent 落地真实 App \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t",
+      "agent_reason": "属于 AI/大模型/智能体/机器人/算力或核心技术动态，来源为详情页且时间在最近24小时；已剔除搜索壳、广告、非AI与重复事件。",
+      "archive_id": "A20261013-2a0b9173a7d6",
+      "first_seen_at": "2026-10-13 12:07:24",
+      "last_seen_at": "2026-10-13 12:07:24"
+    },
+    {
+      "资讯标题": "谷歌Gemini正在开发“Shop this”新功能 支持跨应用一键识别与购物对比",
+      "发布时间": "2026-10-13 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31583",
+      "desc": "谷歌Gemini正在开发“Shop this”新功能 支持跨应用一键识别与购物对比 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedi",
+      "agent_reason": "属于 AI/大模型/智能体/机器人/算力或核心技术动态，来源为详情页且时间在最近24小时；已剔除搜索壳、广告、非AI与重复事件。",
+      "archive_id": "A20261013-ab7a6c3f3a76",
+      "first_seen_at": "2026-10-13 12:07:24",
+      "last_seen_at": "2026-10-13 12:07:24"
+    },
+    {
+      "资讯标题": "从模型能力到安全边界，字节 Seed 组建新部门应对前沿AI风险",
+      "发布时间": "2026-10-13 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31592",
+      "desc": "从模型能力到安全边界，字节 Seed 组建新部门应对前沿AI风险 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"",
+      "agent_reason": "属于 AI/大模型/智能体/机器人/算力或核心技术动态，来源为详情页且时间在最近24小时；已剔除搜索壳、广告、非AI与重复事件。",
+      "archive_id": "A20261013-81de693f4f97",
+      "first_seen_at": "2026-10-13 12:07:24",
+      "last_seen_at": "2026-10-13 12:07:24"
+    },
+    {
+      "资讯标题": "亚马逊欲以约 70 亿美元收购 Decart，此前 两大巨头收购谈判均已告吹",
+      "发布时间": "2026-10-13 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31582",
+      "desc": "亚马逊欲以约 70 亿美元收购 Decart，此前 两大巨头收购谈判均已告吹 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchM",
+      "agent_reason": "属于 AI/大模型/智能体/机器人/算力或核心技术动态，来源为详情页且时间在最近24小时；已剔除搜索壳、广告、非AI与重复事件。",
+      "archive_id": "A20261013-5795508459be",
+      "first_seen_at": "2026-10-13 12:07:24",
+      "last_seen_at": "2026-10-13 12:07:24"
+    },
+    {
+      "资讯标题": "MiniMax入驻天猫，首家官方旗舰店上线M Plan订阅套餐",
+      "发布时间": "2026-10-13 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31589",
+      "desc": "MiniMax入驻天猫，首家官方旗舰店上线M Plan订阅套餐 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(p",
+      "agent_reason": "属于 AI/大模型/智能体/机器人/算力或核心技术动态，来源为详情页且时间在最近24小时；已剔除搜索壳、广告、非AI与重复事件。",
+      "archive_id": "A20261013-8c13c6e0a943",
+      "first_seen_at": "2026-10-13 12:07:24",
+      "last_seen_at": "2026-10-13 12:07:24"
+    },
+    {
+      "资讯标题": "Meta 发 Muse Wonder 叫板 Anthropic 与 OpenAI，扎克伯格边烤肉边剧透\"大西瓜\"",
+      "发布时间": "2026-10-13 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31584",
+      "desc": "Meta 发 Muse Wonder 叫板 Anthropic 与 OpenAI，扎克伯格边烤肉边剧透\"大西瓜\" \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}f",
+      "agent_reason": "属于 AI/大模型/智能体/机器人/算力或核心技术动态，来源为详情页且时间在最近24小时；已剔除搜索壳、广告、非AI与重复事件。",
+      "archive_id": "A20261013-c2f311e355da",
+      "first_seen_at": "2026-10-13 12:07:24",
+      "last_seen_at": "2026-10-13 12:07:24"
+    },
     {
       "资讯标题": "高利率如何冲击 AI 融资？",
       "发布时间": "2026-10-13 08:48:18",
@@ -143,7 +347,18 @@
       "agent_reason": "具身智能机器人产业展示与应用进展",
       "archive_id": "A20261013-6e72cff7edaf",
       "first_seen_at": "2026-10-13 08:59:13",
-      "last_seen_at": "2026-10-13 08:59:13"
+      "last_seen_at": "2026-10-13 12:07:24"
+    },
+    {
+      "资讯标题": "AI从「造图」卷到「造世界」，这次真有点科幻了。。。",
+      "发布时间": "2026-10-12 16:08:05",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/502701.html",
+      "desc": "从画出一个世界，到让整个世界「活」过来",
+      "agent_reason": "属于 AI/大模型/智能体/机器人/算力或核心技术动态，来源为详情页且时间在最近24小时；已剔除搜索壳、广告、非AI与重复事件。",
+      "archive_id": "A20261013-fd047df308d8",
+      "first_seen_at": "2026-10-13 12:07:24",
+      "last_seen_at": "2026-10-13 12:07:24"
     },
     {
       "资讯标题": "刚刚，GPT-6 Astra联手非职业数学家，证明57年「摆圆」 难题",
@@ -154,7 +369,7 @@
       "agent_reason": "GPT-6 Astra 辅助数学证明的模型能力案例",
       "archive_id": "A20261013-0c9caadf0e7b",
       "first_seen_at": "2026-10-13 08:59:13",
-      "last_seen_at": "2026-10-13 08:59:13"
+      "last_seen_at": "2026-10-13 12:07:24"
     },
     {
       "资讯标题": "华为AI靠RSI通关25款游戏！操作次数比人类少56%",
@@ -165,7 +380,7 @@
       "agent_reason": "华为 AI 智能体游戏操作与推理效率测试",
       "archive_id": "A20261013-dd2dec0afb23",
       "first_seen_at": "2026-10-13 08:59:13",
-      "last_seen_at": "2026-10-13 08:59:13"
+      "last_seen_at": "2026-10-13 12:07:24"
     },
     {
       "资讯标题": "智谱新模型，490 tokens/s！",

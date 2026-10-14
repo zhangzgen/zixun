@@ -2,8 +2,8 @@
   "version": 1,
   "date": "2026-10-14",
   "timezone": "Asia/Shanghai",
-  "updated_at": "2026-10-14 12:04:08",
-  "item_count": 35,
+  "updated_at": "2026-10-14 15:11:50",
+  "item_count": 45,
   "runs": [
     {
       "collected_at": "2026-10-14 09:07:42",
@@ -38,9 +38,103 @@
         "今日头条/Tophub": "ok:50",
         "Readhub": "ok:10"
       }
+    },
+    {
+      "collected_at": "2026-10-14 15:11:50",
+      "input_count": 10,
+      "added_count": 10,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "基于完整候选及当日归档进行语义去重，保留 AI/大模型/智能体/机器人/算力核心技术与头部公司动态；剔除重复、宣传、字段不完整或非详情页内容。",
+      "source_status": {
+        "量子位": "ok:10",
+        "新智元": "ok:0; browser未发现可用新详情",
+        "AIBase": "ok:12",
+        "新华网科技": "ok:0; browser频道有当日条目但无可核验精确时间/详情链接",
+        "机器之心": "ok:0; HTML fallback无当日可用详情",
+        "今日头条/Tophub": "error:<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>; browser补充未完成",
+        "Readhub": "ok:10"
+      }
     }
   ],
   "items": [
+    {
+      "资讯标题": "STEPX首款大模型原生智能体手机STEPX Neo正式发布",
+      "发布时间": "2026-10-14 14:45:38",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/503201.html",
+      "desc": "2026年10月13日，大模型原生AI终端品牌STEPX（阶跃终端）旗下首款大模型原生智能体手机STEPX Neo正式发布",
+      "agent_reason": "STEPX Neo 大模型原生智能体手机正式发布，属于端侧 AI 与智能体产品动态。",
+      "archive_id": "A20261014-97691530f1e0",
+      "first_seen_at": "2026-10-14 15:11:50",
+      "last_seen_at": "2026-10-14 15:11:50"
+    },
+    {
+      "资讯标题": "测试显示四大 AI 购物助手 86% 查询存在事实冲突，比价类高达 97%",
+      "发布时间": "2026-10-14 14:31:09",
+      "来源": "Readhub",
+      "超链接": "https://www.amz123.com/kx/ZZEr6mea",
+      "desc": "一项针对 ChatGPT、Gemini、Claude 与 Perplexity 四大 AI 平台的购物类测试显示，86% 的购物查询在不同回答之间出现了至少一处经证实的事实冲突，涵盖价格相互矛盾、参数不一致，以及将已迭代换代的产品标注为在售等问题。本次测试向四款模型的免费及付费版本各提交 220 个购物问题，每个问题重复提问 5 次，共计收集 8794 条回答。两款产品比价类问题的冲突率高达 97%，单品推荐类为 89%，价格类为 87%，参数与事实信息类为 75%。",
+      "agent_reason": "AI 购物助手事实冲突测试显示高风险，涉及模型可靠性与智能体应用评估。",
+      "archive_id": "A20261014-ee608f40e8f1",
+      "first_seen_at": "2026-10-14 15:11:50",
+      "last_seen_at": "2026-10-14 15:11:50"
+    },
+    {
+      "资讯标题": "MemSilicon完成国际首款高密度、大容量1T4R 1Gb RRAM芯片流片",
+      "发布时间": "2026-10-14 14:24:00",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/503198.html",
+      "desc": "CMOS标准工艺兼容的1TnR技术路线加速研发。",
+      "agent_reason": "高密度大容量 RRAM 芯片流片，属于 AI 算力与存储核心硬件进展。",
+      "archive_id": "A20261014-065f5356e976",
+      "first_seen_at": "2026-10-14 15:11:50",
+      "last_seen_at": "2026-10-14 15:11:50"
+    },
+    {
+      "资讯标题": "From Enterprise to Earthshot: UK’s Ecosystem Moves From Ambition to Application With NVIDIA",
+      "发布时间": "2026-10-14 14:04:15",
+      "来源": "Readhub",
+      "超链接": "https://blogs.nvidia.com/blog/uk-ecosystem-deployment",
+      "desc": "NVIDIA is partnering with the Earthshot Prize as a Global Alliance Founding Partner to bring compute and technical expertise to innovators working on climate and sustainability solutions. In energy, Fuse Energy is moving its customer AI onto its own in-house infrastructure built on NVIDIA B300 Blackwell Ultra, delivering faster, more responsive support to over 450,000 U.K. customers. Apian, SYNLAB and NVIDIA are teaming up to use advanced computing and digital simulations with NVIDIA Cosmos to help hospital robots handle the heavy lifting of moving lab samples, freeing up medical staff to focus on patient care.",
+      "agent_reason": "NVIDIA 在英国推进 AI 生态部署，涉及头部公司与 AI 基础设施应用。",
+      "archive_id": "A20261014-07ac7e56c4db",
+      "first_seen_at": "2026-10-14 15:11:50",
+      "last_seen_at": "2026-10-14 15:11:50"
+    },
+    {
+      "资讯标题": "European Cities Deploy NVIDIA-Powered AI Agents to Run Smarter Urban Operations",
+      "发布时间": "2026-10-14 14:00:28",
+      "来源": "Readhub",
+      "超链接": "https://blogs.nvidia.com/blog/european-cities-agents-urban-operations",
+      "desc": "Across the EMEA region, cities and local software, infrastructure and integration partners are using NVIDIA accelerated computing to build physical AI agents and digital twins that help teams make those decisions ... For European cities, scaling from pilots to everyday operations requires infrastructure that can process local data, customize models and run AI agents ... Learn how NVIDIA and its ecosystem are bringing physical AI, agentic AI and local AI factories to cities worldwide at Smart City Expo World Congress, running Nov.",
+      "agent_reason": "NVIDIA-powered AI agents 在欧洲城市落地，属于智能体规模化应用案例。",
+      "archive_id": "A20261014-51408f953358",
+      "first_seen_at": "2026-10-14 15:11:50",
+      "last_seen_at": "2026-10-14 15:11:50"
+    },
+    {
+      "资讯标题": "国内最年轻AI教授创业：要让世界模型走向全身全模态",
+      "发布时间": "2026-10-14 12:51:32",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/503172.html",
+      "desc": "给Ego补上缺失的交互信息",
+      "agent_reason": "国内团队推进世界模型与全身全模态研究，属于具身智能核心技术动态。",
+      "archive_id": "A20261014-805c259d7b6a",
+      "first_seen_at": "2026-10-14 15:11:50",
+      "last_seen_at": "2026-10-14 15:11:50"
+    },
+    {
+      "资讯标题": "调度效率提升80%！商汤大装置助力上海量子城市首批智能体落地",
+      "发布时间": "2026-10-14 12:09:29",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/503173.html",
+      "desc": "从“懂空间”到“能干活”",
+      "agent_reason": "商汤大装置助力城市智能体落地，属于城市 AI 与智能体应用进展。",
+      "archive_id": "A20261014-cfda48beeb24",
+      "first_seen_at": "2026-10-14 15:11:50",
+      "last_seen_at": "2026-10-14 15:11:50"
+    },
     {
       "资讯标题": "响应速度比Claude Code快3倍，实现真正无限上下文！APUS AI开源Reflex Agent",
       "发布时间": "2026-10-14 11:32:48",
@@ -95,6 +189,17 @@
       "archive_id": "A20261014-6e54f8b2d4c3",
       "first_seen_at": "2026-10-14 12:04:08",
       "last_seen_at": "2026-10-14 12:04:08"
+    },
+    {
+      "资讯标题": "宾大茅佳源：从单次演示到 83% 真机泛化，破解具身智能数据困局｜IROS 2026",
+      "发布时间": "2026-10-14 10:35:00",
+      "来源": "Readhub",
+      "超链接": "https://www.leiphone.com/category/private/x6DMLw9up0rlycKH.html",
+      "desc": "基于无监督特征学习与策略学习的代表性方法，哪怕在 10 万个合成水杯数据上训练，单次演示泛化成功率也仅有 42%。在 RAPID 架构中，技能学习被转化为由编程智能体与物理校验器构成的闭环编程循环：1. 演示解析与原语拆解：从单次演示中提取动作，自动切分为推、翻转、支点旋转、抓取等基础操作原语。在涵盖书架、隔板等场景的 8 个复杂非抓取真机任务中（灵活组合了推、翻、压移、支点、倾倒、抓取等原语），RAPID 仅凭单次人类演示，便展现出极高的鲁棒性与泛化求解能力。",
+      "agent_reason": "IROS 2026 具身智能真机泛化研究，涉及机器人数据与泛化能力。",
+      "archive_id": "A20261014-63346f030ecc",
+      "first_seen_at": "2026-10-14 15:11:50",
+      "last_seen_at": "2026-10-14 15:11:50"
     },
     {
       "资讯标题": "告别资料散落，让知识持续积累：openJiuwen首发个人知识空间，重塑个人办公智能体新体验！",
@@ -163,6 +268,17 @@
       "last_seen_at": "2026-10-14 09:07:42"
     },
     {
+      "资讯标题": "德国警方没收涉案人形机器人:两名青少年涉嫌利用机器人直播骚扰少女被查",
+      "发布时间": "2026-10-14 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31636",
+      "desc": "德国警方没收涉案人形机器人:两名青少年涉嫌利用机器人直播骚扰少女被查 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color-scheme\"+",
+      "agent_reason": "涉案人形机器人被警方查扣，属于机器人应用与治理事件。",
+      "archive_id": "A20261014-c652161338da",
+      "first_seen_at": "2026-10-14 15:11:50",
+      "last_seen_at": "2026-10-14 15:11:50"
+    },
+    {
       "资讯标题": "德勤调查：过半英国大企业一年内部署 AI 替人，青年失业创十余年新高",
       "发布时间": "2026-10-14 09:00:00",
       "来源": "AIBase",
@@ -172,6 +288,17 @@
       "archive_id": "A20261014-17251f63043d",
       "first_seen_at": "2026-10-14 09:07:42",
       "last_seen_at": "2026-10-14 09:07:42"
+    },
+    {
+      "资讯标题": "多款 iPhone 新增 AI 大模型备案编号，通义千问等现身",
+      "发布时间": "2026-10-14 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31637",
+      "desc": "多款 iPhone 新增 AI 大模型备案编号，通义千问等现身 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-c",
+      "agent_reason": "国行 iPhone 新增多项 AI 大模型备案编号，属于 AI 合规与头部公司动态。",
+      "archive_id": "A20261014-3900fb942296",
+      "first_seen_at": "2026-10-14 15:11:50",
+      "last_seen_at": "2026-10-14 15:11:50"
     },
     {
       "资讯标题": "Siri AI 全面进驻智能家居:苹果连发四款重磅新品，开启客厅生态新纪元",

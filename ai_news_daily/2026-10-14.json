@@ -2,8 +2,8 @@
   "version": 1,
   "date": "2026-10-14",
   "timezone": "Asia/Shanghai",
-  "updated_at": "2026-10-14 15:11:50",
-  "item_count": 45,
+  "updated_at": "2026-10-14 18:07:20",
+  "item_count": 54,
   "runs": [
     {
       "collected_at": "2026-10-14 09:07:42",
@@ -55,9 +55,92 @@
         "今日头条/Tophub": "error:<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>; browser补充未完成",
         "Readhub": "ok:10"
       }
+    },
+    {
+      "collected_at": "2026-10-14 18:07:20",
+      "input_count": 12,
+      "added_count": 9,
+      "updated_count": 0,
+      "skipped_duplicate_count": 3,
+      "selection_reason": "完整审阅本轮候选及当日已有归档；剔除 TopHub 非 AI/搜索壳、重复事件、字段不完整和默认时间摘要，仅保留具备 AI、智能体、机器人、算力、核心技术或政策存档价值的详情页资讯。",
+      "source_status": {
+        "量子位": "ok:10",
+        "新智元": "ok:0",
+        "AIBase": "ok:12",
+        "新华网科技": "ok:0",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
     }
   ],
   "items": [
+    {
+      "资讯标题": "开放 AI 模型究竟是福是祸？一场关于安全与权力的争论",
+      "发布时间": "2026-10-14 17:52:26",
+      "来源": "Readhub",
+      "超链接": "https://www.mittrchina.com/news/detail/17094",
+      "desc": "Anthropic 的这一判断，只是围绕前沿 AI 模型是否应该开放的长期争论中的最新一幕：这些模型究竟应该像 GLM-5.3 一样向公众开放，还是应该继续由少数顶尖 AI 实验室严格控制。在全面禁止开放模型和毫无限制地发布模型之间，其实还有很多不同的选择。这类模型有时也被称为「开放权重模型」（open-weight models），以便与开放程度更高的模型区分开来。",
+      "agent_reason": "前沿开放模型安全与治理的重要行业争论",
+      "archive_id": "A20261014-64f1d64baf19",
+      "first_seen_at": "2026-10-14 18:07:20",
+      "last_seen_at": "2026-10-14 18:07:20"
+    },
+    {
+      "资讯标题": "AI 做出的科学发现，谁来证明它是对的？",
+      "发布时间": "2026-10-14 16:31:31",
+      "来源": "Readhub",
+      "超链接": "https://www.mittrchina.com/news/detail/17093",
+      "desc": "在「下一代科学发现」专题论坛上，几场报告分别从科研基础设施、生物工程、药物研发和科学成像等角度，讨论 AI 如何进入科研的各个环节。论坛最后的圆桌以「模型结果如何成为可信科学证据——跨学科验证、复现与适用边界」为主题，将讨论收束至一个核心追问：当 AI 给出一个看上去很有价值的结果，它要经过怎样的检验，才能成为可信、可复用的科学证据。要证明它做出了科学发现，至少还需要三样东西：「独立」「前瞻」「外推」——由独立于开发者的一方完成验证。",
+      "agent_reason": "AI 科学发现的验证与可信性方法",
+      "archive_id": "A20261014-d590cc87bb72",
+      "first_seen_at": "2026-10-14 18:07:20",
+      "last_seen_at": "2026-10-14 18:07:20"
+    },
+    {
+      "资讯标题": "AI 短剧日产 1500 部：一场全员狂飙下的「无人生还」",
+      "发布时间": "2026-10-14 15:42:00",
+      "来源": "Readhub",
+      "超链接": "https://www.leiphone.com/category/ai/M7t0xBzr6K3vaFwi.html",
+      "desc": "眼下，AI 短剧日上线量已突破 1500 部，制作成本从真人剧的几十上百万压缩到五万以内，大批团队仍在涌入赛道。真人短剧粗制滥造一点三四十万就能拍出来，精品剧的制作费得一百万到一百五十万左右，但现在一部 AI 短剧的总投入五万就能搞定。规则确实在变，今年 4 月，红果率先下调 AI 漫剧基础分账系数：AI 仿真人分账系数从 60 下调至 40，3D 漫剧从 50 下调至 40，同时取消中小团队 AI 仿真人剧本普惠保底。",
+      "agent_reason": "AI 短剧规模化生产与产业影响",
+      "archive_id": "A20261014-9c45c307b98a",
+      "first_seen_at": "2026-10-14 18:07:20",
+      "last_seen_at": "2026-10-14 18:07:20"
+    },
+    {
+      "资讯标题": "《变形计》综艺赛博复活，AI版MrBeast爆火，LibTV下场「造星」了",
+      "发布时间": "2026-10-14 15:03:44",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/503211.html",
+      "desc": "从创意到成本，AI正在重写综艺的生产逻辑",
+      "agent_reason": "生成式 AI 重塑综艺内容生产",
+      "archive_id": "A20261014-a51d21f583ee",
+      "first_seen_at": "2026-10-14 18:07:20",
+      "last_seen_at": "2026-10-14 18:07:20"
+    },
+    {
+      "资讯标题": "推理快，交付慢：「全球最大 AI 芯片」Cerebras 的商业化考验",
+      "发布时间": "2026-10-14 15:02:08",
+      "来源": "Readhub",
+      "超链接": "https://www.mittrchina.com/news/detail/17092",
+      "desc": "大家关心的其实是背后的硬核技术变化。随着 AI 能帮你写作业、画画，AI 算力消耗重心正从训练模型慢慢转移到日常的推理应用上，专用大芯片路线与通用计算生态也走到了模式抉择的分水岭。这些真金白银的账单证明了 AI 推理服务的市场需求，专用架构确实开始从传统的芯片服务市场里分走了一块蛋糕，拿到了可以核对的实际收入。Cerebras 选择了一条非常独特的路线，他们把整张晶圆直接做成了一块巨大的芯片，让计算核心和内存靠得极近，大大缩短了数据搬运的距离，非常适合处理对响应速度要求极高的高并发推理任务。",
+      "agent_reason": "AI 推理芯片 Cerebras 商业化与算力基础设施",
+      "archive_id": "A20261014-0d750dd8aa30",
+      "first_seen_at": "2026-10-14 18:07:20",
+      "last_seen_at": "2026-10-14 18:07:20"
+    },
+    {
+      "资讯标题": "Hugging Face 发布生物学 AI 模型，一口气预测出 5.66 亿个基因位点，预言 2027 年将成「生物之年」",
+      "发布时间": "2026-10-14 14:58:53",
+      "来源": "Readhub",
+      "超链接": "https://www.mittrchina.com/news/detail/17091",
+      "desc": "与闭源模型对 AI 辅助生物探索的收紧相反，10 月初，开源模型托管平台 Hugging Face 的生物研究团队 HuggingFaceBio 发布开源基因注释模型 Carbon-A，并公开了用它生成的 Carbon 注释数据库（CADB）。作为对照，CADB 的分类单元数约为其训练数据集、美国国家生物技术信息中心参考序列数据库（NCBI RefSeq）的 11 倍，序列量是后者约 9 倍，预测出的基因候选数约为 RefSeq 基因注释总数的 16 倍。Hugging Face 在发布博客中写道，主流的 AI 实验室正在把生物学当作继网络安全和数学之后的下一个前沿，「我们认为，2027 年将是属于生物的一年」。",
+      "agent_reason": "开源生物学模型与 AI for Science 进展",
+      "archive_id": "A20261014-833e1a20ef07",
+      "first_seen_at": "2026-10-14 18:07:20",
+      "last_seen_at": "2026-10-14 18:07:20"
+    },
     {
       "资讯标题": "STEPX首款大模型原生智能体手机STEPX Neo正式发布",
       "发布时间": "2026-10-14 14:45:38",
@@ -79,6 +162,17 @@
       "archive_id": "A20261014-ee608f40e8f1",
       "first_seen_at": "2026-10-14 15:11:50",
       "last_seen_at": "2026-10-14 15:11:50"
+    },
+    {
+      "资讯标题": "豆包工作上线新功能，支持跨 AI 产品一键导入已有配置",
+      "发布时间": "2026-10-14 14:27:00",
+      "来源": "Readhub",
+      "超链接": "https://www.leiphone.com/category/industrynews/x7Ukz8feAE9FBQsy.html",
+      "desc": "豆包工作持续更新，上线「数据导入与同步」功能，支持从 ChatGPT、Claude Code、TraeWork 等已适配产品一键导入存储在本地的任务偏好指令、技能、连接器、工作记忆、项目和历史会话等内容，并推出「在新对话中继续」、消息注释和对话摘要侧栏等能力，进一步优化工作任务中的对话体验。用户换用豆包工作时，可沿用已有的工作偏好与资料，减少重复配置和重新交代背景。",
+      "agent_reason": "AI 办公产品跨平台配置迁移能力更新",
+      "archive_id": "A20261014-ce6ca9699213",
+      "first_seen_at": "2026-10-14 18:07:20",
+      "last_seen_at": "2026-10-14 18:07:20"
     },
     {
       "资讯标题": "MemSilicon完成国际首款高密度、大容量1T4R 1Gb RRAM芯片流片",
@@ -122,7 +216,7 @@
       "agent_reason": "国内团队推进世界模型与全身全模态研究，属于具身智能核心技术动态。",
       "archive_id": "A20261014-805c259d7b6a",
       "first_seen_at": "2026-10-14 15:11:50",
-      "last_seen_at": "2026-10-14 15:11:50"
+      "last_seen_at": "2026-10-14 18:07:20"
     },
     {
       "资讯标题": "调度效率提升80%！商汤大装置助力上海量子城市首批智能体落地",
@@ -133,7 +227,7 @@
       "agent_reason": "商汤大装置助力城市智能体落地，属于城市 AI 与智能体应用进展。",
       "archive_id": "A20261014-cfda48beeb24",
       "first_seen_at": "2026-10-14 15:11:50",
-      "last_seen_at": "2026-10-14 15:11:50"
+      "last_seen_at": "2026-10-14 18:07:20"
     },
     {
       "资讯标题": "响应速度比Claude Code快3倍，实现真正无限上下文！APUS AI开源Reflex Agent",
@@ -144,7 +238,7 @@
       "agent_reason": "开源 Agent 框架与上下文能力更新，属于智能体技术动态。",
       "archive_id": "A20261014-ece85599f868",
       "first_seen_at": "2026-10-14 12:04:08",
-      "last_seen_at": "2026-10-14 12:04:08"
+      "last_seen_at": "2026-10-14 18:07:20"
     },
     {
       "资讯标题": "Google DeepMind 发布 Gemini 4 Argon：单次输出上限提升至百万 Token，专攻长周期任务",
@@ -301,6 +395,17 @@
       "last_seen_at": "2026-10-14 15:11:50"
     },
     {
+      "资讯标题": "全国网络辟谣：教师\"禁用 AI 备课\"是误读，政策本意是\"鼓励用、不滥用\"",
+      "发布时间": "2026-10-14 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31644",
+      "desc": "全国网络辟谣：教师\"禁用 AI 备课\"是误读，政策本意是\"鼓励用、不滥用\" \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(",
+      "agent_reason": "AI 教育使用政策与公共治理澄清",
+      "archive_id": "A20261014-c2a071777f95",
+      "first_seen_at": "2026-10-14 18:07:20",
+      "last_seen_at": "2026-10-14 18:07:20"
+    },
+    {
       "资讯标题": "Siri AI 全面进驻智能家居:苹果连发四款重磅新品，开启客厅生态新纪元",
       "发布时间": "2026-10-14 09:00:00",
       "来源": "AIBase",
@@ -376,6 +481,17 @@
       "archive_id": "A20261014-19d6d5a88453",
       "first_seen_at": "2026-10-14 09:07:42",
       "last_seen_at": "2026-10-14 09:07:42"
+    },
+    {
+      "资讯标题": "The EU's next chapter in AI is agentic",
+      "发布时间": "2026-10-14 08:00:00",
+      "来源": "Readhub",
+      "超链接": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+      "desc": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
+      "agent_reason": "欧盟企业智能体 AI 应用趋势分析",
+      "archive_id": "A20261014-200a5d3dd39c",
+      "first_seen_at": "2026-10-14 18:07:20",
+      "last_seen_at": "2026-10-14 18:07:20"
     },
     {
       "资讯标题": "微软新增逾 1300 亿美元数据中心租约，计划将算力扩大逾两倍",

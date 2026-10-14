@@ -2,8 +2,8 @@
   "version": 1,
   "date": "2026-10-14",
   "timezone": "Asia/Shanghai",
-  "updated_at": "2026-10-14 09:07:42",
-  "item_count": 21,
+  "updated_at": "2026-10-14 12:04:08",
+  "item_count": 35,
   "runs": [
     {
       "collected_at": "2026-10-14 09:07:42",
@@ -21,9 +21,114 @@
         "今日头条/Tophub": "ok:50",
         "Readhub": "ok:10"
       }
+    },
+    {
+      "collected_at": "2026-10-14 12:04:08",
+      "input_count": 14,
+      "added_count": 14,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "本轮保留具备存档价值的 AI、大模型、智能体、机器人、算力、核心技术及头部公司动态；剔除非 AI、TopHub 搜索壳、推广/导航、字段不完整和当日重复事件，并按语义选择信息更完整的详情页。",
+      "source_status": {
+        "量子位": "ok:10",
+        "新智元": "ok:0",
+        "AIBase": "ok:12",
+        "新华网科技": "ok:0",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
     }
   ],
   "items": [
+    {
+      "资讯标题": "响应速度比Claude Code快3倍，实现真正无限上下文！APUS AI开源Reflex Agent",
+      "发布时间": "2026-10-14 11:32:48",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/503165.html",
+      "desc": "10月13日，APUS AI（麒麟合盛网络技术股份有限公司）宣布开源Personal Agent产品Reflex Agent",
+      "agent_reason": "开源 Agent 框架与上下文能力更新，属于智能体技术动态。",
+      "archive_id": "A20261014-ece85599f868",
+      "first_seen_at": "2026-10-14 12:04:08",
+      "last_seen_at": "2026-10-14 12:04:08"
+    },
+    {
+      "资讯标题": "Google DeepMind 发布 Gemini 4 Argon：单次输出上限提升至百万 Token，专攻长周期任务",
+      "发布时间": "2026-10-14 11:26:13",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31634",
+      "desc": "Google DeepMind 于 9 月 30 日推出新一代前沿模型 Gemini 4 Argon，最显著的改动是输出上限从原先的 64K 提升至 100 万 Token——这是单次生成长度，而非上下文窗口。目前大多数前沿模型的输出上限约为 12.8 万 Token，Argon 的这一提升堪称断层式跨越。",
+      "agent_reason": "Google DeepMind 新模型与百万 Token 长周期任务能力，属于头部模型发布。",
+      "archive_id": "A20261014-92bbecb6db64",
+      "first_seen_at": "2026-10-14 12:04:08",
+      "last_seen_at": "2026-10-14 12:04:08"
+    },
+    {
+      "资讯标题": "STEPX 首款大模型原生智能体手机 Neo 登场，售价 3999 元起",
+      "发布时间": "2026-10-14 11:05:28",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31633",
+      "desc": "大模型原生 AI 终端品牌 STEPX（阶跃终端）在上海召开主题发布会，正式发布旗下首款大模型原生智能体手机 STEPX Neo。系统与模型架构上，STEPX Neo 搭载首个从零打造的智能体原生操作系统 Step AOS1.0，底层融合长期记忆、任务调度与「可信、可见、可控、可逆」的安全架构，划分「用户域」与「智能体域」双域记忆。商务与售价方面，STEPX Neo 先行版采用「软硬模」全栈定价，售价 3999 元（提供碳黑、硅银两种配色），购机即赠连续 12 个月、每月百亿 Token 的使用额度。",
+      "agent_reason": "大模型原生智能体手机产品发布，涉及端侧智能体落地。",
+      "archive_id": "A20261014-3a604b54e95f",
+      "first_seen_at": "2026-10-14 12:04:08",
+      "last_seen_at": "2026-10-14 12:04:08"
+    },
+    {
+      "资讯标题": "腾讯 WorkBuddy 与企业微信深度融合：AI 同事进入通讯录，群聊勾选即成任务",
+      "发布时间": "2026-10-14 10:54:37",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31632",
+      "desc": "腾讯 WorkBuddy 宣布与企业微信完成深度融合，WorkBuddy 客户端可在企业授权范围内调用消息、文档、会议、微盘等十大能力，并以对话机器人身份进入企业微信通讯录列表，用户可在聊天中直接下达指令。该能力面向已认证企业开放，需将 WorkBuddy 升级至 5.8.0 及以上、企业微信升级至 5.0.12 及以上版本，由管理员在后台统一领用。在具体能力上，WorkBuddy 可按「需处理 / 值得关注 / 其他」三类归纳企业微信未读消息与未读邮件，并提炼摘要与待办动作。",
+      "agent_reason": "企业微信生态引入 AI 同事任务协作，属于企业智能体产品进展。",
+      "archive_id": "A20261014-b7a9fadd9716",
+      "first_seen_at": "2026-10-14 12:04:08",
+      "last_seen_at": "2026-10-14 12:04:08"
+    },
+    {
+      "资讯标题": "OPPO 牵手 Manus：Find X10 系列首发「会办事」的 AI 智能体",
+      "发布时间": "2026-10-14 10:38:33",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31631",
+      "desc": "OPPO 昨日宣布与 AI 智能体平台 Manus 达成合作，将后者的智能体能力接入自家的 AI Mind Pilot，让手机从「答问题」跨到「办成事」。双方的实际落点，是把 Manus 能力嵌入 AI Mind Pilot 的全新智能体模式，首搭于预装 ColorOS 17 的 OPPO Find X10 系列。由 Manus 撑腰的 AI Mind Pilot，将在 Find X10 系列上率先登场。",
+      "agent_reason": "OPPO 与 Manus 合作推出手机智能体，属于头部公司产品合作。",
+      "archive_id": "A20261014-6e54f8b2d4c3",
+      "first_seen_at": "2026-10-14 12:04:08",
+      "last_seen_at": "2026-10-14 12:04:08"
+    },
+    {
+      "资讯标题": "告别资料散落，让知识持续积累：openJiuwen首发个人知识空间，重塑个人办公智能体新体验！",
+      "发布时间": "2026-10-14 10:14:50",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/503157.html",
+      "desc": "一次采集，反复使用",
+      "agent_reason": "个人知识空间产品与办公智能体能力更新，属于 AI 应用产品。",
+      "archive_id": "A20261014-ddb3c88c5cea",
+      "first_seen_at": "2026-10-14 12:04:08",
+      "last_seen_at": "2026-10-14 12:04:08"
+    },
+    {
+      "资讯标题": "三星将于 11 月发布搭载 Gemini 的 41 克 AI 智能眼镜",
+      "发布时间": "2026-10-14 10:05:11",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31629",
+      "desc": "三星将于 2026 年 11 月正式推出其首款 AI 智能眼镜（可能命名为 Galaxy Glasses）。发售方面，三星与 Gentle Monster 和 Warby Parker 合作推出多款外观设计，并将于 11 月起在美国三星体验店及合作品牌官网发售。当前智能眼镜市场正处于高速增长期，Omdia 数据显示全球年出货量已突破 420 万副，三星的入局将进一步加剧与 Meta 及苹果等科技巨头的市场竞争。",
+      "agent_reason": "搭载 Gemini 的 AI 眼镜产品计划，属于端侧 AI 硬件动态。",
+      "archive_id": "A20261014-049960275247",
+      "first_seen_at": "2026-10-14 12:04:08",
+      "last_seen_at": "2026-10-14 12:04:08"
+    },
+    {
+      "资讯标题": "Google DeepMind and Singapore Government announce new AI tool to protect citizens against scams",
+      "发布时间": "2026-10-14 10:00:14",
+      "来源": "Readhub",
+      "超链接": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi",
+      "desc": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
+      "agent_reason": "Google DeepMind 与新加坡政府发布反诈骗 AI 工具，属于公共安全 AI 应用。",
+      "archive_id": "A20261014-b76b11a1199f",
+      "first_seen_at": "2026-10-14 12:04:08",
+      "last_seen_at": "2026-10-14 12:04:08"
+    },
     {
       "资讯标题": "黄仁勋欧洲撒钱 20 亿美元：拉拢四家法企，喊话\"欧洲必须入场\"",
       "发布时间": "2026-10-14 09:00:00",
@@ -34,6 +139,17 @@
       "archive_id": "A20261014-08bd809bdde3",
       "first_seen_at": "2026-10-14 09:07:42",
       "last_seen_at": "2026-10-14 09:07:42"
+    },
+    {
+      "资讯标题": "豆包手机助手 SAEP 公示期结束:第三方应用屏幕自动化操作权限逐步放开",
+      "发布时间": "2026-10-14 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31630",
+      "desc": "豆包手机助手 SAEP 公示期结束:第三方应用屏幕自动化操作权限逐步放开 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(p",
+      "agent_reason": "豆包手机助手屏幕自动化权限政策变化，涉及智能体代理能力与应用治理。",
+      "archive_id": "A20261014-1436d37671e3",
+      "first_seen_at": "2026-10-14 12:04:08",
+      "last_seen_at": "2026-10-14 12:04:08"
     },
     {
       "资讯标题": "法官下令 OpenAI 在苹果商业秘密案中限期交出招聘记录与面试材料",
@@ -58,6 +174,17 @@
       "last_seen_at": "2026-10-14 09:07:42"
     },
     {
+      "资讯标题": "Siri AI 全面进驻智能家居:苹果连发四款重磅新品，开启客厅生态新纪元",
+      "发布时间": "2026-10-14 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31627",
+      "desc": "Siri AI 全面进驻智能家居:苹果连发四款重磅新品，开启客厅生态新纪元 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color-scheme\"+o+\"",
+      "agent_reason": "苹果将 AI 能力扩展至智能家居产品，属于头部公司产品与平台动态。",
+      "archive_id": "A20261014-c9c9a60887cf",
+      "first_seen_at": "2026-10-14 12:04:08",
+      "last_seen_at": "2026-10-14 12:04:08"
+    },
+    {
       "资讯标题": "OpenAI 沙特籍工程师被捕：藏录音设备偷录高管会，最高判 5 年",
       "发布时间": "2026-10-14 09:00:00",
       "来源": "AIBase",
@@ -67,6 +194,28 @@
       "archive_id": "A20261014-25cf5e30fd80",
       "first_seen_at": "2026-10-14 09:07:42",
       "last_seen_at": "2026-10-14 09:07:42"
+    },
+    {
+      "资讯标题": "OpenAI 拟收购知名安全公司 Trail of Bits，谈判正在进行中",
+      "发布时间": "2026-10-14 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31628",
+      "desc": "OpenAI 拟收购知名安全公司 Trail of Bits，谈判正在进行中 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-co",
+      "agent_reason": "OpenAI 收购安全公司谈判进展，涉及头部公司与 AI 安全生态。",
+      "archive_id": "A20261014-ec2b79d4434a",
+      "first_seen_at": "2026-10-14 12:04:08",
+      "last_seen_at": "2026-10-14 12:04:08"
+    },
+    {
+      "资讯标题": "10 分钟 AI 长视频来了：GPT-6 Astra 接管 Higgsfield，角色场景不再\"串戏\"",
+      "发布时间": "2026-10-14 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31623",
+      "desc": "10 分钟 AI 长视频来了：GPT-6 Astra 接管 Higgsfield，角色场景不再\"串戏\" \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){r",
+      "agent_reason": "AI 长视频生成能力与产品合作进展，属于生成式 AI 产品动态。",
+      "archive_id": "A20261014-fb03faea1c97",
+      "first_seen_at": "2026-10-14 12:04:08",
+      "last_seen_at": "2026-10-14 12:04:08"
     },
     {
       "资讯标题": "Sam Altman 专访：我们和 Anthropic 分歧很大，可以接受坏事但不能接受灾难",
@@ -232,6 +381,28 @@
       "archive_id": "A20261014-c89f79a8ac9f",
       "first_seen_at": "2026-10-14 09:07:42",
       "last_seen_at": "2026-10-14 09:07:42"
+    },
+    {
+      "资讯标题": "9大赛道，23份企业真实考卷！上海具身智能大考，邀千队共解题",
+      "发布时间": "2026-10-13 12:07:04",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/502784.html",
+      "desc": "赢奖金、拿融资、送出海",
+      "agent_reason": "上海具身智能产业大赛与企业评测活动，属于具身智能产业进展。",
+      "archive_id": "A20261014-00775bb63131",
+      "first_seen_at": "2026-10-14 12:04:08",
+      "last_seen_at": "2026-10-14 12:04:08"
+    },
+    {
+      "资讯标题": "退差价、约保养、订球场、跟客服磨赔偿，千问Go什么都想管",
+      "发布时间": "2026-10-13 12:04:22",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/502849.html",
+      "desc": "丢一句话进去，事儿就办完了",
+      "agent_reason": "千问 Go 面向多场景执行任务，属于智能体产品能力更新。",
+      "archive_id": "A20261014-1639928464c0",
+      "first_seen_at": "2026-10-14 12:04:08",
+      "last_seen_at": "2026-10-14 12:04:08"
     },
     {
       "资讯标题": "单轮23亿，累计43亿，无问芯穹刷新国产AI Infra赛道融资双重纪录",

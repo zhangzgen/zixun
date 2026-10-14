@@ -1,0 +1,259 @@
+{
+  "version": 1,
+  "date": "2026-10-14",
+  "timezone": "Asia/Shanghai",
+  "updated_at": "2026-10-14 09:07:42",
+  "item_count": 21,
+  "runs": [
+    {
+      "collected_at": "2026-10-14 09:07:42",
+      "input_count": 21,
+      "added_count": 21,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "本轮保留具备存档价值的 AI、大模型、智能体、机器人、算力、核心技术及头部公司动态；剔除 TopHub 搜索壳、非 AI 内容、推广活动、字段不完整和低价值条目，并按事件语义去重。",
+      "source_status": {
+        "量子位": "ok:10",
+        "新智元": "ok:0",
+        "AIBase": "ok:4",
+        "新华网科技": "ok:0",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
+    }
+  ],
+  "items": [
+    {
+      "资讯标题": "黄仁勋欧洲撒钱 20 亿美元：拉拢四家法企，喊话\"欧洲必须入场\"",
+      "发布时间": "2026-10-14 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31620",
+      "desc": "黄仁勋欧洲撒钱 20 亿美元：拉拢四家法企，喊话\"欧洲必须入场\" \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color-sc",
+      "agent_reason": "AI/大模型/智能体/机器人/算力或头部公司与核心技术动态，字段完整且为详情页；经语义去重后保留。",
+      "archive_id": "A20261014-08bd809bdde3",
+      "first_seen_at": "2026-10-14 09:07:42",
+      "last_seen_at": "2026-10-14 09:07:42"
+    },
+    {
+      "资讯标题": "法官下令 OpenAI 在苹果商业秘密案中限期交出招聘记录与面试材料",
+      "发布时间": "2026-10-14 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31619",
+      "desc": "法官下令 OpenAI 在苹果商业秘密案中限期交出招聘记录与面试材料 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-co",
+      "agent_reason": "AI/大模型/智能体/机器人/算力或头部公司与核心技术动态，字段完整且为详情页；经语义去重后保留。",
+      "archive_id": "A20261014-e6775efc80ce",
+      "first_seen_at": "2026-10-14 09:07:42",
+      "last_seen_at": "2026-10-14 09:07:42"
+    },
+    {
+      "资讯标题": "德勤调查：过半英国大企业一年内部署 AI 替人，青年失业创十余年新高",
+      "发布时间": "2026-10-14 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31621",
+      "desc": "德勤调查：过半英国大企业一年内部署 AI 替人，青年失业创十余年新高 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color-scheme\"+o+\")",
+      "agent_reason": "AI/大模型/智能体/机器人/算力或头部公司与核心技术动态，字段完整且为详情页；经语义去重后保留。",
+      "archive_id": "A20261014-17251f63043d",
+      "first_seen_at": "2026-10-14 09:07:42",
+      "last_seen_at": "2026-10-14 09:07:42"
+    },
+    {
+      "资讯标题": "OpenAI 沙特籍工程师被捕：藏录音设备偷录高管会，最高判 5 年",
+      "发布时间": "2026-10-14 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31618",
+      "desc": "OpenAI 沙特籍工程师被捕：藏录音设备偷录高管会，最高判 5 年 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color",
+      "agent_reason": "AI/大模型/智能体/机器人/算力或头部公司与核心技术动态，字段完整且为详情页；经语义去重后保留。",
+      "archive_id": "A20261014-25cf5e30fd80",
+      "first_seen_at": "2026-10-14 09:07:42",
+      "last_seen_at": "2026-10-14 09:07:42"
+    },
+    {
+      "资讯标题": "Sam Altman 专访：我们和 Anthropic 分歧很大，可以接受坏事但不能接受灾难",
+      "发布时间": "2026-10-14 08:41:22",
+      "来源": "Readhub",
+      "超链接": "https://www.huxiu.com/article/4897309.html?f=rss",
+      "desc": "对话涉及白宫最新的超级智能行政令、与 Anthropic 的路线之争、被叫停的 GPT-6.1 Astra，以及那笔在 OpenAI 内部引发轩然大波的政治献金。为了红利、自由和自主权，社会应当接受有限的、可理解的坏事，但绝不接受毁灭性的灾难风险。Sam Altman 表示：最直接的分歧是，除了处于绝对前沿的模型，我们坚决反对对落后一两代的模型施加测试限制或牌照审查。",
+      "agent_reason": "AI/大模型/智能体/机器人/算力或头部公司与核心技术动态，字段完整且为详情页；经语义去重后保留。",
+      "archive_id": "A20261014-b873b3aee90d",
+      "first_seen_at": "2026-10-14 09:07:42",
+      "last_seen_at": "2026-10-14 09:07:42"
+    },
+    {
+      "资讯标题": "应用材料斥资 50 亿美元建设芯片研发中心，目标将 AI 芯片开发周期缩短一半",
+      "发布时间": "2026-10-14 08:21:56",
+      "来源": "Readhub",
+      "超链接": "https://www.theblockbeats.info/flash/371658",
+      "desc": "全球最大半导体设备制造商应用材料（Applied Materials）正式揭幕 EPIC 半导体研发中心，该项目位于美国加州桑尼维尔，总投资预计达 50 亿美元，旨在加速 AI 时代先进芯片技术创新。应用材料表示，该中心有望将新一代芯片架构从概念研发到商业化的周期，从通常的 10 至 12 年缩短至最快 6 年。该中心主要用于研发而非芯片量产，短期内并不意味着美国芯片制造能力将直接回流，但有望强化硅谷在先进半导体和 AI 芯片领域的竞争力。",
+      "agent_reason": "AI/大模型/智能体/机器人/算力或头部公司与核心技术动态，字段完整且为详情页；经语义去重后保留。",
+      "archive_id": "A20261014-e10b87a0060e",
+      "first_seen_at": "2026-10-14 09:07:42",
+      "last_seen_at": "2026-10-14 09:07:42"
+    },
+    {
+      "资讯标题": "估值翻番至 300 亿美元，自动驾驶软件商 Applied Intuition 跻身 AI 独角兽顶级梯队",
+      "发布时间": "2026-10-14 08:15:49",
+      "来源": "Readhub",
+      "超链接": "https://wallstreetcn.com/articles/3783576",
+      "desc": "自动驾驶软件公司 Applied Intuition 正寻求以至少 300 亿美元估值完成新一轮融资，较其六月份估值翻番，跻身全球顶级 AI 独角兽行列。此次估值跃升也是市场风向转变的缩影——在 OpenAI、Anthropic 等 AI 基础模型公司吸引大量资本关注数年之后，以 AI 为底层驱动的应用层、智能体及垂直软件公司，正越来越多地获得 200 亿美元乃至更高的估值认可。公司的核心定位是自动驾驶软件的「基础设施提供商」，专注于为高级驾驶辅助系统（ADAS）及自动驾驶系统提供开发、测试与验证软件，以及车辆操作系统，而非亲自下场制造或运营自动驾驶汽车。",
+      "agent_reason": "AI/大模型/智能体/机器人/算力或头部公司与核心技术动态，字段完整且为详情页；经语义去重后保留。",
+      "archive_id": "A20261014-19d6d5a88453",
+      "first_seen_at": "2026-10-14 09:07:42",
+      "last_seen_at": "2026-10-14 09:07:42"
+    },
+    {
+      "资讯标题": "微软新增逾 1300 亿美元数据中心租约，计划将算力扩大逾两倍",
+      "发布时间": "2026-10-14 07:56:44",
+      "来源": "Readhub",
+      "超链接": "https://wallstreetcn.com/articles/3783573",
+      "desc": "微软计划将数据中心容量扩大逾两倍，此举有望帮助该公司缓解算力短缺问题。截至 6 月 30 日当季末，该公司尚未启动的租约承诺总额达 3291 亿美元，较上一季度的 1966 亿美元大幅跃升，单季增幅超过 67%，为该公司有史以来最大季度租赁跳升。微软在文件中说明，上述租约「主要」用于数据中心，部分租约「须满足特定合同条件」。",
+      "agent_reason": "AI/大模型/智能体/机器人/算力或头部公司与核心技术动态，字段完整且为详情页；经语义去重后保留。",
+      "archive_id": "A20261014-a1d0f3d789ff",
+      "first_seen_at": "2026-10-14 09:07:42",
+      "last_seen_at": "2026-10-14 09:07:42"
+    },
+    {
+      "资讯标题": "Redesigning source control at Anthropic",
+      "发布时间": "2026-10-14 07:00:06",
+      "来源": "Readhub",
+      "超链接": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic",
+      "desc": "Anthropic describes why and how it built its own custom alternative to Git, driven by a dramatic increase in the rate of code changes over the past six months. The system handles around 25 million code checkouts per day for CI, before counting developer environments, agent sandboxes, and research jobs. Anthropic also makes extensive use of adversarial review, which is highly effective but can be myopic, so skilled engineers are needed to steer Claude away from over-engineering parts of the system in response to hypothetical concerns.",
+      "agent_reason": "AI/大模型/智能体/机器人/算力或头部公司与核心技术动态，字段完整且为详情页；经语义去重后保留。",
+      "archive_id": "A20261014-7e289d45dfc4",
+      "first_seen_at": "2026-10-14 09:07:42",
+      "last_seen_at": "2026-10-14 09:07:42"
+    },
+    {
+      "资讯标题": "llm-gemini 0.35 新增对 Gemini 4 Argon 模型的支持",
+      "发布时间": "2026-10-14 06:28:54",
+      "来源": "Readhub",
+      "超链接": "https://simonwillison.net/2026/Oct/13/llm-gemini",
+      "desc": "我为 llm-gemini 添加了对新 Gemini 4 Argon 模型的支持，该模型今日通过 Gemini API 及每月 100 美元订阅计划向客户开放。发布时，Argon 定价为每百万输入 2 美元、每百万输出 10 美元，与 GPT-6 Sol 相同，是 Claude Opus 5.5 的一半，是 Claude Fable 5.1 和 GPT-6 Astra 的五分之一。12 月 1 日起 Argon 价格将翻倍，届时将与 Opus 5.5 价格相同。",
+      "agent_reason": "AI/大模型/智能体/机器人/算力或头部公司与核心技术动态，字段完整且为详情页；经语义去重后保留。",
+      "archive_id": "A20261014-6451d923eed6",
+      "first_seen_at": "2026-10-14 09:07:42",
+      "last_seen_at": "2026-10-14 09:07:42"
+    },
+    {
+      "资讯标题": "iPhone断网跑35B多模态！国产开源新模型，只占3G内存",
+      "发布时间": "2026-10-14 04:55:15",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/503109.html",
+      "desc": "面壁开源MiniCPM-V 4.7",
+      "agent_reason": "AI/大模型/智能体/机器人/算力或头部公司与核心技术动态，字段完整且为详情页；经语义去重后保留。",
+      "archive_id": "A20261014-dd4e68f3e06e",
+      "first_seen_at": "2026-10-14 09:07:42",
+      "last_seen_at": "2026-10-14 09:07:42"
+    },
+    {
+      "资讯标题": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+      "发布时间": "2026-10-14 01:05:48",
+      "来源": "Readhub",
+      "超链接": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+      "desc": "Because only 2B parameters are active per token, each reasoning token is cheap, so you can run agents continuously on your own hardware. LFM2.5-24B-A2B builds on LFM2-24B-A2B and keeps its architecture: 40 layers, 64 experts per MoE block with top-4 routing, and the same hybrid of gated short convolutions and GQA. Mid-training then adds 2T tokens at 32K context, weighted toward reasoning, math, code, instruction following, and multilingual text, and 300B tokens at 131K context, weighted toward long-context data.",
+      "agent_reason": "AI/大模型/智能体/机器人/算力或头部公司与核心技术动态，字段完整且为详情页；经语义去重后保留。",
+      "archive_id": "A20261014-53911f98c21c",
+      "first_seen_at": "2026-10-14 09:07:42",
+      "last_seen_at": "2026-10-14 09:07:42"
+    },
+    {
+      "资讯标题": "Higgsfield takes AI video from 1 minute to over 10",
+      "发布时间": "2026-10-13 20:00:00",
+      "来源": "Readhub",
+      "超链接": "https://openai.com/index/higgsfield-longer-videos-voice",
+      "desc": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
+      "agent_reason": "AI/大模型/智能体/机器人/算力或头部公司与核心技术动态，字段完整且为详情页；经语义去重后保留。",
+      "archive_id": "A20261014-8d45898e533e",
+      "first_seen_at": "2026-10-14 09:07:42",
+      "last_seen_at": "2026-10-14 09:07:42"
+    },
+    {
+      "资讯标题": "魔法原子具身Agent框架拿下MolmoSpaces全球第一",
+      "发布时间": "2026-10-13 19:05:39",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/503107.html",
+      "desc": "让VLA从“演示可用”逼近“产线可用”",
+      "agent_reason": "AI/大模型/智能体/机器人/算力或头部公司与核心技术动态，字段完整且为详情页；经语义去重后保留。",
+      "archive_id": "A20261014-4ed5a7aedbe4",
+      "first_seen_at": "2026-10-14 09:07:42",
+      "last_seen_at": "2026-10-14 09:07:42"
+    },
+    {
+      "资讯标题": "AI 真的能制造机器了？一家初创公司花六年造出微型继电器",
+      "发布时间": "2026-10-13 18:47:29",
+      "来源": "Readhub",
+      "超链接": "https://www.mittrchina.com/news/detail/17090",
+      "desc": "美国初创公司 Atomic Machines 结束长达六年的隐身研发，正式发布名为 Matter Compiler（物质编译器）的 AI 制造系统，并推出首款产品 PrimeSwitch——一枚面向 AI 数据中心供电系统的微型继电器。该公司希望利用 AI 和自动化技术改变微型机器的制造方式。按照其设想，未来开发者只需描述设备的功能需求，AI 便可协助完成结构设计、性能模拟和制造流程规划，最终制造出可用的微型机器。",
+      "agent_reason": "AI/大模型/智能体/机器人/算力或头部公司与核心技术动态，字段完整且为详情页；经语义去重后保留。",
+      "archive_id": "A20261014-10e390aaa640",
+      "first_seen_at": "2026-10-14 09:07:42",
+      "last_seen_at": "2026-10-14 09:07:42"
+    },
+    {
+      "资讯标题": "OpenAI 让密码学家开始警惕：AI 会攻破互联网的加密系统吗？",
+      "发布时间": "2026-10-13 18:31:19",
+      "来源": "Readhub",
+      "超链接": "https://www.mittrchina.com/news/detail/17089",
+      "desc": "知名硅谷风投 a16z 旗下的加密部门 a16z crypto 发布了一场对谈，邀请斯坦福大学密码学家 Dan Boneh、乔治城大学计算机科学副教授 Justin Thaler 等人，讨论人工智能数学能力突飞猛进对现代密码系统的潜在威胁。数学难题接连出现新进展，也引发了新的担忧：如果 AI 能够不断攻克人类长期未解决的数学难题，那么支撑银行交易、私人通信和加密货币安全的密码学体系，是否也可能受到冲击。对谈还讨论了 AI 与量子计算在破解密码学难题上的区别，以及后量子方案如何与现有系统并行部署。",
+      "agent_reason": "AI/大模型/智能体/机器人/算力或头部公司与核心技术动态，字段完整且为详情页；经语义去重后保留。",
+      "archive_id": "A20261014-fe09aa84fdb0",
+      "first_seen_at": "2026-10-14 09:07:42",
+      "last_seen_at": "2026-10-14 09:07:42"
+    },
+    {
+      "资讯标题": "梁文锋投了Swin Transformer作者！DeepSeek开始布局具身大脑",
+      "发布时间": "2026-10-13 17:33:37",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/503093.html",
+      "desc": "Winverse AI",
+      "agent_reason": "AI/大模型/智能体/机器人/算力或头部公司与核心技术动态，字段完整且为详情页；经语义去重后保留。",
+      "archive_id": "A20261014-7e7dc0ccabb4",
+      "first_seen_at": "2026-10-14 09:07:42",
+      "last_seen_at": "2026-10-14 09:07:42"
+    },
+    {
+      "资讯标题": "华为哈勃投了个98年博士！让机器人皮肤变色，团队平均23岁",
+      "发布时间": "2026-10-13 15:19:21",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/502954.html",
+      "desc": "让材料感知压力，造出超薄高密度电子皮肤",
+      "agent_reason": "AI/大模型/智能体/机器人/算力或头部公司与核心技术动态，字段完整且为详情页；经语义去重后保留。",
+      "archive_id": "A20261014-cdcd9ee8e100",
+      "first_seen_at": "2026-10-14 09:07:42",
+      "last_seen_at": "2026-10-14 09:07:42"
+    },
+    {
+      "资讯标题": "Claude团队又搞事：实测AI全自主复制进智能家电",
+      "发布时间": "2026-10-13 14:19:10",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/502920.html",
+      "desc": "拉马克进化的幽灵",
+      "agent_reason": "AI/大模型/智能体/机器人/算力或头部公司与核心技术动态，字段完整且为详情页；经语义去重后保留。",
+      "archive_id": "A20261014-c89f79a8ac9f",
+      "first_seen_at": "2026-10-14 09:07:42",
+      "last_seen_at": "2026-10-14 09:07:42"
+    },
+    {
+      "资讯标题": "单轮23亿，累计43亿，无问芯穹刷新国产AI Infra赛道融资双重纪录",
+      "发布时间": "2026-10-13 12:01:15",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/502767.html",
+      "desc": "算力、模型、行业，三层生意一起做",
+      "agent_reason": "AI/大模型/智能体/机器人/算力或头部公司与核心技术动态，字段完整且为详情页；经语义去重后保留。",
+      "archive_id": "A20261014-612a9b83d285",
+      "first_seen_at": "2026-10-14 09:07:42",
+      "last_seen_at": "2026-10-14 09:07:42"
+    },
+    {
+      "资讯标题": "优必选上榜 2026 年《财富》全球未来成长 120 强，位列全球第 11、中国企业第一",
+      "发布时间": "2026-10-13 10:01:56",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/502770.html",
+      "desc": "优必选以总分 115 拿下2026 Fortune Future 120全球第 11 名",
+      "agent_reason": "AI/大模型/智能体/机器人/算力或头部公司与核心技术动态，字段完整且为详情页；经语义去重后保留。",
+      "archive_id": "A20261014-0f3702def570",
+      "first_seen_at": "2026-10-14 09:07:42",
+      "last_seen_at": "2026-10-14 09:07:42"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "date": "2026-10-11",
+  "generated_by": "technical_reports.export_search",
+  "items": [
+    {
+      "archive_id": "R-b5699ef6db8a546ea329",
+      "资讯标题": "Google Earth AI Geospatial Reasoning Agent: Capabilities and a Systematic Evaluation",
+      "发布时间": "2026-10-11 00:00:00",
+      "date_precision": "day",
+      "来源": "Google 技术报告",
+      "超链接": "https://research.google/pubs/google-earth-ai-geospatial-reasoning-agent-capabilities-and-a-systematic-evaluation/",
+      "desc": "报告提出并系统评估由 Gemini 驱动的 Google Earth AI 地理空间推理代理（GRA），将专用地理数据、模型、工具与规划编排结合，并用四配置、四基准和多次重复实验分离各层贡献。报告称，专用工具带来主要性能增益，规划对开放式任务有额外帮助，但基准饱和、数据漂移和自动评分限制了结论外推。",
+      "content": "## 核心结论\n报告称，Google Earth AI 地理空间推理代理（GRA）在专用地理空间技能、数据源和计算工具基础上加入前置规划与执行指导，在 GeoExpertQueries、GeoKTools 和 CBGB 上明显优于无工具或基础工具配置；其中专用工具是主要增益来源，规划对 Gemini 3.8 Flash 的开放式任务还有额外帮助。但 UnivEARTH 已被公开文章内容“污染”而饱和，不能证明真实地理分析能力；GRA 输出更适合作为专家可审阅的第一稿，而非无需核验的结论。\n\n## 问题与方法\n- **系统架构**：GRA 由 Gemini 编排 23 个技能和 62 类工具，覆盖卫星影像、地形、天气气候、灾害、人口健康、POI、边界、出行、Earth Engine、预测和空间计算等。大规模栅格、边界和表格保存在外部 scratch workspace，通过数据集引用传递；技能采用渐进披露，按需加载工具定义。\n- **规划与执行**：每次查询先根据能力和限制形成可调整的多阶段计划，再循环调用工具。执行指导要求优先专用数据源、把权威数据源空结果视为信息、连续失败后换路，并在 best-effort 模式下使用可辩护代理数据并说明范围和不确定性。附录A.2还讨论了原生函数声明与工具缓存成本的权衡：GRA保留原生声明以提高调用可靠性，同时集中提前加载技能；当时使用的API尚不支持追加工具而不破坏缓存前缀的机制。\n- **受控消融**：同一底层模型比较 Standalone LLM、LLM+Basic Tools、LLM+GRA Tools（无规划和执行指导）及完整 GRA；使用 Gemini 3.1 Pro 和 Gemini 3.8 Flash，每个配置每题运行3次，超出100次调用、30分钟或100万上下文 token即记0分。成本只计模型推理，不含Earth Engine等外部服务。\n- **基准与评分**：GeoExpertQueries为101题开放式专家工作流基准，测试集76题；GeoKTools为305题合成多工具基准，测试集220题、按工具类型数K=1至4划分；CBGB实际采用44题确定性地球观测题；UnivEARTH含140道由NASA文章生成的判断题。GeoExpertQueries由Gemini 3.8 Flash按实际轨迹对专家黄金工作流评分，自动评分与专家均值Spearman相关为0.72；GeoKTools和CBGB另使用参考答案及连续误差评分。\n\n## 主要证据（报告称/厂商评测）\n- 完整GRA在3.8 Flash下的总体分数为：GeoExpertQueries 62.7、GeoKTools 85.9、CBGB 86.4；相应独立LLM分别为0.0、40.5、12.9，Basic Tools分别为3.3、40.0、19.7。3.1 Pro下GRA分别为47.6、81.6、84.8。\n- 在3.8 Flash的GeoExpertQueries中，加入GRA工具但无编排已从52.2分提升完整GRA的62.7分；危机韧性由45.6升至66.0，公共卫生由42.5升至55.6，说明规划对开放式、多阶段任务更有价值，但3.1 Pro在该基准反而由50.8降至47.6。\n- CBGB中GRA按Easy、Intermediate、Difficult分别达到97.8、81.7、77.8；但该报告删除1题并更新4个参考值，且改为直接问答、每题仅一次尝试，因此不能与原论文结果直接比较。3.8 Flash完整GRA每题模型成本约为GeoExpertQueries 0.199美元、GeoKTools 0.122美元、CBGB 0.093美元，厂商评测称其成本比3.1 Pro低38%—71%，但不含外部计算成本。\n- UnivEARTH中独立LLM已达3.8 Flash的93.6分，且100%题目作答、90.2%正确却没有计算；GRA虽约60.8%案例加载Earth Engine技能，仍有约29.0%执行失败。因此高分主要反映公开文章可检索性，而非端到端空间分析。\n\n## 限制与适用价值\n结果仅覆盖两个Gemini版本，且模型代际、能力层级和默认思考级别同时变化，不能归因于单一变量。GeoExpertQueries只有76道测试题，运营与公用事业仅4题，自动评判器和黄金工作流会影响绝对分数；其评测主要看过程对齐，不核验最终数字、算术或结论正确性。题目过滤了明显无解或需专有数据的任务，Basic Tools又被限制为无网络Python和最多25次Search调用；GeoKTools模板偏向GRA工具，UnivEARTH受公开文本饱和，CBGB则受Sentinel-2重处理和边界变化影响。地理数据、边界和真实值会随时间漂移，报告发布答案对应2026年9月23日快照。因而GRA适合多源数据发现、空间连接、预测和不确定性说明，帮助专家生成可审阅初稿；实际使用仍需核验数据时效、区域覆盖、代理替换、物理与政策约束及外部服务成本。",
+      "content_kind": "技术报告总结",
+      "report_id": "R-b5699ef6db8a546ea329",
+      "fulltext_path": "technical_reports/fulltext/R-b5699ef6db8a546ea329-5c0e3225ec047147.txt",
+      "source": "Google Research 官网",
+      "report_url": "https://arxiv.org/pdf/2610.15750",
+      "feishu_url": "https://ocns5gikjtax.feishu.cn/wiki/J2l1wMiZ5i5Gc4kYQ03cIphqnmh"
+    }
+  ]
+}

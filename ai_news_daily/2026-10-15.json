@@ -1,0 +1,227 @@
+{
+  "version": 1,
+  "date": "2026-10-15",
+  "timezone": "Asia/Shanghai",
+  "updated_at": "2026-10-15 09:07:11",
+  "item_count": 18,
+  "runs": [
+    {
+      "collected_at": "2026-10-15 09:07:11",
+      "input_count": 18,
+      "added_count": 18,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "完整审阅本轮候选并与当日归档去重；保留AI/大模型/智能体/机器人/算力/核心技术/头部公司及政策资讯，剔除TopHub搜索壳、非AI、娱乐营销、低价值和同事件重复条目。浏览器直访AIBase频道未呈现可补充的条目；新智元、新华网科技、机器之心本轮采集为空。",
+      "source_status": {
+        "量子位": "ok:9",
+        "新智元": "ok:0",
+        "AIBase": "ok:2",
+        "新华网科技": "ok:0",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10",
+        "浏览器补充": "AIBase频道直访成功但页面未呈现可验证新增详情；其他零结果源未发现可用补充"
+      }
+    }
+  ],
+  "items": [
+    {
+      "资讯标题": "马斯克旗下 xAI 发布 Grok Voice 3.0，定价仅 0.08 美元",
+      "发布时间": "2026-10-15 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31645",
+      "desc": "马斯克旗下 xAI 发布 Grok Voice 3.0，定价仅 0.08 美元 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color-scheme\"+o+\")\")}fun",
+      "agent_reason": "xAI Grok Voice产品发布与定价，重要模型产品动态。",
+      "archive_id": "A20261015-82ed5b8b7315",
+      "first_seen_at": "2026-10-15 09:07:11",
+      "last_seen_at": "2026-10-15 09:07:11"
+    },
+    {
+      "资讯标题": "OpenAI加紧研发下一代旗舰模型，循环推理与安全对齐成关键",
+      "发布时间": "2026-10-15 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31646",
+      "desc": "OpenAI加紧研发下一代旗舰模型，循环推理与安全对齐成关键 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-c",
+      "agent_reason": "OpenAI下一代旗舰模型研发与推理/安全对齐进展，头部模型动态。",
+      "archive_id": "A20261015-8f6b6d756b6f",
+      "first_seen_at": "2026-10-15 09:07:11",
+      "last_seen_at": "2026-10-15 09:07:11"
+    },
+    {
+      "资讯标题": "Linux 之父托瓦兹推出首个 AI 辅助开发的补丁：并发文件读取吞吐量提升约 3 倍",
+      "发布时间": "2026-10-15 08:34:00",
+      "来源": "Readhub",
+      "超链接": "https://www.ithome.com/1/013/171.htm",
+      "desc": "Linux 之父林纳斯・托瓦兹（Linus Torvalds）在其个人 Git 仓库中推送了一个名为 noref-filemap-read-with-llm 的新开发分支，正式提交了他首个由大语言模型（LLM）辅助开发的内核补丁系列。",
+      "agent_reason": "Linux内核首次AI辅助补丁，开发工具与基础软件技术进展。",
+      "archive_id": "A20261015-65af28002e0a",
+      "first_seen_at": "2026-10-15 09:07:11",
+      "last_seen_at": "2026-10-15 09:07:11"
+    },
+    {
+      "资讯标题": "深度｜0.88 美元攻陷一家银行：AI 黑客正在改写安全规则",
+      "发布时间": "2026-10-15 08:30:18",
+      "来源": "Readhub",
+      "超链接": "https://www.huxiu.com/article/4897612.html?f=rss",
+      "desc": "韩国安全公司 Everspin 的复现测试结果显示，完成一次类似的银行系统攻击仅耗时 22 秒，消耗约 4.4 万个 token，成本约 0.88 美元。过去攻破一家银行的外围系统需要专业黑客团队数月的踩点与定制化攻击工具，投入数百万。当攻破银行的成本被 AI 压到不足 1 美元，传统金融安全的「高墙防御」已形同虚设。",
+      "agent_reason": "AI驱动低成本网络攻击案例，人工智能安全风险事件。",
+      "archive_id": "A20261015-83dd26b537bf",
+      "first_seen_at": "2026-10-15 09:07:11",
+      "last_seen_at": "2026-10-15 09:07:11"
+    },
+    {
+      "资讯标题": "荷兰一款 AI 控制无人机时速达百公里",
+      "发布时间": "2026-10-15 07:57:05",
+      "来源": "Readhub",
+      "超链接": "https://www.stdaily.com/web/gdxw/2026-10/15/content_596259.html",
+      "desc": "荷兰代尔夫特理工大学科学家开发出一种自主飞行系统，通过 AI 控制无人机以每小时 100 公里的速度飞行。与此前领先的自主竞速系统不同，它不依赖 GPS 或外部运动追踪设备，而是利用一台朝向前方的摄像头识别赛道门，再结合惯性测量单元获取的运动信息和无人机模型，估算自身的位置与运动状态。研究团队认为，这项研究的意义不只在于让无人机飞得更快，还在于探索如何用有限的传感器和计算资源实现高性能自主控制。",
+      "agent_reason": "AI自主无人机高速飞行，具身智能与机器人技术进展。",
+      "archive_id": "A20261015-26b950e0ea61",
+      "first_seen_at": "2026-10-15 09:07:11",
+      "last_seen_at": "2026-10-15 09:07:11"
+    },
+    {
+      "资讯标题": "英伟达黄仁勋：若客户开发不安全 AI 软件，极端措施可断供芯片",
+      "发布时间": "2026-10-15 07:54:39",
+      "来源": "Readhub",
+      "超链接": "https://www.ithome.com/1/013/164.htm",
+      "desc": "在伦敦接受彭博社 Emily Chang 采访时，英伟达首席执行官黄仁勋表示，假若其客户被认定正在开发不安全或不负责任的人工智能（AI）软件，英伟达将断然停止向其供应芯片。他坦言，切断供应目前仍是一个「假设性问题」，且英伟达在采取断供等极端反制措施之前，必然会先与相关客户进行深入地沟通与对话。在应对 AI 安全隐患的具体路径上，黄仁勋提出了「以 AI 监控 AI」的技术治理思路。",
+      "agent_reason": "英伟达关于AI安全软件与芯片供应的治理表态，头部公司动态。",
+      "archive_id": "A20261015-00c3012834db",
+      "first_seen_at": "2026-10-15 09:07:11",
+      "last_seen_at": "2026-10-15 09:07:11"
+    },
+    {
+      "资讯标题": "彭博社：苹果有望 12 月随 iOS 27.3 在国内推出首波 Apple Intelligence 功能",
+      "发布时间": "2026-10-15 07:45:18",
+      "来源": "Readhub",
+      "超链接": "https://www.ithome.com/1/013/162.htm",
+      "desc": "彭博社的马克・古尔曼（Mark Gurman）今天（10 月 15 日）在 X 平台发布推文，报道称苹果公司计划于 12 月通过 iOS 27.3 更新，在中国大陆首次推出 Apple Intelligence，这是该 AI 平台首度落地中国市场。首波功能包括 Genmoji 自定义表情、通知摘要、写作工具，以及照片应用中的 Clean Up 功能（支持用户从照片中移除特定物体）。苹果已于 9 月 29 日获得中国监管许可，允许近期 iPhone 支持使用 Apple Intelligence 及上述模型。",
+      "agent_reason": "Apple Intelligence在中国大陆落地计划，头部公司及政策市场动态。",
+      "archive_id": "A20261015-7f70bb30b6d0",
+      "first_seen_at": "2026-10-15 09:07:11",
+      "last_seen_at": "2026-10-15 09:07:11"
+    },
+    {
+      "资讯标题": "AI is mass decompiling games. That's both awesome and scary.",
+      "发布时间": "2026-10-15 00:26:53",
+      "来源": "Readhub",
+      "超链接": "https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games",
+      "desc": "Indie game developer Popcar talks about the recent wave of AI-powered decompilation of existing games, enabling weird mashups between existing games, and producing a boom in game preservation projects to get old games working on new hardware (often in a browser using WebAssembly). With console makers going all in on digital and games becoming entirely unplayable due to servers shutting down, this is fantastic news.",
+      "agent_reason": "AI辅助游戏反编译与数字保存，AI应用趋势与技术影响。",
+      "archive_id": "A20261015-154a39176d88",
+      "first_seen_at": "2026-10-15 09:07:11",
+      "last_seen_at": "2026-10-15 09:07:11"
+    },
+    {
+      "资讯标题": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
+      "发布时间": "2026-10-15 00:12:42",
+      "来源": "Readhub",
+      "超链接": "https://huggingface.co/blog/allenai/hiro-acev2",
+      "desc": "HiROv2 can reproduce even extremely rare rain, wind, and pressure events with high accuracy, while the full system can generate global 3 km climate data at about 1/300th the cost of X-SHiELD, a high-resolution global atmospheric model that explicitly simulates storms and other small-scale weather. HiRO-ACE, introduced earlier in 2026, has two parts: ACE, an AI model that operates at a coarser 100 km resolution, and HiRO, a model that sharpens those coarse outputs into fine 3 km detail. The biggest change in HiRO-ACEv2 is the new downscaling model, HiROv2, which can now 1) predict several high-resolution fields at once instead of just rainfall, so it can capture a much wider range of extreme weather, and 2) has improved skill in predicting extreme events.",
+      "agent_reason": "HiRO-ACEv2高分辨率极端天气AI模型，核心技术进展。",
+      "archive_id": "A20261015-504a28fcb44d",
+      "first_seen_at": "2026-10-15 09:07:11",
+      "last_seen_at": "2026-10-15 09:07:11"
+    },
+    {
+      "资讯标题": "SentinelOne cuts malware analysis from weeks to hours",
+      "发布时间": "2026-10-14 20:00:00",
+      "来源": "Readhub",
+      "超链接": "https://openai.com/index/sentinelone",
+      "desc": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
+      "agent_reason": "OpenAI与SentinelOne恶意软件分析应用，AI网络安全落地。",
+      "archive_id": "A20261015-004cd593adab",
+      "first_seen_at": "2026-10-15 09:07:11",
+      "last_seen_at": "2026-10-15 09:07:11"
+    },
+    {
+      "资讯标题": "阶跃终端首款「Agent手机」STEPX Neo正式发布，创客先行",
+      "发布时间": "2026-10-14 16:01:18",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/503244.html",
+      "desc": "这妥妥是个物理版Agent啊！",
+      "agent_reason": "STEPX Neo智能体手机发布，AI终端与智能体产品动态。",
+      "archive_id": "A20261015-61d736f4e303",
+      "first_seen_at": "2026-10-15 09:07:11",
+      "last_seen_at": "2026-10-15 09:07:11"
+    },
+    {
+      "资讯标题": "How Block is building AI-powered security with OpenAI technology",
+      "发布时间": "2026-10-14 15:00:00",
+      "来源": "Readhub",
+      "超链接": "https://openai.com/index/block-ai-powered-security",
+      "desc": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
+      "agent_reason": "Block采用OpenAI构建AI安全体系，企业AI落地案例。",
+      "archive_id": "A20261015-94ee28b93f9d",
+      "first_seen_at": "2026-10-15 09:07:11",
+      "last_seen_at": "2026-10-15 09:07:11"
+    },
+    {
+      "资讯标题": "MemSilicon完成国际首款高密度、大容量1T4R 1Gb RRAM芯片流片",
+      "发布时间": "2026-10-14 14:24:00",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/503198.html",
+      "desc": "CMOS标准工艺兼容的1TnR技术路线加速研发。",
+      "agent_reason": "高密度RRAM芯片流片，AI算力/存储核心硬件进展。",
+      "archive_id": "A20261015-065f5356e976",
+      "first_seen_at": "2026-10-15 09:07:11",
+      "last_seen_at": "2026-10-15 09:07:11"
+    },
+    {
+      "资讯标题": "国内最年轻AI教授创业：要让世界模型走向全身全模态",
+      "发布时间": "2026-10-14 12:51:32",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/503172.html",
+      "desc": "给Ego补上缺失的交互信息",
+      "agent_reason": "世界模型全身全模态创业，具身智能与核心模型动态。",
+      "archive_id": "A20261015-805c259d7b6a",
+      "first_seen_at": "2026-10-15 09:07:11",
+      "last_seen_at": "2026-10-15 09:07:11"
+    },
+    {
+      "资讯标题": "调度效率提升80%！商汤大装置助力上海量子城市首批智能体落地",
+      "发布时间": "2026-10-14 12:09:29",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/503173.html",
+      "desc": "从“懂空间”到“能干活”",
+      "agent_reason": "商汤大装置助力智能体落地，企业级智能体应用进展。",
+      "archive_id": "A20261015-cfda48beeb24",
+      "first_seen_at": "2026-10-15 09:07:11",
+      "last_seen_at": "2026-10-15 09:07:11"
+    },
+    {
+      "资讯标题": "响应速度比Claude Code快3倍，实现真正无限上下文！APUS AI开源Reflex Agent",
+      "发布时间": "2026-10-14 11:32:48",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/503165.html",
+      "desc": "10月13日，APUS AI（麒麟合盛网络技术股份有限公司）宣布开源Personal Agent产品Reflex Agent",
+      "agent_reason": "APUS开源Personal Agent，智能体技术与开源生态动态。",
+      "archive_id": "A20261015-ece85599f868",
+      "first_seen_at": "2026-10-15 09:07:11",
+      "last_seen_at": "2026-10-15 09:07:11"
+    },
+    {
+      "资讯标题": "告别资料散落，让知识持续积累：openJiuwen首发个人知识空间，重塑个人办公智能体新体验！",
+      "发布时间": "2026-10-14 10:14:50",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/503157.html",
+      "desc": "一次采集，反复使用",
+      "agent_reason": "openJiuwen个人知识空间与办公智能体发布，AI应用产品动态。",
+      "archive_id": "A20261015-ddb3c88c5cea",
+      "first_seen_at": "2026-10-15 09:07:11",
+      "last_seen_at": "2026-10-15 09:07:11"
+    },
+    {
+      "资讯标题": "Google DeepMind and Singapore Government announce new AI tool to protect citizens against scams",
+      "发布时间": "2026-10-14 10:00:14",
+      "来源": "Readhub",
+      "超链接": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi",
+      "desc": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
+      "agent_reason": "Google DeepMind与新加坡政府推出端侧反诈骗AI工具，公共政策与应用落地。",
+      "archive_id": "A20261015-b76b11a1199f",
+      "first_seen_at": "2026-10-15 09:07:11",
+      "last_seen_at": "2026-10-15 09:07:11"
+    }
+  ]
+}

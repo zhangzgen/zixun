@@ -2,8 +2,8 @@
   "version": 1,
   "date": "2026-10-15",
   "timezone": "Asia/Shanghai",
-  "updated_at": "2026-10-15 15:09:05",
-  "item_count": 37,
+  "updated_at": "2026-10-15 18:07:43",
+  "item_count": 45,
   "runs": [
     {
       "collected_at": "2026-10-15 09:07:11",
@@ -56,9 +56,59 @@
         "今日头条/Tophub": "error:<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>",
         "Readhub": "ok:10"
       }
+    },
+    {
+      "collected_at": "2026-10-15 18:07:43",
+      "input_count": 8,
+      "added_count": 8,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "完整审阅本轮 81 条候选并与当日已有归档去重；剔除 TopHub 搜索壳、非 AI、广告/促销、低价值评论、缺少详情页链接及当日已归档重复事件。新智元、新华网科技、机器之心本轮返回 0，已尝试通过浏览器打开原始频道补充，但浏览器导航超时，未加入不可核验内容。",
+      "source_status": {
+        "量子位": "ok:10",
+        "新智元": "ok:0",
+        "AIBase": "ok:11",
+        "新华网科技": "ok:0",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
     }
   ],
   "items": [
+    {
+      "资讯标题": "库克：苹果智能接入阿里千问大模型，10月底在中国发布测试版本",
+      "发布时间": "2026-10-15 17:43:29",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/503640.html",
+      "desc": "Siri AI这次不包括在内",
+      "agent_reason": "苹果在中国引入阿里千问并计划发布 Apple Intelligence 测试版本，属于头部公司模型与产品落地动态。",
+      "archive_id": "A20261015-59a8c6a08bfe",
+      "first_seen_at": "2026-10-15 18:07:43",
+      "last_seen_at": "2026-10-15 18:07:43"
+    },
+    {
+      "资讯标题": "8 州联手起诉 OpenAI：ChatGPT「假朋友」伤害儿童，家长被指受骗",
+      "发布时间": "2026-10-15 16:40:28",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31669",
+      "desc": "爱荷华、堪萨斯、内布拉斯加、西弗吉尼亚、阿肯色、亚利桑那、爱达荷与蒙大拿各自在州法院出招，核心指控如出一辙：这款聊天机器人是危险产品，既伤害了未成年人，又对家长隐瞒了真相。她在新闻稿里把话挑明：本州的诉求，是向那些受 OpenAI「故意、危险、鲁莽且非法」行径牵连的民众讨个说法。「他们正在伤害孩子，还在对我们撒谎，」伯德直言，OpenAI 一面标榜安全，一面却给出危险的医疗建议、怂恿伤害他人、甚至指导自杀，还顶着「朋友」的面具与人周旋。",
+      "agent_reason": "美国多州起诉 OpenAI，涉及 ChatGPT 产品安全与未成年人影响，属于重要 AI 治理与公司风险事件。",
+      "archive_id": "A20261015-a4b3ac3fdc9d",
+      "first_seen_at": "2026-10-15 18:07:43",
+      "last_seen_at": "2026-10-15 18:07:43"
+    },
+    {
+      "资讯标题": "破晓智能联合天珑移动发布 SeePhys Hub，推进全身全模态人类数据采集",
+      "发布时间": "2026-10-15 15:08:00",
+      "来源": "Readhub",
+      "超链接": "https://www.leiphone.com/category/robot/HYxX8W4aXp8UgmIO.html",
+      "desc": "破晓智能联合天珑移动发布全身全模态数据采集系统 SeePhys Hub。SeePhys Hub 是团队沿着 EgoTouch、TouchAnything、TouchWorld 技术路线推出的首款工程化产品，将此前在触觉数据与模型上的研究积累，转化为一套融合视觉、双手触觉与全身运动信息的可穿戴采集系统。破晓希望验证的是：在视觉之外，同步记录全身运动与触觉，更完整地呈现身体如何协同、手与物体如何接触，能否提高每小时数据的学习价值，让百万小时量级的全模态数据支撑预期的泛化能力。",
+      "agent_reason": "SeePhys Hub 推进全身全模态人类数据采集，涉及具身智能训练数据基础设施。",
+      "archive_id": "A20261015-29758ba4f25f",
+      "first_seen_at": "2026-10-15 18:07:43",
+      "last_seen_at": "2026-10-15 18:07:43"
+    },
     {
       "资讯标题": "苹果AI国内上线，阿里百度浮出水面",
       "发布时间": "2026-10-15 14:52:45",
@@ -213,6 +263,39 @@
       "last_seen_at": "2026-10-15 09:07:11"
     },
     {
+      "资讯标题": "腾讯 AI 管家\"马维斯\"上架鸿蒙：手机电脑一把抓，老用户无缝续杯",
+      "发布时间": "2026-10-15 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31667",
+      "desc": "腾讯 AI 管家\"马维斯\"上架鸿蒙：手机电脑一把抓，老用户无缝续杯 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color-",
+      "agent_reason": "腾讯 AI 管家 Marvis 鸿蒙版上架，属于头部公司智能体产品落地。",
+      "archive_id": "A20261015-299a7cf239d1",
+      "first_seen_at": "2026-10-15 18:07:43",
+      "last_seen_at": "2026-10-15 18:07:43"
+    },
+    {
+      "资讯标题": "开源应用 Llama for Windows 正式发布：一键下载模型，轻松在电脑本地玩转 AI",
+      "发布时间": "2026-10-15 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31671",
+      "desc": "开源应用 Llama for Windows 正式发布：一键下载模型，轻松在电脑本地玩转 AI \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return",
+      "agent_reason": "Llama for Windows 开源应用发布，降低本地模型使用门槛，属于模型生态产品发布。",
+      "archive_id": "A20261015-6efd6f98407f",
+      "first_seen_at": "2026-10-15 18:07:43",
+      "last_seen_at": "2026-10-15 18:07:43"
+    },
+    {
+      "资讯标题": "​Anthropic 正式宣布在新加坡设立办事处，并与新加坡政府达成战略合作",
+      "发布时间": "2026-10-15 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31672",
+      "desc": "​Anthropic 正式宣布在新加坡设立办事处，并与新加坡政府达成战略合作 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-colo",
+      "agent_reason": "Anthropic 在新加坡设立办事处并与政府战略合作，属于头部模型公司区域布局与公共合作。",
+      "archive_id": "A20261015-4fafa3e6958a",
+      "first_seen_at": "2026-10-15 18:07:43",
+      "last_seen_at": "2026-10-15 18:07:43"
+    },
+    {
       "资讯标题": "YouTube Music将为AI生成歌曲添加标签，未来扩展至主应用",
       "发布时间": "2026-10-15 09:00:00",
       "来源": "AIBase",
@@ -222,6 +305,17 @@
       "archive_id": "A20261015-d9c1cedddea6",
       "first_seen_at": "2026-10-15 12:06:32",
       "last_seen_at": "2026-10-15 12:06:32"
+    },
+    {
+      "资讯标题": "OpenCode 加码免费模型调用，DeepSeek V4.1Flash 开放使用",
+      "发布时间": "2026-10-15 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31670",
+      "desc": "OpenCode 加码免费模型调用，DeepSeek V4.1Flash 开放使用 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.mat",
+      "agent_reason": "OpenCode 扩大免费模型调用并接入 DeepSeek V4.1 Flash，属于开发者工具与模型服务变化。",
+      "archive_id": "A20261015-fc386aee9a53",
+      "first_seen_at": "2026-10-15 18:07:43",
+      "last_seen_at": "2026-10-15 18:07:43"
     },
     {
       "资讯标题": "OpenAI加紧研发下一代旗舰模型，循环推理与安全对齐成关键",
@@ -266,6 +360,17 @@
       "archive_id": "A20261015-2907c10a6daf",
       "first_seen_at": "2026-10-15 12:06:32",
       "last_seen_at": "2026-10-15 12:06:32"
+    },
+    {
+      "资讯标题": "Anthropic 正式确认 Claude 订阅额度全面打通第三方应用",
+      "发布时间": "2026-10-15 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31665",
+      "desc": "Anthropic 正式确认 Claude 订阅额度全面打通第三方应用 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedi",
+      "agent_reason": "Claude 订阅额度打通第三方应用，改变模型服务使用方式，属于重要产品政策更新。",
+      "archive_id": "A20261015-04d0c65fb3af",
+      "first_seen_at": "2026-10-15 18:07:43",
+      "last_seen_at": "2026-10-15 18:07:43"
     },
     {
       "资讯标题": "7人团队靠 Claude 仅用 5 个月重造全新源码系统",

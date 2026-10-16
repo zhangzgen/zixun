@@ -2,8 +2,8 @@
   "version": 1,
   "date": "2026-10-16",
   "timezone": "Asia/Shanghai",
-  "updated_at": "2026-10-16 09:04:24",
-  "item_count": 14,
+  "updated_at": "2026-10-16 12:05:36",
+  "item_count": 23,
   "runs": [
     {
       "collected_at": "2026-10-16 09:04:24",
@@ -21,9 +21,125 @@
         "今日头条/Tophub": "ok:50",
         "Readhub": "ok:10"
       }
+    },
+    {
+      "collected_at": "2026-10-16 12:05:36",
+      "input_count": 9,
+      "added_count": 9,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "从完整候选中保留 24 小时内具备存档价值的 AI 模型、机器人、算力、核心技术及头部公司动态；剔除搜索壳、广告、重复事件和已有归档事件。",
+      "source_status": {
+        "量子位": "ok:10",
+        "新智元": "ok:0",
+        "AIBase": "ok:11",
+        "新华网科技": "ok:0",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
     }
   ],
   "items": [
+    {
+      "资讯标题": "小米开源空间音频大模型 MiDashengLM-Spatial，采用 Apache2.0 许可证",
+      "发布时间": "2026-10-16 11:34:31",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31690",
+      "desc": "小米称，该模型是业界首个开源的端到端空间音频理解大模型，在基础音频理解能力之上，进一步引入空间感知与推理能力。过去两年，小米先后开源声音基座模型 Xiaomi Dasheng 和声音理解大模型 MiDashengLM-7B，相关技术已在智能家居、汽车座舱等场景落地超过 30 项应用，支持对语音、环境声音及音乐进行统一感知与理解。此次发布的 MiDashengLM-Spatial 以 MiDashengLM-7B 为基础，使模型不仅能够识别声音内容，还能判断声音来源及其空间分布，推动音频大模型从内容理解向空间感知拓展。",
+      "agent_reason": "小米开源空间音频理解大模型，属于重要模型与开源技术动态。",
+      "archive_id": "A20261016-bd54cc0bf502",
+      "first_seen_at": "2026-10-16 12:05:36",
+      "last_seen_at": "2026-10-16 12:05:36"
+    },
+    {
+      "资讯标题": "摩尔线程率先完成阶跃星辰 Step 5 Preview 大模型 Day-0 适配",
+      "发布时间": "2026-10-16 10:34:17",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31688",
+      "desc": "摩尔线程官方宣布，旗下 MTT S5000 智算卡及配套 MUSA 软件栈已第一时间完成对阶跃星辰 Step 5 Preview 大模型的 Day-0 适配，展现出极高的响应与迭代效率。此次适配深度覆盖混合注意力、混合精度推理以及投机解码等核心环节。双方的高效协同标志着国产智算硬件对前沿超大模型生态的支撑能力迈上新台阶，也为开发者在国产算力平台上部署和运行复杂长文本大模型提供了成熟、可靠的底层落地路径。",
+      "agent_reason": "摩尔线程完成国产大模型 Day-0 适配，涉及算力芯片与生态支持。",
+      "archive_id": "A20261016-25ec7a50d01f",
+      "first_seen_at": "2026-10-16 12:05:36",
+      "last_seen_at": "2026-10-16 12:05:36"
+    },
+    {
+      "资讯标题": "贾跃亭旗下 FFAI 发布 FF Nova 人形机器人，售价 2490 美元",
+      "发布时间": "2026-10-16 10:33:40",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31687",
+      "desc": "公司称，FF Nova 是美国首款售价低于 2500 美元的入门级具身智能人形机器人，定位为可装入背包的 Physical AI 实验平台。FF Nova 面向开发者、极客、Physical AI 内容创作者，以及高校、科研实验室和教育机构等群体。开发生态方面，FF Nova 提供开放 SDK，支持 ROS2 开发流程及 OTA 更新，并计划打通 Sim2Real 强化学习管线，配套推出 Skills Store 和开发者社区，支持开发成果分发、复用与商业化。",
+      "agent_reason": "发布 FF Nova 人形机器人，属于机器人产品与商业化动态。",
+      "archive_id": "A20261016-e3d43c6981ee",
+      "first_seen_at": "2026-10-16 12:05:36",
+      "last_seen_at": "2026-10-16 12:05:36"
+    },
+    {
+      "资讯标题": "斯坦福等联合提出全新文本生成范式 NCM，生成速度狂飙 31 倍",
+      "发布时间": "2026-10-16 10:07:25",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31683",
+      "desc": "斯坦福大学与 Together AI 的研究人员近日联手推出了一种截然不同于传统自回归和扩散模型的全新文本生成范式——Next-Concept Modeling（简称 NCM，即「下一概念建模」）。该方法巧妙借鉴了图像生成领域中「下一尺度预测」的思路，有望为未来的文本生成技术开辟全新的发展路线。尽管目前该研究所使用的模型参数规模依然相对有限，其在扩大模型规模后的表现、精确文本以及长篇内容的生成能力仍有待后续验证，但这一创新思路无疑打破了长期以来的技术惯性，为人工智能高效生成文本提供了充满想象力的全新解法。",
+      "agent_reason": "提出文本生成新范式并报告速度提升，属于核心模型研究进展。",
+      "archive_id": "A20261016-cd147e27d0cd",
+      "first_seen_at": "2026-10-16 12:05:36",
+      "last_seen_at": "2026-10-16 12:05:36"
+    },
+    {
+      "资讯标题": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
+      "发布时间": "2026-10-16 09:44:47",
+      "来源": "Readhub",
+      "超链接": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+      "desc": "We're excited to introduce Nemotron-pretraining-Indic-v1, approximately 2.8 trillion tokens across 22 Indian languages, releasing soon alongside the open, GPU-accelerated data generation pipeline used to create it. By opening up both the data and the process, we aim to make large-scale Indic data generation more accessible and enable more developers to contribute to stronger models across Indian languages. Scores increased on all five reported Indic knowledge and reasoning benchmarks: MILU, Indic MMLU-Pro, Indic ARC-Challenge, Indic ARC-Easy, and Indic GSM8K.",
+      "agent_reason": "NVIDIA 发布 Indic 预训练规模与数据管线，属于大模型训练基础设施研究。",
+      "archive_id": "A20261016-138e9b7e7d97",
+      "first_seen_at": "2026-10-16 12:05:36",
+      "last_seen_at": "2026-10-16 12:05:36"
+    },
+    {
+      "资讯标题": "Claude Opus5.5 极速模式全面开放，输出速度提升 2.5 倍",
+      "发布时间": "2026-10-16 09:35:46",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31682",
+      "desc": "Anthropic 正式向全体开发者开放 Claude Opus5.5 极速模式（Fast Mode），结束此前的研究预览阶段并取消等待名单。该模式未削减模型权重或推理能力，而是通过优化底层配置，将输出速度提升至标准模式的 2.5 倍，同时下调计费价格。此次极速模式全面开放，进一步降低了开发者使用高速模型推理的门槛，也反映出 Anthropic 正在通过推理速度、调用成本与资源管理机制的协同优化，拓展高性能模型的应用场景。",
+      "agent_reason": "Claude Opus 5.5 极速模式开放，属于头部模型产品更新。",
+      "archive_id": "A20261016-55fe4e32c234",
+      "first_seen_at": "2026-10-16 12:05:36",
+      "last_seen_at": "2026-10-16 12:05:36"
+    },
+    {
+      "资讯标题": "Figma 推出 Markdown 编辑器 Specs，扩大代码层公开测试",
+      "发布时间": "2026-10-16 09:17:14",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31681",
+      "desc": "用户能够引用画布元素、嵌入 FigJam 图表、代码层和设计内容，还可整合设计库、代码库及相关指南，为团队和 AI 代理提供集中式设计规范，提升生成内容对品牌规则的遵循程度。代码层此前于今年 6 月启动内部测试，此次扩大公开测试范围，允许用户在设计中添加代码以创建交互式原型，并通过 AI 代理将设计转换为代码或修改代码，持续迭代原型。Figma 首席设计官 Loredana Crisan 表示，目前生成的代码行数已达到此前的 17 倍，但产品发布次数仅增长 1.3 倍，反映出大量代码用于产品探索与设计，而非直接发布。",
+      "agent_reason": "Figma 扩大 Specs Markdown 编辑器测试，属于 AI 编程工具动态。",
+      "archive_id": "A20261016-f2e4a458a97f",
+      "first_seen_at": "2026-10-16 12:05:36",
+      "last_seen_at": "2026-10-16 12:05:36"
+    },
+    {
+      "资讯标题": "OpenAI 宣布 GPT-5.5 退出 ChatGPT，多款旧版 API 进入三个月下架倒计时",
+      "发布时间": "2026-10-16 09:08:52",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31679",
+      "desc": "OpenAI 于 10 月 14 日正式宣布，GPT-5.5 从 ChatGPT、ChatGPT Work 以及账号登录的 Codex 中正式退役，相关 API 接口目前暂不受影响。包括 GPT-4o 在内的多款旧版模型指定版本也迎来下架倒计时，将于 2027 年 1 月 14 日正式停用，留给开发者和企业用户的迁移时间仅剩约三个月。当前 ChatGPT 周活跃用户规模已突破 12 亿，如何在庞大的用户推理服务与高强度的模型训练之间平衡算力投入，成为 OpenAI 面临的现实考题。",
+      "agent_reason": "OpenAI 调整 GPT-5.5 与旧版 API 生命周期，属于头部公司产品政策变更。",
+      "archive_id": "A20261016-5574cc82040a",
+      "first_seen_at": "2026-10-16 12:05:36",
+      "last_seen_at": "2026-10-16 12:05:36"
+    },
+    {
+      "资讯标题": "快手可灵 Kling 4.0 全量上线：单条视频最长 30 秒，镜头会「思考」",
+      "发布时间": "2026-10-16 09:01:54",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31676",
+      "desc": "快手可灵 AI 昨晚宣布，Kling 4.0 正式全量上线 klingai.com。Kling 4.0 把高速运动、连续动作、跟拍与环绕等大幅镜头运动打磨得更稳更顺，达到更专业的成片标准。配套上，Kling 4.0 已接入 MCP/CLI 走向更多场景，创作页同步升级，面向企业与开发者的 API 也将在近期开放，把生成能力直接塞进工作流，可灵这步明显冲着「工具化」而非「玩具化」去了。",
+      "agent_reason": "Kling 4.0 全量上线并提升视频生成能力，属于生成模型产品更新。",
+      "archive_id": "A20261016-ebc6828edc5d",
+      "first_seen_at": "2026-10-16 12:05:36",
+      "last_seen_at": "2026-10-16 12:05:36"
+    },
     {
       "资讯标题": "Google 正式上线“通用购物车”，深度打通搜索与 Gemini 购物体验",
       "发布时间": "2026-10-16 09:00:00",

@@ -2,8 +2,8 @@
   "version": 1,
   "date": "2026-10-16",
   "timezone": "Asia/Shanghai",
-  "updated_at": "2026-10-16 12:05:36",
-  "item_count": 23,
+  "updated_at": "2026-10-16 15:02:38",
+  "item_count": 34,
   "runs": [
     {
       "collected_at": "2026-10-16 09:04:24",
@@ -38,9 +38,114 @@
         "今日头条/Tophub": "ok:50",
         "Readhub": "ok:10"
       }
+    },
+    {
+      "collected_at": "2026-10-16 15:02:38",
+      "input_count": 11,
+      "added_count": 11,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "基于完整候选与当日已有归档，保留具身智能、头部模型版本、模型训练与 AI 应用/治理等有存档价值事件；剔除广告促销、泛商业活动、重复链接和低信息量内容。",
+      "source_status": {
+        "量子位": "ok:10",
+        "新智元": "ok:0",
+        "AIBase": "ok:12",
+        "新华网科技": "ok:0",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "error:<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>",
+        "Readhub": "ok:10"
+      }
     }
   ],
   "items": [
+    {
+      "资讯标题": "超1亿元融资砸向四川具身科技！要把「情绪价值」卖进千家万户",
+      "发布时间": "2026-10-16 14:17:53",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/503782.html",
+      "desc": "9.8万元起售，冲刺万台量产",
+      "agent_reason": "具身智能公司获超亿元融资，属于机器人产业与商业化重要动态。",
+      "archive_id": "A20261016-ea3ffb1090a4",
+      "first_seen_at": "2026-10-16 15:02:38",
+      "last_seen_at": "2026-10-16 15:02:38"
+    },
+    {
+      "资讯标题": "百度世界2026五大亮点曝光，企业和开发者值得关注什么？",
+      "发布时间": "2026-10-16 14:07:41",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/503779.html",
+      "desc": "10月15日，百度官方公众号发文公布百度世界2026五大亮点",
+      "agent_reason": "百度世界大会及企业开发者产品进展，属于头部公司 AI 平台动态。",
+      "archive_id": "A20261016-ddc6afd1ce58",
+      "first_seen_at": "2026-10-16 15:02:38",
+      "last_seen_at": "2026-10-16 15:02:38"
+    },
+    {
+      "资讯标题": "OpenAI 升级 ChatGPT 扩展：多标签页联动与网页智能代办全面上线",
+      "发布时间": "2026-10-16 13:58:13",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31694",
+      "desc": "通过此次更新，用户只需在对话中提及 Chrome，便能让 AI 助手直接读取多个已打开的网页标签页作为上下文，从而实现跨页面内容比对、资料智能整理以及协助完成各类浏览器端任务。ChatGPT Work 在获得用户明确授权后，能够更进一步直接操作浏览器的标签页，例如自动填写表单、发送消息、下载文件或对标签页进行智能整理。在涉及登录状态的网页时，助手可以智能利用用户当前在浏览器中已有的登录信息，但官方仍建议用户在操作过程中仔细检查页面内容、权限请求以及信息提交或发送等关键环节。",
+      "agent_reason": "OpenAI 升级 ChatGPT 扩展，带来多标签页和网页任务自动化能力。",
+      "archive_id": "A20261016-4e497f848470",
+      "first_seen_at": "2026-10-16 15:02:38",
+      "last_seen_at": "2026-10-16 15:02:38"
+    },
+    {
+      "资讯标题": "中国机器人羽毛球连打1452拍！拿下吉尼斯，波士顿动力大佬被硬控",
+      "发布时间": "2026-10-16 13:47:01",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/503756.html",
+      "desc": "背后是一套通用物理运动平台",
+      "agent_reason": "机器人完成吉尼斯羽毛球连续击球纪录，属于具身智能能力进展。",
+      "archive_id": "A20261016-97fd304df728",
+      "first_seen_at": "2026-10-16 15:02:38",
+      "last_seen_at": "2026-10-16 15:02:38"
+    },
+    {
+      "资讯标题": "刚刚，Gemini 4终于来了：谷歌重回御三家，API限时半价",
+      "发布时间": "2026-10-16 13:04:59",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/503701.html",
+      "desc": "谷歌就是季节性气候模型公司",
+      "agent_reason": "Gemini 4 发布及 API 定价变化，属于头部模型重大版本动态。",
+      "archive_id": "A20261016-ac175d306aa6",
+      "first_seen_at": "2026-10-16 15:02:38",
+      "last_seen_at": "2026-10-16 15:02:38"
+    },
+    {
+      "资讯标题": "GPT证千禧年难题成果大反转！OpenAI自己没看懂就发…",
+      "发布时间": "2026-10-16 13:00:39",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/503685.html",
+      "desc": "OpenAI的证明，原来没走「西班牙路线」？",
+      "agent_reason": "GPT 数学成果争议反转，涉及前沿模型推理可靠性。",
+      "archive_id": "A20261016-3591ab49ac3b",
+      "first_seen_at": "2026-10-16 15:02:38",
+      "last_seen_at": "2026-10-16 15:02:38"
+    },
+    {
+      "资讯标题": "前 OpenAI 研究员发现：90% 的神经元功能可以解释",
+      "发布时间": "2026-10-16 12:51:52",
+      "来源": "Readhub",
+      "超链接": "https://www.mittrchina.com/news/detail/17101",
+      "desc": "借助新的分析方法和 AI Agent，前 OpenAI 研究员发现主流大语言模型中的大多数神经元都能找到相对清晰的功能解释。团队利用 GPT-4 观察规模较小的 GPT-2，分析其神经元的响应规律，并生成自然语言解释，再检验这些解释能否准确预测神经元的激活情况。在对 Qwen3-32B 模型的初步审查中，他的团队估算，大约 90% 的神经元响应方向都对应着一个明确的主导功能，另有约 7% 表现为两个高度相关的功能，只有大约 2% 至 4% 的神经元暂时还无法找到清晰规律。",
+      "agent_reason": "神经元功能可解释性研究，属于大模型/神经科学核心技术进展。",
+      "archive_id": "A20261016-598d62f79ca6",
+      "first_seen_at": "2026-10-16 15:02:38",
+      "last_seen_at": "2026-10-16 15:02:38"
+    },
+    {
+      "资讯标题": "微软完成 MAI-Base-2 预训练：2.8T 参数，算力效率超 DeepSeek 数倍",
+      "发布时间": "2026-10-16 11:46:45",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31691",
+      "desc": "微软当地时间昨日宣布，新一代 SOTA 基础模型 MAI-Base-2 已完成预训练，官方称其性能强于所有参测的开源权重模型。MAI-Base-2 总参数规模 2.8T，活跃参数 80B，在 6000 块英伟达 GB200 GPU 上耗时 38 天训成。微软称，MAI-Base-2 的预训练算力效率达到 DeepSeek-V4-Pro-Base 的 4 至 12 倍。",
+      "agent_reason": "微软 MAI-Base-2 预训练完成，涉及超大模型与算力效率。",
+      "archive_id": "A20261016-7fc1d47a1473",
+      "first_seen_at": "2026-10-16 15:02:38",
+      "last_seen_at": "2026-10-16 15:02:38"
+    },
     {
       "资讯标题": "小米开源空间音频大模型 MiDashengLM-Spatial，采用 Apache2.0 许可证",
       "发布时间": "2026-10-16 11:34:31",
@@ -141,6 +246,28 @@
       "last_seen_at": "2026-10-16 12:05:36"
     },
     {
+      "资讯标题": "阅文发布首批AI精品动画并升级OPC平台",
+      "发布时间": "2026-10-16 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31698",
+      "desc": "阅文发布首批AI精品动画并升级OPC平台 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color-s",
+      "agent_reason": "阅文 AI 精品动画与 OPC 平台升级，属于内容产业 AI 应用动态。",
+      "archive_id": "A20261016-bb122cdb2157",
+      "first_seen_at": "2026-10-16 15:02:38",
+      "last_seen_at": "2026-10-16 15:02:38"
+    },
+    {
+      "资讯标题": "​蚂蚁阿福、支付宝AI支付入选《时代》全球年度最佳发明",
+      "发布时间": "2026-10-16 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31692",
+      "desc": "​蚂蚁阿福、支付宝AI支付入选《时代》全球年度最佳发明 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color-sch",
+      "agent_reason": "蚂蚁阿福与支付宝 AI 支付入选年度发明，属于头部 AI 应用进展。",
+      "archive_id": "A20261016-04781b8878b1",
+      "first_seen_at": "2026-10-16 15:02:38",
+      "last_seen_at": "2026-10-16 15:02:38"
+    },
+    {
       "资讯标题": "Google 正式上线“通用购物车”，深度打通搜索与 Gemini 购物体验",
       "发布时间": "2026-10-16 09:00:00",
       "来源": "AIBase",
@@ -150,6 +277,17 @@
       "archive_id": "A20261016-5a8b27e73412",
       "first_seen_at": "2026-10-16 09:04:24",
       "last_seen_at": "2026-10-16 09:04:24"
+    },
+    {
+      "资讯标题": "Cursor 紧急调查内部测试涉密数据流向 SpaceX 的风波",
+      "发布时间": "2026-10-16 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31696",
+      "desc": "Cursor 紧急调查内部测试涉密数据流向 SpaceX 的风波 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"",
+      "agent_reason": "Cursor 内部测试数据流向事件，涉及开发者 AI 产品安全与治理。",
+      "archive_id": "A20261016-a1029659689c",
+      "first_seen_at": "2026-10-16 15:02:38",
+      "last_seen_at": "2026-10-16 15:02:38"
     },
     {
       "资讯标题": "Meta 发布美国最强开源权重模型，两台 Mac Studio 即可运行",

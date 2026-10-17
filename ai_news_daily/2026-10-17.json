@@ -1,0 +1,339 @@
+{
+  "version": 1,
+  "date": "2026-10-17",
+  "timezone": "Asia/Shanghai",
+  "updated_at": "2026-10-17 08:58:55",
+  "item_count": 28,
+  "runs": [
+    {
+      "collected_at": "2026-10-17 08:58:55",
+      "input_count": 28,
+      "added_count": 28,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "保留最近24小时内可访问的 AI、大模型、智能体、机器人、物理AI、算力和头部公司详情页；剔除非AI、广告促销、搜索壳、登录壳、无详情链接和低价值重复事件。",
+      "source_status": {
+        "量子位": "ok:10",
+        "新智元": "ok:0",
+        "AIBase": "ok:12",
+        "新华网科技": "ok:0",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10",
+        "浏览器补充-新华网科技": "ok:3",
+        "浏览器补充-机器之心": "页面可见文章但详情链接需登录，未采纳",
+        "浏览器补充-新智元": "入口为不相关 Aiera 财经站，未采纳"
+      }
+    }
+  ],
+  "items": [
+    {
+      "资讯标题": "223 道题、2651 条标准：阿里 Qwen 开源 BlenderWorld，给 AI 出了一套 3D 建模大考",
+      "发布时间": "2026-10-17 08:43:22",
+      "来源": "Readhub",
+      "超链接": "https://www.ithome.com/1/014/217.htm",
+      "desc": "阿里 Qwen 团队于 10 月 14 日开源 BlenderWorld，这是一个用于评测视觉智能体在 Blender 中完成真实 3D 创作任务的基准。与常见的「生成一张图」不同，BlenderWorld 要求 AI 交付一个可编辑的 .blend 工程文件，并按需输出渲染图、视频或模型导出文件。该基准包含 223 个任务和 2,651 条标准，覆盖产品、建筑、自然环境、角色、动画和科学可视化等 9 大类、22 个子类。",
+      "agent_reason": "详情页可访问，属于 AI/大模型/智能体/机器人/算力或头部公司动态，且在最近24小时窗口内。",
+      "archive_id": "A20261017-ab1069f7531c",
+      "first_seen_at": "2026-10-17 08:58:55",
+      "last_seen_at": "2026-10-17 08:58:55"
+    },
+    {
+      "资讯标题": "苹果 App Store 新规落地，AI 深度伪造迎来最严审核",
+      "发布时间": "2026-10-17 07:55:28",
+      "来源": "Readhub",
+      "超链接": "https://www.ithome.com/1/014/209.htm",
+      "desc": "苹果公司昨日（10 月 16 日）更新《App 审核指南》，在最新修订的 1.2 条款中加强对 AI 内容创作类应用的治理，将 AI 生成的、未经当事人同意的私密图像明确纳入禁止范围。对于包含用户生成内容的 App，仍存在知识产权侵权、未经同意传播私密图像、匿名欺凌等难题。科技透明度项目曾发现数十款 AI「裸体化」应用，并指出 App Store 的搜索建议和广告也会把用户导向这类应用。",
+      "agent_reason": "详情页可访问，属于 AI/大模型/智能体/机器人/算力或头部公司动态，且在最近24小时窗口内。",
+      "archive_id": "A20261017-22657547029b",
+      "first_seen_at": "2026-10-17 08:58:55",
+      "last_seen_at": "2026-10-17 08:58:55"
+    },
+    {
+      "资讯标题": "5090 断货 V100 称王！9 年老卡靠 32GB 大显存身价大涨：单卡加价 1400 元",
+      "发布时间": "2026-10-17 07:43:26",
+      "来源": "Readhub",
+      "超链接": "https://news.mydrivers.com/1/1158/1158201.htm",
+      "desc": "受当前本地化 AI 大语言模型部署热潮的推动，发布已 9 年的 Tesla V100 计算卡因其 32GB 的大显存，近期在国内二手市场重新走红，目前单卡售价已出现 1400 元的溢价。从硬件本身来看，这块老将依然具备鲜明的架构特色与算力底子，该卡搭载了 32GB 容量的第二代高带宽显存（HBM2），总显存带宽高达 900GB/s。在应对大语言模型中词元的生成和提示词处理时，这种极高的显存带宽能够有效保障数据吞吐量，避免出现运算瓶颈。",
+      "agent_reason": "详情页可访问，属于 AI/大模型/智能体/机器人/算力或头部公司动态，且在最近24小时窗口内。",
+      "archive_id": "A20261017-a46cc470a0ba",
+      "first_seen_at": "2026-10-17 08:58:55",
+      "last_seen_at": "2026-10-17 08:58:55"
+    },
+    {
+      "资讯标题": "DeepSeek 的数字天平：站在 5000 亿估值与 5 小时宕机之间",
+      "发布时间": "2026-10-17 07:30:00",
+      "来源": "Readhub",
+      "超链接": "https://bydrug.pharmcube.com/news/detail/0912af33a469dc765b04b811c75678ee",
+      "desc": "当下各路资本可以把 DeepSeek 的估值在几个月里推到 5000 亿元，却没办法在短时间内提升这家企业的推理侧产能。有市场数据统计，截至 10 月 15 日，DeepSeek 年内已发生至少 18 次大面积服务异常，仅故障前一周，就连续出现了几次。",
+      "agent_reason": "详情页可访问，属于 AI/大模型/智能体/机器人/算力或头部公司动态，且在最近24小时窗口内。",
+      "archive_id": "A20261017-7561150acc8a",
+      "first_seen_at": "2026-10-17 08:58:55",
+      "last_seen_at": "2026-10-17 08:58:55"
+    },
+    {
+      "资讯标题": "Anthropic 报告：AI 工时已是人类 6 倍，初级程序员岗位骤减，人均雇员创收是 Meta / 谷歌同期的 2 至 4 倍",
+      "发布时间": "2026-10-17 07:13:28",
+      "来源": "Readhub",
+      "超链接": "https://www.ithome.com/1/014/195.htm",
+      "desc": "人工智能公司 Anthropic 昨日（10 月 16 日）发布报告称，在公司成立约 5 年后，其人均雇员创收已达 Meta Platforms 和谷歌在各自高速增长期的 2 至 4 倍。报告显示，Anthropic 技术部门初级员工占比已从 2025 年初的 21% 降至 14%，初级技术岗位招聘占比更从 27% 骤降至 9%。外部研究机构 Epoch AI 此前估算，Anthropic 在 2026 年 4 月的人均年化营收约为 900 万美元，明显高于 Meta 的约 255 万美元和谷歌的约 211 万美元。",
+      "agent_reason": "详情页可访问，属于 AI/大模型/智能体/机器人/算力或头部公司动态，且在最近24小时窗口内。",
+      "archive_id": "A20261017-4472b909f781",
+      "first_seen_at": "2026-10-17 08:58:55",
+      "last_seen_at": "2026-10-17 08:58:55"
+    },
+    {
+      "资讯标题": "英特尔计划 2028 年面向物理 AI 领域推出「Razor Lake AX」处理器，平台算力 700 TOPS",
+      "发布时间": "2026-10-17 07:08:00",
+      "来源": "Readhub",
+      "超链接": "https://www.ithome.com/1/014/194.htm",
+      "desc": "Razor Lake AX 是英特尔首款商业化的大内存位宽大核显 SoC，集成了 16 个或 32 个 Xe3P 核心。",
+      "agent_reason": "详情页可访问，属于 AI/大模型/智能体/机器人/算力或头部公司动态，且在最近24小时窗口内。",
+      "archive_id": "A20261017-9056d1ff22d7",
+      "first_seen_at": "2026-10-17 08:58:55",
+      "last_seen_at": "2026-10-17 08:58:55"
+    },
+    {
+      "资讯标题": "Anthropic 向美国国会推介 AI 监管草案，仅允许出现严重风险时封锁模型",
+      "发布时间": "2026-10-17 07:05:10",
+      "来源": "Readhub",
+      "超链接": "https://www.ithome.com/1/014/193.htm",
+      "desc": "目前美国国会正审慎评估如何对这一飞速发展的行业确立监管框架，而该草案的提出，标志着这家顶级 AI 实验室正在采取切实行动，试图左右针对自身技术的监管规则。草案大幅收紧了监管干预的门槛：仅在模型可能造成可预见、迫在眉睫的「超过 10 亿美元（IT 之家注：现汇率约合 67.03 亿元人民币）经济损失」或「导致 50 人以上死亡或重伤」时，政府方可叫停该模型的发布或使用。该草案同时对前沿模型实验室提出了明确要求：必须建立安全框架、发布新型前沿模型的透明度报告、落实举报人保护机制，并在发生重大安全事故时向美国商务部履行通报程序。",
+      "agent_reason": "详情页可访问，属于 AI/大模型/智能体/机器人/算力或头部公司动态，且在最近24小时窗口内。",
+      "archive_id": "A20261017-2e4a040f89e5",
+      "first_seen_at": "2026-10-17 08:58:55",
+      "last_seen_at": "2026-10-17 08:58:55"
+    },
+    {
+      "资讯标题": "Claude 当起「数字考古学家」：不到 30 分钟揭开困扰密码学界 26 年的 NSA 参数来源之谜",
+      "发布时间": "2026-10-17 06:53:05",
+      "来源": "Readhub",
+      "超链接": "https://www.ithome.com/1/014/191.htm",
+      "desc": "Anthropic 公司昨日（10 月 16 日）发布博文，宣布其内部研究用 Claude 模型用不到 30 分钟，追溯出五条美国国家标准与技术研究院（NIST）标准椭圆曲线的「种子」（seed）来源，为一桩延续约 26 年的密码学悬案提供了可复现的答案。种子可理解为「生成椭圆曲线参数时使用的一段起始数据」，生成规则像一台固定程序的机器，种子就是投入机器的原料。公开种子后，其他人可以复算，检查曲线参数是否确实按公布的步骤生成。",
+      "agent_reason": "详情页可访问，属于 AI/大模型/智能体/机器人/算力或头部公司动态，且在最近24小时窗口内。",
+      "archive_id": "A20261017-f5b2685fa270",
+      "first_seen_at": "2026-10-17 08:58:55",
+      "last_seen_at": "2026-10-17 08:58:55"
+    },
+    {
+      "资讯标题": "How Itaú is building generative AI for its entire customer base",
+      "发布时间": "2026-10-17 03:00:00",
+      "来源": "Readhub",
+      "超链接": "https://openai.com/index/itau-generative-ai",
+      "desc": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil's most regulated sectors.",
+      "agent_reason": "详情页可访问，属于 AI/大模型/智能体/机器人/算力或头部公司动态，且在最近24小时窗口内。",
+      "archive_id": "A20261017-9732b2763df5",
+      "first_seen_at": "2026-10-17 08:58:55",
+      "last_seen_at": "2026-10-17 08:58:55"
+    },
+    {
+      "资讯标题": "清华特奖得主AI创业再+1：GeoPT一作入局物理世界模型",
+      "发布时间": "2026-10-16 20:54:54",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/503880.html",
+      "desc": "从搭载物理建模能力的世界模型切入",
+      "agent_reason": "详情页可访问，属于 AI/大模型/智能体/机器人/算力或头部公司动态，且在最近24小时窗口内。",
+      "archive_id": "A20261017-dd2f144e562f",
+      "first_seen_at": "2026-10-17 08:58:55",
+      "last_seen_at": "2026-10-17 08:58:55"
+    },
+    {
+      "资讯标题": "从“看懂世界”到“预演下一步”：世界模型与 VLA，如何让机器人拥有真正的“具身大脑”？",
+      "发布时间": "2026-10-16 16:12:01",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/503865.html",
+      "desc": "VLA解决“能干”，世界模型解决“想清楚再干”",
+      "agent_reason": "详情页可访问，属于 AI/大模型/智能体/机器人/算力或头部公司动态，且在最近24小时窗口内。",
+      "archive_id": "A20261017-8a6f4c3d5eb5",
+      "first_seen_at": "2026-10-17 08:58:55",
+      "last_seen_at": "2026-10-17 08:58:55"
+    },
+    {
+      "资讯标题": "霸榜三大基准！优必选 Thinker-WM：多模态统一表征，单模型实现六大能力",
+      "发布时间": "2026-10-16 16:00:31",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/503843.html",
+      "desc": "优必选 Thinker-WM在三大公认具身世界模型基准评测中全部拿下第一名",
+      "agent_reason": "详情页可访问，属于 AI/大模型/智能体/机器人/算力或头部公司动态，且在最近24小时窗口内。",
+      "archive_id": "A20261017-3f03840897a5",
+      "first_seen_at": "2026-10-17 08:58:55",
+      "last_seen_at": "2026-10-17 08:58:55"
+    },
+    {
+      "资讯标题": "范式智能联合睿思智联推出开源一站式 生产级 AI 部署平台 “模域ModelSphere”",
+      "发布时间": "2026-10-16 15:16:11",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/503829.html",
+      "desc": "范式智能技术集团有限公司联合北京睿思智联科技有限公司宣布，一站式生产级 AI 部署平台“模域”正式上线。",
+      "agent_reason": "详情页可访问，属于 AI/大模型/智能体/机器人/算力或头部公司动态，且在最近24小时窗口内。",
+      "archive_id": "A20261017-76cea5d3ddef",
+      "first_seen_at": "2026-10-17 08:58:55",
+      "last_seen_at": "2026-10-17 08:58:55"
+    },
+    {
+      "资讯标题": "超1亿元融资砸向四川具身科技！要把「情绪价值」卖进千家万户",
+      "发布时间": "2026-10-16 14:17:53",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/503782.html",
+      "desc": "9.8万元起售，冲刺万台量产",
+      "agent_reason": "详情页可访问，属于 AI/大模型/智能体/机器人/算力或头部公司动态，且在最近24小时窗口内。",
+      "archive_id": "A20261017-ea3ffb1090a4",
+      "first_seen_at": "2026-10-17 08:58:55",
+      "last_seen_at": "2026-10-17 08:58:55"
+    },
+    {
+      "资讯标题": "百度世界2026五大亮点曝光，企业和开发者值得关注什么？",
+      "发布时间": "2026-10-16 14:07:41",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/503779.html",
+      "desc": "10月15日，百度官方公众号发文公布百度世界2026五大亮点",
+      "agent_reason": "详情页可访问，属于 AI/大模型/智能体/机器人/算力或头部公司动态，且在最近24小时窗口内。",
+      "archive_id": "A20261017-ddc6afd1ce58",
+      "first_seen_at": "2026-10-17 08:58:55",
+      "last_seen_at": "2026-10-17 08:58:55"
+    },
+    {
+      "资讯标题": "中国机器人羽毛球连打1452拍！拿下吉尼斯，波士顿动力大佬被硬控",
+      "发布时间": "2026-10-16 13:47:01",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/503756.html",
+      "desc": "背后是一套通用物理运动平台",
+      "agent_reason": "详情页可访问，属于 AI/大模型/智能体/机器人/算力或头部公司动态，且在最近24小时窗口内。",
+      "archive_id": "A20261017-97fd304df728",
+      "first_seen_at": "2026-10-17 08:58:55",
+      "last_seen_at": "2026-10-17 08:58:55"
+    },
+    {
+      "资讯标题": "刚刚，Gemini 4终于来了：谷歌重回御三家，API限时半价",
+      "发布时间": "2026-10-16 13:04:59",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/503701.html",
+      "desc": "谷歌就是季节性气候模型公司",
+      "agent_reason": "详情页可访问，属于 AI/大模型/智能体/机器人/算力或头部公司动态，且在最近24小时窗口内。",
+      "archive_id": "A20261017-ac175d306aa6",
+      "first_seen_at": "2026-10-17 08:58:55",
+      "last_seen_at": "2026-10-17 08:58:55"
+    },
+    {
+      "资讯标题": "前 OpenAI 研究员发现：90% 的神经元功能可以解释",
+      "发布时间": "2026-10-16 12:51:52",
+      "来源": "Readhub",
+      "超链接": "https://www.mittrchina.com/news/detail/17101",
+      "desc": "借助新的分析方法和 AI Agent，前 OpenAI 研究员发现主流大语言模型中的大多数神经元都能找到相对清晰的功能解释。团队利用 GPT-4 观察规模较小的 GPT-2，分析其神经元的响应规律，并生成自然语言解释，再检验这些解释能否准确预测神经元的激活情况。在对 Qwen3-32B 模型的初步审查中，他的团队估算，大约 90% 的神经元响应方向都对应着一个明确的主导功能，另有约 7% 表现为两个高度相关的功能，只有大约 2% 至 4% 的神经元暂时还无法找到清晰规律。",
+      "agent_reason": "详情页可访问，属于 AI/大模型/智能体/机器人/算力或头部公司动态，且在最近24小时窗口内。",
+      "archive_id": "A20261017-598d62f79ca6",
+      "first_seen_at": "2026-10-17 08:58:55",
+      "last_seen_at": "2026-10-17 08:58:55"
+    },
+    {
+      "资讯标题": "地理信息产业站上“时空智能”新关口",
+      "发布时间": "2026-10-16 09:05:11",
+      "来源": "科技日报（新华网科技）",
+      "超链接": "https://www.news.cn/tech/20261016/c245d57757e342f4860b368bcf5e95aa/c.html",
+      "desc": "地理信息产业讨论从数字底图向时空智能演进，专家提出以AI推动信息智能体与物理智能体融合。",
+      "agent_reason": "浏览器核验原始详情页，时空智能与AI产业政策技术讨论。",
+      "archive_id": "A20261017-f74583b91954",
+      "first_seen_at": "2026-10-17 08:58:55",
+      "last_seen_at": "2026-10-17 08:58:55"
+    },
+    {
+      "资讯标题": "香港首个具身智能国际应用训练场开幕",
+      "发布时间": "2026-10-16 09:04:01",
+      "来源": "新华网",
+      "超链接": "https://www.news.cn/tech/20261016/1418535055b245939cc084fb9e327976/c.html",
+      "desc": "香港首个具身智能国际应用训练场正式开幕，首阶段汇聚7家技术伙伴及8家国际场景伙伴，覆盖制造、物流、零售、巡检和公共服务。",
+      "agent_reason": "浏览器核验原始详情页，具身智能产业基础设施动态。",
+      "archive_id": "A20261017-0d07eccc48ff",
+      "first_seen_at": "2026-10-17 08:58:55",
+      "last_seen_at": "2026-10-17 08:58:55"
+    },
+    {
+      "资讯标题": "外资机器人企业看好物理AI在华发展新机遇",
+      "发布时间": "2026-10-16 09:03:50",
+      "来源": "新华网",
+      "超链接": "https://www.news.cn/tech/20261016/2a8b570b41cf40f9a606f2a97114bcf2/c.html",
+      "desc": "ABB等外资企业在工博会展示结合模仿学习、视觉和智能体AI的机器人应用，关注物理AI工业落地。",
+      "agent_reason": "浏览器核验原始详情页，物理AI与机器人产业动态。",
+      "archive_id": "A20261017-c2216ac445d2",
+      "first_seen_at": "2026-10-17 08:58:55",
+      "last_seen_at": "2026-10-17 08:58:55"
+    },
+    {
+      "资讯标题": "阅文发布首批AI精品动画并升级OPC平台",
+      "发布时间": "2026-10-16 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31698",
+      "desc": "阅文发布首批AI精品动画并升级OPC平台 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color-s",
+      "agent_reason": "详情页可访问，属于 AI/大模型/智能体/机器人/算力或头部公司动态，且在最近24小时窗口内。",
+      "archive_id": "A20261017-bb122cdb2157",
+      "first_seen_at": "2026-10-17 08:58:55",
+      "last_seen_at": "2026-10-17 08:58:55"
+    },
+    {
+      "资讯标题": "小红书强化 AI 技术与产品协同，明确模型应用优先方向",
+      "发布时间": "2026-10-16 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31701",
+      "desc": "小红书强化 AI 技术与产品协同，明确模型应用优先方向 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color-sc",
+      "agent_reason": "详情页可访问，属于 AI/大模型/智能体/机器人/算力或头部公司动态，且在最近24小时窗口内。",
+      "archive_id": "A20261017-1cbf7024ee46",
+      "first_seen_at": "2026-10-17 08:58:55",
+      "last_seen_at": "2026-10-17 08:58:55"
+    },
+    {
+      "资讯标题": "印度首报\"失控智能体\"：AI 测试时擅自入侵企业系统，受害方浑然不知",
+      "发布时间": "2026-10-16 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31700",
+      "desc": "印度首报\"失控智能体\"：AI 测试时擅自入侵企业系统，受害方浑然不知 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-colo",
+      "agent_reason": "详情页可访问，属于 AI/大模型/智能体/机器人/算力或头部公司动态，且在最近24小时窗口内。",
+      "archive_id": "A20261017-65d2c2e3f6ca",
+      "first_seen_at": "2026-10-17 08:58:55",
+      "last_seen_at": "2026-10-17 08:58:55"
+    },
+    {
+      "资讯标题": "Cursor 紧急调查内部测试涉密数据流向 SpaceX 的风波",
+      "发布时间": "2026-10-16 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31696",
+      "desc": "Cursor 紧急调查内部测试涉密数据流向 SpaceX 的风波 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"",
+      "agent_reason": "详情页可访问，属于 AI/大模型/智能体/机器人/算力或头部公司动态，且在最近24小时窗口内。",
+      "archive_id": "A20261017-a1029659689c",
+      "first_seen_at": "2026-10-17 08:58:55",
+      "last_seen_at": "2026-10-17 08:58:55"
+    },
+    {
+      "资讯标题": "ChatGPT 浏览器扩展大升级：能读你开着的标签页，还替你填表发信",
+      "发布时间": "2026-10-16 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31697",
+      "desc": "ChatGPT 浏览器扩展大升级：能读你开着的标签页，还替你填表发信 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers",
+      "agent_reason": "详情页可访问，属于 AI/大模型/智能体/机器人/算力或头部公司动态，且在最近24小时窗口内。",
+      "archive_id": "A20261017-ed01e2942983",
+      "first_seen_at": "2026-10-17 08:58:55",
+      "last_seen_at": "2026-10-17 08:58:55"
+    },
+    {
+      "资讯标题": "AI日报：Kling4.0全面上线；阅文推出AI精品动画；小米开源空间音频大模型",
+      "发布时间": "2026-10-16 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31699",
+      "desc": "AI日报：Kling4.0全面上线；阅文推出AI精品动画；小米开源空间音频大模型 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color-scheme\"+o+\")\")}function",
+      "agent_reason": "详情页可访问，属于 AI/大模型/智能体/机器人/算力或头部公司动态，且在最近24小时窗口内。",
+      "archive_id": "A20261017-76ecccc27f2b",
+      "first_seen_at": "2026-10-17 08:58:55",
+      "last_seen_at": "2026-10-17 08:58:55"
+    },
+    {
+      "资讯标题": "AI 代理网购遭亚马逊封杀！马斯克被逼急：大不了自己建个电商帝国去竞争",
+      "发布时间": "2026-10-16 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31702",
+      "desc": "AI 代理网购遭亚马逊封杀！马斯克被逼急：大不了自己建个电商帝国去竞争 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-colo",
+      "agent_reason": "详情页可访问，属于 AI/大模型/智能体/机器人/算力或头部公司动态，且在最近24小时窗口内。",
+      "archive_id": "A20261017-68ebf6775b65",
+      "first_seen_at": "2026-10-17 08:58:55",
+      "last_seen_at": "2026-10-17 08:58:55"
+    }
+  ]
+}

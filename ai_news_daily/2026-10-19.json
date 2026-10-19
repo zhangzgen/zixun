@@ -2,8 +2,8 @@
   "version": 1,
   "date": "2026-10-19",
   "timezone": "Asia/Shanghai",
-  "updated_at": "2026-10-19 15:02:31",
-  "item_count": 29,
+  "updated_at": "2026-10-19 18:06:47",
+  "item_count": 37,
   "runs": [
     {
       "collected_at": "2026-10-19 09:12:27",
@@ -55,9 +55,81 @@
         "今日头条/Tophub": "error:<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>",
         "Readhub": "ok:10"
       }
+    },
+    {
+      "collected_at": "2026-10-19 18:06:47",
+      "input_count": 8,
+      "added_count": 8,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "在完整候选中保留 AI、大模型、智能体、机器人及核心算力/治理相关的可验证详情页；剔除当天归档重复事件、AIBase 导航壳内容、广告/促销、非详情页或字段不完整内容，并对同一 RISC-V 事件保留信息更完整且更新时间较新的详情。",
+      "source_status": {
+        "量子位": "ok:5",
+        "新智元": "ok:0",
+        "AIBase": "ok:12",
+        "新华网科技": "ok:0",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "error:HTTP Error 403: Forbidden",
+        "Readhub": "ok:10"
+      }
     }
   ],
   "items": [
+    {
+      "资讯标题": "达摩院玄铁出席RISC-V中国峰会，首发车规产品路线图",
+      "发布时间": "2026-10-19 17:56:38",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/504238.html",
+      "desc": "10月19日，RISC-V中国峰会在深圳举行。",
+      "agent_reason": "量子位详情页，阿里达摩院车规 RISC-V 处理器与自动驾驶/具身智能路线图，属于核心算力与智能汽车芯片进展。",
+      "archive_id": "A20261019-00cd1bea6bfd",
+      "first_seen_at": "2026-10-19 18:06:47",
+      "last_seen_at": "2026-10-19 18:06:47"
+    },
+    {
+      "资讯标题": "检方羁押申请披露 OpenAI 录音门新线索：嫌疑人被捕前 4 天仍与沙特王室成员密聊",
+      "发布时间": "2026-10-19 17:21:19",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31730",
+      "desc": "据一份周日出炉的法庭文件，美国检方在申请羁押、不予保释的卷宗里，披露了 OpenAI 录音门嫌疑人更深的背景。被控在旧金山 OpenAI 高管会议室藏匿录音设备的沙特籍工程师阿卜杜勒拉赫曼・阿尔福赞，在 2025 至 2026 年间持续通过 WhatsApp 与一名沙特王室成员频繁联络。旧金山联邦检察官办公室提交的这份文件显示，最晚到 10 月 5 日——也就是他落网前 4 天，阿尔福赞仍与这位王室人员保持联系。",
+      "agent_reason": "OpenAI 相关案件出现新的公开法庭文件线索，属于头部 AI 公司治理与安全事件。",
+      "archive_id": "A20261019-cd024914ba0a",
+      "first_seen_at": "2026-10-19 18:06:47",
+      "last_seen_at": "2026-10-19 18:06:47"
+    },
+    {
+      "资讯标题": "科大讯飞 2026 年第三季度盈利 2.26 亿元同比增长 31%，将发布全新「云 + 端」讯飞星火大模型",
+      "发布时间": "2026-10-19 17:16:39",
+      "来源": "Readhub",
+      "超链接": "https://www.wabei.cn/Home/News/366656",
+      "desc": "第三季度，科大讯飞实现营收 65.64 亿元，同比增长 7.99%，实现归母净利润 2.26 亿元，同比增长 31.05%。第三季度归母净利润同比增长 31.05%，扣非净利润同比减少 1.5 亿元，主要系公司坚持自主可控技术路线上继续保持高研发投入：第三季度研发投入金额超 17 亿元，较去年同期增长近 4 亿元，占营业收入比重逾 25%。公司将于 10 月 22 日发布全新的「云 + 端」讯飞星火大模型，基于全国产算力底座全新升级端云一体化解决方案，并全新升级多模人机交互技术，以「Token+Agent」推动从能力开放到价值共创的星火生态升级。",
+      "agent_reason": "科大讯飞披露季度经营与即将发布的星火大模型升级，属于头部 AI 公司及模型产品动态。",
+      "archive_id": "A20261019-73d68779212e",
+      "first_seen_at": "2026-10-19 18:06:47",
+      "last_seen_at": "2026-10-19 18:06:47"
+    },
+    {
+      "资讯标题": "OpenAI 发布 ChatGPT 扩展程序重大升级，支持跨标签页上下文读取与自动化操作",
+      "发布时间": "2026-10-19 16:41:43",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31728",
+      "desc": "OpenAI 宣布为其 Google Chrome 浏览器扩展程序推出重大升级，正式将计算机使用能力引入主流浏览器环境。在 Chat 模式下，AI 能够跨多个已打开的 Chrome 标签页自动读取并汇聚上下文信息，直接提取多网页数据以生成分析结果。OpenAI 通过强化扩展程序对网页端原生工作流的控制，不仅降低了复杂表单填写与多源信息整合的操作门槛，也标志着 AI 助手正在深度接管用户的桌面端生产力闭环。",
+      "agent_reason": "OpenAI ChatGPT 浏览器扩展支持跨标签页上下文与自动化操作，属于智能体/计算机使用能力进展。",
+      "archive_id": "A20261019-a3479a03d2c9",
+      "first_seen_at": "2026-10-19 18:06:47",
+      "last_seen_at": "2026-10-19 18:06:47"
+    },
+    {
+      "资讯标题": "光量子计算，距离真正的产业化还有多远？",
+      "发布时间": "2026-10-19 14:48:00",
+      "来源": "Readhub",
+      "超链接": "https://www.leiphone.com/category/chips/1LbhTsMb0OyPhsw6.html",
+      "desc": "依靠持续堆 GPU 提升算力的老路越来越不划算，存算一体、Chiplet、光互连等技术竞相寻找算力增量，量子计算因此被寄予厚望，光量子路线更是长期受到行业关注与讨论。光量子计算，会成为下一代算力的破局钥匙，还是一场尚待产业化验证的技术革命？2025 年，中国科学技术大学团队构建的 105 比特超导量子计算原型机「祖冲之三号」，在量子随机线路采样任务上比当时最快超算快 15 个数量级，刷新了超导体系量子计算优越性纪录。",
+      "agent_reason": "光量子计算产业化与算力路线讨论，涉及核心算力技术，详情页字段完整。",
+      "archive_id": "A20261019-68a346d2c567",
+      "first_seen_at": "2026-10-19 18:06:47",
+      "last_seen_at": "2026-10-19 18:06:47"
+    },
     {
       "资讯标题": "英特尔杀入大模型推理市场！发布 GPU D 系列：最高配 480GB 显存，专为万亿参数推理而生",
       "发布时间": "2026-10-19 14:31:47",
@@ -92,6 +164,17 @@
       "last_seen_at": "2026-10-19 15:02:31"
     },
     {
+      "资讯标题": "前 Graphcore 总裁卢涛加入铭芯启睿，启动第一代 LPU 研发",
+      "发布时间": "2026-10-19 14:02:00",
+      "来源": "Readhub",
+      "超链接": "https://www.leiphone.com/category/chips/56PWzwTNdteGx04q.html",
+      "desc": "前 Graphcore 总裁兼大中华区总经理卢涛已加入铭芯启睿，担任 CEO 兼联合创始人。随着卢涛加入，铭芯启睿将在继续推进阻变存储器（RRAM）产业化与商业化的同时，启动第一代 LPU 研发，将业务从存储延伸至计算。卢涛的加入让这家公司的技术积累有机会从存储延伸至完整的计算系统，也为「满血模型、高铁价格」提供了持续演进的空间。",
+      "agent_reason": "前 Graphcore 高管加入芯片公司并启动 LPU 研发，属于 AI 专用算力芯片公司动态。",
+      "archive_id": "A20261019-7ee89adc8938",
+      "first_seen_at": "2026-10-19 18:06:47",
+      "last_seen_at": "2026-10-19 18:06:47"
+    },
+    {
       "资讯标题": "腾讯 AI 管家 Marvis 上架麒麟软件商店，深度适配国产操作系统",
       "发布时间": "2026-10-19 13:37:59",
       "来源": "Readhub",
@@ -101,6 +184,17 @@
       "archive_id": "A20261019-2f7ecfd2b4fa",
       "first_seen_at": "2026-10-19 15:02:31",
       "last_seen_at": "2026-10-19 15:02:31"
+    },
+    {
+      "资讯标题": "日均6万亿Token服务背后，商汤大装置如何提升推理效能？",
+      "发布时间": "2026-10-19 13:22:39",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/504188.html",
+      "desc": "AI基础设施竞争转向高质量Token产能",
+      "agent_reason": "商汤大装置推理基础设施与 Token 产能，属于头部 AI 公司算力基础设施进展。",
+      "archive_id": "A20261019-8e391a88b370",
+      "first_seen_at": "2026-10-19 18:06:47",
+      "last_seen_at": "2026-10-19 18:06:47"
     },
     {
       "资讯标题": "Anthropic 自曝就业之变：AI 智能体干活时长碾压人类 6 倍，新人岗位被腰斩",
@@ -221,6 +315,17 @@
       "archive_id": "A20261019-12528b3189d1",
       "first_seen_at": "2026-10-19 15:02:31",
       "last_seen_at": "2026-10-19 15:02:31"
+    },
+    {
+      "资讯标题": "游戏公司误退 3.3 万遭拒还，家长持 AI 伪造录音闹庭被训诫",
+      "发布时间": "2026-10-19 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31726",
+      "desc": "游戏公司误退 3.3 万遭拒还，家长持 AI 伪造录音闹庭被训诫 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color-",
+      "agent_reason": "AI 伪造录音引发司法处置，属于生成式 AI 滥用与治理案例，保留用于风险观察。",
+      "archive_id": "A20261019-b843e3120761",
+      "first_seen_at": "2026-10-19 18:06:47",
+      "last_seen_at": "2026-10-19 18:06:47"
     },
     {
       "资讯标题": "不操控键鼠、自己写代码：4 个 Gemini 智能体在《我的世界》里自主组队击败末影龙",

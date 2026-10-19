@@ -6,7 +6,7 @@
   "added_count": 8,
   "updated_count": 0,
   "skipped_duplicate_count": 0,
-  "archive_count": 29,
+  "archive_count": 37,
   "cleanup_removed": [
     "tmp_ai_news_filtered.json",
     "tmp_ai_news_collect_candidates.json"

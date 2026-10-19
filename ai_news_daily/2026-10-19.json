@@ -1,0 +1,148 @@
+{
+  "version": 1,
+  "date": "2026-10-19",
+  "timezone": "Asia/Shanghai",
+  "updated_at": "2026-10-19 09:12:27",
+  "item_count": 10,
+  "runs": [
+    {
+      "collected_at": "2026-10-19 09:12:27",
+      "input_count": 10,
+      "added_count": 10,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "在最近24小时候选中保留具备存档价值的模型、智能体、机器人、算力与AI核心技术动态；剔除低价值教程/插件、重复或缺乏可验证详情页的卡片。补充核验量子位原始详情页1条。",
+      "source_status": {
+        "量子位": "ok:0；浏览器补充1条（详情页已核验）",
+        "新智元": "ok:0",
+        "AIBase": "ok:1",
+        "新华网科技": "ok:0",
+        "机器之心": "ok:0；html_fallback:rss_token_missing；首页有10月18日卡片但登录限制无详情页链接",
+        "今日头条/Tophub": "error:HTTP Error 403: Forbidden",
+        "Readhub": "ok:10"
+      }
+    }
+  ],
+  "items": [
+    {
+      "资讯标题": "不操控键鼠、自己写代码：4 个 Gemini 智能体在《我的世界》里自主组队击败末影龙",
+      "发布时间": "2026-10-19 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31703",
+      "desc": "4个Gemini智能体在《我的世界》中自主协作并完成任务。",
+      "agent_reason": "具身/智能体协作能力的具体案例，具有模型应用与评测存档价值。",
+      "content_source": "AIBase",
+      "archive_id": "A20261019-1da5a28e5279",
+      "first_seen_at": "2026-10-19 09:12:27",
+      "last_seen_at": "2026-10-19 09:12:27"
+    },
+    {
+      "资讯标题": "Character.AI 申请破产后续：绝大部分员工有望被迪士尼雇佣，前三年总计可获 1.8 亿美元薪酬",
+      "发布时间": "2026-10-19 08:09:33",
+      "来源": "Readhub",
+      "超链接": "https://www.ithome.com/1/014/634.htm",
+      "desc": "Character.AI破产重组及迪士尼拟雇佣大部分员工的披露。",
+      "agent_reason": "头部AI公司重大公司与商业动态。",
+      "content_source": "Readhub",
+      "archive_id": "A20261019-f82ce4d6563b",
+      "first_seen_at": "2026-10-19 09:12:27",
+      "last_seen_at": "2026-10-19 09:12:27"
+    },
+    {
+      "资讯标题": "一家连 demo 都没有的医疗大模型公司，凭什么拿到 5 亿美金？",
+      "发布时间": "2026-10-19 08:09:30",
+      "来源": "Readhub",
+      "超链接": "https://www.huxiu.com/article/4898459.html?f=rss",
+      "desc": "医疗AI初创公司围绕临床轨迹数据构建原生医疗模型并获大额融资。",
+      "agent_reason": "医疗大模型、数据基础设施与重大融资，具行业参考价值。",
+      "content_source": "Readhub",
+      "archive_id": "A20261019-c908ab1ef5a1",
+      "first_seen_at": "2026-10-19 09:12:27",
+      "last_seen_at": "2026-10-19 09:12:27"
+    },
+    {
+      "资讯标题": "苹果 HomeView 跳票近两年后发布：因 AI 危机缺少可用 Siri，硬件过时仍以 299 美元性价比抢眼",
+      "发布时间": "2026-10-19 08:05:01",
+      "来源": "Readhub",
+      "超链接": "https://finance.jrj.com.cn/2026/10/19080558767153.shtml",
+      "desc": "苹果智能家居中枢设备因Siri AI能力延期发布。",
+      "agent_reason": "头部公司AI产品与智能助手进展，反映AI对硬件产品节奏的影响。",
+      "content_source": "Readhub",
+      "archive_id": "A20261019-a767c210c49f",
+      "first_seen_at": "2026-10-19 09:12:27",
+      "last_seen_at": "2026-10-19 09:12:27"
+    },
+    {
+      "资讯标题": "粒曼生物完成数千万元天使轮融资，加速布局虚拟细胞数据基础设施",
+      "发布时间": "2026-10-19 08:00:00",
+      "来源": "Readhub",
+      "超链接": "https://www.vbdata.cn/1519100205",
+      "desc": "公司提供高通量细胞扰动样本与实验数据，服务AI虚拟细胞产业。",
+      "agent_reason": "AI生物与虚拟细胞数据基础设施融资，属于核心技术产业动态。",
+      "content_source": "Readhub",
+      "archive_id": "A20261019-e1f7980179c8",
+      "first_seen_at": "2026-10-19 09:12:27",
+      "last_seen_at": "2026-10-19 09:12:27"
+    },
+    {
+      "资讯标题": "对话孙立宁：从拧瓶盖到能做饭，具身智能离真正理解环境还有多远？",
+      "发布时间": "2026-10-19 07:35:37",
+      "来源": "Readhub",
+      "超链接": "https://m.thepaper.cn/newsDetail_forward_34216999",
+      "desc": "讨论具身机器人感知、控制与通用智能落地路径。",
+      "agent_reason": "具身智能与机器人核心技术观点，具有长期存档价值。",
+      "content_source": "Readhub",
+      "archive_id": "A20261019-9853db34aed0",
+      "first_seen_at": "2026-10-19 09:12:27",
+      "last_seen_at": "2026-10-19 09:12:27"
+    },
+    {
+      "资讯标题": "AI 模组 NPCTalk 让《GTA 5》NPC 实现实时无脚本语音对话",
+      "发布时间": "2026-10-19 07:34:59",
+      "来源": "Readhub",
+      "超链接": "https://www.ithome.com/1/014/627.htm",
+      "desc": "AI模型为游戏NPC提供实时动态语音对话。",
+      "agent_reason": "实时生成式对话与智能体交互的产品技术案例。",
+      "content_source": "Readhub",
+      "archive_id": "A20261019-6d6bc57923a6",
+      "first_seen_at": "2026-10-19 09:12:27",
+      "last_seen_at": "2026-10-19 09:12:27"
+    },
+    {
+      "资讯标题": "AI 系统 RFdiffusion3 能从原子层面设计蛋白质，可在实验中实现预期功能",
+      "发布时间": "2026-10-19 07:22:00",
+      "来源": "Readhub",
+      "超链接": "https://www.ithome.com/1/014/625.htm",
+      "desc": "RFdiffusion3按原子精度设计蛋白质与核酸，速度约为前代十倍。",
+      "agent_reason": "AI for Science核心模型进展，涉及蛋白质设计与实验验证。",
+      "content_source": "Readhub",
+      "archive_id": "A20261019-baea1f6f108f",
+      "first_seen_at": "2026-10-19 09:12:27",
+      "last_seen_at": "2026-10-19 09:12:27"
+    },
+    {
+      "资讯标题": "VAST开源实时世界模型EdenLive！单消费级显卡、720P超24FPS",
+      "发布时间": "2026-10-18 19:49:49",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/504136.html",
+      "desc": "VAST开源EdenLive实时世界模型，单张RTX 5090在720P下生成超过24FPS，并公开权重、代码和技术报告。",
+      "agent_reason": "世界模型与实时生成式渲染的重大开源进展，详情页已在原始频道核验。",
+      "content_source": "量子位",
+      "archive_id": "A20261019-06e34488cd21",
+      "first_seen_at": "2026-10-19 09:12:27",
+      "last_seen_at": "2026-10-19 09:12:27"
+    },
+    {
+      "资讯标题": "Google 也在推进自主湿实验室，已实现智能体与机器人闭环",
+      "发布时间": "2026-10-18 19:20:57",
+      "来源": "Readhub",
+      "超链接": "https://www.mittrchina.com/news/detail/17112",
+      "desc": "Google将模型、智能体和机器人实验设备组成自我改进的湿实验室闭环。",
+      "agent_reason": "头部公司推进智能体+机器人+科学实验闭环，行业意义高。",
+      "content_source": "Readhub",
+      "archive_id": "A20261019-8ebdbd49550e",
+      "first_seen_at": "2026-10-19 09:12:27",
+      "last_seen_at": "2026-10-19 09:12:27"
+    }
+  ]
+}

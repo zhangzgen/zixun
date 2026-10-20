@@ -2,8 +2,8 @@
   "version": 1,
   "date": "2026-10-20",
   "timezone": "Asia/Shanghai",
-  "updated_at": "2026-10-20 12:03:23",
-  "item_count": 52,
+  "updated_at": "2026-10-20 15:08:18",
+  "item_count": 63,
   "runs": [
     {
       "collected_at": "2026-10-20 09:11:05",
@@ -38,9 +38,92 @@
         "今日头条/Tophub": "ok:50",
         "Readhub": "ok:10"
       }
+    },
+    {
+      "collected_at": "2026-10-20 15:08:18",
+      "input_count": 11,
+      "added_count": 11,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "完整审阅82条候选及当日52条归档，无TopK。剔除50条TopHub搜索壳、活动招募与ETF推广；语义去重已归档的Ming语音、MiniMax、OpenCode、TorchNeuron、融资及个性化模型等事件。保留5条新脚本事件及浏览器补充6条机器之心资讯；AIBase所选时间和摘要由详情核实。",
+      "source_status": {
+        "量子位": "ok:10",
+        "新智元": "ok:0",
+        "AIBase": "ok:12",
+        "新华网科技": "ok:0",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
     }
   ],
   "items": [
+    {
+      "资讯标题": "奥斯卡大师加持，「电影精神」怎么造就 AI 剧场？",
+      "发布时间": "2026-10-20 14:08:00",
+      "来源": "Readhub",
+      "超链接": "https://www.leiphone.com/category/industrynews/6Vycsmo3EhndKZSe.html",
+      "desc": "这次爱奇艺的「AI 剧场」创作营，更像是一场为期一周的「大师课」，不仅传授 AI 能力在故事短片中的应用，更着眼于培养参加者的综合能力乃至电影审美。相比过去被成功验证过的「迷雾剧场」「恋恋剧场」等厂牌，「AI 剧场」并不以内容的体例划分，也不刻意圈定目标人群，而是先做制作和技术上的尝试，面向全网所有观众。中间一度有过「数字电影」「数字中间片（即用胶片拍摄后再用数码技术扫描成片）」等概念，但今天这些区隔早已消失，电影介质已全面数码化，大家说到「电影」默认就是数字介质，反倒是「胶片电影」成了一个复古且独特的名词。",
+      "agent_reason": "AI影视制作技术与行业应用进展",
+      "archive_id": "A20261020-08cafe9cb41a",
+      "first_seen_at": "2026-10-20 15:08:18",
+      "last_seen_at": "2026-10-20 15:08:18"
+    },
+    {
+      "资讯标题": "获610万美元融资：LightSprint试图用多AI智能体打通「产品-工程」闭环",
+      "发布时间": "2026-10-20 13:16:00",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-10-20-10",
+      "content_source": "browser_original_channel",
+      "agent_reason": "多智能体产品工程平台融资；原始产业频道核实标题、时间和详情URL，正文加载受限，不补写未经核实内容",
+      "archive_id": "A20261020-0fa0b4f0a6ab",
+      "first_seen_at": "2026-10-20 15:08:18",
+      "last_seen_at": "2026-10-20 15:08:18"
+    },
+    {
+      "资讯标题": "提速不降智，小红书DoSA将首token延迟减半",
+      "发布时间": "2026-10-20 13:14:00",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-10-20-9",
+      "content_source": "browser_original_channel",
+      "agent_reason": "大模型首token延迟优化技术；原始产业频道核实标题、时间和详情URL，正文加载受限，不补写未经核实内容",
+      "archive_id": "A20261020-aada7ccba824",
+      "first_seen_at": "2026-10-20 15:08:18",
+      "last_seen_at": "2026-10-20 15:08:18"
+    },
+    {
+      "资讯标题": "Spain-Based Startups Advance Regional Innovation With Barcelona Supercomputing Center",
+      "发布时间": "2026-10-20 13:00:00",
+      "来源": "Readhub",
+      "超链接": "https://blogs.nvidia.com/blog/spain-startups-barcelona-supercomputing-center",
+      "desc": "The Barcelona Supercomputing Center (BSC) AI Factory Accelerator Programme, now in full operation following a pilot initiative, gives startups access to sovereign compute, technical support and training to support innovation across industries. Many of these companies are also members of the NVIDIA Inception program for cutting-edge startups — and as of today, access to some of the BSC AI Factory services are available through the NVIDIA Inception portal. An upcoming extension of MareNostrum 5 — BSC's public infrastructure serving scientific and technological innovation, powered by NVIDIA accelerated computing — will deliver supercomputing access through the BSC AI Factory and other AI Factories across Europe.",
+      "agent_reason": "主权AI算力基础设施与初创企业支持",
+      "archive_id": "A20261020-9854cc575096",
+      "first_seen_at": "2026-10-20 15:08:18",
+      "last_seen_at": "2026-10-20 15:08:18"
+    },
+    {
+      "资讯标题": "Meshy推出Meshy Edit：基于全新自研AI模型，一句指令实现3D模型局部编辑",
+      "发布时间": "2026-10-20 12:59:04",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/504415.html",
+      "desc": "圈选修改区域，一句话描述改动，约一分钟生成新模型，未选中区域保持原样",
+      "agent_reason": "生成式3D模型局部编辑技术发布",
+      "archive_id": "A20261020-ef24f0c655c4",
+      "first_seen_at": "2026-10-20 15:08:18",
+      "last_seen_at": "2026-10-20 15:08:18"
+    },
+    {
+      "资讯标题": "启元机器人新进展：北大董豪团队推出 HIL-UMI，让后训练摆脱「真机依赖」",
+      "发布时间": "2026-10-20 12:06:00",
+      "来源": "Readhub",
+      "超链接": "https://www.leiphone.com/category/ai/XgCxObsqu8pc44px.html",
+      "desc": "启元机器人首席科学家董豪告诉 AI 科技评论：「预训练提升的是下限，上限还得看后训练」。为了解决这个行业难题，北大和启元机器人董豪团队推出了 HIL-UMI。HIL-UMI 指的是 Human-In-the-Loop（人在环路）UMI，和过去大家常用 UMI（手持夹爪）采集数据不同，HIL-UMI 的采集不是「盲目」的，而是加入了一个模型。",
+      "agent_reason": "机器人后训练与人在环路数据采集方法",
+      "archive_id": "A20261020-ed942bf2765f",
+      "first_seen_at": "2026-10-20 15:08:18",
+      "last_seen_at": "2026-10-20 15:08:18"
+    },
     {
       "资讯标题": "蚂蚁百灵开源 Ming-3.0 语音系列：五款模型覆盖语音合成、识别与理解",
       "发布时间": "2026-10-20 11:48:11",
@@ -75,6 +158,39 @@
       "last_seen_at": "2026-10-20 12:03:23"
     },
     {
+      "资讯标题": "看过的场景能否记住，发生的事件能否延续？WorldMemBench 系统评测世界模型记忆",
+      "发布时间": "2026-10-20 11:07:00",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-10-20-7",
+      "content_source": "browser_original_channel",
+      "agent_reason": "世界模型记忆能力评测；原始产业频道核实标题、时间和详情URL，正文加载受限，不补写未经核实内容",
+      "archive_id": "A20261020-782e70ab1b6c",
+      "first_seen_at": "2026-10-20 15:08:18",
+      "last_seen_at": "2026-10-20 15:08:18"
+    },
+    {
+      "资讯标题": "15亿美元押注AI制药，瞄准MASH和心肌病，阿斯利康为什么选择insitro？",
+      "发布时间": "2026-10-20 10:58:00",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-10-20-6",
+      "content_source": "browser_original_channel",
+      "agent_reason": "AI药物研发产业合作；原始产业频道核实标题、时间和详情URL，正文加载受限，不补写未经核实内容",
+      "archive_id": "A20261020-dd98f8f24e72",
+      "first_seen_at": "2026-10-20 15:08:18",
+      "last_seen_at": "2026-10-20 15:08:18"
+    },
+    {
+      "资讯标题": "登顶RoboChallenge Table30！LoopWAM开源，与pi的部署自进化理念不谋而合",
+      "发布时间": "2026-10-20 10:56:00",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-10-20-5",
+      "content_source": "browser_original_channel",
+      "agent_reason": "开源机器人模型与部署自进化；原始产业频道核实标题、时间和详情URL，正文加载受限，不补写未经核实内容",
+      "archive_id": "A20261020-1cd8394fdd05",
+      "first_seen_at": "2026-10-20 15:08:18",
+      "last_seen_at": "2026-10-20 15:08:18"
+    },
+    {
       "资讯标题": "AI 把「克隆游戏」门槛砍平，独立开发者开始藏起 Demo 怕被抢跑",
       "发布时间": "2026-10-20 10:52:26",
       "来源": "Readhub",
@@ -84,6 +200,17 @@
       "archive_id": "A20261020-71b9a4675907",
       "first_seen_at": "2026-10-20 12:03:23",
       "last_seen_at": "2026-10-20 12:03:23"
+    },
+    {
+      "资讯标题": "刚刚，全球首个机器人大脑API开放！英伟达DreamZero团队创业，葛云皓任CTO",
+      "发布时间": "2026-10-20 10:40:00",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-10-20-2",
+      "content_source": "browser_original_channel",
+      "agent_reason": "机器人大脑API与具身智能创业；原始产业频道核实标题、时间和详情URL，正文加载受限，不补写未经核实内容",
+      "archive_id": "A20261020-598bd92aeccb",
+      "first_seen_at": "2026-10-20 15:08:18",
+      "last_seen_at": "2026-10-20 15:08:18"
     },
     {
       "资讯标题": "OpenAI 升级 ChatGPT 浏览器扩展，支持跨标签页读取与自动化操作",
@@ -130,6 +257,18 @@
       "archive_id": "A20261020-dbc1f9c6bead",
       "first_seen_at": "2026-10-20 12:03:23",
       "last_seen_at": "2026-10-20 12:03:23"
+    },
+    {
+      "资讯标题": "Claude 给 Mac 当了一回\"保安\"：写个测温小工具，顺手揪出吃满 12 核的挖矿木马",
+      "发布时间": "2026-10-20 09:28:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31737",
+      "desc": "据Reddit用户案例，Claude在辅助编写温度监测工具时发现XMRig异常资源占用，并在用户授权后辅助隔离；为案例报道，非独立实验评测。",
+      "agent_reason": "代码智能体辅助本机安全诊断案例，按用户案例报道存档",
+      "content_source": "browser_verified_detail",
+      "archive_id": "A20261020-ec51d72e95fd",
+      "first_seen_at": "2026-10-20 15:08:18",
+      "last_seen_at": "2026-10-20 15:08:18"
     },
     {
       "资讯标题": "国产卫星互联网北极航线准业务化应用测试完成",

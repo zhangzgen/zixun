@@ -1,0 +1,391 @@
+{
+  "version": 1,
+  "date": "2026-10-20",
+  "timezone": "Asia/Shanghai",
+  "updated_at": "2026-10-20 09:11:05",
+  "item_count": 33,
+  "runs": [
+    {
+      "collected_at": "2026-10-20 09:11:05",
+      "input_count": 33,
+      "added_count": 33,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "完整审核65条脚本候选及新智元展开60条频道信息、新华网详情。不限TopK；剔除50条搜索链接、游戏芯片低价值爆料、同事件重复及未证实传闻。新智元与新华网浏览器补充21条；机器之心文章库无可核验详情链接和准确时间。今日归档不存在。",
+      "source_status": {
+        "量子位": "ok:2",
+        "新智元": "ok:0",
+        "AIBase": "ok:3",
+        "新华网科技": "ok:0",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
+    }
+  ],
+  "items": [
+    {
+      "资讯标题": "一张脸就能算出生死？AI 凭面部照片预测癌症患者存活率",
+      "发布时间": "2026-10-20 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31734",
+      "desc": "一张脸就能算出生死？AI 凭面部照片预测癌症患者存活率 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color-scheme\"+o+\")\")}fun",
+      "agent_reason": "医学AI预测研究进展",
+      "archive_id": "A20261020-13cf6bab639b",
+      "first_seen_at": "2026-10-20 09:11:05",
+      "last_seen_at": "2026-10-20 09:11:05"
+    },
+    {
+      "资讯标题": "MiniMax 更新 M3.1Flash:成本降70%、速度近3倍，OSWorld V2与 ALE 双项国产第一",
+      "发布时间": "2026-10-20 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31732",
+      "desc": "MiniMax 更新 M3.1Flash:成本降70%、速度近3倍，OSWorld V2与 ALE 双项国产第一 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(",
+      "agent_reason": "国产模型能力、速度与成本更新",
+      "archive_id": "A20261020-c4c7543984b3",
+      "first_seen_at": "2026-10-20 09:11:05",
+      "last_seen_at": "2026-10-20 09:11:05"
+    },
+    {
+      "资讯标题": "人工智能赋能钢铁行业相关国家标准发布",
+      "发布时间": "2026-10-20 08:48:22",
+      "来源": "新华网科技",
+      "超链接": "https://www.news.cn/tech/20261020/a171ff00dbb848a99f098ae7c145a60b/c.html",
+      "content_source": "browser_verified_detail",
+      "agent_reason": "AI行业数据集、成熟度与应用国家标准",
+      "archive_id": "A20261020-8eae721e79c4",
+      "first_seen_at": "2026-10-20 09:11:05",
+      "last_seen_at": "2026-10-20 09:11:05"
+    },
+    {
+      "资讯标题": "黑客连攻 48 小时，OpenCode 追查入侵，防守 AI 却中途拒答",
+      "发布时间": "2026-10-20 08:33:35",
+      "来源": "Readhub",
+      "超链接": "https://www.36kr.com/p/4033416741934216",
+      "desc": "攻击方让智能体不停寻找漏洞，防守方想查清入侵过程，却可能在分析攻击代码时被安全护栏拦住。要让 AI 帮忙查清入侵过程，就得把攻击者留下的代码和日志交给它。Daybreak Blue 相当于 OpenAI 为通过审核的防守团队开通的专门通道，让 AI 帮他们分析攻击代码、找出漏洞，再检查漏洞有没有补好。",
+      "agent_reason": "AI编程工具安全事件及防守模型限制",
+      "archive_id": "A20261020-9d2cdcfaf2dd",
+      "first_seen_at": "2026-10-20 09:11:05",
+      "last_seen_at": "2026-10-20 09:11:05"
+    },
+    {
+      "资讯标题": "挑战英伟达 CUDA：亚马逊推出开源工具 TorchNeuron，自研 Trainium 芯片轻松运行 PyTorch 代码",
+      "发布时间": "2026-10-20 08:22:37",
+      "来源": "Readhub",
+      "超链接": "https://www.ithome.com/1/015/082.htm",
+      "desc": "当地时间 10 月 19 日，亚马逊宣布推出开源工具 TorchNeuron，借助该工具，开发人员编写的 PyTorch 代码可以在亚马逊的自研 Trainium 芯片上本地运行，只需更改一次配置，无需重写。英伟达投入了十多年的时间研发 CUDA 工具，能够让 PyTorch 代码在英伟达的芯片上高效运行。亚马逊工程师分别在传统芯片和 Trainium 芯片上运行了相同的 AI 训练脚本。",
+      "agent_reason": "训练芯片与PyTorch开源生态进展",
+      "archive_id": "A20261020-37e1fdcaedef",
+      "first_seen_at": "2026-10-20 09:11:05",
+      "last_seen_at": "2026-10-20 09:11:05"
+    },
+    {
+      "资讯标题": "OpenAI 拟融资 300 亿美元，估值或超 1.4 万亿美元",
+      "发布时间": "2026-10-20 07:45:09",
+      "来源": "Readhub",
+      "超链接": "https://api3.cls.cn/share/article/2509141?os=web&sv=8.4.6&app=CailianpressWeb",
+      "desc": "软银集团、阿布扎比投资机构 MGX 及其他现有投资者正洽谈参与本轮融资。OpenAI 向投资者表示，其年化营收在推出 GPT-6 Astra 模型后加速增长，目前已达 500 亿美元，预计年底升至 700 亿美元。OpenAI 今年 3 月在一轮 1220 亿美元融资后估值达到 8520 亿美元。",
+      "agent_reason": "头部模型公司融资与经营动态",
+      "archive_id": "A20261020-ed14bca85f29",
+      "first_seen_at": "2026-10-20 09:11:05",
+      "last_seen_at": "2026-10-20 09:11:05"
+    },
+    {
+      "资讯标题": "日本演员工会发布 AI 语音使用准则，龙珠悟空配音演员怒批 AI 盗用其声音",
+      "发布时间": "2026-10-20 07:39:30",
+      "来源": "Readhub",
+      "超链接": "https://www.ithome.com/1/015/074.htm",
+      "desc": "上周，代表日本配音演员的工会发布了一份 AI 使用相关准则，不少配音演员也讲述了这项技术给他们个人与职业带来的困境。部分配音演员支持搭建机制，在获得授权的前提下，将 AI 用于复刻表演者声音的私人场景，但日本配音演员群体对这项技术的主流看法是：它会窃取自己的劳动成果，抢走未来的工作机会。该工会共有约 2600 名配音演员与演员会员，这份准则也是日本首批针对 AI 语音录制发布的行业规范。",
+      "agent_reason": "AI语音授权与行业治理规范",
+      "archive_id": "A20261020-2cdb0c969de3",
+      "first_seen_at": "2026-10-20 09:11:05",
+      "last_seen_at": "2026-10-20 09:11:05"
+    },
+    {
+      "资讯标题": "Nscale 与 Anthropic 洽谈价值 450 亿美元云计算合作协议",
+      "发布时间": "2026-10-20 07:02:04",
+      "来源": "Readhub",
+      "超链接": "https://www.36kr.com/newsflashes/4033387760653184",
+      "desc": "据知情谈判人士透露，Nscale 有限公司正与 Anthropic 洽谈算力供应合作，这笔交易总价值有望达到约 450 亿美元。该合作将落地于 Nscale 位于西弗吉尼亚州的 Monarch 数据中心园区的第二座设施，依托英伟达先进的 Vera Rubin AI 芯片，可提供 460 兆瓦的算力支持。这笔交易最快有望在未来数日内敲定，将大幅提升 Nscale 的 IPO 前景，该公司计划在上市时谋求约 300 亿美元的估值。",
+      "agent_reason": "大模型算力供应与数据中心合作",
+      "archive_id": "A20261020-6982c2a0deb3",
+      "first_seen_at": "2026-10-20 09:11:05",
+      "last_seen_at": "2026-10-20 09:11:05"
+    },
+    {
+      "资讯标题": "开源维护者狂喜，Anthropic最强模型免费帮扫漏洞还送补丁",
+      "发布时间": "2026-10-20 05:50:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=7928d28d",
+      "content_source": "browser_original_channel",
+      "agent_reason": "开源软件AI安全工具",
+      "archive_id": "A20261020-ceedb207934b",
+      "first_seen_at": "2026-10-20 09:11:05",
+      "last_seen_at": "2026-10-20 09:11:05"
+    },
+    {
+      "资讯标题": "Germany Wants to Lead the World in Industrial AI: How NVIDIA Will Help",
+      "发布时间": "2026-10-20 03:27:08",
+      "来源": "Readhub",
+      "超链接": "https://blogs.nvidia.com/blog/germany-wants-to-lead-the-world-in-industrial-ai-how-nvidia-will-help",
+      "desc": "In the cavernous hall of Kraftwerk, a former power station in Berlin, German Chancellor Friedrich Merz and NVIDIA founder and CEO Jensen Huang sat down to discuss Germany's AI roadmap, and in particular, the industrial applications of AI. The conversation focused on how Germany can make the most of the AI revolution by playing to its strengths in manufacturing and automotive — and by encouraging AI adoption across the country's ecosystem of small and medium-sized companies. Earlier in the day, as part of the Invest in Germany Summit, Chancellor Merz, the Federal Ministry for Economic Affairs and Energy and the Federal Ministry for Research, Technology and Space signed a Joint Declaration of Intent with NVIDIA.",
+      "agent_reason": "工业AI国家战略与英伟达合作",
+      "archive_id": "A20261020-3c471b8abda3",
+      "first_seen_at": "2026-10-20 09:11:05",
+      "last_seen_at": "2026-10-20 09:11:05"
+    },
+    {
+      "资讯标题": "每秒狂飙1000 Token！最强扩散模型Mercury 3发布，跑分超GPT-6 Luna",
+      "发布时间": "2026-10-20 02:07:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=5d9c6c6c",
+      "content_source": "browser_original_channel",
+      "agent_reason": "扩散语言模型发布与推理效率",
+      "archive_id": "A20261020-c6495a945bcd",
+      "first_seen_at": "2026-10-20 09:11:05",
+      "last_seen_at": "2026-10-20 09:11:05"
+    },
+    {
+      "资讯标题": "「我以为的离开更像休假」：Madry被Pachocki请回OpenAI",
+      "发布时间": "2026-10-20 01:17:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=494ecaee",
+      "content_source": "browser_original_channel",
+      "agent_reason": "头部AI公司安全专家人事",
+      "archive_id": "A20261020-c95c4fead86f",
+      "first_seen_at": "2026-10-20 09:11:05",
+      "last_seen_at": "2026-10-20 09:11:05"
+    },
+    {
+      "资讯标题": "AMD新处理器只砍CPU保满血核显，入手16核GPU门槛打下来了",
+      "发布时间": "2026-10-20 01:06:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=5fbf9efe",
+      "content_source": "browser_original_channel",
+      "agent_reason": "AI处理器与端侧算力产品动态",
+      "archive_id": "A20261020-01a21c840d58",
+      "first_seen_at": "2026-10-20 09:11:05",
+      "last_seen_at": "2026-10-20 09:11:05"
+    },
+    {
+      "资讯标题": "连画面都不给看！苹果室内摄像头J450曝光，全程只发文字汇报",
+      "发布时间": "2026-10-20 00:05:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=d80ded3c",
+      "content_source": "browser_original_channel",
+      "agent_reason": "AI视觉终端与隐私设计产品报道",
+      "archive_id": "A20261020-8e96473cc0cd",
+      "first_seen_at": "2026-10-20 09:11:05",
+      "last_seen_at": "2026-10-20 09:11:05"
+    },
+    {
+      "资讯标题": "以为Claude又发了新模型？这个隐藏开关其实在后台调动上百Agent",
+      "发布时间": "2026-10-19 23:37:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=6c44c46b",
+      "content_source": "browser_original_channel",
+      "agent_reason": "多智能体编排机制报道",
+      "archive_id": "A20261020-f4264c152f1f",
+      "first_seen_at": "2026-10-20 09:11:05",
+      "last_seen_at": "2026-10-20 09:11:05"
+    },
+    {
+      "资讯标题": "1300行代码管住14个智能体，Meta把3到4天工期压进1小时",
+      "发布时间": "2026-10-19 23:30:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=dc595af2",
+      "content_source": "browser_original_channel",
+      "agent_reason": "企业智能体编排工程实践",
+      "archive_id": "A20261020-a2c78de82009",
+      "first_seen_at": "2026-10-20 09:11:05",
+      "last_seen_at": "2026-10-20 09:11:05"
+    },
+    {
+      "资讯标题": "NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production",
+      "发布时间": "2026-10-19 23:00:31",
+      "来源": "Readhub",
+      "超链接": "https://blogs.nvidia.com/blog/media-agentic-security-european-public-service-broadcasting-global-content-production",
+      "desc": "The European Broadcasting Union (EBU) is collaborating with NVIDIA to expand its sovereign framework with cloud, open models and integration partners, while Adobe Frame.io is accelerating video agent search capabilities with NVIDIA GPUs, helping German TV and film producer UFA find the right moments faster. The initiative now brings in sovereign cloud providers, open model developers and systems integrators to define how broadcasters can deploy agents while keeping control of their data, infrastructure, models and security. Adobe is also advancing GPU-accelerated media ingest using NVIDIA NVENC and NVDEC to accelerate video encoding and decoding, helping production teams process growing media libraries more efficiently.",
+      "agent_reason": "媒体智能体安全与主权AI部署",
+      "archive_id": "A20261020-4c40a9141a61",
+      "first_seen_at": "2026-10-20 09:11:05",
+      "last_seen_at": "2026-10-20 09:11:05"
+    },
+    {
+      "资讯标题": "养成系AI玩法来了！可持续进化Personal AI，经验写进DNA",
+      "发布时间": "2026-10-19 22:32:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=tgb48e88",
+      "content_source": "browser_original_channel",
+      "agent_reason": "个性化模型与持续学习",
+      "archive_id": "A20261020-d9aff74cc250",
+      "first_seen_at": "2026-10-20 09:11:05",
+      "last_seen_at": "2026-10-20 09:11:05"
+    },
+    {
+      "资讯标题": "公司可能只有两个人，苹果买下瑞士 AI 音频团队 Samplab",
+      "发布时间": "2026-10-19 22:04:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=297aea34",
+      "content_source": "browser_original_channel",
+      "agent_reason": "头部公司AI音频收购",
+      "archive_id": "A20261020-3431ff8c7a0a",
+      "first_seen_at": "2026-10-20 09:11:05",
+      "last_seen_at": "2026-10-20 09:11:05"
+    },
+    {
+      "资讯标题": "Meta公开吉瓦级超集群Prometheus！100万张英伟达GPU正在集结",
+      "发布时间": "2026-10-19 21:00:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=57f9bdb1",
+      "content_source": "browser_original_channel",
+      "agent_reason": "大型AI训练基础设施",
+      "archive_id": "A20261020-6aa593b3de9f",
+      "first_seen_at": "2026-10-20 09:11:05",
+      "last_seen_at": "2026-10-20 09:11:05"
+    },
+    {
+      "资讯标题": "Advancing Coding in Low-Resource Programming Languages",
+      "发布时间": "2026-10-19 20:00:00",
+      "来源": "Readhub",
+      "超链接": "https://openai.com/index/low-resource-programming-languages",
+      "desc": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
+      "agent_reason": "低资源编程语言评测与代码模型能力",
+      "archive_id": "A20261020-1dbe22633003",
+      "first_seen_at": "2026-10-20 09:11:05",
+      "last_seen_at": "2026-10-20 09:11:05"
+    },
+    {
+      "资讯标题": "霸榜三大基准！优必选 Thinker-WM：多模态统一表征，单模型实现六大能力",
+      "发布时间": "2026-10-19 17:09:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=tg15bc5d",
+      "content_source": "browser_original_channel",
+      "agent_reason": "具身世界模型开源技术",
+      "archive_id": "A20261020-0317057af5df",
+      "first_seen_at": "2026-10-20 09:11:05",
+      "last_seen_at": "2026-10-20 09:11:05"
+    },
+    {
+      "资讯标题": "MemSilicon完成超4亿元A轮融资，宣布战略升级",
+      "发布时间": "2026-10-19 15:22:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=tg33a30b",
+      "content_source": "browser_original_channel",
+      "agent_reason": "大模型推理芯片融资及研发",
+      "archive_id": "A20261020-7adbdac3c63e",
+      "first_seen_at": "2026-10-20 09:11:05",
+      "last_seen_at": "2026-10-20 09:11:05"
+    },
+    {
+      "资讯标题": "18小时打通宝可梦，GPT-6 Astra在我的世界被苦力怕炸崩，自闭种了几小时土豆",
+      "发布时间": "2026-10-19 14:05:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=9b70b4c8",
+      "content_source": "browser_original_channel",
+      "agent_reason": "智能体长程游戏任务能力及局限",
+      "archive_id": "A20261020-69c2186d578a",
+      "first_seen_at": "2026-10-20 09:11:05",
+      "last_seen_at": "2026-10-20 09:11:05"
+    },
+    {
+      "资讯标题": "日均6万亿Token服务背后，商汤大装置如何提升推理效能？",
+      "发布时间": "2026-10-19 13:22:39",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/504188.html",
+      "desc": "AI基础设施竞争转向高质量Token产能",
+      "agent_reason": "大模型推理基础设施效能",
+      "archive_id": "A20261020-8e391a88b370",
+      "first_seen_at": "2026-10-20 09:11:05",
+      "last_seen_at": "2026-10-20 09:11:05"
+    },
+    {
+      "资讯标题": "Claude Code一段话爆改电视：极简零广告，安卓变「苹果」！",
+      "发布时间": "2026-10-19 12:54:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=tgf0687f",
+      "content_source": "browser_original_channel",
+      "agent_reason": "代码智能体真实设备应用",
+      "archive_id": "A20261020-a2a8bb61e5f8",
+      "first_seen_at": "2026-10-20 09:11:05",
+      "last_seen_at": "2026-10-20 09:11:05"
+    },
+    {
+      "资讯标题": "刚刚，Anthropic官宣！要捐3200亿分给普通人",
+      "发布时间": "2026-10-19 12:52:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=tg560320",
+      "content_source": "browser_original_channel",
+      "agent_reason": "头部模型公司公益基金与治理",
+      "archive_id": "A20261020-4087c3c49fbc",
+      "first_seen_at": "2026-10-20 09:11:05",
+      "last_seen_at": "2026-10-20 09:11:05"
+    },
+    {
+      "资讯标题": "刚刚，OpenAI三大新模型深夜短暂上线！",
+      "发布时间": "2026-10-19 12:48:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=tg76d5f7",
+      "content_source": "browser_original_channel",
+      "agent_reason": "模型API测试动态，按来源报道存档",
+      "archive_id": "A20261020-de5d229bfd83",
+      "first_seen_at": "2026-10-20 09:11:05",
+      "last_seen_at": "2026-10-20 09:11:05"
+    },
+    {
+      "资讯标题": "Claude Code「自产自审」：九成代码不再经过人类",
+      "发布时间": "2026-10-19 11:34:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=tg75191f",
+      "content_source": "browser_original_channel",
+      "agent_reason": "AI编程生产流程与审查机制",
+      "archive_id": "A20261020-f5fff732b8a2",
+      "first_seen_at": "2026-10-20 09:11:05",
+      "last_seen_at": "2026-10-20 09:11:05"
+    },
+    {
+      "资讯标题": "清华期末考用了真机器人！豪掷2亿元，开进20多所高校",
+      "发布时间": "2026-10-19 11:33:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=tg3b51d7",
+      "content_source": "browser_original_channel",
+      "agent_reason": "具身智能教育及机器人部署",
+      "archive_id": "A20261020-e08bd80d2e30",
+      "first_seen_at": "2026-10-20 09:11:05",
+      "last_seen_at": "2026-10-20 09:11:05"
+    },
+    {
+      "资讯标题": "谷歌开源RSI新成果！华人浓度爆表",
+      "发布时间": "2026-10-19 11:11:58",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/504184.html",
+      "desc": "Harness层的RSI",
+      "agent_reason": "开源自我改进智能体技术",
+      "archive_id": "A20261020-89e7fb3bb5f7",
+      "first_seen_at": "2026-10-20 09:11:05",
+      "last_seen_at": "2026-10-20 09:11:05"
+    },
+    {
+      "资讯标题": "在工博会上看机器人“打工”",
+      "发布时间": "2026-10-19 10:19:45",
+      "来源": "新华网科技",
+      "超链接": "https://www.news.cn/tech/20261019/0c8d2f2a94164c62a2eef18ed8cd27ad/c.html",
+      "content_source": "browser_verified_detail",
+      "agent_reason": "工业具身智能规模交付与产业现状",
+      "archive_id": "A20261020-655b93036f81",
+      "first_seen_at": "2026-10-20 09:11:05",
+      "last_seen_at": "2026-10-20 09:11:05"
+    },
+    {
+      "资讯标题": "养老机器人加速迭代 科技助老开辟银发经济新赛道",
+      "发布时间": "2026-10-19 10:19:30",
+      "来源": "新华网科技",
+      "超链接": "https://www.news.cn/tech/20261019/7eb7aa158dcf445bb70b4af94a811f14/c.html",
+      "content_source": "browser_verified_detail",
+      "agent_reason": "养老机器人应用与产业政策",
+      "archive_id": "A20261020-dcd1324a255a",
+      "first_seen_at": "2026-10-20 09:11:05",
+      "last_seen_at": "2026-10-20 09:11:05"
+    }
+  ]
+}

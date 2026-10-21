@@ -2,8 +2,8 @@
   "version": 1,
   "date": "2026-10-21",
   "timezone": "Asia/Shanghai",
-  "updated_at": "2026-10-21 12:06:16",
-  "item_count": 62,
+  "updated_at": "2026-10-21 15:10:18",
+  "item_count": 67,
   "runs": [
     {
       "collected_at": "2026-10-21 09:04:33",
@@ -38,9 +38,85 @@
         "今日头条/Tophub": "ok:50",
         "Readhub": "ok:10"
       }
+    },
+    {
+      "collected_at": "2026-10-21 15:10:18",
+      "input_count": 5,
+      "added_count": 5,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "完整审阅78条候选与当日62条归档，不限TopK；浏览器展开新智元全部近期条目，核对新华网科技、机器之心频道并验证详情。剔除50个Tophub搜索链接、非AI、活动/商品/公司宣传和低价值观点；Cosmos、MiniMax、Airscope、监控规避、COBOL等与既有事件语义去重。保留5个新事件/新技术结果；AIBase使用核验后的时间摘要。",
+      "source_status": {
+        "量子位": "ok:7",
+        "新智元": "ok:0",
+        "AIBase": "ok:11",
+        "新华网科技": "ok:0",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
     }
   ],
   "items": [
+    {
+      "资讯标题": "语音 AI 迎来最强国产黑马！蚂蚁集团 Ming-3.0-tts 强势登顶国际权威评测双榜首",
+      "发布时间": "2026-10-21 14:20:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31774",
+      "desc": "据 Artificial Analysis 最新榜单，Ming-3.0-tts 在发音鲁棒性测试取得93.2%，在受控语音竞技场获1069 Elo、开源模型排名第一、总榜第13。",
+      "agent_reason": "独立语音评测新结果；区别于已归档的语音系列发布，详情页核验时间并清除解析脚本污染。",
+      "archive_id": "A20261021-fe828f2b3acf",
+      "first_seen_at": "2026-10-21 15:10:18",
+      "last_seen_at": "2026-10-21 15:10:18"
+    },
+    {
+      "资讯标题": "哈佛重磅研究：AI凭人脸照片，就能预测癌症患者死亡风险！",
+      "发布时间": "2026-10-21 14:09:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=tgd59b90",
+      "desc": "报道介绍 FAHR-Face 面部基础模型及癌症生存风险分层研究，并讨论伦理风险和辅助临床判断的用途。",
+      "content_source": "browser_verified",
+      "agent_reason": "医疗AI研究；原始详情页、发布时间及正文均核验，结论为报道所述研究结果。",
+      "archive_id": "A20261021-dfe277e40d7b",
+      "first_seen_at": "2026-10-21 15:10:18",
+      "last_seen_at": "2026-10-21 15:10:18"
+    },
+    {
+      "资讯标题": "刚刚，马斯克自曝：特斯拉与SpaceX或将合并！3.5万亿美元世纪大合体来了",
+      "发布时间": "2026-10-21 14:04:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=tgb02569",
+      "desc": "据该报道，两家公司探讨合并，协同涉及AI软件、芯片、机器人及星链；交易仍面临股东和监管程序。",
+      "content_source": "browser_verified",
+      "agent_reason": "头部公司AI与算力产业布局；保留原题，以媒体报道的探讨阶段入档，不表述为已合并。",
+      "archive_id": "A20261021-a6023495eddd",
+      "first_seen_at": "2026-10-21 15:10:18",
+      "last_seen_at": "2026-10-21 15:10:18"
+    },
+    {
+      "资讯标题": "从种草到世界杯，小红书的技术实力藏不住了",
+      "发布时间": "2026-10-21 13:21:00",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-10-21-7",
+      "desc": "介绍时序因果超分模型、多GPU分块推理、插帧微调及逻辑分片等技术；报道直播延迟降低约30%、4K增强转码提速约57倍。",
+      "content_source": "browser_verified",
+      "agent_reason": "具备具体模型和系统实现的核心技术复盘；频道精确时间、详情正文核验，仅提取技术内容，排除文末招聘。",
+      "archive_id": "A20261021-253281a7c5f1",
+      "first_seen_at": "2026-10-21 15:10:18",
+      "last_seen_at": "2026-10-21 15:10:18"
+    },
+    {
+      "资讯标题": "刚离开Kimi，17岁的陈广宇去了Jeff Dean新公司",
+      "发布时间": "2026-10-21 13:15:00",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-10-21-6",
+      "desc": "机器之心报道，参与KDA计算内核与Attention Residuals的陈广宇加入Discovery Loop，后者研究AI自动化科学与工程发现。",
+      "content_source": "browser_verified",
+      "agent_reason": "AI核心研究人才与研究自动化公司动态；频道精确时间、详情正文核验，融资目标不视为已完成。",
+      "archive_id": "A20261021-0f481d2c4186",
+      "first_seen_at": "2026-10-21 15:10:18",
+      "last_seen_at": "2026-10-21 15:10:18"
+    },
     {
       "资讯标题": "NeurIPS 2026 | 大模型真的会模拟人类用户吗？中科院软件所、快手推出首个真实世界全链路用户行为模拟基准",
       "发布时间": "2026-10-21 11:39:00",

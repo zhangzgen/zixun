@@ -2,8 +2,8 @@
   "version": 1,
   "date": "2026-10-22",
   "timezone": "Asia/Shanghai",
-  "updated_at": "2026-10-22 15:04:11",
-  "item_count": 65,
+  "updated_at": "2026-10-22 18:05:50",
+  "item_count": 83,
   "runs": [
     {
       "collected_at": "2026-10-22 09:17:18",
@@ -55,9 +55,136 @@
         "今日头条/Tophub": "ok:50",
         "Readhub": "ok:10"
       }
+    },
+    {
+      "collected_at": "2026-10-22 18:05:50",
+      "input_count": 18,
+      "added_count": 18,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "完整审阅75条候选及今日65条归档，无TopK限制。剔除50条搜索页、重复事件、促销体验和供应商宣传；浏览新智元全60条、新华科技、机器之心频道补充6条独立事件。AIBase3条修复时间与摘要。",
+      "source_status": {
+        "量子位": "ok:4",
+        "新智元": "ok:0",
+        "AIBase": "ok:11",
+        "新华网科技": "ok:0",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
     }
   ],
   "items": [
+    {
+      "资讯标题": "Anthropic 上市前亮出特殊治理架构：把控制权交给不持股的外部受托人",
+      "发布时间": "2026-10-22 17:55:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31810",
+      "desc": "报道Anthropic的PBC与长期利益信托治理机制及上市治理争议。",
+      "agent_reason": "治理制度专题与已归档IPO财务事件不同。 已浏览详情纠正默认时间并移除污染摘要。",
+      "archive_id": "A20261022-c8b20c266296",
+      "first_seen_at": "2026-10-22 18:05:50",
+      "last_seen_at": "2026-10-22 18:05:50"
+    },
+    {
+      "资讯标题": "爆肝实测四大国产AI神器！7大变态考题，逼出最野导演",
+      "发布时间": "2026-10-22 17:32:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=tgf8e338",
+      "desc": "比较可灵4.0、Seedance 2.5、MiniMax H3 Max与万相3.0在参考生成、指令遵循、运镜及物理表现上的案例；属于媒体实测，非统一学术排名。",
+      "agent_reason": "多模型实测方法与局限具有存档价值。 原始频道与详情已核验。",
+      "archive_id": "A20261022-8656c8fd4de2",
+      "first_seen_at": "2026-10-22 18:05:50",
+      "last_seen_at": "2026-10-22 18:05:50"
+    },
+    {
+      "资讯标题": "对决RoboColiseum！GPT、Claude、Gemini机器人能力PK，险胜之后还有黑马",
+      "发布时间": "2026-10-22 17:27:00",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-10-22-13",
+      "desc": "RoboColiseum通过Agent2Act比较四款多模态模型的具身能力，报告分析视觉扰动、执行反馈、深度和历史记录影响；不同推理设置限制横向比较。",
+      "agent_reason": "独立AI评测基准与方法；原始频道时间及详情正文已核验。",
+      "archive_id": "A20261022-076f6ea667af",
+      "first_seen_at": "2026-10-22 18:05:50",
+      "last_seen_at": "2026-10-22 18:05:50"
+    },
+    {
+      "资讯标题": "王兴兴给宇树画了三条线：量产、小模型、大算力",
+      "发布时间": "2026-10-22 17:20:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31809",
+      "desc": "宇树提出规模量产、物理AI小模型和超大算力集群路线，探索自主研发、仿真、真实测试与反馈闭环。",
+      "agent_reason": "机器人技术路线与基础设施动态。 已浏览详情纠正默认时间并移除污染摘要。",
+      "archive_id": "A20261022-5d78dfc15110",
+      "first_seen_at": "2026-10-22 18:05:50",
+      "last_seen_at": "2026-10-22 18:05:50"
+    },
+    {
+      "资讯标题": "讯飞星火 X2.6 端云一体大模型发布，首次基于全国产算力突破代码与智能体能力",
+      "发布时间": "2026-10-22 16:15:02",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31806",
+      "desc": "董事长刘庆峰在发布会上点明，目前做大模型的公司里，只有星火一家是纯粹用全国产算力训练的，其余几乎都跑在英伟达的卡上，而科大讯飞模型的尺寸还是其中最小的。星火 X2.6-4B 开源端侧大模型同步发布，首次让端侧模型在智能体能力上实现阶跃，各项跑分相比 X2.5-4B 明显抬升。X2.6-4B 端侧模型在代码、智能体、长文本和多语言能力上大幅提升，新增三档推理模式，在自研推理框架下的效率比 ollama 更好，推理定价限时免费。",
+      "agent_reason": "独立模型/核心技术或头部公司AI部署动态；与当日归档语义去重后保留。",
+      "archive_id": "A20261022-8338daaddf1f",
+      "first_seen_at": "2026-10-22 18:05:50",
+      "last_seen_at": "2026-10-22 18:05:50"
+    },
+    {
+      "资讯标题": "大模型被A股上了一课！EinsiaAI发布Quant Arena，半数大模型亏本",
+      "发布时间": "2026-10-22 15:59:00",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-10-22-10",
+      "desc": "Quant Arena比较9个模型在封存2024年A股行情上的量化研究策略；4个盈利但均低于市场基准，区分研究反馈与样本外表现。",
+      "agent_reason": "独立AI评测基准与方法；原始频道时间及详情正文已核验。",
+      "archive_id": "A20261022-737bbd9bf313",
+      "first_seen_at": "2026-10-22 18:05:50",
+      "last_seen_at": "2026-10-22 18:05:50"
+    },
+    {
+      "资讯标题": "科大讯飞首发星火语音基座大模型 SparkAudio 1.0",
+      "发布时间": "2026-10-22 15:52:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31804",
+      "desc": "科大讯飞发布SparkAudio 1.0，整合语音识别、机器翻译和语义理解，支持说话人分离、环境与情绪理解。",
+      "agent_reason": "独立语音基座模型发布，与X2.6语言模型不同。 已浏览详情纠正默认时间并移除污染摘要。",
+      "archive_id": "A20261022-5d91bf3e9599",
+      "first_seen_at": "2026-10-22 18:05:50",
+      "last_seen_at": "2026-10-22 18:05:50"
+    },
+    {
+      "资讯标题": "Ensemble forecasting with IBM Granite time-series models",
+      "发布时间": "2026-10-22 15:51:31",
+      "来源": "Readhub",
+      "超链接": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+      "desc": "Start with the Probabilistic Ensemble (uniform probability pooling), compare the adaptive Inter Quartile Range (IQR) Ensemble, and extend the same interface with compatible forecasters. Ensemble forecasts explore a range of possible outcomes, and systems such as the North American Multi-Model Ensemble combine different models for seasonal prediction. Time-series forecasting benefits in a similar way: complementary models offer different views of what comes next, and an ensemble merges those views into one forecast.",
+      "agent_reason": "独立模型/核心技术或头部公司AI部署动态；与当日归档语义去重后保留。",
+      "archive_id": "A20261022-0e5fad3ca5f8",
+      "first_seen_at": "2026-10-22 18:05:50",
+      "last_seen_at": "2026-10-22 18:05:50"
+    },
+    {
+      "资讯标题": "英伟达升级 Isaac 通用机器人平台并发布 Agile ONE SN 人形样机",
+      "发布时间": "2026-10-22 15:45:11",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31803",
+      "desc": "英伟达近日宣布对其开源机器人开发平台 NVIDIA Isaac 进行重大扩容，正式推出全新人形机器人参考样机、配套数据集与运行时，并对机器人学习框架进行全面升级，标志着物理 AI 正加速向核心产业落地。思灵机器人同步发布了全栈人形机器人参考样机 Agile ONE SN，该样机预装 NVIDIA Isaac GR00T 并搭载 NVIDIA Jetson Thor 边缘 AI 平台，拥有 1.4 米身高、40 千克体重、31 个自由度及单臂 3 千克最大负载，配备 20 自由度的 WUJI Hand2 五指灵巧手，板载算力达 2070TFLOPS 并具备 128GB 统一内存，预计将于 2027 年初正式上市。NVIDIA Isaac OS 与全栈安全平台 NVIDIA Halos 共同打通了实时调度与安全合规流程。",
+      "agent_reason": "独立模型/核心技术或头部公司AI部署动态；与当日归档语义去重后保留。",
+      "archive_id": "A20261022-32a23cecd653",
+      "first_seen_at": "2026-10-22 18:05:50",
+      "last_seen_at": "2026-10-22 18:05:50"
+    },
+    {
+      "资讯标题": "既能“做选择题”，也能“做填空题”——星辰意图理解模型Xing4.0-29B-Intent发布",
+      "发布时间": "2026-10-22 15:11:14",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/504832.html",
+      "desc": "中电信人工智能科技有限公司星辰通用人工智能实验室正式发布并开源意图理解专用模型 Xing4.0-29B-Intent",
+      "agent_reason": "独立模型/核心技术或头部公司AI部署动态；与当日归档语义去重后保留。",
+      "archive_id": "A20261022-de46add13730",
+      "first_seen_at": "2026-10-22 18:05:50",
+      "last_seen_at": "2026-10-22 18:05:50"
+    },
     {
       "资讯标题": "蚂蚁数科发布 LingDT-Decision-1.0 决策模型，准确率超过微软和 JEV 等模型",
       "发布时间": "2026-10-22 14:39:13",
@@ -114,6 +241,61 @@
       "archive_id": "A20261022-8afc1aa37d99",
       "first_seen_at": "2026-10-22 15:04:11",
       "last_seen_at": "2026-10-22 15:04:11"
+    },
+    {
+      "资讯标题": "Leading European Financial Services Organizations Embrace Open Models to Build Proprietary Intelligence",
+      "发布时间": "2026-10-22 13:00:56",
+      "来源": "Readhub",
+      "超链接": "https://blogs.nvidia.com/blog/european-financial-services-organizations-open-models-proprietary-intelligence",
+      "desc": "At GTC Berlin, banks, payment companies and financial data providers are showing what production-scale intelligence looks like — built on NVIDIA accelerated computing, powered by open weight models and running on their own infrastructure. Santander is an early adopter of the new NVIDIA Kumo family of open weight foundation models for structured financial data, using them to build specialized intelligence for core banking workloads. LSEG is working with NVIDIA to help financial institutions analyze large volumes of historical tick data up to 10x faster with the Polars GPU engine, accelerated by NVIDIA cuDF on NVIDIA RTX PRO 6000 Blackwell GPUs.",
+      "agent_reason": "独立模型/核心技术或头部公司AI部署动态；与当日归档语义去重后保留。",
+      "archive_id": "A20261022-f22a63cc12b9",
+      "first_seen_at": "2026-10-22 18:05:50",
+      "last_seen_at": "2026-10-22 18:05:50"
+    },
+    {
+      "资讯标题": "NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models",
+      "发布时间": "2026-10-22 13:00:27",
+      "来源": "Readhub",
+      "超链接": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models",
+      "desc": "To help developers rapidly build world models, which help physical AI systems understand and simulate the real world, NVIDIA has expanded the Cosmos platform with new training tools, simulation checkpoints and Cosmos Data Factory blueprints. Ranking top five on six different open models leaderboards, the NVIDIA Cosmos platform gives world model builders the frontier open models — as well as data, training and optimization tools and recipes — to scale training data, adapt models, test behavior and optimize for performance before deployment. Developers can use Cosmos Data Factory to generate training datasets, Cosmos Framework to train and adapt world models, then deploy supported Cosmos models through NIM microservices.",
+      "agent_reason": "独立模型/核心技术或头部公司AI部署动态；与当日归档语义去重后保留。",
+      "archive_id": "A20261022-36ee8fe7cab2",
+      "first_seen_at": "2026-10-22 18:05:50",
+      "last_seen_at": "2026-10-22 18:05:50"
+    },
+    {
+      "资讯标题": "NVIDIA Transforms European Retail, From Digital Discovery to Physical Operations",
+      "发布时间": "2026-10-22 13:00:23",
+      "来源": "Readhub",
+      "超链接": "https://blogs.nvidia.com/blog/european-retail-open-models-robotics",
+      "desc": "European retailers are using open models and physical intelligence across use cases — from a commerce platform cutting inference costs by 90% to a fulfillment center where collaboration of different robotic fleets is simulated inside a digital twin. NVIDIA physical AI, digital twins and open models help simulate retail environments, automate warehouse operations and deliver virtual try-on experiences for European retailers and fashion brands. ALLSIDES launched its 3D Digital Twin Factory: an automated pipeline that transforms physical objects into SimReady 3D digital twins in minutes, capturing sub-millimeter geometric accuracy, measured physical properties and fully relightable materials that maintain accuracy under any lighting condition.",
+      "agent_reason": "独立模型/核心技术或头部公司AI部署动态；与当日归档语义去重后保留。",
+      "archive_id": "A20261022-898575ccc2fc",
+      "first_seen_at": "2026-10-22 18:05:50",
+      "last_seen_at": "2026-10-22 18:05:50"
+    },
+    {
+      "资讯标题": "Pioneers Across Europe Deploy NVIDIA Earth-2 Open Models to Power Real-World Weather and Climate Prediction",
+      "发布时间": "2026-10-22 13:00:19",
+      "来源": "Readhub",
+      "超链接": "https://blogs.nvidia.com/blog/europe-earth-2-open-models-weather-climate-prediction",
+      "desc": "StormScope EU is the latest model to join Earth-2 — a regional version of the StormScope model for short-term forecasting, trained over European weather and climate data. Developers can combine Earth-2 models in workflows tailored to regional needs, using StormScope for short-term forecasting and CorrDiff to add local detail to coarser weather data. TotalEnergies is exploring NVIDIA Earth-2 for solar-energy forecasting, evaluating StormScope-based solar-radiation nowcasts at two photovoltaic sites and developing models to provide weather information at subhourly intervals.",
+      "agent_reason": "独立模型/核心技术或头部公司AI部署动态；与当日归档语义去重后保留。",
+      "archive_id": "A20261022-89a4e6d4e0e5",
+      "first_seen_at": "2026-10-22 18:05:50",
+      "last_seen_at": "2026-10-22 18:05:50"
+    },
+    {
+      "资讯标题": "NVIDIA Open Models Power a New Wave of European Public Sector Projects",
+      "发布时间": "2026-10-22 13:00:02",
+      "来源": "Readhub",
+      "超链接": "https://blogs.nvidia.com/blog/european-public-sector-open-models",
+      "desc": "NVIDIA partners and European governments are teaming to bring advanced models to boost the efficiency of public administration while retaining control of data and infrastructure. To support local development, the Sovereign Open Source Foundation Models research initiative (Soofi) is developing a family of AI models for German industry and the public sector. In an effort to support public sector organizations in integrating agentic AI in Europe and beyond, NVIDIA Open Models Codefest brings together startups, software providers and labs across the region to turn open models into locally controlled solutions for public sector challenges, including medical reasoning, AI tutoring and model governance.",
+      "agent_reason": "独立模型/核心技术或头部公司AI部署动态；与当日归档语义去重后保留。",
+      "archive_id": "A20261022-bc7e4740517c",
+      "first_seen_at": "2026-10-22 18:05:50",
+      "last_seen_at": "2026-10-22 18:05:50"
     },
     {
       "资讯标题": "火山引擎启动 Seedance 2.5 4K 模型首批企业试用，定向供应全球 20 家工作室和导演",
@@ -438,6 +620,28 @@
       "last_seen_at": "2026-10-22 15:04:11"
     },
     {
+      "资讯标题": "谁说老牌巨头吃不到AI红利？诺基亚单季度AI新单狂揽15亿欧",
+      "发布时间": "2026-10-22 00:00:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=33ff2e37",
+      "desc": "据路透社报道，诺基亚第三季度AI与云客户新订单15亿欧元，同比增长118%；公司为AI基础设施提供网络连接。",
+      "agent_reason": "AI算力网络供应链财务动态。 原始频道与详情已核验。",
+      "archive_id": "A20261022-c79284ffaf0e",
+      "first_seen_at": "2026-10-22 18:05:50",
+      "last_seen_at": "2026-10-22 18:05:50"
+    },
+    {
+      "资讯标题": "每天爬楼太费劲，谷歌CEO雇了一队AI智能体替自己盯群聊和算力",
+      "发布时间": "2026-10-22 00:00:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=54692f7c",
+      "desc": "据Sources播客报道，皮查伊使用云端智能体汇总内部群聊和算力利用率，算力分配仍由本人决定。",
+      "agent_reason": "具体内部Agent工作流与既有泛论智能体优势不同。 原始频道与详情已核验。",
+      "archive_id": "A20261022-5010ea2dd35d",
+      "first_seen_at": "2026-10-22 18:05:50",
+      "last_seen_at": "2026-10-22 18:05:50"
+    },
+    {
       "资讯标题": "困扰数学界31年的KLS猜想，被微软研究员带着AI彻底终结",
       "发布时间": "2026-10-22 00:00:00",
       "来源": "新智元",
@@ -448,6 +652,17 @@
       "archive_id": "A20261022-f3e64dd40d1d",
       "first_seen_at": "2026-10-22 09:17:18",
       "last_seen_at": "2026-10-22 09:17:18"
+    },
+    {
+      "资讯标题": "ChatGPT住进谷歌Chrome，不仅跨标签页查资料还能替你填表",
+      "发布时间": "2026-10-22 00:00:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=cef6a385",
+      "desc": "据TechRadar报道，ChatGPT浏览器插件支持侧栏跨标签页资料汇总，以及Work模式填表等任务，遇不确定分类会询问用户。",
+      "agent_reason": "浏览器智能体交互能力更新。 原始频道与详情已核验。",
+      "archive_id": "A20261022-20a2a4776155",
+      "first_seen_at": "2026-10-22 18:05:50",
+      "last_seen_at": "2026-10-22 18:05:50"
     },
     {
       "资讯标题": "Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster",

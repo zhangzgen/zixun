@@ -2,8 +2,8 @@
   "version": 1,
   "date": "2026-10-22",
   "timezone": "Asia/Shanghai",
-  "updated_at": "2026-10-22 12:02:41",
-  "item_count": 55,
+  "updated_at": "2026-10-22 15:04:11",
+  "item_count": 65,
   "runs": [
     {
       "collected_at": "2026-10-22 09:17:18",
@@ -38,9 +38,94 @@
         "今日头条/Tophub": "ok:50",
         "Readhub": "ok:10"
       }
+    },
+    {
+      "collected_at": "2026-10-22 15:04:11",
+      "input_count": 10,
+      "added_count": 10,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "完整审阅74条候选及当天55条归档，不限TopK。剔除50条搜索壳、脚本污染摘要与默认09时刻及重复事件。浏览器展开新智元60条、检查新华科技及机器之心产业频道并核对详情；补充新事件与算力详情，Agnes/PHP/脑细胞/IPO等同事件去重。",
+      "source_status": {
+        "量子位": "ok:3",
+        "新智元": "ok:0",
+        "AIBase": "ok:11",
+        "新华网科技": "ok:0",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
     }
   ],
   "items": [
+    {
+      "资讯标题": "蚂蚁数科发布 LingDT-Decision-1.0 决策模型，准确率超过微软和 JEV 等模型",
+      "发布时间": "2026-10-22 14:39:13",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31800",
+      "desc": "蚂蚁数科团队在客服、风控、金融等真实业务场景测试显示，LingDT-Decision-1.0 相比大语言模型可将 Token 消耗降低超 90%，响应时效提升 10 倍，且性能表现更优。覆盖 23 项主流开源评测基准的测试结果显示，LingDT-Decision-1.0 的 27B 版本综合评分（90% 单选评分 + 10% 多选评分）位居第一，准确率超过 Microsoft-Decision-1、Jev1.13.0、Fastino/GLiDE 等热门决策模型。在多选任务上，LingDT-Decision-1.0 的 4B 和 27B 版本准确率超过 Microsoft-Decision-1、Jev1.13.0、Star-lux 等 16 个决策模型，体现出原生多选能力在多标签与组合判定任务中的优势。",
+      "agent_reason": "企业决策模型发布，保留团队自报基准与业务测试口径。",
+      "archive_id": "A20261022-9e8ba1080020",
+      "first_seen_at": "2026-10-22 15:04:11",
+      "last_seen_at": "2026-10-22 15:04:11"
+    },
+    {
+      "资讯标题": "从合肥展会走向普通家庭，奇瑞这台90厘米人形机器人开放预订",
+      "发布时间": "2026-10-22 14:33:00",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-10-22-7",
+      "desc": "奇瑞墨甲发布家庭陪伴机器人墨宝并开启预订，身高约90厘米、重18公斤、22自由度，采用VLM、MoAgent与长时记忆；计划年底量产，披露续航约1.5至2小时。",
+      "content_source": "browser_original_detail",
+      "agent_reason": "消费级人形机器人发布及技术配置，区分预订与实际交付。",
+      "archive_id": "A20261022-f61fdc17e30f",
+      "first_seen_at": "2026-10-22 15:04:11",
+      "last_seen_at": "2026-10-22 15:04:11"
+    },
+    {
+      "资讯标题": "谷歌 CEO 皮查伊：AI 智能体的优势，是 7×24 小时不打烊",
+      "发布时间": "2026-10-22 14:32:20",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31799",
+      "desc": "日常简报，这些智能体还替他盯着两件事：一边跟进谷歌 AI 模型的研发进度与算力消耗，一边捕捉散落在多个内部群聊里的讨论，不必再一条条翻聊天记录。皮查伊提到，团队还部署了一批专门监测各产品板块算力使用率、运行效率的智能体，定期送上数据与分析。在皮查伊眼里，智能体真正值钱的地方，恰恰是它们不知疲倦——部署在云端，一周七天、一天二十四小时连轴转，还记着你之前做到哪一步，能从上次停下的地方无缝续上。",
+      "agent_reason": "头部公司智能体用于简报与算力监测的具体实践；重大决策仍由人负责。",
+      "archive_id": "A20261022-b35d6fd34928",
+      "first_seen_at": "2026-10-22 15:04:11",
+      "last_seen_at": "2026-10-22 15:04:11"
+    },
+    {
+      "资讯标题": "谷歌云豪掷 96 万块 Rubin GPU：Vera Rubin 平台铺向多站点，A5X 实例上线",
+      "发布时间": "2026-10-22 14:16:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31798",
+      "desc": "谷歌云计划基于Vera Rubin平台在多个站点最多部署96万块Rubin GPU；发布A5X实例，定于下月推出，采用ConnectX-9 SuperNIC、Virgo网络与第四代液冷。亦计划提供机架级裸机机密计算。",
+      "content_source": "browser_original_detail",
+      "agent_reason": "下一代AI算力基础设施与机密计算；96万块为规划上限，A5X待下月推出。",
+      "archive_id": "A20261022-2912c46bef21",
+      "first_seen_at": "2026-10-22 15:04:11",
+      "last_seen_at": "2026-10-22 15:04:11"
+    },
+    {
+      "资讯标题": "八部门印发产业基础「十五五」规划，布局通用与行业大模型",
+      "发布时间": "2026-10-22 13:42:49",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31796",
+      "desc": "工业和信息化部等八部门近日印发《产业基础能力提升「十五五」规划》，明确把人工智能赋能产业基础创新摆在重要位置。在落地路径上，规划要求加快人工智能向产品研发、设计仿真、中试验证、生产运营等全环节渗透，整体提升过程管理、分析预测、决策执行的智能化水平，从而加速产业基础创新的迭代节奏。AI 不再只是锦上添花的点缀，而是被写进从研发到生产的整条工业链条，为产业基础能力升级提速。",
+      "agent_reason": "产业基础政策明确通用与行业大模型布局及智能体服务。",
+      "archive_id": "A20261022-8afc1aa37d99",
+      "first_seen_at": "2026-10-22 15:04:11",
+      "last_seen_at": "2026-10-22 15:04:11"
+    },
+    {
+      "资讯标题": "火山引擎启动 Seedance 2.5 4K 模型首批企业试用，定向供应全球 20 家工作室和导演",
+      "发布时间": "2026-10-22 12:47:00",
+      "来源": "Readhub",
+      "超链接": "https://www.leiphone.com/category/industrynews/mqvYMpYMxjNyoBAJ.html",
+      "desc": "Seedance 2.5 4K 模型画面细节更清晰，主打人物表演更细腻自然、参考生成和编辑的一致性更精细，是 Seedance 2.5 这一代中的最强模型。一家已试用模型的电影工作室向雷峰网表示，Seedance 2.5 4K 的价格设置并没有预期中高——允许先用 480P 生成样片，有满意的镜头后再用 4K 重新生成。4K 版本模型更看重高端影视需求的探索，目前在用的 20 部作品中，最早下个月就有卫视 S 级 IP 播出，更有全球大 IP 电影。",
+      "agent_reason": "视频生成模型定向企业试用，非全面开放。",
+      "archive_id": "A20261022-316b8aa1b26e",
+      "first_seen_at": "2026-10-22 15:04:11",
+      "last_seen_at": "2026-10-22 15:04:11"
+    },
     {
       "资讯标题": "特斯拉 AI 豪赌遇阻：2026 支出砍 20%，马斯克转型节奏生变",
       "发布时间": "2026-10-22 10:59:08",
@@ -62,6 +147,30 @@
       "archive_id": "A20261022-252b5eebb164",
       "first_seen_at": "2026-10-22 12:02:41",
       "last_seen_at": "2026-10-22 12:02:41"
+    },
+    {
+      "资讯标题": "多榜登顶，跨越仿真、真机与真实场景！无界动力发布并开源MWA™-Phoenix隐空间世界模型基座",
+      "发布时间": "2026-10-22 10:25:00",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-10-22-3",
+      "desc": "发布端侧7B预训练世界模型、Phoenix-ILA及Phoenix-PhysCanvas，采用DINOv3与几何/时序双教师蒸馏、联合状态动作建模、仿真GRPO后训练；公开技术报告与代码。",
+      "content_source": "browser_original_detail",
+      "agent_reason": "具身世界模型开源及视触觉/强化学习技术，成绩按团队披露。",
+      "archive_id": "A20261022-02ac1f1a94a4",
+      "first_seen_at": "2026-10-22 15:04:11",
+      "last_seen_at": "2026-10-22 15:04:11"
+    },
+    {
+      "资讯标题": "DeepSeek开源推理框架，有人算出AI的毛利：82%",
+      "发布时间": "2026-10-22 10:14:00",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-10-22-2",
+      "desc": "DeepInfer与deepseek-recipe开放推理和编解码能力，支持SM100 GPU及昇腾950 NPU；介绍3FS共享KV缓存、Prefill/Decode分离与DSpark动态长度验证。82%仅为扣显卡租金后的估算，非完整净利润。",
+      "content_source": "browser_original_detail",
+      "agent_reason": "推理框架部署工程与成本分析，有具体技术细节及重要估算边界。",
+      "archive_id": "A20261022-4175defebfee",
+      "first_seen_at": "2026-10-22 15:04:11",
+      "last_seen_at": "2026-10-22 15:04:11"
     },
     {
       "资讯标题": "10-50万级全覆盖，千里智驾量产进入放量期",
@@ -225,6 +334,18 @@
       "last_seen_at": "2026-10-22 09:17:18"
     },
     {
+      "资讯标题": "一人违规全员停用GPT-5，OpenAI上线安全ID防连坐，整改期7天",
+      "发布时间": "2026-10-22 06:07:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=059020e7",
+      "desc": "据开发者文档，安全标识符用于区分最终用户，长度限制128字符，覆盖Responses、Chat Completions、Images及Realtime。报道提及机构违规整改窗口。",
+      "content_source": "browser_original_detail",
+      "agent_reason": "API最终用户标识与风控实施细节，区别于一般分发合作政策报道；按二手文档解读存档。",
+      "archive_id": "A20261022-a3cfb5503ab4",
+      "first_seen_at": "2026-10-22 15:04:11",
+      "last_seen_at": "2026-10-22 15:04:11"
+    },
+    {
       "资讯标题": "Broad access through consistent standards",
       "发布时间": "2026-10-22 05:00:00",
       "来源": "Readhub",
@@ -303,6 +424,18 @@
       "archive_id": "A20261022-0442b9c1e202",
       "first_seen_at": "2026-10-22 09:17:18",
       "last_seen_at": "2026-10-22 09:17:18"
+    },
+    {
+      "资讯标题": "马斯克亲自下场造芯！特斯拉联手SpaceX建厂，首颗芯片2027年见",
+      "发布时间": "2026-10-22 00:00:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=ef1ed876",
+      "desc": "据Gizmodo报道，Terafab计划2027年上半年调试，目标2027年5或6月测试芯片、2028年量产；投资分摊尚未定，报道同时指出晶圆厂工期风险。",
+      "content_source": "browser_original_detail",
+      "agent_reason": "AI芯片制造与机器人算力计划；目标时间非已实现进度。",
+      "archive_id": "A20261022-c1a05e6a4c3d",
+      "first_seen_at": "2026-10-22 15:04:11",
+      "last_seen_at": "2026-10-22 15:04:11"
     },
     {
       "资讯标题": "困扰数学界31年的KLS猜想，被微软研究员带着AI彻底终结",

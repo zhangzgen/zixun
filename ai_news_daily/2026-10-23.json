@@ -2,8 +2,8 @@
   "version": 1,
   "date": "2026-10-23",
   "timezone": "Asia/Shanghai",
-  "updated_at": "2026-10-23 12:03:10",
-  "item_count": 50,
+  "updated_at": "2026-10-23 15:07:19",
+  "item_count": 61,
   "runs": [
     {
       "collected_at": "2026-10-23 09:15:16",
@@ -38,9 +38,81 @@
         "今日头条/Tophub": "ok:50",
         "Readhub": "ok:10"
       }
+    },
+    {
+      "collected_at": "2026-10-23 15:07:19",
+      "input_count": 11,
+      "added_count": 11,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "完整审阅24条脚本候选及当日50条归档，无TopK；保留4条新事件、纠正1条AIBase默认时间，浏览器补充2条新智元、3条机器之心、1条新华网。剔除重复事件、未来15:30条目、脚本摘要污染与默认时间、无实质技术信息的活动宣传及非AI短讯。",
+      "source_status": {
+        "量子位": "ok:3",
+        "新智元": "ok:0",
+        "AIBase": "ok:11",
+        "新华网科技": "ok:0",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "error:<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>",
+        "Readhub": "ok:10"
+      }
     }
   ],
   "items": [
+    {
+      "资讯标题": "美民调：57% 美国人认定 AI 弊大于利，七成反对社区建数据中心",
+      "发布时间": "2026-10-23 14:11:41",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31836",
+      "desc": "这项 10 月 9 日至 13 日访及 2545 人的调查（误差约 ±2%）勾勒出一幅颇为悲观的图景：57% 的受访者认为 AI 对社会弊大于利，仅 42% 觉得有益。具体风险里，73% 担心 AI 助长针对安全系统的网络攻击，65% 害怕大量岗位消失，62% 忧虑人类逐渐丧失独立决策能力，33% 甚至把 AI 视作人类灭绝的高风险。企业接下来的考题，不再只是堆芯片、训模型，更要证明 AI 能让普通人真正获益，并压住就业、能耗与社区成本的副作用。",
+      "agent_reason": "AI公众态度、网络安全及算力设施社区影响的具体民调。",
+      "archive_id": "A20261023-d7f502969eab",
+      "first_seen_at": "2026-10-23 15:07:19",
+      "last_seen_at": "2026-10-23 15:07:19"
+    },
+    {
+      "资讯标题": "资本与生态双向奔赴，DeepSeek开启上市倒计时并迎联想系入股",
+      "发布时间": "2026-10-23 14:10:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31835",
+      "desc": "据外媒报道，DeepSeek新一轮融资引入君联资本、石溪资本和吉利等投资者，并聘请中信证券提供IPO顾问服务，最快有望2027年初推进上市；联想系产品已有技术适配。",
+      "agent_reason": "头部大模型公司融资及产业生态报道；为媒体引述，上市时间为预期，未视作已完成上市。 已通过原始频道与详情正文核验；页面仅精确到分钟时以00秒表示。",
+      "archive_id": "A20261023-d7c8869f630d",
+      "first_seen_at": "2026-10-23 15:07:19",
+      "last_seen_at": "2026-10-23 15:07:19"
+    },
+    {
+      "资讯标题": "Claude 狂写 1.8 亿行数学证明：万亿次测试都没抓到的漏洞，被 AI 一锅端",
+      "发布时间": "2026-10-23 14:06:52",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31834",
+      "desc": "它们让 Claude 沉到最底层，对着 RISC-V 汇编指令，给大量生产级开源代码库做形式化验证——在短短数周内，就啃完了 123 个开源代码库、239 个测试入口，产出了 1.8 亿行通过核验的 Rocq 数学证明代码。那些模糊测试（fuzzing）跑上万亿次都没能撞见的隐秘漏洞、潜伏了十余年的高危逻辑死角，甚至 x86 处理器层面的硬件缺陷和官方文档里的错误，被 Claude 一口气揪了出来。这套方法的狠处在于，它把测试入口直接转译成数学命题，对全路径、全输入做覆盖式证明——一旦证明在某处「卡住」推不下去，那里往往就是漏洞的藏身点，而且 Claude 还能顺手把补丁修好、再接着验证下去，漏检率被大幅压低。",
+      "agent_reason": "Claude联合Theorem Labs开展底层形式化验证，包含代码库规模和可验证技术成果。",
+      "archive_id": "A20261023-b0a171911dbd",
+      "first_seen_at": "2026-10-23 15:07:19",
+      "last_seen_at": "2026-10-23 15:07:19"
+    },
+    {
+      "资讯标题": "Anthropic安全主管突然劝退：别盲目追AI，防御方得死撑18个月",
+      "发布时间": "2026-10-23 12:12:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=b31fe55b",
+      "desc": "Anthropic副安全主管Jason D. Clinton在X发帖，建议安全团队向董事会争取资源、先加固底层防御，并提出未来18个月的风险判断。",
+      "agent_reason": "头部AI公司安全负责人的具体防御建议；保留个人预测属性。 已通过原始频道与详情正文核验；页面仅精确到分钟时以00秒表示。",
+      "archive_id": "A20261023-4e0b28204d35",
+      "first_seen_at": "2026-10-23 15:07:19",
+      "last_seen_at": "2026-10-23 15:07:19"
+    },
+    {
+      "资讯标题": "被骂惨的Recall换了种活法：微软内测不截屏AI大脑，还能连Claude",
+      "发布时间": "2026-10-23 12:11:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=8a2a9e69",
+      "desc": "据Windows Latest和Pureinfotech，微软内测Project Pantheon/Context Vault，由用户主动保存记忆，不自动录屏，支持通过MCP供Claude、Cursor调用。",
+      "agent_reason": "微软AI记忆应用内测及隐私、互操作性进展；非正式全面发布。 已通过原始频道与详情正文核验；页面仅精确到分钟时以00秒表示。",
+      "archive_id": "A20261023-d5cd96987927",
+      "first_seen_at": "2026-10-23 15:07:19",
+      "last_seen_at": "2026-10-23 15:07:19"
+    },
     {
       "资讯标题": "AI 三巨头拟捐近 3000 亿美元，被称\"现代史上最大慈善\"",
       "发布时间": "2026-10-23 11:35:00",
@@ -119,6 +191,17 @@
       "last_seen_at": "2026-10-23 12:03:10"
     },
     {
+      "资讯标题": "Kazakhstan Expands Compute for Its AI Future",
+      "发布时间": "2026-10-23 10:00:13",
+      "来源": "Readhub",
+      "超链接": "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem",
+      "desc": "Firebird plans to establish Firebird Labs Kazakhstan to support local AI startups, research and talent development through funding, access to compute and research partnerships. Next year, the company plans to deploy more than 1,000 GPUs in the Data Center Valley, along with more than 1,000 NVIDIA Vera Rubin GPUs in the Ekibastuz region, serving diverse workloads with infrastructure that enterprises, developers and institutions can use at scale. Today's announcements represent different layers of that stack — infrastructure deployment, access to compute and AI-native product development — where the AI foundation is reaching new scale.",
+      "agent_reason": "英伟达原始发布：哈萨克斯坦AI算力、GPU部署及研究生态规划，区分计划与已部署。",
+      "archive_id": "A20261023-90e35913e5ba",
+      "first_seen_at": "2026-10-23 15:07:19",
+      "last_seen_at": "2026-10-23 15:07:19"
+    },
+    {
       "资讯标题": "奥尔特曼谈数学家的 AI 心路：从\"我们完蛋了\"到接受现实",
       "发布时间": "2026-10-23 10:00:00",
       "来源": "AIBase",
@@ -161,6 +244,17 @@
       "archive_id": "A20261023-def13b6b952d",
       "first_seen_at": "2026-10-23 12:03:10",
       "last_seen_at": "2026-10-23 12:03:10"
+    },
+    {
+      "资讯标题": "奔向“6G之城” 南京如何把“先发”变“胜势”",
+      "发布时间": "2026-10-23 09:17:23",
+      "来源": "新华网科技",
+      "超链接": "https://www.news.cn/tech/20261023/91fd01261bb94cdea1a1c995b3a3e6c1/c.html",
+      "desc": "报道Pre6G试验网、智能体互联平台AXP及太赫兹光电探测器芯片，涉及26公里100Gbps外场试验和网联具身智能场景；6G商用与规模化时间仍属预期。",
+      "agent_reason": "核心通信技术、芯片与智能体基础设施的具体进展。 已通过原始频道与详情正文核验；页面仅精确到分钟时以00秒表示。",
+      "archive_id": "A20261023-7cbd9cc80408",
+      "first_seen_at": "2026-10-23 15:07:19",
+      "last_seen_at": "2026-10-23 15:07:19"
     },
     {
       "资讯标题": "工业和信息化部工业软件标准化技术委员会成立",
@@ -217,6 +311,17 @@
       "archive_id": "A20261023-868646b7c0bc",
       "first_seen_at": "2026-10-23 09:15:16",
       "last_seen_at": "2026-10-23 09:15:16"
+    },
+    {
+      "资讯标题": "OpenAI and Poland's NASK partner to advance AI safety and security",
+      "发布时间": "2026-10-23 08:00:00",
+      "来源": "Readhub",
+      "超链接": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+      "desc": "OpenAI and Poland's NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
+      "agent_reason": "OpenAI与波兰NASK的AI安全合作原始公告，独立安全政策与合作事件。",
+      "archive_id": "A20261023-1a543055a02f",
+      "first_seen_at": "2026-10-23 15:07:19",
+      "last_seen_at": "2026-10-23 15:07:19"
     },
     {
       "资讯标题": "1Password 推出智能体密码授权功能：让 AI 代你网购、订票、点外卖",
@@ -384,6 +489,17 @@
       "last_seen_at": "2026-10-23 09:15:16"
     },
     {
+      "资讯标题": "田渊栋新公司首个模型亮相！AI全程参与、不到4个月从零造",
+      "发布时间": "2026-10-22 20:15:00",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-10-22-15",
+      "desc": "Recursive发布Flint-40B-A2B本地智能体编程MoE模型，Eureka Machine参与架构、量化、训练和推理优化；权重以Apache 2.0开放，配套rec推理引擎。",
+      "agent_reason": "自动化AI研发、开源本地模型与推理优化的独立技术发布；速度和基准为报道所述测试条件下结果。 已通过原始频道与详情正文核验；页面仅精确到分钟时以00秒表示。",
+      "archive_id": "A20261023-4a343043e37a",
+      "first_seen_at": "2026-10-23 15:07:19",
+      "last_seen_at": "2026-10-23 15:07:19"
+    },
+    {
       "资讯标题": "Gartner 预警：AI 基建投资面临 3.5 万亿美元减值风险，八成新兴云厂商或被整合",
       "发布时间": "2026-10-22 18:17:11",
       "来源": "Readhub",
@@ -428,6 +544,17 @@
       "last_seen_at": "2026-10-23 09:15:16"
     },
     {
+      "资讯标题": "对决RoboColiseum！GPT、Claude、Gemini机器人能力PK，险胜之后还有黑马",
+      "发布时间": "2026-10-22 17:27:00",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-10-22-13",
+      "desc": "RoboColiseum以Agent2Act比较四款多模态模型与专业具身策略，提供环境扰动、反馈、深度信息和历史记录消融，以及仿真和真机失败案例。",
+      "agent_reason": "具体具身智能评测与失败分析；推理设置和控制方案存在差异，保留适用范围。 已通过原始频道与详情正文核验；页面仅精确到分钟时以00秒表示。",
+      "archive_id": "A20261023-076f6ea667af",
+      "first_seen_at": "2026-10-23 15:07:19",
+      "last_seen_at": "2026-10-23 15:07:19"
+    },
+    {
       "资讯标题": "王兴兴给宇树画了三条线：量产、小模型、大算力",
       "发布时间": "2026-10-22 17:20:11",
       "来源": "AIBase",
@@ -448,6 +575,17 @@
       "archive_id": "A20261023-dfd02e8c1094",
       "first_seen_at": "2026-10-23 09:15:16",
       "last_seen_at": "2026-10-23 09:15:16"
+    },
+    {
+      "资讯标题": "大模型被A股上了一课！EinsiaAI发布Quant Arena，半数大模型亏本",
+      "发布时间": "2026-10-22 15:59:00",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-10-22-10",
+      "desc": "Quant Arena以3042只A股历史数据评估9个模型的量化研究智能体，研究期最多5次候选反馈、2024封存行情一次评估；代表策略均未跑赢市场基准。",
+      "agent_reason": "智能体量化研究基准、样本外评估与反馈消融；历史回测不代表未来交易收益。 已通过原始频道与详情正文核验；页面仅精确到分钟时以00秒表示。",
+      "archive_id": "A20261023-737bbd9bf313",
+      "first_seen_at": "2026-10-23 15:07:19",
+      "last_seen_at": "2026-10-23 15:07:19"
     },
     {
       "资讯标题": "英伟达砸钱锁定供应链，拉 6 家伙伴扩 AI 产能",

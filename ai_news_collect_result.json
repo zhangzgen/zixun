@@ -1,12 +1,12 @@
 {
   "ok": true,
-  "date": "2026-10-26",
-  "archive_file": "ai_news_daily/2026-10-26.json",
-  "input_count": 22,
-  "added_count": 22,
+  "date": "2026-10-27",
+  "archive_file": "ai_news_daily/2026-10-27.json",
+  "input_count": 47,
+  "added_count": 47,
   "updated_count": 0,
   "skipped_duplicate_count": 0,
-  "archive_count": 75,
+  "archive_count": 47,
   "cleanup_removed": [
     "tmp_ai_news_filtered.json",
     "tmp_ai_news_collect_candidates.json"

@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "date": "2026-10-25",
+  "generated_by": "technical_reports.export_search",
+  "items": [
+    {
+      "archive_id": "R-437ab44eb8339e508ab7",
+      "资讯标题": "Recycler: Cost-Free Latent Reasoning via Hidden State Recycling",
+      "发布时间": "2026-10-25 00:00:00",
+      "date_precision": "day",
+      "来源": "Seed 技术报告",
+      "超链接": "https://seed.bytedance.com/en/public_papers/recycler-cost-free-latent-reasoning-via-hidden-state-recycling",
+      "desc": "报告提出 Recycler，通过轻量适配器把前一位置的顶层隐藏状态与下一 token embedding 相加，在保留离散 token 反馈的同时提供连续跨步信息。厂商评测称其逐 token 解码成本近似不增，并在预训练、持续预训练、SFT 与 RL 中提升数学、推理等能力，但代价是训练和部分预填充计算增加，长深度外推仍缺乏普适保证。",
+      "content": "## 核心结论\n报告提出 Recycler，将前一步的顶层隐藏状态通过轻量适配器回收到下一步输入中，使离散 token 路径与连续状态路径并存。厂商评测称，该方法在逐 token 解码阶段可保持与同尺寸标准 Transformer 近似相同的主干计算和 KV-cache footprint，并在数学、逻辑推理、代码等任务上带来稳定收益；但收益并非“免费”，训练通常需要两次 forward，prefill k=2 时 prompt 计算量约翻倍，且大规模、长序列外推的稳定性尚未充分验证。\n\n## 问题与方法\n- **要解决的信息瓶颈**：标准自回归模型每步只把采样后的离散 token 传给下一步，报告认为这会丢弃顶层隐藏状态中的连续语义信息。Recycler 保留标准 unembedding、采样和重新 embedding 的离散反馈，同时增加隐藏状态的连续反馈。\n- **核心结构**：适配器定义为 A(h)=Linear(RMSNorm(h))，下一步输入为 Emb(x)+A(h)。递归解码时，当前采样 token 与上一位置隐藏状态共同进入 Transformer；回收深度随生成长度增长，不截断连续信息。\n- **训练近似与稳定化**：精确递归难以进行 token 级并行训练，因此采用多 pass 近似；每个 pass 都计算 NTP 损失。线性投影零初始化，使初始模型退化为标准 Transformer；同时绑定输入 embedding 与输出 projection，以减小不同深度表示不匹配。\n- **生命周期集成**：预训练通常用 k_train=2；prefill 可选 k=1（计算接近标准模型）或 k=2（prompt 并行 forward 两次、质量通常更高）。SFT 只在 response 区域训练，RL rollout 使用 GSPO，并可在 PT、CT、SFT 或 RL 阶段引入 Recycler。\n\n## 主要证据\n- 小型 MoE 验证模型为 151M activated、1B total parameters，训练 200B tokens。报告称，训练深度 k_train=2 时，解码深度 k_dec 从 1 增至 32，i.i.d. 集、MMLU 和 C-Eval 总体稳定提升；部分大模型或大数据实验出现外推问题，加入第三次 forward 的部分训练方案约增加 3.3% 训练成本并改善该问题。\n- model α 在 14 个 benchmark 上的等权平均由基线 42.97 提升至 Recycler 46.21，绝对提升 3.24；报告称 DROP、BBH、AGI-Eval、MBPP+ 等增益较明显。训练结束时，加入回收的第二 forward 验证损失约降低 0.033，但两次 forward 意味着训练成本约为标准方案两倍。\n- model β 的厂商评测称，Recycler 平均分为 64.76，接近参数规模约 2.4 倍基线的 66.43，差距 1.68；不过同尺寸基线仅覆盖共同显示训练范围前约 50%，不能视为完全相同预算下的严格比较。\n- SFT 的 22 项评测中，基线平均分 62.9，Recycler 在 k=1 prefill 为 65.3、k=2 prefill 为 66.7，并在 19 项超过基线；k=2 的推理平均提升更大，但 IFEval 等个别项目下降。RL 数学实验中，基线为 60.06，k=2 训练且 k=2 推理为 64.38；该实验采用内部长 CoT 数据和单一规则 verifier，且路线存在代码版本与 rollout schedule 差异。\n\n## 限制与适用价值\n主要限制包括训练成本增加、k=2 prefill 的额外延迟或算力、训练与推理深度不匹配，以及缺少对所有模型规模、上下文长度和生成长度的系统边界或理论保证。报告未提供独立复现、统计显著性、随机种子、真实服务吞吐、能耗、显存峰值或 speculative decoding 的加速比例；RL 结果也不能单独证明 RL 阶段的严格因果收益。适用上，Recycler 更适合作为扩大参数量和训练数据之外的补充计算轴：计算受限时可采用 CT 引入与 k=1 prefill，质量优先时可采用 k=2；最终应同时核算训练、prefill 和外推风险，而不能仅依据“解码成本近似不增”判断总体成本。",
+      "content_kind": "技术报告总结",
+      "report_id": "R-437ab44eb8339e508ab7",
+      "fulltext_path": "technical_reports/fulltext/R-437ab44eb8339e508ab7-ae9080ccc782385a.txt",
+      "source": "ByteDance Seed 官网",
+      "report_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/hyvsmeh7uhobf/recycler_arxiv%20(2).pdf",
+      "feishu_url": "https://ocns5gikjtax.feishu.cn/wiki/PxSrwdFnkiZ9WykPSlocBjZXnFd"
+    }
+  ]
+}

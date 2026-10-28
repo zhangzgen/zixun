@@ -2,8 +2,8 @@
   "version": 1,
   "date": "2026-10-28",
   "timezone": "Asia/Shanghai",
-  "updated_at": "2026-10-28 12:12:45",
-  "item_count": 50,
+  "updated_at": "2026-10-28 15:08:37",
+  "item_count": 54,
   "runs": [
     {
       "collected_at": "2026-10-28 09:03:13",
@@ -39,9 +39,71 @@
         "Readhub": "ok:10",
         "browser_supplement": "新华网科技频道核验3条；AIBase/Readhub详情页已核验；机器之心文章库登录限制"
       }
+    },
+    {
+      "collected_at": "2026-10-28 15:08:37",
+      "input_count": 4,
+      "added_count": 4,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "完整审阅本轮候选并对照当天归档，保留4条新增AI/大模型/算力核心技术事件；剔除重复事件、非AI或低价值内容、脚本重复时间条目及无详情页来源。",
+      "source_status": {
+        "量子位": "ok:10",
+        "新智元": "ok:0",
+        "AIBase": "ok:12",
+        "新华网科技": "ok:0",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "error:HTTP Error 403: Forbidden",
+        "Readhub": "ok:10",
+        "浏览器补充": "新华网科技频道可访问，当前窗口内相关AI详情已在当天归档；机器之心主页可访问但文章卡片未提供可用详情链接；新智元频道超时；TopHub HTTP 403。"
+      }
     }
   ],
   "items": [
+    {
+      "资讯标题": "马斯克前员工创立的 AI 初创公司仅用 12 小时攻破 Anthropic 办公系统",
+      "发布时间": "2026-10-28 14:05:45",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31924",
+      "desc": "参与其漏洞悬赏项目的 AI 网络安全初创公司 Cathedral，派出旗下自研的 AI Agent 对 Anthropic 发起安全测试。在正面强攻其核心系统未果后，该 AI Agent 迅速转换策略，通过 Anthropic 日常使用的第三方办公软件漏洞成功切入，在不到 12 小时内便渗透进其内部系统。此次事件再次凸显出这类顶尖 AI 机构在全力筑牢核心大模型系统防线的同时，往往容易在日常办公相关的第三方软件管理和供应链安全上留下明显疏漏。",
+      "agent_reason": "保留：AI/大模型/智能体/算力核心技术或头部公司动态，详情页链接有效；与当天归档事件去重后为新增事件。",
+      "archive_id": "A20261028-ce6b74f953d3",
+      "first_seen_at": "2026-10-28 15:08:37",
+      "last_seen_at": "2026-10-28 15:08:37"
+    },
+    {
+      "资讯标题": "AI 编程能力改变招聘标准，Anthropic 招聘负责人取消传统编程面试",
+      "发布时间": "2026-10-28 14:05:06",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31923",
+      "desc": "Anthropic 招聘经理、Claude 相关产品工程负责人 Felix Rieseberg 近日表示，已在其团队的招聘流程中取消传统编程题面试，并称「编程面试已经死了，至少对我的团队而言」。Rieseberg 认为，随着 Claude 等 AI 工具能够轻松完成小型 React 编程挑战，甚至处理底层汇编问题，传统编程题的筛选价值正在下降。此类测试越来越难以区分候选人的真实工程能力，面试结果可能更多反映 AI 工具的能力，而非候选人在实际工作中的判断力、产品品味与协作水平。",
+      "agent_reason": "保留：AI/大模型/智能体/算力核心技术或头部公司动态，详情页链接有效；与当天归档事件去重后为新增事件。",
+      "archive_id": "A20261028-ea071b079bd5",
+      "first_seen_at": "2026-10-28 15:08:37",
+      "last_seen_at": "2026-10-28 15:08:37"
+    },
+    {
+      "资讯标题": "DeepSeek V5 惊现官方代码库，外界猜 11 月见真章",
+      "发布时间": "2026-10-28 13:46:27",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31922",
+      "desc": "DeepSeek 的 Harness 代码库已出现 DeepSeek-V5、V5-open、V5-next 等字样，暗示新模型即将推出。意义很直白：DeepSeek 只要在服务器端改 /models 配置，就能把 V5 放出，客户端无需发新版。Flash 版刚发不久，V5 Pro 推出不会太快——本月基本无望，得等到 11 月。",
+      "agent_reason": "保留：AI/大模型/智能体/算力核心技术或头部公司动态，详情页链接有效；与当天归档事件去重后为新增事件。",
+      "archive_id": "A20261028-a9fcb62ea1ca",
+      "first_seen_at": "2026-10-28 15:08:37",
+      "last_seen_at": "2026-10-28 15:08:37"
+    },
+    {
+      "资讯标题": "前英特尔 CEO 基辛格押注新 AI 内存：Z2RAM 拟绕开 EUV 光刻，4 年内送样",
+      "发布时间": "2026-10-28 13:07:46",
+      "来源": "Readhub",
+      "超链接": "https://www.ithome.com/1/018/887.htm",
+      "desc": "科技媒体 semiconleadersasia 昨日（10 月 27 日）发布博文，报道称前英特尔首席执行官帕特・基辛格（Pat Gelsinger）正通过风投机构 Playground Global，支持内存初创公司 Nagare Labs 开发下一代存储技术 Z2RAM。该公司近期完成由 Playground Global 领投的 500 万美元（IT 之家注：现汇率约合 3,340.5 万元人民币）种子轮融资，目标是打造兼具 SRAM 速度与 DRAM 密度的 AI 计算内存，以缓解「内存墙」瓶颈。Z2RAM 关键卖点是使用标准后端工艺（BEOL），无需极紫外光刻（EUV）即可通过单次曝光形成多层存储结构，有望提升密度并降低制造复杂度与成本。",
+      "agent_reason": "保留：AI/大模型/智能体/算力核心技术或头部公司动态，详情页链接有效；与当天归档事件去重后为新增事件。",
+      "archive_id": "A20261028-5725080b4cf0",
+      "first_seen_at": "2026-10-28 15:08:37",
+      "last_seen_at": "2026-10-28 15:08:37"
+    },
     {
       "资讯标题": "Personal Agent走向真实任务，蚂蚁百灵开源 Ling-3.1-flash-1019",
       "发布时间": "2026-10-28 12:04:48",

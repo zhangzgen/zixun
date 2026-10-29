@@ -1,0 +1,248 @@
+{
+  "version": 1,
+  "date": "2026-10-29",
+  "timezone": "Asia/Shanghai",
+  "updated_at": "2026-10-29 09:06:41",
+  "item_count": 20,
+  "runs": [
+    {
+      "collected_at": "2026-10-29 09:06:41",
+      "input_count": 20,
+      "added_count": 20,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "完整审阅脚本候选，并直接核验缺失来源原始频道/详情页；保留窗口内全部有存档价值的AI、大模型、智能体、机器人、算力、核心技术及治理资讯，剔除非AI、广告、导航壳、搜索页、字段不全和同事件重复项。",
+      "source_status": {
+        "量子位": "ok:5",
+        "新智元": "script:ok:0; browser:direct_channel_verified:7",
+        "AIBase": "ok:1",
+        "新华网科技": "script:ok:0; browser:direct_detail_verified:1",
+        "机器之心": "script:ok:0; html_fallback:rss_token_missing; browser:industry_verified:8",
+        "今日头条/Tophub": "ok:50; all candidates are search shells/mostly non-AI, excluded",
+        "Readhub": "ok:10"
+      }
+    }
+  ],
+  "items": [
+    {
+      "资讯标题": "谷歌新旗舰Gemini 4 Carbon正式发布：综合评分登顶全球第一，全面发力长时程工程与网络安全",
+      "发布时间": "2026-10-29 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31934",
+      "desc": "谷歌新旗舰Gemini 4 Carbon正式发布：综合评分登顶全球第一，全面发力长时程工程与网络安全 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){ret",
+      "agent_reason": "脚本候选经人工核验，属于大模型、智能体、算力、AI应用或重要政策/公司动态。",
+      "archive_id": "A20261029-cfcc1efb531d",
+      "first_seen_at": "2026-10-29 09:06:41",
+      "last_seen_at": "2026-10-29 09:06:41"
+    },
+    {
+      "资讯标题": "7亿用户之后：生成式人工智能普及过半 应用治理成为重点",
+      "发布时间": "2026-10-29 08:50:37",
+      "来源": "新华网科技",
+      "超链接": "https://www.news.cn/tech/20261029/dc2ff22c3c5e444497f3fcd605d79780/c.html",
+      "desc": "报告称我国生成式人工智能用户规模突破7亿、普及率超50%，并讨论应用治理。",
+      "agent_reason": "新华网详情页直接核验时间与正文，属于AI应用与治理政策资讯。",
+      "archive_id": "A20261029-f8b9180b0743",
+      "first_seen_at": "2026-10-29 09:06:41",
+      "last_seen_at": "2026-10-29 09:06:41"
+    },
+    {
+      "资讯标题": "谷歌财报电话会：Gemini 月活用户达 10 亿，预计明年资本开支将大幅增加",
+      "发布时间": "2026-10-29 08:15:59",
+      "来源": "Readhub",
+      "超链接": "https://www.theblockbeats.info/flash/374247",
+      "desc": "皮查伊介绍了 AI 产品进展：Gemini 应用月活用户已达 10 亿，成为 Google 历史上增长最快的产品。分业务方面，管理层提到 Google Services 营收增长 11% 至 963 亿美元，其中搜索及其他广告收入同比增长 12%，YouTube 广告收入增长约 9% 至 112 亿美元，YouTube Music 与 Premium 订阅用户（含试用）已超过 1.5 亿。资本开支维持高位，首席财务官 Anat Ashkenazi 表示，公司预计 2027 年资本开支将大幅增加（「increase significantly」）。",
+      "agent_reason": "脚本候选经人工核验，属于大模型、智能体、算力、AI应用或重要政策/公司动态。",
+      "archive_id": "A20261029-4d077a9e0878",
+      "first_seen_at": "2026-10-29 09:06:41",
+      "last_seen_at": "2026-10-29 09:06:41"
+    },
+    {
+      "资讯标题": "亚马逊云科技开源智能体「决策器」和「安全箱」，但并发与冷启动仍待解决",
+      "发布时间": "2026-10-29 08:00:00",
+      "来源": "Readhub",
+      "超链接": "https://www.infoq.cn/article/YmgmEh686wTClmj3PY8o",
+      "desc": "亚马逊云科技推出了两个面向 AI 智能体开发的开源项目：Strands Decider 2B 是一个用于在智能体工作流中作出决策的小型模型，Strands Box 则是一个用于控制智能体执行的沙箱。据亚马逊云科技介绍，Strands Decider 2B 在 NVIDIA RTX 3090 上的决策延迟中位数约为 115 毫秒，在 Apple M3 MacBook 上处理小型任务时约为 153 毫秒。亚马逊云科技今天开源了 Strands Box：这是一个内核级沙箱，将 Shell、Python、工具和网络访问都路由至同一个策略层，因此可以设置这样一条规则：智能体读取客户文件后，禁止其发起出站 HTTP 请求。",
+      "agent_reason": "脚本候选经人工核验，属于大模型、智能体、算力、AI应用或重要政策/公司动态。",
+      "archive_id": "A20261029-aa86647721bd",
+      "first_seen_at": "2026-10-29 09:06:41",
+      "last_seen_at": "2026-10-29 09:06:41"
+    },
+    {
+      "资讯标题": "Gemini 4 Carbon发布，谷歌重回世界第一",
+      "发布时间": "2026-10-29 07:31:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=tg497f61",
+      "desc": "谷歌发布Gemini 4 Carbon并公布多项基准成绩；与AIBase同事件候选去重后保留原始频道详情。",
+      "agent_reason": "原始频道页直接核验，模型发布重大事件。",
+      "archive_id": "A20261029-a680bcc6c1bb",
+      "first_seen_at": "2026-10-29 09:06:41",
+      "last_seen_at": "2026-10-29 09:06:41"
+    },
+    {
+      "资讯标题": "Quoting Ted Sanders",
+      "发布时间": "2026-10-29 07:23:21",
+      "来源": "Readhub",
+      "超链接": "https://simonwillison.net/2026/Oct/28/ted-sanders",
+      "desc": "There「s no guarantee of a fixed ordering where the model that is best at math is also the model that」s best at jokes ... In general, models that are bigger will (a) be more performant / reliable, (b) cost more per token, and (c) have better recall of esoteric facts ... So something like 6.1 would indicate it was launched after 5.6, may share some similarities to other 6.1 models in terms of training data / personality (which is why it「s not 5.7), and isn」t a giant enough leap to merit the headlines and expectations that would come with a 7.",
+      "agent_reason": "脚本候选经人工核验，属于大模型、智能体、算力、AI应用或重要政策/公司动态。",
+      "archive_id": "A20261029-bfb31ceb6c55",
+      "first_seen_at": "2026-10-29 09:06:41",
+      "last_seen_at": "2026-10-29 09:06:41"
+    },
+    {
+      "资讯标题": "Anthropic 致信加州州长纽森：法院应有权阻止严重风险 AI 模型",
+      "发布时间": "2026-10-29 07:05:14",
+      "来源": "Readhub",
+      "超链接": "https://www.ithome.com/1/019/271.htm",
+      "desc": "Anthropic 在本月 15 日致美国加州州长加文・纽森的信中建议，政府应有权向法院申请禁令，阻止对公众构成「严重风险」的 AI 模型发布。Anthropic 还在信中指出，如果 AI 模型的行为失去控制，要求开发者设置能够关闭整个模型的「紧急关闭开关」，反而可能让政府官员产生「虚假的安全感」。美国众议院议员还在 7 月提出《AI 紧急关闭法案》，计划赋予政府官员下令关闭 AI 模型的权力，适用对象为危及人类生命或经济的模型。",
+      "agent_reason": "脚本候选经人工核验，属于大模型、智能体、算力、AI应用或重要政策/公司动态。",
+      "archive_id": "A20261029-4aed6c2257fe",
+      "first_seen_at": "2026-10-29 09:06:41",
+      "last_seen_at": "2026-10-29 09:06:41"
+    },
+    {
+      "资讯标题": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
+      "发布时间": "2026-10-28 22:58:17",
+      "来源": "Readhub",
+      "超链接": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+      "desc": "NVIDIA releases Nemotron 3.5 Transcribe, an open model for multilingual transcription, speaker attribution, translation, and audio Q&A, with top leaderboard results, plus the open Granary v2 data pipeline and fine-tuning recipes to adapt it. NVIDIA models hold the top two spots on David AI's multilingual diarization leaderboard: Nemotron 3.5 Transcribe posts the lowest overall diarization error rate (DER), 18.26% across 21 languages, followed by Nemotron 3 Diarization at 18.38%. NVIDIA models also hold the top two spots in VoiceArena's 14-system comparison: Nemotron 3.5 Transcribe leads at 32.4% cpWER, followed by NVIDIA Multitalker Parakeet with Nemotron 3 Diarization at 34.2%.",
+      "agent_reason": "脚本候选经人工核验，属于大模型、智能体、算力、AI应用或重要政策/公司动态。",
+      "archive_id": "A20261029-ec733f799e1a",
+      "first_seen_at": "2026-10-29 09:06:41",
+      "last_seen_at": "2026-10-29 09:06:41"
+    },
+    {
+      "资讯标题": "清华27岁助理教授杀入AI自进化赛道：首个35B模型亮相",
+      "发布时间": "2026-10-28 22:33:00",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-10-28-13",
+      "desc": "AI自进化与35B模型产业/研究进展。",
+      "agent_reason": "机器之心产业频道直接核验标题、时间和详情链接。",
+      "archive_id": "A20261029-6c6deb70b53c",
+      "first_seen_at": "2026-10-29 09:06:41",
+      "last_seen_at": "2026-10-29 09:06:41"
+    },
+    {
+      "资讯标题": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+      "发布时间": "2026-10-28 21:15:00",
+      "来源": "Readhub",
+      "超链接": "https://openai.com/index/openai-servicenow-partnership-expansion",
+      "desc": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
+      "agent_reason": "脚本候选经人工核验，属于大模型、智能体、算力、AI应用或重要政策/公司动态。",
+      "archive_id": "A20261029-a395c7da350b",
+      "first_seen_at": "2026-10-29 09:06:41",
+      "last_seen_at": "2026-10-29 09:06:41"
+    },
+    {
+      "资讯标题": "豆包工作能力升级：操作电脑可录制成技能，锁屏后也能继续任务",
+      "发布时间": "2026-10-28 17:46:00",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-10-28-11",
+      "desc": "智能体技能录制、电脑操作和持续执行能力升级。",
+      "agent_reason": "机器之心产业频道直接核验，智能体产品动态。",
+      "archive_id": "A20261029-dca80294424f",
+      "first_seen_at": "2026-10-29 09:06:41",
+      "last_seen_at": "2026-10-29 09:06:41"
+    },
+    {
+      "资讯标题": "Anthropic负责人：彻底砍掉LeetCode面试",
+      "发布时间": "2026-10-28 17:23:00",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-10-28-10",
+      "desc": "头部AI公司招聘与工程人才评估方式变化。",
+      "agent_reason": "机器之心产业频道直接核验，头部公司动态。",
+      "archive_id": "A20261029-fdbda9cb6cfb",
+      "first_seen_at": "2026-10-29 09:06:41",
+      "last_seen_at": "2026-10-29 09:06:41"
+    },
+    {
+      "资讯标题": "19个项目18个成功，6个GPCR靶点全获命中！国产AI制药再破技术天花板",
+      "发布时间": "2026-10-28 16:59:00",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/506055.html",
+      "desc": "精度达AlphaFold 3两倍，分子之心拿下高难度抗体设计",
+      "agent_reason": "脚本候选经人工核验，属于大模型、智能体、算力、AI应用或重要政策/公司动态。",
+      "archive_id": "A20261029-b3b61bd4f09a",
+      "first_seen_at": "2026-10-29 09:06:41",
+      "last_seen_at": "2026-10-29 09:06:41"
+    },
+    {
+      "资讯标题": "中国AI刷爆英伟达GPU性能榜，这家公司拿下88项第一",
+      "发布时间": "2026-10-28 16:00:39",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/505956.html",
+      "desc": "Agent开始参与GPU底层算子优化",
+      "agent_reason": "脚本候选经人工核验，属于大模型、智能体、算力、AI应用或重要政策/公司动态。",
+      "archive_id": "A20261029-5b2351f62328",
+      "first_seen_at": "2026-10-29 09:06:41",
+      "last_seen_at": "2026-10-29 09:06:41"
+    },
+    {
+      "资讯标题": "SC26顶会论文：八卦炉2让万卡集群学会临场应变",
+      "发布时间": "2026-10-28 13:35:00",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-10-28-7",
+      "desc": "万卡集群训练与算力调度研究。",
+      "agent_reason": "机器之心产业频道直接核验，算力核心技术。",
+      "archive_id": "A20261029-75cab18b5b2d",
+      "first_seen_at": "2026-10-29 09:06:41",
+      "last_seen_at": "2026-10-29 09:06:41"
+    },
+    {
+      "资讯标题": "数十agent挑战数学界巨型工程并揪出40年前漏洞",
+      "发布时间": "2026-10-28 13:31:00",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-10-28-6",
+      "desc": "多智能体参与复杂数学工程并发现潜在漏洞。",
+      "agent_reason": "机器之心产业频道直接核验，智能体科研应用。",
+      "archive_id": "A20261029-aa06a051112d",
+      "first_seen_at": "2026-10-29 09:06:41",
+      "last_seen_at": "2026-10-29 09:06:41"
+    },
+    {
+      "资讯标题": "超进化智能完成数亿元天使轮融资，以万卡经验打造研究基础模型",
+      "发布时间": "2026-10-28 12:08:00",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-10-28-4",
+      "desc": "AI基础模型公司融资与万卡训练基础设施布局。",
+      "agent_reason": "机器之心产业频道直接核验，头部AI公司与算力动态。",
+      "archive_id": "A20261029-9b9ce7064cf8",
+      "first_seen_at": "2026-10-29 09:06:41",
+      "last_seen_at": "2026-10-29 09:06:41"
+    },
+    {
+      "资讯标题": "Personal Agent走向真实任务，蚂蚁百灵开源 Ling-3.1-flash-1019",
+      "发布时间": "2026-10-28 12:04:48",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/505928.html",
+      "desc": "10月28 日，蚂蚁集团旗下百灵大模型正式开源 Ling-3.1-flash-1019。",
+      "agent_reason": "脚本候选经人工核验，属于大模型、智能体、算力、AI应用或重要政策/公司动态。",
+      "archive_id": "A20261029-72b797aa006b",
+      "first_seen_at": "2026-10-29 09:06:41",
+      "last_seen_at": "2026-10-29 09:06:41"
+    },
+    {
+      "资讯标题": "每天仿真500万公里：大众在合肥启动L3自动驾驶路测",
+      "发布时间": "2026-10-28 11:51:00",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-10-28-3",
+      "desc": "自动驾驶仿真与L3路测进展。",
+      "agent_reason": "机器之心产业频道直接核验，机器人/自动驾驶应用。",
+      "archive_id": "A20261029-e569b6f7a109",
+      "first_seen_at": "2026-10-29 09:06:41",
+      "last_seen_at": "2026-10-29 09:06:41"
+    },
+    {
+      "资讯标题": "游戏引擎已死？谷歌Genie 4刚刚发布，实时操控整个世界",
+      "发布时间": "2026-10-28 10:34:00",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-10-28-2",
+      "desc": "Genie 4世界模型与实时环境控制。",
+      "agent_reason": "机器之心产业频道直接核验；与新智元同事件，保留信息更完整的机器之心版本。",
+      "archive_id": "A20261029-fa0349846e02",
+      "first_seen_at": "2026-10-29 09:06:41",
+      "last_seen_at": "2026-10-29 09:06:41"
+    }
+  ]
+}

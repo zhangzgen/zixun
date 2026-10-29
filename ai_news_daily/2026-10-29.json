@@ -2,8 +2,8 @@
   "version": 1,
   "date": "2026-10-29",
   "timezone": "Asia/Shanghai",
-  "updated_at": "2026-10-29 12:13:37",
-  "item_count": 33,
+  "updated_at": "2026-10-29 15:10:29",
+  "item_count": 40,
   "runs": [
     {
       "collected_at": "2026-10-29 09:06:41",
@@ -38,9 +38,59 @@
         "今日头条/Tophub": "ok:50",
         "Readhub": "ok:10"
       }
+    },
+    {
+      "collected_at": "2026-10-29 15:10:29",
+      "input_count": 8,
+      "added_count": 7,
+      "updated_count": 0,
+      "skipped_duplicate_count": 1,
+      "selection_reason": "完整审阅本轮74条候选并对照当日已有33条归档；剔除非AI内容、TopHub搜索壳、广告/导航、字段不完整及重复事件。浏览器补充未执行（当前桌面锁定），因此保留采集脚本可验证的详情页候选。",
+      "source_status": {
+        "量子位": "ok:4",
+        "新智元": "ok:0",
+        "AIBase": "ok:10",
+        "新华网科技": "ok:0",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
     }
   ],
   "items": [
+    {
+      "资讯标题": "苹果诉 OpenAI 窃密案排期 2027 年夏：一场围绕离职员工的机密拉锯",
+      "发布时间": "2026-10-29 14:20:03",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31957",
+      "desc": "加州北区联邦法院法官爱德华・达维拉把苹果诉 OpenAI 一案排到 2027 年 7 月 19 日上午 9 时开庭。苹果把 OpenAI、两家关联实体与 io Products，以及两名前员工唐・谭、刘畅一并告上法庭，指称二人离职后把涉及产品设计与技术的商业机密带去 OpenAI，助力其消费级硬件研发。近期法院还准了苹果进一步调取 OpenAI 所雇前苹果员工的设备、通信与招聘面谈记录。",
+      "agent_reason": "AI/大模型/具身智能/核心技术或头部公司重要动态；详情页链接有效，且与当日已有归档无语义重复。",
+      "archive_id": "A20261029-ebe5f77da9f9",
+      "first_seen_at": "2026-10-29 15:10:29",
+      "last_seen_at": "2026-10-29 15:10:29"
+    },
+    {
+      "资讯标题": "智元发布具身智能原生 OS 灵渠 1.0，年底全面开源",
+      "发布时间": "2026-10-29 14:10:04",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31956",
+      "desc": "在 2026 智元创新日上，智元合伙人、联席总裁、中央研发部总裁、交互业务体系总裁熊彦正式发布具身智能原生操作系统灵渠 OS 1.0。智元同时宣布成为开放原子开源基金会白金捐赠人，向基金会捐赠灵渠 OS 项目，双方将共建中国人形机器人开源社区，在本体与硬件、数据与评测工具、操作系统、大小脑等核心方向推动技术转化与标准制定。到今年年底，智元还将开源经全系机器人量产验证的 2 亿行代码及 5000 多个生态软件包，提供端到端构建工具链并预集成开源组件，助力开发者创造更多智能应用并部署至更多机器人本体。",
+      "agent_reason": "AI/大模型/具身智能/核心技术或头部公司重要动态；详情页链接有效，且与当日已有归档无语义重复。",
+      "archive_id": "A20261029-ee0719dde80e",
+      "first_seen_at": "2026-10-29 15:10:29",
+      "last_seen_at": "2026-10-29 15:10:29"
+    },
+    {
+      "资讯标题": "AI 当黑客初显身手：Claude 自主挖洞写利用，53 分钟拿下 Linux 最高权限",
+      "发布时间": "2026-10-29 13:55:23",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31955",
+      "desc": "Anthropic 10 月 27 日发布报告：一个未公开的 Claude 内部研究模型，仅凭初始提示便自行定位漏洞、编写利用代码，在 Chrome、Safari、Android、Windows 与 Linux 上发现缺陷，并串联成 5 条攻击链。模型在内核网络栈中发现一个零点击远程代码执行漏洞（CVE-2026-98432），目标是一台运行多路径 TCP 监听器的服务器——攻击者只需发送数据包，无需任何凭据即可获得 root shell。Anthropic 实测整个链条耗时 53 分钟，其中 48 分钟用于泄露内核指针，剩余 5 分钟执行命令。",
+      "agent_reason": "AI/大模型/具身智能/核心技术或头部公司重要动态；详情页链接有效，且与当日已有归档无语义重复。",
+      "archive_id": "A20261029-1523c364fb4d",
+      "first_seen_at": "2026-10-29 15:10:29",
+      "last_seen_at": "2026-10-29 15:10:29"
+    },
     {
       "资讯标题": "OpenAI 员工撰文详解 AI 融入企业的未来三种形态",
       "发布时间": "2026-10-29 11:46:43",
@@ -150,6 +200,50 @@
       "archive_id": "A20261029-cfcc1efb531d",
       "first_seen_at": "2026-10-29 09:06:41",
       "last_seen_at": "2026-10-29 09:06:41"
+    },
+    {
+      "资讯标题": "谷歌 Gemini 4 Carbon 登顶：59 分夺回王座，\"安全感\"成主战场",
+      "发布时间": "2026-10-29 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31946",
+      "desc": "谷歌 Gemini 4 Carbon 登顶：59 分夺回王座，\"安全感\"成主战场 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){ret",
+      "agent_reason": "AI/大模型/具身智能/核心技术或头部公司重要动态；详情页链接有效，且与当日已有归档无语义重复。",
+      "archive_id": "A20261029-45211b5f813a",
+      "first_seen_at": "2026-10-29 15:10:29",
+      "last_seen_at": "2026-10-29 15:10:29"
+    },
+    {
+      "资讯标题": "腾讯灯塔AI正式对外开放:十年内部锤炼，一句话完成数据分析",
+      "发布时间": "2026-10-29 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31950",
+      "desc": "腾讯灯塔AI正式对外开放:十年内部锤炼，一句话完成数据分析 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(pref",
+      "agent_reason": "AI/大模型/具身智能/核心技术或头部公司重要动态；详情页链接有效，且与当日已有归档无语义重复。",
+      "archive_id": "A20261029-3b0883e6fa9f",
+      "first_seen_at": "2026-10-29 15:10:29",
+      "last_seen_at": "2026-10-29 15:10:29"
+    },
+    {
+      "资讯标题": "腾讯混元Hy4、Hy4flash即将发布，模型能力、思维链效率全面提升",
+      "发布时间": "2026-10-29 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31948",
+      "desc": "腾讯混元Hy4、Hy4flash即将发布，模型能力、思维链效率全面提升 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedi",
+      "agent_reason": "AI/大模型/具身智能/核心技术或头部公司重要动态；详情页链接有效，且与当日已有归档无语义重复。",
+      "archive_id": "A20261029-b590e1d62d64",
+      "first_seen_at": "2026-10-29 15:10:29",
+      "last_seen_at": "2026-10-29 15:10:29"
+    },
+    {
+      "资讯标题": "智元提出物理AI价值度量衡Worken，衡量机器人有效产出",
+      "发布时间": "2026-10-29 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31947",
+      "desc": "智元提出物理AI价值度量衡Worken，衡量机器人有效产出 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color-sc",
+      "agent_reason": "AI/大模型/具身智能/核心技术或头部公司重要动态；详情页链接有效，且与当日已有归档无语义重复。",
+      "archive_id": "A20261029-84344c4d9ad9",
+      "first_seen_at": "2026-10-29 15:10:29",
+      "last_seen_at": "2026-10-29 15:10:29"
     },
     {
       "资讯标题": "7亿用户之后：生成式人工智能普及过半 应用治理成为重点",
@@ -339,7 +433,7 @@
       "agent_reason": "脚本候选经人工核验，属于大模型、智能体、算力、AI应用或重要政策/公司动态。",
       "archive_id": "A20261029-5b2351f62328",
       "first_seen_at": "2026-10-29 09:06:41",
-      "last_seen_at": "2026-10-29 12:13:37"
+      "last_seen_at": "2026-10-29 15:10:29"
     },
     {
       "资讯标题": "SC26顶会论文：八卦炉2让万卡集群学会临场应变",

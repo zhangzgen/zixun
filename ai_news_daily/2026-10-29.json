@@ -2,8 +2,8 @@
   "version": 1,
   "date": "2026-10-29",
   "timezone": "Asia/Shanghai",
-  "updated_at": "2026-10-29 15:10:29",
-  "item_count": 40,
+  "updated_at": "2026-10-29 18:02:04",
+  "item_count": 60,
   "runs": [
     {
       "collected_at": "2026-10-29 09:06:41",
@@ -55,9 +55,114 @@
         "今日头条/Tophub": "ok:50",
         "Readhub": "ok:10"
       }
+    },
+    {
+      "collected_at": "2026-10-29 18:02:04",
+      "input_count": 20,
+      "added_count": 20,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "脚本候选完整检查后，剔除非AI、TopHub搜索壳、未发布测试条目及当日已归档重复事件；浏览器补充因桌面锁定无法执行，本轮保留可核验详情页候选。",
+      "source_status": {
+        "量子位": "ok:10",
+        "新智元": "ok:0",
+        "AIBase": "ok:11",
+        "新华网科技": "ok:0",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
     }
   ],
   "items": [
+    {
+      "资讯标题": "IBM 用四根超导线缆实现芯片级协同，打破量子比特拥挤魔咒",
+      "发布时间": "2026-10-29 17:12:55",
+      "来源": "Readhub",
+      "超链接": "https://www.mittrchina.com/news/detail/17160",
+      "desc": "IBM 科学家用四根长达 80 厘米的铝制线缆，将两块大型超导量子芯片连接在一起，创下平均 99% 的量子态传输保真度纪录，标志着量子计算迈入模块化拼装的新阶段。量子计算机依靠遵循微观物理规律的量子比特，这种跨越空间的连接让两块芯片上的量子比特产生纠缠，即使相隔很远也能瞬间影响彼此状态。",
+      "agent_reason": "量子计算芯片协同技术，属于核心算力/硬件进展。",
+      "archive_id": "A20261029-ddbd981e426f",
+      "first_seen_at": "2026-10-29 18:02:04",
+      "last_seen_at": "2026-10-29 18:02:04"
+    },
+    {
+      "资讯标题": "AI 光通信的下一场争夺战？激光器产能告急，830 亿美元巨头 Lumentum 或卖身 Marvell",
+      "发布时间": "2026-10-29 17:06:35",
+      "来源": "Readhub",
+      "超链接": "https://www.mittrchina.com/news/detail/17159",
+      "desc": "市场研究机构 TrendForce 在今年 4 月发布的报告中预计，全球 AI 光收发模块市场规模将从 2025 年的 165 亿美元增长至 2026 年的 260 亿美元，同比增长超过 57%。据 Lumentum 的 CEO Michael Hurlston 近期透露，受 AI 数据中心需求推动，公司部分光学器件产能订单已经排到 2029 年初，甚至有客户开始预订 2030 年的产能。今年 3 月，在美国光纤通信大会（OFC）期间，Marvell 与 Lumentum 联合展示了一套光路交换方案，将 Marvell 的 1.6T 光通信 DSP 等产品与 Lumentum 的 R300 光路交换机结合，实现不同距离网络之间的高速连接。",
+      "agent_reason": "AI光通信供应链与算力基础设施头部公司动态。",
+      "archive_id": "A20261029-480326203d22",
+      "first_seen_at": "2026-10-29 18:02:04",
+      "last_seen_at": "2026-10-29 18:02:04"
+    },
+    {
+      "资讯标题": "Anthropic 递给企业一把「监工钥匙」：Claude 能看清每个员工的 AI 开销",
+      "发布时间": "2026-10-29 16:50:59",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31965",
+      "desc": "在「AI 会不会替老板决定谁走人」的疑虑未散时，Anthropic 10 月 29 日给企业客户送上了一把更清晰的管控工具。新推 Claude 智能报告面向 Enterprise 套餐开放，管理者在组织设置里一键开启，便能生成图表，把团队用 AI 干了什么、产出多少、花掉多少一目了然。选定团队、最长 28 天区间与纳入统计的 Claude 产品（对话、Claude Code、Cowork 或一体化界面，新发的 Duet AI 暂不支持），系统便读取对话、归类到代码、技术文档等工作流并汇总成本。",
+      "agent_reason": "企业AI治理与成本可观测产品发布。",
+      "archive_id": "A20261029-c91b8f318b87",
+      "first_seen_at": "2026-10-29 18:02:04",
+      "last_seen_at": "2026-10-29 18:02:04"
+    },
+    {
+      "资讯标题": "AI安全是AI规模化应用“加速器”",
+      "发布时间": "2026-10-29 16:50:14",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/506544.html",
+      "desc": "AI安全不是AI发展的“刹车片”，而是AI高质量发展的“加速器”。",
+      "agent_reason": "AI安全政策与规模化应用关键议题。",
+      "archive_id": "A20261029-40018b542aae",
+      "first_seen_at": "2026-10-29 18:02:04",
+      "last_seen_at": "2026-10-29 18:02:04"
+    },
+    {
+      "资讯标题": "GitHub 发布 Copilot Fusion，多模型自动编排提升编码效率与性价比",
+      "发布时间": "2026-10-29 16:15:44",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31962",
+      "desc": "GitHub 在 Universe 2026 大会上正式发布 Copilot Fusion，这是一款智能编排层，可自动路由并组合 OpenAI、Anthropic、Google 等多家 AI 模型完成编码任务，无需开发者手动选择模型。开发者只需在模型选择器中选用 Copilot Fusion，系统将根据任务复杂度自动决定使用单一模型、级联（Cascade）或评审（Critique）等执行模式，并匹配 Standard（侧重效率与成本）、High（增强推理）或 Max（追求最强能力）三档努力等级，避免简单任务产生不必要开销。该功能已在所有 GitHub Copilot 计划中全面可用，覆盖 Visual Studio Code、CLI、应用及 JetBrains IDE，不额外收取编排费用，仅按实际调用模型计费，并提供至 2026 年 11 月 30 日的 30% 模型费用折扣。",
+      "agent_reason": "GitHub多模型编程智能体产品发布。",
+      "archive_id": "A20261029-080c5825f120",
+      "first_seen_at": "2026-10-29 18:02:04",
+      "last_seen_at": "2026-10-29 18:02:04"
+    },
+    {
+      "资讯标题": "大语言模型「收入榜」出炉，阿里云以 46.6% 份额居首",
+      "发布时间": "2026-10-29 15:13:00",
+      "来源": "Readhub",
+      "超链接": "https://www.leiphone.com/category/industrynews/VsFzLhOgbV95UM6v.html",
+      "desc": "国际数据公司（IDC）最新发布的《中国 AI 软件市场半年度追踪，26H1》显示，2026 年上半年，阿里云在中国大语言模型 MaaS 市场的份额为 46.6%，智谱、火山引擎分别以 10.6%、10.2% 位列第二、第三。",
+      "agent_reason": "大语言模型商业收入与市场格局数据。",
+      "archive_id": "A20261029-be2e0472cc0a",
+      "first_seen_at": "2026-10-29 18:02:04",
+      "last_seen_at": "2026-10-29 18:02:04"
+    },
+    {
+      "资讯标题": "奥特曼和Dario同台唱rap！Genspark新视频Agent上线，零基础也能拍短剧",
+      "发布时间": "2026-10-29 14:53:19",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/506478.html",
+      "desc": "All in one、任何人都能用",
+      "agent_reason": "生成式视频智能体产品上线及应用进展。",
+      "archive_id": "A20261029-bbc84bbd1e8d",
+      "first_seen_at": "2026-10-29 18:02:04",
+      "last_seen_at": "2026-10-29 18:02:04"
+    },
+    {
+      "资讯标题": "物理学也要被AI攻陷了？5道20多年量子公开问题被突破",
+      "发布时间": "2026-10-29 14:51:51",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/506477.html",
+      "desc": "MIT最后一位三学位天才出手了。",
+      "agent_reason": "AI辅助基础科学研究取得公开问题突破。",
+      "archive_id": "A20261029-4a50db73547f",
+      "first_seen_at": "2026-10-29 18:02:04",
+      "last_seen_at": "2026-10-29 18:02:04"
+    },
     {
       "资讯标题": "苹果诉 OpenAI 窃密案排期 2027 年夏：一场围绕离职员工的机密拉锯",
       "发布时间": "2026-10-29 14:20:03",
@@ -70,6 +175,17 @@
       "last_seen_at": "2026-10-29 15:10:29"
     },
     {
+      "资讯标题": "IDC最新报告：MaaS市场分化，PPIO拿下独立服务商首位",
+      "发布时间": "2026-10-29 14:13:05",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/506468.html",
+      "desc": "百亿MaaS市场格局生变",
+      "agent_reason": "模型即服务市场与算力服务格局报告。",
+      "archive_id": "A20261029-e6deba809472",
+      "first_seen_at": "2026-10-29 18:02:04",
+      "last_seen_at": "2026-10-29 18:02:04"
+    },
+    {
       "资讯标题": "智元发布具身智能原生 OS 灵渠 1.0，年底全面开源",
       "发布时间": "2026-10-29 14:10:04",
       "来源": "Readhub",
@@ -79,6 +195,28 @@
       "archive_id": "A20261029-ee0719dde80e",
       "first_seen_at": "2026-10-29 15:10:29",
       "last_seen_at": "2026-10-29 15:10:29"
+    },
+    {
+      "资讯标题": "20人9个月，《不问凡尘》用AI搓出26万玩家买单的超写实互动作品",
+      "发布时间": "2026-10-29 14:01:00",
+      "来源": "Readhub",
+      "超链接": "https://www.leiphone.com/category/industrynews/fk4nWrM8On84S6FB.html",
+      "desc": "上线仅三周，《不问凡尘》在Steam拿到87%的好评率，预估近千万流水，超26万玩家走进这个AI生成的修仙世界。《不问凡尘》是一款「真人」超写实互动作品：玩家可以探索海量支线剧情、与NPC互动、修炼法术，自由选择不同修行路线，像在玩一部修仙小说。Steam「特别好评」和上线三周的市场表现，不仅说明用户愿意体验并为AI深度参与生产的互动作品付费，更表明《不问凡尘》走通了一条新的路径：模型、Agent工具和人组成的生产管线，让AI游戏找到一套能够支撑产品上线和商业反馈的新生产方式。",
+      "agent_reason": "AI生成内容商业化案例，具备行业参考价值。",
+      "archive_id": "A20261029-ca58373194e3",
+      "first_seen_at": "2026-10-29 18:02:04",
+      "last_seen_at": "2026-10-29 18:02:04"
+    },
+    {
+      "资讯标题": "敢和英伟达现场PK的国产GPU，我是服的",
+      "发布时间": "2026-10-29 13:57:33",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/506376.html",
+      "desc": "跟H200和Thor T5000硬碰硬",
+      "agent_reason": "国产GPU与AI算力竞争进展。",
+      "archive_id": "A20261029-27dfd2389775",
+      "first_seen_at": "2026-10-29 18:02:04",
+      "last_seen_at": "2026-10-29 18:02:04"
     },
     {
       "资讯标题": "AI 当黑客初显身手：Claude 自主挖洞写利用，53 分钟拿下 Linux 最高权限",
@@ -101,6 +239,17 @@
       "archive_id": "A20261029-ee305c2f2aa6",
       "first_seen_at": "2026-10-29 12:13:37",
       "last_seen_at": "2026-10-29 12:13:37"
+    },
+    {
+      "资讯标题": "文远知行001号员工带队，景烁科技首轮融资数千万美元",
+      "发布时间": "2026-10-29 11:27:50",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/506281.html",
+      "desc": "10月29日，文远知行披露旗下子公司景烁科技首次融资进展",
+      "agent_reason": "具身/自动驾驶相关AI初创融资动态。",
+      "archive_id": "A20261029-414534be96c1",
+      "first_seen_at": "2026-10-29 18:02:04",
+      "last_seen_at": "2026-10-29 18:02:04"
     },
     {
       "资讯标题": "华人 AI 初创完成数学史上最长证明的形式化验证，24 天写出 4310 万行代码，全部开源",
@@ -169,6 +318,28 @@
       "last_seen_at": "2026-10-29 12:13:37"
     },
     {
+      "资讯标题": "小雨智造与国家钢结构质检中心共建实验室，乔忠良：具身智能新质生产力已成事实",
+      "发布时间": "2026-10-29 10:51:45",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/506273.html",
+      "desc": "2026年10月27日，“工业具身智能焊接与检测技术联合实验室”正式揭牌成立。",
+      "agent_reason": "具身智能与工业质检技术合作。",
+      "archive_id": "A20261029-c5315acb60bd",
+      "first_seen_at": "2026-10-29 18:02:04",
+      "last_seen_at": "2026-10-29 18:02:04"
+    },
+    {
+      "资讯标题": "刚刚，扩散模型杀进Agent主场！350亿参数，速度比Jev快一倍",
+      "发布时间": "2026-10-29 10:18:28",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/505934.html",
+      "desc": "用扩散模型怎么做做Agent？",
+      "agent_reason": "扩散模型进入Agent应用与效率进展。",
+      "archive_id": "A20261029-3ccdb25a8e3b",
+      "first_seen_at": "2026-10-29 18:02:04",
+      "last_seen_at": "2026-10-29 18:02:04"
+    },
+    {
       "资讯标题": "锁屏照片被顺走、53 分钟攻破 Linux！Anthropic 内部研究模型连破五大主流系统",
       "发布时间": "2026-10-29 10:03:14",
       "来源": "Readhub",
@@ -235,6 +406,39 @@
       "last_seen_at": "2026-10-29 15:10:29"
     },
     {
+      "资讯标题": "腾讯\"懂了鸭\"内测：把 AI 生成绘本、动画做成了一个学习社区",
+      "发布时间": "2026-10-29 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31960",
+      "desc": "腾讯\"懂了鸭\"内测：把 AI 生成绘本、动画做成了一个学习社区 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color-sch",
+      "agent_reason": "教育场景生成式AI产品内测。",
+      "archive_id": "A20261029-6f95d6228405",
+      "first_seen_at": "2026-10-29 18:02:04",
+      "last_seen_at": "2026-10-29 18:02:04"
+    },
+    {
+      "资讯标题": "百度确认吴甜离职，文心Unlimited OCR2开源实现任意页数解析",
+      "发布时间": "2026-10-29 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31966",
+      "desc": "百度确认吴甜离职，文心Unlimited OCR2开源实现任意页数解析 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color",
+      "agent_reason": "百度OCR开源与高质量文档解析能力更新。",
+      "archive_id": "A20261029-8e843c093a66",
+      "first_seen_at": "2026-10-29 18:02:04",
+      "last_seen_at": "2026-10-29 18:02:04"
+    },
+    {
+      "资讯标题": "消息称腾讯WorkBuddy开放平台内测Skill变现功能，开发者可自主定价",
+      "发布时间": "2026-10-29 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31958",
+      "desc": "消息称腾讯WorkBuddy开放平台内测Skill变现功能，开发者可自主定价 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color",
+      "agent_reason": "企业Agent平台技能生态与开发者变现动态。",
+      "archive_id": "A20261029-770077f46c46",
+      "first_seen_at": "2026-10-29 18:02:04",
+      "last_seen_at": "2026-10-29 18:02:04"
+    },
+    {
       "资讯标题": "智元提出物理AI价值度量衡Worken，衡量机器人有效产出",
       "发布时间": "2026-10-29 09:00:00",
       "来源": "AIBase",
@@ -244,6 +448,39 @@
       "archive_id": "A20261029-84344c4d9ad9",
       "first_seen_at": "2026-10-29 15:10:29",
       "last_seen_at": "2026-10-29 15:10:29"
+    },
+    {
+      "资讯标题": "宇树三季报营收涨近七成却净利下滑：钱都砸进了算力与大模型",
+      "发布时间": "2026-10-29 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31959",
+      "desc": "宇树三季报营收涨近七成却净利下滑：钱都砸进了算力与大模型 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color-scheme\"+o+",
+      "agent_reason": "机器人公司经营与算力大模型投入动态。",
+      "archive_id": "A20261029-f7e522dd00ae",
+      "first_seen_at": "2026-10-29 18:02:04",
+      "last_seen_at": "2026-10-29 18:02:04"
+    },
+    {
+      "资讯标题": "大晓机器人推出 ACE-Brain-0.6 空间智能 API，七项评测均分反超 GPT-6 Astra",
+      "发布时间": "2026-10-29 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31961",
+      "desc": "大晓机器人推出 ACE-Brain-0.6 空间智能 API，七项评测均分反超 GPT-6 Astra \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMed",
+      "agent_reason": "空间智能模型及机器人评测进展。",
+      "archive_id": "A20261029-2e385976c0dc",
+      "first_seen_at": "2026-10-29 18:02:04",
+      "last_seen_at": "2026-10-29 18:02:04"
+    },
+    {
+      "资讯标题": "AI删文件终于可以不用再问了！Claude Code上线全新环境变量，赋予开发者绝对放行权限",
+      "发布时间": "2026-10-29 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31963",
+      "desc": "AI删文件终于可以不用再问了！Claude Code上线全新环境变量，赋予开发者绝对放行权限 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(p",
+      "agent_reason": "Claude Code权限与开发者工具能力更新。",
+      "archive_id": "A20261029-397aebe7fc1c",
+      "first_seen_at": "2026-10-29 18:02:04",
+      "last_seen_at": "2026-10-29 18:02:04"
     },
     {
       "资讯标题": "7亿用户之后：生成式人工智能普及过半 应用治理成为重点",

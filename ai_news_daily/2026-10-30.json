@@ -1,0 +1,226 @@
+{
+  "version": 1,
+  "date": "2026-10-30",
+  "timezone": "Asia/Shanghai",
+  "updated_at": "2026-10-30 09:05:00",
+  "item_count": 18,
+  "runs": [
+    {
+      "collected_at": "2026-10-30 09:05:00",
+      "input_count": 18,
+      "added_count": 18,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "本轮采集候选中保留所有具备存档价值且为详情页链接的 AI、大模型、智能体、机器人、算力及核心技术资讯；剔除 TopHub 搜索壳、非 AI 内容、广告和导航链接。浏览器补源因桌面锁定未完成，来源异常原样保留。",
+      "source_status": {
+        "量子位": "ok:8",
+        "新智元": "ok:0",
+        "AIBase": "ok:0",
+        "新华网科技": "ok:0",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
+    }
+  ],
+  "items": [
+    {
+      "资讯标题": "英伟达为 Nscale 逾 50 亿美元数据中心建设融资提供信用担保",
+      "发布时间": "2026-10-30 08:10:32",
+      "来源": "Readhub",
+      "超链接": "https://wallstreetcn.com/articles/3784812",
+      "desc": "英伟达正与新兴 AI 云服务商 Nscale 洽谈，拟为后者在美国西弗吉尼亚州建设 460 兆瓦数据中心的债务提供数十亿美元信用担保。按 1 吉瓦供电能力的数据中心外壳成本约 120 亿美元推算，英伟达为该项目提供的信用支持规模很可能超过 50 亿美元。英伟达迄今已向新兴云厂商及其他大型客户提供约 1700 亿美元的信用支持与投资。",
+      "agent_reason": "AI/大模型/智能体/机器人/算力或核心技术动态，来源为原始详情页。",
+      "archive_id": "A20261030-70912e7cd4f5",
+      "first_seen_at": "2026-10-30 09:05:00",
+      "last_seen_at": "2026-10-30 09:05:00"
+    },
+    {
+      "资讯标题": "英特尔 2026 Q3 营收 165 亿美元超预期：数据中心业务暴增近 80% 创 15 年最强增长",
+      "发布时间": "2026-10-30 07:45:20",
+      "来源": "Readhub",
+      "超链接": "https://www.ithome.com/1/019/836.htm",
+      "desc": "太平洋时间 10 月 29 日星期四下午 2 点（北京时间 10 月 30 日凌晨 5 点）举办的 2026 财年第三财季（2026 年 6 月 28 日至 2026 年 9 月 26 日）财报电话会议上，公司首席执行官陈立武表示，数据中心与人工智能 DCAI 业务成为本季度最大亮点，实现该板块 15 年来最强营收增长，拉动整体业绩超预期。DCAI 营收 73 亿美元（现汇率约合 487.68 亿元人民币）、同比增长近 80%，并创下 15 年来最强增长。数据中心与人工智能 DCAI 业务本季度营业利润 30 亿美元（现汇率约合 200.42 亿元人民币），占该板块营收 42%，环比增加 6 亿美元（现汇率约合 40.08 亿元人民币）。",
+      "agent_reason": "AI/大模型/智能体/机器人/算力或核心技术动态，来源为原始详情页。",
+      "archive_id": "A20261030-65aac495568d",
+      "first_seen_at": "2026-10-30 09:05:00",
+      "last_seen_at": "2026-10-30 09:05:00"
+    },
+    {
+      "资讯标题": "智元发布具身模型 GO-3 Preview：能做煎饼果子、在便利店上岗，登顶三大榜单",
+      "发布时间": "2026-10-30 07:22:24",
+      "来源": "Readhub",
+      "超链接": "https://www.ithome.com/1/019/806.htm",
+      "desc": "智元正式推出预训练 / 后训练 / 部署后实现全链路规模化学习的具身模型 —— GO-3 Preview。在 GO-3 Preview 后训练阶段，智元构建分布式混合环境后训练系统 Genie Evolver，依托百台真机，并结合物理仿真与世界模型，让机器人在实践中提升能力。进入 GO-3 Preview 部署后阶段，智元通过具身 Agent 框架 Genie Master，把判断、执行与反馈连接起来，让机器人能够实现部署后的自主改进，在真实作业中持续提升能力。",
+      "agent_reason": "AI/大模型/智能体/机器人/算力或核心技术动态，来源为原始详情页。",
+      "archive_id": "A20261030-a5f8a01d78a2",
+      "first_seen_at": "2026-10-30 09:05:00",
+      "last_seen_at": "2026-10-30 09:05:00"
+    },
+    {
+      "资讯标题": "OpenAI 为符合条件的 ChatGPT 订阅提供 API 额度福利",
+      "发布时间": "2026-10-30 06:48:29",
+      "来源": "Readhub",
+      "超链接": "https://simonwillison.net/2026/Oct/29/api-credits",
+      "desc": "本月早些时候，Anthropic 宣布为其 Max 和 Team 订阅提供一项慷慨的新福利：每月 100 美元、200 美元和 500 美元的订阅用户将获得等量的（有期限的）额度，可用于 Anthropic API。OpenAI 现在也推出了几乎完全相同的方案：如果你拥有他们 100 美元、200 美元或 500 美元的订阅计划，现在可以获得同等数量的额度，用于你的某个 API 组织。",
+      "agent_reason": "头部模型公司订阅与 API 额度政策变化，影响开发者使用。",
+      "archive_id": "A20261030-88899755dba0",
+      "first_seen_at": "2026-10-30 09:05:00",
+      "last_seen_at": "2026-10-30 09:05:00"
+    },
+    {
+      "资讯标题": "SpaceX 最大单一客户曝光：Anthropic 每月付款逾 30 亿美元，Q3 营收占比超 1/3",
+      "发布时间": "2026-10-30 06:37:39",
+      "来源": "Readhub",
+      "超链接": "https://wallstreetcn.com/articles/3784808",
+      "desc": "据彭博援引知情人士透露，AI 公司 Anthropic PBC 是 SpaceX 目前最大的单一客户，在今年第三季度贡献了 SpaceX 逾三分之一的营收。SpaceX 上周在一份文件中披露，第三季度约 34.5% 的营收来自旗下 AI 部门（现更名为 Super Intelligence）的单一客户，该客户在文件中仅被标注为「客户 B」。除 Anthropic 外，另一客户（可能为多个政府机构的合计付款）在第三季度仅占营收的 16.6%，而该客户在 2025 年的占比约为五分之一。",
+      "agent_reason": "AI/大模型/智能体/机器人/算力或核心技术动态，来源为原始详情页。",
+      "archive_id": "A20261030-5821734dff3f",
+      "first_seen_at": "2026-10-30 09:05:00",
+      "last_seen_at": "2026-10-30 09:05:00"
+    },
+    {
+      "资讯标题": "Building a multiplayer game world with autonomous Fable-class models",
+      "发布时间": "2026-10-30 01:00:26",
+      "来源": "Readhub",
+      "超链接": "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world",
+      "desc": "Don't be put off by the clickbait headline, this piece by Jacob Sansbury describing how they are building Spawn is a fascinating exploration of the bleeding edge of what's possible with agentic engineering against frontier models. Spawn is a massively multiplayer gaming environment where players can use prompts (to the in-game agent, Savi) to modify the game world. These kinds of extreme experiments are why I'm excited about game development as a substrate for exploring the edges of what today's coding agents can do.",
+      "agent_reason": "自主智能体在游戏世界中的工程实践，体现 Agent 应用边界。",
+      "archive_id": "A20261030-e65fcafff408",
+      "first_seen_at": "2026-10-30 09:05:00",
+      "last_seen_at": "2026-10-30 09:05:00"
+    },
+    {
+      "资讯标题": "OpenAI 更新 Model Spec，为更强大且有益的 AI 提供指引",
+      "发布时间": "2026-10-30 01:00:00",
+      "来源": "Readhub",
+      "超链接": "https://openai.com/index/updated-model-spec",
+      "desc": "OpenAI 更新了 Model Spec，概述了五项核心价值观，旨在引导更强大的 AI 走向健全判断、尊重人类能动性并忠实于人类意图。",
+      "agent_reason": "AI/大模型/智能体/机器人/算力或核心技术动态，来源为原始详情页。",
+      "archive_id": "A20261030-9349f418e7bc",
+      "first_seen_at": "2026-10-30 09:05:00",
+      "last_seen_at": "2026-10-30 09:05:00"
+    },
+    {
+      "资讯标题": "DeepSeek 又一开源重器！深挖 DeepInfer 究竟藏着多少技术狠活？",
+      "发布时间": "2026-10-29 22:14:00",
+      "来源": "Readhub",
+      "超链接": "https://www.leiphone.com/category/ai/HecXToP0EHbPjPd0.html",
+      "desc": "昨天，DeepSeek 又在 GitHub 上开源了一个大项目，叫 DeepInfer。传统推理引擎的 Decode 通常按照固定顺序运行：CPU 选择请求、组织 Batch 和 KV Cache 元数据，GPU 执行 Forward 与 Sampling，随后 CPU 读取结果、更新生成长度和请求状态，再启动下一轮计算。DeepInfer 展示了一条明确的工程路线：通过跨轮次执行重叠减少调度空档，再利用状态修正与资源生命周期管理维护正确性，让更多 GPU 时间用于实际模型计算。",
+      "agent_reason": "AI/大模型/智能体/机器人/算力或核心技术动态，来源为原始详情页。",
+      "archive_id": "A20261030-c1077bc10c9f",
+      "first_seen_at": "2026-10-30 09:05:00",
+      "last_seen_at": "2026-10-30 09:05:00"
+    },
+    {
+      "资讯标题": "IBM 用四根超导线缆实现芯片级协同，打破量子比特拥挤魔咒",
+      "发布时间": "2026-10-29 17:12:55",
+      "来源": "Readhub",
+      "超链接": "https://www.mittrchina.com/news/detail/17160",
+      "desc": "IBM 科学家用四根长达 80 厘米的铝制线缆，将两块大型超导量子芯片连接在一起，创下平均 99% 的量子态传输保真度纪录，标志着量子计算迈入模块化拼装的新阶段。量子计算机依靠遵循微观物理规律的量子比特，这种跨越空间的连接让两块芯片上的量子比特产生纠缠，即使相隔很远也能瞬间影响彼此状态。",
+      "agent_reason": "AI/算力相关前沿基础技术与量子计算进展。",
+      "archive_id": "A20261030-ddbd981e426f",
+      "first_seen_at": "2026-10-30 09:05:00",
+      "last_seen_at": "2026-10-30 09:05:00"
+    },
+    {
+      "资讯标题": "How we detect frontier model misalignment",
+      "发布时间": "2026-10-29 17:00:00",
+      "来源": "Readhub",
+      "超链接": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+      "desc": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
+      "agent_reason": "AI/大模型/智能体/机器人/算力或核心技术动态，来源为原始详情页。",
+      "archive_id": "A20261030-0f01adb2acab",
+      "first_seen_at": "2026-10-30 09:05:00",
+      "last_seen_at": "2026-10-30 09:05:00"
+    },
+    {
+      "资讯标题": "AI安全是AI规模化应用“加速器”",
+      "发布时间": "2026-10-29 16:50:14",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/506544.html",
+      "desc": "AI安全不是AI发展的“刹车片”，而是AI高质量发展的“加速器”。",
+      "agent_reason": "AI/大模型/智能体/机器人/算力或核心技术动态，来源为原始详情页。",
+      "archive_id": "A20261030-40018b542aae",
+      "first_seen_at": "2026-10-30 09:05:00",
+      "last_seen_at": "2026-10-30 09:05:00"
+    },
+    {
+      "资讯标题": "奥特曼和Dario同台唱rap！Genspark新视频Agent上线，零基础也能拍短剧",
+      "发布时间": "2026-10-29 14:53:19",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/506478.html",
+      "desc": "All in one、任何人都能用",
+      "agent_reason": "头部 AI Agent 产品上线及能力变化，具备行业观察价值。",
+      "archive_id": "A20261030-bbc84bbd1e8d",
+      "first_seen_at": "2026-10-30 09:05:00",
+      "last_seen_at": "2026-10-30 09:05:00"
+    },
+    {
+      "资讯标题": "物理学也要被AI攻陷了？5道20多年量子公开问题被突破",
+      "发布时间": "2026-10-29 14:51:51",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/506477.html",
+      "desc": "MIT最后一位三学位天才出手了。",
+      "agent_reason": "AI/算力相关前沿基础技术与量子计算进展。",
+      "archive_id": "A20261030-4a50db73547f",
+      "first_seen_at": "2026-10-30 09:05:00",
+      "last_seen_at": "2026-10-30 09:05:00"
+    },
+    {
+      "资讯标题": "IDC最新报告：MaaS市场分化，PPIO拿下独立服务商首位",
+      "发布时间": "2026-10-29 14:13:05",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/506468.html",
+      "desc": "百亿MaaS市场格局生变",
+      "agent_reason": "AI/大模型/智能体/机器人/算力或核心技术动态，来源为原始详情页。",
+      "archive_id": "A20261030-e6deba809472",
+      "first_seen_at": "2026-10-30 09:05:00",
+      "last_seen_at": "2026-10-30 09:05:00"
+    },
+    {
+      "资讯标题": "敢和英伟达现场PK的国产GPU，我是服的",
+      "发布时间": "2026-10-29 13:57:33",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/506376.html",
+      "desc": "跟H200和Thor T5000硬碰硬",
+      "agent_reason": "AI/大模型/智能体/机器人/算力或核心技术动态，来源为原始详情页。",
+      "archive_id": "A20261030-27dfd2389775",
+      "first_seen_at": "2026-10-30 09:05:00",
+      "last_seen_at": "2026-10-30 09:05:00"
+    },
+    {
+      "资讯标题": "文远知行001号员工带队，景烁科技首轮融资数千万美元",
+      "发布时间": "2026-10-29 11:27:50",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/506281.html",
+      "desc": "10月29日，文远知行披露旗下子公司景烁科技首次融资进展",
+      "agent_reason": "AI/大模型/智能体/机器人/算力或核心技术动态，来源为原始详情页。",
+      "archive_id": "A20261030-414534be96c1",
+      "first_seen_at": "2026-10-30 09:05:00",
+      "last_seen_at": "2026-10-30 09:05:00"
+    },
+    {
+      "资讯标题": "小雨智造与国家钢结构质检中心共建实验室，乔忠良：具身智能新质生产力已成事实",
+      "发布时间": "2026-10-29 10:51:45",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/506273.html",
+      "desc": "2026年10月27日，“工业具身智能焊接与检测技术联合实验室”正式揭牌成立。",
+      "agent_reason": "AI/大模型/智能体/机器人/算力或核心技术动态，来源为原始详情页。",
+      "archive_id": "A20261030-c5315acb60bd",
+      "first_seen_at": "2026-10-30 09:05:00",
+      "last_seen_at": "2026-10-30 09:05:00"
+    },
+    {
+      "资讯标题": "刚刚，扩散模型杀进Agent主场！350亿参数，速度比Jev快一倍",
+      "发布时间": "2026-10-29 10:18:28",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/505934.html",
+      "desc": "用扩散模型怎么做做Agent？",
+      "agent_reason": "AI/大模型/智能体/机器人/算力或核心技术动态，来源为原始详情页。",
+      "archive_id": "A20261030-3ccdb25a8e3b",
+      "first_seen_at": "2026-10-30 09:05:00",
+      "last_seen_at": "2026-10-30 09:05:00"
+    }
+  ]
+}

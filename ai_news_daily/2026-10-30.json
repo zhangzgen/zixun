@@ -2,8 +2,8 @@
   "version": 1,
   "date": "2026-10-30",
   "timezone": "Asia/Shanghai",
-  "updated_at": "2026-10-30 09:05:00",
-  "item_count": 18,
+  "updated_at": "2026-10-30 12:06:11",
+  "item_count": 28,
   "runs": [
     {
       "collected_at": "2026-10-30 09:05:00",
@@ -21,9 +21,136 @@
         "今日头条/Tophub": "ok:50",
         "Readhub": "ok:10"
       }
+    },
+    {
+      "collected_at": "2026-10-30 12:06:11",
+      "input_count": 10,
+      "added_count": 10,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "从本轮77条候选中筛选10条具备AI资讯存档价值且为详情页链接的事件；剔除非AI、搜索榜单壳、字段不足及当天已有同事件，AIBase与Readhub重复事件仅保留一条。",
+      "source_status": {
+        "量子位": "ok:5",
+        "新智元": "ok:0",
+        "AIBase": "ok:12",
+        "新华网科技": "ok:0",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
     }
   ],
   "items": [
+    {
+      "资讯标题": "Particle 发布 Particle‑1：基于 DeepSeek 基座做 RL 后训练",
+      "发布时间": "2026-10-30 11:29:04",
+      "来源": "Readhub",
+      "超链接": "https://www.donews.com/news/detail/1/6759375.html",
+      "desc": "新兴 AI 公司 Particle 于 10 月 28 日正式推出首款模型 Particle‑1，该模型以 DeepSeek V4.1 Flash 为基座，通过级联强化学习 Cascade RL 做后训练优化，核心目标是在任务通过率基本不变前提下，减少推理与工具调用的输出 Token 数量，不仅降低使用成本，还能缩短 Agent 任务整体执行时长，首发聚焦软件工程场景，后续计划拓展至更多垂直领域。团队采用 GSPO（Group Sequence Policy Optimization）算法训练 Rank‑64 LoRA 适配器，可训练参数量仅占原模型总参数 1.25%，依托 RadixArk 开源 RL 框架 Miles 搭建异步分布式训练栈，对 SGLang、Megatron 引擎深度优化，缓解训练‑推理不匹配问题。Particle‑1 相比基座 DeepSeek V4.1 Flash，输出 Token 减少 28.4%‑52.2%，单任务平均成本下降 34.4%‑51.6%。",
+      "agent_reason": "AI/大模型/智能体/算力/核心技术或头部公司动态，且链接为原始详情页；已按当天归档与同事件候选去重。",
+      "archive_id": "A20261030-6209cf8400a6",
+      "first_seen_at": "2026-10-30 12:06:11",
+      "last_seen_at": "2026-10-30 12:06:11"
+    },
+    {
+      "资讯标题": "Anthropic 加码 AI4S：20 个科研伙伴加入，免费 Claude 额度覆盖更多科学领域",
+      "发布时间": "2026-10-30 10:05:16",
+      "来源": "Readhub",
+      "超链接": "https://www.mittrchina.com/news/detail/17165",
+      "desc": "当地时间 10 月 28 日，Anthropic 公布了与全球 20 个科学基金会、科研机构及研究团队的合作情况，涵盖天文学、基因组学、癌症研究、气候科学和数学等多个领域。早在 2025 年 5 月，Anthropic 就推出了 AI for Science 计划，最初主要关注生物学和生命科学领域，为研究人员提供免费的 Claude API 使用额度，帮助他们分析数据、提出假设和设计实验。随着 Claude 被应用于更多科学领域，这些合作能否持续提高科研效率、推动新的科学发现，仍有待后续研究结果验证。",
+      "agent_reason": "AI/大模型/智能体/算力/核心技术或头部公司动态，且链接为原始详情页；已按当天归档与同事件候选去重。",
+      "archive_id": "A20261030-b6ea4b62b92a",
+      "first_seen_at": "2026-10-30 12:06:11",
+      "last_seen_at": "2026-10-30 12:06:11"
+    },
+    {
+      "资讯标题": "同济团队 AI4S 创业走出隐匿模式：不抄通用大模型作业，打造原生组学 AI 赋能 AIDD",
+      "发布时间": "2026-10-30 10:02:31",
+      "来源": "Readhub",
+      "超链接": "https://www.mittrchina.com/news/detail/17164",
+      "desc": "国内 AI for Science 初创企业扰动之心（PerturbMind AI）正式走出隐匿模式，打造几何世界模型驱动的 PerturbSeek™ 数字生命世界模型生态系统，全力探索适配生命组学并有效驱动药物研发的可工程落地的 AI 技术路线。团队指出，当前主流 AI 框架（如大语言模型）往往建立在海量、静态、同质的数据之上，而组学数据却是稀疏、动态、异质的；很多项目把通用模型的输入输出改一改、框架稍做适配，就叫「生命大模型」，没有针对组学固有的特性做底层改造，本质只是套壳。",
+      "agent_reason": "AI/大模型/智能体/算力/核心技术或头部公司动态，且链接为原始详情页；已按当天归档与同事件候选去重。",
+      "archive_id": "A20261030-fed828228817",
+      "first_seen_at": "2026-10-30 12:06:11",
+      "last_seen_at": "2026-10-30 12:06:11"
+    },
+    {
+      "资讯标题": "腾讯Marvis上线 Coding 管家 远程调用桌面AI工具",
+      "发布时间": "2026-10-30 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31981",
+      "desc": "腾讯Marvis上线 Coding 管家 远程调用桌面AI工具 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"",
+      "agent_reason": "AI/大模型/智能体/算力/核心技术或头部公司动态，且链接为原始详情页；已按当天归档与同事件候选去重。",
+      "archive_id": "A20261030-3f878a5c0ff2",
+      "first_seen_at": "2026-10-30 12:06:11",
+      "last_seen_at": "2026-10-30 12:06:11"
+    },
+    {
+      "资讯标题": "月之暗面宣布Kimi正式接入谷歌Gmail、云端硬盘与日历",
+      "发布时间": "2026-10-30 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31977",
+      "desc": "月之暗面宣布Kimi正式接入谷歌Gmail、云端硬盘与日历 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(pre",
+      "agent_reason": "AI/大模型/智能体/算力/核心技术或头部公司动态，且链接为原始详情页；已按当天归档与同事件候选去重。",
+      "archive_id": "A20261030-f7279d1304ec",
+      "first_seen_at": "2026-10-30 12:06:11",
+      "last_seen_at": "2026-10-30 12:06:11"
+    },
+    {
+      "资讯标题": "星巴克计划在得来速引入AI技术，提升点餐准确率与出餐效率",
+      "发布时间": "2026-10-30 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31975",
+      "desc": "星巴克计划在得来速引入AI技术，提升点餐准确率与出餐效率 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color",
+      "agent_reason": "AI/大模型/智能体/算力/核心技术或头部公司动态，且链接为原始详情页；已按当天归档与同事件候选去重。",
+      "archive_id": "A20261030-0d2c1aefc70a",
+      "first_seen_at": "2026-10-30 12:06:11",
+      "last_seen_at": "2026-10-30 12:06:11"
+    },
+    {
+      "资讯标题": "微信营销生态活跃流量主首次突破千万，AI助力商业化提效与长期经营",
+      "发布时间": "2026-10-30 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31983",
+      "desc": "微信营销生态活跃流量主首次突破千万，AI助力商业化提效与长期经营 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color-scheme",
+      "agent_reason": "AI/大模型/智能体/算力/核心技术或头部公司动态，且链接为原始详情页；已按当天归档与同事件候选去重。",
+      "archive_id": "A20261030-2af87c97efcf",
+      "first_seen_at": "2026-10-30 12:06:11",
+      "last_seen_at": "2026-10-30 12:06:11"
+    },
+    {
+      "资讯标题": "XHEART大模型芯片X7 Ultra交出亮眼答卷，累计出货超 20 万颗",
+      "发布时间": "2026-10-30 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31976",
+      "desc": "XHEART大模型芯片X7 Ultra交出亮眼答卷，累计出货超 20 万颗 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color-",
+      "agent_reason": "AI/大模型/智能体/算力/核心技术或头部公司动态，且链接为原始详情页；已按当天归档与同事件候选去重。",
+      "archive_id": "A20261030-dff9fb71eeab",
+      "first_seen_at": "2026-10-30 12:06:11",
+      "last_seen_at": "2026-10-30 12:06:11"
+    },
+    {
+      "资讯标题": "OpenAI\"服软\"：Pro订阅额度翻倍，砍半计划一夜撤回",
+      "发布时间": "2026-10-30 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31974",
+      "desc": "OpenAI\"服软\"：Pro订阅额度翻倍，砍半计划一夜撤回 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.match",
+      "agent_reason": "AI/大模型/智能体/算力/核心技术或头部公司动态，且链接为原始详情页；已按当天归档与同事件候选去重。",
+      "archive_id": "A20261030-dc36e1127fb0",
+      "first_seen_at": "2026-10-30 12:06:11",
+      "last_seen_at": "2026-10-30 12:06:11"
+    },
+    {
+      "资讯标题": "Omdia 预估 2027 年 AI PC 渗透率冲 60%，但买它的人其实不为 AI",
+      "发布时间": "2026-10-30 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31978",
+      "desc": "Omdia 预估 2027 年 AI PC 渗透率冲 60%，但买它的人其实不为 AI \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers",
+      "agent_reason": "AI/大模型/智能体/算力/核心技术或头部公司动态，且链接为原始详情页；已按当天归档与同事件候选去重。",
+      "archive_id": "A20261030-6f618eb4a5f8",
+      "first_seen_at": "2026-10-30 12:06:11",
+      "last_seen_at": "2026-10-30 12:06:11"
+    },
     {
       "资讯标题": "英伟达为 Nscale 逾 50 亿美元数据中心建设融资提供信用担保",
       "发布时间": "2026-10-30 08:10:32",

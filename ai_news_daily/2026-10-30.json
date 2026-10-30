@@ -2,8 +2,8 @@
   "version": 1,
   "date": "2026-10-30",
   "timezone": "Asia/Shanghai",
-  "updated_at": "2026-10-30 15:02:50",
-  "item_count": 38,
+  "updated_at": "2026-10-30 18:05:05",
+  "item_count": 50,
   "runs": [
     {
       "collected_at": "2026-10-30 09:05:00",
@@ -55,9 +55,102 @@
         "今日头条/Tophub": "error:<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>；浏览器补查未发现可保留AI详情页",
         "Readhub": "ok:10"
       }
+    },
+    {
+      "collected_at": "2026-10-30 18:05:05",
+      "input_count": 19,
+      "added_count": 12,
+      "updated_count": 0,
+      "skipped_duplicate_count": 7,
+      "selection_reason": "保留最近24小时内与 AI、大模型、智能体、机器人、算力、核心技术及头部公司相关且具有详情页的资讯；剔除非AI、促销、会议报名、搜索壳和重复转载。",
+      "source_status": {
+        "量子位": "ok:7",
+        "新智元": "ok:0",
+        "AIBase": "ok:12",
+        "新华网科技": "ok:0",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
     }
   ],
   "items": [
+    {
+      "资讯标题": "Meta 把你的朋友圈变成试衣间：Style Sketch 让旧照片生出 AI 穿搭师",
+      "发布时间": "2026-10-30 17:02:57",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31994",
+      "desc": "你历年发在社交平台上的穿搭，正被 Meta 悄悄收进一个 AI 衣橱。这家公司近期低调上线 Style Sketch，这款免费时尚应用会连上 Facebook 或 Instagram，从你曾经分享的照片里认出衣物、拼出一间虚拟衣柜。Style Sketch 会结合你的风格偏好与身形，把搭配效果套到贴合你体型和肤色的虚拟模特身上——同款衣服不同人穿，呈现出的观感不再靠脑补。",
+      "agent_reason": "经聚合源指向可访问的原始详情页，具备存档价值。",
+      "archive_id": "A20261030-a5fe6f8d40b1",
+      "first_seen_at": "2026-10-30 18:05:05",
+      "last_seen_at": "2026-10-30 18:05:05"
+    },
+    {
+      "资讯标题": "百度 APP 发布四大 AI 升级，搜索已实现递归自我进化",
+      "发布时间": "2026-10-30 16:50:44",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/506771.html",
+      "agent_reason": "AI 技术、模型或头部公司动态，来源为详情页。",
+      "archive_id": "A20261030-666a1f719c44",
+      "first_seen_at": "2026-10-30 18:05:05",
+      "last_seen_at": "2026-10-30 18:05:05"
+    },
+    {
+      "资讯标题": "好莱坞最缺的答案，被这家 10 亿美元估值的 AI 影视独角兽写进了片单",
+      "发布时间": "2026-10-30 16:12:11",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/506747.html",
+      "desc": "创立 4 年，估值站上 10 亿美元——资本市场定价的不是一部电影，而是一套内容生产基础设施。",
+      "agent_reason": "AI 技术、模型或头部公司动态，来源为详情页。",
+      "archive_id": "A20261030-d2b4a29464db",
+      "first_seen_at": "2026-10-30 18:05:05",
+      "last_seen_at": "2026-10-30 18:05:05"
+    },
+    {
+      "资讯标题": "AI 也能重新编曲和翻唱？Spotify 计划推出付费音乐混音服务",
+      "发布时间": "2026-10-30 15:40:39",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31991",
+      "desc": "与通过文本提示生成全新音乐的 AI 工具不同，Spotify 此次服务主要围绕获得授权的现有音乐作品展开，用户可以将民谣改编为舞曲，也可以利用 AI 模拟一位歌手演唱另一位歌手的作品。版权方面，Spotify 已与环球音乐集团、独立唱片公司授权组织 Merlin 及法国音乐公司 Believe 达成授权协议，目前仍在与索尼音乐和华纳音乐谈判。Bernstein 分析师预计，到 2028 年底，Spotify 约 7% 至 8% 的美国订阅用户可能选择付费使用 AI 音乐服务。",
+      "agent_reason": "经聚合源指向可访问的原始详情页，具备存档价值。",
+      "archive_id": "A20261030-686678d89f1a",
+      "first_seen_at": "2026-10-30 18:05:05",
+      "last_seen_at": "2026-10-30 18:05:05"
+    },
+    {
+      "资讯标题": "英伟达团队基于 MiniMax H3 开源视频增强方案，最高支持 4K 重生成",
+      "发布时间": "2026-10-30 15:31:11",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/506743.html",
+      "desc": "英伟达与麻省理工学院团队，在 Hugging Face 发布了视频增强项目 Open-H3-Regenerate-2K 的模型权重",
+      "agent_reason": "AI 技术、模型或头部公司动态，来源为详情页。",
+      "archive_id": "A20261030-5d096e437ca7",
+      "first_seen_at": "2026-10-30 18:05:05",
+      "last_seen_at": "2026-10-30 18:05:05"
+    },
+    {
+      "资讯标题": "IROS 2026 观察：从 Demo 到生产力工具，灵巧手还要跨过几道坎？",
+      "发布时间": "2026-10-30 15:23:00",
+      "来源": "Readhub",
+      "超链接": "https://www.leiphone.com/category/robot/jv4zJUmQr2wkoN0i.html",
+      "desc": "IROS 现场，源升智能的高自由度五指灵巧手 Apex Hand 展示了一组侧重点不同的操作任务：基于强化学习的手内转球、灵巧手把脉、全掌触觉实时感知、持续高负载恒温抓握，以及劈裂木板、钉钉子等高冲击操作。从产品定义到量产验证，再到数据采集与开发生态，其对灵巧手产品化的思考可归结为三个判断：其一，灵巧手的竞争正从追求多项性能指标的极致，转向构建面向真实任务的系统能力。对灵巧、精细操作、感知的这些理解，反映出源升对灵巧手产品的整体判断：真实场景里的任务，很难被简单归类成「搬重物」或者「做精细操作」，一只通用灵巧手需要同时处理不同尺度、不同力量要求的任务。",
+      "agent_reason": "经聚合源指向可访问的原始详情页，具备存档价值。",
+      "archive_id": "A20261030-0d670be80e59",
+      "first_seen_at": "2026-10-30 18:05:05",
+      "last_seen_at": "2026-10-30 18:05:05"
+    },
+    {
+      "资讯标题": "宇树最新财报：重金投入研发，上市后的考题变了",
+      "发布时间": "2026-10-30 15:10:00",
+      "来源": "Readhub",
+      "超链接": "https://www.leiphone.com/category/robot/9NTmjVmWkIyllzaj.html",
+      "desc": "上市后，宇树持续推出迭代产品，9月发布新一代人形机器人G1+，针对真实场景落地痛点优化了全关节电机系统和多传感器融合，并新增外部供电接口。宇树的研发投入大幅增加，研发费用前三季度达到2.63亿元，同比增长191.5%，研发费用率从2023–2025年稳定在8.8%–9%的区间，跳升至14.47%，第三季度单季更是高达19.1%。公司明确表示，增量主要来自具身智能领域研发投入，尤其是具身大模型相关模型研发与算力投入大幅增长，以及扩充研发团队。",
+      "agent_reason": "经聚合源指向可访问的原始详情页，具备存档价值。",
+      "archive_id": "A20261030-a7739bfe58c3",
+      "first_seen_at": "2026-10-30 18:05:05",
+      "last_seen_at": "2026-10-30 18:05:05"
+    },
     {
       "资讯标题": "英伟达发布语音转录大模型 Nemotron 3.5 Transcribe，8 人同时抢话也能精准识别",
       "发布时间": "2026-10-30 14:01:59",
@@ -67,7 +160,7 @@
       "agent_reason": "头部公司发布新的开源语音大模型，涉及多语言和多说话人能力。",
       "archive_id": "A20261030-c76d076acec5",
       "first_seen_at": "2026-10-30 15:02:50",
-      "last_seen_at": "2026-10-30 15:02:50"
+      "last_seen_at": "2026-10-30 18:05:05"
     },
     {
       "资讯标题": "万亿参数开源模型 Mistral Large4 登场：用更少 Token 打平顶级性能",
@@ -78,7 +171,28 @@
       "agent_reason": "大模型规模与开源生态的重要进展，具备长期归档价值。",
       "archive_id": "A20261030-ea73c319e9ea",
       "first_seen_at": "2026-10-30 15:02:50",
-      "last_seen_at": "2026-10-30 15:02:50"
+      "last_seen_at": "2026-10-30 18:05:05"
+    },
+    {
+      "资讯标题": "RSI立大功！国产开源登顶全球第一，1.3B OXR重塑OCR",
+      "发布时间": "2026-10-30 13:52:47",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/506686.html",
+      "desc": "解析一切",
+      "agent_reason": "AI 技术、模型或头部公司动态，来源为详情页。",
+      "archive_id": "A20261030-cab620b89f06",
+      "first_seen_at": "2026-10-30 18:05:05",
+      "last_seen_at": "2026-10-30 18:05:05"
+    },
+    {
+      "资讯标题": "Claude新模型曝光：新Fable，新Opus…",
+      "发布时间": "2026-10-30 13:50:44",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/506674.html",
+      "agent_reason": "AI 技术、模型或头部公司动态，来源为详情页。",
+      "archive_id": "A20261030-57d3518f27f4",
+      "first_seen_at": "2026-10-30 18:05:05",
+      "last_seen_at": "2026-10-30 18:05:05"
     },
     {
       "资讯标题": "阿里云发布新版飞天企业版，支持海外客户升级企业级 AI 能力",
@@ -101,6 +215,17 @@
       "archive_id": "A20261030-fd5f1e5eaf4e",
       "first_seen_at": "2026-10-30 15:02:50",
       "last_seen_at": "2026-10-30 15:02:50"
+    },
+    {
+      "资讯标题": "从学习人类到学习机器人同伴，清华大学联合无问芯穹、智元提出具身智能规模化落地新路径",
+      "发布时间": "2026-10-30 11:48:04",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/506662.html",
+      "desc": "让机器人成为彼此的“老师”",
+      "agent_reason": "AI 技术、模型或头部公司动态，来源为详情页。",
+      "archive_id": "A20261030-ea10750046a0",
+      "first_seen_at": "2026-10-30 18:05:05",
+      "last_seen_at": "2026-10-30 18:05:05"
     },
     {
       "资讯标题": "Particle 发布 Particle‑1：基于 DeepSeek 基座做 RL 后训练",
@@ -133,7 +258,7 @@
       "agent_reason": "AI/大模型/智能体/算力/核心技术或头部公司动态，且链接为原始详情页；已按当天归档与同事件候选去重。",
       "archive_id": "A20261030-b6ea4b62b92a",
       "first_seen_at": "2026-10-30 12:06:11",
-      "last_seen_at": "2026-10-30 15:02:50"
+      "last_seen_at": "2026-10-30 18:05:05"
     },
     {
       "资讯标题": "同济团队 AI4S 创业走出隐匿模式：不抄通用大模型作业，打造原生组学 AI 赋能 AIDD",
@@ -144,7 +269,7 @@
       "agent_reason": "AI/大模型/智能体/算力/核心技术或头部公司动态，且链接为原始详情页；已按当天归档与同事件候选去重。",
       "archive_id": "A20261030-fed828228817",
       "first_seen_at": "2026-10-30 12:06:11",
-      "last_seen_at": "2026-10-30 15:02:50"
+      "last_seen_at": "2026-10-30 18:05:05"
     },
     {
       "资讯标题": "谷歌 AI 搜索冲击广告业务，第三季度搜索广告收入不及预期",
@@ -167,6 +292,17 @@
       "archive_id": "A20261030-3f878a5c0ff2",
       "first_seen_at": "2026-10-30 12:06:11",
       "last_seen_at": "2026-10-30 15:02:50"
+    },
+    {
+      "资讯标题": "百度升级AI搜索及搜索AI API，调用价格低至4.9元/千次",
+      "发布时间": "2026-10-30 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31990",
+      "desc": "百度升级AI搜索及搜索AI API，调用价格低至4.9元/千次 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefe",
+      "agent_reason": "AI 产品、模型或产业动态，来源为详情页。",
+      "archive_id": "A20261030-0e44f1b4c12e",
+      "first_seen_at": "2026-10-30 18:05:05",
+      "last_seen_at": "2026-10-30 18:05:05"
     },
     {
       "资讯标题": "月之暗面宣布Kimi正式接入谷歌Gmail、云端硬盘与日历",
@@ -200,6 +336,17 @@
       "archive_id": "A20261030-2af87c97efcf",
       "first_seen_at": "2026-10-30 12:06:11",
       "last_seen_at": "2026-10-30 12:06:11"
+    },
+    {
+      "资讯标题": "在聊天窗口直接改文档！谷歌Gemini升级：全面支持PDF、表格及代码文件内联编辑",
+      "发布时间": "2026-10-30 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/31992",
+      "desc": "在聊天窗口直接改文档！谷歌Gemini升级：全面支持PDF、表格及代码文件内联编辑 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color-scheme\"+o+\")\")}fun",
+      "agent_reason": "AI 产品、模型或产业动态，来源为详情页。",
+      "archive_id": "A20261030-5cb557a2e38b",
+      "first_seen_at": "2026-10-30 18:05:05",
+      "last_seen_at": "2026-10-30 18:05:05"
     },
     {
       "资讯标题": "今日宜休发布首批AI睡眠产品:王腾推出ISHO Ring智能戒指与温控系统",
@@ -254,7 +401,7 @@
       "agent_reason": "脑机接口与生成式AI结合，属于前沿技术和头部公司动态。",
       "archive_id": "A20261030-e9a8acc2e4c8",
       "first_seen_at": "2026-10-30 15:02:50",
-      "last_seen_at": "2026-10-30 15:02:50"
+      "last_seen_at": "2026-10-30 18:05:05"
     },
     {
       "资讯标题": "Claude多端应用迎来重磅升级，iPhone版正式支持CarPlay语音交互",
@@ -265,7 +412,7 @@
       "agent_reason": "头部助手产品进入车载场景，体现AI应用形态演进。",
       "archive_id": "A20261030-47329eaaf516",
       "first_seen_at": "2026-10-30 15:02:50",
-      "last_seen_at": "2026-10-30 15:02:50"
+      "last_seen_at": "2026-10-30 18:05:05"
     },
     {
       "资讯标题": "AI 学会\"睡觉\"：谷歌想治好大模型边学边忘的老毛病",
@@ -276,7 +423,7 @@
       "agent_reason": "涉及大模型持续学习与灾难性遗忘等核心技术问题。",
       "archive_id": "A20261030-b58f9a2a4c58",
       "first_seen_at": "2026-10-30 15:02:50",
-      "last_seen_at": "2026-10-30 15:02:50"
+      "last_seen_at": "2026-10-30 18:05:05"
     },
     {
       "资讯标题": "英伟达为 Nscale 逾 50 亿美元数据中心建设融资提供信用担保",

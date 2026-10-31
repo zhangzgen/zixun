@@ -2,8 +2,8 @@
   "version": 1,
   "date": "2026-10-31",
   "timezone": "Asia/Shanghai",
-  "updated_at": "2026-10-31 12:02:26",
-  "item_count": 28,
+  "updated_at": "2026-10-31 14:57:35",
+  "item_count": 34,
   "runs": [
     {
       "collected_at": "2026-10-31 09:02:46",
@@ -38,9 +38,92 @@
         "今日头条/Tophub": "error:<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>",
         "Readhub": "ok:10"
       }
+    },
+    {
+      "collected_at": "2026-10-31 14:57:35",
+      "input_count": 6,
+      "added_count": 6,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "从完整候选中保留 AI/智能体/政策/产业高价值详情页；剔除非 AI 热点、搜索页、导航壳及当天归档已有事件，并按事件语义去重。",
+      "source_status": {
+        "量子位": "ok:3",
+        "新智元": "ok:0",
+        "AIBase": "ok:0",
+        "新华网科技": "ok:0",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
     }
   ],
   "items": [
+    {
+      "资讯标题": "Google Discloses PageBreak AI Security Agent That Found 500+ XSS Bugs",
+      "发布时间": "2026-10-31 14:20:00",
+      "来源": "Readhub",
+      "超链接": "https://www.infoq.com/news/2026/10/google-pagebreak-security-agent",
+      "desc": "According to a paper published by Google, its AI-powered security agent has uncovered more than 500 XSS vulnerabilities across its web applications since entering full operation in January. PageBreak uses Gemini models to autonomously investigate potential vulnerabilities, but reports them only after deterministic validators successfully reproduce the exploit against a running application.",
+      "agent_reason": "Google 安全智能体披露并发现大量 XSS 漏洞，属于智能体与安全技术进展。",
+      "archive_id": "A20261031-6dc567e34d42",
+      "first_seen_at": "2026-10-31 14:57:35",
+      "last_seen_at": "2026-10-31 14:57:35"
+    },
+    {
+      "资讯标题": "哪一面才是真正的 Anthropic？",
+      "发布时间": "2026-10-31 13:38:06",
+      "来源": "Readhub",
+      "超链接": "https://www.mittrchina.com/news/detail/17172",
+      "desc": "这份长达 335 页的文件（其中约 100 页专门讨论风险）详细阐述了该公司对自身所开发技术的独特理解，以及它认为这项技术将如何改变世界。本月早些时候，该公司联合创始人兼政策负责人杰克・克拉克（Jack Clark）在曼谷举行的国际货币基金组织（IMF）会议上发表演讲，向在场的经济学家、银行家和立法者宣布：技术奇点已经到来。所谓技术奇点，指的是技术发展到某个临界点，其能力将超越创造它的人类。",
+      "agent_reason": "分析 Anthropic 发展与产品生态，属于头部 AI 公司动态。",
+      "archive_id": "A20261031-58952a5a8428",
+      "first_seen_at": "2026-10-31 14:57:35",
+      "last_seen_at": "2026-10-31 14:57:35"
+    },
+    {
+      "资讯标题": "关于 AI 的法案，何时才能关注日常生活",
+      "发布时间": "2026-10-31 13:36:58",
+      "来源": "Readhub",
+      "超链接": "https://www.mittrchina.com/news/detail/17171",
+      "desc": "长期以来，我们对科技的讨论往往围绕某项产品可能造成的最严重后果展开，却很少关注它在日常生活中悄然造成的伤害。例如，今年谷歌支持了美国多个州监管 AI 聊天机器人的法案。在将 AI 作为课堂中的常规工具之前，科技公司和学区应该提供足够有说服力的证据，证明 AI 确实能够改善学习效果和批判性思维能力。",
+      "agent_reason": "讨论 AI 法案对日常生活的影响，属于 AI 政策与治理资讯。",
+      "archive_id": "A20261031-b76032e2a6df",
+      "first_seen_at": "2026-10-31 14:57:35",
+      "last_seen_at": "2026-10-31 14:57:35"
+    },
+    {
+      "资讯标题": "美国 AI 扩张的新瓶颈：「廉价资金」短缺",
+      "发布时间": "2026-10-31 13:35:10",
+      "来源": "Readhub",
+      "超链接": "https://www.gelonghui.com/live/2739710",
+      "desc": "随着 AI 产能扩张步入新阶段，美国放贷机构与投资者在做投资布局时变得愈发挑剔，同时要求更为严苛的交易条款。像 Anthropic、OpenAI 这类超大规模云厂商和初创企业，其 AI 相关利润或许无法像承诺的那样快速兑现。知情人士称，CoreWeave、Nebius、Nscale 这类大举借贷、建设并出售算力的 AI 云企业，近几周实际上已经被债券市场拒之门外。",
+      "agent_reason": "分析 AI 产业扩张面临的资金瓶颈，属于 AI 产业与资本动态。",
+      "archive_id": "A20261031-9dce952f95f5",
+      "first_seen_at": "2026-10-31 14:57:35",
+      "last_seen_at": "2026-10-31 14:57:35"
+    },
+    {
+      "资讯标题": "买早期临床管线用 AI 加速，这家 AI 制药公司专收「半成品」，推过二期再转手",
+      "发布时间": "2026-10-31 13:25:55",
+      "来源": "Readhub",
+      "超链接": "https://www.mittrchina.com/news/detail/17169",
+      "desc": "还在替药企运营临床试验时，一家名为 TrialSpark 的公司就动了自己买管线开发的念头，但得到的客户反馈却有些出乎意料：手里的药多到开发不起，已经发现的药也没那么值钱。公司宣布设立规模 6 亿美元的药物开发加速器基金，并表示将在未来 3~5 年内收购 10~15 个处于一期、二期临床阶段的药物资产，声称通过自建 AI 系统和临床运营团队，用 2~4 年将其推至关键临床节点后转售，或联合大型药企完成后期开发和商业化。或是吸取了 Roivant 等类似公司的经验，或是时机问题——毕竟前辈公司们出现时，AI 还没有开始改变这个行业——Formation Bio 走上了第三条混合路线：在管线套利的框架上增添 AI 辅助的资产筛选、自建的临床执行体系，以及基金化的资本结构。",
+      "agent_reason": "AI 制药公司利用 AI 加速临床管线，属于 AI 制药与应用进展。",
+      "archive_id": "A20261031-df0ff7231b36",
+      "first_seen_at": "2026-10-31 14:57:35",
+      "last_seen_at": "2026-10-31 14:57:35"
+    },
+    {
+      "资讯标题": "何积丰院士谈 AI 时代人才的三种能力：定义问题、验证产出、道德判断",
+      "发布时间": "2026-10-31 13:02:21",
+      "来源": "Readhub",
+      "超链接": "https://m.thepaper.cn/newsDetail_forward_34375821",
+      "desc": "在 2026 世界顶尖科学家论坛人工智能平行论坛上，中国科学院院士、计算机软件专家、华东师范大学终身教授何积丰谈及 AI 时代的人才培养时表示，随着人工智能能够完成越来越多过去只有专业科研人员才能完成的复杂工作，人类需要重新思考学习知识的意义，以及未来应当具备哪些核心能力。何积丰指出，人类掌握专业原理，不再只是为了重复 AI 能够快速完成的计算和生成工作，更重要的是具备识别 AI 错误、发现隐藏风险、判断方案优劣的能力。何积丰进一步提出，AI 时代的人才培养应重点锻炼三种能力：定义问题、验证 AI 产出，以及进行有道德的判断。",
+      "agent_reason": "院士总结 AI 时代人才能力，属于 AI 教育与治理观点。",
+      "archive_id": "A20261031-030b718f7a60",
+      "first_seen_at": "2026-10-31 14:57:35",
+      "last_seen_at": "2026-10-31 14:57:35"
+    },
     {
       "资讯标题": "智能驾驶进入物理 AI 时代？7 位行业嘉宾给出最新判断",
       "发布时间": "2026-10-31 11:31:00",

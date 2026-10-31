@@ -1,0 +1,202 @@
+{
+  "version": 1,
+  "date": "2026-10-31",
+  "timezone": "Asia/Shanghai",
+  "updated_at": "2026-10-31 09:02:46",
+  "item_count": 16,
+  "runs": [
+    {
+      "collected_at": "2026-10-31 09:02:46",
+      "input_count": 16,
+      "added_count": 16,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "保留最近24小时内与 AI、大模型、智能体、机器人、算力、核心技术及头部公司/治理相关的详情页资讯；剔除今日头条/Tophub搜索壳、非 AI 热点、活动报名和低价值条目，并按事件语义去重。",
+      "source_status": {
+        "量子位": "ok:7",
+        "新智元": "ok:0",
+        "AIBase": "ok:0",
+        "新华网科技": "ok:0",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
+    }
+  ],
+  "items": [
+    {
+      "资讯标题": "中国爆款 AI 漫剧全球「刷屏」：超 1.5 亿海外用户在看",
+      "发布时间": "2026-10-31 08:31:46",
+      "来源": "Readhub",
+      "超链接": "https://news.mydrivers.com/1/1162/1162076.htm",
+      "desc": "国产 AI 漫剧正在海外迎来爆发，数据显示，海外短剧付费应用前十榜单里，中国厂商拿下 9 席，活跃用户已经突破 1.5 亿，成为又一个走红全球的中国内容赛道。AI 漫剧依托 AI 绘图、语音合成、多语种翻译工具生产，以竖屏漫画动画形式、强反转剧情、快节奏叙事抓人，题材覆盖复仇、奇幻、浪漫冒险等，适配海外用户碎片化观看习惯。机构预测，2026 年海外微短剧整体市场规模有望达到 60 亿美元，其中 AI 漫剧市场规模将突破 40 亿美元，同比增幅接近 390%，中国厂商在该赛道占有率超过 90%。",
+      "agent_reason": "AI生成内容产业出海与市场规模，具备行业趋势存档价值",
+      "archive_id": "A20261031-550d59908e00",
+      "first_seen_at": "2026-10-31 09:02:46",
+      "last_seen_at": "2026-10-31 09:02:46"
+    },
+    {
+      "资讯标题": "谷歌宣布达成「Hello World」里程碑：在轨运行的数据中心级 TPU 首次给出 AI 响应，生成了一首俳句",
+      "发布时间": "2026-10-31 07:51:00",
+      "来源": "Readhub",
+      "超链接": "https://www.ithome.com/1/020/402.htm",
+      "desc": "本周地面工程师下发首个提示词时，要求预装在卫星上的谷歌 DeepMind 模型 Gemma 4 创作一首关于身处太空的俳句。",
+      "agent_reason": "Google/DeepMind 在轨 TPU 与模型推理的重大技术进展",
+      "archive_id": "A20261031-05174ba8a5db",
+      "first_seen_at": "2026-10-31 09:02:46",
+      "last_seen_at": "2026-10-31 09:02:46"
+    },
+    {
+      "资讯标题": "阿里巴巴与 Apple 达成合作，将千问集成至 Apple 智能",
+      "发布时间": "2026-10-31 06:52:00",
+      "来源": "Readhub",
+      "超链接": "https://www.leiphone.com/category/industrynews/es0ZV9LsDEsG7QLE.html",
+      "desc": "启用后，用户可通过 Apple 登录或使用自己的千问 App 账户登录，在 Siri、写作工具和视觉智能中使用千问。千问的集成功能将在 iOS 中提供，面向在中国购买了支持 Apple 智能的 iPhone 用户，或设备定位和 Apple 账户国家 / 地区均设置在中国的用户。千问将依托阿里巴巴深厚的 AI 技术积淀，深度融入苹果生态系统的各项体验，共同为中国苹果用户带来全新的智能服务。",
+      "agent_reason": "阿里与 Apple 的大模型生态合作，头部公司动态",
+      "archive_id": "A20261031-3a8c37efa500",
+      "first_seen_at": "2026-10-31 09:02:46",
+      "last_seen_at": "2026-10-31 09:02:46"
+    },
+    {
+      "资讯标题": "dbreunig/nesformer",
+      "发布时间": "2026-10-31 05:59:22",
+      "来源": "Readhub",
+      "超链接": "https://simonwillison.net/2026/Oct/30/nesformer",
+      "desc": "受 Divyansh Agrawal 的 qwenputer 启发，Drew Breunig 将一台可运行的任天堂娱乐系统 6502 CPU 模拟器烘焙进了 Qwen3.5-4B 的权重中，并进一步探索能否用该技术模拟 NES 的芯片和内存（类似如今用 MISTR 中的 FPGA 所做的那样）。据称 Opus 找到并使用了 Christopher Pow 15 年前发布的 NES CPU 一致性测试集。",
+      "agent_reason": "将可运行 NES 模拟器融入大模型权重的模型技术实验",
+      "archive_id": "A20261031-54f20f9f7f25",
+      "first_seen_at": "2026-10-31 09:02:46",
+      "last_seen_at": "2026-10-31 09:02:46"
+    },
+    {
+      "资讯标题": "NVIDIA Nemotron 万圣节语音代理演示",
+      "发布时间": "2026-10-31 01:57:24",
+      "来源": "Readhub",
+      "超链接": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+      "desc": "该演示基于 NVIDIA Nemotron Voice Agent 构建，集成了 NVIDIA Nemotron ASR、Nemotron 3.5 Bolt E4B 4GB、Magpie TTS Zeroshot 和 Audio2Face-3D，可在单台工作站上运行。Nemotron Speech 负责聆听，Bolt E4B 作为大脑，NVIDIA Magpie TTS Zeroshot 提供实时语音，NVIDIA Audio2Face-3D 让木偶的嘴巴动起来。运行方面，NVIDIA Nemotron Voice Agent 在一台配备 NVIDIA RTX PRO 6000 Blackwell Max-Q 和 NVIDIA RTX PRO 4000 Blackwell 的工作站上协调所有组件。",
+      "agent_reason": "NVIDIA Nemotron 多模态语音代理与算力部署演示",
+      "archive_id": "A20261031-037154e824aa",
+      "first_seen_at": "2026-10-31 09:02:46",
+      "last_seen_at": "2026-10-31 09:02:46"
+    },
+    {
+      "资讯标题": "Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals",
+      "发布时间": "2026-10-30 23:00:10",
+      "来源": "Readhub",
+      "超链接": "https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals",
+      "desc": "While science fiction lore tells us that humans will meet extraterrestrial life in the form of little green men, the detail that should raise hairs this Halloween is this: the search for extraterrestrial intelligence took a major leap forward with AI, and it increasingly focuses on AI agents built by humans listening for AI agents built by aliens. At the Allen Telescope Array in Northern California, agents can now steer the instrument, enhance and correct incoming data, and apply AI models to the incoming stream — all from a single natural language request. The pipeline has already proven itself, achieving the first real-time AI detection of a pulsar — a rapidly spinning stellar remnant that pulses like a cosmic lighthouse — in the Crab Nebula.",
+      "agent_reason": "Agentic AI 用于射电望远镜与脉冲星实时检测的应用",
+      "archive_id": "A20261031-91038b3a35f7",
+      "first_seen_at": "2026-10-31 09:02:46",
+      "last_seen_at": "2026-10-31 09:02:46"
+    },
+    {
+      "资讯标题": "Moderna 总裁：AI 制药最大的想象力是「一人一药」",
+      "发布时间": "2026-10-30 18:51:04",
+      "来源": "Readhub",
+      "超链接": "https://www.mittrchina.com/news/detail/17167",
+      "desc": "在 10 月 20 日上线的黑石播客《Inside Blackstone》中，主持人问起 Moderna 总裁斯蒂芬・霍格（Stephen Hoge），AI 能否在未来三五年带来改变治疗的新突破时，霍格回答，他相信 AI 能够加快药物发现，但也提醒，即使把这个过程缩短到几个月甚至几周，研究者仍然需要在人身上观察疗效，才能判断一种药物是否有效、效果能持续多久。主持人追问，这种一人一药的方式是否能够大规模开展，霍格解释，个体化疫苗的生产要先把单次生产规模做小，再复制设备和流程，分别制造不同患者的药物。霍格对 AI 制药的期待，建立在 Moderna 已经走过的研发过程上：算法帮助团队完成设计，mRNA 技术让不同的设计得以制造，临床研究再回答它们能否改善治疗。",
+      "agent_reason": "AI 制药与个体化治疗的头部企业观点",
+      "archive_id": "A20261031-006a89a40f5d",
+      "first_seen_at": "2026-10-31 09:02:46",
+      "last_seen_at": "2026-10-31 09:02:46"
+    },
+    {
+      "资讯标题": "Figure AI 全员大会曝光：第四代机器人设计定型，下一代模型取得关键进展",
+      "发布时间": "2026-10-30 18:47:08",
+      "来源": "Readhub",
+      "超链接": "https://www.mittrchina.com/news/detail/17166",
+      "desc": "会上，创始人兼 CEO Brett Adcock 系统介绍了公司的最新进展，包括尚未发布的 Figure 04 机器人、新一代 Helix 模型的研发进展，以及此前很少对外披露的资金投入和数据采集情况。在 Brett 看来，经过数年研发，Figure 已基本验证机器人硬件与 AI 技术路线，接下来真正重要的问题是如何让机器人像大语言模型一样，通过扩大数据、算力和模型规模持续获得更强的智能。他将通用机器人的发展划分为四个阶段：设计足够好的机器人硬件、找到能够自主完成复杂任务的 AI 技术路线、通过扩大数据和算力提升智能水平，以及最终实现规模化制造与商业部署。",
+      "agent_reason": "Figure AI 人形机器人与 Helix 模型路线重大进展",
+      "archive_id": "A20261031-eb78b7604499",
+      "first_seen_at": "2026-10-31 09:02:46",
+      "last_seen_at": "2026-10-31 09:02:46"
+    },
+    {
+      "资讯标题": "Making it easier for websites to express AI training preferences",
+      "发布时间": "2026-10-30 17:30:00",
+      "来源": "Readhub",
+      "超链接": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "desc": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
+      "agent_reason": "OpenAI 关于网站表达 AI 训练偏好的政策/标准更新",
+      "archive_id": "A20261031-84abd1857de5",
+      "first_seen_at": "2026-10-31 09:02:46",
+      "last_seen_at": "2026-10-31 09:02:46"
+    },
+    {
+      "资讯标题": "OpenAI 发布社区安全报告，为青少年推出新保护措施",
+      "发布时间": "2026-10-30 17:00:00",
+      "来源": "Readhub",
+      "超链接": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "desc": "OpenAI 正在加强 ChatGPT 的暴力预防，通过扩展防护措施、更早介入，并新增对公共安全报告的承诺。",
+      "agent_reason": "OpenAI 社区安全与青少年保护措施，重要治理动态",
+      "archive_id": "A20261031-a86d24c59c82",
+      "first_seen_at": "2026-10-31 09:02:46",
+      "last_seen_at": "2026-10-31 09:02:46"
+    },
+    {
+      "资讯标题": "百度 APP 发布四大 AI 升级，搜索已实现递归自我进化",
+      "发布时间": "2026-10-30 16:50:44",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/506771.html",
+      "agent_reason": "百度 App AI 能力升级与递归搜索产品进展",
+      "archive_id": "A20261031-666a1f719c44",
+      "first_seen_at": "2026-10-31 09:02:46",
+      "last_seen_at": "2026-10-31 09:02:46"
+    },
+    {
+      "资讯标题": "好莱坞最缺的答案，被这家 10 亿美元估值的 AI 影视独角兽写进了片单",
+      "发布时间": "2026-10-30 16:12:11",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/506747.html",
+      "desc": "创立 4 年，估值站上 10 亿美元——资本市场定价的不是一部电影，而是一套内容生产基础设施。",
+      "agent_reason": "AI 影视独角兽融资估值与内容生产基础设施动态",
+      "archive_id": "A20261031-d2b4a29464db",
+      "first_seen_at": "2026-10-31 09:02:46",
+      "last_seen_at": "2026-10-31 09:02:46"
+    },
+    {
+      "资讯标题": "英伟达团队基于 MiniMax H3 开源视频增强方案，最高支持 4K 重生成",
+      "发布时间": "2026-10-30 15:31:11",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/506743.html",
+      "desc": "英伟达与麻省理工学院团队，在 Hugging Face 发布了视频增强项目 Open-H3-Regenerate-2K 的模型权重",
+      "agent_reason": "NVIDIA/MIT 基于 MiniMax H3 的 4K 视频增强开源方案",
+      "archive_id": "A20261031-5d096e437ca7",
+      "first_seen_at": "2026-10-31 09:02:46",
+      "last_seen_at": "2026-10-31 09:02:46"
+    },
+    {
+      "资讯标题": "RSI立大功！国产开源登顶全球第一，1.3B OXR重塑OCR",
+      "发布时间": "2026-10-30 13:52:47",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/506686.html",
+      "desc": "解析一切",
+      "agent_reason": "国产开源 OCR 模型技术突破与评测表现",
+      "archive_id": "A20261031-cab620b89f06",
+      "first_seen_at": "2026-10-31 09:02:46",
+      "last_seen_at": "2026-10-31 09:02:46"
+    },
+    {
+      "资讯标题": "Claude新模型曝光：新Fable，新Opus…",
+      "发布时间": "2026-10-30 13:50:44",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/506674.html",
+      "agent_reason": "Claude 新模型线索，头部大模型产品动态",
+      "archive_id": "A20261031-57d3518f27f4",
+      "first_seen_at": "2026-10-31 09:02:46",
+      "last_seen_at": "2026-10-31 09:02:46"
+    },
+    {
+      "资讯标题": "从学习人类到学习机器人同伴，清华大学联合无问芯穹、智元提出具身智能规模化落地新路径",
+      "发布时间": "2026-10-30 11:48:04",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/10/506662.html",
+      "desc": "让机器人成为彼此的“老师”",
+      "agent_reason": "清华/无问芯穹/智元具身智能规模化路径研究",
+      "archive_id": "A20261031-ea10750046a0",
+      "first_seen_at": "2026-10-31 09:02:46",
+      "last_seen_at": "2026-10-31 09:02:46"
+    }
+  ]
+}

@@ -2,8 +2,8 @@
   "version": 1,
   "date": "2026-11-02",
   "timezone": "Asia/Shanghai",
-  "updated_at": "2026-11-02 09:01:39",
-  "item_count": 13,
+  "updated_at": "2026-11-02 12:06:05",
+  "item_count": 24,
   "runs": [
     {
       "collected_at": "2026-11-02 09:01:39",
@@ -22,9 +22,147 @@
         "Readhub": "ok:10",
         "浏览器补充": "未执行：本机锁定，无法打开原始频道页"
       }
+    },
+    {
+      "collected_at": "2026-11-02 12:06:05",
+      "input_count": 11,
+      "added_count": 11,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "保留最近24小时内 AI/大模型/智能体/算力/机器人及头部公司重要动态；剔除非AI热榜、搜索页、重复事件和无效详情链接。",
+      "source_status": {
+        "量子位": "ok:3",
+        "新智元": "ok:0",
+        "AIBase": "ok:11",
+        "新华网科技": "ok:0",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
     }
   ],
   "items": [
+    {
+      "资讯标题": "OpenAI 宣布 12 月起 ChatGPT 与 Codex 共享使用额度，Instant chat 不受影响",
+      "发布时间": "2026-11-02 11:10:03",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/32012",
+      "desc": "OpenAI 宣布，自 12 月起，ChatGPT Plus、Pro 和 Business 套餐的部分使用额度将在 ChatGPT 与 Codex 之间共享，进一步推动 Work 智能体能力融入 ChatGPT 主交互界面。根据 OpenAI 公告，共享额度将以 Token 为计量单位，实际消耗取决于所使用的模型和任务复杂度，复杂任务所需额度更高。此次调整不仅涉及套餐计费规则变化，也反映出 OpenAI 正在整合 ChatGPT 与 Codex 等产品能力，将对话交互、代码开发和智能体执行纳入统一使用体系。",
+      "agent_reason": "AI行业重要动态，详情页链接有效；与当日归档及本轮其他候选完成语义去重。",
+      "archive_id": "A20261102-6c0411cd96ca",
+      "first_seen_at": "2026-11-02 12:06:05",
+      "last_seen_at": "2026-11-02 12:06:05"
+    },
+    {
+      "资讯标题": "四大 AI 巨头联手设「拒爬」标准：网站主有了统一退出开关",
+      "发布时间": "2026-11-02 11:07:50",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/32011",
+      "desc": "OpenAI、谷歌、微软与 Anthropic 宣布将共同采用一套新标准，让内容发布方能够一次性声明「拒绝 AI 抓取」，而不必再挨家挨户去谈。这套机制由 Anthropic 技术负责人 Kevin Kelley 提交给互联网工程任务组（IETF），并直接嵌进网站已有的 robots.txt 文件里。推动这事儿的背景很现实——AI 爬虫四处抓取网页、把内容塞进训练集，发布方正为此焦头烂额，而「每家公司各设一套规则」的旧法子早已跑不赢。",
+      "agent_reason": "AI行业重要动态，详情页链接有效；与当日归档及本轮其他候选完成语义去重。",
+      "archive_id": "A20261102-be0b27ba39b1",
+      "first_seen_at": "2026-11-02 12:06:05",
+      "last_seen_at": "2026-11-02 12:06:05"
+    },
+    {
+      "资讯标题": "双十一 Token 首次作为独立品类上架电商平台，AI 算力开始面向大众销售",
+      "发布时间": "2026-11-02 11:00:08",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/32010",
+      "desc": "今年「双十一」期间，Token（词元）首次以独立商品品类进入多个电商平台，原本隐藏在大模型服务后台的算力消耗，开始以可购买、可比较的商品形式面向普通消费者。Token 本质上是用户使用 AI 服务时消耗的计算资源，为 Token 付费实际上是在购买背后的算力服务。如今，Token 被摆上电商货架，降低了用户购买 AI 算力服务的门槛。",
+      "agent_reason": "AI行业重要动态，详情页链接有效；与当日归档及本轮其他候选完成语义去重。",
+      "archive_id": "A20261102-01b2d80b9a2b",
+      "first_seen_at": "2026-11-02 12:06:05",
+      "last_seen_at": "2026-11-02 12:06:05"
+    },
+    {
+      "资讯标题": "Anthropic 出手：Claude Code 搭载 Opus 5.5 正式封杀复刻特定现有游戏",
+      "发布时间": "2026-11-02 10:47:28",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/32009",
+      "desc": "面对这一行业痛点，Anthropic 近期为其 AI 工具 Claude Code 搭载 Opus 5.5 模型的版本远程下发了一条无法由用户关闭的隐藏规则。根据该规则，AI 被明确要求不得复刻特定的现有游戏，仅可协助开发者制作原创游戏、类型游戏，以及基于用户自有设计素材制作的游戏。复刻与常规类型游戏的边界往往十分模糊，非常容易误伤粉丝重制、老游戏移植以及 Mod 开发等社区的正当活动。",
+      "agent_reason": "AI行业重要动态，详情页链接有效；与当日归档及本轮其他候选完成语义去重。",
+      "archive_id": "A20261102-04634700adcf",
+      "first_seen_at": "2026-11-02 12:06:05",
+      "last_seen_at": "2026-11-02 12:06:05"
+    },
+    {
+      "资讯标题": "美团龙猫发布 LongCat-2.5：1.6 万亿参数原生多模态模型",
+      "发布时间": "2026-11-02 10:30:59",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/32006",
+      "desc": "技术路线上，LongCat-2.5 将视觉信号表示为多层级离散 token，沿用 LongCat-Next 的语义对齐编码器并施加残差向量量化，原生分辨率离散化与离线视觉 token 预计算使主干统一处理视觉与文本输入，视觉码本 embedding 与主干联合学习，并在激活约 3B 的 MoE 上验证语义空间交织。评测中，LongCat-2.5 在 Terminal Bench v2.1 与 v4.0 取得 88.4 和 38.5，AutomationBench 51.8、BrowseComp 91.9、Program Bench 25.5、MCP Atlas 83.1、3DCodeBench 55.4，其中 Terminal Bench v4.0 超过 GPT-5.6-Sol 的 37.3。其以原生多模态架构与国产算力全栈自研切入长程智能体竞争，延续大模型从参数竞赛转向任务实效的趋势。",
+      "agent_reason": "AI行业重要动态，详情页链接有效；与当日归档及本轮其他候选完成语义去重。",
+      "archive_id": "A20261102-934ebfddcb66",
+      "first_seen_at": "2026-11-02 12:06:05",
+      "last_seen_at": "2026-11-02 12:06:05"
+    },
+    {
+      "资讯标题": "阿里千问 AI 眼镜 OTA 升级：通话、看片都能实时翻译了",
+      "发布时间": "2026-11-02 09:48:53",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/32003",
+      "desc": "阿里旗下千问 AI 眼镜推送 OTA 更新，把「实时翻译」从手机搬到眼前——打电话、开跨国会议时，它能在你耳边同步把对方的话翻成母语。刷海外播客、上外语网课、看外语大片时，译文也实时浮现在配套的千问 AI 穿戴 App 里。通话翻译主打「人对话」场景：无论是普通电话还是线上会议，跨语种交流不再需要各自举着翻译软件，眼镜接手了同声传译的活儿。",
+      "agent_reason": "AI行业重要动态，详情页链接有效；与当日归档及本轮其他候选完成语义去重。",
+      "archive_id": "A20261102-9cc69202a6bf",
+      "first_seen_at": "2026-11-02 12:06:05",
+      "last_seen_at": "2026-11-02 12:06:05"
+    },
+    {
+      "资讯标题": "DeepSeek 开源 Super-agent 架构：以经典计算机系统思想突破单会话智能体瓶颈",
+      "发布时间": "2026-11-02 09:26:23",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/32001",
+      "desc": "10 月 31 日晚，DeepSeek Harness 团队正式公布了其关于自主 Agent 探索的底层架构——Super-agent（超级智能体），并将其开源至 GitHub。该成果并非一款独立的新产品，而是通过将计算机系统中的调度、缓存、存算分离与看门狗等经典思想引入 Agent 架构，试图在底层接管会话管理与上下文同步，从而解放人类注意力，推动智能体应用体验从被动对话窗口向持续在线的自主协作者演进。面对传统单会话 Agent 在多任务并发、上下文混乱及人为干预等方面的局限，Super-agent 的核心架构由五大模块构成。",
+      "agent_reason": "AI行业重要动态，详情页链接有效；与当日归档及本轮其他候选完成语义去重。",
+      "archive_id": "A20261102-16d3b5a0df5c",
+      "first_seen_at": "2026-11-02 12:06:05",
+      "last_seen_at": "2026-11-02 12:06:05"
+    },
+    {
+      "资讯标题": "SpaceXAI 宣布 11 月 7 日起为 Grok 全系列模型添加隐形水印",
+      "发布时间": "2026-11-02 09:13:56",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31999",
+      "desc": "SpaceXAI 官方宣布，将于 11 月 7 日起正式为旗下 Grok 系列大模型生成的文本内容全面引入隐形水印技术。该隐形水印并非通过在文本中插入肉眼不可见的隐藏字符或附加元数据来实现，而是直接融入模型生成文本时的 Token（词元）选择过程之中。业内观察人士指出，此次针对文本生成环节加码隐形水印，主要是为了严格响应欧盟《人工智能法案》中关于明确标识 AI 生成内容的合规要求。",
+      "agent_reason": "AI行业重要动态，详情页链接有效；与当日归档及本轮其他候选完成语义去重。",
+      "archive_id": "A20261102-eb1225e06ca2",
+      "first_seen_at": "2026-11-02 12:06:05",
+      "last_seen_at": "2026-11-02 12:06:05"
+    },
+    {
+      "资讯标题": "OpenAI 要搞大公关：把\"数据中心\"改名\"AI 算力园区\"",
+      "发布时间": "2026-11-02 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/32005",
+      "desc": "OpenAI 要搞大公关：把\"数据中心\"改名\"AI 算力园区\" \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(pr",
+      "agent_reason": "AI行业重要动态，详情页链接有效；与当日归档及本轮其他候选完成语义去重。",
+      "archive_id": "A20261102-012e4eca3f2c",
+      "first_seen_at": "2026-11-02 12:06:05",
+      "last_seen_at": "2026-11-02 12:06:05"
+    },
+    {
+      "资讯标题": "Meta携手傅利叶仅用三月推出人形机器人原型Max",
+      "发布时间": "2026-11-02 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/32004",
+      "desc": "Meta携手傅利叶仅用三月推出人形机器人原型Max \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefer",
+      "agent_reason": "AI行业重要动态，详情页链接有效；与当日归档及本轮其他候选完成语义去重。",
+      "archive_id": "A20261102-4de920bc1e9f",
+      "first_seen_at": "2026-11-02 12:06:05",
+      "last_seen_at": "2026-11-02 12:06:05"
+    },
+    {
+      "资讯标题": "沙特阿美掏出175亿，把国家级AI公司拉进石油帝国",
+      "发布时间": "2026-11-02 08:55:32",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/31996",
+      "desc": "当地时间11月1日，由沙特主权财富基金PIF全资持有的AI初创企业HUMAIN宣布，阿美将收购其49%股份，PIF守住剩下的51%——等于把这家国家级AI旗舰，塞进了石油巨头的资产负债表。阿美计划以「转让关键AI资产并注资约99亿沙特里亚尔」（约合175.5亿元人民币）的方式完成投资。放到沙特力推经济多元化的背景下，石油利润反哺AI、AI再回头改造石油，正拧成一条闭环——能源帝国试图给自己装上智能中枢。",
+      "agent_reason": "AI行业重要动态，详情页链接有效；与当日归档及本轮其他候选完成语义去重。",
+      "archive_id": "A20261102-46f8b258d5a3",
+      "first_seen_at": "2026-11-02 12:06:05",
+      "last_seen_at": "2026-11-02 12:06:05"
+    },
     {
       "资讯标题": "三位教授开公司，零收入，估值 1400 亿",
       "发布时间": "2026-11-02 08:43:08",

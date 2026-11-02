@@ -2,8 +2,8 @@
   "version": 1,
   "date": "2026-11-02",
   "timezone": "Asia/Shanghai",
-  "updated_at": "2026-11-02 12:06:05",
-  "item_count": 24,
+  "updated_at": "2026-11-02 15:01:27",
+  "item_count": 27,
   "runs": [
     {
       "collected_at": "2026-11-02 09:01:39",
@@ -39,9 +39,48 @@
         "今日头条/Tophub": "ok:50",
         "Readhub": "ok:10"
       }
+    },
+    {
+      "collected_at": "2026-11-02 15:01:27",
+      "input_count": 3,
+      "added_count": 3,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "剔除今日头条/Tophub搜索页、非AI噪声、重复事件和已归档条目；浏览器补充因本机锁定未执行；保留本轮3条详情页完整且具存档价值的AI资讯。",
+      "source_status": {
+        "量子位": "ok:2",
+        "新智元": "ok:0",
+        "AIBase": "ok:11",
+        "新华网科技": "ok:0",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
     }
   ],
   "items": [
+    {
+      "资讯标题": "我国 AI 推理数据首超训练：日均词元调用破 175 万亿",
+      "发布时间": "2026-11-02 14:34:30",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/32015",
+      "desc": "赛迪研究院（CCID）发布的《新域新质创新发展十大趋势》显示，我国 AI 推理数据量首次超过训练数据量，意味着这门技术跨过了实验室研发、迈进了规模化产业落地。两条曲线放在一起，勾勒出同一件事：AI 的重心已从往模型里灌数据，挪到了让模型对外服务——企业和个人真正把模型用起来的部分，开始压倒造模型本身。再叠加此前数据——上半年我国生成式 AI 用户已超 7 亿、普及率破 50%，一个从供给到需求的闭环，正清晰地成形。",
+      "agent_reason": "近期 AI 模型、推理规模或国产大模型生态的重要进展，具备长期查阅和归档价值。",
+      "archive_id": "A20261102-55bc7220b3fc",
+      "first_seen_at": "2026-11-02 15:01:27",
+      "last_seen_at": "2026-11-02 15:01:27"
+    },
+    {
+      "资讯标题": "中国大模型周调用量连续 27 周领跑全球：OpenRouter 最新数据显示国产 AI 生态爆发",
+      "发布时间": "2026-11-02 13:38:44",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/32013",
+      "desc": "在刚刚过去的一周（10 月 26 日至 11 月 1 日），全球 AI 大模型的总调用量达到 194 万亿 Token，环比增长 3.19%。在这场全球 AI 算力与模型应用的生态角逐中，中国大模型展现出强劲增长势头。在细分榜单上，全球 AI 大模型总调用量排名前五的模型中，中国本土大模型占据四席，其中 DeepSeek V4.1Flash1017 稳坐头把交椅，展现出极高的市场认可度与应用普及率。",
+      "agent_reason": "近期 AI 模型、推理规模或国产大模型生态的重要进展，具备长期查阅和归档价值。",
+      "archive_id": "A20261102-30eee48d5d9d",
+      "first_seen_at": "2026-11-02 15:01:27",
+      "last_seen_at": "2026-11-02 15:01:27"
+    },
     {
       "资讯标题": "OpenAI 宣布 12 月起 ChatGPT 与 Codex 共享使用额度，Instant chat 不受影响",
       "发布时间": "2026-11-02 11:10:03",
@@ -151,6 +190,17 @@
       "archive_id": "A20261102-4de920bc1e9f",
       "first_seen_at": "2026-11-02 12:06:05",
       "last_seen_at": "2026-11-02 12:06:05"
+    },
+    {
+      "资讯标题": "DeepSeek 甩出 Super-agent：AI 从\"等人派活\"变成\"自己找活干\"",
+      "发布时间": "2026-11-02 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/32016",
+      "desc": "DeepSeek 甩出 Super-agent：AI 从\"等人派活\"变成\"自己找活干\" \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}func",
+      "agent_reason": "近期 AI 模型、推理规模或国产大模型生态的重要进展，具备长期查阅和归档价值。",
+      "archive_id": "A20261102-28a6cf2d391c",
+      "first_seen_at": "2026-11-02 15:01:27",
+      "last_seen_at": "2026-11-02 15:01:27"
     },
     {
       "资讯标题": "沙特阿美掏出175亿，把国家级AI公司拉进石油帝国",

@@ -2,8 +2,8 @@
   "version": 1,
   "date": "2026-11-03",
   "timezone": "Asia/Shanghai",
-  "updated_at": "2026-11-03 15:09:27",
-  "item_count": 32,
+  "updated_at": "2026-11-03 18:04:38",
+  "item_count": 42,
   "runs": [
     {
       "collected_at": "2026-11-03 09:01:57",
@@ -55,9 +55,75 @@
         "今日头条/Tophub": "ok:50",
         "Readhub": "ok:10"
       }
+    },
+    {
+      "collected_at": "2026-11-03 18:04:38",
+      "input_count": 10,
+      "added_count": 10,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "保留本轮 AI 大模型、智能体、算力基础设施、芯片与行业应用的重要详情页；剔除 TopHub 搜索页、非 AI 内容及当日已归档重复事件。",
+      "source_status": {
+        "采集结果": {
+          "量子位": "ok:0",
+          "新智元": "ok:0",
+          "AIBase": "ok:11",
+          "新华网科技": "ok:0",
+          "机器之心": "ok:0",
+          "今日头条/Tophub": "ok:50",
+          "Readhub": "ok:10"
+        },
+        "source_mode": {
+          "机器之心": "html_fallback:rss_token_missing"
+        }
+      }
     }
   ],
   "items": [
+    {
+      "资讯标题": "腾讯混元重磅发布 Hyra 2.0，让 AI Agent 全面参与科学大模型与硬核研发",
+      "发布时间": "2026-11-03 16:23:37",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/32055",
+      "desc": "在其开源模型 Hy3 的驱动下，Hyra 曾成功解决了加法组合学中悬而未决五十多年的核心难题——和集与差集的最优指数，创造了国产开源模型首次全自动解决数学开放问题的历史记录。而如今发布的 Hyra 2.0 则希望再向前跨越一步，让通用 Agent 深度参与科学工具与模型的研发和升级，让一次研发的成果在后续研究中被反复使用，形成智能复利。为了让 Agent 适应真实的工业级研发环境，Hyra 2.0 接入了腾讯内部的实际研发流水线：在企业微信中与研究者对齐需求，在计算平台上提交和管理实验，在代码仓库里实现、验证改动，并妥善保存实验过程和产物。",
+      "agent_reason": "腾讯混元发布 Hyra 2.0，AI Agent 参与科学研发",
+      "archive_id": "A20261103-057ba6c2fdb5",
+      "first_seen_at": "2026-11-03 18:04:38",
+      "last_seen_at": "2026-11-03 18:04:38"
+    },
+    {
+      "资讯标题": "苹果 Apple Watch 迎来 Audio Intelligence，对话摘要与实时倒带功能开启 Beta 测试",
+      "发布时间": "2026-11-03 16:01:53",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/32054",
+      "desc": "作为此前在 9 月硬件发布会上首次亮相的重磅前瞻功能，苹果近日正式将面向 Apple Watch 的「音频智能」（Audio Intelligence）技术推向 Beta 测试阶段，首批面向 iOS 27.3 系统的开发者开放，主要适用于 Apple Watch Series 12 以及 Apple Watch Ultra 4 两款旗舰硬件。实时倒带（Live Rewind）是专门用于「查漏补缺」的对话回溯功能。iPhone 上的端侧处理会将音频转化为剔除填充词的压缩文本，随后将加密文本发送至苹果的私有云（PCC）以生成对话摘要，摘要返回手机后，PCC 上的所有相关缓存数据会立即被彻底删除。",
+      "agent_reason": "Apple Watch Audio Intelligence 功能测试",
+      "archive_id": "A20261103-e944e959ecb3",
+      "first_seen_at": "2026-11-03 18:04:38",
+      "last_seen_at": "2026-11-03 18:04:38"
+    },
+    {
+      "资讯标题": "Kimi 不再只写方案：直接上手改 Unity、虚幻工程做游戏原型",
+      "发布时间": "2026-11-03 15:52:10",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/32051",
+      "desc": "月之暗面 11 月 2 日发布「游戏开发与创意工作解决方案」，底座是 Kimi K3.1 系列模型，外加大模型编程产品 Kimi Code 与 Agent 产品 Kimi Work，再接上 Unity、虚幻引擎、Blender 等专业插件。以「三消里加可自由组合的规则卡」为例，Kimi 会先把规则叠加对消除策略、得分与反馈的影响梳理清楚，再拆成交互、数值、界面、视听等具体任务，做出能试玩的原型。靠插件调用，它如今能直接动 Blender、Unity 与虚幻里的现有工程，把游戏与 3D 创作往前推一步。",
+      "agent_reason": "Kimi 直接修改 Unity/虚幻工程制作游戏原型",
+      "archive_id": "A20261103-5e43efff0f77",
+      "first_seen_at": "2026-11-03 18:04:38",
+      "last_seen_at": "2026-11-03 18:04:38"
+    },
+    {
+      "资讯标题": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
+      "发布时间": "2026-11-03 15:00:12",
+      "来源": "Readhub",
+      "超链接": "https://blogs.nvidia.com/blog/cities-physical-agentic-ai-applications",
+      "desc": "Building on initiatives announced at GTC Berlin, NVIDIA and its partners are expanding physical AI and AI agents to cities worldwide. City teams don't need a massive infrastructure investment to get started building these AI services: depending on the workload, NVIDIA RTX workstations or a small GPU system may be enough. Learn how NVIDIA and its ecosystem are bringing physical AI, agentic AI and local AI factories to cities worldwide at Smart City Expo World Congress, running Nov.",
+      "agent_reason": "NVIDIA 城市物理与智能体 AI 服务规模化",
+      "archive_id": "A20261103-2eec94a2d292",
+      "first_seen_at": "2026-11-03 18:04:38",
+      "last_seen_at": "2026-11-03 18:04:38"
+    },
     {
       "资讯标题": "对话港城大闫峻：未来的科学家，要习惯和 AI 一起做研究",
       "发布时间": "2026-11-03 14:50:33",
@@ -101,6 +167,28 @@
       "archive_id": "A20261103-e4cb06d9e2e2",
       "first_seen_at": "2026-11-03 15:09:27",
       "last_seen_at": "2026-11-03 15:09:27"
+    },
+    {
+      "资讯标题": "阿里巴巴蔡崇信乌镇谈 AI 发展：只有开源开放 才能普惠普及",
+      "发布时间": "2026-11-03 13:36:00",
+      "来源": "Readhub",
+      "超链接": "https://www.leiphone.com/category/industrynews/3UkL4LV5iwzPdSwN.html",
+      "desc": "阿里巴巴集团联合创始人、董事会主席蔡崇信在开幕式上发言表示，AI 只有开源才能普及，只有普及才能创造可持续、普惠的智能时代。中国科技企业继续加大模型开源和生态开放的力度，开源模型下载量、衍生模型数等关键指标保持领先，成为当前全球开源智能的引领者。基于开源模型，AI 不再为少数科技强国所独有，而是成为各方都能深度参与的事业，来自广大新兴经济体的开发者无需从零开始，就能快速创建本国 AI 应用与创新生态，有效弥合了国家和地区之间的智能鸿沟。",
+      "agent_reason": "蔡崇信谈开源开放推动 AI 普惠",
+      "archive_id": "A20261103-125a8ef6babd",
+      "first_seen_at": "2026-11-03 18:04:38",
+      "last_seen_at": "2026-11-03 18:04:38"
+    },
+    {
+      "资讯标题": "元环智能获数亿元融资：用「元模型」让 AI 长出「直觉」",
+      "发布时间": "2026-11-03 13:16:00",
+      "来源": "Readhub",
+      "超链接": "https://www.leiphone.com/category/industrynews/HzAPRXlFEuzBUnsf.html",
+      "desc": "元环智能做的「元模型」（Meta Model），是一台能直接生成模型架构和训练超参数的「直觉机器」：给 Ta 一个陌生模型，Ta 能预判它表现如何、在什么场景下更适配，相当于给 AI 行业装上「上帝视角」，这正是元环智能与热门 RSI（Recursive Self-Improvement，递归式自我改进）路线的根本区别。在元环智能创始人、首席科学家刘子鸣看来，大语言模型做 AI 自我进化就像户外野线探险：没有地图，没有方向直觉依据，唯一的通关方式是刷海量算力一遍遍试错。团队自主研发的模型训练直觉的测试基准「Architecture IQ」近期也会发布，用来评估大模型和人类研究员对模型训练的直觉水平。",
+      "agent_reason": "元环智能获数亿元融资发展元模型",
+      "archive_id": "A20261103-e2b1619e09d6",
+      "first_seen_at": "2026-11-03 18:04:38",
+      "last_seen_at": "2026-11-03 18:04:38"
     },
     {
       "资讯标题": "苹果 App Store 新规：AI 伴侣与约会应用将强制设为 18 岁以上限制",
@@ -169,6 +257,17 @@
       "last_seen_at": "2026-11-03 12:01:55"
     },
     {
+      "资讯标题": "联合国副秘书长点赞!千问AI耳夹式耳机亮相乌镇互联网大会",
+      "发布时间": "2026-11-03 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/32057",
+      "desc": "联合国副秘书长点赞!千问AI耳夹式耳机亮相乌镇互联网大会 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color-scheme\"+o+\")\")}functi",
+      "agent_reason": "千问 AI 耳夹式耳机亮相乌镇",
+      "archive_id": "A20261103-da0d799dd4a8",
+      "first_seen_at": "2026-11-03 18:04:38",
+      "last_seen_at": "2026-11-03 18:04:38"
+    },
+    {
       "资讯标题": "美团发布全新1. 6 万亿多模态大模型LongCat-2.5：多项智能Agent基准登顶全球第一",
       "发布时间": "2026-11-03 09:00:00",
       "来源": "AIBase",
@@ -180,6 +279,28 @@
       "last_seen_at": "2026-11-03 12:01:55"
     },
     {
+      "资讯标题": "算力成本高昂难以承受？传SpaceX悄悄削减Grok Bot配额，马斯克坦言营利失衡",
+      "发布时间": "2026-11-03 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/32052",
+      "desc": "算力成本高昂难以承受？传SpaceX悄悄削减Grok Bot配额，马斯克坦言营利失衡 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color-scheme",
+      "agent_reason": "Grok Bot 配额与算力成本问题",
+      "archive_id": "A20261103-69ee66548223",
+      "first_seen_at": "2026-11-03 18:04:38",
+      "last_seen_at": "2026-11-03 18:04:38"
+    },
+    {
+      "资讯标题": "电动车退烧、AI 储能烧起来：LG 新能源把产能挪向数据中心",
+      "发布时间": "2026-11-03 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/32058",
+      "desc": "电动车退烧、AI 储能烧起来：LG 新能源把产能挪向数据中心 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color-sc",
+      "agent_reason": "LG 新能源将产能转向 AI 数据中心储能",
+      "archive_id": "A20261103-ddde760c8027",
+      "first_seen_at": "2026-11-03 18:04:38",
+      "last_seen_at": "2026-11-03 18:04:38"
+    },
+    {
       "资讯标题": "撑起万亿大模型：华为昇腾 950 超节点斩获世界互联网大会领先科技奖",
       "发布时间": "2026-11-03 09:00:00",
       "来源": "AIBase",
@@ -189,6 +310,17 @@
       "archive_id": "A20261103-d08d25bb1de8",
       "first_seen_at": "2026-11-03 12:01:55",
       "last_seen_at": "2026-11-03 12:01:55"
+    },
+    {
+      "资讯标题": "商汤正式发布日日新SenseNova 6.8 Flash，主打真实任务执行与设计协作",
+      "发布时间": "2026-11-03 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/32049",
+      "desc": "商汤正式发布日日新SenseNova 6.8 Flash，主打真实任务执行与设计协作 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-colo",
+      "agent_reason": "商汤发布日日新 SenseNova 6.8 Flash",
+      "archive_id": "A20261103-b6ebe6ad024c",
+      "first_seen_at": "2026-11-03 18:04:38",
+      "last_seen_at": "2026-11-03 18:04:38"
     },
     {
       "资讯标题": "从\"禁军用\"到拿下五角大楼，OpenAI 请来前陆军部长当顾问",

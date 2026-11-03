@@ -2,8 +2,8 @@
   "version": 1,
   "date": "2026-11-03",
   "timezone": "Asia/Shanghai",
-  "updated_at": "2026-11-03 09:01:57",
-  "item_count": 15,
+  "updated_at": "2026-11-03 12:01:55",
+  "item_count": 26,
   "runs": [
     {
       "collected_at": "2026-11-03 09:01:57",
@@ -21,9 +21,125 @@
         "今日头条/Tophub": "ok:50",
         "Readhub": "ok:10"
       }
+    },
+    {
+      "collected_at": "2026-11-03 12:01:55",
+      "input_count": 11,
+      "added_count": 11,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "剔除今日头条/Tophub搜索页及非AI噪声；新智元、新华网科技、机器之心本轮无有效候选，浏览器补充因Mac锁定无法执行；保留AIBase详情页9条及Readhub最新OpenAI安全文章2条，并与今日日档去重。",
+      "source_status": {
+        "量子位": "ok:5",
+        "新智元": "ok:0",
+        "AIBase": "ok:9",
+        "新华网科技": "ok:0",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
     }
   ],
   "items": [
+    {
+      "资讯标题": "蚂蚁数科携「智能体超级工厂」亮相香港金融科技周，全新发布KYA方案",
+      "发布时间": "2026-11-03 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/32038",
+      "desc": "蚂蚁数科携「智能体超级工厂」亮相香港金融科技周，全新发布KYA方案 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color-sch",
+      "agent_reason": "AI/大模型/智能体/算力/核心技术或头部公司动态，来源为原始详情页且在最近24小时窗口内；经语义去重后保留。",
+      "archive_id": "A20261103-363e1997c9e8",
+      "first_seen_at": "2026-11-03 12:01:55",
+      "last_seen_at": "2026-11-03 12:01:55"
+    },
+    {
+      "资讯标题": "营收狂飙却难掩巨额账单：Anthropic三季度重回亏损，近 9000 亿美元算力承诺成IPO最大考验",
+      "发布时间": "2026-11-03 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/32045",
+      "desc": "营收狂飙却难掩巨额账单：Anthropic三季度重回亏损，近 9000 亿美元算力承诺成IPO最大考验 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-",
+      "agent_reason": "AI/大模型/智能体/算力/核心技术或头部公司动态，来源为原始详情页且在最近24小时窗口内；经语义去重后保留。",
+      "archive_id": "A20261103-9af6b6f5c814",
+      "first_seen_at": "2026-11-03 12:01:55",
+      "last_seen_at": "2026-11-03 12:01:55"
+    },
+    {
+      "资讯标题": "苹果智能家居机器人J595将延期，最早或推迟至2028年",
+      "发布时间": "2026-11-03 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/32036",
+      "desc": "苹果智能家居机器人J595将延期，最早或推迟至2028年 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color-",
+      "agent_reason": "AI/大模型/智能体/算力/核心技术或头部公司动态，来源为原始详情页且在最近24小时窗口内；经语义去重后保留。",
+      "archive_id": "A20261103-593b2e91d1d6",
+      "first_seen_at": "2026-11-03 12:01:55",
+      "last_seen_at": "2026-11-03 12:01:55"
+    },
+    {
+      "资讯标题": "腾讯混元放出\"AI 科学家\"：自己训蛋白、造机械手，还反手改进下一代 AI",
+      "发布时间": "2026-11-03 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/32044",
+      "desc": "腾讯混元放出\"AI 科学家\"：自己训蛋白、造机械手，还反手改进下一代 AI \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return",
+      "agent_reason": "AI/大模型/智能体/算力/核心技术或头部公司动态，来源为原始详情页且在最近24小时窗口内；经语义去重后保留。",
+      "archive_id": "A20261103-4b5b45ebd25d",
+      "first_seen_at": "2026-11-03 12:01:55",
+      "last_seen_at": "2026-11-03 12:01:55"
+    },
+    {
+      "资讯标题": "美团发布全新1. 6 万亿多模态大模型LongCat-2.5：多项智能Agent基准登顶全球第一",
+      "发布时间": "2026-11-03 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/32040",
+      "desc": "美团发布全新1. 6 万亿多模态大模型LongCat-2.5：多项智能Agent基准登顶全球第一 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-c",
+      "agent_reason": "AI/大模型/智能体/算力/核心技术或头部公司动态，来源为原始详情页且在最近24小时窗口内；经语义去重后保留。",
+      "archive_id": "A20261103-3b987d13133a",
+      "first_seen_at": "2026-11-03 12:01:55",
+      "last_seen_at": "2026-11-03 12:01:55"
+    },
+    {
+      "资讯标题": "撑起万亿大模型：华为昇腾 950 超节点斩获世界互联网大会领先科技奖",
+      "发布时间": "2026-11-03 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/32034",
+      "desc": "撑起万亿大模型：华为昇腾 950 超节点斩获世界互联网大会领先科技奖 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color-s",
+      "agent_reason": "AI/大模型/智能体/算力/核心技术或头部公司动态，来源为原始详情页且在最近24小时窗口内；经语义去重后保留。",
+      "archive_id": "A20261103-d08d25bb1de8",
+      "first_seen_at": "2026-11-03 12:01:55",
+      "last_seen_at": "2026-11-03 12:01:55"
+    },
+    {
+      "资讯标题": "从\"禁军用\"到拿下五角大楼，OpenAI 请来前陆军部长当顾问",
+      "发布时间": "2026-11-03 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/32043",
+      "desc": "从\"禁军用\"到拿下五角大楼，OpenAI 请来前陆军部长当顾问 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefe",
+      "agent_reason": "AI/大模型/智能体/算力/核心技术或头部公司动态，来源为原始详情页且在最近24小时窗口内；经语义去重后保留。",
+      "archive_id": "A20261103-8a92ed15bf27",
+      "first_seen_at": "2026-11-03 12:01:55",
+      "last_seen_at": "2026-11-03 12:01:55"
+    },
+    {
+      "资讯标题": "人只够盯 5 个对话窗口，DeepSeek 让 AI 自己当\"大管家\"",
+      "发布时间": "2026-11-03 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/32037",
+      "desc": "人只够盯 5 个对话窗口，DeepSeek 让 AI 自己当\"大管家\" \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t",
+      "agent_reason": "AI/大模型/智能体/算力/核心技术或头部公司动态，来源为原始详情页且在最近24小时窗口内；经语义去重后保留。",
+      "archive_id": "A20261103-7147723b5296",
+      "first_seen_at": "2026-11-03 12:01:55",
+      "last_seen_at": "2026-11-03 12:01:55"
+    },
+    {
+      "资讯标题": "一份私密备忘录流出：OpenAI 想让 AI 成为 2028 大选的\"必答题\"",
+      "发布时间": "2026-11-03 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/32035",
+      "desc": "一份私密备忘录流出：OpenAI 想让 AI 成为 2028 大选的\"必答题\" \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color-sch",
+      "agent_reason": "AI/大模型/智能体/算力/核心技术或头部公司动态，来源为原始详情页且在最近24小时窗口内；经语义去重后保留。",
+      "archive_id": "A20261103-1db8c9b63820",
+      "first_seen_at": "2026-11-03 12:01:55",
+      "last_seen_at": "2026-11-03 12:01:55"
+    },
     {
       "资讯标题": "苹果下架 19 款 App：宠物写真等应用被曝暗藏另一张「面孔」",
       "发布时间": "2026-11-03 08:25:56",
@@ -78,6 +194,28 @@
       "archive_id": "A20261103-81ffe09aa968",
       "first_seen_at": "2026-11-03 09:01:57",
       "last_seen_at": "2026-11-03 09:01:57"
+    },
+    {
+      "资讯标题": "Rewarding defenders with bigger bug bounties",
+      "发布时间": "2026-11-03 02:00:00",
+      "来源": "Readhub",
+      "超链接": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+      "desc": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
+      "agent_reason": "AI/大模型/智能体/算力/核心技术或头部公司动态，来源为原始详情页且在最近24小时窗口内；经语义去重后保留。",
+      "archive_id": "A20261103-bca108e4c77b",
+      "first_seen_at": "2026-11-03 12:01:55",
+      "last_seen_at": "2026-11-03 12:01:55"
+    },
+    {
+      "资讯标题": "Preparing our next security sprint to harden OpenAI",
+      "发布时间": "2026-11-03 02:00:00",
+      "来源": "Readhub",
+      "超链接": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+      "desc": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
+      "agent_reason": "AI/大模型/智能体/算力/核心技术或头部公司动态，来源为原始详情页且在最近24小时窗口内；经语义去重后保留。",
+      "archive_id": "A20261103-0d297090385a",
+      "first_seen_at": "2026-11-03 12:01:55",
+      "last_seen_at": "2026-11-03 12:01:55"
     },
     {
       "资讯标题": "Scaling Git at OpenAI",

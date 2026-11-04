@@ -2,8 +2,8 @@
   "version": 1,
   "date": "2026-11-04",
   "timezone": "Asia/Shanghai",
-  "updated_at": "2026-11-04 09:03:44",
-  "item_count": 19,
+  "updated_at": "2026-11-04 12:01:28",
+  "item_count": 34,
   "runs": [
     {
       "collected_at": "2026-11-04 09:03:44",
@@ -21,9 +21,180 @@
         "今日头条/Tophub": "ok:50",
         "Readhub": "ok:10"
       }
+    },
+    {
+      "collected_at": "2026-11-04 12:01:28",
+      "input_count": 15,
+      "added_count": 15,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "剔除Tophub搜索页、非AI噪声和重复事件；保留本轮详情页完整字段。新智元、新华网科技、机器之心脚本无候选，浏览器补充因Mac锁定未执行。",
+      "source_status": {
+        "量子位": "ok:4",
+        "新智元": "ok:0",
+        "AIBase": "ok:12",
+        "新华网科技": "ok:0",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
     }
   ],
   "items": [
+    {
+      "资讯标题": "中国开源 AI 凭什么火遍全球？乌镇峰会揭秘：调用量连续 27 周超越美国，成海外企业和开发者的香饽饽",
+      "发布时间": "2026-11-04 11:36:55",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/32074",
+      "desc": "在 10 月 26 日至 11 月 1 日这一周内，中国大模型的词元（Token）调用量已经连续 27 周超过美国。在全球 AI 大模型 Token 周总调用量排名前五的模型中，中国 AI 大模型成功占据了四席，其中深度求索 (DeepSeek) 更是位居榜首。过去一年，全球 AI 的应用场景正加速向工业制造、医疗健康、公共服务、企业办公以及科技研发等领域延伸，中国科技企业持续加大的开源和生态开放力度，使得开源模型下载量、衍生模型数等关键指标保持领先。",
+      "agent_reason": "AI/大模型/智能体/算力或核心技术动态，来源为详情页且字段完整；与当日归档及本轮候选去重后保留。",
+      "archive_id": "A20261104-7862b210ba0c",
+      "first_seen_at": "2026-11-04 12:01:28",
+      "last_seen_at": "2026-11-04 12:01:28"
+    },
+    {
+      "资讯标题": "Claude 给自己发「身份证」：Anthropic 用零知识证明斩断套壳灰产",
+      "发布时间": "2026-11-04 11:05:29",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/32073",
+      "desc": "Anthropic 联手零知识证明学者开源 FlashProve，仓库中 95.2% 代码（约 398MB）是 Lean 4 数学证明，114 页论文与底层代码几乎全出自 Claude，人类只跟 AI 敲定 6 条安全定义——完备性（误拒低于万亿分之一）、知识可靠性（造假概率低于 2 的 100 次方分之一）、零知识（反复核验不泄权重）。",
+      "agent_reason": "AI/大模型/智能体/算力或核心技术动态，来源为详情页且字段完整；与当日归档及本轮候选去重后保留。",
+      "archive_id": "A20261104-aedc55f1d542",
+      "first_seen_at": "2026-11-04 12:01:28",
+      "last_seen_at": "2026-11-04 12:01:28"
+    },
+    {
+      "资讯标题": "用 Astra 改写 Qwen 神经网络，MIT 爆火研究被高估了吗？",
+      "发布时间": "2026-11-04 10:52:55",
+      "来源": "Readhub",
+      "超链接": "https://www.mittrchina.com/news/detail/17191",
+      "desc": "这项研究由 MIT 计算机科学与人工智能实验室（CSAIL）的博士生 Rikiya Takehi、Jayden Teoh、Alex Zhang，以及 MIT 电气工程与计算机科学系助理教授 Omar Khattab 共同完成，目前以研究博客的形式公开，团队同时发布了相关实验日志和代码。在针对 Qwen 的实验中，研究人员将 Qwen3.5-0.8B 的权重加载到 Python 环境，允许 Astra 查看模型参数，并通过数学练习题测试修改效果。前文受访的预训练研究人员也指出，通过神经网络生成神经网络的想法已有很长的研究历史，例如 HyperNetworks 及其后续工作。",
+      "agent_reason": "AI/大模型/智能体/算力或核心技术动态，来源为详情页且字段完整；与当日归档及本轮候选去重后保留。",
+      "archive_id": "A20261104-bcd52ff2b30a",
+      "first_seen_at": "2026-11-04 12:01:28",
+      "last_seen_at": "2026-11-04 12:01:28"
+    },
+    {
+      "资讯标题": "消息称字节跳动大面积限制员工自费使用第三方 AI 工具",
+      "发布时间": "2026-11-04 10:43:58",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/32070",
+      "desc": "爆料称，字节跳动自本月起将全面收紧外部 AI 工具的使用权限，对全公司所有 L4 级代码仓库和飞书文档实施外部 AI 访问封禁，员工自费采买的 Claude、Codex 等个人账号将无法在内部继续使用。L4 级代码库沉淀了字节跳动全线业务的核心资产与底层架构，此次风控升级备受内部关注。此前，字节跳动已于 2025 年 6 月起分批禁用 Cursor、Windsurf 等第三方 AI 编程工具，转而以旗下编程助手 Trae 作为替代。",
+      "agent_reason": "AI/大模型/智能体/算力或核心技术动态，来源为详情页且字段完整；与当日归档及本轮候选去重后保留。",
+      "archive_id": "A20261104-efc459b83b44",
+      "first_seen_at": "2026-11-04 12:01:28",
+      "last_seen_at": "2026-11-04 12:01:28"
+    },
+    {
+      "资讯标题": "国内首个三晋文化大模型「晋问 AI」正式上线，数字人「晋豆」同步亮相",
+      "发布时间": "2026-11-04 10:11:04",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/32068",
+      "desc": "作为山西深厚历史文化的数字化载体，「晋问 AI」在技术架构上采用了先进的 LLM+RAG+Agent 方案。在具体的应用场景上，「晋问 AI」构建了「一个底座、7 个智能知识库、N 个应用」的结构体系，涵盖了知三晋、识古建、会晋商、寻根脉、绘文创、访名士、忆烽火七大文化智能体。项目方表示，希望通过大模型全面赋能文旅及相关产业发展，让山西厚重的历史文化在数字化时代重新焕发生机，吸引更多人走进山西、读懂山西、爱上山西。",
+      "agent_reason": "AI/大模型/智能体/算力或核心技术动态，来源为详情页且字段完整；与当日归档及本轮候选去重后保留。",
+      "archive_id": "A20261104-b365c1b1f7d8",
+      "first_seen_at": "2026-11-04 12:01:28",
+      "last_seen_at": "2026-11-04 12:01:28"
+    },
+    {
+      "资讯标题": "2027 年起 K-12 学生账户 AI 与搜索服务将默认关闭，禁用 AI 将连带失去传统搜索",
+      "发布时间": "2026-11-04 09:40:18",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/32066",
+      "desc": "新规实施后，学校管理的 K-12 学生账户中，Gemini、NotebookLM、Gemini in Classroom 以及 Google Search 等相关服务将全部调整为默认关闭状态，只有在学校管理员主动授权后才能正常使用。谷歌教育业务副总裁兼总经理 Chris Phillips 在接受采访时指出，由于当前的搜索与人工智能已经深度融合，学校目前无法单独关闭 Google Search 中的 AI 搜索总览（AI Overview）等功能，同时保留传统网页搜索服务。谷歌此次将相关工具调整为默认关闭，虽然将选择权交还给了学校，但搜索服务与 AI 功能的深度绑定，依然在教育界引发了关于技术边界与使用权衡的全新讨论。",
+      "agent_reason": "AI/大模型/智能体/算力或核心技术动态，来源为详情页且字段完整；与当日归档及本轮候选去重后保留。",
+      "archive_id": "A20261104-6262b7fd3216",
+      "first_seen_at": "2026-11-04 12:01:28",
+      "last_seen_at": "2026-11-04 12:01:28"
+    },
+    {
+      "资讯标题": "Anthropic 发布开源系统 FlashProve：通过密码学指纹实现 AI 模型身份可验证",
+      "发布时间": "2026-11-04 09:11:14",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/32061",
+      "desc": "Anthropic 研究团队宣布推出一款名为 FlashProve 的开源系统，旨在为人工智能模型的身份验证与输出真实性提供密码学层面的数学保证。该系统致力于实现「可验证推理」，能够有效防止服务提供商在商业运行中秘密替换模型（如以低成本模型冒充高性能模型，或以廉价模型夸大性能结果），同时也可用于验证第三方关于复杂任务执行情况的声明。在技术实现上，FlashProve 要求 AI 实验室为其发布的模型生成并公开特定的「指纹」，以便客户端进行加密匹配。",
+      "agent_reason": "AI/大模型/智能体/算力或核心技术动态，来源为详情页且字段完整；与当日归档及本轮候选去重后保留。",
+      "archive_id": "A20261104-d9afa9970a75",
+      "first_seen_at": "2026-11-04 12:01:28",
+      "last_seen_at": "2026-11-04 12:01:28"
+    },
+    {
+      "资讯标题": "阿里云发布AI投研工作台Qovest:99元/月开放个人邀测",
+      "发布时间": "2026-11-04 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/32069",
+      "desc": "阿里云发布AI投研工作台Qovest:99元/月开放个人邀测 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color-sc",
+      "agent_reason": "AI/大模型/智能体/算力或核心技术动态，来源为详情页且字段完整；与当日归档及本轮候选去重后保留。",
+      "archive_id": "A20261104-8204e3e38947",
+      "first_seen_at": "2026-11-04 12:01:28",
+      "last_seen_at": "2026-11-04 12:01:28"
+    },
+    {
+      "资讯标题": "苹果 AI 加速进入中国市场，Siri、视觉智能整合千问",
+      "发布时间": "2026-11-04 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/32065",
+      "desc": "苹果 AI 加速进入中国市场，Siri、视觉智能整合千问 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color-scheme\"+o+\")\")",
+      "agent_reason": "AI/大模型/智能体/算力或核心技术动态，来源为详情页且字段完整；与当日归档及本轮候选去重后保留。",
+      "archive_id": "A20261104-7d9400c4306f",
+      "first_seen_at": "2026-11-04 12:01:28",
+      "last_seen_at": "2026-11-04 12:01:28"
+    },
+    {
+      "资讯标题": "欧洲法院顾问警告：Gemini若绕过付费墙或复用内容或涉嫌侵权",
+      "发布时间": "2026-11-04 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/32076",
+      "desc": "欧洲法院顾问警告：Gemini若绕过付费墙或复用内容或涉嫌侵权 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color-scheme\"+o",
+      "agent_reason": "AI/大模型/智能体/算力或核心技术动态，来源为详情页且字段完整；与当日归档及本轮候选去重后保留。",
+      "archive_id": "A20261104-2fad240d07a8",
+      "first_seen_at": "2026-11-04 12:01:28",
+      "last_seen_at": "2026-11-04 12:01:28"
+    },
+    {
+      "资讯标题": "创作者最怕的\"版权申诉\"，YouTube 用 AI 配乐一键化解",
+      "发布时间": "2026-11-04 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/32075",
+      "desc": "创作者最怕的\"版权申诉\"，YouTube 用 AI 配乐一键化解 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-co",
+      "agent_reason": "AI/大模型/智能体/算力或核心技术动态，来源为详情页且字段完整；与当日归档及本轮候选去重后保留。",
+      "archive_id": "A20261104-feb94f7f16d6",
+      "first_seen_at": "2026-11-04 12:01:28",
+      "last_seen_at": "2026-11-04 12:01:28"
+    },
+    {
+      "资讯标题": "Seedance海外收入占比达50%，半年增长近5倍",
+      "发布时间": "2026-11-04 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/32067",
+      "desc": "Seedance海外收入占比达50%，半年增长近5倍 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color-scheme\"+o+\")\")}functi",
+      "agent_reason": "AI/大模型/智能体/算力或核心技术动态，来源为详情页且字段完整；与当日归档及本轮候选去重后保留。",
+      "archive_id": "A20261104-92bcd95fedcd",
+      "first_seen_at": "2026-11-04 12:01:28",
+      "last_seen_at": "2026-11-04 12:01:28"
+    },
+    {
+      "资讯标题": "Anthropic产品团队出现人事变动，Claude Code负责人离开",
+      "发布时间": "2026-11-04 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/32071",
+      "desc": "Anthropic产品团队出现人事变动，Claude Code负责人离开 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMed",
+      "agent_reason": "AI/大模型/智能体/算力或核心技术动态，来源为详情页且字段完整；与当日归档及本轮候选去重后保留。",
+      "archive_id": "A20261104-c4f2295a69ae",
+      "first_seen_at": "2026-11-04 12:01:28",
+      "last_seen_at": "2026-11-04 12:01:28"
+    },
+    {
+      "资讯标题": "AI与组织效率驱动调整 Canva启动大规模重组",
+      "发布时间": "2026-11-04 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/32072",
+      "desc": "AI与组织效率驱动调整 Canva启动大规模重组 \"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"nuxt-color-mode\")||\"light\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color-scheme\"+o+\")\")}f",
+      "agent_reason": "AI/大模型/智能体/算力或核心技术动态，来源为详情页且字段完整；与当日归档及本轮候选去重后保留。",
+      "archive_id": "A20261104-cd35c6a87952",
+      "first_seen_at": "2026-11-04 12:01:28",
+      "last_seen_at": "2026-11-04 12:01:28"
+    },
     {
       "资讯标题": "AI 陪聊公司 Character 破产，用户私密聊天记录能拍卖吗？",
       "发布时间": "2026-11-04 08:36:32",
@@ -45,6 +216,17 @@
       "archive_id": "A20261104-bfec1be57b99",
       "first_seen_at": "2026-11-04 09:03:44",
       "last_seen_at": "2026-11-04 09:03:44"
+    },
+    {
+      "资讯标题": "实测苹果智能 Beta：千问 APP 成为 Siri 外援，可接力处理任务",
+      "发布时间": "2026-11-04 08:03:00",
+      "来源": "Readhub",
+      "超链接": "https://www.leiphone.com/category/industrynews/jtrZN12WvcYpqi1q.html",
+      "desc": "11 月 4 日凌晨，苹果智能随最新 iOS 开发者 Beta 版开放测试，用户可以在 Siri、写作工具及视觉智能中，直接调用千问的文本与图像理解、内容生成等能力。记者体验发现，用户可以在 iPhone 上进行基础的问答、图文分析和内容生成，进一步的需求点击后可以直接跳转到千问 APP，对话信息自动同步，体验丝滑。",
+      "agent_reason": "AI/大模型/智能体/算力或核心技术动态，来源为详情页且字段完整；与当日归档及本轮候选去重后保留。",
+      "archive_id": "A20261104-a11dc7de35a4",
+      "first_seen_at": "2026-11-04 12:01:28",
+      "last_seen_at": "2026-11-04 12:01:28"
     },
     {
       "资讯标题": "普林斯顿 AI Lab 出题，「空间智能」大考：人类 83.3%，大模型最高 39.7%",

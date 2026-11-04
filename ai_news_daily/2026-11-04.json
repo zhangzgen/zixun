@@ -1,0 +1,237 @@
+{
+  "version": 1,
+  "date": "2026-11-04",
+  "timezone": "Asia/Shanghai",
+  "updated_at": "2026-11-04 09:03:44",
+  "item_count": 19,
+  "runs": [
+    {
+      "collected_at": "2026-11-04 09:03:44",
+      "input_count": 19,
+      "added_count": 19,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "剔除 TopHub 搜索噪声及非 AI 内容；保留 Readhub、量子位中最近24小时内具备存档价值的 AI、大模型、智能体、算力和相关核心技术详情。浏览器补充因 Mac 锁定未执行。",
+      "source_status": {
+        "量子位": "ok:9",
+        "新智元": "ok:0",
+        "AIBase": "ok:0",
+        "新华网科技": "ok:0",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
+    }
+  ],
+  "items": [
+    {
+      "资讯标题": "AI 陪聊公司 Character 破产，用户私密聊天记录能拍卖吗？",
+      "发布时间": "2026-11-04 08:36:32",
+      "来源": "Readhub",
+      "超链接": "https://www.huxiu.com/article/4902800.html?f=rss",
+      "desc": "虽然 Character 在原有的隐私协议中已经告知用户，出售公司资产时可能会披露包括用户聊天数据在内的某些信息，但这种告知方法并不符合《个人信息保护法》规定的收集个人信息应当限于实现处理目的的最小范围的原则，以及公司破产后，数据接收方变更原先的处理目的、处理方式的，应当重新取得个人同意的规定。但现在拍卖的买受方获取这些用户聊天数据的目的已经转为训练 AI，目的既然已经变更，就需要告知用户其收集这些数据的目的，并且再次取得用户的同意，才能够合法获取这些数据。最后，用户愿意把自己的秘密告诉 AI，是因为相信自己是在一个相对私密的环境中交流，AI 公司既然享受用户信任带来的商业利益，也应当承担相应的数据保护责任，即便企业破产也不能成为这些责任消失的理由。",
+      "agent_reason": "AI/大模型/智能体/算力或核心技术动态，来源为详情页且字段完整。",
+      "archive_id": "A20261104-0ec3d72a6f86",
+      "first_seen_at": "2026-11-04 09:03:44",
+      "last_seen_at": "2026-11-04 09:03:44"
+    },
+    {
+      "资讯标题": "AMD 财报电话会：Q4 数据中心 AI 业务收入将首次超过服务器 CPU，2027 年总营收增长超 80%",
+      "发布时间": "2026-11-04 08:16:18",
+      "来源": "Readhub",
+      "超链接": "https://www.theblockbeats.info/flash/375303",
+      "desc": "AMD 预计，2026 年第四季度数据中心 AI 业务收入将首次超过服务器 CPU 业务收入，数据中心部门总营收预计环比增长约 50%。公司预计第四季度总营收约为 170 亿美元，同比增长约 66%。AMD 首席执行官苏姿丰预计，2027 年公司总营收同比增长超过 80%，数据中心业务占总营收的比重将超过 80%，服务器业务收入预计同比翻倍。",
+      "agent_reason": "AI/大模型/智能体/算力或核心技术动态，来源为详情页且字段完整。",
+      "archive_id": "A20261104-bfec1be57b99",
+      "first_seen_at": "2026-11-04 09:03:44",
+      "last_seen_at": "2026-11-04 09:03:44"
+    },
+    {
+      "资讯标题": "普林斯顿 AI Lab 出题，「空间智能」大考：人类 83.3%，大模型最高 39.7%",
+      "发布时间": "2026-11-04 07:52:36",
+      "来源": "Readhub",
+      "超链接": "https://www.36kr.com/p/4054651667813510",
+      "desc": "普林斯顿 AI Lab 的研究者们带来了一张空间智能新考卷：Same Space or Not（SSoN）。83.3% 与 39.7% 的落差揭示了当前短板，提示、几何与训练实验则给出了继续追问的方向：我们究竟需要怎样的模型和监督，才能让 AI 在换个视角后，仍然理解同一个三维世界。项目由普林斯顿大学 AI Lab 的 Shilong Liu 教授、Mengdi Wang 教授和西北大学的 Manling Li 教授合作指导完成。",
+      "agent_reason": "AI/大模型/智能体/算力或核心技术动态，来源为详情页且字段完整。",
+      "archive_id": "A20261104-15daf29b71b6",
+      "first_seen_at": "2026-11-04 09:03:44",
+      "last_seen_at": "2026-11-04 09:03:44"
+    },
+    {
+      "资讯标题": "StateBench: Testing how language models track state changes over long documents",
+      "发布时间": "2026-11-04 01:15:21",
+      "来源": "Readhub",
+      "超链接": "https://huggingface.co/blog/allenai/statebench",
+      "desc": "We're introducing StateBench, a benchmark for long-context state tracking—how well language models keep track of information about entities in long documents as they evolve. To this end, we developed the StateBench benchmark to capture state-tracking problems of different complexity, which we used to evaluate the differences between language models with different architectures. We find that recurrent and hybrid models can generalize much farther than transformers when trained directly on these tasks, while frontier models including Gemini 3.8 Flash, Claude Opus 5.5, and GPT-6 Sol and Luna still break down on harder forms of state tracking as inputs grow longer.",
+      "agent_reason": "AI/大模型/智能体/算力或核心技术动态，来源为详情页且字段完整。",
+      "archive_id": "A20261104-8d8667671049",
+      "first_seen_at": "2026-11-04 09:03:44",
+      "last_seen_at": "2026-11-04 09:03:44"
+    },
+    {
+      "资讯标题": "Agentic cheminformatics with Google Antigravity",
+      "发布时间": "2026-11-04 01:01:49",
+      "来源": "Readhub",
+      "超链接": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity",
+      "desc": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
+      "agent_reason": "AI/大模型/智能体/算力或核心技术动态，来源为详情页且字段完整。",
+      "archive_id": "A20261104-23c4f130369c",
+      "first_seen_at": "2026-11-04 09:03:44",
+      "last_seen_at": "2026-11-04 09:03:44"
+    },
+    {
+      "资讯标题": "Palette: teaching a small model to build decks in your design language",
+      "发布时间": "2026-11-04 00:35:36",
+      "来源": "Readhub",
+      "超链接": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+      "desc": "Both of those point to a model you own: open weights, running on your own infrastructure, trained on your own design language. Palette tests one bet: that a small open-weight model, trained on synthetic data in your design language and checked by a harness, can compete with frontier systems while you keep ownership of the result. We fine-tuned a 20B model to build decks the way people do: a designer plans the deck and a coder draws each slide.",
+      "agent_reason": "AI/大模型/智能体/算力或核心技术动态，来源为详情页且字段完整。",
+      "archive_id": "A20261104-4d3938441f21",
+      "first_seen_at": "2026-11-04 09:03:44",
+      "last_seen_at": "2026-11-04 09:03:44"
+    },
+    {
+      "资讯标题": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+      "发布时间": "2026-11-04 00:29:48",
+      "来源": "Readhub",
+      "超链接": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights",
+      "desc": "The paper found that frontier models, in particular GPT-6 Astra, can both interpret and modify the raw weights of a machine learning model—literally a text description of the model containing a bunch of floating point numbers. I've been playing with one of the examples from the paper and I'm delighted to share that Qwen 3.8 27B running on my laptop can do this as well. Likewise, asked to make Qwen3.5-0.8B better at math without gradients, Astra identifies an issue in its weights causing reasoning loops that Qwen's own model card warns about, and fixes this by natively editing 0.016% of the weights.",
+      "agent_reason": "AI/大模型/智能体/算力或核心技术动态，来源为详情页且字段完整。",
+      "archive_id": "A20261104-b5cba0d01134",
+      "first_seen_at": "2026-11-04 09:03:44",
+      "last_seen_at": "2026-11-04 09:03:44"
+    },
+    {
+      "资讯标题": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
+      "发布时间": "2026-11-04 00:00:45",
+      "来源": "Readhub",
+      "超链接": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs",
+      "desc": "For engineers, understanding how a process change will behave, how a material will interact with a new step, and how a defect maps back to a root cause are critical, challenging steps in semiconductor manufacturing — and these analyses can take days. Together, these capabilities describe an AI-defined fab: a semiconductor manufacturing factory where AI helps engineers optimize processes, catch problems earlier and make better decisions across the full chip manufacturing lifecycle. The future of semiconductor manufacturing lies in connecting these capabilities: using production data to inform models and models to evaluate changes, then bringing those findings back to the engineers making production decisions.",
+      "agent_reason": "AI/大模型/智能体/算力或核心技术动态，来源为详情页且字段完整。",
+      "archive_id": "A20261104-1864e43d05e7",
+      "first_seen_at": "2026-11-04 09:03:44",
+      "last_seen_at": "2026-11-04 09:03:44"
+    },
+    {
+      "资讯标题": "Same Model, Different Harness: CUGA, Hermes, and Deep Agents — When to Pick CUGA?",
+      "发布时间": "2026-11-03 23:57:39",
+      "来源": "Readhub",
+      "超链接": "https://huggingface.co/blog/ibm-research/cuga-harness",
+      "desc": "So the right question is not「which harness is best?」but「which harness fits my workload, with my model?」Hermes from Nous Research is built for always-on personal assistants, and Deep Agents from LangChain for long, multi-step tasks such as research ... We ran CUGA, Hermes, and Deep Agents on AppWorld, a benchmark of multi-step tasks across 9 apps and 457 APIs, such as email, payments, and file storage ... | Deep Agents | AppWorld tools over MCP, plus LangChain's built-in middleware, configured for the 469 tools: tool selection, context summarization, a to-do list, retries, and call limits.",
+      "agent_reason": "AI/大模型/智能体/算力或核心技术动态，来源为详情页且字段完整。",
+      "archive_id": "A20261104-b05fd13d79e7",
+      "first_seen_at": "2026-11-04 09:03:44",
+      "last_seen_at": "2026-11-04 09:03:44"
+    },
+    {
+      "资讯标题": "Accelerating engineering for the physical world",
+      "发布时间": "2026-11-03 20:00:00",
+      "来源": "Readhub",
+      "超链接": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+      "desc": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
+      "agent_reason": "AI/大模型/智能体/算力或核心技术动态，来源为详情页且字段完整。",
+      "archive_id": "A20261104-25493a43cba5",
+      "first_seen_at": "2026-11-04 09:03:44",
+      "last_seen_at": "2026-11-04 09:03:44"
+    },
+    {
+      "资讯标题": "纯语音Personal Agent来了！或许，这就是乔布斯心中的Siri",
+      "发布时间": "2026-11-03 14:55:30",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/11/507419.html",
+      "desc": "终于，有了一个可以触摸的起点",
+      "agent_reason": "AI/大模型/智能体/算力或核心技术动态，来源为详情页且字段完整。",
+      "archive_id": "A20261104-1b989df1def3",
+      "first_seen_at": "2026-11-04 09:03:44",
+      "last_seen_at": "2026-11-04 09:03:44"
+    },
+    {
+      "资讯标题": "苹果被曝的新产品，中国央企8个月前已装进公共卫生间",
+      "发布时间": "2026-11-03 14:29:11",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/11/507410.html",
+      "desc": "TeleAI智慧看护助手",
+      "agent_reason": "AI/大模型/智能体/算力或核心技术动态，来源为详情页且字段完整。",
+      "archive_id": "A20261104-3dfc4ef96d40",
+      "first_seen_at": "2026-11-04 09:03:44",
+      "last_seen_at": "2026-11-04 09:03:44"
+    },
+    {
+      "资讯标题": "AI数据平台OceanBase获世界互联网大会杰出贡献奖",
+      "发布时间": "2026-11-03 13:59:05",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/11/507405.html",
+      "desc": "11月3日上午，2026世界互联网大会在浙江乌镇开幕。",
+      "agent_reason": "涉及 AI 或相关前沿技术/产业动态，来源为详情页且具备归档价值。",
+      "archive_id": "A20261104-f4913a0dc65c",
+      "first_seen_at": "2026-11-04 09:03:44",
+      "last_seen_at": "2026-11-04 09:03:44"
+    },
+    {
+      "资讯标题": "小米斩获乌镇峰会双料大奖：小米集团获“杰出贡献奖”，小米具身基座模型获“领先科技奖”",
+      "发布时间": "2026-11-03 13:16:35",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/11/507396.html",
+      "desc": "11月3日，小米方面披露，小米集团获得2026世界互联网大会“杰出贡献奖”创新突破类奖项",
+      "agent_reason": "涉及 AI 或相关前沿技术/产业动态，来源为详情页且具备归档价值。",
+      "archive_id": "A20261104-f64ac08bcee0",
+      "first_seen_at": "2026-11-04 09:03:44",
+      "last_seen_at": "2026-11-04 09:03:44"
+    },
+    {
+      "资讯标题": "A社紧急修改招股书！RSI我们快要控制不住了",
+      "发布时间": "2026-11-03 11:41:06",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/11/507382.html",
+      "desc": "单季狂揽1130亿人民币，但...",
+      "agent_reason": "AI/大模型/智能体/算力或核心技术动态，来源为详情页且字段完整。",
+      "archive_id": "A20261104-6455864ee0c7",
+      "first_seen_at": "2026-11-04 09:03:44",
+      "last_seen_at": "2026-11-04 09:03:44"
+    },
+    {
+      "资讯标题": "模拟计算进入矩阵时代！北大联手硅谷IBM，写下新定义",
+      "发布时间": "2026-11-03 11:16:23",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/11/507367.html",
+      "desc": "GPU迭代一百次的事，它一步做完",
+      "agent_reason": "AI/大模型/智能体/算力或核心技术动态，来源为详情页且字段完整。",
+      "archive_id": "A20261104-0abda820af02",
+      "first_seen_at": "2026-11-04 09:03:44",
+      "last_seen_at": "2026-11-04 09:03:44"
+    },
+    {
+      "资讯标题": "B站举办2026超级科学晚，脑机接口、人造太阳等前沿科技齐亮相",
+      "发布时间": "2026-11-03 10:02:05",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/11/507339.html",
+      "desc": "10月31日，2026年bilibili超级科学晚（以下简称“B站科学晚”）在北京如期举行。",
+      "agent_reason": "涉及 AI 或相关前沿技术/产业动态，来源为详情页且具备归档价值。",
+      "archive_id": "A20261104-0be39f43d2b2",
+      "first_seen_at": "2026-11-04 09:03:44",
+      "last_seen_at": "2026-11-04 09:03:44"
+    },
+    {
+      "资讯标题": "MIT：GPT-6 Astra能直接修改Qwen权重，数学能力暴涨6倍",
+      "发布时间": "2026-11-03 09:57:30",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/11/507322.html",
+      "desc": "指令执行能力也同步提升",
+      "agent_reason": "AI/大模型/智能体/算力或核心技术动态，来源为详情页且字段完整。",
+      "archive_id": "A20261104-2f75960bd5a3",
+      "first_seen_at": "2026-11-04 09:03:44",
+      "last_seen_at": "2026-11-04 09:03:44"
+    },
+    {
+      "资讯标题": "爱诗科技PixVerse 与 OpenAI 共同推出产品集成和创作者教育计划，高效打通 AI 创意全流程",
+      "发布时间": "2026-11-03 09:46:55",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/11/507313.html",
+      "desc": "近日，爱诗科技（AIsphere）旗下模型和开放平台PixVerse 与 OpenAI 宣布开启深度合作",
+      "agent_reason": "AI/大模型/智能体/算力或核心技术动态，来源为详情页且字段完整。",
+      "archive_id": "A20261104-04ee5ea2d0db",
+      "first_seen_at": "2026-11-04 09:03:44",
+      "last_seen_at": "2026-11-04 09:03:44"
+    }
+  ]
+}

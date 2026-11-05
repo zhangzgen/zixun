@@ -2,8 +2,8 @@
   "version": 1,
   "date": "2026-11-05",
   "timezone": "Asia/Shanghai",
-  "updated_at": "2026-11-05 14:58:44",
-  "item_count": 55,
+  "updated_at": "2026-11-05 18:06:23",
+  "item_count": 61,
   "runs": [
     {
       "collected_at": "2026-11-05 09:06:54",
@@ -55,9 +55,82 @@
         "今日头条/Tophub": "ok:50",
         "Readhub": "ok:10"
       }
+    },
+    {
+      "collected_at": "2026-11-05 18:06:23",
+      "input_count": 6,
+      "added_count": 6,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "Agent完整审阅79条候选与今日55条归档；保留6条独立事件，不限TopK。剔除50条Tophub搜索页、招聘及活动/获奖宣传、同事件转载与已归档事件。浏览器核查新智元/新华网/机器之心原始频道，其可核实新事件已由本轮更完整报道覆盖；AIBase观点稿以详情页核实时间和正文替换错误JS摘要。",
+      "source_status": {
+        "量子位": "ok:7",
+        "新智元": "ok:0",
+        "AIBase": "ok:12",
+        "新华网科技": "ok:0",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
     }
   ],
   "items": [
+    {
+      "资讯标题": "AI 让死亡成为\"可选项\"？布罗克曼抛出生命终极命题",
+      "发布时间": "2026-11-05 17:51:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/32123",
+      "desc": "OpenAI总裁格雷格·布罗克曼在《华尔街日报》科技峰会讨论AI推动医疗与生物研究，预测未来12至18个月可能出现突破；死亡成为选项仍为远景判断。",
+      "agent_reason": "OpenAI总裁在科技峰会对AI医疗与生物研究进展的观点，预测不作已实现事实。",
+      "content_source": "browser_original_detail",
+      "archive_id": "A20261105-946a426000e3",
+      "first_seen_at": "2026-11-05 18:06:23",
+      "last_seen_at": "2026-11-05 18:06:23"
+    },
+    {
+      "资讯标题": "美国民主党提出《禁止人工超级智能法案》，拟全面封杀超级 AI 研发",
+      "发布时间": "2026-11-05 17:41:23",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/32122",
+      "desc": "美国民主党近日亮出一份极具震慑力的草案，推动《禁止人工超级智能法案》，全面封杀超级 AI 的研发与部署。草案要求全面暂停一切先进 AI 的研发进程，直到联邦层级的专属监管机构就位、清晰的法规与模型审查机制建立为止。更值得注意的是，这份禁令的触手伸向境外：草案把「全球禁止超级智能」列为美国外交政策目标，要求政府寻求国际协定、拉拢盟友合作，并实施严格出口管制，意图掐断全球任何地区研发 ASI 的可能。",
+      "agent_reason": "美国先进AI研发监管草案，保留媒体原始表述及草案状态。",
+      "archive_id": "A20261105-cfd571e176ee",
+      "first_seen_at": "2026-11-05 18:06:23",
+      "last_seen_at": "2026-11-05 18:06:23"
+    },
+    {
+      "资讯标题": "如何用「逆向博弈论」约束 AI 智能体",
+      "发布时间": "2026-11-05 17:04:01",
+      "来源": "Readhub",
+      "超链接": "https://www.mittrchina.com/news/detail/17196",
+      "desc": "如今，一些 AI 对齐研究人员认为，逆向博弈论（reverse game theory），也被称为机制设计（mechanism design），或许能取得更好的效果。博弈论试图预测理性参与者在给定规则下会如何行动，而逆向博弈论则试图反过来设计规则，以引导参与者产生我们希望看到的行为。Morris 表示：「AI 智能体对其他 AI 智能体能够达到什么水平，有着非常好的判断」。",
+      "agent_reason": "机制设计与AI智能体对齐研究方法，具有技术存档价值。",
+      "archive_id": "A20261105-c9b4278cce84",
+      "first_seen_at": "2026-11-05 18:06:23",
+      "last_seen_at": "2026-11-05 18:06:23"
+    },
+    {
+      "资讯标题": "挖走 Claude Code 产品负责人 Cat Wu，OpenAI 直击 Anthropic 上市命门",
+      "发布时间": "2026-11-05 15:01:00",
+      "来源": "Readhub",
+      "超链接": "https://www.leiphone.com/category/yanxishe/iIUJoulGndesZear.html",
+      "desc": "今早，前 Claude Code 产品负责人 Cat Wu 在 X 上宣布加入 OpenAI，出任核心产品组的产品负责人。作为 Anthropic 旗下王牌 AI 编程工具 Claude Code 和办公智能体 Cowork 的产品总负责人，她与「Claude Code 之父」Boris Cherny 并称为 Anthropic 团队的「蝙蝠侠与罗宾」，是亲手将 Claude Code 从一个内部小工具打造成全球爆款的灵魂人物之一。把 Claude Code 的产品一号位放到他手下，说明 Cat Wu 接手的不是什么边缘项目，而是 OpenAI 整个智能体产品线的产品中枢。",
+      "agent_reason": "Claude Code与Cowork核心产品负责人加入OpenAI，头部AI企业人才变动。",
+      "archive_id": "A20261105-6ec2073b82b5",
+      "first_seen_at": "2026-11-05 18:06:23",
+      "last_seen_at": "2026-11-05 18:06:23"
+    },
+    {
+      "资讯标题": "百度开源文心 5.5 Flash Base，多基准测试刷新同尺寸模型 SOTA",
+      "发布时间": "2026-11-05 14:53:00",
+      "来源": "Readhub",
+      "超链接": "https://www.leiphone.com/category/industrynews/XOv7MDFAP99kUMEW.html",
+      "desc": "百度正式开源最新基座模型文心 5.5 Flash Base（ERNIE 5.5 Flash Base），在知识、推理、数学、代码、多语言和长上下文等多个基准测试中取得同尺寸模型 SOTA 表现，超过 DeepSeek-V4-Flash-Base、Hy3-preview-Base、MiMo-V2.5-Base 等模型。文心 5.5 Flash Base 在提升模型基础能力与训练推理效率的同时，为开发者和社区提供了更具拓展性的技术基础，推动模型技术走向多样化的能力探索与应用创新。",
+      "agent_reason": "百度开源文心5.5 Flash Base基座模型及能力评测。",
+      "archive_id": "A20261105-3bc03d200399",
+      "first_seen_at": "2026-11-05 18:06:23",
+      "last_seen_at": "2026-11-05 18:06:23"
+    },
     {
       "资讯标题": "上交团队用 GPU 优化算法，解开 18 年未解量子难题",
       "发布时间": "2026-11-05 14:19:58",
@@ -68,6 +141,17 @@
       "archive_id": "A20261105-c3f2bd3f3f96",
       "first_seen_at": "2026-11-05 14:58:44",
       "last_seen_at": "2026-11-05 14:58:44"
+    },
+    {
+      "资讯标题": "91% ≈ 0%？谷歌最新研究，戳破工程 Agent 的高正确率泡沫",
+      "发布时间": "2026-11-05 13:51:00",
+      "来源": "Readhub",
+      "超链接": "https://www.leiphone.com/category/ai/YZ0bP2vh94KY45RG.html",
+      "desc": "在工程世界里，91% 的正确，有时和 0% 的交付能力没有区别。在 56 项隐藏测试中，Claude Opus 5.5 搭配 Claude Code 得分 48.3%，而在共同创作任务中，它平均满足 91% 的单项约束，只有 41.3% 的交付设计项满足全部硬性安全与可行性要求。如果工程 Agent 能够接入 CAD、CAE 和产品生命周期管理系统，在设计修改时自动识别受影响的计算，调用专业工具验证，并保留完整的修订依据，那么 AI 生成的设计就有条件进入现有工程审查流程。",
+      "agent_reason": "谷歌工程智能体约束满足与交付评估研究，揭示基准指标局限。",
+      "archive_id": "A20261105-1ae052c938de",
+      "first_seen_at": "2026-11-05 18:06:23",
+      "last_seen_at": "2026-11-05 18:06:23"
     },
     {
       "资讯标题": "千问 AI Office 升级端内编辑与模板能力，Word、Excel、PPT 均可按需修改",

@@ -2,8 +2,8 @@
   "version": 1,
   "date": "2026-11-05",
   "timezone": "Asia/Shanghai",
-  "updated_at": "2026-11-05 12:03:55",
-  "item_count": 50,
+  "updated_at": "2026-11-05 14:58:44",
+  "item_count": 55,
   "runs": [
     {
       "collected_at": "2026-11-05 09:06:54",
@@ -38,9 +38,48 @@
         "今日头条/Tophub": "ok:50",
         "Readhub": "ok:10"
       }
+    },
+    {
+      "collected_at": "2026-11-05 14:58:44",
+      "input_count": 5,
+      "added_count": 5,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "完整审阅81条候选及今日已有50条归档；按事件去重，剔除50条Tophub搜索页、活动招聘及低价值宣传，保留4条独立脚本资讯与1条浏览器补充，不限制TopK。",
+      "source_status": {
+        "量子位": "ok:9",
+        "新智元": "ok:0",
+        "AIBase": "ok:12",
+        "新华网科技": "ok:0",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
     }
   ],
   "items": [
+    {
+      "资讯标题": "上交团队用 GPU 优化算法，解开 18 年未解量子难题",
+      "发布时间": "2026-11-05 14:19:58",
+      "来源": "Readhub",
+      "超链接": "https://www.mittrchina.com/news/detail/17194",
+      "desc": "上海交通大学团队用 GPU 加速的求解器 cuLoRADS 直接解出了 5 次查询对应的完整半定规划（SDP），确认了最大可搜索列表规模是 7265，相关论文发表在 PNAS 上。半定规划是一类数学优化方法，在组合优化、机器学习、控制和量子科学里都有一定的应用。在过去很多年里，算法研究归算法研究，硬件优化归硬件优化，两边等于是各走各的路。",
+      "agent_reason": "GPU加速优化求解器突破量子查询难题，属于算力与核心算法技术进展。",
+      "archive_id": "A20261105-c3f2bd3f3f96",
+      "first_seen_at": "2026-11-05 14:58:44",
+      "last_seen_at": "2026-11-05 14:58:44"
+    },
+    {
+      "资讯标题": "千问 AI Office 升级端内编辑与模板能力，Word、Excel、PPT 均可按需修改",
+      "发布时间": "2026-11-05 13:49:23",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/32115",
+      "desc": "千问 AI Office 升级端内编辑和自定义模板能力，覆盖 Word、Excel、PPT。千问已支持在端内直接编辑 Word、Excel、PPT 三类常用文件，用户不仅可以修改文字、表格和图片内容，还可以调整字体、字号、颜色等样式，操作体验进一步贴近本地 Office 软件。制作读书分享、活动介绍或知识科普 PPT 时，用户也可上传常用的空白模板，并提供主题、内容提纲等要求，让千问参考原有版式生成完整内容。",
+      "agent_reason": "千问AI办公工具新增端内编辑与模板功能，具有明确产品变化。",
+      "archive_id": "A20261105-ddbe48eb1998",
+      "first_seen_at": "2026-11-05 14:58:44",
+      "last_seen_at": "2026-11-05 14:58:44"
+    },
     {
       "资讯标题": "Sand.ai 完成 2 亿美元 A+ 轮融资，10 个月累计融资 3 亿美元",
       "发布时间": "2026-11-05 11:42:00",
@@ -215,6 +254,16 @@
       "last_seen_at": "2026-11-05 12:03:55"
     },
     {
+      "资讯标题": "砍额度不砍战略：苹果把内部 AI 开支拧进\"紧箍咒\"",
+      "发布时间": "2026-11-05 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/32117",
+      "agent_reason": "苹果内部AI预算与成本管理调整，属于头部公司AI战略动态。",
+      "archive_id": "A20261105-1279541b90b3",
+      "first_seen_at": "2026-11-05 14:58:44",
+      "last_seen_at": "2026-11-05 14:58:44"
+    },
+    {
       "资讯标题": "灵光2.0上线一周托管超116万项事务，用户突破2000万",
       "发布时间": "2026-11-05 09:00:00",
       "来源": "AIBase",
@@ -223,6 +272,16 @@
       "archive_id": "A20261105-9c792415a48f",
       "first_seen_at": "2026-11-05 12:03:55",
       "last_seen_at": "2026-11-05 12:03:55"
+    },
+    {
+      "资讯标题": "大模型实时交互遭遇滑铁卢！英伟达等机构抛出 Realtime-Bench：最强 GPT-6-Astra 成功率仅 44%",
+      "发布时间": "2026-11-05 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/32114",
+      "agent_reason": "实时交互模型评测揭示能力边界，属于大模型核心技术与评估进展。",
+      "archive_id": "A20261105-b95aa527b383",
+      "first_seen_at": "2026-11-05 14:58:44",
+      "last_seen_at": "2026-11-05 14:58:44"
     },
     {
       "资讯标题": "iOS 27.3 beta 正式接入阿里千问，替代 ChatGPT 角色",
@@ -328,6 +387,17 @@
       "archive_id": "A20261105-16289a079204",
       "first_seen_at": "2026-11-05 09:06:54",
       "last_seen_at": "2026-11-05 09:06:54"
+    },
+    {
+      "资讯标题": "Notion把ChatGPT和Claude的脑子合成一个了",
+      "发布时间": "2026-11-05 03:14:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=9ce0d8bb",
+      "content_source": "browser_original_channel",
+      "agent_reason": "Notion连接不同AI产品的记忆与上下文，属于智能体工具互操作动态。",
+      "archive_id": "A20261105-0d27191ce392",
+      "first_seen_at": "2026-11-05 14:58:44",
+      "last_seen_at": "2026-11-05 14:58:44"
     },
     {
       "资讯标题": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",

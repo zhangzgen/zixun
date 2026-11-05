@@ -1,0 +1,375 @@
+{
+  "version": 1,
+  "date": "2026-11-05",
+  "timezone": "Asia/Shanghai",
+  "updated_at": "2026-11-05 09:06:54",
+  "item_count": 32,
+  "runs": [
+    {
+      "collected_at": "2026-11-05 09:06:54",
+      "input_count": 32,
+      "added_count": 32,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "完整审阅71条候选并浏览器补充14条；剔除Tophub搜索页50条、招聘广告1条、缺少技术实质的展会宣传1条；OpenAI内核漏洞同一事件保留官方原文，苹果千问集成同一事件保留较新报道；略过未公开模型个人试用传闻。AIBase desc混入脚本代码不可用，移除该字段。今日归档不存在，不限制TopK。",
+      "source_status": {
+        "量子位": "ok:6",
+        "新智元": "ok:0",
+        "AIBase": "ok:5",
+        "新华网科技": "ok:0",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
+    }
+  ],
+  "items": [
+    {
+      "资讯标题": "iOS 27.3 beta 正式接入阿里千问，替代 ChatGPT 角色",
+      "发布时间": "2026-11-05 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/32092",
+      "agent_reason": "AI模型、智能体、机器人技术或头部企业动态，具备具体事件与详情页；保留原始报道。",
+      "archive_id": "A20261105-4ee058884a8e",
+      "first_seen_at": "2026-11-05 09:06:54",
+      "last_seen_at": "2026-11-05 09:06:54"
+    },
+    {
+      "资讯标题": "OpenAI发布 GPT Image 2.6 Sunburst 与 Flare，图像生成延迟低至 5 秒",
+      "发布时间": "2026-11-05 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/32093",
+      "agent_reason": "AI模型、智能体、机器人技术或头部企业动态，具备具体事件与详情页；保留原始报道。",
+      "archive_id": "A20261105-a6426b70fd39",
+      "first_seen_at": "2026-11-05 09:06:54",
+      "last_seen_at": "2026-11-05 09:06:54"
+    },
+    {
+      "资讯标题": "Meta收购AI编码初创公司Conductor，加码智能体编程赛道",
+      "发布时间": "2026-11-05 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/32096",
+      "agent_reason": "AI模型、智能体、机器人技术或头部企业动态，具备具体事件与详情页；保留原始报道。",
+      "archive_id": "A20261105-8dcdbc447200",
+      "first_seen_at": "2026-11-05 09:06:54",
+      "last_seen_at": "2026-11-05 09:06:54"
+    },
+    {
+      "资讯标题": "Claude Code 松绑游戏禁令：提一句\"参考某游戏\"不再被拒",
+      "发布时间": "2026-11-05 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/32095",
+      "agent_reason": "AI模型、智能体、机器人技术或头部企业动态，具备具体事件与详情页；保留原始报道。",
+      "archive_id": "A20261105-f5c916edfd0c",
+      "first_seen_at": "2026-11-05 09:06:54",
+      "last_seen_at": "2026-11-05 09:06:54"
+    },
+    {
+      "资讯标题": "40 年未解的\"细胞穹窿\"，被 Claude 拽进结构生物学视野",
+      "发布时间": "2026-11-05 09:00:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/32094",
+      "agent_reason": "AI模型、智能体、机器人技术或头部企业动态，具备具体事件与详情页；保留原始报道。",
+      "archive_id": "A20261105-e10eabfbb029",
+      "first_seen_at": "2026-11-05 09:06:54",
+      "last_seen_at": "2026-11-05 09:06:54"
+    },
+    {
+      "资讯标题": "600多亿砸向「说不清」的技术：资本正在为「世界模型」的定义买单",
+      "发布时间": "2026-11-05 08:33:58",
+      "来源": "Readhub",
+      "超链接": "https://www.36kr.com/p/4055623243814535",
+      "desc": "2026年前七个月，国内一级市场向「世界模型」概念投入666亿元，64家相关公司中58家拿到融资，成功率接近九成：极佳视界三个月吸金35亿元、估值冲上30亿美元。600多亿融资额与「世界模型」宽泛概念所包含的技术实质之间，隔着一道巨大的定义裂痕。还有光轮智能，它不直接做世界模型，而是为世界模型团队提供仿真数据和评测基础设施，全球排名前三的世界模型团队全部与其合作，全球主流具身智能团队中超过80%的仿真资产来自它，该公司2026年3月成为全球具身数据领域首个独角兽，本质上卖的是「铲子」，而不是淘金的故事。",
+      "agent_reason": "AI模型、智能体、机器人技术或头部企业动态，具备具体事件与详情页；保留原始报道。",
+      "archive_id": "A20261105-aab80fdb1251",
+      "first_seen_at": "2026-11-05 09:06:54",
+      "last_seen_at": "2026-11-05 09:06:54"
+    },
+    {
+      "资讯标题": "药企 CEO 集体泼冷水：AI「十年治愈癌症」的承诺，硅谷说得出，生物学做不到",
+      "发布时间": "2026-11-05 08:31:47",
+      "来源": "Readhub",
+      "超链接": "https://wallstreetcn.com/articles/3785222",
+      "desc": "资本仍在加速涌入，药企高管却在提示，人类生物学的未解之谜远非现阶段 AI 所能逾越。主流药企也纷纷与 AI 巨头达成合作：Eli Lilly 与英伟达 1 月宣布将在五年内投资最高 10 亿美元，用于 AI 在药物发现和机器人领域的研究。但在独立主导新药发现这一核心命题上，硅谷的承诺与药企的实践之间，仍横亘着人类生物学尚未解答的漫长问题清单。",
+      "agent_reason": "AI模型、智能体、机器人技术或头部企业动态，具备具体事件与详情页；保留原始报道。",
+      "archive_id": "A20261105-e60a2594526b",
+      "first_seen_at": "2026-11-05 09:06:54",
+      "last_seen_at": "2026-11-05 09:06:54"
+    },
+    {
+      "资讯标题": "2.8 万亿参数 Kimi K3.1 Pro 开放权重，登顶 Agent Arena 开源模型榜",
+      "发布时间": "2026-11-05 08:08:59",
+      "来源": "Readhub",
+      "超链接": "https://www.donews.com/news/detail/1/6765445.html",
+      "desc": "月之暗面今日在 Hugging Face 平台开放了 Kimi K3.1 Pro 的模型权重。在 Arena 运营的 Agent Arena 智能体排行榜中，Kimi K3.1 Pro（Max）位列开放权重模型第一、全部参评模型第 13 位，并在工作、编程与聊天三个类别中均居开放模型首位。Kimi K3.1 Pro 采用混合专家架构，总参数量 2.8 万亿，单次推理激活约 1040 亿参数，支持约 100 万 Token 上下文窗口。",
+      "agent_reason": "AI模型、智能体、机器人技术或头部企业动态，具备具体事件与详情页；保留原始报道。",
+      "archive_id": "A20261105-b3ce01913883",
+      "first_seen_at": "2026-11-05 09:06:54",
+      "last_seen_at": "2026-11-05 09:06:54"
+    },
+    {
+      "资讯标题": "Ricursive 发布开源权重模型 Ripple-65B Preview",
+      "发布时间": "2026-11-05 03:41:35",
+      "来源": "Readhub",
+      "超链接": "https://www.techflowpost.com/zh-CN/newsletter/143022",
+      "desc": "该模型采用 650 亿参数稠密架构，从零开始预训练，支持最长 100 万 token 的上下文。Ricursive 称，该模型在智能体编程基准 TerminalBench 2.1 上取得 80.52 分，超过 Reflection Beam 501B 的 80.1 分。公司表示，模型开发及训练的全部研发成本为 3200 万美元，权重已在 Hugging Face 等平台提供。",
+      "agent_reason": "AI模型、智能体、机器人技术或头部企业动态，具备具体事件与详情页；保留原始报道。",
+      "archive_id": "A20261105-8a5aa94d382a",
+      "first_seen_at": "2026-11-05 09:06:54",
+      "last_seen_at": "2026-11-05 09:06:54"
+    },
+    {
+      "资讯标题": "每次更新少耗约99%限额，Claude Code状态行改为短笔记来写",
+      "发布时间": "2026-11-05 03:29:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=be6bcbfc",
+      "content_source": "browser_original_channel",
+      "agent_reason": "编码智能体额度效率优化",
+      "archive_id": "A20261105-16289a079204",
+      "first_seen_at": "2026-11-05 09:06:54",
+      "last_seen_at": "2026-11-05 09:06:54"
+    },
+    {
+      "资讯标题": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
+      "发布时间": "2026-11-05 01:50:10",
+      "来源": "Readhub",
+      "超链接": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+      "desc": "The Field Extractor takes a document image and either a request for everything it can find, or an exact schema to fill, and returns structured JSON: typed, field by field, nested where the document nests. The model reads the page and works out which parts of it are structured fields (a label followed by a value, a table with a header row over its columns) from context and layout, not from a fixed list of field names, and returns everything it finds as key-value pairs. On a SROIE receipt, we asked for all 18 fields printed on it, with no phantom fields this time, and every one comes back correct: the multi-line, unlabeled billing address captured as a single field, the two blank fields (salesperson and ref) correctly returned as null, and every number on the receipt matching to the cent.",
+      "agent_reason": "AI模型、智能体、机器人技术或头部企业动态，具备具体事件与详情页；保留原始报道。",
+      "archive_id": "A20261105-32d4e91d243e",
+      "first_seen_at": "2026-11-05 09:06:54",
+      "last_seen_at": "2026-11-05 09:06:54"
+    },
+    {
+      "资讯标题": "3万美元Meta广告，Computer干出平时3.5倍营收",
+      "发布时间": "2026-11-05 01:39:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=b89c772f",
+      "content_source": "browser_original_channel",
+      "agent_reason": "Perplexity智能体实际应用案例，效果为厂商自述",
+      "archive_id": "A20261105-b65c8bb738ba",
+      "first_seen_at": "2026-11-05 09:06:54",
+      "last_seen_at": "2026-11-05 09:06:54"
+    },
+    {
+      "资讯标题": "腾讯前高级研究员获数千万投资，锚定物理 AI 接触智能",
+      "发布时间": "2026-11-05 00:38:00",
+      "来源": "Readhub",
+      "超链接": "https://www.leiphone.com/category/industrynews/30nTa8g0yzQmZGys.html",
+      "desc": "雷峰网・鲸犀独家获悉，触觉智能企业「灵感机器人」新近完成数千万元天使轮融资，投资方包括力合资本、合肥创新投等机构，治臻咨询担任财务顾问。公司创始人、CEO 张雅展博士毕业于港科大机器人专业，曾是腾讯资深 AI 研究员，主导过大规模数据管线及 AI 模型研发，后于国家实验室担任研究员、博导，在触觉感知与端到端精细操作模型领域有多年研究，并在算法与硬件系统上均有落地经验。在张雅展看来，让触觉真正参与操作，重点就是理解「交互力」——灵感机器人希望通过「稠密力场」路线，提升机器人的触觉感知与力控能力，来整体性地提升任务的执行能力。",
+      "agent_reason": "AI模型、智能体、机器人技术或头部企业动态，具备具体事件与详情页；保留原始报道。",
+      "archive_id": "A20261105-8925ba3e97a1",
+      "first_seen_at": "2026-11-05 09:06:54",
+      "last_seen_at": "2026-11-05 09:06:54"
+    },
+    {
+      "资讯标题": "百度无人车搞出“黑客帝国”！世界模型实时推演全局，跑一天抵三年",
+      "发布时间": "2026-11-05 00:13:23",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/11/507647.html",
+      "desc": "连路人都有自己的想法",
+      "agent_reason": "AI模型、智能体、机器人技术或头部企业动态，具备具体事件与详情页；保留原始报道。",
+      "archive_id": "A20261105-d5a060648a16",
+      "first_seen_at": "2026-11-05 09:06:54",
+      "last_seen_at": "2026-11-05 09:06:54"
+    },
+    {
+      "资讯标题": "OpenAI to acquire Pierre Computer Company, Inc.",
+      "发布时间": "2026-11-04 22:30:00",
+      "来源": "Readhub",
+      "超链接": "https://openai.com/index/openai-to-acquire-pierre",
+      "desc": "OpenAI will acquire Pierre Computer Company, expanding Codex's tools for building, understanding, and reviewing code.",
+      "agent_reason": "AI模型、智能体、机器人技术或头部企业动态，具备具体事件与详情页；保留原始报道。",
+      "archive_id": "A20261105-1be4fdd8e6ca",
+      "first_seen_at": "2026-11-05 09:06:54",
+      "last_seen_at": "2026-11-05 09:06:54"
+    },
+    {
+      "资讯标题": "133个智能体围猎Django漏洞，Le Chonk自己把它补上",
+      "发布时间": "2026-11-04 18:24:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=9be92279",
+      "content_source": "browser_original_channel",
+      "agent_reason": "Mistral多智能体安全研究",
+      "archive_id": "A20261105-5611395c795b",
+      "first_seen_at": "2026-11-05 09:06:54",
+      "last_seen_at": "2026-11-05 09:06:54"
+    },
+    {
+      "资讯标题": "不靠堆砌数据，让机器人看懂真实物理世界 | 招商局狮子山实验室发布「驭物™ Lion-ER-35B-A3B」具身推理模型",
+      "发布时间": "2026-11-04 18:08:38",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/11/507586.html",
+      "desc": "仅激活3B参数，十项基准全线提升！",
+      "agent_reason": "AI模型、智能体、机器人技术或头部企业动态，具备具体事件与详情页；保留原始报道。",
+      "archive_id": "A20261105-1e6f2ae7c668",
+      "first_seen_at": "2026-11-05 09:06:54",
+      "last_seen_at": "2026-11-05 09:06:54"
+    },
+    {
+      "资讯标题": "虎鲸文娱“鲸锐AI”平台正式上线，AI视频单分钟成本节省30%以上",
+      "发布时间": "2026-11-04 16:49:12",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/11/507567.html",
+      "desc": "11月4日，虎鲸文娱集团打造的行业首个AI影视制作与管理平台“鲸锐AI”正式上线。",
+      "agent_reason": "AI模型、智能体、机器人技术或头部企业动态，具备具体事件与详情页；保留原始报道。",
+      "archive_id": "A20261105-07702e7b922c",
+      "first_seen_at": "2026-11-05 09:06:54",
+      "last_seen_at": "2026-11-05 09:06:54"
+    },
+    {
+      "资讯标题": "A thousand fewer paths to root",
+      "发布时间": "2026-11-04 16:00:00",
+      "来源": "Readhub",
+      "超链接": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+      "desc": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
+      "agent_reason": "AI模型、智能体、机器人技术或头部企业动态，具备具体事件与详情页；保留原始报道。",
+      "archive_id": "A20261105-fbaa86a829ad",
+      "first_seen_at": "2026-11-05 09:06:54",
+      "last_seen_at": "2026-11-05 09:06:54"
+    },
+    {
+      "资讯标题": "蚂蚁参与智能体身份注册与解析平台建设，推动智能体可信互联",
+      "发布时间": "2026-11-04 15:49:00",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-11-04-13",
+      "content_source": "browser_original_channel",
+      "agent_reason": "智能体可信身份基础设施",
+      "archive_id": "A20261105-7badc0900eea",
+      "first_seen_at": "2026-11-05 09:06:54",
+      "last_seen_at": "2026-11-05 09:06:54"
+    },
+    {
+      "资讯标题": "结账页先露馅了，ChatGPT家庭档8美元起还没官宣",
+      "发布时间": "2026-11-04 15:02:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=d7a79755",
+      "content_source": "browser_original_channel",
+      "agent_reason": "产品定价配置变化报道，保留未官宣状态",
+      "archive_id": "A20261105-536702080de2",
+      "first_seen_at": "2026-11-05 09:06:54",
+      "last_seen_at": "2026-11-05 09:06:54"
+    },
+    {
+      "资讯标题": "Daybreak Red is now available in AWS GovCloud (US-East)",
+      "发布时间": "2026-11-04 15:00:00",
+      "来源": "Readhub",
+      "超链接": "https://openai.com/index/daybreak-red-aws-govcloud",
+      "desc": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
+      "agent_reason": "AI模型、智能体、机器人技术或头部企业动态，具备具体事件与详情页；保留原始报道。",
+      "archive_id": "A20261105-a3433e936d2c",
+      "first_seen_at": "2026-11-05 09:06:54",
+      "last_seen_at": "2026-11-05 09:06:54"
+    },
+    {
+      "资讯标题": "腾讯混元发布 Hy4，跻身最强开源模型之列",
+      "发布时间": "2026-11-04 14:35:00",
+      "来源": "机器之心",
+      "超链接": "https://www.jiqizhixin.com/articles/2026-11-04-10",
+      "content_source": "browser_original_channel",
+      "agent_reason": "国产开源模型发布",
+      "archive_id": "A20261105-4518c7481fb7",
+      "first_seen_at": "2026-11-05 09:06:54",
+      "last_seen_at": "2026-11-05 09:06:54"
+    },
+    {
+      "资讯标题": "禁令解封！拆自家电视被封号，11 天后OpenAI低头道歉，Anthropic不听",
+      "发布时间": "2026-11-04 13:35:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=tgfb5818",
+      "content_source": "browser_original_channel",
+      "agent_reason": "模型使用限制与安全研究政策变化",
+      "archive_id": "A20261105-5b395b6e50b5",
+      "first_seen_at": "2026-11-05 09:06:54",
+      "last_seen_at": "2026-11-05 09:06:54"
+    },
+    {
+      "资讯标题": "今天，OpenAI发布AGI新标准！价值1.7万亿美元，接管全球80亿人类",
+      "发布时间": "2026-11-04 13:34:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=tg4c9cc5",
+      "content_source": "browser_original_channel",
+      "agent_reason": "AGI评估标准报道，标题为原始媒体表述",
+      "archive_id": "A20261105-273f12646fea",
+      "first_seen_at": "2026-11-05 09:06:54",
+      "last_seen_at": "2026-11-05 09:06:54"
+    },
+    {
+      "资讯标题": "让Agent首次拥有“视听双流记忆”：openJiuwen Agent-Memory看懂长视频，关键事件一个不落",
+      "发布时间": "2026-11-04 10:49:02",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/11/507533.html",
+      "desc": "长视频记忆精度飙升，问答时延最高降97%",
+      "agent_reason": "AI模型、智能体、机器人技术或头部企业动态，具备具体事件与详情页；保留原始报道。",
+      "archive_id": "A20261105-4930107de9b7",
+      "first_seen_at": "2026-11-05 09:06:54",
+      "last_seen_at": "2026-11-05 09:06:54"
+    },
+    {
+      "资讯标题": "Claude前设计负责人转投马斯克！从设计Cowork到操刀Grok Bot",
+      "发布时间": "2026-11-04 10:29:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=tg8b4ba2",
+      "content_source": "browser_original_channel",
+      "agent_reason": "头部AI企业核心人才流动",
+      "archive_id": "A20261105-d67dea4fcd51",
+      "first_seen_at": "2026-11-05 09:06:54",
+      "last_seen_at": "2026-11-05 09:06:54"
+    },
+    {
+      "资讯标题": "GPT-6.2 Astra要来了！神秘「双模型」闪现API，OpenAI火速撤回",
+      "发布时间": "2026-11-04 10:28:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=tg09ac4e",
+      "content_source": "browser_original_channel",
+      "agent_reason": "模型API短暂出现的媒体报道，发布状态未确认",
+      "archive_id": "A20261105-cc84171cd8ff",
+      "first_seen_at": "2026-11-05 09:06:54",
+      "last_seen_at": "2026-11-05 09:06:54"
+    },
+    {
+      "资讯标题": "首次摆上“双十一”货架 Token走进大众消费",
+      "发布时间": "2026-11-04 09:07:16",
+      "来源": "新华网科技",
+      "超链接": "https://www.news.cn/tech/20261104/f80e52fad366431392829a800b8d5f8f/c.html",
+      "content_source": "browser_original_detail",
+      "agent_reason": "AI算力服务消费与计价产业动态",
+      "archive_id": "A20261105-83b08b9b848b",
+      "first_seen_at": "2026-11-05 09:06:54",
+      "last_seen_at": "2026-11-05 09:06:54"
+    },
+    {
+      "资讯标题": "北京全链条扶持智能眼镜消费",
+      "发布时间": "2026-11-04 09:06:32",
+      "来源": "新华网科技",
+      "超链接": "https://www.news.cn/tech/20261104/43f15858d3d14f9fb7aa4057ea077acb/c.html",
+      "content_source": "browser_original_detail",
+      "agent_reason": "智能终端补贴与产业政策",
+      "archive_id": "A20261105-68ed7226a075",
+      "first_seen_at": "2026-11-05 09:06:54",
+      "last_seen_at": "2026-11-05 09:06:54"
+    },
+    {
+      "资讯标题": "Anthropic未发布模型，挖出Linux系统级致命漏洞！",
+      "发布时间": "2026-11-04 09:06:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=tg3dd871",
+      "content_source": "browser_original_channel",
+      "agent_reason": "Anthropic模型安全研究，与OpenAI漏洞发现事件不同",
+      "archive_id": "A20261105-8387920cbbef",
+      "first_seen_at": "2026-11-05 09:06:54",
+      "last_seen_at": "2026-11-05 09:06:54"
+    },
+    {
+      "资讯标题": "Anthropic亲手终结「套壳AI」！17秒扒下假模型头套，验身速度快5000倍",
+      "发布时间": "2026-11-04 09:06:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=tg29b5ea",
+      "content_source": "browser_original_channel",
+      "agent_reason": "模型身份验证技术",
+      "archive_id": "A20261105-6b400b30c7ca",
+      "first_seen_at": "2026-11-05 09:06:54",
+      "last_seen_at": "2026-11-05 09:06:54"
+    }
+  ]
+}

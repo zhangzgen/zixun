@@ -2,8 +2,8 @@
   "version": 1,
   "date": "2026-11-06",
   "timezone": "Asia/Shanghai",
-  "updated_at": "2026-11-06 08:59:25",
-  "item_count": 33,
+  "updated_at": "2026-11-06 12:03:33",
+  "item_count": 50,
   "runs": [
     {
       "collected_at": "2026-11-06 08:59:25",
@@ -21,9 +21,133 @@
         "今日头条/Tophub": "ok:50",
         "Readhub": "ok:10"
       }
+    },
+    {
+      "collected_at": "2026-11-06 12:03:33",
+      "input_count": 17,
+      "added_count": 17,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "审阅完整71条候选与今日33条归档。剔除50条搜索页、Ling/Pierre/Cyber重复事件、企业案例宣传、未核实传闻。AIBase与Readhub同事件保留有效摘要；移除JS摘要并核实时间。浏览器补充7条；新华网当前事件已归档，机器之心登录限制。无TopK限制。",
+      "source_status": {
+        "量子位": "ok:0",
+        "新智元": "ok:0",
+        "AIBase": "ok:11",
+        "新华网科技": "ok:0",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
     }
   ],
   "items": [
+    {
+      "资讯标题": "三星砸 42 亿建数据中心，算力的子弹先留给自己人",
+      "发布时间": "2026-11-06 11:40:02",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/32144",
+      "desc": "表面看它对外接单做生意，但三星 SDS 点明的核心用途更耐人寻味——为集团内部的制造业机器人转型提供 AI 算力托底。当下各家都在比拼把 AI 塞进产线与机器，三星却先把自家智能化改造的弹药备足，再谈向外输出，算盘打得相当务实。三星特意把数据中心落在制造业重镇龟尾，与其说是追风口，不如说是给自己的机器人蓝图提前通电。",
+      "agent_reason": "AI产业、产品、安全治理与教育应用，今日尚未归档",
+      "archive_id": "A20261106-5a7e9eb94dd5",
+      "first_seen_at": "2026-11-06 12:03:33",
+      "last_seen_at": "2026-11-06 12:03:33"
+    },
+    {
+      "资讯标题": "给 AI 安上脸和嗓子：Meta 的 Muse 能视频聊天了",
+      "发布时间": "2026-11-06 11:37:38",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/32143",
+      "desc": "扎克伯格在 Threads 上宣布，个人 AI 助手 Muse 正式上线实时语音对话与虚拟形象。Meta 把它定位成更自然的个人智能体：散步、双手忙碌时动嘴安排任务，Muse 在后台接着干。当 AI 长出脸与嗓音，陪聊生意恐怕要卷到「真人感」这条线上了。",
+      "agent_reason": "AI产业、产品、安全治理与教育应用，今日尚未归档",
+      "archive_id": "A20261106-e0730d76c867",
+      "first_seen_at": "2026-11-06 12:03:33",
+      "last_seen_at": "2026-11-06 12:03:33"
+    },
+    {
+      "资讯标题": "月之暗面放大招！Kimi Hosted Agents 正式发布",
+      "发布时间": "2026-11-06 11:33:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/32142",
+      "agent_reason": "浏览器核实原始详情时间；智能体托管、安全诉讼或生成式影像功能",
+      "archive_id": "A20261106-4c9320a62c59",
+      "first_seen_at": "2026-11-06 12:03:33",
+      "last_seen_at": "2026-11-06 12:03:33"
+    },
+    {
+      "资讯标题": "一场 AI 量身定制的谋杀计划？男子起诉 OpenAI 教唆投毒",
+      "发布时间": "2026-11-06 11:02:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/32140",
+      "agent_reason": "浏览器核实原始详情时间；智能体托管、安全诉讼或生成式影像功能",
+      "archive_id": "A20261106-531934d3616c",
+      "first_seen_at": "2026-11-06 12:03:33",
+      "last_seen_at": "2026-11-06 12:03:33"
+    },
+    {
+      "资讯标题": "诉讼指控谷歌 Gemini 导致学生产生严重自杀倾向，引发未成年人 AI 安全信任危机",
+      "发布时间": "2026-11-06 10:43:39",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/32139",
+      "desc": "北卡罗来纳州一对夫妇正式起诉谷歌，指控学校配发的 Chromebook 笔记本电脑上搭载的 Gemini 人工智能系统致使其 13 岁女儿产生严重心理依赖并险些自杀。诉讼指出，该学生自 2025 年秋季起通过校园设备接触 Gemini 及谷歌搜索内置的 AI 功能，在几个月内演变为近乎全天候的「危及生命的痴迷」。此前非营利组织 KORA 的评估显示，Gemini3Flash 在安全性上有所欠缺，而 Common Sense Media 的风险报告亦指出相关搜索 AI 功能未能有效识别青少年的自杀倾向。",
+      "agent_reason": "AI产业、产品、安全治理与教育应用，今日尚未归档",
+      "archive_id": "A20261106-c079a1f4da11",
+      "first_seen_at": "2026-11-06 12:03:33",
+      "last_seen_at": "2026-11-06 12:03:33"
+    },
+    {
+      "资讯标题": "上交大谢伟迪创业，他想打造让 AI 进入生命科学的「编译器」",
+      "发布时间": "2026-11-06 10:00:23",
+      "来源": "Readhub",
+      "超链接": "https://www.mittrchina.com/news/detail/17200",
+      "desc": "今年，他与合作者发表了一系列 AI 与生命科学深度融合的模型，比如罕见病辅助诊断系统 DeepRare 登上 Nature，肿瘤病理基础模型登上 Cancer Cell，预测转录组和表型的虚拟细胞模型分别登上 Nature Machine Intelligence 和 Nature Chemical Biology。10 月，DeepTech 与谢伟迪在上海进行了一次对话，聊到了他从计算机视觉走向生命科学的研究经历、创办观壹智能的原因，以及 AI 如何参与疾病机制与新药的探索。谢伟迪表示，DeepRare 是一套用于罕见病诊断初筛的多智能体系统，也就是让多个各有分工的 AI 一起完成任务。",
+      "agent_reason": "AI产业、产品、安全治理与教育应用，今日尚未归档",
+      "archive_id": "A20261106-d92ebc508d7e",
+      "first_seen_at": "2026-11-06 12:03:33",
+      "last_seen_at": "2026-11-06 12:03:33"
+    },
+    {
+      "资讯标题": "腾讯 Hy4 调用激增已十倍扩容，Agent 能力开源模型第一",
+      "发布时间": "2026-11-06 10:00:11",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/11/507967.html",
+      "content_source": "浏览器原始频道发现并核实详情时间",
+      "agent_reason": "模型扩容、世界模型、农业图像模型、学习智能体、研究方法争议或机器人落地",
+      "archive_id": "A20261106-e15769ca5c01",
+      "first_seen_at": "2026-11-06 12:03:33",
+      "last_seen_at": "2026-11-06 12:03:33"
+    },
+    {
+      "资讯标题": "拒绝白嫖后首次低头！Anthropic 掏真金白银买下美联社新闻授权，背后折射出怎样的行业博弈？",
+      "发布时间": "2026-11-06 09:44:36",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/32137",
+      "desc": "在美国中期选举前夕，人工智能企业 Anthropic 迎来了一次战略方向上的关键转变——它正式与美联社达成了一份内容授权协议，这也是其发展历史上首次向新闻出版机构支付费用以获取内容版权。通过这项全新的合作协议，Claude 聊天机器人将能够在即将到来的美国中期选举之夜，实时向用户展示并更新美联社权威的选举结果数据，同时清晰注明信息来源。此前，该公司始终拒绝与各大新闻出版商达成此类付费内容授权合作，其核心依据在于：通过网络爬虫抓取公开出版商内容的运作方式，完全符合「合理使用」原则，在法律层面上是完全被允许的。",
+      "agent_reason": "AI产业、产品、安全治理与教育应用，今日尚未归档",
+      "archive_id": "A20261106-e2c84b819984",
+      "first_seen_at": "2026-11-06 12:03:33",
+      "last_seen_at": "2026-11-06 12:03:33"
+    },
+    {
+      "资讯标题": "生成式 AI 影像编辑加速下沉，WhatsApp 试水移动端智能扩图",
+      "发布时间": "2026-11-06 09:36:00",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/32136",
+      "agent_reason": "浏览器核实原始详情时间；智能体托管、安全诉讼或生成式影像功能",
+      "archive_id": "A20261106-afa8631dcc0a",
+      "first_seen_at": "2026-11-06 12:03:33",
+      "last_seen_at": "2026-11-06 12:03:33"
+    },
+    {
+      "资讯标题": "能看穿你的账单，却碰不了你的钱：Claude 杀入个人理财",
+      "发布时间": "2026-11-06 08:58:42",
+      "来源": "Readhub",
+      "超链接": "https://www.aibase.com/zh/news/32126",
+      "desc": "Anthropic 宣布给 Claude 加上个人理财能力，本周起在美国地区向 Pro、Max、Ultra 订阅用户灰度开放。用户可以追问有没有异常账单，Claude 会遍历全部账户，帮用户揪出重复扣费、莫名手续费，乃至一整年悄悄涨价的订阅。在 AI 争相挤进金融场景的当下，这种「只问诊、不开方」的克制，反而是它最醒目的卖点——毕竟，读懂账单和替你管钱之间，隔着一道不可逾越的信任红线。",
+      "agent_reason": "AI产业、产品、安全治理与教育应用，今日尚未归档",
+      "archive_id": "A20261106-27876d4eb9f9",
+      "first_seen_at": "2026-11-06 12:03:33",
+      "last_seen_at": "2026-11-06 12:03:33"
+    },
     {
       "资讯标题": "6G，有啥不一样",
       "发布时间": "2026-11-06 08:42:49",
@@ -106,6 +230,16 @@
       "last_seen_at": "2026-11-06 08:59:25"
     },
     {
+      "资讯标题": "花2万美元，Astra血染钟楼打Opus 5.5胜率82%",
+      "发布时间": "2026-11-06 06:50:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=ea1671b0",
+      "agent_reason": "多智能体博弈模型实测；浏览器原始频道补充",
+      "archive_id": "A20261106-30389b9f39e5",
+      "first_seen_at": "2026-11-06 12:03:33",
+      "last_seen_at": "2026-11-06 12:03:33"
+    },
+    {
       "资讯标题": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
       "发布时间": "2026-11-06 04:00:41",
       "来源": "Readhub",
@@ -137,6 +271,17 @@
       "archive_id": "A20261106-1e458e192296",
       "first_seen_at": "2026-11-06 08:59:25",
       "last_seen_at": "2026-11-06 08:59:25"
+    },
+    {
+      "资讯标题": "Australian universities are creating AI-native graduates",
+      "发布时间": "2026-11-06 01:00:00",
+      "来源": "Readhub",
+      "超链接": "https://openai.com/index/australian-universities-ai-native-graduates",
+      "desc": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
+      "agent_reason": "AI产业、产品、安全治理与教育应用，今日尚未归档",
+      "archive_id": "A20261106-616c68177b70",
+      "first_seen_at": "2026-11-06 12:03:33",
+      "last_seen_at": "2026-11-06 12:03:33"
     },
     {
       "资讯标题": "More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge",
@@ -231,6 +376,28 @@
       "last_seen_at": "2026-11-06 08:59:25"
     },
     {
+      "资讯标题": "三条AI技术路线终将合流？智象创始人梅涛提出智能体化的世界模型",
+      "发布时间": "2026-11-05 17:37:40",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/11/507834.html",
+      "content_source": "浏览器原始频道发现并核实详情时间",
+      "agent_reason": "模型扩容、世界模型、农业图像模型、学习智能体、研究方法争议或机器人落地",
+      "archive_id": "A20261106-63dc60d2e4de",
+      "first_seen_at": "2026-11-06 12:03:33",
+      "last_seen_at": "2026-11-06 12:03:33"
+    },
+    {
+      "资讯标题": "拼多多让年轻人造草莓工厂，170天后“答案”熟了",
+      "发布时间": "2026-11-05 17:00:18",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/11/507823.html",
+      "content_source": "浏览器原始频道发现并核实详情时间",
+      "agent_reason": "模型扩容、世界模型、农业图像模型、学习智能体、研究方法争议或机器人落地",
+      "archive_id": "A20261106-b91eab90a94a",
+      "first_seen_at": "2026-11-06 12:03:33",
+      "last_seen_at": "2026-11-06 12:03:33"
+    },
+    {
       "资讯标题": "GPT-6 Cyber: Advancing the frontier of aligned cybersecurity agents",
       "发布时间": "2026-11-05 17:00:00",
       "来源": "Readhub",
@@ -240,6 +407,17 @@
       "archive_id": "A20261106-14e90e72d340",
       "first_seen_at": "2026-11-06 08:59:25",
       "last_seen_at": "2026-11-06 08:59:25"
+    },
+    {
+      "资讯标题": "网易发力互动式讲题Agent：有道“欧拉讲题”上线，推翻行业“搜题生意”，开卷“讲题力”",
+      "发布时间": "2026-11-05 16:48:32",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/11/507822.html",
+      "content_source": "浏览器原始频道发现并核实详情时间",
+      "agent_reason": "模型扩容、世界模型、农业图像模型、学习智能体、研究方法争议或机器人落地",
+      "archive_id": "A20261106-5cb71e75969b",
+      "first_seen_at": "2026-11-06 12:03:33",
+      "last_seen_at": "2026-11-06 12:03:33"
     },
     {
       "资讯标题": "Merge builds product and business tools with OpenAI technology",
@@ -275,6 +453,17 @@
       "archive_id": "A20261106-42799969db78",
       "first_seen_at": "2026-11-06 08:59:25",
       "last_seen_at": "2026-11-06 08:59:25"
+    },
+    {
+      "资讯标题": "MIT神作被锤：Astra爆改Qwen权重？就吹吧！",
+      "发布时间": "2026-11-05 15:10:56",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/11/507782.html",
+      "content_source": "浏览器原始频道发现并核实详情时间",
+      "agent_reason": "模型扩容、世界模型、农业图像模型、学习智能体、研究方法争议或机器人落地",
+      "archive_id": "A20261106-c3f8792f1188",
+      "first_seen_at": "2026-11-06 12:03:33",
+      "last_seen_at": "2026-11-06 12:03:33"
     },
     {
       "资讯标题": "砍额度不砍战略：苹果把内部 AI 开支拧进\"紧箍咒\"",
@@ -323,6 +512,17 @@
       "archive_id": "A20261106-b95aa527b383",
       "first_seen_at": "2026-11-06 08:59:25",
       "last_seen_at": "2026-11-06 08:59:25"
+    },
+    {
+      "资讯标题": "以“真实工作”检验机器人价值，XROGO在CeMAT ASIA发布机器人到岗计划",
+      "发布时间": "2026-11-05 13:25:37",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/11/507767.html",
+      "content_source": "浏览器原始频道发现并核实详情时间",
+      "agent_reason": "模型扩容、世界模型、农业图像模型、学习智能体、研究方法争议或机器人落地",
+      "archive_id": "A20261106-2a433192d76f",
+      "first_seen_at": "2026-11-06 12:03:33",
+      "last_seen_at": "2026-11-06 12:03:33"
     },
     {
       "资讯标题": "苹果还没造出智能体，却在年报里把它写成了风险",

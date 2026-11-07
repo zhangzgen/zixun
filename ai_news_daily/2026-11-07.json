@@ -1,0 +1,204 @@
+{
+  "version": 1,
+  "date": "2026-11-07",
+  "timezone": "Asia/Shanghai",
+  "updated_at": "2026-11-07 09:06:21",
+  "item_count": 16,
+  "runs": [
+    {
+      "collected_at": "2026-11-07 09:06:21",
+      "input_count": 16,
+      "added_count": 16,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "脚本采集含70条候选；剔除50条Tophub搜索页、非AI内容、活动营销与低价值事件。浏览器补查因Mac锁定不可用；保留脚本中具有AI/大模型/智能体/算力/核心技术/头部公司或政策价值且链接为详情页的16条。",
+      "source_status": {
+        "量子位": "ok:10",
+        "新智元": "ok:0",
+        "AIBase": "ok:0",
+        "新华网科技": "ok:0",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
+    }
+  ],
+  "items": [
+    {
+      "资讯标题": "谷神星二号火箭复飞，监测「太空交通」的卫星上天了",
+      "发布时间": "2026-11-07 08:38:27",
+      "来源": "Readhub",
+      "超链接": "https://www.yicai.com/news/103430510.html",
+      "desc": "11 月 7 日 7 时 37 分，星河动力谷神星二号遥三运载火箭在酒泉卫星发射中心发射升空，将搭载的观澜试验星、云遥一号 28 星、中北大学一号卫星、钧天一号 06A 卫星（星眼 01 星）共 4 颗卫星顺利送入预定轨道，飞行试验任务取得圆满成功。值得注意的是，本次任务搭载的一颗卫星「星眼 01 星」由星图测控设计、钧天航宇研制，它是一颗太空态势感知卫星，用于开展新一代卫星平台设计、空间目标监测、AI 智能计算、星地链路等核心技术可靠性验证。也就是说，星眼太空感知卫星相当于太空中的「交通监测与预警系统」。",
+      "agent_reason": "涉及卫星AI智能计算与空间目标监测核心技术验证。",
+      "archive_id": "A20261107-065d35402019",
+      "first_seen_at": "2026-11-07 09:06:21",
+      "last_seen_at": "2026-11-07 09:06:21"
+    },
+    {
+      "资讯标题": "奥尔特曼：未来人类可能无法从 AI 手中夺回控制权",
+      "发布时间": "2026-11-07 08:31:26",
+      "来源": "Readhub",
+      "超链接": "https://www.donews.com/news/detail/1/6768393.html",
+      "desc": "OpenAI 首席执行官萨姆・奥尔特曼（Sam Altman）最近出席拉杰・沙马尼（Raj Shamani）播客时表示，人工智能可能通过两种方式走向失控：一是人类逐步将控制权交给自主式 AI，二是某个人或实体垄断 AI 技术。针对第一种情况，奥尔特曼警告称：「AI 会逐渐失去控制，我们可能有意或无意地将控制权交给能力远超人类的系统，最终再也无法夺回」。第二种情况的风险在于巨头垄断，奥尔特曼解释称：「另一种情况是，某个人、公司或国家相对于其他所有人来说过于强大」。",
+      "agent_reason": "头部公司负责人对AI治理与失控风险的重大判断。",
+      "archive_id": "A20261107-a1bb4ebcabca",
+      "first_seen_at": "2026-11-07 09:06:21",
+      "last_seen_at": "2026-11-07 09:06:21"
+    },
+    {
+      "资讯标题": "OpenAI 完成 110 亿美元新融资，估值 1.25 万亿美元，软银、红杉资本等参投",
+      "发布时间": "2026-11-07 08:15:17",
+      "来源": "Readhub",
+      "超链接": "https://www.36kr.com/newsflashes/4058926444729220",
+      "desc": "据知情人士透露，OpenAI 已完成约 110 亿美元的新融资，这是本轮估值 1.25 万亿美元融资的首笔部分。OpenAI 最初计划以 1.4 万亿美元估值融资 300 亿美元或更多，随后在 AI 板块遭遇公开市场暴跌的背景下缩减了计划。本轮其他投资者包括软银集团、红杉资本、Founders Fund 和 Andreessen Horowitz。",
+      "agent_reason": "头部AI公司重大融资与产业资本动态。",
+      "archive_id": "A20261107-9be307263504",
+      "first_seen_at": "2026-11-07 09:06:21",
+      "last_seen_at": "2026-11-07 09:06:21"
+    },
+    {
+      "资讯标题": "Anthropic 揭秘 Claude 智能体记忆架构：引入「做梦」离线机制",
+      "发布时间": "2026-11-07 08:11:32",
+      "来源": "Readhub",
+      "超链接": "https://www.donews.com/news/detail/1/6768382.html",
+      "desc": "借鉴人类大脑睡眠巩固记忆的生理机制，Anthropic 团队提出名为 Dreaming（做梦）的离线计算范式，让 AI 在交互空闲时段复盘历史日志、修正记忆错误、沉淀结构化知识，以此解决长周期任务下智能体跨会话记忆混乱、信息失效、幻觉遗留等痛点。但实时写入也会带来问题：会话当下做出的记录有可能本身出错，或是随着环境变化而过时，错误记忆会在后续会话反复被调用，造成任务失败，而「做梦」就是专门用来修复这类缺陷的后台机制。Anthropic 表示，记忆系统不会完全替代原始会话检索，未来会继续探索记忆触发时机、记忆更新频率、不同层级记忆维护策略，进一步完善面向长期自主 Agent 的记忆基础设施。",
+      "agent_reason": "智能体记忆架构和模型能力的重要技术进展。",
+      "archive_id": "A20261107-f6fdac810f4c",
+      "first_seen_at": "2026-11-07 09:06:21",
+      "last_seen_at": "2026-11-07 09:06:21"
+    },
+    {
+      "资讯标题": "Planet AI 邀你「向地球提问」：超 10 年卫星影像变化，一句话就能查",
+      "发布时间": "2026-11-07 07:40:22",
+      "来源": "Readhub",
+      "超链接": "https://www.ithome.com/1/023/614.htm",
+      "desc": "美国卫星数据公司 Planet 于 11 月 5 日推出 Planet AI 应用，结合大语言模型与超过十年的全球卫星影像档案，让用户使用自然语言搜索、观察和分析地球表面的变化。Planet 强调，所有 AI 结论均以可查看的原始卫星影像为依据，以降低「AI 幻觉」带来的误判风险。用户只需提出诸如「找出某地区新增建设用地」或「追踪某片森林的变化」等问题，AI 会解析需求，在覆盖全球的矢量地图和月度影像拼图中定位相关区域，并呈现可核验的卫星影像结果。",
+      "agent_reason": "AI卫星影像检索产品，体现大模型与地理数据结合。",
+      "archive_id": "A20261107-9ca75a34b496",
+      "first_seen_at": "2026-11-07 09:06:21",
+      "last_seen_at": "2026-11-07 09:06:21"
+    },
+    {
+      "资讯标题": "AI 编程进入「通话时代」：Cursor 智能体可实时语音协作",
+      "发布时间": "2026-11-07 07:11:36",
+      "来源": "Readhub",
+      "超链接": "https://www.ithome.com/1/023/610.htm",
+      "desc": "AI 编程工具 Cursor 昨日（11 月 6 日）宣布推出「与智能体实时语音聊天」（Voice Chat with Agents）功能。开发者现在可以通过语音与 Cursor 的编码智能体双向对话，例如口头描述代码修改需求、询问任务进展、查看差异和运行状态，同时让智能体继续在后台完成编码工作。与此前仅把语音转成文字的「听写」功能不同，实时语音聊天是语音对语音的双向交流。",
+      "agent_reason": "AI编程智能体交互方式的重要产品更新。",
+      "archive_id": "A20261107-e50dc2500b87",
+      "first_seen_at": "2026-11-07 09:06:21",
+      "last_seen_at": "2026-11-07 09:06:21"
+    },
+    {
+      "资讯标题": "How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks",
+      "发布时间": "2026-11-07 00:00:35",
+      "来源": "Readhub",
+      "超链接": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks",
+      "desc": "Today, researchers and developers are using these tools to build 6G-ready networks that do more than just transmit data — receiving signals more effectively, keeping robots and autonomous systems connected when it matters most, and adapting in real time as devices move through the world. Over the past year, global developer adoption of NVIDIA AI Aerial and NVIDIA Sionna software has grown 10x, while NVIDIA's open source 5G/6G tools have surpassed 1 million downloads. At NVIDIA GTC Washington, D.C., attend 6G Developer Sessions where researchers and developers will showcase more innovations shaping the future of wireless networks.",
+      "agent_reason": "头部算力公司开源工具推动AI与6G研究。",
+      "archive_id": "A20261107-0676c12db8f0",
+      "first_seen_at": "2026-11-07 09:06:21",
+      "last_seen_at": "2026-11-07 09:06:21"
+    },
+    {
+      "资讯标题": "A\\三大内部模型曝光！领先Opus5.5三个月，RSI缩短80%实验时间",
+      "发布时间": "2026-11-06 23:21:56",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/11/508184.html",
+      "desc": "Dario刚喊减速…",
+      "agent_reason": "模型训练与推理效率的前沿进展。",
+      "archive_id": "A20261107-08d3ca2c2f73",
+      "first_seen_at": "2026-11-07 09:06:21",
+      "last_seen_at": "2026-11-07 09:06:21"
+    },
+    {
+      "资讯标题": "AI 正在重新设计生命，David Baker 要用蛋白质造计算机和分子机器",
+      "发布时间": "2026-11-06 20:52:18",
+      "来源": "Readhub",
+      "超链接": "https://www.mittrchina.com/news/detail/17204",
+      "desc": "诺奖得主、华盛顿大学蛋白质设计研究所（IPD）主任戴维・贝克（David Baker）因在设计全新蛋白质方面的开创性贡献，被伦敦皇家学会（Royal Society）授予克鲁恩奖章（Croonian Medal）。他展示了一条已成形的技术阶梯：让蛋白质从认准靶标，到只在特定条件下起效，再到催化化学反应、操控 DNA、组装新材料，甚至用于构建可定向搬运物质的分子机器，终极目标是造出基于蛋白质的计算系统。AI 设计蛋白质的能力边界正快速拓宽，从单个分子的形状到分子在系统中的行为，从治疗性蛋白到工业催化和功能材料，从静态结构到能够循环工作的机器。",
+      "agent_reason": "AI驱动蛋白质设计与生命科学前沿技术。",
+      "archive_id": "A20261107-586d4c4c9db2",
+      "first_seen_at": "2026-11-07 09:06:21",
+      "last_seen_at": "2026-11-07 09:06:21"
+    },
+    {
+      "资讯标题": "斯坦福启动「数字大脑」计划：用 AI 模拟人脑，探索帕金森症等疾病治疗",
+      "发布时间": "2026-11-06 20:48:14",
+      "来源": "Readhub",
+      "超链接": "https://www.mittrchina.com/news/detail/17203",
+      "desc": "斯坦福大学宣布启动「斯坦福数字大脑计划」（Stanford Digital Brain Project），试图借助大规模人脑成像数据与人工智能技术，建立能够预测人脑活动的计算模型。该计划希望让模型从预测单一系统的反应，逐步走向预测整个大脑在复杂情境下的活动。在长期规划中，数字大脑模型有望帮助研究人员理解抑郁症、帕金森病等疾病中的脑网络异常，甚至在实施实际治疗前，模拟不同神经干预方案可能产生的影响。",
+      "agent_reason": "AI辅助脑科学和疾病治疗的重大科研计划。",
+      "archive_id": "A20261107-66feaf7d39d9",
+      "first_seen_at": "2026-11-07 09:06:21",
+      "last_seen_at": "2026-11-07 09:06:21"
+    },
+    {
+      "资讯标题": "为什么每个 Personal Agent 背后，都必须配备一台“云电脑”？",
+      "发布时间": "2026-11-06 17:25:59",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/11/508174.html",
+      "desc": "PPIO 沙箱，把“云电脑”做成开箱即用的 API",
+      "agent_reason": "个人智能体基础设施与云电脑架构趋势。",
+      "archive_id": "A20261107-1b638886fbb2",
+      "first_seen_at": "2026-11-07 09:06:21",
+      "last_seen_at": "2026-11-07 09:06:21"
+    },
+    {
+      "资讯标题": "阶跃终端 STEPX Neo 智能体手机亮相进博会高通展台，软硬模一体打造智能体新体验",
+      "发布时间": "2026-11-06 17:21:51",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/11/508170.html",
+      "desc": "阶跃终端旗下 STEPX Neo 智能体手机首次亮相",
+      "agent_reason": "智能体终端产品与软硬件一体化进展。",
+      "archive_id": "A20261107-7d7b186592d4",
+      "first_seen_at": "2026-11-07 09:06:21",
+      "last_seen_at": "2026-11-07 09:06:21"
+    },
+    {
+      "资讯标题": "阿里巴巴发布《2026 AI向善行动报告》 AI数据中心可持续发展成年度亮点",
+      "发布时间": "2026-11-06 17:19:00",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/11/508165.html",
+      "desc": "11月5日，阿里巴巴发布《2026 AI向善行动报告》",
+      "agent_reason": "头部公司AI治理、数据中心与可持续政策动态。",
+      "archive_id": "A20261107-ec5096d6912a",
+      "first_seen_at": "2026-11-07 09:06:21",
+      "last_seen_at": "2026-11-07 09:06:21"
+    },
+    {
+      "资讯标题": "OpenAI 与 Hacktron 合作，排查其系统漏洞",
+      "发布时间": "2026-11-06 16:00:00",
+      "来源": "Readhub",
+      "超链接": "https://openai.com/index/partnering-with-hacktron",
+      "desc": "OpenAI 正与 Hacktron 合作，以发现系统漏洞、测试与第三方服务的连接，并利用前沿 AI 加强防御。",
+      "agent_reason": "头部模型公司安全合作与漏洞排查动态。",
+      "archive_id": "A20261107-a0a44ed09dc9",
+      "first_seen_at": "2026-11-07 09:06:21",
+      "last_seen_at": "2026-11-07 09:06:21"
+    },
+    {
+      "资讯标题": "DeepSeek带火稀疏计算，国产芯片公司加速突围：这家公司又融近10亿",
+      "发布时间": "2026-11-06 15:00:29",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/11/508155.html",
+      "desc": "Q3营收实现数倍增长",
+      "agent_reason": "稀疏计算与国产AI芯片融资的重要产业动态。",
+      "archive_id": "A20261107-4439f27cf211",
+      "first_seen_at": "2026-11-07 09:06:21",
+      "last_seen_at": "2026-11-07 09:06:21"
+    },
+    {
+      "资讯标题": "99.4%登顶全球第一！这个中国AI师承世界冠军",
+      "发布时间": "2026-11-06 13:01:47",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/11/508107.html",
+      "desc": "一举刷新「AI安全世界杯」CyberGym世界纪录",
+      "agent_reason": "中国AI模型/系统取得国际评测领先成绩。",
+      "archive_id": "A20261107-d6fb6d5f9441",
+      "first_seen_at": "2026-11-07 09:06:21",
+      "last_seen_at": "2026-11-07 09:06:21"
+    }
+  ]
+}

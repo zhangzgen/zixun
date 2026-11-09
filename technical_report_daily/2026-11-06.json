@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "date": "2026-11-06",
+  "generated_by": "technical_reports.export_search",
+  "items": [
+    {
+      "archive_id": "R-f02f34d7b722ac396824",
+      "资讯标题": "Seeing vs. Counting: Complexity Twins Show Where Multimodal LLMs Fail on Diagrams",
+      "发布时间": "2026-11-06 00:00:00",
+      "date_precision": "day",
+      "来源": "Google 技术报告",
+      "超链接": "https://research.google/pubs/seeing-vs-counting-complexity-twins-show-where-multimodal-llms-fail-on-diagrams/",
+      "desc": "报告用复杂度孪生拆开图上感知与计数。报告发现小图多为读对后算错，大图常先漏边。",
+      "content": "## 核心结论\n报告研究多模态模型为何在图表上数错。\n报告建立复杂度孪生评测。\n同一图承载不同复杂度的计数问题。\n报告匹配不同问题的答案规模。\n报告用转录分离视觉错误。\n报告用文本对照分离计算错误。\n报告称小图多为读对后计算错误。\n答案规模提高时精确率快速下降。\n代码执行明显改善小图计算。\n大图主要受视觉转录限制。\n双视图和局部核验可改善读取。\n复杂度类别效应依赖具体任务。\n报告不允许推广固定复杂度排序。\n\n## 问题与方法\n- 任务覆盖生成树、匹配和路径计数。\n- 报告将同一图用于不同计数问题。\n- Visual要求模型先转录结构。\n- 模型随后输出整数答案。\n- Text直接提供精确图结构。\n- Hint加入经典计数公式提示。\n- Code要求模型生成并执行程序。\n- 报告记录转录F1和精确答案率。\n- 报告记录超时与算法类别。\n- 核心网格尺寸为3×3至6×6。\n- 大图尺寸为7×7至10×10。\n- 大图加入正向和旋转双视图。\n- 报告裁剪冲突区域并再次核验。\n- 真值由精确算术生成。\n- 独立实现复核344个实例。\n\n## 主要证据\n- 报告测试Gemini模型。\n- 报告还测试Gemma 4与Qwen3-VL。\n- 核心配置平均边F1为0.994。\n- 完整转录率为85%。\n- Gemini低预算网格转录率约88%。\n- 二值和欧拉图转录率为100%。\n- 其144个Visual错误中115个已有准确转录。\n- 这说明小图主要失败在计算。\n- 答案每增加一个数量级。\n- 精确答案优势比下降约2.4至3倍。\n- 报告称规模效应占主导。\n- Gemini低预算核心Code得分为93%。\n- Text→Code得分为96%。\n- 大图Visual→Code仅6/60。\n- 大图Text→Code为57/60。\n- 大图错误主要来自结构转录。\n- 96张大图中有86张双视图转录完整。\n- 重复正视图仅转录完整57张。\n- 报告称收益来自互补读取。\n- 旋转视角本身不是主要收益来源。\n- 思考预算扩大可处理答案规模。\n- 视觉接近下限时预算帮助有限。\n- Gemma 4与Qwen3-VL复现主要规律。\n\n## 限制与适用价值\n- 数据主要是程序生成或渲染图形。\n- 实验未覆盖自然照片。\n- 实验未覆盖开放世界图像。\n- 网格宽度不能验证渐近复杂度。\n- 答案规模与任务类别仍有纠缠。\n- 高思考API出现503和缺失。\n- 部分日志缺少实际模型版本。\n- 代码分类依赖规则抽取。\n- 60秒上限影响错误归因。\n- 这些数字来自特定提示和预算。\n- 这些数字不是普遍性能保证。\n- 工程系统应分离视觉转录与求解。\n- 系统还需用双视图核验冲突区域。",
+      "content_kind": "技术报告总结",
+      "report_id": "R-f02f34d7b722ac396824",
+      "fulltext_path": "technical_reports/fulltext/R-f02f34d7b722ac396824-0218b4e9af00ebb0.txt",
+      "source": "Google official research",
+      "report_url": "https://arxiv.org/pdf/2611.08998",
+      "feishu_url": "https://ocns5gikjtax.feishu.cn/wiki/Lxi0wYJMEiaNN0kYBbMc3i8ZnYc"
+    }
+  ]
+}

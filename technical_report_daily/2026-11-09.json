@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "date": "2026-11-09",
+  "generated_by": "technical_reports.export_search",
+  "items": [
+    {
+      "archive_id": "R-02d2bb2095de2c9ff332",
+      "资讯标题": "More Realistic Images, More Stable Editing Across 100 Rounds | Introducing Seedream 5.5",
+      "发布时间": "2026-11-09 00:00:00",
+      "date_precision": "day",
+      "来源": "Seed 技术报告",
+      "超链接": "https://seed.bytedance.com/en/blog/more-realistic-images-more-stable-editing-across-100-rounds-introducing-seedream-5-5",
+      "desc": "报告介绍Seedream 5.5的图像更新。报告称能力提升，但没有披露完整实验条件。",
+      "content": "## 核心结论\n报告介绍Seedream 5.5的图像更新。\n更新面向影视、广告和电商等视觉生产。\n更新重点改善连续编辑稳定性。\n更新也加入透明资产和文字渲染。\n报告称新版本优于Seedream 5.0 Pro。\n这些结论来自厂商评测。\n报告未披露完整实验条件。\n\n## 问题与方法\n- 模型使用针对性训练保留未编辑区域。\n- 训练目标减少连续编辑中的像素漂移。\n- 页面展示同一人物连续编辑100轮。\n- 该演示只证明特定场景可用。\n- 模型保持姿态、接触和遮挡关系。\n- 模型直接生成RGBA图像。\n- 模型生成完全或部分透明背景。\n- 模型保留主体形状和细小边缘。\n- 同一角色资产可跨场景复用。\n- 模型可调整角色姿势和构图。\n- 针对性训练增强写实光照和材质。\n- 训练也提高密集文字渲染。\n\n## 主要证据\n- 厂商使用MagicArena评估六类场景。\n- 评测人员判断图像质量和可用性。\n- 报告称质量分数和可用率均提高。\n- 影视与办公可用率超过上一版本两倍。\n- 报告未给出各场景具体分数。\n- 文生图和图生图采用成对偏好测试。\n- 报告称四项GSB比较均取得正向分数。\n- 图生图写实度达到+55.62%。\n- 报告未提供完整对照分数。\n- 报告未说明样本量和显著性。\n- 评测覆盖中文、英文和密集小字。\n- 报告称严重文字损坏率为0.4%。\n- 轻微文字损坏率为1.7%。\n- 页面未定义文字损坏判定标准。\n- 部分视觉示例依赖视频。\n- 文本无法核验全部视频结果。\n\n## 限制与适用价值\n- 报告未披露模型规模和训练数据。\n- 报告也未披露提示词和参考图来源。\n- 页面未系统列出失败案例。\n- 报告未量化像素漂移和边缘质量。\n- 页面未说明RGBA分辨率和精度。\n- 页面未说明半透明材质失败率。\n- 页面未说明细小结构失败率。\n- 领先结论不能外推到所有场景。\n- 这些能力适合迭代复杂图像。\n- 这些能力适合制作透明资产。\n- 采用前仍需独立测试生产流程。",
+      "content_kind": "技术报告总结",
+      "report_id": "R-02d2bb2095de2c9ff332",
+      "fulltext_path": "technical_reports/fulltext/R-02d2bb2095de2c9ff332-0ceb379eed8d18b5.txt",
+      "source": "ByteDance Seed 官网",
+      "report_url": "",
+      "feishu_url": "https://ocns5gikjtax.feishu.cn/wiki/Y0GlwJrO0isTBlkPEX9cXwsInOe"
+    }
+  ]
+}

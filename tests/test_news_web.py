@@ -5,7 +5,7 @@ import httpx
 import pytest
 from fastapi.testclient import TestClient
 
-from news_web.agent import ResearchAgent
+from news_web.agent import FINAL_ROUND_NOTE, ResearchAgent
 from news_web.app import create_app
 from news_web.archive_store import ArchiveStore
 from news_web.config import Settings
@@ -122,7 +122,7 @@ def test_responses_loop_reads_evidence_and_preserves_output(indexed):
         assert request.url.path == "/v1/responses"
         assert body["store"] is False
         if len(requests) == 1:
-            assert body["tool_choice"] == "required"
+            assert body["tool_choice"] == "auto"
             output = [reasoning, call("search_news", {"query": "记忆", "start_date": None, "end_date": None, "source": None, "limit": 5}, 1)]
             return httpx.Response(200, text=sse(complete(output)))
         if len(requests) == 2:
@@ -323,6 +323,7 @@ def test_loop_forces_final_answer_after_tool_budget(indexed):
         if len(payloads) == 1:
             return httpx.Response(200, text=sse(complete([call("archive_stats", {}, 1)])))
         assert body["tool_choice"] == "none"
+        assert body["input"][-1] == FINAL_ROUND_NOTE
         return httpx.Response(200, text=sse({"type": "response.output_text.delta", "delta": "归档有 2 天。"}, complete([])))
     async def run():
         async with httpx.AsyncClient(transport=httpx.MockTransport(handler)) as client:

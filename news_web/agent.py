@@ -33,6 +33,9 @@ TOOLS = [
 ]
 
 
+FINAL_ROUND_NOTE = {"role": "user", "content": "检索轮次已用完。不要再调用任何工具，直接根据以上已取得的证据完成最终回答。"}
+
+
 def instructions(filters):
     today = datetime.now(ZoneInfo("Asia/Shanghai")).date().isoformat()
     return f"""你是「资讯之间」的历史 AI 资讯研究助手。今天是 {today}（Asia/Shanghai）。
@@ -133,8 +136,11 @@ class ResearchAgent:
         yield {"event": "status", "data": {"label": "正在理解问题，规划检索"}}
         for round_index in range(self.settings.max_rounds):
             final_round = round_index == self.settings.max_rounds - 1 or calls_used >= self.settings.max_tool_calls
-            payload = {"model": self.settings.model, "input": inputs, "instructions": instructions(filters),
-                       "tools": TOOLS, "tool_choice": "none" if final_round else ("required" if round_index == 0 else "auto"),
+            # "required" is rejected by thinking-mode providers (e.g. DeepSeek); instructions already say search first.
+            # On the final round, an explicit stop note keeps such providers from leaking tool-call markup as text.
+            payload = {"model": self.settings.model, "input": inputs + [FINAL_ROUND_NOTE] if final_round else inputs,
+                       "instructions": instructions(filters), "tools": TOOLS,
+                       "tool_choice": "none" if final_round else "auto",
                        "stream": True, "store": False, "max_output_tokens": 5000}
             output = []
             streamed_text = ""

@@ -1,0 +1,325 @@
+{
+  "version": 1,
+  "date": "2026-11-10",
+  "timezone": "Asia/Shanghai",
+  "updated_at": "2026-11-10 09:05:48",
+  "item_count": 27,
+  "runs": [
+    {
+      "collected_at": "2026-11-10 09:05:48",
+      "input_count": 27,
+      "added_count": 27,
+      "updated_count": 0,
+      "skipped_duplicate_count": 0,
+      "selection_reason": "完整审阅72条脚本候选及新智元、新华网科技原始频道；剔除Tophub的50个搜索/榜单壳链接和非AI热点，以及量子位的活动、峰会与赞助式内容。Fable 5.2发布按AIBase详情合并，OpenAI Control Room按OpenAI原文合并；AIBase、新智元、新华网发布时间已用原始详情页核实。机器之心仅返回数据服务页，RSS配置缺失；本机锁定时浏览器不可用，改用原始站点只读补查。",
+      "source_status": {
+        "量子位": "ok:10",
+        "新智元": "ok:0",
+        "AIBase": "ok:2",
+        "新华网科技": "ok:0",
+        "机器之心": "ok:0",
+        "今日头条/Tophub": "ok:50",
+        "Readhub": "ok:10"
+      }
+    }
+  ],
+  "items": [
+    {
+      "资讯标题": "Anthropic 发布 Claude Fable5.2与 Mythos5.2:1000个子智能体8天写出可启动操作系统",
+      "发布时间": "2026-11-10 09:01:12",
+      "来源": "AIBase",
+      "超链接": "https://news.aibase.com/zh/news/32190",
+      "desc": "Anthropic发布Claude Fable 5.2与Mythos 5.2，主攻编程、推理与视觉；Fable 5.2协调1000多个子智能体连续8天，从空文件夹写出包含内核、驱动、文件存储和登录界面的可启动操作系统原型。",
+      "agent_reason": "头部模型厂商发布同级新模型，并披露多智能体长任务能力，具有核心技术存档价值。",
+      "archive_id": "A20261110-ce0751bdd68a",
+      "first_seen_at": "2026-11-10 09:05:48",
+      "last_seen_at": "2026-11-10 09:05:48"
+    },
+    {
+      "资讯标题": "苹果推出 50 美元 AI 使用包：Logic Pro 率先支持付费扩容，有效期 12 个月",
+      "发布时间": "2026-11-10 08:21:34",
+      "来源": "Readhub",
+      "超链接": "https://www.ithome.com/1/024/590.htm",
+      "desc": "苹果开始为部分 Apple Intelligence 功能推出付费「智能使用包」，首个落地产品是 Logic Pro，售价为 49.99 美元，有效期 12 个月，未用完的额外用量可逐月结转。",
+      "agent_reason": "苹果调整AI功能商业化与计费方式，属于头部公司产品动态。",
+      "archive_id": "A20261110-fdddbc12e23f",
+      "first_seen_at": "2026-11-10 09:05:48",
+      "last_seen_at": "2026-11-10 09:05:48"
+    },
+    {
+      "资讯标题": "Locating the source of a mysterious beep with Claude",
+      "发布时间": "2026-11-10 07:57:21",
+      "来源": "Readhub",
+      "超链接": "https://simonwillison.net/2026/Nov/9/mysterious-beeps",
+      "desc": "作者利用多台设备录音、三角定位和声音间隔分析构建系统，并借助 Claude 排查神秘蜂鸣声的来源。",
+      "agent_reason": "展示AI辅助硬件诊断与声音定位的技术实践，具有工程案例价值。",
+      "archive_id": "A20261110-1cd01b15863e",
+      "first_seen_at": "2026-11-10 09:05:48",
+      "last_seen_at": "2026-11-10 09:05:48"
+    },
+    {
+      "资讯标题": "李飞飞对话 Jeff Dean：AI 能加速科学，但不会无限加速",
+      "发布时间": "2026-11-10 07:54:10",
+      "来源": "Readhub",
+      "超链接": "https://www.36kr.com/p/4062098914285191",
+      "desc": "李飞飞与 Jeff Dean 讨论自我改进、AI解数学难题、Transformer起点及AI对科研和青年职业的影响。",
+      "agent_reason": "两位头部AI科学家讨论科研自动化的能力与边界，具有行业观点存档价值。",
+      "archive_id": "A20261110-dbde30f898e7",
+      "first_seen_at": "2026-11-10 09:05:48",
+      "last_seen_at": "2026-11-10 09:05:48"
+    },
+    {
+      "资讯标题": "Meta 推出最小 AI 模型 Muse Ember：性能追平 Claude，成本只要三分之一",
+      "发布时间": "2026-11-10 07:28:50",
+      "来源": "Readhub",
+      "超链接": "https://www.donews.com/news/detail/1/6770700.html",
+      "desc": "Meta推出面向高频智能体任务的小型模型Muse Ember。第三方数据显示其综合智力指数追平Claude Haiku 5.5，单次评测成本约为后者的三分之一。",
+      "agent_reason": "头部厂商推出低成本小模型，对智能体推理成本与产品部署具有直接影响。",
+      "archive_id": "A20261110-9dfc99d469f0",
+      "first_seen_at": "2026-11-10 09:05:48",
+      "last_seen_at": "2026-11-10 09:05:48"
+    },
+    {
+      "资讯标题": "中大本科生反AI逆向项目火了！让黑客Token账单原地暴涨300倍",
+      "发布时间": "2026-11-10 06:11:49",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/11/508787.html",
+      "desc": "投毒 → 耗尽预算 → 诱导误判",
+      "agent_reason": "AI安全与反向防御研究项目，涉及资源消耗攻击，具有技术存档价值。",
+      "archive_id": "A20261110-81f0ae22bacf",
+      "first_seen_at": "2026-11-10 09:05:48",
+      "last_seen_at": "2026-11-10 09:05:48"
+    },
+    {
+      "资讯标题": "ChatGPT Enterprise now available in AWS Marketplace",
+      "发布时间": "2026-11-10 03:00:00",
+      "来源": "Readhub",
+      "超链接": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+      "desc": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
+      "agent_reason": "OpenAI企业产品进入AWS采购与计费体系，属于头部公司渠道和企业服务动态。",
+      "archive_id": "A20261110-caa9073cefb4",
+      "first_seen_at": "2026-11-10 09:05:48",
+      "last_seen_at": "2026-11-10 09:05:48"
+    },
+    {
+      "资讯标题": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
+      "发布时间": "2026-11-09 23:05:57",
+      "来源": "Readhub",
+      "超链接": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+      "desc": "Elith与NVIDIA发布百万记录级开放人物数据集Nemotron-Personas-Finance-Japan，用于在避免真实个人数据风险的同时支持金融领域智能体AI。",
+      "agent_reason": "NVIDIA发布大规模金融合成数据集，涉及智能体数据基础设施与隐私安全。",
+      "archive_id": "A20261110-ac8f18750241",
+      "first_seen_at": "2026-11-10 09:05:48",
+      "last_seen_at": "2026-11-10 09:05:48"
+    },
+    {
+      "资讯标题": "Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation",
+      "发布时间": "2026-11-09 22:00:01",
+      "来源": "Readhub",
+      "超链接": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl",
+      "desc": "NVIDIA与多家机构在CoRL展示机器人通过仿真学习精密操作的研究，包括齿轮对齐、线缆连接和微型组件组装。",
+      "agent_reason": "机器人与仿真训练技术进展，涉及具身智能核心能力。",
+      "archive_id": "A20261110-6e07690c27eb",
+      "first_seen_at": "2026-11-10 09:05:48",
+      "last_seen_at": "2026-11-10 09:05:48"
+    },
+    {
+      "资讯标题": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+      "发布时间": "2026-11-09 21:00:00",
+      "来源": "Readhub",
+      "超链接": "https://openai.com/index/control-room",
+      "desc": "Learn how OpenAI's Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
+      "agent_reason": "OpenAI官方披露前沿模型工作负载安全管控系统，属于头部公司AI治理与基础设施动态。",
+      "archive_id": "A20261110-952d2516af2e",
+      "first_seen_at": "2026-11-10 09:05:48",
+      "last_seen_at": "2026-11-10 09:05:48"
+    },
+    {
+      "资讯标题": "前OpenAI员工看吐！AI研发AI冲线「终极超级智能」，停建全球机房也晚了",
+      "发布时间": "2026-11-09 18:49:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=tg8dc3bf",
+      "desc": "哈佛物理学家兼计算机科学家Alex讨论AI研发AI的进展，以及即使停止新建全球数据中心也可能无法阻止超级智能出现的观点。",
+      "agent_reason": "涉及递归自我改进和超级智能风险，属于前沿AI治理议题。",
+      "archive_id": "A20261110-c78bd3de0bb0",
+      "first_seen_at": "2026-11-10 09:05:48",
+      "last_seen_at": "2026-11-10 09:05:48"
+    },
+    {
+      "资讯标题": "印度自研模型社死！照搬千问，仅塞提示词硬充印度造",
+      "发布时间": "2026-11-09 18:38:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=tga7f82e",
+      "desc": "印度自研模型被指基于千问模型并加入提示词包装，引发对开源模型署名与二次开发边界的讨论。",
+      "agent_reason": "涉及开源模型二次开发、署名与产业诚信，具有行业事件价值。",
+      "archive_id": "A20261110-3c88523b96e8",
+      "first_seen_at": "2026-11-10 09:05:48",
+      "last_seen_at": "2026-11-10 09:05:48"
+    },
+    {
+      "资讯标题": "百度文心首次披露RSI进展：ERNIE Evolve已用于最新模型研发，文心5.5 Flash 或将近期发布",
+      "发布时间": "2026-11-09 17:48:04",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/11/508746.html",
+      "desc": "11月9日，百度文心首次披露 RSI 最新进展。",
+      "agent_reason": "百度披露递归自我改进技术进展和新模型计划，属于头部模型厂商核心技术动态。",
+      "archive_id": "A20261110-af59cf519d58",
+      "first_seen_at": "2026-11-10 09:05:48",
+      "last_seen_at": "2026-11-10 09:05:48"
+    },
+    {
+      "资讯标题": "“AI毁了我的计算机学位”",
+      "发布时间": "2026-11-09 16:57:20",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/11/508706.html",
+      "desc": "教授也用Claude糊弄……",
+      "agent_reason": "讨论生成式AI对计算机教育与学术诚信的影响，具有行业社会影响价值。",
+      "archive_id": "A20261110-537678315f44",
+      "first_seen_at": "2026-11-10 09:05:48",
+      "last_seen_at": "2026-11-10 09:05:48"
+    },
+    {
+      "资讯标题": "腾讯混元跻身最强开源模型！一手实测Hy4：搭配WorkBuddy，多模态Agent交付力拉满",
+      "发布时间": "2026-11-09 16:44:00",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/11/507843.html",
+      "desc": "腾讯混元Hy4开源模型与WorkBuddy组合的多模态Agent实测。",
+      "agent_reason": "头部公司的开源模型与多模态Agent能力更新，具有产品和模型技术价值。",
+      "archive_id": "A20261110-5d497975e484",
+      "first_seen_at": "2026-11-10 09:05:48",
+      "last_seen_at": "2026-11-10 09:05:48"
+    },
+    {
+      "资讯标题": "千问办公2.0发布，首个支持多人与Agent协作的Team Agent来了",
+      "发布时间": "2026-11-09 16:34:03",
+      "来源": "量子位",
+      "超链接": "https://www.qbitai.com/2026/11/508694.html",
+      "desc": "11月9日，千问办公发布2.0版本。",
+      "agent_reason": "头部大模型厂商发布办公Agent产品，代表多人与智能体协作的新产品形态。",
+      "archive_id": "A20261110-1ea6002e9048",
+      "first_seen_at": "2026-11-10 09:05:48",
+      "last_seen_at": "2026-11-10 09:05:48"
+    },
+    {
+      "资讯标题": "Kuken Industries searches 70 years of drawings in minutes",
+      "发布时间": "2026-11-09 16:00:00",
+      "来源": "Readhub",
+      "超链接": "https://openai.com/index/kuken",
+      "desc": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
+      "agent_reason": "官方企业案例展示AI文档检索在工业工程场景中的实际效率提升。",
+      "archive_id": "A20261110-2e34e84f0999",
+      "first_seen_at": "2026-11-10 09:05:48",
+      "last_seen_at": "2026-11-10 09:05:48"
+    },
+    {
+      "资讯标题": "CodeRabbit scales agentic software development and ships 20x more",
+      "发布时间": "2026-11-09 16:00:00",
+      "来源": "Readhub",
+      "超链接": "https://openai.com/index/coderabbit-codex-daybreak",
+      "desc": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
+      "agent_reason": "官方企业案例展示代码智能体和AI代码治理的生产应用成效。",
+      "archive_id": "A20261110-02e9abf47eaf",
+      "first_seen_at": "2026-11-10 09:05:48",
+      "last_seen_at": "2026-11-10 09:05:48"
+    },
+    {
+      "资讯标题": "ChatGPT一秒画出个人秘密，全网疯转「空房间」测试！",
+      "发布时间": "2026-11-09 13:32:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=tg200eb8",
+      "desc": "一个名为「空房间」的测试引发大量用户关注，展示生成式AI从对话信息推断个人偏好的能力及隐私隐忧。",
+      "agent_reason": "涉及生成式AI隐私推断与用户安全，具有产品安全和行业影响价值。",
+      "archive_id": "A20261110-e475b7bdc5da",
+      "first_seen_at": "2026-11-10 09:05:48",
+      "last_seen_at": "2026-11-10 09:05:48"
+    },
+    {
+      "资讯标题": "GPT-6.2首测！网友：终于有个能压倒Opus 5.5的了？？",
+      "发布时间": "2026-11-09 13:07:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=tg513e93",
+      "desc": "多名用户发现ChatGPT被灰度路由到GPT-6.2 Sol，并在社交平台发布实测对比。",
+      "agent_reason": "头部模型未发布版本的灰度实测信息，具有模型能力追踪价值。",
+      "archive_id": "A20261110-9a884deb3780",
+      "first_seen_at": "2026-11-10 09:05:48",
+      "last_seen_at": "2026-11-10 09:05:48"
+    },
+    {
+      "资讯标题": "视频生成不再反复抽卡！清华开源，给模型装上「三维空间大脑」",
+      "发布时间": "2026-11-09 12:59:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=tg85c75f",
+      "desc": "清华团队开源视频生成相关技术，通过增强三维空间理解减少反复生成，改善角色与场景一致性。",
+      "agent_reason": "高校开源视频生成核心技术，涉及多模态模型的3D空间理解。",
+      "archive_id": "A20261110-e8caf57c66cc",
+      "first_seen_at": "2026-11-10 09:05:48",
+      "last_seen_at": "2026-11-10 09:05:48"
+    },
+    {
+      "资讯标题": "OpenAI破译数论百年悬案，揭开P≠NP重大线索！千禧年神题逼近了",
+      "发布时间": "2026-11-09 10:03:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=tg70aace",
+      "desc": "人类数十年难题AI八页纸能解吗",
+      "agent_reason": "涉及AI参与数学发现与复杂推理，具有前沿研究价值。",
+      "archive_id": "A20261110-bb0e1cc8cb04",
+      "first_seen_at": "2026-11-10 09:05:48",
+      "last_seen_at": "2026-11-10 09:05:48"
+    },
+    {
+      "资讯标题": "OpenAI、Anthropic接连出手！中国黑马把实验室变成AI「进化训练场」",
+      "发布时间": "2026-11-09 10:02:00",
+      "来源": "新智元",
+      "超链接": "https://aiera.com.cn/asi-item.html?id=tga18d44",
+      "desc": "OpenAI和Anthropic将大模型接入自动化生物实验室，由中国团队推动形成AI设计实验、机器人执行、结果回传再迭代的闭环。",
+      "agent_reason": "展示AI智能体与机器人自动化科研闭环，属于核心技术应用进展。",
+      "archive_id": "A20261110-3ee805c4427c",
+      "first_seen_at": "2026-11-10 09:05:48",
+      "last_seen_at": "2026-11-10 09:05:48"
+    },
+    {
+      "资讯标题": "进博手记：AI跑得快，传统工业忙起来",
+      "发布时间": "2026-11-09 09:18:52",
+      "来源": "新华网科技",
+      "超链接": "https://www.news.cn/tech/20261109/46ed41b79bfc48c4bf4fd518c6e4ee6b/c.html",
+      "desc": "进博会现场显示，AI技术加快进入传统工业流程，带动制造业智能化升级。",
+      "agent_reason": "权威媒体对AI与工业融合的现场观察，具有产业趋势存档价值。",
+      "archive_id": "A20261110-847c2fb114f5",
+      "first_seen_at": "2026-11-10 09:05:48",
+      "last_seen_at": "2026-11-10 09:05:48"
+    },
+    {
+      "资讯标题": "智能向实 人才向新 合作向深——从2026自动化大会看产业新趋势",
+      "发布时间": "2026-11-09 09:11:44",
+      "来源": "新华网科技",
+      "超链接": "https://www.news.cn/tech/20261109/bdac5e4a738a42eda98829c7a16febc7/c.html",
+      "desc": "从2026自动化大会看，智能技术加速落地、人才培养面临重构、国际合作持续深化。",
+      "agent_reason": "权威媒体总结自动化与智能产业趋势，涉及人才和产业政策。",
+      "archive_id": "A20261110-175adb42bc19",
+      "first_seen_at": "2026-11-10 09:05:48",
+      "last_seen_at": "2026-11-10 09:05:48"
+    },
+    {
+      "资讯标题": "第九届进博会｜看银发“黑科技”如何解锁智慧养老",
+      "发布时间": "2026-11-09 09:11:26",
+      "来源": "新华网科技",
+      "超链接": "https://www.news.cn/tech/20261109/e3e33f0fd4134475abced0aac891f1cf/c.html",
+      "desc": "无接触健康监测、可360度探测声音的人工耳蜗、无线感知跌倒检测等展品用于智慧养老。",
+      "agent_reason": "智能感知与辅助技术进入养老场景，具有核心技术应用价值。",
+      "archive_id": "A20261110-404db0d01003",
+      "first_seen_at": "2026-11-10 09:05:48",
+      "last_seen_at": "2026-11-10 09:05:48"
+    },
+    {
+      "资讯标题": "第九届进博会|人机乒乓球赛，开始",
+      "发布时间": "2026-11-09 09:11:17",
+      "来源": "新华网科技",
+      "超链接": "https://www.news.cn/tech/20261109/f2a098cbf56c495ba15075500ac6ec17/c.html",
+      "desc": "进博会技术装备展区展示AI自主决策机器人乒乓对打。",
+      "agent_reason": "机器人自主决策与实时对抗的应用展示，属于机器人技术动态。",
+      "archive_id": "A20261110-26abc6c557ee",
+      "first_seen_at": "2026-11-10 09:05:48",
+      "last_seen_at": "2026-11-10 09:05:48"
+    }
+  ]
+}
